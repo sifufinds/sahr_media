@@ -11,10 +11,10 @@ const services = [
 
 const company = [
   { label: "About Us", href: "/about" },
+  { label: "AI Engine", href: "/ai-engine" },
   { label: "Case Studies", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
-  { label: "Privacy Policy", href: "/privacy" },
 ];
 
 export function Footer() {

@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { Monitor, HardHat, CheckCircle, ArrowRight } from "lucide-react";
 
 const industries = [
@@ -47,7 +50,13 @@ export function Industries() {
     <section className="section-pad bg-white" aria-labelledby="industries-heading">
       <div className="container-max">
         {/* Header */}
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+        >
           <p className="text-xs font-semibold tracking-widest text-[#2563EB] uppercase mb-3">
             Who We Serve
           </p>
@@ -62,16 +71,20 @@ export function Industries() {
             Deep industry expertise means your campaigns are built by people
             who understand your buyer — not a generic lead gen template.
           </p>
-        </div>
+        </motion.div>
 
         {/* Industry cards */}
         <div className="grid lg:grid-cols-2 gap-8">
-          {industries.map((industry) => {
+          {industries.map((industry, i) => {
             const Icon = industry.icon;
             return (
-              <article
+              <motion.article
                 key={industry.name}
                 className="group rounded-2xl border border-[#E2E8F0] overflow-hidden hover:border-[#CBD5E1] transition-all duration-300 card-lift"
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.6, delay: i * 0.12, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
               >
                 {/* Card header */}
                 <div className={`${industry.bgClass} ${industry.borderClass} border-b px-8 py-8`}>
@@ -132,7 +145,7 @@ export function Industries() {
                     <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                   </Link>
                 </div>
-              </article>
+              </motion.article>
             );
           })}
         </div>

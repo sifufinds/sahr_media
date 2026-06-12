@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { Target, Zap, Filter, Send } from "lucide-react";
 
 const steps = [
@@ -54,7 +57,13 @@ export function HowItWorks() {
 
       <div className="container-max relative z-10">
         {/* Header */}
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+        >
           <p className="text-xs font-semibold tracking-widest text-[#10B981] uppercase mb-3">
             Our Process
           </p>
@@ -69,16 +78,20 @@ export function HowItWorks() {
             A proven, end-to-end process that turns cold outreach into warm
             conversations and qualified pipeline.
           </p>
-        </div>
+        </motion.div>
 
         {/* Steps */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
-              <div
+              <motion.div
                 key={step.number}
                 className="relative group"
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.6, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
               >
                 {/* Connector line */}
                 {index < steps.length - 1 && (
@@ -120,7 +133,7 @@ export function HowItWorks() {
                     {step.description}
                   </p>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>

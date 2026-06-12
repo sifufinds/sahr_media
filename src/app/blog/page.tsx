@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Clock } from "lucide-react";
 import { NewsletterForm } from "@/components/blog/NewsletterForm";
+import { posts } from "@/lib/blog-data";
 
 export const metadata: Metadata = {
   title: "Blog — B2B Lead Generation Insights",
@@ -17,97 +18,6 @@ const categories = [
   "Sales Development",
   "Lead Qualification",
   "B2B Growth",
-];
-
-const posts = [
-  {
-    category: "SaaS Lead Generation",
-    title: "How to Build a SaaS Outbound Machine That Books 20+ Demos Per Month",
-    excerpt:
-      "Most SaaS companies rely on inbound alone. Here's how to build an outbound system that consistently generates qualified product demos without burning out your SDRs.",
-    readTime: "8 min read",
-    date: "28 May 2026",
-    slug: "saas-outbound-machine-20-demos-per-month",
-    featured: true,
-    color: "#2563EB",
-  },
-  {
-    category: "Construction Marketing",
-    title: "7 Ways Construction Companies Can Win More Commercial Contracts in 2026",
-    excerpt:
-      "The commercial construction market is competitive. These seven outreach strategies will help you reach procurement managers and property developers at the right moment.",
-    readTime: "6 min read",
-    date: "21 May 2026",
-    slug: "construction-companies-win-commercial-contracts-2026",
-    featured: true,
-    color: "#10B981",
-  },
-  {
-    category: "Lead Qualification",
-    title: "BANT Is Dead — Use This Modern Lead Qualification Framework Instead",
-    excerpt:
-      "BANT served its purpose, but today's B2B buyers are more complex. Here's the qualification model we use to filter out time-wasters and identify genuine opportunities.",
-    readTime: "7 min read",
-    date: "14 May 2026",
-    slug: "modern-lead-qualification-framework-beyond-bant",
-    featured: false,
-    color: "#F59E0B",
-  },
-  {
-    category: "Appointment Setting",
-    title: "Cold Email Sequences That Actually Get Replies in 2026",
-    excerpt:
-      "Spam filters are smarter. Inboxes are fuller. Here's how to write cold email sequences that stand out, get opened, and generate genuine responses.",
-    readTime: "10 min read",
-    date: "7 May 2026",
-    slug: "cold-email-sequences-that-get-replies-2026",
-    featured: false,
-    color: "#8B5CF6",
-  },
-  {
-    category: "Sales Development",
-    title: "How to Write LinkedIn Connection Requests That Convert at 40%+",
-    excerpt:
-      "Most LinkedIn requests get ignored because they're generic. This breakdown shows you the exact message structure we use to achieve consistently high acceptance rates.",
-    readTime: "5 min read",
-    date: "30 Apr 2026",
-    slug: "linkedin-connection-requests-that-convert",
-    featured: false,
-    color: "#EC4899",
-  },
-  {
-    category: "B2B Growth",
-    title: "The Hidden Cost of Unqualified Leads (And How to Stop Paying It)",
-    excerpt:
-      "Unqualified leads don't just waste time — they demoralize your sales team and skew your pipeline data. Here's the financial case for investing in lead qualification.",
-    readTime: "9 min read",
-    date: "22 Apr 2026",
-    slug: "hidden-cost-of-unqualified-leads",
-    featured: false,
-    color: "#0EA5E9",
-  },
-  {
-    category: "SaaS Lead Generation",
-    title: "Why Your SaaS Demo-to-Close Rate Is Low (And How to Fix It)",
-    excerpt:
-      "A low demo-to-close rate is often a lead quality problem, not a sales problem. Here's how to diagnose the issue and plug the leak in your pipeline.",
-    readTime: "7 min read",
-    date: "15 Apr 2026",
-    slug: "saas-demo-to-close-rate-fix",
-    featured: false,
-    color: "#2563EB",
-  },
-  {
-    category: "Construction Marketing",
-    title: "How to Use LinkedIn to Find Property Developers Actively Tendering",
-    excerpt:
-      "Property developers and procurement managers are active on LinkedIn — but you need to know where to look. This guide shows you the exact search and outreach process.",
-    readTime: "6 min read",
-    date: "8 Apr 2026",
-    slug: "linkedin-find-property-developers-tendering",
-    featured: false,
-    color: "#10B981",
-  },
 ];
 
 const featured = posts.filter((p) => p.featured);

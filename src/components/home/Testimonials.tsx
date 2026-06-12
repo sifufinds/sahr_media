@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
 const testimonials = [
@@ -44,7 +47,13 @@ export function Testimonials() {
     >
       <div className="container-max">
         {/* Header */}
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+        >
           <p className="text-xs font-semibold tracking-widest text-[#2563EB] uppercase mb-3">
             Client Results
           </p>
@@ -59,14 +68,18 @@ export function Testimonials() {
             Real results from real businesses. No vanity metrics — just revenue
             and pipeline growth.
           </p>
-        </div>
+        </motion.div>
 
         {/* Testimonial cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {testimonials.map((t) => (
-            <article
+          {testimonials.map((t, i) => (
+            <motion.article
               key={t.name}
               className="bg-white rounded-2xl p-7 border border-[#E2E8F0] card-lift flex flex-col"
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
             >
               {/* Stars */}
               <div className="flex items-center gap-0.5 mb-4">
@@ -118,7 +131,7 @@ export function Testimonials() {
                   </div>
                 </div>
               </div>
-            </article>
+            </motion.article>
           ))}
         </div>
       </div>

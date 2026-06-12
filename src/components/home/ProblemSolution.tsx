@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { AlertTriangle, CheckCircle } from "lucide-react";
 
 const problems = [
@@ -19,7 +22,13 @@ export function ProblemSolution() {
     <section className="section-pad bg-[#F8FAFC]" aria-label="Problem and solution">
       <div className="container-max">
         {/* Section label */}
-        <div className="text-center mb-16">
+        <motion.div
+          className="text-center mb-16"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+        >
           <p className="text-xs font-semibold tracking-widest text-[#2563EB] uppercase mb-3">
             The Challenge
           </p>
@@ -29,11 +38,17 @@ export function ProblemSolution() {
           >
             Stop paying for leads that don&apos;t convert
           </h2>
-        </div>
+        </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Problem */}
-          <div className="bg-white rounded-2xl p-8 lg:p-10 border border-red-100 shadow-sm">
+          <motion.div
+            className="bg-white rounded-2xl p-8 lg:p-10 border border-red-100 shadow-sm"
+            initial={{ opacity: 0, x: -24 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+          >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-xl bg-red-50 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-5 h-5 text-red-500" />
@@ -68,10 +83,16 @@ export function ProblemSolution() {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
 
           {/* Solution */}
-          <div className="bg-[#0F172A] rounded-2xl p-8 lg:p-10 relative overflow-hidden">
+          <motion.div
+            className="bg-[#0F172A] rounded-2xl p-8 lg:p-10 relative overflow-hidden"
+            initial={{ opacity: 0, x: 24 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.65, delay: 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+          >
             {/* Subtle glow */}
             <div
               className="absolute top-0 right-0 w-48 h-48 rounded-full"
@@ -113,7 +134,7 @@ export function ProblemSolution() {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
