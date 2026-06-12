@@ -65,10 +65,10 @@ export function Navbar() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href="/contact"
+              href="/client-login"
               className="text-sm font-medium text-slate-300 hover:text-white transition-colors"
             >
-              Login
+              Client Login
             </Link>
             <Link
               href="/contact#book"

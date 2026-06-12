@@ -587,6 +587,215 @@ export const posts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "ai-prospecting-b2b-sales-2026",
+    category: "B2B Growth",
+    title: "How AI Is Reshaping B2B Prospecting in 2026 — And What It Means for Your SDR Team",
+    excerpt:
+      "AI tools now touch every stage of the sales funnel. Here's an honest look at what they can do, what they can't replace, and how leading SDR teams are using both.",
+    readTime: "8 min read",
+    date: "11 Jun 2026",
+    featured: true,
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Sixty-three percent of sales leaders now say AI makes it easier for them to compete. That figure would have seemed optimistic three years ago. Today, if your SDR team is not using AI to research prospects, surface intent signals, and personalise outreach at scale, you are at a structural disadvantage to the teams that are. But the picture is more nuanced than 'adopt AI or fall behind'. What matters is understanding exactly where AI creates leverage — and where overreliance on it quietly kills reply rates.",
+      },
+      {
+        type: "heading",
+        text: "What AI has genuinely changed for prospecting",
+      },
+      {
+        type: "paragraph",
+        text: "The highest-leverage AI use cases in prospecting are the ones that automate the time-consuming but low-judgement tasks: scraping company data, identifying technographic signals, drafting first-pass email variations, and flagging trigger events like leadership changes or funding rounds. These tasks used to eat 60-70% of an SDR's day. With AI tooling, that proportion can be compressed to under 30%, freeing meaningful time for the work that still requires a human — research, personalisation, relationship-building, and qualification judgement.",
+      },
+      {
+        type: "heading",
+        text: "The three most effective AI use cases for SDR teams right now",
+      },
+      {
+        type: "list",
+        items: [
+          "Signal aggregation — pulling intent data from job postings, news, funding announcements, and review sites to surface accounts with active buying behaviour",
+          "First-draft outreach — generating sequence frameworks that SDRs can edit and personalise, cutting writing time by 60-80% without sacrificing voice",
+          "Lead scoring and prioritisation — using model-driven scores to route the highest-probability accounts to senior reps and deprioritise low-fit contacts",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What AI cannot replace — and where teams are getting this wrong",
+      },
+      {
+        type: "paragraph",
+        text: "The failure mode is predictable. Teams adopt AI for outreach generation and promptly send 10,000 emails that feel AI-generated. Deliverability drops, reply rates collapse, and leadership concludes that AI doesn't work in their market. The error was not the tool — it was treating AI output as finished output. AI writes drafts. Humans make them specific. The distinction is not semantic. A prospect who receives an email referencing their exact planning application from last month, or a specific hiring signal you spotted in their job postings, responds at a meaningfully higher rate than one who receives a well-phrased generic message about growth challenges.",
+      },
+      {
+        type: "callout",
+        text: "AI handles the volume. Humans handle the insight. The most effective prospecting operations in 2026 are running both in tight coordination — not choosing between them.",
+      },
+      {
+        type: "heading",
+        text: "How to structure an AI-augmented SDR workflow",
+      },
+      {
+        type: "list",
+        items: [
+          "Use AI to build and score your prospect list — let it surface the top 10% of accounts by fit and intent",
+          "Use AI to draft the sequence framework — opening hook, value prop, social proof, CTA",
+          "Require human review and personalisation before any email is sent — at minimum, one specific, researched detail per contact",
+          "Use AI to analyse reply patterns and suggest sequence adjustments after 100+ contacts are touched",
+          "Never let AI qualify a lead on its own — qualification requires conversational judgement that no current tool replicates reliably",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The ICP problem that AI makes more visible",
+      },
+      {
+        type: "paragraph",
+        text: "One underappreciated consequence of AI-assisted prospecting is that it amplifies the quality of your ICP definition. If your ICP is sharp, AI tools can find hundreds of well-matched accounts quickly. If your ICP is vague — 'mid-market tech companies' — AI tools generate a lot of noise very fast. Teams that implement AI and see poor results are often discovering, for the first time, how poorly defined their target customer actually is. The tool surfaces the problem it didn't create.",
+      },
+      {
+        type: "paragraph",
+        text: "The teams winning with AI in 2026 are not necessarily the ones with the most sophisticated tooling. They are the ones who combined strong ICP clarity with disciplined human oversight of what the AI produces. That combination — precision targeting, AI-assisted scale, human personalisation — is where the real performance uplift lives.",
+      },
+    ],
+  },
+  {
+    slug: "why-b2b-buyers-think-reps-are-underprepared",
+    category: "Sales Development",
+    title: "82% of B2B Buyers Think Your Reps Are Underprepared. Here's the Fix.",
+    excerpt:
+      "Research consistently shows that most B2B buyers leave sales conversations feeling unimpressed by the prep work. This is how sales teams close that gap and what it has to do with lead quality.",
+    readTime: "7 min read",
+    date: "4 Jun 2026",
+    featured: false,
+    color: "#DC2626",
+    content: [
+      {
+        type: "paragraph",
+        text: "The number is jarring when you see it for the first time: 82% of B2B buyers report that the sales professionals they deal with are underprepared. That is not a small minority of frustrated buyers. It is a structural problem, and it has a direct cost. Buyers who feel a rep has done their homework are five times more likely to engage seriously. Buyers who feel they are receiving a generic pitch from someone who does not understand their business disengage quickly — and often permanently.",
+      },
+      {
+        type: "heading",
+        text: "What buyers mean by 'underprepared'",
+      },
+      {
+        type: "list",
+        items: [
+          "78% said reps could not produce relevant case studies or examples during or after the first conversation",
+          "77% felt the rep did not understand their specific business problems or how the product addressed them",
+          "75% said the rep arrived without knowledge of their company, industry, or context",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are not complaints about product knowledge. They are complaints about context. Buyers do not expect reps to have memorised their company handbook. They expect evidence that the rep has spent 20 minutes trying to understand their world before asking for 30 minutes of their time.",
+      },
+      {
+        type: "heading",
+        text: "Why this problem compounds with volume",
+      },
+      {
+        type: "paragraph",
+        text: "SDR teams reaching out to hundreds of contacts per week face a genuine tension: thorough research takes time, and time is the constraint. The instinct is to optimise for volume at the cost of preparation. The result is predictable — more outreach with worse results. The alternative is not to reduce volume, but to improve the quality of targeting so that every rep hour is spent on a smaller, better-matched set of contacts who warrant the preparation investment.",
+      },
+      {
+        type: "callout",
+        text: "Preparation is not a soft skill. It is a conversion lever. A rep who arrives knowing the buyer's recent hiring activity, their competitive context, and a relevant case study will outperform a rep with better closing technique and no context — consistently.",
+      },
+      {
+        type: "heading",
+        text: "The five preparation habits that change outcomes",
+      },
+      {
+        type: "list",
+        heading: "Before any first call or email, a prepared rep should know:",
+        items: [
+          "One specific recent development at the prospect's company — a funding round, a hire, a press mention, or a planning approval",
+          "The most likely pain point for this buyer persona in this industry, backed by a relevant case study",
+          "Who the economic buyer is and who else is likely to be involved in the decision",
+          "What the prospect's current solution probably is, and why they might be dissatisfied with it",
+          "One genuinely specific reason why this particular prospect is a fit — not a generic ICP match, but something specific",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The connection between preparation and lead quality",
+      },
+      {
+        type: "paragraph",
+        text: "Here is the part that most sales teams miss: preparation is significantly easier when the lead is well-qualified. A rep who receives a lead with a summary of the business problem, the name and title of the economic buyer, and the relevant trigger event can prepare thoroughly in 10 minutes. A rep who receives a name, a company, and a job title starts from scratch. The upstream investment in lead qualification is what makes downstream preparation practical at scale — and that is where the real leverage sits.",
+      },
+    ],
+  },
+  {
+    slug: "construction-contractor-digital-presence-wins-tenders",
+    category: "Construction Marketing",
+    title: "How to Build a Construction Contractor's Digital Presence That Wins Work Before Tender",
+    excerpt:
+      "Most contractors show up at tender stage with a brochure and a price. The ones winning the best work have already built a digital presence that makes them the obvious choice before a brief is issued.",
+    readTime: "6 min read",
+    date: "27 May 2026",
+    featured: false,
+    color: "#059669",
+    content: [
+      {
+        type: "paragraph",
+        text: "Commercial construction procurement has two modes. The first is open tender: your submission competes against six others and the decision is largely price-driven. The second is invitation-only: the developer already knows who they want, and the tender is a formality. The difference between being in the first mode and the second is almost entirely determined by what happened before the brief was issued. Your digital presence is the mechanism that gets you into the second category.",
+      },
+      {
+        type: "heading",
+        text: "Why digital presence matters more in construction than most contractors believe",
+      },
+      {
+        type: "paragraph",
+        text: "Before any procurement manager picks up the phone, they look you up. They visit your website, check your LinkedIn profile, search your company name, and read any project coverage they can find. In 2026, that research happens on every prospective contractor — not just new ones. If what they find is a website last updated in 2021, a LinkedIn page with 80 followers, and no documented project portfolio, you have already lost ground before a conversation starts.",
+      },
+      {
+        type: "heading",
+        text: "The four elements that make up an effective contractor digital presence",
+      },
+      {
+        type: "list",
+        items: [
+          "A project portfolio that speaks to procurement managers, not just project managers — outcomes, scale, sector relevance, and named client references where possible",
+          "A LinkedIn company page with regular content that demonstrates sector knowledge, not just project photography",
+          "A thought leadership presence from senior directors — commentary on planning decisions, procurement trends, or sector challenges that positions your leadership as credible voices",
+          "Clear, direct positioning on your website about the types of work you want to win, at what scale, in which sectors, and in which geographies",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What your website actually needs to do",
+      },
+      {
+        type: "paragraph",
+        text: "Most contractor websites are built for the wrong audience. They describe the company, list services in broad strokes, and show photographs of completed projects. What procurement managers actually need to see is evidence that you have done the specific type of work they are commissioning. A residential developer looking for a contractor to deliver 120 units in a particular region wants to see your equivalent projects — delivery scale, approach to programme, and ideally a named reference. That evidence should be immediately accessible, not buried behind a generic project gallery.",
+      },
+      {
+        type: "heading",
+        text: "LinkedIn as a prospecting and positioning tool",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective use of LinkedIn for construction companies is not broad content marketing. It is targeted relationship-building with a specific list of 40-60 developer and asset manager contacts, combined with a consistent content presence that demonstrates sector authority. When a procurement manager who follows your company page sees a planning application approved for a scheme type you specialise in, and then receives an outreach message from your business development director two weeks later, the context has been set. You are not a cold contact — you are already known.",
+      },
+      {
+        type: "callout",
+        text: "Your digital presence is not separate from your business development strategy. It is the warm-up layer that makes every cold contact warmer, every outreach more credible, and every tender submission more competitive.",
+      },
+      {
+        type: "heading",
+        text: "The compounding effect",
+      },
+      {
+        type: "paragraph",
+        text: "Digital presence compounds in a way that cold outreach alone does not. A project case study published today will be seen by prospective clients for the next five years. A LinkedIn post that demonstrates expertise builds credibility with every developer who reads it, whether they engage with it or not. The contractors who invest in this layer systematically are the ones who, twelve months later, find themselves receiving invitation-only tender opportunities from developers they have never spoken to — purely because their digital presence made the case before anyone picked up the phone.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
