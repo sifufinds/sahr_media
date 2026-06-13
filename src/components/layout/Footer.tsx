@@ -23,7 +23,7 @@ export function Footer() {
       {/* CTA Strip */}
       <div className="border-b border-white/10">
         <div className="container-max py-12">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
             <div>
               <p className="text-xs font-semibold tracking-widest text-[#10B981] uppercase mb-2">
                 Ready to scale?
@@ -34,7 +34,7 @@ export function Footer() {
             </div>
             <Link
               href="/contact#book"
-              className="shrink-0 inline-flex items-center gap-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-200 shadow-lg shadow-blue-500/25"
+              className="shrink-0 inline-flex items-center justify-center gap-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-8 py-4 rounded-lg transition-all duration-200 shadow-lg shadow-blue-500/25 w-full lg:w-auto"
             >
               Book A Strategy Call
               <ArrowUpRight className="w-4 h-4" />

@@ -51,7 +51,7 @@ export function Hero() {
         aria-hidden="true"
       />
 
-      <div className="container-max relative z-10 pt-32 pb-20">
+      <div className="container-max relative z-10 pt-24 sm:pt-32 pb-16 sm:pb-20">
         <div className="max-w-5xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-2 mb-8 animate-fade-up">

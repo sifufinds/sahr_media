@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
@@ -16,6 +17,7 @@ const navLinks = [
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -23,11 +25,15 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
+
   return (
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled
+        scrolled || isOpen
           ? "bg-[#0F172A]/95 backdrop-blur-md shadow-lg shadow-black/20"
           : "bg-transparent"
       )}
@@ -93,7 +99,7 @@ export function Navbar() {
         <div
           className={cn(
             "lg:hidden overflow-hidden transition-all duration-300 ease-in-out",
-            isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+            isOpen ? "max-h-[32rem] opacity-100" : "max-h-0 opacity-0"
           )}
         >
           <div className="py-4 border-t border-white/10 space-y-1">
@@ -107,11 +113,18 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <div className="pt-3">
+            <div className="pt-3 border-t border-white/10 space-y-2">
+              <Link
+                href="/client-login"
+                onClick={() => setIsOpen(false)}
+                className="block px-2 py-3 text-slate-400 hover:text-white text-sm font-medium transition-colors"
+              >
+                Client Login
+              </Link>
               <Link
                 href="/contact#book"
                 onClick={() => setIsOpen(false)}
-                className="block text-center bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-sm font-semibold px-5 py-3 rounded-lg transition-colors"
+                className="block text-center bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-sm font-semibold px-5 py-3.5 rounded-lg transition-colors"
               >
                 Book A Strategy Call
               </Link>

@@ -43,7 +43,7 @@ export function ProblemSolution() {
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Problem */}
           <motion.div
-            className="bg-white rounded-2xl p-8 lg:p-10 border border-red-100 shadow-sm"
+            className="bg-white rounded-2xl p-6 sm:p-8 lg:p-10 border border-red-100 shadow-sm"
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}
@@ -87,7 +87,7 @@ export function ProblemSolution() {
 
           {/* Solution */}
           <motion.div
-            className="bg-[#0F172A] rounded-2xl p-8 lg:p-10 relative overflow-hidden"
+            className="bg-[#0F172A] rounded-2xl p-6 sm:p-8 lg:p-10 relative overflow-hidden"
             initial={{ opacity: 0, x: 24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}

@@ -87,7 +87,7 @@ export function Industries() {
                 transition={{ duration: 0.6, delay: i * 0.12, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
               >
                 {/* Card header */}
-                <div className={`${industry.bgClass} ${industry.borderClass} border-b px-8 py-8`}>
+                <div className={`${industry.bgClass} ${industry.borderClass} border-b px-6 py-6 sm:px-8 sm:py-8`}>
                   <div className="flex items-start justify-between mb-4">
                     <div
                       className="w-12 h-12 rounded-xl flex items-center justify-center"
@@ -117,7 +117,7 @@ export function Industries() {
                 </div>
 
                 {/* Benefits */}
-                <div className="px-8 py-6">
+                <div className="px-6 py-5 sm:px-8 sm:py-6">
                   <p className="text-xs font-semibold uppercase tracking-widest text-[#94A3B8] mb-4">
                     What we deliver
                   </p>
