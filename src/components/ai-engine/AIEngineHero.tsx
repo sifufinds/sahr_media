@@ -47,7 +47,7 @@ export function AIEngineHero() {
         </svg>
       </div>
 
-      <div className="container-max relative z-10 pt-32 pb-24">
+      <div className="container-max relative z-10 pt-24 sm:pt-32 pb-16 sm:pb-24">
         <div className="max-w-5xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 16 }}

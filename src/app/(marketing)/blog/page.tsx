@@ -3,11 +3,24 @@ import Link from "next/link";
 import { ArrowRight, Clock } from "lucide-react";
 import { NewsletterForm } from "@/components/blog/NewsletterForm";
 import { posts } from "@/lib/blog-data";
+import { JsonLd } from "@/components/ui/JsonLd";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://sahrmedia.com" },
+    { "@type": "ListItem", position: 2, name: "Blog", item: "https://sahrmedia.com/blog" },
+  ],
+};
 
 export const metadata: Metadata = {
   title: "Blog — B2B Lead Generation Insights",
   description:
     "Expert insights on SaaS lead generation, construction marketing, appointment setting, and B2B sales development. Practical guides from SAHR MEDIA.",
+  alternates: {
+    canonical: "https://sahrmedia.com/blog",
+  },
 };
 
 const categories = [
@@ -26,8 +39,9 @@ const remaining = posts.filter((p) => !p.featured);
 export default function BlogPage() {
   return (
     <>
+      <JsonLd schema={breadcrumbSchema} />
       {/* Hero */}
-      <section className="bg-[#0F172A] pt-32 pb-20 relative overflow-hidden">
+      <section className="bg-[#0F172A] pt-24 sm:pt-32 pb-14 sm:pb-20 relative overflow-hidden">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
         <div
           className="absolute inset-0"

@@ -1,11 +1,69 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, TrendingUp, Users, Calendar, Star } from "lucide-react";
+import { JsonLd } from "@/components/ui/JsonLd";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://sahrmedia.com" },
+    { "@type": "ListItem", position: 2, name: "Case Studies", item: "https://sahrmedia.com/case-studies" },
+  ],
+};
+
+const reviewSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://sahrmedia.com/#organization",
+  name: "SAHR MEDIA",
+  url: "https://sahrmedia.com",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5",
+    reviewCount: "4",
+    bestRating: "5",
+    worstRating: "1",
+  },
+  review: [
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "James Hartley" },
+      reviewBody:
+        "The quality of leads from SAHR MEDIA is unlike anything we had before. Our reps are having real conversations with people who actually have budget.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Sarah Mitchell" },
+      reviewBody:
+        "We had tried other agencies but SAHR MEDIA actually understood construction. They brought us conversations with Tier 1 developers we'd never have reached on our own.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Daniel Osei" },
+      reviewBody:
+        "SAHR MEDIA didn't just generate leads — they helped us build the entire outbound engine. Now it runs continuously and delivers every month.",
+    },
+    {
+      "@type": "Review",
+      reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+      author: { "@type": "Person", name: "Tom Harrison" },
+      reviewBody:
+        "We went from zero presence in London to having four active contracts within six months. SAHR MEDIA opened the door — our team walked through it.",
+    },
+  ],
+};
 
 export const metadata: Metadata = {
-  title: "Case Studies",
+  title: "Client Case Studies — Real B2B Lead Generation Results",
   description:
     "Real results from real clients. Explore how SAHR MEDIA has helped SaaS and Construction companies generate qualified leads and grow their pipeline.",
+  alternates: {
+    canonical: "https://sahrmedia.com/case-studies",
+  },
 };
 
 const caseStudies = [
@@ -102,8 +160,10 @@ const caseStudies = [
 export default function CaseStudiesPage() {
   return (
     <>
+      <JsonLd schema={breadcrumbSchema} />
+      <JsonLd schema={reviewSchema} />
       {/* Hero */}
-      <section className="bg-[#0F172A] pt-32 pb-20 relative overflow-hidden">
+      <section className="bg-[#0F172A] pt-24 sm:pt-32 pb-14 sm:pb-20 relative overflow-hidden">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
         <div
           className="absolute inset-0"

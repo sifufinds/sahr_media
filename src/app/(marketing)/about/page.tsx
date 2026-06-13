@@ -1,11 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, CheckCircle, Target, Users, BarChart3, Shield } from "lucide-react";
+import { JsonLd } from "@/components/ui/JsonLd";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://sahrmedia.com" },
+    { "@type": "ListItem", position: 2, name: "About", item: "https://sahrmedia.com/about" },
+  ],
+};
 
 export const metadata: Metadata = {
   title: "About SAHR MEDIA — B2B Lead Generation Specialists",
   description:
     "SAHR MEDIA is a specialist B2B lead generation agency for SaaS and Construction companies. We combine AI-driven intent detection with human verification to deliver sales-ready opportunities.",
+  alternates: {
+    canonical: "https://sahrmedia.com/about",
+  },
 };
 
 const principles = [
@@ -58,8 +71,9 @@ const whatWeDeliver = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd schema={breadcrumbSchema} />
       {/* Hero */}
-      <section className="bg-[#0F172A] pt-32 pb-24 relative overflow-hidden">
+      <section className="bg-[#0F172A] pt-24 sm:pt-32 pb-16 sm:pb-24 relative overflow-hidden">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
         <div
           className="absolute inset-0"

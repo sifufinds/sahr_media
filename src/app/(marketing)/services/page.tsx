@@ -9,11 +9,24 @@ import {
   CheckCircle,
   ArrowRight,
 } from "lucide-react";
+import { JsonLd } from "@/components/ui/JsonLd";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://sahrmedia.com" },
+    { "@type": "ListItem", position: 2, name: "Services", item: "https://sahrmedia.com/services" },
+  ],
+};
 
 export const metadata: Metadata = {
-  title: "Lead Generation Services",
+  title: "B2B Lead Generation Services — SaaS & Construction",
   description:
     "SaaS lead generation, construction lead generation, lead qualification, and appointment setting services. End-to-end B2B lead generation for serious businesses.",
+  alternates: {
+    canonical: "https://sahrmedia.com/services",
+  },
 };
 
 const services = [
@@ -124,8 +137,9 @@ const process = [
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd schema={breadcrumbSchema} />
       {/* Hero */}
-      <section className="bg-[#0F172A] pt-32 pb-20 relative overflow-hidden">
+      <section className="bg-[#0F172A] pt-24 sm:pt-32 pb-14 sm:pb-20 relative overflow-hidden">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
         <div
           className="absolute inset-0"

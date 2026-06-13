@@ -1,11 +1,24 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/contact/ContactForm";
 import { Mail, Phone, MapPin, CheckCircle, Clock } from "lucide-react";
+import { JsonLd } from "@/components/ui/JsonLd";
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://sahrmedia.com" },
+    { "@type": "ListItem", position: 2, name: "Contact", item: "https://sahrmedia.com/contact" },
+  ],
+};
 
 export const metadata: Metadata = {
-  title: "Contact & Book A Strategy Call",
+  title: "Book A Free Lead Generation Strategy Call",
   description:
     "Book a free 30-minute strategy call with SAHR MEDIA. We'll map out a custom lead generation plan for your SaaS or Construction business.",
+  alternates: {
+    canonical: "https://sahrmedia.com/contact",
+  },
 };
 
 const contactDetails = [
@@ -45,8 +58,9 @@ const promises = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd schema={breadcrumbSchema} />
       {/* Hero */}
-      <section className="bg-[#0F172A] pt-32 pb-20 relative overflow-hidden">
+      <section className="bg-[#0F172A] pt-24 sm:pt-32 pb-14 sm:pb-20 relative overflow-hidden">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
         <div
           className="absolute inset-0"
