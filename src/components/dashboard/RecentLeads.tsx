@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { MOCK_LEADS, STATUS_LABELS, STATUS_COLORS } from "@/lib/mock-data";
+import { STATUS_LABELS, STATUS_COLORS, type Lead } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
-export function RecentLeads() {
-  const recent = MOCK_LEADS.slice(0, 5);
+interface RecentLeadsProps {
+  leads: Lead[];
+}
+
+export function RecentLeads({ leads }: RecentLeadsProps) {
+  const recent = leads.slice(0, 5);
 
   return (
     <div className="bg-[#0D1526] border border-white/6 rounded-2xl overflow-hidden">

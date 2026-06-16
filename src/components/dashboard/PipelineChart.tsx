@@ -1,6 +1,6 @@
 "use client";
 
-import { PIPELINE_TREND } from "@/lib/mock-data";
+import { buildPipelineTrend, type Lead } from "@/lib/types";
 
 const BAR_COLORS = {
   hot: "#EF4444",
@@ -8,17 +8,20 @@ const BAR_COLORS = {
   won: "#10B981",
 };
 
-export function PipelineChart() {
-  const maxVal = Math.max(
-    ...PIPELINE_TREND.flatMap((m) => [m.hot, m.warm, m.won])
-  );
+interface PipelineChartProps {
+  leads: Lead[];
+}
+
+export function PipelineChart({ leads }: PipelineChartProps) {
+  const pipelineTrend = buildPipelineTrend(leads);
+  const maxVal = Math.max(1, ...pipelineTrend.flatMap((m) => [m.hot, m.warm, m.won]));
 
   return (
     <div className="bg-[#0D1526] border border-white/6 rounded-2xl p-6">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="text-base font-bold text-white">Pipeline Trend</h2>
-          <p className="text-xs text-slate-500 mt-0.5">Lead volume by status · 6 months</p>
+          <p className="text-xs text-slate-500 mt-0.5">Lead volume by status, by month</p>
         </div>
         <div className="flex items-center gap-4 text-xs text-slate-400">
           {Object.entries(BAR_COLORS).map(([key, color]) => (
@@ -37,9 +40,9 @@ export function PipelineChart() {
       <div
         className="flex items-end gap-3"
         role="img"
-        aria-label="Pipeline trend chart showing hot, warm, and won leads over 6 months"
+        aria-label="Pipeline trend chart showing hot, warm, and won leads by month"
       >
-        {PIPELINE_TREND.map((month) => {
+        {pipelineTrend.map((month) => {
           const total = month.hot + month.warm + month.won;
           const hotH = Math.round((month.hot / maxVal) * 160);
           const warmH = Math.round((month.warm / maxVal) * 160);

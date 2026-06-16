@@ -1,6 +1,7 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState, useEffect, useCallback } from "react";
+import { getSupabaseClient } from "@/lib/supabase/client";
 
 interface ClientUser {
   id: string;
@@ -18,61 +19,72 @@ interface AuthContextValue {
 
 const AuthContext = createContext<AuthContextValue | null>(null);
 
-const DEMO_USERS: Array<ClientUser & { password: string }> = [
-  {
-    id: "client_001",
-    email: "demo@client.com",
-    password: "demo123",
-    name: "Alex Johnson",
-    company: "DataSphere",
-  },
-  {
-    id: "client_002",
-    email: "jane@company.com",
-    password: "pass123",
-    name: "Jane Smith",
-    company: "Pioneer Construct",
-  },
-];
+async function loadClientUser(
+  supabase: ReturnType<typeof getSupabaseClient>,
+  id: string,
+  email: string
+): Promise<ClientUser> {
+  const { data, error } = await supabase
+    .from("client_profiles")
+    .select("name, company")
+    .eq("id", id)
+    .single();
 
-const STORAGE_KEY = "sm_client_user";
+  if (error) {
+    throw new Error(`Failed to load client profile: ${error.message}`);
+  }
+
+  return { id, email, name: data.name, company: data.company };
+}
 
 export function ClientAuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<ClientUser | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) {
-        setUser(JSON.parse(stored));
+    const supabase = getSupabaseClient();
+
+    supabase.auth.getSession().then(async ({ data: { session } }) => {
+      if (session?.user?.email) {
+        try {
+          setUser(await loadClientUser(supabase, session.user.id, session.user.email));
+        } catch {
+          setUser(null);
+        }
       }
-    } catch {
-      // ignore parse errors
-    } finally {
       setIsLoading(false);
-    }
+    });
+
+    const { data: subscription } = supabase.auth.onAuthStateChange(async (_event, session) => {
+      if (session?.user?.email) {
+        try {
+          setUser(await loadClientUser(supabase, session.user.id, session.user.email));
+        } catch {
+          setUser(null);
+        }
+      } else {
+        setUser(null);
+      }
+    });
+
+    return () => subscription.subscription.unsubscribe();
   }, []);
 
-  const login = async (email: string, password: string) => {
-    await new Promise((r) => setTimeout(r, 800));
-    const match = DEMO_USERS.find(
-      (u) => u.email.toLowerCase() === email.toLowerCase() && u.password === password
-    );
-    if (!match) {
+  const login = useCallback(async (email: string, password: string) => {
+    const supabase = getSupabaseClient();
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+
+    if (error) {
       return { success: false, error: "Invalid email or password." };
     }
-    const { password: _pw, ...clientUser } = match;
-    void _pw;
-    setUser(clientUser);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(clientUser));
     return { success: true };
-  };
+  }, []);
 
-  const logout = () => {
+  const logout = useCallback(() => {
+    const supabase = getSupabaseClient();
+    void supabase.auth.signOut();
     setUser(null);
-    localStorage.removeItem(STORAGE_KEY);
-  };
+  }, []);
 
   return (
     <AuthContext.Provider value={{ user, isLoading, login, logout }}>

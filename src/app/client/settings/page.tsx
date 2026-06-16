@@ -18,6 +18,7 @@ const ACCENT_PRESETS = [
 export default function SettingsPage() {
   const { branding, updateBranding, resetBranding } = useClientSettings();
   const [saved, setSaved] = useState(false);
+  const [saveError, setSaveError] = useState("");
   const [logoPreview, setLogoPreview] = useState<string>(branding.logoUrl || "");
   const fileRef = useRef<HTMLInputElement>(null);
 
@@ -44,23 +45,35 @@ export default function SettingsPage() {
     reader.onload = (ev) => {
       const url = ev.target?.result as string;
       setLogoPreview(url);
-      updateBranding({ logoUrl: url });
       setSaved(false);
+      updateBranding({ logoUrl: url }).catch(() =>
+        setSaveError("Couldn't save logo. Please try again.")
+      );
     };
     reader.readAsDataURL(file);
   };
 
-  const handleSave = () => {
-    updateBranding(form);
-    setSaved(true);
-    setTimeout(() => setSaved(false), 2500);
+  const handleSave = async () => {
+    setSaveError("");
+    try {
+      await updateBranding(form);
+      setSaved(true);
+      setTimeout(() => setSaved(false), 2500);
+    } catch {
+      setSaveError("Couldn't save changes. Please try again.");
+    }
   };
 
-  const handleReset = () => {
-    resetBranding();
-    setForm({ businessName: "", accentColor: "#2563EB", primaryEmail: "", website: "" });
-    setLogoPreview("");
-    setSaved(false);
+  const handleReset = async () => {
+    setSaveError("");
+    try {
+      await resetBranding();
+      setForm({ businessName: "", accentColor: "#2563EB", primaryEmail: "", website: "" });
+      setLogoPreview("");
+      setSaved(false);
+    } catch {
+      setSaveError("Couldn't reset branding. Please try again.");
+    }
   };
 
   const initials = (form.businessName || "SM")
@@ -266,6 +279,11 @@ export default function SettingsPage() {
           </section>
 
           {/* Actions */}
+          {saveError && (
+            <p role="alert" className="text-sm text-red-400 bg-red-500/10 border border-red-500/20 rounded-lg px-3 py-2">
+              {saveError}
+            </p>
+          )}
           <div className="flex items-center justify-between pt-2">
             <button
               onClick={handleReset}

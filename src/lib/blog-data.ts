@@ -18,6 +18,182 @@ export interface BlogPost {
 
 export const posts: BlogPost[] = [
   {
+    slug: "cold-email-deliverability-technical-fixes",
+    category: "Sales Development",
+    title: "Why Your Cold Emails Are Landing in Spam (And the Technical Fixes That Actually Work)",
+    excerpt:
+      "Great subject lines and perfect personalisation count for nothing if the email never reaches the inbox. Here's the authentication setup and sending behaviour that actually determines whether your outbound program works.",
+    readTime: "6 min read",
+    date: "16 Jun 2026",
+    featured: false,
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most teams diagnose a failing cold email campaign by rewriting the copy. They test new subject lines, shorten the body, add a sharper call to action — and reply rates stay flat. The reason is usually invisible: a meaningful share of the campaign never reached an inbox at all. It landed in spam, was throttled by the receiving server, or was silently dropped before a human ever saw it. Deliverability is not a copywriting problem. It's an infrastructure problem, and it sits upstream of everything else.",
+      },
+      {
+        type: "heading",
+        text: "The shift that changed cold email infrastructure",
+      },
+      {
+        type: "paragraph",
+        text: "In February 2024, Google and Yahoo began enforcing stricter requirements for anyone sending bulk email to Gmail and Yahoo addresses. The headline requirements were straightforward: authenticate your domain with SPF and DKIM, publish a DMARC policy, and support one-click unsubscribe via the List-Unsubscribe header. What changed practically is that mailbox providers stopped giving unauthenticated senders the benefit of the doubt. An email from a domain with no SPF record or no DMARC policy is now far more likely to be filtered before a recipient ever sees it, regardless of how good the copy is.",
+      },
+      {
+        type: "heading",
+        text: "The three authentication protocols, explained simply",
+      },
+      {
+        type: "list",
+        heading: "What each protocol actually verifies:",
+        items: [
+          "SPF (Sender Policy Framework) — a DNS record listing which mail servers are allowed to send email on behalf of your domain. Without it, receiving servers can't confirm you're authorised to send as you.",
+          "DKIM (DomainKeys Identified Mail) — a cryptographic signature added to each email that proves the message wasn't altered in transit and genuinely originated from your domain.",
+          "DMARC (Domain-based Message Authentication, Reporting & Conformance) — a policy record that tells receiving servers what to do when SPF or DKIM checks fail, and gives you visibility into who's sending email using your domain.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Domain separation and warm-up: the part most teams skip",
+      },
+      {
+        type: "paragraph",
+        text: "Sending cold outbound from your primary company domain is one of the highest-risk decisions an outbound team can make. If a new sending pattern damages your domain's reputation, it can affect deliverability for every other email your business sends — including invoices, password resets, and customer support. Most experienced outbound teams use a small number of secondary domains exclusively for cold outreach, redirecting them to the primary domain so brand consistency is maintained without exposing the core domain to risk.",
+      },
+      {
+        type: "paragraph",
+        text: "A brand-new domain or mailbox also needs a warm-up period before it can sustain meaningful volume. Mailbox providers build a reputation score for a sending domain based on its history — and a domain with no history sending hundreds of emails on day one looks identical to a spam operation from the receiving server's perspective. Gradually increasing volume over several weeks, starting small and mixing in genuine replies, gives mailbox providers a track record to evaluate before they see real volume.",
+      },
+      {
+        type: "callout",
+        text: "Reputation is cumulative and slow to repair. A single aggressive sending day on an unwarmed domain can suppress deliverability for weeks — long after the mistake itself is fixed.",
+      },
+      {
+        type: "heading",
+        text: "The signals mailbox providers track that you can't see in your own inbox",
+      },
+      {
+        type: "list",
+        items: [
+          "Bounce rate — a high rate of invalid addresses signals poor list hygiene and is one of the fastest ways to damage domain reputation",
+          "Spam complaint rate — recipients marking your email as spam is weighted heavily, even at low volumes",
+          "Engagement — opens, replies, and time spent reading signal to providers that recipients want this mail; silence at scale signals the opposite",
+          "Sending consistency — wildly inconsistent daily volume looks more like a script than a person",
+          "List quality — sending to outdated, scraped, or unverified addresses raises every other risk factor at once",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to monitor deliverability before it becomes a crisis",
+      },
+      {
+        type: "paragraph",
+        text: "You don't need to wait for reply rates to collapse to know your deliverability is at risk. Google Postmaster Tools gives domain-verified senders visibility into spam rate, IP reputation, and authentication success for traffic sent to Gmail addresses, and it's free. Seed list testing — sending a campaign to a small set of inboxes across providers and checking exactly where each one landed — is a simple way to catch a placement problem before it affects an entire campaign. Treat deliverability monitoring as a standing weekly check, not a one-time setup task.",
+      },
+      {
+        type: "heading",
+        text: "A practical setup checklist before your next campaign",
+      },
+      {
+        type: "list",
+        items: [
+          "Publish SPF and DKIM records for every sending domain, and verify them with a DNS lookup tool rather than assuming they propagated correctly",
+          "Publish a DMARC record, starting at a monitoring-only policy before moving to stricter enforcement",
+          "Use a dedicated sending domain (or domains) separate from your primary company domain",
+          "Warm up new domains and mailboxes gradually over several weeks before reaching target volume",
+          "Verify your list before sending — remove invalid, role-based, and unengaged addresses",
+          "Include a genuine one-click unsubscribe option, not just a buried mailto link",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this guarantees a reply. But it removes the single biggest invisible failure point in outbound: the email that never had a chance to be read. Once authentication, domain strategy, and list hygiene are solid, every improvement to subject lines, personalisation, and sequencing actually has a chance to show up in the numbers — because the emails are finally reaching the people they were written for.",
+      },
+    ],
+  },
+  {
+    slug: "construction-bid-no-bid-tender-qualification-framework",
+    category: "Construction Marketing",
+    title: "The Bid/No-Bid Framework: How to Qualify a Construction Tender Before You Spend a Penny on It",
+    excerpt:
+      "Chasing every tender that lands in your inbox burns estimating hours and dilutes your win rate. Here's the qualification framework serious contractors use to decide what's actually worth pursuing.",
+    readTime: "6 min read",
+    date: "16 Jun 2026",
+    featured: false,
+    color: "#059669",
+    content: [
+      {
+        type: "paragraph",
+        text: "Every tender invitation feels like an opportunity until you count the cost of pursuing it. A full commercial tender response can consume a significant share of your estimating team's time for several weeks, pull senior staff away from live projects, and tie up a bid team's attention — before you know whether you have any realistic chance of winning. Contractors who bid on everything that arrives in their inbox aren't being thorough. They're spreading a fixed amount of estimating capacity across too many opportunities, which lowers the quality of every single submission and drags down the win rate on the bids that actually mattered.",
+      },
+      {
+        type: "heading",
+        text: "Why 'we can always submit and see' is the expensive option",
+      },
+      {
+        type: "paragraph",
+        text: "A bid/no-bid decision isn't really about whether you could submit a tender. Almost any contractor with available capacity could complete the paperwork. The real question is whether this specific opportunity deserves your best estimators' time instead of a competing opportunity with a stronger relationship, better margin, or a more realistic chance of being awarded. Every hour spent on a tender you were never going to win is an hour not spent sharpening a bid you actually had a shot at — or not spent maintaining the relationships that bring work without ever going to open tender.",
+      },
+      {
+        type: "heading",
+        text: "The six questions a bid/no-bid framework should answer",
+      },
+      {
+        type: "list",
+        heading: "Run every serious opportunity through these six filters before committing estimating time:",
+        items: [
+          "Relationship strength — have you engaged with this client or their team before the brief was issued, or is this the first contact?",
+          "Strategic fit — does this match your target sectors, scale, and geography, or does winning it pull you into work you don't actually want more of?",
+          "Margin realism — based on the scope and your current cost base, is there a credible path to a margin you'd accept, or does the brief suggest this is being run on price alone?",
+          "Capacity and programme fit — do you have the right people available for both the bid and, if won, the delivery, without compromising live projects?",
+          "Competitive position — do you have a genuine edge here (existing relationship, specialist capability, local presence) or are you one of several generalist contractors invited to make up the numbers?",
+          "Client and payment risk — what do you know about this client's payment history, project funding status, and reputation for fair contract administration?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Relationship and access tell you more than the brief does",
+      },
+      {
+        type: "paragraph",
+        text: "The brief document tells you what the client says they want. Your relationship with the client — or lack of one — tells you how real your chances actually are. Contractors who are invited to express interest in a scheme well before tender, who've had a site visit with the project director, or who've already discussed the brief informally are in a fundamentally different position from those receiving a cold invitation to tender from a procurement portal. If you have no prior contact and limited insight into how the decision will actually be made, treat that as a real risk factor in the bid/no-bid decision, not a detail to address after you've already committed the estimating hours.",
+      },
+      {
+        type: "callout",
+        text: "A tender with no prior relationship and no clear competitive edge isn't impossible to win — but it should require a materially stronger reason to bid than one where you're already a known, trusted quantity.",
+      },
+      {
+        type: "heading",
+        text: "Capacity is a qualification criterion, not an afterthought",
+      },
+      {
+        type: "paragraph",
+        text: "Contractors frequently treat bid capacity as a scheduling problem to solve after deciding to pursue an opportunity, rather than a qualifying factor in the decision itself. If your strongest estimator is already stretched across two live bids, adding a third doesn't triple your output — it usually reduces the quality of all three. The same logic applies to delivery capacity: winning a tender you don't have the site management bandwidth to deliver well creates a contract risk that costs far more than the bid you didn't pursue.",
+      },
+      {
+        type: "heading",
+        text: "Scoring the decision instead of relying on instinct",
+      },
+      {
+        type: "paragraph",
+        text: "A simple weighted scorecard removes a surprising amount of bias from the bid/no-bid conversation. Score each of the six filters above from 1-5, weight relationship strength and margin realism most heavily, and set a minimum threshold below which the default decision is no-bid unless someone can make a specific case for an exception. This doesn't remove judgement from the process — it forces the judgement to be explicit and consistent across opportunities, rather than driven by whoever is most persuasive in the Monday morning bid meeting.",
+      },
+      {
+        type: "heading",
+        text: "What to do with a no-bid decision",
+      },
+      {
+        type: "paragraph",
+        text: "Declining to bid isn't the end of the relationship with that client or scheme. Where the no-bid decision was about timing, capacity, or a missing relationship rather than a fundamental misfit, the right move is to stay visible: a short, honest message explaining you're not in a position to bid this one but would welcome the chance to be considered for future schemes, followed by genuine relationship-building before the next opportunity. Contractors who handle no-bid decisions professionally are often the first call when a better-fit opportunity comes up from the same client.",
+      },
+      {
+        type: "paragraph",
+        text: "A disciplined bid/no-bid framework isn't about bidding less — it's about concentrating your estimating capacity on the opportunities where you have a real chance, a credible margin, and the capacity to deliver well if you win. Contractors who improve their win rate consistently are rarely the ones submitting the most tenders. They're the ones who said no to the most beforehand.",
+      },
+    ],
+  },
+  {
     slug: "saas-outbound-machine-20-demos-per-month",
     category: "SaaS Lead Generation",
     title: "How to Build a SaaS Outbound Machine That Books 20+ Demos Per Month",

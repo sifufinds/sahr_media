@@ -10,9 +10,10 @@ import {
   Zap,
   Shield,
   TrendingUp,
+  Loader2,
 } from "lucide-react";
 import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
-import { MOCK_INVOICES } from "@/lib/mock-data";
+import { useInvoices } from "@/hooks/useInvoices";
 import { cn } from "@/lib/utils";
 
 const PLAN_FEATURES = [
@@ -49,16 +50,23 @@ const STATUS_CONFIG = {
 };
 
 export default function BillingPage() {
+  const { invoices, isLoading } = useInvoices();
   const [tab, setTab] = useState<"overview" | "invoices">("overview");
 
-  const totalPaid = MOCK_INVOICES.filter((i) => i.status === "paid").reduce(
-    (sum, i) => sum + i.amount,
-    0
-  );
-  const pendingAmount = MOCK_INVOICES.filter((i) => i.status === "pending").reduce(
-    (sum, i) => sum + i.amount,
-    0
-  );
+  const totalPaid = invoices
+    .filter((i) => i.status === "paid")
+    .reduce((sum, i) => sum + i.amount, 0);
+  const pendingAmount = invoices
+    .filter((i) => i.status === "pending")
+    .reduce((sum, i) => sum + i.amount, 0);
+
+  if (isLoading) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 text-[#2563EB] animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 flex flex-col">
@@ -141,7 +149,9 @@ export default function BillingPage() {
                     <p className="text-xs text-slate-500">Total Paid (YTD)</p>
                   </div>
                   <p className="text-2xl font-black text-white">${totalPaid.toLocaleString()}</p>
-                  <p className="text-xs text-slate-500 mt-0.5">6 invoices · 2026</p>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    {invoices.filter((i) => i.status === "paid").length} invoices
+                  </p>
                 </div>
 
                 <div className="bg-[#0D1526] border border-white/6 rounded-2xl p-5 flex-1">
@@ -191,9 +201,7 @@ export default function BillingPage() {
             <div className="flex items-center justify-between px-6 py-4 border-b border-white/6">
               <div>
                 <h2 className="text-base font-bold text-white">Invoice History</h2>
-                <p className="text-xs text-slate-500 mt-0.5">
-                  {MOCK_INVOICES.length} invoices · Jan–Jun 2026
-                </p>
+                <p className="text-xs text-slate-500 mt-0.5">{invoices.length} invoices</p>
               </div>
             </div>
 
@@ -213,7 +221,7 @@ export default function BillingPage() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-white/4">
-                  {MOCK_INVOICES.map((inv) => {
+                  {invoices.map((inv) => {
                     const sc = STATUS_CONFIG[inv.status];
                     const StatusIcon = sc.icon;
                     return (
@@ -270,7 +278,7 @@ export default function BillingPage() {
             {/* Summary row */}
             <div className="flex items-center justify-between px-6 py-3.5 border-t border-white/6 bg-white/2">
               <p className="text-xs text-slate-500">
-                Total paid 2026:{" "}
+                Total paid:{" "}
                 <span className="text-white font-semibold">${totalPaid.toLocaleString()}</span>
               </p>
               <button className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white transition-colors">

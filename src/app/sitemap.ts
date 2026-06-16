@@ -50,6 +50,8 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "cold-email-deliverability-technical-fixes",
+  "construction-bid-no-bid-tender-qualification-framework",
   "saas-outbound-machine-20-demos-per-month",
   "construction-companies-win-commercial-contracts-2026",
   "modern-lead-qualification-framework-beyond-bant",

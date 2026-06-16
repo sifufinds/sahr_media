@@ -1,6 +1,8 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState, useEffect, useCallback } from "react";
+import { getSupabaseClient } from "@/lib/supabase/client";
+import { useClientAuth } from "@/lib/client-auth";
 
 export interface ClientBranding {
   businessName: string;
@@ -18,40 +20,84 @@ const DEFAULT_BRANDING: ClientBranding = {
   website: "",
 };
 
+interface BrandingRow {
+  business_name: string;
+  logo_url: string;
+  accent_color: string;
+  primary_email: string;
+  website: string;
+}
+
+function mapBrandingRow(row: BrandingRow): ClientBranding {
+  return {
+    businessName: row.business_name,
+    logoUrl: row.logo_url,
+    accentColor: row.accent_color,
+    primaryEmail: row.primary_email,
+    website: row.website,
+  };
+}
+
 interface SettingsContextValue {
   branding: ClientBranding;
-  updateBranding: (updates: Partial<ClientBranding>) => void;
-  resetBranding: () => void;
+  updateBranding: (updates: Partial<ClientBranding>) => Promise<void>;
+  resetBranding: () => Promise<void>;
 }
 
 const SettingsContext = createContext<SettingsContextValue | null>(null);
 
-const STORAGE_KEY = "sm_client_branding";
-
 export function ClientSettingsProvider({ children }: { children: React.ReactNode }) {
+  const { user } = useClientAuth();
   const [branding, setBranding] = useState<ClientBranding>(DEFAULT_BRANDING);
 
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) setBranding({ ...DEFAULT_BRANDING, ...JSON.parse(stored) });
-    } catch {
-      // ignore
+    async function loadBranding() {
+      if (!user) {
+        setBranding(DEFAULT_BRANDING);
+        return;
+      }
+
+      const { data } = await getSupabaseClient()
+        .from("client_branding")
+        .select("business_name, logo_url, accent_color, primary_email, website")
+        .eq("client_id", user.id)
+        .maybeSingle();
+
+      if (data) setBranding(mapBrandingRow(data));
     }
-  }, []);
 
-  const updateBranding = (updates: Partial<ClientBranding>) => {
-    setBranding((prev) => {
-      const next = { ...prev, ...updates };
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-      return next;
-    });
-  };
+    loadBranding();
+  }, [user]);
 
-  const resetBranding = () => {
+  const persist = useCallback(
+    async (next: ClientBranding) => {
+      if (!user) return;
+      const supabase = getSupabaseClient();
+      await supabase.from("client_branding").upsert({
+        client_id: user.id,
+        business_name: next.businessName,
+        logo_url: next.logoUrl,
+        accent_color: next.accentColor,
+        primary_email: next.primaryEmail,
+        website: next.website,
+      });
+    },
+    [user]
+  );
+
+  const updateBranding = useCallback(
+    async (updates: Partial<ClientBranding>) => {
+      const next = { ...branding, ...updates };
+      setBranding(next);
+      await persist(next);
+    },
+    [branding, persist]
+  );
+
+  const resetBranding = useCallback(async () => {
     setBranding(DEFAULT_BRANDING);
-    localStorage.removeItem(STORAGE_KEY);
-  };
+    await persist(DEFAULT_BRANDING);
+  }, [persist]);
 
   return (
     <SettingsContext.Provider value={{ branding, updateBranding, resetBranding }}>

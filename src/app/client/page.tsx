@@ -1,13 +1,13 @@
 "use client";
 
-import { Flame, TrendingUp, Snowflake, Trophy, XCircle, BarChart3 } from "lucide-react";
+import { Flame, TrendingUp, Snowflake, Trophy, XCircle, BarChart3, Loader2 } from "lucide-react";
 import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { PipelineChart } from "@/components/dashboard/PipelineChart";
 import { RecentLeads } from "@/components/dashboard/RecentLeads";
-import { MOCK_LEADS } from "@/lib/mock-data";
 import { useClientAuth } from "@/lib/client-auth";
 import { useClientSettings } from "@/lib/client-settings";
+import { useLeads } from "@/hooks/useLeads";
 
 function greet(name: string) {
   const hour = new Date().getHours();
@@ -19,21 +19,30 @@ function greet(name: string) {
 export default function ClientDashboardPage() {
   const { user } = useClientAuth();
   const { branding } = useClientSettings();
+  const { leads, isLoading } = useLeads();
 
-  const hot = MOCK_LEADS.filter((l) => l.status === "hot").length;
-  const warm = MOCK_LEADS.filter((l) => l.status === "warm").length;
-  const cold = MOCK_LEADS.filter((l) => l.status === "cold").length;
-  const won = MOCK_LEADS.filter((l) => l.status === "won" || l.status === "closed_won").length;
-  const lost = MOCK_LEADS.filter((l) => l.status === "closed_lost").length;
-  const total = MOCK_LEADS.length;
+  const hot = leads.filter((l) => l.status === "hot").length;
+  const warm = leads.filter((l) => l.status === "warm").length;
+  const cold = leads.filter((l) => l.status === "cold").length;
+  const won = leads.filter((l) => l.status === "won" || l.status === "closed_won").length;
+  const lost = leads.filter((l) => l.status === "closed_lost").length;
+  const total = leads.length;
 
-  const wonRevenue = MOCK_LEADS.filter(
-    (l) => l.status === "won" || l.status === "closed_won"
-  ).reduce((sum, l) => sum + l.dealValue, 0);
+  const wonRevenue = leads
+    .filter((l) => l.status === "won" || l.status === "closed_won")
+    .reduce((sum, l) => sum + l.dealValue, 0);
 
-  const conversionRate = Math.round((won / total) * 100);
+  const conversionRate = total > 0 ? Math.round((won / total) * 100) : 0;
 
   const displayName = branding.businessName || user?.company || "";
+
+  if (isLoading) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 text-[#2563EB] animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 flex flex-col">
@@ -143,10 +152,10 @@ export default function ClientDashboardPage() {
         {/* Chart + Recent leads */}
         <section className="grid grid-cols-1 xl:grid-cols-5 gap-4" aria-label="Pipeline activity">
           <div className="xl:col-span-3">
-            <PipelineChart />
+            <PipelineChart leads={leads} />
           </div>
           <div className="xl:col-span-2">
-            <RecentLeads />
+            <RecentLeads leads={leads} />
           </div>
         </section>
       </main>

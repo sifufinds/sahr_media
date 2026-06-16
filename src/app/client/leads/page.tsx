@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { Search, SlidersHorizontal } from "lucide-react";
+import { Search, SlidersHorizontal, Loader2 } from "lucide-react";
 import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
-import { MOCK_LEADS, LeadStatus, STATUS_LABELS, STATUS_COLORS } from "@/lib/mock-data";
+import { type LeadStatus, STATUS_LABELS, STATUS_COLORS } from "@/lib/types";
+import { useLeads } from "@/hooks/useLeads";
 import { cn } from "@/lib/utils";
 
 type FilterTab = "all" | LeadStatus;
@@ -24,10 +25,11 @@ const SCORE_COLOR = (score: number) => {
 };
 
 export default function LeadsPage() {
+  const { leads, isLoading } = useLeads();
   const [activeFilter, setActiveFilter] = useState<FilterTab>("all");
   const [search, setSearch] = useState("");
 
-  const filtered = MOCK_LEADS.filter((lead) => {
+  const filtered = leads.filter((lead) => {
     const matchesFilter =
       activeFilter === "all" || lead.status === activeFilter;
 
@@ -44,9 +46,15 @@ export default function LeadsPage() {
   });
 
   const countFor = (val: FilterTab) =>
-    val === "all"
-      ? MOCK_LEADS.length
-      : MOCK_LEADS.filter((l) => l.status === val).length;
+    val === "all" ? leads.length : leads.filter((l) => l.status === val).length;
+
+  if (isLoading) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 text-[#2563EB] animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="flex-1 flex flex-col">
@@ -263,7 +271,7 @@ export default function LeadsPage() {
           {filtered.length > 0 && (
             <div className="flex items-center justify-between px-5 py-3 border-t border-white/6">
               <p className="text-xs text-slate-500">
-                Showing {filtered.length} of {MOCK_LEADS.length} leads
+                Showing {filtered.length} of {leads.length} leads
               </p>
               <div className="flex items-center gap-1">
                 <button className="px-3 py-1.5 text-xs text-slate-500 hover:text-white bg-white/4 rounded-lg transition-colors">
