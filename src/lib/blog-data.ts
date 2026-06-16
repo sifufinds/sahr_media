@@ -16,7 +16,17 @@ export interface BlogPost {
   content: ContentBlock[];
 }
 
-export const posts: BlogPost[] = [
+const MONTH_INDEX: Record<string, number> = {
+  Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
+  Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11,
+};
+
+function parsePostDate(date: string): number {
+  const [day, month, year] = date.split(" ");
+  return new Date(Number(year), MONTH_INDEX[month] ?? 0, Number(day)).getTime();
+}
+
+const rawPosts: BlogPost[] = [
   {
     slug: "cold-email-deliverability-technical-fixes",
     category: "Sales Development",
@@ -973,6 +983,10 @@ export const posts: BlogPost[] = [
     ],
   },
 ];
+
+export const posts: BlogPost[] = [...rawPosts].sort(
+  (a, b) => parsePostDate(b.date) - parsePostDate(a.date)
+);
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return posts.find((p) => p.slug === slug);

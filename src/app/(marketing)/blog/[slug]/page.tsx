@@ -9,6 +9,14 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+function slugifyHeading(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+}
+
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
 }
@@ -152,12 +160,19 @@ export default async function BlogPostPage({ params }: PageProps) {
               <div className="space-y-6">
                 {post.content.map((block, i) => {
                   if (block.type === "heading") {
+                    const headingId = slugifyHeading(block.text);
                     return (
                       <h2
                         key={i}
-                        className="text-[#0F172A] font-black text-xl mt-10 mb-3 first:mt-0"
+                        id={headingId}
+                        className="text-[#0F172A] font-black text-xl mt-10 mb-3 first:mt-0 scroll-mt-28"
                       >
-                        {block.text}
+                        <a
+                          href={`#${headingId}`}
+                          className="hover:text-[#2563EB] transition-colors"
+                        >
+                          {block.text}
+                        </a>
                       </h2>
                     );
                   }
