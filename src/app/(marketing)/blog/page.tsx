@@ -33,8 +33,7 @@ const categories = [
   "B2B Growth",
 ];
 
-const featured = posts.filter((p) => p.featured);
-const remaining = posts.filter((p) => !p.featured);
+const [heroPost, ...remaining] = posts;
 
 export default function BlogPage() {
   return (
@@ -90,49 +89,43 @@ export default function BlogPage() {
             ))}
           </div>
 
-          {/* Featured posts */}
-          <div className="grid lg:grid-cols-2 gap-6 mb-12">
-            {featured.map((post) => (
-              <article key={post.slug} className="group">
-                <Link href={`/blog/${post.slug}`}>
-                  <div className="rounded-2xl overflow-hidden border border-[#E2E8F0] card-lift h-full flex flex-col">
-                    {/* Color bar */}
-                    <div
-                      className="h-1.5"
-                      style={{ backgroundColor: post.color }}
-                    />
-                    <div className="p-7 flex flex-col flex-1">
-                      <div className="flex items-center gap-3 mb-4">
-                        <span
-                          className="text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full"
-                          style={{
-                            backgroundColor: `${post.color}15`,
-                            color: post.color,
-                          }}
-                        >
-                          {post.category}
-                        </span>
-                        <span className="text-[#94A3B8] text-xs">Featured</span>
-                      </div>
-                      <h2 className="text-[#0F172A] font-black text-lg leading-snug mb-3 group-hover:text-[#2563EB] transition-colors">
-                        {post.title}
-                      </h2>
-                      <p className="text-[#64748B] text-sm leading-relaxed flex-1 mb-6">
-                        {post.excerpt}
-                      </p>
-                      <div className="flex items-center justify-between text-xs text-[#94A3B8] pt-4 border-t border-[#F1F5F9]">
-                        <span>{post.date}</span>
-                        <span className="flex items-center gap-1.5">
-                          <Clock className="w-3.5 h-3.5" />
-                          {post.readTime}
-                        </span>
-                      </div>
-                    </div>
+          {/* Latest post */}
+          <article className="group mb-12">
+            <Link href={`/blog/${heroPost.slug}`}>
+              <div className="rounded-2xl overflow-hidden border border-[#E2E8F0] card-lift">
+                <div className="h-1.5" style={{ backgroundColor: heroPost.color }} />
+                <div className="p-8 md:p-10">
+                  <div className="flex items-center gap-3 mb-4">
+                    <span
+                      className="text-xs font-bold uppercase tracking-wide px-3 py-1 rounded-full"
+                      style={{
+                        backgroundColor: `${heroPost.color}15`,
+                        color: heroPost.color,
+                      }}
+                    >
+                      {heroPost.category}
+                    </span>
+                    <span className="text-[#94A3B8] text-xs font-semibold uppercase tracking-wide">
+                      Latest Article
+                    </span>
                   </div>
-                </Link>
-              </article>
-            ))}
-          </div>
+                  <h2 className="text-[#0F172A] font-black text-2xl md:text-3xl leading-snug mb-4 group-hover:text-[#2563EB] transition-colors max-w-3xl">
+                    {heroPost.title}
+                  </h2>
+                  <p className="text-[#64748B] text-base leading-relaxed mb-6 max-w-2xl">
+                    {heroPost.excerpt}
+                  </p>
+                  <div className="flex items-center gap-4 text-xs text-[#94A3B8]">
+                    <span>{heroPost.date}</span>
+                    <span className="flex items-center gap-1.5">
+                      <Clock className="w-3.5 h-3.5" />
+                      {heroPost.readTime}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </Link>
+          </article>
 
           {/* All posts grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

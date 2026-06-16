@@ -11,7 +11,6 @@ export interface BlogPost {
   excerpt: string;
   readTime: string;
   date: string;
-  featured: boolean;
   color: string;
   content: ContentBlock[];
 }
@@ -35,7 +34,6 @@ const rawPosts: BlogPost[] = [
       "Great subject lines and perfect personalisation count for nothing if the email never reaches the inbox. Here's the authentication setup and sending behaviour that actually determines whether your outbound program works.",
     readTime: "6 min read",
     date: "16 Jun 2026",
-    featured: false,
     color: "#6366F1",
     content: [
       {
@@ -130,7 +128,6 @@ const rawPosts: BlogPost[] = [
       "Chasing every tender that lands in your inbox burns estimating hours and dilutes your win rate. Here's the qualification framework serious contractors use to decide what's actually worth pursuing.",
     readTime: "6 min read",
     date: "16 Jun 2026",
-    featured: false,
     color: "#059669",
     content: [
       {
@@ -211,7 +208,6 @@ const rawPosts: BlogPost[] = [
       "Most SaaS companies rely on inbound alone. Here's how to build an outbound system that consistently generates qualified product demos without burning out your SDRs.",
     readTime: "8 min read",
     date: "28 May 2026",
-    featured: true,
     color: "#2563EB",
     content: [
       {
@@ -293,7 +289,6 @@ const rawPosts: BlogPost[] = [
       "The commercial construction market is competitive. These seven outreach strategies will help you reach procurement managers and property developers at the right moment.",
     readTime: "6 min read",
     date: "21 May 2026",
-    featured: true,
     color: "#10B981",
     content: [
       {
@@ -370,7 +365,6 @@ const rawPosts: BlogPost[] = [
       "BANT served its purpose, but today's B2B buyers are more complex. Here's the qualification model we use to filter out time-wasters and identify genuine opportunities.",
     readTime: "7 min read",
     date: "14 May 2026",
-    featured: false,
     color: "#F59E0B",
     content: [
       {
@@ -439,7 +433,6 @@ const rawPosts: BlogPost[] = [
       "Spam filters are smarter. Inboxes are fuller. Here's how to write cold email sequences that stand out, get opened, and generate genuine responses.",
     readTime: "10 min read",
     date: "7 May 2026",
-    featured: false,
     color: "#8B5CF6",
     content: [
       {
@@ -520,7 +513,6 @@ const rawPosts: BlogPost[] = [
       "Most LinkedIn requests get ignored because they're generic. This breakdown shows you the exact message structure we use to achieve consistently high acceptance rates.",
     readTime: "5 min read",
     date: "30 Apr 2026",
-    featured: false,
     color: "#EC4899",
     content: [
       {
@@ -586,7 +578,6 @@ const rawPosts: BlogPost[] = [
       "Unqualified leads don't just waste time — they demoralize your sales team and skew your pipeline data. Here's the financial case for investing in lead qualification.",
     readTime: "9 min read",
     date: "22 Apr 2026",
-    featured: false,
     color: "#0EA5E9",
     content: [
       {
@@ -644,7 +635,6 @@ const rawPosts: BlogPost[] = [
       "A low demo-to-close rate is often a lead quality problem, not a sales problem. Here's how to diagnose the issue and plug the leak in your pipeline.",
     readTime: "7 min read",
     date: "15 Apr 2026",
-    featured: false,
     color: "#2563EB",
     content: [
       {
@@ -714,7 +704,6 @@ const rawPosts: BlogPost[] = [
       "Property developers and procurement managers are active on LinkedIn — but you need to know where to look. This guide shows you the exact search and outreach process.",
     readTime: "6 min read",
     date: "8 Apr 2026",
-    featured: false,
     color: "#10B981",
     content: [
       {
@@ -781,7 +770,6 @@ const rawPosts: BlogPost[] = [
       "AI tools now touch every stage of the sales funnel. Here's an honest look at what they can do, what they can't replace, and how leading SDR teams are using both.",
     readTime: "8 min read",
     date: "11 Jun 2026",
-    featured: true,
     color: "#6366F1",
     content: [
       {
@@ -856,7 +844,6 @@ const rawPosts: BlogPost[] = [
       "Research consistently shows that most B2B buyers leave sales conversations feeling unimpressed by the prep work. This is how sales teams close that gap and what it has to do with lead quality.",
     readTime: "7 min read",
     date: "4 Jun 2026",
-    featured: false,
     color: "#DC2626",
     content: [
       {
@@ -924,7 +911,6 @@ const rawPosts: BlogPost[] = [
       "Most contractors show up at tender stage with a brochure and a price. The ones winning the best work have already built a digital presence that makes them the obvious choice before a brief is issued.",
     readTime: "6 min read",
     date: "27 May 2026",
-    featured: false,
     color: "#059669",
     content: [
       {
