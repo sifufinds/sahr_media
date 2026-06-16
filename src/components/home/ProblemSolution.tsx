@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { AlertTriangle, CheckCircle } from "lucide-react";
+import { X, Check } from "lucide-react";
 
 const problems = [
   "Unverified prospects wasting your team's time",
@@ -17,67 +17,56 @@ const solutions = [
   "Full-funnel reporting on every campaign",
 ];
 
+const ease = [0.16, 1, 0.3, 1] as [number, number, number, number];
+
 export function ProblemSolution() {
   return (
-    <section className="section-pad bg-[#F8FAFC]" aria-label="Problem and solution">
+    <section className="section-pad bg-[#F7F5F2]" aria-label="Problem and solution">
       <div className="container-max">
-        {/* Section label */}
         <motion.div
-          className="text-center mb-16"
+          className="mb-16"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+          transition={{ duration: 0.6, ease }}
         >
-          <p className="text-xs font-semibold tracking-widest text-[#2563EB] uppercase mb-3">
-            The Challenge
-          </p>
           <h2
-            className="font-black text-[#0F172A] leading-tight"
-            style={{ fontSize: "clamp(1.75rem, 1.5rem + 2vw, 3rem)" }}
+            className="font-display font-bold text-[#0C1220] leading-tight max-w-xl"
+            style={{ fontSize: "clamp(1.875rem, 1.5rem + 2vw, 3rem)" }}
           >
             Stop paying for leads that don&apos;t convert
           </h2>
+          <p className="text-[#6B7A94] mt-4 max-w-lg leading-relaxed text-sm">
+            Most agencies send raw contact lists. We send qualified conversations,
+            ready to close.
+          </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-6">
           {/* Problem */}
           <motion.div
-            className="bg-white rounded-2xl p-6 sm:p-8 lg:p-10 border border-red-100 shadow-sm"
-            initial={{ opacity: 0, x: -24 }}
+            className="bg-white rounded-2xl p-8 lg:p-10 border border-red-100/80"
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+            transition={{ duration: 0.6, ease }}
           >
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-red-50 flex items-center justify-center shrink-0">
-                <AlertTriangle className="w-5 h-5 text-red-500" />
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-widest text-red-400 mb-0.5">
-                  The Problem
-                </p>
-                <h3 className="text-xl font-bold text-[#0F172A]">
-                  Most agencies send unqualified leads
-                </h3>
-              </div>
-            </div>
-
-            <p className="text-[#64748B] text-sm leading-relaxed mb-6">
-              Most lead generation agencies send you raw lists of contacts with
-              no verification, no qualification, and no understanding of your
-              ICP. The result? Your sales team spends 80% of their time chasing
-              people who will never buy.
+            <p className="text-red-400 text-xs font-semibold uppercase tracking-widest mb-5">
+              The old way
             </p>
-
+            <h3 className="text-[#0C1220] font-bold text-xl mb-4">
+              Agencies send unqualified leads
+            </h3>
+            <p className="text-[#6B7A94] text-sm leading-relaxed mb-7">
+              Your sales team spends 80% of their time chasing people who will
+              never buy. No verification, no qualification, no understanding of
+              your ICP.
+            </p>
             <ul className="space-y-3">
               {problems.map((item) => (
-                <li
-                  key={item}
-                  className="flex items-start gap-3 text-[#64748B] text-sm"
-                >
+                <li key={item} className="flex items-start gap-3 text-[#6B7A94] text-sm">
                   <span className="w-5 h-5 rounded-full bg-red-50 flex items-center justify-center shrink-0 mt-0.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-red-400" />
+                    <X className="w-3 h-3 text-red-400" />
                   </span>
                   {item}
                 </li>
@@ -87,49 +76,28 @@ export function ProblemSolution() {
 
           {/* Solution */}
           <motion.div
-            className="bg-[#0F172A] rounded-2xl p-6 sm:p-8 lg:p-10 relative overflow-hidden"
-            initial={{ opacity: 0, x: 24 }}
+            className="bg-[#0C1220] rounded-2xl p-8 lg:p-10 relative overflow-hidden"
+            initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.65, delay: 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+            transition={{ duration: 0.6, delay: 0.08, ease }}
           >
-            {/* Subtle glow */}
-            <div
-              className="absolute top-0 right-0 w-48 h-48 rounded-full"
-              style={{
-                background: "radial-gradient(circle, rgba(16,185,129,0.15) 0%, transparent 70%)",
-                filter: "blur(30px)",
-              }}
-              aria-hidden="true"
-            />
-
-            <div className="relative flex items-center gap-3 mb-6">
-              <div className="w-10 h-10 rounded-xl bg-[#10B981]/15 flex items-center justify-center shrink-0">
-                <CheckCircle className="w-5 h-5 text-[#10B981]" />
-              </div>
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-widest text-[#10B981] mb-0.5">
-                  Our Solution
-                </p>
-                <h3 className="text-xl font-bold text-white">
-                  SAHR MEDIA qualifies every lead
-                </h3>
-              </div>
-            </div>
-
-            <p className="relative text-slate-400 text-sm leading-relaxed mb-6">
-              We research, validate, qualify, and nurture every prospect before
-              introducing them to your business. Your sales team only speaks to
-              decision-makers who are ready to buy.
+            <p className="text-[#10B981] text-xs font-semibold uppercase tracking-widest mb-5">
+              The SAHR MEDIA way
             </p>
-
-            <ul className="relative space-y-3">
+            <h3 className="text-white font-bold text-xl mb-4">
+              We qualify every lead before you touch it
+            </h3>
+            <p className="text-slate-400 text-sm leading-relaxed mb-7">
+              We research, validate, qualify, and nurture every prospect. Your
+              sales team only speaks to decision-makers who are ready to buy.
+            </p>
+            <ul className="space-y-3">
               {solutions.map((item) => (
-                <li
-                  key={item}
-                  className="flex items-start gap-3 text-slate-300 text-sm"
-                >
-                  <CheckCircle className="w-5 h-5 text-[#10B981] shrink-0 mt-0.5" />
+                <li key={item} className="flex items-start gap-3 text-slate-300 text-sm">
+                  <span className="w-5 h-5 rounded-full bg-[#10B981]/15 flex items-center justify-center shrink-0 mt-0.5">
+                    <Check className="w-3 h-3 text-[#10B981]" />
+                  </span>
                   {item}
                 </li>
               ))}

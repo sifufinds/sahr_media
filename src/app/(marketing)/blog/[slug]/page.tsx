@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, ArrowRight } from "lucide-react";
 import { getPostBySlug, getRelatedPosts, posts } from "@/lib/blog-data";
+import { JsonLd } from "@/components/ui/JsonLd";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -16,9 +17,22 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return { title: "Post Not Found" };
+  const publishedTime = new Date(post.date).toISOString();
   return {
-    title: `${post.title} | SAHR MEDIA Blog`,
+    title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: `https://sahrmedia.com/blog/${slug}`,
+    },
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.excerpt,
+      url: `https://sahrmedia.com/blog/${slug}`,
+      publishedTime,
+      authors: ["SAHR MEDIA"],
+      tags: [post.category],
+    },
   };
 }
 
@@ -28,9 +42,51 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) notFound();
 
   const related = getRelatedPosts(slug, 3);
+  const publishedTime = new Date(post.date).toISOString();
+
+  const blogPostingSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    author: {
+      "@type": "Organization",
+      name: "SAHR MEDIA",
+      url: "https://sahrmedia.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "SAHR MEDIA",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://sahrmedia.com/og-image.png",
+      },
+    },
+    datePublished: publishedTime,
+    dateModified: publishedTime,
+    url: `https://sahrmedia.com/blog/${slug}`,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://sahrmedia.com/blog/${slug}`,
+    },
+    articleSection: post.category,
+    keywords: post.category,
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://sahrmedia.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://sahrmedia.com/blog" },
+      { "@type": "ListItem", position: 3, name: post.title, item: `https://sahrmedia.com/blog/${slug}` },
+    ],
+  };
 
   return (
     <>
+      <JsonLd schema={blogPostingSchema} />
+      <JsonLd schema={breadcrumbSchema} />
       {/* Hero */}
       <section className="bg-[#0F172A] pt-32 pb-16 relative overflow-hidden">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />

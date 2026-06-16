@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Target, Zap, Filter, Send } from "lucide-react";
+import Link from "next/link";
 
 const steps = [
   {
@@ -9,146 +10,107 @@ const steps = [
     icon: Target,
     title: "Target",
     description:
-      "We identify your ideal customers based on industry, company size, location, revenue, and buying intent signals. No guesswork — only precision targeting.",
-    color: "#2563EB",
+      "We map your ideal customer profile — industry, company size, revenue, and buying intent — then build precise audience segments from real data.",
   },
   {
     number: "02",
     icon: Zap,
     title: "Generate",
     description:
-      "We use outbound prospecting, LinkedIn, email outreach, SEO, paid media, and content marketing to generate high-intent opportunities at scale.",
-    color: "#10B981",
+      "Outbound prospecting, LinkedIn, cold email, and content work in parallel to surface high-intent opportunities at scale.",
   },
   {
     number: "03",
     icon: Filter,
     title: "Qualify",
     description:
-      "Every lead is manually reviewed against your qualification criteria — budget, authority, need, and timing — before we take the next step.",
-    color: "#F59E0B",
+      "Every prospect is manually reviewed against budget, authority, need, and timing before we introduce them to your team.",
   },
   {
     number: "04",
     icon: Send,
     title: "Deliver",
     description:
-      "Qualified appointments and verified opportunities are delivered directly to your sales team, ready to close. No noise, just revenue.",
-    color: "#EC4899",
+      "Qualified meetings land directly in your sales calendar. No noise, no raw lists — just revenue-ready conversations.",
   },
 ];
+
+const ease = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
 export function HowItWorks() {
   return (
     <section
       id="how-it-works"
-      className="section-pad bg-[#0F172A] relative overflow-hidden"
+      className="section-pad bg-[#0C1220]"
       aria-labelledby="how-it-works-heading"
     >
-      {/* Background decoration */}
-      <div className="dot-pattern absolute inset-0 opacity-60" aria-hidden="true" />
-      <div
-        className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px"
-        style={{
-          background: "linear-gradient(90deg, transparent, rgba(37,99,235,0.5), transparent)",
-        }}
-        aria-hidden="true"
-      />
-
-      <div className="container-max relative z-10">
+      <div className="container-max">
         {/* Header */}
-        <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
-        >
-          <p className="text-xs font-semibold tracking-widest text-[#10B981] uppercase mb-3">
-            Our Process
-          </p>
-          <h2
-            id="how-it-works-heading"
-            className="font-black text-white leading-tight mb-4"
-            style={{ fontSize: "clamp(1.75rem, 1.5rem + 2vw, 3rem)" }}
+        <div className="grid lg:grid-cols-[1fr_auto] gap-6 items-end mb-14">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.6, ease }}
           >
-            How SAHR MEDIA Works
-          </h2>
-          <p className="text-slate-400 max-w-2xl mx-auto text-sm leading-relaxed">
-            A proven, end-to-end process that turns cold outreach into warm
-            conversations and qualified pipeline.
-          </p>
-        </motion.div>
+            <h2
+              id="how-it-works-heading"
+              className="font-display font-bold text-white leading-tight"
+              style={{ fontSize: "clamp(1.875rem, 1.5rem + 2vw, 3rem)" }}
+            >
+              How SAHR MEDIA Works
+            </h2>
+            <p className="text-slate-500 mt-4 max-w-xl text-sm leading-relaxed">
+              A proven end-to-end process that turns cold outreach into warm
+              conversations and qualified pipeline.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <Link
+              href="/contact#book"
+              className="hidden lg:inline-flex items-center gap-1.5 text-[#2563EB] hover:text-blue-400 text-sm font-semibold transition-colors"
+            >
+              Start a campaign →
+            </Link>
+          </motion.div>
+        </div>
 
-        {/* Steps */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Steps grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {steps.map((step, index) => {
             const Icon = step.icon;
             return (
               <motion.div
                 key={step.number}
-                className="relative group"
-                initial={{ opacity: 0, y: 24 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.6, delay: index * 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+                transition={{ duration: 0.6, delay: index * 0.08, ease }}
               >
-                {/* Connector line */}
-                {index < steps.length - 1 && (
-                  <div
-                    className="hidden lg:block absolute top-10 left-[calc(100%-0px)] w-full h-px z-10"
-                    style={{
-                      background: "linear-gradient(90deg, rgba(255,255,255,0.1), transparent)",
-                      width: "calc(100% - 3rem)",
-                      left: "calc(100% - 1.5rem)",
-                    }}
-                    aria-hidden="true"
-                  />
-                )}
-
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-7 h-full group-hover:bg-white/[0.07] group-hover:border-white/20 transition-all duration-300 card-lift">
-                  {/* Step number */}
-                  <div className="flex items-center justify-between mb-5">
-                    <div
-                      className="w-12 h-12 rounded-xl flex items-center justify-center"
-                      style={{ backgroundColor: `${step.color}20` }}
-                    >
-                      <Icon
-                        className="w-6 h-6"
-                        style={{ color: step.color }}
-                      />
+                <div className="group h-full bg-white/[0.04] border border-white/[0.08] rounded-2xl p-7 hover:bg-white/[0.065] hover:border-white/[0.14] transition-all duration-300 card-lift">
+                  <div className="flex items-center justify-between mb-6">
+                    <div className="w-11 h-11 rounded-xl bg-white/[0.07] flex items-center justify-center">
+                      <Icon className="w-5 h-5 text-white" />
                     </div>
-                    <span
-                      className="text-5xl font-black opacity-10 select-none"
-                      style={{ color: step.color }}
-                    >
+                    <span className="text-4xl font-black text-white/[0.06] select-none font-display">
                       {step.number}
                     </span>
                   </div>
-
-                  <h3 className="text-white font-bold text-xl mb-3">
+                  <h3 className="text-white font-semibold text-lg mb-3">
                     {step.title}
                   </h3>
-                  <p className="text-slate-400 text-sm leading-relaxed">
+                  <p className="text-slate-500 text-sm leading-relaxed">
                     {step.description}
                   </p>
                 </div>
               </motion.div>
             );
           })}
-        </div>
-
-        {/* Bottom CTA */}
-        <div className="mt-12 text-center">
-          <a
-            href="/contact#book"
-            className="inline-flex items-center gap-2 text-[#2563EB] hover:text-white text-sm font-semibold group transition-colors"
-          >
-            Start your lead generation campaign
-            <span className="group-hover:translate-x-1 transition-transform">
-              →
-            </span>
-          </a>
         </div>
       </div>
     </section>

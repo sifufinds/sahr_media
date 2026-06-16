@@ -21,8 +21,6 @@ const industries = [
     ],
     href: "/services#saas",
     color: "#2563EB",
-    bgClass: "bg-[#EFF6FF]",
-    borderClass: "border-[#BFDBFE]",
   },
   {
     icon: HardHat,
@@ -40,10 +38,10 @@ const industries = [
     ],
     href: "/services#construction",
     color: "#10B981",
-    bgClass: "bg-[#ECFDF5]",
-    borderClass: "border-[#A7F3D0]",
   },
 ];
+
+const ease = [0.16, 1, 0.3, 1] as [number, number, number, number];
 
 export function Industries() {
   return (
@@ -51,77 +49,67 @@ export function Industries() {
       <div className="container-max">
         {/* Header */}
         <motion.div
-          className="text-center mb-16"
+          className="mb-14"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+          transition={{ duration: 0.6, ease }}
         >
-          <p className="text-xs font-semibold tracking-widest text-[#2563EB] uppercase mb-3">
-            Who We Serve
-          </p>
           <h2
             id="industries-heading"
-            className="font-black text-[#0F172A] leading-tight mb-4"
-            style={{ fontSize: "clamp(1.75rem, 1.5rem + 2vw, 3rem)" }}
+            className="font-display font-bold text-[#0C1220] leading-tight"
+            style={{ fontSize: "clamp(1.875rem, 1.5rem + 2vw, 3rem)" }}
           >
-            Built for two industries, mastered with precision
+            Built for two industries,
+            <br className="hidden sm:block" /> mastered with precision
           </h2>
-          <p className="text-[#64748B] max-w-xl mx-auto text-sm leading-relaxed">
+          <p className="text-[#6B7A94] mt-4 max-w-lg text-sm leading-relaxed">
             Deep industry expertise means your campaigns are built by people
-            who understand your buyer — not a generic lead gen template.
+            who understand your buyer — not a generic template.
           </p>
         </motion.div>
 
         {/* Industry cards */}
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-6">
           {industries.map((industry, i) => {
             const Icon = industry.icon;
             return (
               <motion.article
                 key={industry.name}
-                className="group rounded-2xl border border-[#E2E8F0] overflow-hidden hover:border-[#CBD5E1] transition-all duration-300 card-lift"
+                className="group rounded-2xl border border-[#E8E4DF] overflow-hidden hover:border-[#C7C3BC] transition-colors duration-300"
+                style={{ transition: "border-color 0.3s, box-shadow 0.3s" }}
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
-                transition={{ duration: 0.6, delay: i * 0.12, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+                transition={{ duration: 0.6, delay: i * 0.1, ease }}
               >
                 {/* Card header */}
-                <div className={`${industry.bgClass} ${industry.borderClass} border-b px-6 py-6 sm:px-8 sm:py-8`}>
-                  <div className="flex items-start justify-between mb-4">
+                <div className="px-8 py-8 border-b border-[#E8E4DF]">
+                  <div className="flex items-center gap-4 mb-5">
                     <div
-                      className="w-12 h-12 rounded-xl flex items-center justify-center"
-                      style={{ backgroundColor: `${industry.color}15` }}
+                      className="w-11 h-11 rounded-xl flex items-center justify-center"
+                      style={{ backgroundColor: `${industry.color}12` }}
                     >
-                      <Icon
-                        className="w-6 h-6"
-                        style={{ color: industry.color }}
-                      />
+                      <Icon className="w-5 h-5" style={{ color: industry.color }} />
                     </div>
                     <span
-                      className="text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full"
-                      style={{
-                        backgroundColor: `${industry.color}15`,
-                        color: industry.color,
-                      }}
+                      className="text-xs font-semibold uppercase tracking-widest"
+                      style={{ color: industry.color }}
                     >
                       {industry.tag}
                     </span>
                   </div>
-                  <h3 className="text-[#0F172A] font-black text-2xl mb-2">
+                  <h3 className="text-[#0C1220] font-bold text-2xl mb-3">
                     {industry.name}
                   </h3>
-                  <p className="text-[#64748B] text-sm leading-relaxed">
+                  <p className="text-[#6B7A94] text-sm leading-relaxed">
                     {industry.description}
                   </p>
                 </div>
 
                 {/* Benefits */}
-                <div className="px-6 py-5 sm:px-8 sm:py-6">
-                  <p className="text-xs font-semibold uppercase tracking-widest text-[#94A3B8] mb-4">
-                    What we deliver
-                  </p>
-                  <ul className="space-y-3 mb-6">
+                <div className="px-8 py-7">
+                  <ul className="space-y-3 mb-7">
                     {industry.benefits.map((benefit) => (
                       <li
                         key={benefit}

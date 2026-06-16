@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Playfair_Display } from "next/font/google";
+import { JsonLd } from "@/components/ui/JsonLd";
 import "./globals.css";
 
 const geist = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800", "900"],
+});
+
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
 });
 
 export const metadata: Metadata = {
@@ -48,6 +56,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@sahrmedia",
+    creator: "@sahrmedia",
     title: "SAHR MEDIA | B2B Lead Generation Agency",
     description:
       "Qualified leads delivered directly to your sales team. SaaS and Construction lead generation specialists.",
@@ -66,14 +76,62 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://sahrmedia.com/#organization",
+  name: "SAHR MEDIA",
+  url: "https://sahrmedia.com",
+  logo: {
+    "@type": "ImageObject",
+    url: "https://sahrmedia.com/og-image.png",
+    width: 1200,
+    height: 630,
+  },
+  description:
+    "SAHR MEDIA is a specialist B2B lead generation agency for SaaS and Construction companies. We deliver qualified, human-verified leads directly to your sales team.",
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "hello@sahrmedia.com",
+    contactType: "sales",
+    areaServed: "GB",
+    availableLanguage: "English",
+  },
+  sameAs: [],
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://sahrmedia.com/#website",
+  url: "https://sahrmedia.com",
+  name: "SAHR MEDIA",
+  description: "B2B Lead Generation Agency for SaaS and Construction Companies",
+  publisher: {
+    "@id": "https://sahrmedia.com/#organization",
+  },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: "https://sahrmedia.com/blog?q={search_term_string}",
+    },
+    "query-input": "required name=search_term_string",
+  },
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${geist.variable} scroll-smooth`}>
-      <body className="min-h-screen flex flex-col antialiased">{children}</body>
+    <html lang="en" className={`${geist.variable} ${playfairDisplay.variable} scroll-smooth`}>
+      <body className="min-h-screen flex flex-col antialiased">
+        <JsonLd schema={organizationSchema} />
+        <JsonLd schema={websiteSchema} />
+        {children}
+      </body>
     </html>
   );
 }

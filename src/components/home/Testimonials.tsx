@@ -1,27 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star, Quote } from "lucide-react";
+import { Star } from "lucide-react";
 
-const testimonials = [
-  {
-    name: "James Hartley",
-    role: "VP of Sales",
-    company: "CloudSync SaaS",
-    industry: "SaaS",
-    quote:
-      "SAHR MEDIA transformed our outbound strategy. We went from 3 demos a week to 15+ qualified conversations within 60 days. Every lead they deliver is genuinely interested.",
-    metric: "5x demo increase",
-    initials: "JH",
-    color: "#2563EB",
-  },
+const featured = {
+  name: "James Hartley",
+  role: "VP of Sales",
+  company: "CloudSync SaaS",
+  quote:
+    "SAHR MEDIA transformed our outbound strategy. We went from 3 demos a week to 15+ qualified conversations within 60 days. Every lead they deliver is genuinely interested.",
+  metric: "5× demo increase",
+  initials: "JH",
+};
+
+const supporting = [
   {
     name: "Sarah Mitchell",
     role: "Managing Director",
     company: "Mitchell Construction Group",
-    industry: "Construction",
     quote:
-      "We'd tried other agencies before, but SAHR MEDIA was the first to actually understand our industry. They brought us procurement contacts at Tier 1 developers within the first month.",
+      "They brought us procurement contacts at Tier 1 developers within the first month. No agency before had ever understood our industry.",
     metric: "£2.4M pipeline added",
     initials: "SM",
     color: "#10B981",
@@ -30,109 +28,137 @@ const testimonials = [
     name: "Daniel Osei",
     role: "Co-Founder & CEO",
     company: "Taskflow Software",
-    industry: "SaaS",
     quote:
-      "The lead quality from SAHR MEDIA is exceptional. These aren't just names on a list — they're pre-qualified buyers who understand our product and have budget approved.",
+      "The lead quality is exceptional. Pre-qualified buyers who understand our product and have budget approved — not just names on a list.",
     metric: "32% close rate",
     initials: "DO",
     color: "#8B5CF6",
   },
 ];
 
+const ease = [0.16, 1, 0.3, 1] as [number, number, number, number];
+
 export function Testimonials() {
   return (
     <section
-      className="section-pad bg-[#F8FAFC]"
+      className="section-pad bg-[#0C1220]"
       aria-labelledby="testimonials-heading"
     >
       <div className="container-max">
         {/* Header */}
         <motion.div
-          className="text-center mb-16"
+          className="mb-14"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
+          transition={{ duration: 0.6, ease }}
         >
-          <p className="text-xs font-semibold tracking-widest text-[#2563EB] uppercase mb-3">
-            Client Results
-          </p>
           <h2
             id="testimonials-heading"
-            className="font-black text-[#0F172A] leading-tight mb-4"
-            style={{ fontSize: "clamp(1.75rem, 1.5rem + 2vw, 3rem)" }}
+            className="font-display font-bold text-white leading-tight"
+            style={{ fontSize: "clamp(1.875rem, 1.5rem + 2vw, 3rem)" }}
           >
             What our clients say
           </h2>
-          <p className="text-[#64748B] max-w-xl mx-auto text-sm leading-relaxed">
+          <p className="text-slate-500 mt-4 text-sm max-w-md leading-relaxed">
             Real results from real businesses. No vanity metrics — just revenue
             and pipeline growth.
           </p>
         </motion.div>
 
-        {/* Testimonial cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {testimonials.map((t, i) => (
-            <motion.article
-              key={t.name}
-              className="bg-white rounded-2xl p-7 border border-[#E2E8F0] card-lift flex flex-col"
-              initial={{ opacity: 0, y: 24 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-60px" }}
-              transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
-            >
+        <div className="grid lg:grid-cols-[1.4fr_1fr] gap-6">
+          {/* Featured testimonial */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.65, ease }}
+          >
+            <article className="h-full bg-[#2563EB] rounded-2xl p-8 lg:p-10 flex flex-col">
               {/* Stars */}
-              <div className="flex items-center gap-0.5 mb-4">
+              <div className="flex gap-0.5 mb-6">
                 {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className="w-4 h-4 text-[#F59E0B] fill-[#F59E0B]"
-                  />
+                  <Star key={i} className="w-4 h-4 text-white/80 fill-white/80" />
                 ))}
               </div>
 
               {/* Quote */}
-              <div className="relative flex-1 mb-6">
-                <Quote
-                  className="absolute -top-1 -left-1 w-6 h-6 text-[#E2E8F0]"
-                  aria-hidden="true"
-                />
-                <p className="text-[#1E293B] text-sm leading-relaxed pl-5">
-                  {t.quote}
+              <blockquote className="flex-1 mb-8">
+                <p
+                  className="text-white leading-relaxed"
+                  style={{ fontSize: "clamp(1.05rem, 1rem + 0.3vw, 1.2rem)" }}
+                >
+                  &ldquo;{featured.quote}&rdquo;
                 </p>
-              </div>
+              </blockquote>
 
-              {/* Metric badge */}
-              <div
-                className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wide px-3 py-1.5 rounded-full mb-5 self-start"
-                style={{
-                  backgroundColor: `${t.color}15`,
-                  color: t.color,
-                }}
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-current" />
-                {t.metric}
+              {/* Metric */}
+              <div className="text-blue-200 text-sm font-semibold mb-7 uppercase tracking-wide">
+                {featured.metric}
               </div>
 
               {/* Author */}
-              <div className="flex items-center gap-3 pt-5 border-t border-[#F1F5F9]">
-                <div
-                  className="w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-sm shrink-0"
-                  style={{ backgroundColor: t.color }}
-                >
-                  {t.initials}
+              <div className="flex items-center gap-4 pt-6 border-t border-white/20">
+                <div className="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-white font-bold text-sm shrink-0">
+                  {featured.initials}
                 </div>
                 <div>
-                  <div className="text-[#0F172A] font-semibold text-sm">
-                    {t.name}
-                  </div>
-                  <div className="text-[#94A3B8] text-xs">
-                    {t.role} · {t.company}
+                  <div className="text-white font-semibold">{featured.name}</div>
+                  <div className="text-blue-200 text-sm">
+                    {featured.role} · {featured.company}
                   </div>
                 </div>
               </div>
-            </motion.article>
-          ))}
+            </article>
+          </motion.div>
+
+          {/* Supporting testimonials */}
+          <div className="flex flex-col gap-6">
+            {supporting.map((t, i) => (
+              <motion.article
+                key={t.name}
+                className="flex-1 bg-white/[0.04] border border-white/[0.08] rounded-2xl p-7 flex flex-col"
+                initial={{ opacity: 0, y: 24 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.6, delay: 0.1 + i * 0.08, ease }}
+              >
+                <div className="flex gap-0.5 mb-4">
+                  {[...Array(5)].map((_, j) => (
+                    <Star key={j} className="w-3.5 h-3.5 text-[#D4963A] fill-[#D4963A]" />
+                  ))}
+                </div>
+
+                <blockquote className="flex-1 mb-5">
+                  <p className="text-slate-300 text-sm leading-relaxed">
+                    &ldquo;{t.quote}&rdquo;
+                  </p>
+                </blockquote>
+
+                <div
+                  className="text-xs font-semibold uppercase tracking-wide mb-5"
+                  style={{ color: t.color }}
+                >
+                  {t.metric}
+                </div>
+
+                <div className="flex items-center gap-3 pt-5 border-t border-white/[0.07]">
+                  <div
+                    className="w-9 h-9 rounded-lg flex items-center justify-center text-white font-bold text-xs shrink-0"
+                    style={{ backgroundColor: `${t.color}25` }}
+                  >
+                    {t.initials}
+                  </div>
+                  <div>
+                    <div className="text-white font-semibold text-sm">{t.name}</div>
+                    <div className="text-slate-500 text-xs">
+                      {t.role} · {t.company}
+                    </div>
+                  </div>
+                </div>
+              </motion.article>
+            ))}
+          </div>
         </div>
       </div>
     </section>

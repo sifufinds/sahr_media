@@ -8,9 +8,12 @@ import { Testimonials } from "@/components/home/Testimonials";
 import { HomeCTA } from "@/components/home/HomeCTA";
 
 export const metadata: Metadata = {
-  title: "SAHR MEDIA | Qualified Leads for SaaS & Construction Companies",
+  title: "Qualified B2B Leads for SaaS & Construction Companies",
   description:
     "SAHR MEDIA delivers qualified, human-verified leads to SaaS and Construction sales teams. Book a free strategy call today.",
+  alternates: {
+    canonical: "https://sahrmedia.com",
+  },
 };
 
 export default function HomePage() {

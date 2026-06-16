@@ -9,6 +9,7 @@ interface FormData {
   companyName: string;
   email: string;
   phone: string;
+  website: string;
   industry: string;
   monthlyRevenue: string;
   teamSize: string;
@@ -181,6 +182,32 @@ export function ContactForm() {
             className={fieldClass}
             {...register("phone")}
           />
+        </div>
+
+        {/* Website */}
+        <div className="sm:col-span-2">
+          <label htmlFor="website" className={labelClass}>
+            Company Website <span className="text-red-400">*</span>
+          </label>
+          <input
+            id="website"
+            type="url"
+            placeholder="https://yourcompany.com"
+            className={fieldClass}
+            aria-invalid={!!errors.website}
+            {...register("website", {
+              required: "Company website is required",
+              pattern: {
+                value: /^(https?:\/\/)?([\w-]+\.)+[\w-]+(\/[\w-./?%&=]*)?$/i,
+                message: "Please enter a valid website URL",
+              },
+            })}
+          />
+          {errors.website && (
+            <p className={errorClass} role="alert">
+              {errors.website.message}
+            </p>
+          )}
         </div>
 
         {/* Industry */}
