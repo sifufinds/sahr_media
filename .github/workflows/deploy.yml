@@ -29,6 +29,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.sahrmedia.com
+          protocol: ftps
           username: u642257378
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
