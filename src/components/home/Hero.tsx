@@ -76,7 +76,7 @@ export function Hero() {
               style={{ fontSize: "clamp(1rem, 0.9rem + 0.4vw, 1.125rem)" }}
             >
               SAHR MEDIA helps SaaS and Construction companies generate, qualify,
-              and convert high-intent prospects into revenue — without the noise.
+              and convert high-intent prospects into revenue, without the noise.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-up delay-300">
@@ -95,11 +95,11 @@ export function Hero() {
               </Link>
             </div>
 
-            {/* Trust row — plain text, no pill badges */}
+            {/* Trust row, plain text, no pill badges */}
             <div className="animate-fade-up delay-400 flex flex-wrap gap-x-7 gap-y-2">
               {[
                 "95% lead verification rate",
-                "24hr delivery",
+                "1-14 day delivery",
                 "No lock-in contracts",
               ].map((item) => (
                 <span key={item} className="text-slate-500 text-sm flex items-center gap-2">
@@ -170,7 +170,7 @@ export function Hero() {
             <div className="mt-6 grid grid-cols-3 gap-3">
               {[
                 { number: "95%", label: "Verified" },
-                { number: "24h", label: "Avg. delivery" },
+                { number: "14d", label: "Delivery window" },
                 { number: "3×", label: "Pipeline lift" },
               ].map((s) => (
                 <div

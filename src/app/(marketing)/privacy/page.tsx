@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "SAHR MEDIA Privacy Policy — how we collect, use, and protect your data.",
+  description: "SAHR MEDIA Privacy Policy, how we collect, use, and protect your data.",
   robots: { index: false, follow: false },
 };
 

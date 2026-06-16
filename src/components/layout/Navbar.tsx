@@ -47,7 +47,7 @@ export function Navbar() {
           <Link
             href="/"
             className="flex items-center gap-0 group"
-            aria-label="SAHR MEDIA — Home"
+            aria-label="SAHR MEDIA, Home"
           >
             <span className="font-display italic text-white text-xl font-normal tracking-tight">
               Sahr

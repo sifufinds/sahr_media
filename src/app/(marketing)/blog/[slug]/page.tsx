@@ -239,7 +239,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                   Let SAHR MEDIA build this for your business
                 </h3>
                 <p className="text-slate-400 text-sm leading-relaxed mb-6">
-                  We specialise in SaaS and Construction lead generation — and we
+                  We specialise in SaaS and Construction lead generation, and we
                   handle everything from ICP research to qualified meetings in your
                   calendar. Book a free strategy call to get started.
                 </p>

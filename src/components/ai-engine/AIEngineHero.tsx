@@ -95,7 +95,7 @@ export function AIEngineHero() {
           >
             Our proprietary AI engine monitors thousands of public data sources
             continuously, detects buying intent signals, qualifies prospects against
-            your ICP, and delivers sales-ready opportunities — before a human ever
+            your ICP, and delivers sales-ready opportunities, before a human ever
             touches them.
           </motion.p>
 

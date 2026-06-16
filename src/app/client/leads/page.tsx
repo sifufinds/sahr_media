@@ -257,7 +257,7 @@ export default function LeadsPage() {
                         <span className="text-sm text-slate-300">
                           {lead.dealValue > 0
                             ? `$${lead.dealValue.toLocaleString()}`
-                            : "—"}
+                            : "N/A"}
                         </span>
                       </td>
                     </tr>

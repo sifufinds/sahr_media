@@ -101,7 +101,7 @@ export function LeadScoring() {
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-sm leading-relaxed">
             Every enriched prospect is scored against six qualification criteria.
-            Only hot and warm leads progress to outreach — cold leads re-enter monitoring.
+            Only hot and warm leads progress to outreach, cold leads re-enter monitoring.
           </p>
         </div>
 

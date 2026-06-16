@@ -44,27 +44,26 @@ export function ClientAuthProvider({ children }: { children: React.ReactNode }) 
   useEffect(() => {
     const supabase = getSupabaseClient();
 
-    supabase.auth.getSession().then(async ({ data: { session } }) => {
-      if (session?.user?.email) {
-        try {
-          setUser(await loadClientUser(supabase, session.user.id, session.user.email));
-        } catch {
+    // onAuthStateChange fires immediately with an INITIAL_SESSION event on
+    // subscribe (session read from storage). The handler itself must not
+    // call other Supabase methods (e.g. supabase.from()) synchronously,
+    // doing so re-enters supabase-js's internal session lock while the
+    // event dispatch still holds it and deadlocks forever on a cold reload.
+    // Deferring with setTimeout lets the dispatch finish and release the
+    // lock first. See: https://github.com/supabase/supabase-js/issues/762
+    const { data: subscription } = supabase.auth.onAuthStateChange((_event, session) => {
+      setTimeout(() => {
+        if (!session?.user?.email) {
           setUser(null);
+          setIsLoading(false);
+          return;
         }
-      }
-      setIsLoading(false);
-    });
 
-    const { data: subscription } = supabase.auth.onAuthStateChange(async (_event, session) => {
-      if (session?.user?.email) {
-        try {
-          setUser(await loadClientUser(supabase, session.user.id, session.user.email));
-        } catch {
-          setUser(null);
-        }
-      } else {
-        setUser(null);
-      }
+        loadClientUser(supabase, session.user.id, session.user.email)
+          .then(setUser)
+          .catch(() => setUser(null))
+          .finally(() => setIsLoading(false));
+      }, 0);
     });
 
     return () => subscription.subscription.unsubscribe();

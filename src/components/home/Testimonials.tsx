@@ -29,7 +29,7 @@ const supporting = [
     role: "Co-Founder & CEO",
     company: "Taskflow Software",
     quote:
-      "The lead quality is exceptional. Pre-qualified buyers who understand our product and have budget approved — not just names on a list.",
+      "The lead quality is exceptional. Pre-qualified buyers who understand our product and have budget approved, not just names on a list.",
     metric: "32% close rate",
     initials: "DO",
     color: "#8B5CF6",
@@ -61,7 +61,7 @@ export function Testimonials() {
             What our clients say
           </h2>
           <p className="text-slate-500 mt-4 text-sm max-w-md leading-relaxed">
-            Real results from real businesses. No vanity metrics — just revenue
+            Real results from real businesses. No vanity metrics, just revenue
             and pipeline growth.
           </p>
         </motion.div>

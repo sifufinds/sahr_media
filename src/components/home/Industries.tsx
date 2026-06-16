@@ -65,7 +65,7 @@ export function Industries() {
           </h2>
           <p className="text-[#6B7A94] mt-4 max-w-lg text-sm leading-relaxed">
             Deep industry expertise means your campaigns are built by people
-            who understand your buyer — not a generic template.
+            who understand your buyer, not a generic template.
           </p>
         </motion.div>
 

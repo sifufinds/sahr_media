@@ -21,7 +21,7 @@ const breadcrumbSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "B2B Lead Generation Services — SaaS & Construction",
+  title: "B2B Lead Generation Services, SaaS & Construction",
   description:
     "SaaS lead generation, construction lead generation, lead qualification, and appointment setting services. End-to-end B2B lead generation for serious businesses.",
   alternates: {
@@ -36,7 +36,7 @@ const services = [
     tag: "SaaS",
     title: "SaaS Lead Generation",
     description:
-      "Generate qualified software buyers through outbound campaigns, content marketing, LinkedIn outreach, and appointment setting. We understand SaaS buyers — from SMB decision-makers to enterprise procurement.",
+      "Generate qualified software buyers through outbound campaigns, content marketing, LinkedIn outreach, and appointment setting. We understand SaaS buyers, from SMB decision-makers to enterprise procurement.",
     features: [
       "ICP research and audience mapping",
       "LinkedIn outreach sequences",
@@ -74,7 +74,7 @@ const services = [
     tag: "Qualification",
     title: "Lead Qualification",
     description:
-      "Verify every lead before delivery using custom qualification criteria built around your ideal customer profile. No unverified contacts — every lead is manually reviewed against BANT or custom scoring models.",
+      "Verify every lead before delivery using custom qualification criteria built around your ideal customer profile. No unverified contacts, every lead is manually reviewed against BANT or custom scoring models.",
     features: [
       "Custom qualification framework design",
       "Budget and authority verification",
@@ -162,7 +162,7 @@ export default function ServicesPage() {
             for ambitious companies
           </h1>
           <p className="text-slate-400 max-w-2xl mx-auto text-base leading-relaxed mb-8">
-            From ICP research to qualified meetings in your calendar — we handle
+            From ICP research to qualified meetings in your calendar, we handle
             every stage of the lead generation process so you can focus on closing.
           </p>
           <Link

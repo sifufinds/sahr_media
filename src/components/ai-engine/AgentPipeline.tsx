@@ -130,7 +130,7 @@ export function AgentPipeline() {
             Six Agents. One Seamless Pipeline.
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-sm leading-relaxed">
-            Each agent handles a distinct stage of the intelligence pipeline — working in
+            Each agent handles a distinct stage of the intelligence pipeline, working in
             parallel to turn raw public signals into qualified, sales-ready opportunities.
           </p>
         </div>

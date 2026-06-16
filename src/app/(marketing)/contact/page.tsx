@@ -49,7 +49,7 @@ const contactDetails = [
 ];
 
 const promises = [
-  "No hard sell — just a genuine conversation",
+  "No hard sell, just a genuine conversation",
   "Custom plan built around your business",
   "Honest assessment of what's achievable",
   "Clear pricing with no hidden fees",

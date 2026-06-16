@@ -119,7 +119,7 @@ export function EngineMetrics() {
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-sm leading-relaxed">
             The Reporting Agent tracks every metric from initial signal detection to
-            closed revenue. No black boxes — complete campaign transparency.
+            closed revenue. No black boxes, complete campaign transparency.
           </p>
         </div>
 

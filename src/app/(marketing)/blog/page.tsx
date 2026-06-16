@@ -14,7 +14,7 @@ const breadcrumbSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "Blog — B2B Lead Generation Insights",
+  title: "Blog, B2B Lead Generation Insights",
   description:
     "Expert insights on SaaS lead generation, construction marketing, appointment setting, and B2B sales development. Practical guides from SAHR MEDIA.",
   alternates: {
@@ -78,7 +78,7 @@ export default function BlogPage() {
               Get lead generation insights in your inbox
             </h2>
             <p className="text-[#64748B] text-sm mb-6">
-              Weekly strategies for SaaS and Construction businesses. No spam —
+              Weekly strategies for SaaS and Construction businesses. No spam,
               just actionable insights.
             </p>
             <NewsletterForm />

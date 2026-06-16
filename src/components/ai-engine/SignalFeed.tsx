@@ -21,7 +21,7 @@ const allSignals = [
   { company: "DataVault Inc", signal: "Hiring Head of Marketing & Growth", scoreBoost: "+12pts", color: "#EC4899", age: "14m ago", type: "Job Board" },
   { company: "Atlas Developments", signal: "New London HQ opening Q2", scoreBoost: "+20pts", color: "#06B6D4", age: "18m ago", type: "Press Release" },
   { company: "Nexus Software", signal: "Website redesign RFP published", scoreBoost: "+8pts", color: "#2563EB", age: "22m ago", type: "Tender" },
-  { company: "Summit Build Ltd", signal: "Tender submission — Manchester regeneration", scoreBoost: "+25pts", color: "#10B981", age: "25m ago", type: "Tender" },
+  { company: "Summit Build Ltd", signal: "Tender submission, Manchester regeneration", scoreBoost: "+25pts", color: "#10B981", age: "25m ago", type: "Tender" },
 ];
 
 export function SignalFeed() {

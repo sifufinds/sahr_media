@@ -38,7 +38,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Most teams diagnose a failing cold email campaign by rewriting the copy. They test new subject lines, shorten the body, add a sharper call to action — and reply rates stay flat. The reason is usually invisible: a meaningful share of the campaign never reached an inbox at all. It landed in spam, was throttled by the receiving server, or was silently dropped before a human ever saw it. Deliverability is not a copywriting problem. It's an infrastructure problem, and it sits upstream of everything else.",
+        text: "Most teams diagnose a failing cold email campaign by rewriting the copy. They test new subject lines, shorten the body, add a sharper call to action, and reply rates stay flat. The reason is usually invisible: a meaningful share of the campaign never reached an inbox at all. It landed in spam, was throttled by the receiving server, or was silently dropped before a human ever saw it. Deliverability is not a copywriting problem. It's an infrastructure problem, and it sits upstream of everything else.",
       },
       {
         type: "heading",
@@ -56,9 +56,9 @@ const rawPosts: BlogPost[] = [
         type: "list",
         heading: "What each protocol actually verifies:",
         items: [
-          "SPF (Sender Policy Framework) — a DNS record listing which mail servers are allowed to send email on behalf of your domain. Without it, receiving servers can't confirm you're authorised to send as you.",
-          "DKIM (DomainKeys Identified Mail) — a cryptographic signature added to each email that proves the message wasn't altered in transit and genuinely originated from your domain.",
-          "DMARC (Domain-based Message Authentication, Reporting & Conformance) — a policy record that tells receiving servers what to do when SPF or DKIM checks fail, and gives you visibility into who's sending email using your domain.",
+          "SPF (Sender Policy Framework), a DNS record listing which mail servers are allowed to send email on behalf of your domain. Without it, receiving servers can't confirm you're authorised to send as you.",
+          "DKIM (DomainKeys Identified Mail), a cryptographic signature added to each email that proves the message wasn't altered in transit and genuinely originated from your domain.",
+          "DMARC (Domain-based Message Authentication, Reporting & Conformance), a policy record that tells receiving servers what to do when SPF or DKIM checks fail, and gives you visibility into who's sending email using your domain.",
         ],
       },
       {
@@ -67,15 +67,15 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Sending cold outbound from your primary company domain is one of the highest-risk decisions an outbound team can make. If a new sending pattern damages your domain's reputation, it can affect deliverability for every other email your business sends — including invoices, password resets, and customer support. Most experienced outbound teams use a small number of secondary domains exclusively for cold outreach, redirecting them to the primary domain so brand consistency is maintained without exposing the core domain to risk.",
+        text: "Sending cold outbound from your primary company domain is one of the highest-risk decisions an outbound team can make. If a new sending pattern damages your domain's reputation, it can affect deliverability for every other email your business sends, including invoices, password resets, and customer support. Most experienced outbound teams use a small number of secondary domains exclusively for cold outreach, redirecting them to the primary domain so brand consistency is maintained without exposing the core domain to risk.",
       },
       {
         type: "paragraph",
-        text: "A brand-new domain or mailbox also needs a warm-up period before it can sustain meaningful volume. Mailbox providers build a reputation score for a sending domain based on its history — and a domain with no history sending hundreds of emails on day one looks identical to a spam operation from the receiving server's perspective. Gradually increasing volume over several weeks, starting small and mixing in genuine replies, gives mailbox providers a track record to evaluate before they see real volume.",
+        text: "A brand-new domain or mailbox also needs a warm-up period before it can sustain meaningful volume. Mailbox providers build a reputation score for a sending domain based on its history, and a domain with no history sending hundreds of emails on day one looks identical to a spam operation from the receiving server's perspective. Gradually increasing volume over several weeks, starting small and mixing in genuine replies, gives mailbox providers a track record to evaluate before they see real volume.",
       },
       {
         type: "callout",
-        text: "Reputation is cumulative and slow to repair. A single aggressive sending day on an unwarmed domain can suppress deliverability for weeks — long after the mistake itself is fixed.",
+        text: "Reputation is cumulative and slow to repair. A single aggressive sending day on an unwarmed domain can suppress deliverability for weeks, long after the mistake itself is fixed.",
       },
       {
         type: "heading",
@@ -84,11 +84,11 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Bounce rate — a high rate of invalid addresses signals poor list hygiene and is one of the fastest ways to damage domain reputation",
-          "Spam complaint rate — recipients marking your email as spam is weighted heavily, even at low volumes",
-          "Engagement — opens, replies, and time spent reading signal to providers that recipients want this mail; silence at scale signals the opposite",
-          "Sending consistency — wildly inconsistent daily volume looks more like a script than a person",
-          "List quality — sending to outdated, scraped, or unverified addresses raises every other risk factor at once",
+          "Bounce rate, a high rate of invalid addresses signals poor list hygiene and is one of the fastest ways to damage domain reputation",
+          "Spam complaint rate, recipients marking your email as spam is weighted heavily, even at low volumes",
+          "Engagement, opens, replies, and time spent reading signal to providers that recipients want this mail; silence at scale signals the opposite",
+          "Sending consistency, wildly inconsistent daily volume looks more like a script than a person",
+          "List quality, sending to outdated, scraped, or unverified addresses raises every other risk factor at once",
         ],
       },
       {
@@ -97,7 +97,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "You don't need to wait for reply rates to collapse to know your deliverability is at risk. Google Postmaster Tools gives domain-verified senders visibility into spam rate, IP reputation, and authentication success for traffic sent to Gmail addresses, and it's free. Seed list testing — sending a campaign to a small set of inboxes across providers and checking exactly where each one landed — is a simple way to catch a placement problem before it affects an entire campaign. Treat deliverability monitoring as a standing weekly check, not a one-time setup task.",
+        text: "You don't need to wait for reply rates to collapse to know your deliverability is at risk. Google Postmaster Tools gives domain-verified senders visibility into spam rate, IP reputation, and authentication success for traffic sent to Gmail addresses, and it's free. Seed list testing, sending a campaign to a small set of inboxes across providers and checking exactly where each one landed, is a simple way to catch a placement problem before it affects an entire campaign. Treat deliverability monitoring as a standing weekly check, not a one-time setup task.",
       },
       {
         type: "heading",
@@ -110,13 +110,13 @@ const rawPosts: BlogPost[] = [
           "Publish a DMARC record, starting at a monitoring-only policy before moving to stricter enforcement",
           "Use a dedicated sending domain (or domains) separate from your primary company domain",
           "Warm up new domains and mailboxes gradually over several weeks before reaching target volume",
-          "Verify your list before sending — remove invalid, role-based, and unengaged addresses",
+          "Verify your list before sending, remove invalid, role-based, and unengaged addresses",
           "Include a genuine one-click unsubscribe option, not just a buried mailto link",
         ],
       },
       {
         type: "paragraph",
-        text: "None of this guarantees a reply. But it removes the single biggest invisible failure point in outbound: the email that never had a chance to be read. Once authentication, domain strategy, and list hygiene are solid, every improvement to subject lines, personalisation, and sequencing actually has a chance to show up in the numbers — because the emails are finally reaching the people they were written for.",
+        text: "None of this guarantees a reply. But it removes the single biggest invisible failure point in outbound: the email that never had a chance to be read. Once authentication, domain strategy, and list hygiene are solid, every improvement to subject lines, personalisation, and sequencing actually has a chance to show up in the numbers, because the emails are finally reaching the people they were written for.",
       },
     ],
   },
@@ -132,7 +132,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Every tender invitation feels like an opportunity until you count the cost of pursuing it. A full commercial tender response can consume a significant share of your estimating team's time for several weeks, pull senior staff away from live projects, and tie up a bid team's attention — before you know whether you have any realistic chance of winning. Contractors who bid on everything that arrives in their inbox aren't being thorough. They're spreading a fixed amount of estimating capacity across too many opportunities, which lowers the quality of every single submission and drags down the win rate on the bids that actually mattered.",
+        text: "Every tender invitation feels like an opportunity until you count the cost of pursuing it. A full commercial tender response can consume a significant share of your estimating team's time for several weeks, pull senior staff away from live projects, and tie up a bid team's attention, before you know whether you have any realistic chance of winning. Contractors who bid on everything that arrives in their inbox aren't being thorough. They're spreading a fixed amount of estimating capacity across too many opportunities, which lowers the quality of every single submission and drags down the win rate on the bids that actually mattered.",
       },
       {
         type: "heading",
@@ -140,7 +140,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A bid/no-bid decision isn't really about whether you could submit a tender. Almost any contractor with available capacity could complete the paperwork. The real question is whether this specific opportunity deserves your best estimators' time instead of a competing opportunity with a stronger relationship, better margin, or a more realistic chance of being awarded. Every hour spent on a tender you were never going to win is an hour not spent sharpening a bid you actually had a shot at — or not spent maintaining the relationships that bring work without ever going to open tender.",
+        text: "A bid/no-bid decision isn't really about whether you could submit a tender. Almost any contractor with available capacity could complete the paperwork. The real question is whether this specific opportunity deserves your best estimators' time instead of a competing opportunity with a stronger relationship, better margin, or a more realistic chance of being awarded. Every hour spent on a tender you were never going to win is an hour not spent sharpening a bid you actually had a shot at, or not spent maintaining the relationships that bring work without ever going to open tender.",
       },
       {
         type: "heading",
@@ -150,12 +150,12 @@ const rawPosts: BlogPost[] = [
         type: "list",
         heading: "Run every serious opportunity through these six filters before committing estimating time:",
         items: [
-          "Relationship strength — have you engaged with this client or their team before the brief was issued, or is this the first contact?",
-          "Strategic fit — does this match your target sectors, scale, and geography, or does winning it pull you into work you don't actually want more of?",
-          "Margin realism — based on the scope and your current cost base, is there a credible path to a margin you'd accept, or does the brief suggest this is being run on price alone?",
-          "Capacity and programme fit — do you have the right people available for both the bid and, if won, the delivery, without compromising live projects?",
-          "Competitive position — do you have a genuine edge here (existing relationship, specialist capability, local presence) or are you one of several generalist contractors invited to make up the numbers?",
-          "Client and payment risk — what do you know about this client's payment history, project funding status, and reputation for fair contract administration?",
+          "Relationship strength, have you engaged with this client or their team before the brief was issued, or is this the first contact?",
+          "Strategic fit, does this match your target sectors, scale, and geography, or does winning it pull you into work you don't actually want more of?",
+          "Margin realism, based on the scope and your current cost base, is there a credible path to a margin you'd accept, or does the brief suggest this is being run on price alone?",
+          "Capacity and programme fit, do you have the right people available for both the bid and, if won, the delivery, without compromising live projects?",
+          "Competitive position, do you have a genuine edge here (existing relationship, specialist capability, local presence) or are you one of several generalist contractors invited to make up the numbers?",
+          "Client and payment risk, what do you know about this client's payment history, project funding status, and reputation for fair contract administration?",
         ],
       },
       {
@@ -164,11 +164,11 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The brief document tells you what the client says they want. Your relationship with the client — or lack of one — tells you how real your chances actually are. Contractors who are invited to express interest in a scheme well before tender, who've had a site visit with the project director, or who've already discussed the brief informally are in a fundamentally different position from those receiving a cold invitation to tender from a procurement portal. If you have no prior contact and limited insight into how the decision will actually be made, treat that as a real risk factor in the bid/no-bid decision, not a detail to address after you've already committed the estimating hours.",
+        text: "The brief document tells you what the client says they want. Your relationship with the client, or lack of one, tells you how real your chances actually are. Contractors who are invited to express interest in a scheme well before tender, who've had a site visit with the project director, or who've already discussed the brief informally are in a fundamentally different position from those receiving a cold invitation to tender from a procurement portal. If you have no prior contact and limited insight into how the decision will actually be made, treat that as a real risk factor in the bid/no-bid decision, not a detail to address after you've already committed the estimating hours.",
       },
       {
         type: "callout",
-        text: "A tender with no prior relationship and no clear competitive edge isn't impossible to win — but it should require a materially stronger reason to bid than one where you're already a known, trusted quantity.",
+        text: "A tender with no prior relationship and no clear competitive edge isn't impossible to win, but it should require a materially stronger reason to bid than one where you're already a known, trusted quantity.",
       },
       {
         type: "heading",
@@ -176,7 +176,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Contractors frequently treat bid capacity as a scheduling problem to solve after deciding to pursue an opportunity, rather than a qualifying factor in the decision itself. If your strongest estimator is already stretched across two live bids, adding a third doesn't triple your output — it usually reduces the quality of all three. The same logic applies to delivery capacity: winning a tender you don't have the site management bandwidth to deliver well creates a contract risk that costs far more than the bid you didn't pursue.",
+        text: "Contractors frequently treat bid capacity as a scheduling problem to solve after deciding to pursue an opportunity, rather than a qualifying factor in the decision itself. If your strongest estimator is already stretched across two live bids, adding a third doesn't triple your output, it usually reduces the quality of all three. The same logic applies to delivery capacity: winning a tender you don't have the site management bandwidth to deliver well creates a contract risk that costs far more than the bid you didn't pursue.",
       },
       {
         type: "heading",
@@ -184,7 +184,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A simple weighted scorecard removes a surprising amount of bias from the bid/no-bid conversation. Score each of the six filters above from 1-5, weight relationship strength and margin realism most heavily, and set a minimum threshold below which the default decision is no-bid unless someone can make a specific case for an exception. This doesn't remove judgement from the process — it forces the judgement to be explicit and consistent across opportunities, rather than driven by whoever is most persuasive in the Monday morning bid meeting.",
+        text: "A simple weighted scorecard removes a surprising amount of bias from the bid/no-bid conversation. Score each of the six filters above from 1-5, weight relationship strength and margin realism most heavily, and set a minimum threshold below which the default decision is no-bid unless someone can make a specific case for an exception. This doesn't remove judgement from the process, it forces the judgement to be explicit and consistent across opportunities, rather than driven by whoever is most persuasive in the Monday morning bid meeting.",
       },
       {
         type: "heading",
@@ -196,7 +196,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A disciplined bid/no-bid framework isn't about bidding less — it's about concentrating your estimating capacity on the opportunities where you have a real chance, a credible margin, and the capacity to deliver well if you win. Contractors who improve their win rate consistently are rarely the ones submitting the most tenders. They're the ones who said no to the most beforehand.",
+        text: "A disciplined bid/no-bid framework isn't about bidding less, it's about concentrating your estimating capacity on the opportunities where you have a real chance, a credible margin, and the capacity to deliver well if you win. Contractors who improve their win rate consistently are rarely the ones submitting the most tenders. They're the ones who said no to the most beforehand.",
       },
     ],
   },
@@ -212,7 +212,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Most SaaS companies treat outbound as an afterthought. They post on LinkedIn, run a few sporadic email campaigns, and then wonder why inbound is the only thing moving the needle. The truth is, a well-built outbound system can reliably generate 20 or more qualified demo requests every month — but it requires treating outbound like a product, not a task.",
+        text: "Most SaaS companies treat outbound as an afterthought. They post on LinkedIn, run a few sporadic email campaigns, and then wonder why inbound is the only thing moving the needle. The truth is, a well-built outbound system can reliably generate 20 or more qualified demo requests every month, but it requires treating outbound like a product, not a task.",
       },
       {
         type: "heading",
@@ -220,7 +220,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The failure usually happens at the ICP stage. SaaS teams define their ideal customer in broad strokes — 'mid-market companies' or 'operations teams' — and then blast generic messages to a list of 2,000 contacts. The response rate is 1%, the meetings are poor quality, and the SDRs lose motivation quickly.",
+        text: "The failure usually happens at the ICP stage. SaaS teams define their ideal customer in broad strokes, 'mid-market companies' or 'operations teams', and then blast generic messages to a list of 2,000 contacts. The response rate is 1%, the meetings are poor quality, and the SDRs lose motivation quickly.",
       },
       {
         type: "heading",
@@ -228,7 +228,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Your ICP should answer these six questions: What industry vertical do they operate in? What is their headcount range? What is their revenue band? Who is the economic buyer? What problem triggers a buying conversation? What does bad look like — who should you exclude?",
+        text: "Your ICP should answer these six questions: What industry vertical do they operate in? What is their headcount range? What is their revenue band? Who is the economic buyer? What problem triggers a buying conversation? What does bad look like, who should you exclude?",
       },
       {
         type: "list",
@@ -247,11 +247,11 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A single cold email gets ignored. A 6-8 touch sequence across email and LinkedIn, spaced intelligently over 21 days, creates familiarity. The sequence should follow a clear arc: introduce the problem, establish credibility, offer evidence, make a specific ask, and — only after all else fails — let them go gracefully.",
+        text: "A single cold email gets ignored. A 6-8 touch sequence across email and LinkedIn, spaced intelligently over 21 days, creates familiarity. The sequence should follow a clear arc: introduce the problem, establish credibility, offer evidence, make a specific ask, and, only after all else fails, let them go gracefully.",
       },
       {
         type: "callout",
-        text: "The goal of each touch isn't to close a deal — it's to earn enough attention to get the next one read. Write for one person, not a segment.",
+        text: "The goal of each touch isn't to close a deal, it's to earn enough attention to get the next one read. Write for one person, not a segment.",
       },
       {
         type: "heading",
@@ -268,11 +268,11 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Open rate above 45% — if lower, fix subject lines or deliverability",
-          "Reply rate above 5% — if lower, fix messaging or ICP match",
-          "Meeting rate above 1% of contacts touched — track from first email to booked demo",
-          "Show rate above 80% — if lower, qualification is too loose",
-          "Demo-to-close rate above 25% — if lower, lead quality needs review",
+          "Open rate above 45%, if lower, fix subject lines or deliverability",
+          "Reply rate above 5%, if lower, fix messaging or ICP match",
+          "Meeting rate above 1% of contacts touched, track from first email to booked demo",
+          "Show rate above 80%, if lower, qualification is too loose",
+          "Demo-to-close rate above 25%, if lower, lead quality needs review",
         ],
       },
       {
@@ -293,7 +293,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Commercial construction has always been relationship-driven — but the way those relationships are built has changed. In 2026, procurement teams are oversubscribed, developer pipelines are tighter, and the contractors winning the best work are the ones who show up before a tender is even issued. Here are seven proven strategies for getting there.",
+        text: "Commercial construction has always been relationship-driven, but the way those relationships are built has changed. In 2026, procurement teams are oversubscribed, developer pipelines are tighter, and the contractors winning the best work are the ones who show up before a tender is even issued. Here are seven proven strategies for getting there.",
       },
       {
         type: "heading",
@@ -301,7 +301,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Generic emails to 'info@' or 'enquiries@' are dead. Procurement managers at property developers and asset management firms have specific names, roles, and LinkedIn profiles. Use Sales Navigator or targeted research to find the person who actually controls the contractor shortlist — then contact them directly with a relevant, credible approach.",
+        text: "Generic emails to 'info@' or 'enquiries@' are dead. Procurement managers at property developers and asset management firms have specific names, roles, and LinkedIn profiles. Use Sales Navigator or targeted research to find the person who actually controls the contractor shortlist, then contact them directly with a relevant, credible approach.",
       },
       {
         type: "heading",
@@ -317,7 +317,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Planning portal data is publicly available and updated weekly. Every approved planning application represents a future project. By monitoring these approvals in your target geography, you can identify developers before they go to tender — sometimes 12-18 months ahead. This gives you time to build the relationship before competitors are even aware of the opportunity.",
+        text: "Planning portal data is publicly available and updated weekly. Every approved planning application represents a future project. By monitoring these approvals in your target geography, you can identify developers before they go to tender, sometimes 12-18 months ahead. This gives you time to build the relationship before competitors are even aware of the opportunity.",
       },
       {
         type: "heading",
@@ -333,7 +333,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Most of the best commercial construction work never goes to open tender. It's awarded to contractors who are already known and trusted. Consistent, low-pressure relationship-building with 20-30 target developers — not 2,000 mass contacts — generates far better results than broad campaigns. One coffee meeting with the right person is worth 100 cold emails.",
+        text: "Most of the best commercial construction work never goes to open tender. It's awarded to contractors who are already known and trusted. Consistent, low-pressure relationship-building with 20-30 target developers, not 2,000 mass contacts, generates far better results than broad campaigns. One coffee meeting with the right person is worth 100 cold emails.",
       },
       {
         type: "heading",
@@ -341,7 +341,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Many large developers, housing associations, and local authorities procure through frameworks. Getting onto an approved supplier list requires effort upfront but unlocks a stream of direct opportunities without open competition. Identify which frameworks your ideal clients use and invest in the application process — it pays dividends over multiple years.",
+        text: "Many large developers, housing associations, and local authorities procure through frameworks. Getting onto an approved supplier list requires effort upfront but unlocks a stream of direct opportunities without open competition. Identify which frameworks your ideal clients use and invest in the application process, it pays dividends over multiple years.",
       },
       {
         type: "heading",
@@ -360,7 +360,7 @@ const rawPosts: BlogPost[] = [
   {
     slug: "modern-lead-qualification-framework-beyond-bant",
     category: "Lead Qualification",
-    title: "BANT Is Dead — Use This Modern Lead Qualification Framework Instead",
+    title: "BANT Is Dead, Use This Modern Lead Qualification Framework Instead",
     excerpt:
       "BANT served its purpose, but today's B2B buyers are more complex. Here's the qualification model we use to filter out time-wasters and identify genuine opportunities.",
     readTime: "7 min read",
@@ -369,7 +369,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "BANT — Budget, Authority, Need, Timing — was developed by IBM in the 1960s. It worked in an era of simpler sales cycles and slower-moving procurement. Today, B2B buying committees have an average of 6-10 stakeholders, budgets are fluid, and 'timing' is often dictated by internal politics rather than stated need. Qualifying against BANT alone misses too much.",
+        text: "BANT, Budget, Authority, Need, Timing, was developed by IBM in the 1960s. It worked in an era of simpler sales cycles and slower-moving procurement. Today, B2B buying committees have an average of 6-10 stakeholders, budgets are fluid, and 'timing' is often dictated by internal politics rather than stated need. Qualifying against BANT alone misses too much.",
       },
       {
         type: "heading",
@@ -377,7 +377,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The biggest problem with BANT is that it's retrospective. SDRs ask about budget after a prospect has already engaged — but the most valuable buyers often haven't allocated budget yet because they haven't yet decided they have a problem worth solving. Filtering these prospects out means losing your best long-term opportunities.",
+        text: "The biggest problem with BANT is that it's retrospective. SDRs ask about budget after a prospect has already engaged, but the most valuable buyers often haven't allocated budget yet because they haven't yet decided they have a problem worth solving. Filtering these prospects out means losing your best long-term opportunities.",
       },
       {
         type: "heading",
@@ -395,12 +395,12 @@ const rawPosts: BlogPost[] = [
         type: "list",
         heading: "Our qualification criteria maps six dimensions:",
         items: [
-          "Problem fit — do they have the problem our client solves, and is it actively felt?",
-          "Stakeholder access — can we reach the economic buyer, not just a gatekeeper?",
-          "Urgency signal — is there a trigger event driving action (funding, growth, pain)?",
-          "Decision process — do we understand how they buy and who approves?",
-          "Budget proximity — is budget confirmed, likely, or speculative?",
-          "Exclusion criteria — does anything disqualify them (competitor lock-in, wrong size, wrong geography)?",
+          "Problem fit, do they have the problem our client solves, and is it actively felt?",
+          "Stakeholder access, can we reach the economic buyer, not just a gatekeeper?",
+          "Urgency signal, is there a trigger event driving action (funding, growth, pain)?",
+          "Decision process, do we understand how they buy and who approves?",
+          "Budget proximity, is budget confirmed, likely, or speculative?",
+          "Exclusion criteria, does anything disqualify them (competitor lock-in, wrong size, wrong geography)?",
         ],
       },
       {
@@ -413,7 +413,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Qualification shouldn't happen in one conversation. It happens across multiple touchpoints — an opening email that surfaces problem awareness, a discovery call that probes urgency and process, and reference checks that validate stakeholder access. Each interaction should either advance the qualification picture or eliminate the prospect cleanly.",
+        text: "Qualification shouldn't happen in one conversation. It happens across multiple touchpoints, an opening email that surfaces problem awareness, a discovery call that probes urgency and process, and reference checks that validate stakeholder access. Each interaction should either advance the qualification picture or eliminate the prospect cleanly.",
       },
       {
         type: "heading",
@@ -437,11 +437,11 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Cold email isn't dying — bad cold email is dying. The teams that treat their outreach like marketing copy are struggling. The teams that write like a trusted colleague are booking more meetings than ever. The difference isn't technology; it's thinking.",
+        text: "Cold email isn't dying, bad cold email is dying. The teams that treat their outreach like marketing copy are struggling. The teams that write like a trusted colleague are booking more meetings than ever. The difference isn't technology; it's thinking.",
       },
       {
         type: "heading",
-        text: "The fundamentals haven't changed — the execution has",
+        text: "The fundamentals haven't changed, the execution has",
       },
       {
         type: "paragraph",
@@ -458,7 +458,7 @@ const rawPosts: BlogPost[] = [
           "Question using their company name or context: 'Quick question about [Company]'s SDR team'",
           "Specificity signals: '[Competitor] to [Company]: a quick thought'",
           "Relevance to a recent trigger: 'Re: [Company]'s expansion into [City]'",
-          "Honest curiosity: 'Introductions — outbound for [industry] teams'",
+          "Honest curiosity: 'Introductions, outbound for [industry] teams'",
         ],
       },
       {
@@ -467,7 +467,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Your opening email should be under 100 words. Identify one specific, relevant reason you're reaching out (their industry, a job posting, a recent news item). State the problem you solve in one sentence. Include a single piece of social proof — a named client or a specific outcome. Make your ask explicit: a 20-minute call, a specific question, or permission to share something relevant.",
+        text: "Your opening email should be under 100 words. Identify one specific, relevant reason you're reaching out (their industry, a job posting, a recent news item). State the problem you solve in one sentence. Include a single piece of social proof, a named client or a specific outcome. Make your ask explicit: a 20-minute call, a specific question, or permission to share something relevant.",
       },
       {
         type: "heading",
@@ -487,7 +487,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "callout",
-        text: "Silence is data. If someone hasn't replied after 5 touches, they're probably not a fit right now — not forever. Keep the door open and revisit in 90 days with a fresh signal.",
+        text: "Silence is data. If someone hasn't replied after 5 touches, they're probably not a fit right now, not forever. Keep the door open and revisit in 90 days with a fresh signal.",
       },
       {
         type: "heading",
@@ -499,7 +499,7 @@ const rawPosts: BlogPost[] = [
           "Use a separate sending domain for outbound (not your primary domain)",
           "Warm up new domains over 4-6 weeks before volume sending",
           "Keep daily sending volume under 50 per inbox until reputation is established",
-          "Maintain bounce rates under 2% — clean lists regularly",
+          "Maintain bounce rates under 2%, clean lists regularly",
           "Avoid spam trigger words in subject lines: free, guarantee, urgent",
         ],
       },
@@ -534,15 +534,15 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Specific reference — mention something real from their profile, content, or company",
-          "Shared context — a mutual connection, industry, challenge, or event",
-          "Clear reason for reaching out — one sentence, no pitch",
-          "No ask — the connection itself is the ask. Save the conversation for after.",
+          "Specific reference, mention something real from their profile, content, or company",
+          "Shared context, a mutual connection, industry, challenge, or event",
+          "Clear reason for reaching out, one sentence, no pitch",
+          "No ask, the connection itself is the ask. Save the conversation for after.",
         ],
       },
       {
         type: "callout",
-        text: "Example: 'Hi [Name], saw your post on construction procurement last week — the point about framework timing was spot on. We work with a few contractors in [region] and I thought it would be good to connect. No pitch, just thought it useful to be in each other's networks.'",
+        text: "Example: 'Hi [Name], saw your post on construction procurement last week, the point about framework timing was spot on. We work with a few contractors in [region] and I thought it would be good to connect. No pitch, just thought it useful to be in each other's networks.'",
       },
       {
         type: "heading",
@@ -558,7 +558,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Wait 24 hours before sending a follow-up message. Thank them briefly for connecting, then share something of value — an insight, a resource, a relevant question — before any commercial ask. The connection is not the conversion; it's the start of a conversation. Treat it accordingly.",
+        text: "Wait 24 hours before sending a follow-up message. Thank them briefly for connecting, then share something of value, an insight, a resource, a relevant question, before any commercial ask. The connection is not the conversion; it's the start of a conversation. Treat it accordingly.",
       },
       {
         type: "heading",
@@ -566,7 +566,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Personalisation at scale means creating message templates for each specific buyer persona, trigger event, or industry cluster — not one generic message sent to thousands. For SaaS, you might have separate templates for VP Sales, CTO, and Head of RevOps. For construction, separate messages for procurement managers, project directors, and asset managers. Personalise the variable fields, keep the structure consistent.",
+        text: "Personalisation at scale means creating message templates for each specific buyer persona, trigger event, or industry cluster, not one generic message sent to thousands. For SaaS, you might have separate templates for VP Sales, CTO, and Head of RevOps. For construction, separate messages for procurement managers, project directors, and asset managers. Personalise the variable fields, keep the structure consistent.",
       },
     ],
   },
@@ -575,14 +575,14 @@ const rawPosts: BlogPost[] = [
     category: "B2B Growth",
     title: "The Hidden Cost of Unqualified Leads (And How to Stop Paying It)",
     excerpt:
-      "Unqualified leads don't just waste time — they demoralize your sales team and skew your pipeline data. Here's the financial case for investing in lead qualification.",
+      "Unqualified leads don't just waste time, they demoralize your sales team and skew your pipeline data. Here's the financial case for investing in lead qualification.",
     readTime: "9 min read",
     date: "22 Apr 2026",
     color: "#0EA5E9",
     content: [
       {
         type: "paragraph",
-        text: "When a business talks about lead generation costs, they usually mean the cost per lead. But this misses the most significant cost entirely: what happens after the lead is generated. A poorly qualified lead doesn't just fail to convert — it consumes time, distorts pipeline data, and erodes the confidence of the sales team that has to chase it.",
+        text: "When a business talks about lead generation costs, they usually mean the cost per lead. But this misses the most significant cost entirely: what happens after the lead is generated. A poorly qualified lead doesn't just fail to convert, it consumes time, distorts pipeline data, and erodes the confidence of the sales team that has to chase it.",
       },
       {
         type: "heading",
@@ -590,7 +590,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Consider a mid-market SaaS company with 5 SDRs each earning £45,000 per year. Each SDR touches 60-80 leads per month. If 50% of those leads are unqualified — wrong company size, no buying intent, wrong decision-maker — that's 150-200 SDR-hours wasted every month chasing dead ends. At a blended cost of approximately £25/hour, that's £3,750-£5,000 in direct time cost per month. Before you count the management overhead, the reporting noise, or the opportunity cost of not chasing real prospects.",
+        text: "Consider a mid-market SaaS company with 5 SDRs each earning £45,000 per year. Each SDR touches 60-80 leads per month. If 50% of those leads are unqualified, wrong company size, no buying intent, wrong decision-maker, that's 150-200 SDR-hours wasted every month chasing dead ends. At a blended cost of approximately £25/hour, that's £3,750-£5,000 in direct time cost per month. Before you count the management overhead, the reporting noise, or the opportunity cost of not chasing real prospects.",
       },
       {
         type: "heading",
@@ -598,7 +598,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "High-performing sales reps leave for one of two reasons: they feel they can't succeed, or they feel they're wasting their talent. An unqualified lead pipeline creates both conditions simultaneously. When SDRs make 30 calls and get 27 'not interested' replies, they adjust their expectations downwards — and that pessimism starts to infect their approach to the other 3. The right reps on the right leads will outperform the best reps on poor leads every time.",
+        text: "High-performing sales reps leave for one of two reasons: they feel they can't succeed, or they feel they're wasting their talent. An unqualified lead pipeline creates both conditions simultaneously. When SDRs make 30 calls and get 27 'not interested' replies, they adjust their expectations downwards, and that pessimism starts to infect their approach to the other 3. The right reps on the right leads will outperform the best reps on poor leads every time.",
       },
       {
         type: "callout",
@@ -623,7 +623,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Proper lead qualification — whether done in-house or via a specialist — typically costs £30-£80 per qualified lead depending on segment complexity and verification depth. For most SaaS and construction companies, this is 3-5x less than the internal cost of chasing an unqualified lead through a full sales cycle. The economics are clear: pay to qualify upfront, or pay three times as much to discover the problem at the back end.",
+        text: "Proper lead qualification, whether done in-house or via a specialist, typically costs £30-£80 per qualified lead depending on segment complexity and verification depth. For most SaaS and construction companies, this is 3-5x less than the internal cost of chasing an unqualified lead through a full sales cycle. The economics are clear: pay to qualify upfront, or pay three times as much to discover the problem at the back end.",
       },
     ],
   },
@@ -639,7 +639,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "A healthy SaaS demo-to-close rate sits between 25% and 35% for a well-qualified pipeline. If yours is below 15%, the instinct is to improve the demo itself — better slides, better storytelling, more objection handling training. But in most cases, the problem is upstream. Poor-quality demos don't close because they should never have been booked.",
+        text: "A healthy SaaS demo-to-close rate sits between 25% and 35% for a well-qualified pipeline. If yours is below 15%, the instinct is to improve the demo itself, better slides, better storytelling, more objection handling training. But in most cases, the problem is upstream. Poor-quality demos don't close because they should never have been booked.",
       },
       {
         type: "heading",
@@ -664,7 +664,7 @@ const rawPosts: BlogPost[] = [
           "Prospects consistently say they're 'just exploring' with no clear trigger",
           "The demo attendee has no budget authority or approval influence",
           "Company size or tech stack doesn't match your target ICP",
-          "Time-to-close keeps extending — deals that should close in 30 days take 90+",
+          "Time-to-close keeps extending, deals that should close in 30 days take 90+",
           "Demos frequently attract competitors, researchers, or consultants",
         ],
       },
@@ -701,14 +701,14 @@ const rawPosts: BlogPost[] = [
     category: "Construction Marketing",
     title: "How to Use LinkedIn to Find Property Developers Actively Tendering",
     excerpt:
-      "Property developers and procurement managers are active on LinkedIn — but you need to know where to look. This guide shows you the exact search and outreach process.",
+      "Property developers and procurement managers are active on LinkedIn, but you need to know where to look. This guide shows you the exact search and outreach process.",
     readTime: "6 min read",
     date: "8 Apr 2026",
     color: "#10B981",
     content: [
       {
         type: "paragraph",
-        text: "LinkedIn is the most underused prospecting tool in the construction industry. Most contractors use it passively — posting project photos, accepting connections, occasionally browsing. But with the right search methodology, LinkedIn Sales Navigator can surface property developers who are actively planning, funding, or commissioning work right now.",
+        text: "LinkedIn is the most underused prospecting tool in the construction industry. Most contractors use it passively, posting project photos, accepting connections, occasionally browsing. But with the right search methodology, LinkedIn Sales Navigator can surface property developers who are actively planning, funding, or commissioning work right now.",
       },
       {
         type: "heading",
@@ -717,7 +717,7 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Industry: Real Estate, Construction, Architecture — filter by company type",
+          "Industry: Real Estate, Construction, Architecture, filter by company type",
           "Company size: target 10-200 employees for mid-tier developers; 200+ for institutional funds",
           "Seniority level: Director, VP, C-Suite for economic buyers; Manager for procurement contacts",
           "Job title keywords: Development Director, Project Director, Procurement Manager, Asset Manager",
@@ -738,7 +738,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Don't try to reach 500 developers at once. Build a focused list of 40-60 target companies in your sector and geography. For each company, identify 2-3 contacts at different seniority levels — the economic buyer, the procurement contact, and the operational contact. This gives you multiple entry points and better resilience if one contact doesn't respond.",
+        text: "Don't try to reach 500 developers at once. Build a focused list of 40-60 target companies in your sector and geography. For each company, identify 2-3 contacts at different seniority levels, the economic buyer, the procurement contact, and the operational contact. This gives you multiple entry points and better resilience if one contact doesn't respond.",
       },
       {
         type: "callout",
@@ -765,7 +765,7 @@ const rawPosts: BlogPost[] = [
   {
     slug: "ai-prospecting-b2b-sales-2026",
     category: "B2B Growth",
-    title: "How AI Is Reshaping B2B Prospecting in 2026 — And What It Means for Your SDR Team",
+    title: "How AI Is Reshaping B2B Prospecting in 2026, And What It Means for Your SDR Team",
     excerpt:
       "AI tools now touch every stage of the sales funnel. Here's an honest look at what they can do, what they can't replace, and how leading SDR teams are using both.",
     readTime: "8 min read",
@@ -774,7 +774,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Sixty-three percent of sales leaders now say AI makes it easier for them to compete. That figure would have seemed optimistic three years ago. Today, if your SDR team is not using AI to research prospects, surface intent signals, and personalise outreach at scale, you are at a structural disadvantage to the teams that are. But the picture is more nuanced than 'adopt AI or fall behind'. What matters is understanding exactly where AI creates leverage — and where overreliance on it quietly kills reply rates.",
+        text: "Sixty-three percent of sales leaders now say AI makes it easier for them to compete. That figure would have seemed optimistic three years ago. Today, if your SDR team is not using AI to research prospects, surface intent signals, and personalise outreach at scale, you are at a structural disadvantage to the teams that are. But the picture is more nuanced than 'adopt AI or fall behind'. What matters is understanding exactly where AI creates leverage, and where overreliance on it quietly kills reply rates.",
       },
       {
         type: "heading",
@@ -782,7 +782,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The highest-leverage AI use cases in prospecting are the ones that automate the time-consuming but low-judgement tasks: scraping company data, identifying technographic signals, drafting first-pass email variations, and flagging trigger events like leadership changes or funding rounds. These tasks used to eat 60-70% of an SDR's day. With AI tooling, that proportion can be compressed to under 30%, freeing meaningful time for the work that still requires a human — research, personalisation, relationship-building, and qualification judgement.",
+        text: "The highest-leverage AI use cases in prospecting are the ones that automate the time-consuming but low-judgement tasks: scraping company data, identifying technographic signals, drafting first-pass email variations, and flagging trigger events like leadership changes or funding rounds. These tasks used to eat 60-70% of an SDR's day. With AI tooling, that proportion can be compressed to under 30%, freeing meaningful time for the work that still requires a human, research, personalisation, relationship-building, and qualification judgement.",
       },
       {
         type: "heading",
@@ -791,22 +791,22 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Signal aggregation — pulling intent data from job postings, news, funding announcements, and review sites to surface accounts with active buying behaviour",
-          "First-draft outreach — generating sequence frameworks that SDRs can edit and personalise, cutting writing time by 60-80% without sacrificing voice",
-          "Lead scoring and prioritisation — using model-driven scores to route the highest-probability accounts to senior reps and deprioritise low-fit contacts",
+          "Signal aggregation, pulling intent data from job postings, news, funding announcements, and review sites to surface accounts with active buying behaviour",
+          "First-draft outreach, generating sequence frameworks that SDRs can edit and personalise, cutting writing time by 60-80% without sacrificing voice",
+          "Lead scoring and prioritisation, using model-driven scores to route the highest-probability accounts to senior reps and deprioritise low-fit contacts",
         ],
       },
       {
         type: "heading",
-        text: "What AI cannot replace — and where teams are getting this wrong",
+        text: "What AI cannot replace, and where teams are getting this wrong",
       },
       {
         type: "paragraph",
-        text: "The failure mode is predictable. Teams adopt AI for outreach generation and promptly send 10,000 emails that feel AI-generated. Deliverability drops, reply rates collapse, and leadership concludes that AI doesn't work in their market. The error was not the tool — it was treating AI output as finished output. AI writes drafts. Humans make them specific. The distinction is not semantic. A prospect who receives an email referencing their exact planning application from last month, or a specific hiring signal you spotted in their job postings, responds at a meaningfully higher rate than one who receives a well-phrased generic message about growth challenges.",
+        text: "The failure mode is predictable. Teams adopt AI for outreach generation and promptly send 10,000 emails that feel AI-generated. Deliverability drops, reply rates collapse, and leadership concludes that AI doesn't work in their market. The error was not the tool, it was treating AI output as finished output. AI writes drafts. Humans make them specific. The distinction is not semantic. A prospect who receives an email referencing their exact planning application from last month, or a specific hiring signal you spotted in their job postings, responds at a meaningfully higher rate than one who receives a well-phrased generic message about growth challenges.",
       },
       {
         type: "callout",
-        text: "AI handles the volume. Humans handle the insight. The most effective prospecting operations in 2026 are running both in tight coordination — not choosing between them.",
+        text: "AI handles the volume. Humans handle the insight. The most effective prospecting operations in 2026 are running both in tight coordination, not choosing between them.",
       },
       {
         type: "heading",
@@ -815,11 +815,11 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "Use AI to build and score your prospect list — let it surface the top 10% of accounts by fit and intent",
-          "Use AI to draft the sequence framework — opening hook, value prop, social proof, CTA",
-          "Require human review and personalisation before any email is sent — at minimum, one specific, researched detail per contact",
+          "Use AI to build and score your prospect list, let it surface the top 10% of accounts by fit and intent",
+          "Use AI to draft the sequence framework, opening hook, value prop, social proof, CTA",
+          "Require human review and personalisation before any email is sent, at minimum, one specific, researched detail per contact",
           "Use AI to analyse reply patterns and suggest sequence adjustments after 100+ contacts are touched",
-          "Never let AI qualify a lead on its own — qualification requires conversational judgement that no current tool replicates reliably",
+          "Never let AI qualify a lead on its own, qualification requires conversational judgement that no current tool replicates reliably",
         ],
       },
       {
@@ -828,11 +828,11 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "One underappreciated consequence of AI-assisted prospecting is that it amplifies the quality of your ICP definition. If your ICP is sharp, AI tools can find hundreds of well-matched accounts quickly. If your ICP is vague — 'mid-market tech companies' — AI tools generate a lot of noise very fast. Teams that implement AI and see poor results are often discovering, for the first time, how poorly defined their target customer actually is. The tool surfaces the problem it didn't create.",
+        text: "One underappreciated consequence of AI-assisted prospecting is that it amplifies the quality of your ICP definition. If your ICP is sharp, AI tools can find hundreds of well-matched accounts quickly. If your ICP is vague, 'mid-market tech companies', AI tools generate a lot of noise very fast. Teams that implement AI and see poor results are often discovering, for the first time, how poorly defined their target customer actually is. The tool surfaces the problem it didn't create.",
       },
       {
         type: "paragraph",
-        text: "The teams winning with AI in 2026 are not necessarily the ones with the most sophisticated tooling. They are the ones who combined strong ICP clarity with disciplined human oversight of what the AI produces. That combination — precision targeting, AI-assisted scale, human personalisation — is where the real performance uplift lives.",
+        text: "The teams winning with AI in 2026 are not necessarily the ones with the most sophisticated tooling. They are the ones who combined strong ICP clarity with disciplined human oversight of what the AI produces. That combination, precision targeting, AI-assisted scale, human personalisation, is where the real performance uplift lives.",
       },
     ],
   },
@@ -848,7 +848,7 @@ const rawPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "The number is jarring when you see it for the first time: 82% of B2B buyers report that the sales professionals they deal with are underprepared. That is not a small minority of frustrated buyers. It is a structural problem, and it has a direct cost. Buyers who feel a rep has done their homework are five times more likely to engage seriously. Buyers who feel they are receiving a generic pitch from someone who does not understand their business disengage quickly — and often permanently.",
+        text: "The number is jarring when you see it for the first time: 82% of B2B buyers report that the sales professionals they deal with are underprepared. That is not a small minority of frustrated buyers. It is a structural problem, and it has a direct cost. Buyers who feel a rep has done their homework are five times more likely to engage seriously. Buyers who feel they are receiving a generic pitch from someone who does not understand their business disengage quickly, and often permanently.",
       },
       {
         type: "heading",
@@ -872,11 +872,11 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "SDR teams reaching out to hundreds of contacts per week face a genuine tension: thorough research takes time, and time is the constraint. The instinct is to optimise for volume at the cost of preparation. The result is predictable — more outreach with worse results. The alternative is not to reduce volume, but to improve the quality of targeting so that every rep hour is spent on a smaller, better-matched set of contacts who warrant the preparation investment.",
+        text: "SDR teams reaching out to hundreds of contacts per week face a genuine tension: thorough research takes time, and time is the constraint. The instinct is to optimise for volume at the cost of preparation. The result is predictable, more outreach with worse results. The alternative is not to reduce volume, but to improve the quality of targeting so that every rep hour is spent on a smaller, better-matched set of contacts who warrant the preparation investment.",
       },
       {
         type: "callout",
-        text: "Preparation is not a soft skill. It is a conversion lever. A rep who arrives knowing the buyer's recent hiring activity, their competitive context, and a relevant case study will outperform a rep with better closing technique and no context — consistently.",
+        text: "Preparation is not a soft skill. It is a conversion lever. A rep who arrives knowing the buyer's recent hiring activity, their competitive context, and a relevant case study will outperform a rep with better closing technique and no context, consistently.",
       },
       {
         type: "heading",
@@ -886,11 +886,11 @@ const rawPosts: BlogPost[] = [
         type: "list",
         heading: "Before any first call or email, a prepared rep should know:",
         items: [
-          "One specific recent development at the prospect's company — a funding round, a hire, a press mention, or a planning approval",
+          "One specific recent development at the prospect's company, a funding round, a hire, a press mention, or a planning approval",
           "The most likely pain point for this buyer persona in this industry, backed by a relevant case study",
           "Who the economic buyer is and who else is likely to be involved in the decision",
           "What the prospect's current solution probably is, and why they might be dissatisfied with it",
-          "One genuinely specific reason why this particular prospect is a fit — not a generic ICP match, but something specific",
+          "One genuinely specific reason why this particular prospect is a fit, not a generic ICP match, but something specific",
         ],
       },
       {
@@ -899,7 +899,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Here is the part that most sales teams miss: preparation is significantly easier when the lead is well-qualified. A rep who receives a lead with a summary of the business problem, the name and title of the economic buyer, and the relevant trigger event can prepare thoroughly in 10 minutes. A rep who receives a name, a company, and a job title starts from scratch. The upstream investment in lead qualification is what makes downstream preparation practical at scale — and that is where the real leverage sits.",
+        text: "Here is the part that most sales teams miss: preparation is significantly easier when the lead is well-qualified. A rep who receives a lead with a summary of the business problem, the name and title of the economic buyer, and the relevant trigger event can prepare thoroughly in 10 minutes. A rep who receives a name, a company, and a job title starts from scratch. The upstream investment in lead qualification is what makes downstream preparation practical at scale, and that is where the real leverage sits.",
       },
     ],
   },
@@ -923,7 +923,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Before any procurement manager picks up the phone, they look you up. They visit your website, check your LinkedIn profile, search your company name, and read any project coverage they can find. In 2026, that research happens on every prospective contractor — not just new ones. If what they find is a website last updated in 2021, a LinkedIn page with 80 followers, and no documented project portfolio, you have already lost ground before a conversation starts.",
+        text: "Before any procurement manager picks up the phone, they look you up. They visit your website, check your LinkedIn profile, search your company name, and read any project coverage they can find. In 2026, that research happens on every prospective contractor, not just new ones. If what they find is a website last updated in 2021, a LinkedIn page with 80 followers, and no documented project portfolio, you have already lost ground before a conversation starts.",
       },
       {
         type: "heading",
@@ -932,9 +932,9 @@ const rawPosts: BlogPost[] = [
       {
         type: "list",
         items: [
-          "A project portfolio that speaks to procurement managers, not just project managers — outcomes, scale, sector relevance, and named client references where possible",
+          "A project portfolio that speaks to procurement managers, not just project managers, outcomes, scale, sector relevance, and named client references where possible",
           "A LinkedIn company page with regular content that demonstrates sector knowledge, not just project photography",
-          "A thought leadership presence from senior directors — commentary on planning decisions, procurement trends, or sector challenges that positions your leadership as credible voices",
+          "A thought leadership presence from senior directors, commentary on planning decisions, procurement trends, or sector challenges that positions your leadership as credible voices",
           "Clear, direct positioning on your website about the types of work you want to win, at what scale, in which sectors, and in which geographies",
         ],
       },
@@ -944,7 +944,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Most contractor websites are built for the wrong audience. They describe the company, list services in broad strokes, and show photographs of completed projects. What procurement managers actually need to see is evidence that you have done the specific type of work they are commissioning. A residential developer looking for a contractor to deliver 120 units in a particular region wants to see your equivalent projects — delivery scale, approach to programme, and ideally a named reference. That evidence should be immediately accessible, not buried behind a generic project gallery.",
+        text: "Most contractor websites are built for the wrong audience. They describe the company, list services in broad strokes, and show photographs of completed projects. What procurement managers actually need to see is evidence that you have done the specific type of work they are commissioning. A residential developer looking for a contractor to deliver 120 units in a particular region wants to see your equivalent projects, delivery scale, approach to programme, and ideally a named reference. That evidence should be immediately accessible, not buried behind a generic project gallery.",
       },
       {
         type: "heading",
@@ -952,7 +952,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "The most effective use of LinkedIn for construction companies is not broad content marketing. It is targeted relationship-building with a specific list of 40-60 developer and asset manager contacts, combined with a consistent content presence that demonstrates sector authority. When a procurement manager who follows your company page sees a planning application approved for a scheme type you specialise in, and then receives an outreach message from your business development director two weeks later, the context has been set. You are not a cold contact — you are already known.",
+        text: "The most effective use of LinkedIn for construction companies is not broad content marketing. It is targeted relationship-building with a specific list of 40-60 developer and asset manager contacts, combined with a consistent content presence that demonstrates sector authority. When a procurement manager who follows your company page sees a planning application approved for a scheme type you specialise in, and then receives an outreach message from your business development director two weeks later, the context has been set. You are not a cold contact, you are already known.",
       },
       {
         type: "callout",
@@ -964,7 +964,7 @@ const rawPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "Digital presence compounds in a way that cold outreach alone does not. A project case study published today will be seen by prospective clients for the next five years. A LinkedIn post that demonstrates expertise builds credibility with every developer who reads it, whether they engage with it or not. The contractors who invest in this layer systematically are the ones who, twelve months later, find themselves receiving invitation-only tender opportunities from developers they have never spoken to — purely because their digital presence made the case before anyone picked up the phone.",
+        text: "Digital presence compounds in a way that cold outreach alone does not. A project case study published today will be seen by prospective clients for the next five years. A LinkedIn post that demonstrates expertise builds credibility with every developer who reads it, whether they engage with it or not. The contractors who invest in this layer systematically are the ones who, twelve months later, find themselves receiving invitation-only tender opportunities from developers they have never spoken to, purely because their digital presence made the case before anyone picked up the phone.",
       },
     ],
   },

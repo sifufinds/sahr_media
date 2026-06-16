@@ -10,7 +10,7 @@ const emails = [
     subject: "Introduction & Value Proposition",
     day: "Day 1",
     preview:
-      "Hi [First Name], I noticed [Company] is [intent signal] — that's exactly the moment we help companies like yours convert more qualified pipeline...",
+      "Hi [First Name], I noticed [Company] is [intent signal], that's exactly the moment we help companies like yours convert more qualified pipeline...",
     detail:
       "Personalised intro referencing the detected buying signal. Establishes relevance on the first touch.",
     color: "#2563EB",
@@ -21,7 +21,7 @@ const emails = [
     subject: "Industry Case Study",
     day: "Day 3",
     preview:
-      "A quick win from a [industry] company similar to [Company] — [outcome in one sentence]...",
+      "A quick win from a [industry] company similar to [Company], [outcome in one sentence]...",
     detail:
       "A relevant case study from the same vertical showing measurable outcomes that resonate with their goals.",
     color: "#10B981",
@@ -34,7 +34,7 @@ const emails = [
     preview:
       "One thing we keep seeing in [industry] right now that might be worth a 5-minute conversation...",
     detail:
-      "A timely trend or insight relevant to their sector — positions us as a knowledgeable, helpful partner.",
+      "A timely trend or insight relevant to their sector, positions us as a knowledgeable, helpful partner.",
     color: "#F59E0B",
   },
   {
@@ -45,7 +45,7 @@ const emails = [
     preview:
       "Would 20 minutes be worth it to show you exactly how we'd approach [Company's] pipeline goals?",
     detail:
-      "A direct, low-friction ask for a discovery call. No pressure — just clarity on fit and next steps.",
+      "A direct, low-friction ask for a discovery call. No pressure, just clarity on fit and next steps.",
     color: "#8B5CF6",
   },
   {
@@ -54,7 +54,7 @@ const emails = [
     subject: "Final Follow-Up",
     day: "Day 18",
     preview:
-      "This will be my last message for now, [First Name] — if the timing isn't right, I completely understand...",
+      "This will be my last message for now, [First Name], if the timing isn't right, I completely understand...",
     detail:
       "A graceful close that respects their time. Consistently produces the highest reply rate of the sequence.",
     color: "#06B6D4",

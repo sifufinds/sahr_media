@@ -10,7 +10,7 @@ const steps = [
     icon: Target,
     title: "Target",
     description:
-      "We map your ideal customer profile — industry, company size, revenue, and buying intent — then build precise audience segments from real data.",
+      "We map your ideal customer profile, industry, company size, revenue, and buying intent, then build precise audience segments from real data.",
   },
   {
     number: "02",
@@ -31,7 +31,7 @@ const steps = [
     icon: Send,
     title: "Deliver",
     description:
-      "Qualified meetings land directly in your sales calendar. No noise, no raw lists — just revenue-ready conversations.",
+      "Qualified meetings land directly in your sales calendar. No noise, no raw lists, just revenue-ready conversations.",
   },
 ];
 

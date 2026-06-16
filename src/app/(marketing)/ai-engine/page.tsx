@@ -18,7 +18,7 @@ const breadcrumbSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "AI Buying Intent Engine — How We Find Sales-Ready Leads",
+  title: "AI Buying Intent Engine, How We Find Sales-Ready Leads",
   description:
     "How SAHR MEDIA's AI engine continuously monitors public signals, qualifies prospects with six specialist agents, and delivers sales-ready leads to your team.",
   alternates: {

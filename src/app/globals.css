@@ -49,7 +49,7 @@ body {
   font-family: var(--font-playfair), Georgia, serif;
 }
 
-/* Hero grid — very subtle */
+/* Hero grid, very subtle */
 .hero-grid {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),

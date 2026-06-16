@@ -13,7 +13,7 @@ const breadcrumbSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "About SAHR MEDIA — B2B Lead Generation Specialists",
+  title: "About SAHR MEDIA, B2B Lead Generation Specialists",
   description:
     "SAHR MEDIA is a specialist B2B lead generation agency for SaaS and Construction companies. We combine AI-driven intent detection with human verification to deliver sales-ready opportunities.",
   alternates: {
@@ -26,7 +26,7 @@ const principles = [
     icon: Target,
     title: "Precision over volume",
     description:
-      "We don't believe in sending 10,000 contacts to find 5 good ones. We research, segment, and qualify first — so every lead we deliver is worth your team's attention.",
+      "We don't believe in sending 10,000 contacts to find 5 good ones. We research, segment, and qualify first, so every lead we deliver is worth your team's attention.",
     color: "#2563EB",
   },
   {
@@ -40,7 +40,7 @@ const principles = [
     icon: BarChart3,
     title: "Transparency by default",
     description:
-      "You see the methodology, the data sources, and the qualification rationale for every lead we deliver. No black boxes, no vague promises — just accountable results.",
+      "You see the methodology, the data sources, and the qualification rationale for every lead we deliver. No black boxes, no vague promises, just accountable results.",
     color: "#F59E0B",
   },
   {
@@ -176,7 +176,7 @@ export default function AboutPage() {
               </p>
               <p className="text-[#64748B] leading-relaxed mb-8 text-base">
                 The result is a predictable, measurable pipeline that your sales team
-                can rely on — with qualified opportunities that consistently convert at
+                can rely on, with qualified opportunities that consistently convert at
                 industry-leading rates.
               </p>
               <Link
@@ -221,7 +221,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-[#64748B] max-w-xl mx-auto text-sm leading-relaxed">
               We deliberately focus on two verticals rather than serving everyone. Deep
-              industry knowledge means campaigns that are relevant from day one — not
+              industry knowledge means campaigns that are relevant from day one, not
               generic outreach dressed up as expertise.
             </p>
           </div>
@@ -238,8 +238,8 @@ export default function AboutPage() {
               </div>
               <div className="px-8 py-6">
                 <p className="text-[#64748B] text-sm leading-relaxed mb-5">
-                  We help SaaS companies reach the right decision-makers — CTOs, VPs of
-                  Operations, and Heads of Engineering — with highly personalised outbound
+                  We help SaaS companies reach the right decision-makers, CTOs, VPs of
+                  Operations, and Heads of Engineering, with highly personalised outbound
                   campaigns that generate product demos and qualified pipeline at scale.
                   We understand SaaS buying cycles, ICP economics, and how to position
                   against competitive alternatives.
@@ -268,7 +268,7 @@ export default function AboutPage() {
                   We connect construction businesses with property developers, procurement
                   managers, and decision-makers who are actively commissioning work. Our
                   campaigns are built around planning pipeline data, developer hiring
-                  signals, and direct outreach to the people who control the shortlist —
+                  signals, and direct outreach to the people who control the shortlist,
                   before a tender is even issued.
                 </p>
                 <Link
@@ -338,7 +338,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-[#64748B] max-w-xl mx-auto mb-8 text-sm leading-relaxed">
             Every engagement starts with a free 30-minute strategy call. We&apos;ll
-            learn about your business, your ICP, and your revenue goals — then
+            learn about your business, your ICP, and your revenue goals, then
             tell you honestly what we can deliver.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

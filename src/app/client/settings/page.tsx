@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { Upload, RotateCcw, Check, Palette, Building2, Globe, Mail } from "lucide-react";
+import { Upload, RotateCcw, Check, Palette, Building2, Globe, Mail, Loader2 } from "lucide-react";
 import { DashboardHeader } from "@/components/dashboard/DashboardHeader";
-import { useClientSettings } from "@/lib/client-settings";
+import { useClientSettings, type ClientBranding } from "@/lib/client-settings";
 import { cn } from "@/lib/utils";
 
 const ACCENT_PRESETS = [
@@ -16,7 +16,30 @@ const ACCENT_PRESETS = [
 ];
 
 export default function SettingsPage() {
-  const { branding, updateBranding, resetBranding } = useClientSettings();
+  const { branding, isLoading, updateBranding, resetBranding } = useClientSettings();
+
+  if (isLoading) {
+    return (
+      <div className="flex-1 flex items-center justify-center">
+        <Loader2 className="w-6 h-6 text-[#2563EB] animate-spin" />
+      </div>
+    );
+  }
+
+  // Mounted only once branding has loaded, so the form's useState
+  // initializers below capture the real values instead of the defaults.
+  return (
+    <SettingsForm branding={branding} updateBranding={updateBranding} resetBranding={resetBranding} />
+  );
+}
+
+interface SettingsFormProps {
+  branding: ClientBranding;
+  updateBranding: (updates: Partial<ClientBranding>) => Promise<void>;
+  resetBranding: () => Promise<void>;
+}
+
+function SettingsForm({ branding, updateBranding, resetBranding }: SettingsFormProps) {
   const [saved, setSaved] = useState(false);
   const [saveError, setSaveError] = useState("");
   const [logoPreview, setLogoPreview] = useState<string>(branding.logoUrl || "");

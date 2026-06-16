@@ -45,20 +45,20 @@ const reviewSchema = {
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Daniel Osei" },
       reviewBody:
-        "SAHR MEDIA didn't just generate leads — they helped us build the entire outbound engine. Now it runs continuously and delivers every month.",
+        "SAHR MEDIA didn't just generate leads, they helped us build the entire outbound engine. Now it runs continuously and delivers every month.",
     },
     {
       "@type": "Review",
       reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
       author: { "@type": "Person", name: "Tom Harrison" },
       reviewBody:
-        "We went from zero presence in London to having four active contracts within six months. SAHR MEDIA opened the door — our team walked through it.",
+        "We went from zero presence in London to having four active contracts within six months. SAHR MEDIA opened the door, our team walked through it.",
     },
   ],
 };
 
 export const metadata: Metadata = {
-  title: "Client Case Studies — Real B2B Lead Generation Results",
+  title: "Client Case Studies, Real B2B Lead Generation Results",
   description:
     "Real results from real clients. Explore how SAHR MEDIA has helped SaaS and Construction companies generate qualified leads and grow their pipeline.",
   alternates: {
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
 const caseStudies = [
   {
     industry: "SaaS",
-    company: "CloudSync — Project Management SaaS",
+    company: "CloudSync, Project Management SaaS",
     challenge:
       "CloudSync had a strong product but relied entirely on inbound leads and referrals. Their SDR team was spending 70% of their time on unqualified outreach with low response rates.",
     solution:
@@ -113,11 +113,11 @@ const caseStudies = [
   },
   {
     industry: "SaaS",
-    company: "Taskflow Software — Workflow Automation",
+    company: "Taskflow Software, Workflow Automation",
     challenge:
       "Taskflow had just closed a Series A and needed to scale outbound quickly. Their existing team had no structured process and no playbook for enterprise outreach.",
     solution:
-      "SAHR MEDIA designed and built their entire outbound infrastructure — from ICP definition and sequence writing to CRM integration and lead scoring.",
+      "SAHR MEDIA designed and built their entire outbound infrastructure, from ICP definition and sequence writing to CRM integration and lead scoring.",
     results: [
       { label: "Demos Booked", value: "62", icon: Calendar },
       { label: "MRR Growth", value: "41%", icon: TrendingUp },
@@ -125,7 +125,7 @@ const caseStudies = [
     ],
     testimonial: {
       quote:
-        "SAHR MEDIA didn't just generate leads — they helped us build the entire outbound engine. Now it runs continuously and delivers every month.",
+        "SAHR MEDIA didn't just generate leads, they helped us build the entire outbound engine. Now it runs continuously and delivers every month.",
       name: "Daniel Osei",
       role: "CEO, Taskflow Software",
     },
@@ -147,7 +147,7 @@ const caseStudies = [
     ],
     testimonial: {
       quote:
-        "We went from zero presence in London to having four active contracts within six months. SAHR MEDIA opened the door — our team walked through it.",
+        "We went from zero presence in London to having four active contracts within six months. SAHR MEDIA opened the door, our team walked through it.",
       name: "Tom Harrison",
       role: "Business Development Director, Apex",
     },

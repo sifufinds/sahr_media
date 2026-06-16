@@ -40,6 +40,7 @@ function mapBrandingRow(row: BrandingRow): ClientBranding {
 
 interface SettingsContextValue {
   branding: ClientBranding;
+  isLoading: boolean;
   updateBranding: (updates: Partial<ClientBranding>) => Promise<void>;
   resetBranding: () => Promise<void>;
 }
@@ -47,13 +48,20 @@ interface SettingsContextValue {
 const SettingsContext = createContext<SettingsContextValue | null>(null);
 
 export function ClientSettingsProvider({ children }: { children: React.ReactNode }) {
-  const { user } = useClientAuth();
+  const { user, isLoading: authLoading } = useClientAuth();
   const [branding, setBranding] = useState<ClientBranding>(DEFAULT_BRANDING);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // Wait for auth to settle first, otherwise a momentary `user === null`
+    // while the session is still resolving gets treated as "logged out"
+    // and this resolves with empty branding before the real user loads.
+    if (authLoading) return;
+
     async function loadBranding() {
       if (!user) {
         setBranding(DEFAULT_BRANDING);
+        setIsLoading(false);
         return;
       }
 
@@ -64,10 +72,11 @@ export function ClientSettingsProvider({ children }: { children: React.ReactNode
         .maybeSingle();
 
       if (data) setBranding(mapBrandingRow(data));
+      setIsLoading(false);
     }
 
     loadBranding();
-  }, [user]);
+  }, [user, authLoading]);
 
   const persist = useCallback(
     async (next: ClientBranding) => {
@@ -100,7 +109,7 @@ export function ClientSettingsProvider({ children }: { children: React.ReactNode
   }, [persist]);
 
   return (
-    <SettingsContext.Provider value={{ branding, updateBranding, resetBranding }}>
+    <SettingsContext.Provider value={{ branding, isLoading, updateBranding, resetBranding }}>
       {children}
     </SettingsContext.Provider>
   );

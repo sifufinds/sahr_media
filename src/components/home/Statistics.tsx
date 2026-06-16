@@ -10,10 +10,10 @@ const stats = [
     description: "Every lead is manually reviewed before it reaches your team",
   },
   {
-    number: 24,
-    suffix: "h",
-    label: "Average Delivery Time",
-    description: "Qualified leads delivered within one business day",
+    number: 14,
+    suffix: " days",
+    label: "Delivery Window",
+    description: "Qualified leads delivered within one business day to 14 business days",
   },
   {
     number: 3,
@@ -25,7 +25,7 @@ const stats = [
     number: 100,
     suffix: "%",
     label: "Custom Campaigns",
-    description: "No cookie-cutter playbooks — built around your ICP",
+    description: "No cookie-cutter playbooks, built around your ICP",
   },
 ];
 

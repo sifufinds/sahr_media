@@ -70,12 +70,12 @@ const DEMO_LEADS = [
 ];
 
 const DEMO_INVOICES = [
-  { number: "INV-2026-006", invoice_date: "2026-06-01", due_date: "2026-06-15", amount: 2400, status: "pending", description: "Lead Generation — Growth Plan", period: "June 2026" },
-  { number: "INV-2026-005", invoice_date: "2026-05-01", due_date: "2026-05-15", amount: 2400, status: "paid", description: "Lead Generation — Growth Plan", period: "May 2026" },
-  { number: "INV-2026-004", invoice_date: "2026-04-01", due_date: "2026-04-15", amount: 2400, status: "paid", description: "Lead Generation — Growth Plan", period: "April 2026" },
-  { number: "INV-2026-003", invoice_date: "2026-03-01", due_date: "2026-03-15", amount: 1800, status: "paid", description: "Lead Generation — Starter Plan", period: "March 2026" },
-  { number: "INV-2026-002", invoice_date: "2026-02-01", due_date: "2026-02-15", amount: 1800, status: "paid", description: "Lead Generation — Starter Plan", period: "February 2026" },
-  { number: "INV-2026-001", invoice_date: "2026-01-01", due_date: "2026-01-15", amount: 1800, status: "paid", description: "Lead Generation — Starter Plan", period: "January 2026" },
+  { number: "INV-2026-006", invoice_date: "2026-06-01", due_date: "2026-06-15", amount: 2400, status: "pending", description: "Lead Generation: Growth Plan", period: "June 2026" },
+  { number: "INV-2026-005", invoice_date: "2026-05-01", due_date: "2026-05-15", amount: 2400, status: "paid", description: "Lead Generation: Growth Plan", period: "May 2026" },
+  { number: "INV-2026-004", invoice_date: "2026-04-01", due_date: "2026-04-15", amount: 2400, status: "paid", description: "Lead Generation: Growth Plan", period: "April 2026" },
+  { number: "INV-2026-003", invoice_date: "2026-03-01", due_date: "2026-03-15", amount: 1800, status: "paid", description: "Lead Generation: Starter Plan", period: "March 2026" },
+  { number: "INV-2026-002", invoice_date: "2026-02-01", due_date: "2026-02-15", amount: 1800, status: "paid", description: "Lead Generation: Starter Plan", period: "February 2026" },
+  { number: "INV-2026-001", invoice_date: "2026-01-01", due_date: "2026-01-15", amount: 1800, status: "paid", description: "Lead Generation: Starter Plan", period: "January 2026" },
 ];
 
 async function upsertDemoUser(user: DemoUser): Promise<string> {
