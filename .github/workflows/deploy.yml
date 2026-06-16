@@ -30,7 +30,7 @@ jobs:
         with:
           server: ftp.sahrmedia.com
           protocol: ftps
-          username: u642257378
+          username: u642257378.Sahrmedia
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
           server-dir: /domains/sahrmedia.com/public_html/
