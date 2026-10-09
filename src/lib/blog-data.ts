@@ -27,6 +27,102 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "trigger-based-prospecting-buying-signals-cold-outreach",
+    category: "Sales Development",
+    title: "Trigger-Based Prospecting: How to Time Cold Outreach to Buying Signals That Actually Matter",
+    excerpt:
+      "Finding the right company is half the equation. Finding the right company at the right moment is what separates a cold email from a well-timed one. Here's how to build a trigger-based prospecting system that does exactly that.",
+    readTime: "7 min read",
+    date: "9 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most ICP frameworks are good at finding the right company. They are poor at finding the right company at the right moment. An outreach message sent to a perfectly matched prospect who has no current reason to act is still, from their perspective, random noise. The same message sent two weeks after something significant has changed in their world lands in an entirely different context. That context gap is what trigger-based prospecting is designed to close.",
+      },
+      {
+        type: "heading",
+        text: "What a trigger event actually is",
+      },
+      {
+        type: "paragraph",
+        text: "A trigger event is any change in a prospect's circumstances that creates a window of active buying consideration. It is distinct from ICP matching. ICP matching tells you who is theoretically a fit. A trigger tells you something has recently happened that makes them practically receptive right now. A new CRO hired who is re-evaluating inherited tools. A construction company with a planning approval just cleared for a new scheme. A SaaS firm that just raised a funding round and is actively building its go-to-market team. A procurement director who joined six weeks ago and is still forming their preferred supply chain. In each case, the decision horizon is near, the willingness to take a conversation is elevated, and that window closes.",
+      },
+      {
+        type: "heading",
+        text: "Why triggers create receptivity that ICP alone cannot",
+      },
+      {
+        type: "paragraph",
+        text: "Timing explains why identical outreach messages produce completely different results when sent to prospects who look identical on paper. The difference is rarely the message. It is whether something has recently changed in their world that makes your message relevant to a real, active problem. When it has, a short, well-targeted note reads as useful. When nothing has changed, the same note reads as an unsolicited interruption. The underlying observation is simple: buyers engage when they are in a buying posture, and trigger events are the most reliable external signal that they are.",
+      },
+      {
+        type: "heading",
+        text: "The main categories of trigger events for B2B prospecting",
+      },
+      {
+        type: "list",
+        heading: "The trigger types worth monitoring systematically:",
+        items: [
+          "Leadership changes, a new CRO, VP of Sales, Head of Procurement, or Development Director typically re-evaluates inherited decisions within the first 60-90 days, creating a genuine window for new vendor relationships",
+          "Funding rounds and capital events, a startup raising a Series A or Series B is actively investing in go-to-market infrastructure; a construction firm completing a capital raise is often planning expansion that generates downstream procurement activity",
+          "Hiring signals, open roles for SDRs, business development managers, or procurement staff signal active growth; roles that use your product category directly signal investment in that area and reveal both tech stack and buying intent",
+          "Tech stack changes, public reviews on G2 or Trustpilot naming a specific competitor product suggest an active evaluation; job postings requiring experience with a named tool confirm which platforms a company is already committed to",
+          "Planning approvals and site activity (construction), an approved planning application, site acquisition announcement, or Glenigan entry on a new project start signals 12-24 months of potential procurement activity, with a clear opening for a relationship before tender stage",
+          "Market expansion signals, press coverage of a company opening a new regional office, entering a new vertical, or announcing a significant new client can all indicate growth that generates adjacent needs",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to monitor triggers without drowning in noise",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge with trigger-based prospecting is not that the signals are hard to find. They are everywhere. The problem is monitoring them manually across a meaningful prospect list is unsustainable without some structure. The practical answer is to define a short list of the two or three trigger types that have historically preceded your best customers engaging, and build systematic monitoring for those specifically rather than trying to catch everything.",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS companies, this typically means a combination of LinkedIn Sales Navigator change alerts on target accounts, Google Alerts on company names, and a data provider for funding events. For construction companies, it means planning portal alerts filtered to target geography and sector, alongside monitoring of industry publications or data services for project announcements. The goal is not comprehensive coverage. It is consistent, low-friction visibility into the specific signals that predict a buying conversation at your company.",
+      },
+      {
+        type: "callout",
+        text: "You do not need to monitor every possible trigger. Pick the two or three that have historically preceded your best-fit customers engaging with you, and build a watch for those specifically. Breadth without focus creates noise that your team will stop checking.",
+      },
+      {
+        type: "heading",
+        text: "Matching trigger type to message type",
+      },
+      {
+        type: "paragraph",
+        text: "Not every trigger calls for the same outreach. A leadership change calls for a short, direct message acknowledging the transition and connecting your experience to the specific challenge a leader in that role typically faces first. A funding announcement calls for a brief, relevant connection between their stated growth goals and what you do, without a heavy pitch. A planning approval for a construction scheme calls for a message that references the specific project and your relevant sector experience, establishing credibility before the client has committed to a procurement process.",
+      },
+      {
+        type: "paragraph",
+        text: "The quality of trigger-based outreach lives entirely in this specificity. A message that demonstrably knows what just happened at the company reads differently from one that could have been sent at any time to any prospect. The latter is a cold email. The former is a well-timed introduction. That distinction is visible to recipients immediately, and it drives the difference in response rates.",
+      },
+      {
+        type: "heading",
+        text: "The response window is shorter than you think",
+      },
+      {
+        type: "paragraph",
+        text: "Trigger events are time-limited. A new VP of Sales is most open to re-evaluating inherited tools in their first 60-90 days; by month four they have formed initial views and the urgency has passed. A construction company in early planning stage is receptive to contractor relationships 12-18 months before tender, but their openness to cold approaches narrows sharply as the scheme moves into procurement. A company that just raised a round is actively spending in the months immediately following, before the budget cycle sets and relationships solidify.",
+      },
+      {
+        type: "paragraph",
+        text: "This is the practical case for acting on trigger signals quickly. The SDR who reaches out within two weeks of a leadership change being announced will almost always outperform the one who catches the same prospect three months later through a generic sequence. The signal has a shelf life. Building a workflow that surfaces triggers fast and enables a same-week response is where most of the performance uplift comes from in a mature trigger-based prospecting programme.",
+      },
+      {
+        type: "heading",
+        text: "Triggers complement ICP, they do not replace it",
+      },
+      {
+        type: "paragraph",
+        text: "Trigger-based prospecting does not remove the need for strong ICP definition. A trigger at the wrong company is still the wrong company. The framework layers timing onto fit: the prospect still needs to be the right organisation, the right size, the right sector, with the right problem. What trigger monitoring adds is the ability to prioritise within a well-defined ICP list by finding the accounts where something has just changed. Done well, this means your team is spending the most effort on the accounts most likely to be receptive right now, rather than working through a list in a sequence that treats all prospects as equally ready.",
+      },
+    ],
+  },
+  {
     slug: "cold-email-deliverability-technical-fixes",
     category: "Sales Development",
     title: "Why Your Cold Emails Are Landing in Spam (And the Technical Fixes That Actually Work)",
