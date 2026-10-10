@@ -27,6 +27,97 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "discovery-call-framework-qualify-and-advance",
+    category: "Sales Development",
+    title: "The Discovery Call Framework: How to Structure the First 30 Minutes to Qualify, Engage, and Earn the Next Step",
+    excerpt:
+      "Most discovery calls end without a clear outcome — either the rep talked too much, or the prospect felt interrogated. Here's the structured approach that surfaces genuine buying intent and consistently advances the pipeline.",
+    readTime: "6 min read",
+    date: "10 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR teams have a qualification framework. Fewer have a discovery call framework. The distinction matters. Qualification determines whether a prospect is worth pursuing. Discovery determines whether the prospect has the problem, urgency, and context to move forward now. Running a good qualification process and then a poor discovery call is one of the most common ways a pipeline fills with leads that never close.",
+      },
+      {
+        type: "heading",
+        text: "What a discovery call is actually for",
+      },
+      {
+        type: "paragraph",
+        text: "The goal of a discovery call is not to pitch. It is not to demo. It is to develop a shared, clear understanding of the prospect's current situation, the problem they are experiencing or not yet fully recognising, what they have tried, and what would need to be true for them to act. That last element — what would need to be true — is the most underused question in B2B sales and consistently the most revealing one.",
+      },
+      {
+        type: "heading",
+        text: "The five questions that structure an effective discovery call",
+      },
+      {
+        type: "list",
+        heading: "Run every discovery call through this sequence, in this order:",
+        items: [
+          "What prompted you to take this call today? — surfaces the trigger event and current priority level before you say anything else",
+          "What does this problem look like in practice right now? — draws out operational detail that reveals whether the pain is acute or theoretical",
+          "What have you tried, and why wasn't it enough? — identifies the gap, the decision history, and the bar a solution needs to clear",
+          "Who else is involved in evaluating or deciding on this? — maps the buying committee without making the question feel like an interrogation",
+          "What would have to be true for you to make a decision on this in the next 90 days? — establishes whether there is a realistic timeline or not, and who controls it",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to open without making it feel like a qualification interrogation",
+      },
+      {
+        type: "paragraph",
+        text: "The single biggest mistake on discovery calls is front-loading the qualification questions. SDRs trained to follow a rigid framework often open with 'Can you walk me through your budget situation?' or 'Who else is involved in this decision?' within the first five minutes. Prospects feel the interrogation immediately and become guarded. The information they give you becomes curated rather than candid.",
+      },
+      {
+        type: "paragraph",
+        text: "A more effective opening is brief context-setting followed by a genuine observation: reference the trigger event or signal that prompted the outreach, acknowledge what you understand about their situation, and open with a conversational question rather than a checklist item. The goal of the first three minutes is to establish that this is a conversation between two people working out whether there is a real fit — not a vendor running a script against a qualification form.",
+      },
+      {
+        type: "heading",
+        text: "Reading what they tell you — and what they do not",
+      },
+      {
+        type: "paragraph",
+        text: "Discovery calls reveal as much in what a prospect does not say as in what they do. A prospect who answers 'what prompted you to take this call?' with 'my manager asked me to look into a few options' is telling you the urgency is low and the locus of the decision is elsewhere. A prospect who answers 'we've been struggling with this for 18 months and just had a project stall because of it' is telling you the urgency is real and the pain is felt at senior level. The emotional weight and specificity of their answers are the most reliable guide to whether there is a genuine opportunity — more reliable than any data point you checked before the call.",
+      },
+      {
+        type: "paragraph",
+        text: "Their knowledge of the buying process is equally revealing. A prospect who says 'I have no idea how we would get budget for this' is either the wrong stakeholder or the decision is not real yet. A prospect who says 'we have a Q1 budget cycle and procurement is already looking at this category' is telling you there is a pathway and a timeline. These signals emerge naturally when the questions are well-framed and the SDR is genuinely listening rather than waiting to pitch.",
+      },
+      {
+        type: "callout",
+        text: "The best discovery calls feel like a well-framed consulting conversation rather than a sales interview. The rep's job is to help the prospect articulate a problem they may not have fully defined yet — not to extract CRM fields. Prospects who feel genuinely heard give you more useful information than prospects who feel processed.",
+      },
+      {
+        type: "heading",
+        text: "The commitment question that ends the call cleanly",
+      },
+      {
+        type: "paragraph",
+        text: "How a discovery call ends determines whether it advances the pipeline. Most calls either trail off with 'I'll send you some information' or close with a vague agreement to 'follow up in a few weeks'. Neither creates the necessary clarity about what the next step is or whether there is a real basis for one.",
+      },
+      {
+        type: "paragraph",
+        text: "Before ending the call, one question resets the dynamic: 'Based on what we've discussed, is this something you'd want to take a concrete next step on, or is this more exploratory at this stage?' This is direct, non-pushy, and gives the prospect genuine agency. If the answer is yes, you book the next step then and there. If the answer is 'more exploratory', you have genuinely useful information — either there is a real opportunity to nurture over a longer timeline, or it is not an opportunity at all. In either case, you are not building false pipeline.",
+      },
+      {
+        type: "heading",
+        text: "What to do when a prospect says 'we're just exploring'",
+      },
+      {
+        type: "paragraph",
+        text: "This answer is not automatically a disqualifier, but it requires honest diagnosis. Ask: 'What would make this more than exploratory for you?' A prospect with a real underlying problem will answer this with specifics — a budget cycle, an internal review, a trigger event that has not happened yet. A prospect who was never a genuine opportunity will give a vague non-answer. The distinction is more important than keeping either one in the active pipeline.",
+      },
+      {
+        type: "paragraph",
+        text: "The purpose of a discovery framework is not to close more deals during the discovery call itself. It is to create clear, accurate qualification outcomes at the end of every call, so that what progresses into the active pipeline is there because there is a real basis for it, not because an SDR needed to show a strong meeting count. A well-run discovery process that disqualifies 40% of meetings early is a better outcome than one that advances everything and leaves the AE to discover the problem three months later at proposal stage.",
+      },
+    ],
+  },
+  {
     slug: "trigger-based-prospecting-buying-signals-cold-outreach",
     category: "Sales Development",
     title: "Trigger-Based Prospecting: How to Time Cold Outreach to Buying Signals That Actually Matter",

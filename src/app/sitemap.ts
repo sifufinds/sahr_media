@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "discovery-call-framework-qualify-and-advance",
   "trigger-based-prospecting-buying-signals-cold-outreach",
   "cold-email-deliverability-technical-fixes",
   "construction-bid-no-bid-tender-qualification-framework",
