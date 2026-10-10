@@ -27,6 +27,112 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "multi-threading-b2b-accounts-avoid-single-threaded-deals",
+    category: "Sales Development",
+    title: "Multi-Threading in B2B Sales: Why Single-Threaded Deals Are Your Biggest Hidden Pipeline Risk",
+    excerpt:
+      "Most B2B deals don't die because the prospect says no. They die because your one contact leaves, loses internal support, or goes quiet. Multi-threading is the practice that prevents this — here's how to build it without damaging the relationship you already have.",
+    readTime: "7 min read",
+    date: "10 Oct 2026",
+    color: "#EC4899",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B deals die not because the prospect explicitly says no. They die because your one contact goes quiet after an internal restructure, gets absorbed by a competing priority, leaves for a new job, or simply loses the internal support they need to move a decision forward. The deal sits in the CRM as active, the rep marks it open because there has been no formal objection, and three months later it becomes a disqualification call. This is the single-threaded deal problem, and it affects a larger share of most B2B pipelines than most teams are aware of.",
+      },
+      {
+        type: "heading",
+        text: "What single-threaded means and why it happens",
+      },
+      {
+        type: "paragraph",
+        text: "A single-threaded deal is one where your entire relationship at the prospect organisation runs through one person. That person is typically the first person who responded to outreach, agreed to the discovery call, and showed interest in progressing. They became your champion by default — not because they were the best internal advocate or the actual economic buyer, but because they were the first person who engaged.",
+      },
+      {
+        type: "paragraph",
+        text: "Single-threading happens because it feels efficient. You have a responsive contact, they seem to understand the problem, and widening the conversation to other people feels premature, pushy, or like it might spook the champion you have developed. So the relationship stays narrow and the risk accumulates quietly. The risk becomes visible when that contact changes. A senior hire goes on parental leave. A head of operations moves to a new company. A VP of sales gets replaced. In each case, the deal does not just pause — it typically has to restart from zero, without the institutional memory, relationship equity, or internal sponsorship that the original contact provided.",
+      },
+      {
+        type: "heading",
+        text: "The three stakeholder roles that matter in every B2B deal",
+      },
+      {
+        type: "paragraph",
+        text: "The buying committee for a B2B purchase typically involves more stakeholders than any single contact represents. Understanding the structure of that committee is the first step toward building meaningful multi-threading.",
+      },
+      {
+        type: "list",
+        heading: "Three roles that appear consistently across most B2B deals:",
+        items: [
+          "The economic buyer: the person who ultimately approves the spend. They may not be involved in every conversation, but no deal closes without their sign-off. If you have never had a direct conversation with this person, your deal is one organisational change away from stalling",
+          "The technical or operational evaluator: the person whose team will live with the decision. They are often the most engaged throughout the evaluation and the most likely to surface objections about implementation, integration, or process change. Ignoring them is common and costly",
+          "The internal champion: the person most invested in the outcome. They will advocate for you in rooms you are never in — but if they lose internal support or leave, you lose the deal's internal momentum entirely",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The goal of multi-threading is not to have a relationship with every person at the company. It is to have at least one meaningful touchpoint with each of these three roles before a decision is made.",
+      },
+      {
+        type: "heading",
+        text: "How to introduce yourself to additional stakeholders without damaging the primary relationship",
+      },
+      {
+        type: "paragraph",
+        text: "The instinct is to treat this carefully, and there is good reason for that. A champion who feels bypassed or undermined will become a blocker rather than an advocate. The approach that avoids this is to make widening the relationship feel collaborative rather than political.",
+      },
+      {
+        type: "list",
+        heading: "Three approaches that work in practice:",
+        items: [
+          "The introduction ask: 'As we get closer to a decision, it would be useful to understand the priorities of your operations or finance team as well. Would you be open to a brief call that includes someone from that side?' This frames the request around giving the prospect better service, not around managing your deal risk",
+          "The mutual value angle: prepare a business case summary or ROI analysis that is genuinely useful for the economic buyer's review, and ask your champion to facilitate a brief conversation to walk through it. The deliverable gives both sides a natural reason for the meeting",
+          "The reference-building ask: 'I want to make sure I understand how this would land operationally across your team. Could I have a 20-minute call with the person who would own the implementation side?' Operational contacts are typically easier to access than economic buyers, and building that relationship early creates an additional layer of internal support",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Mapping the buying committee during discovery, not at proposal stage",
+      },
+      {
+        type: "paragraph",
+        text: "Multi-threading is significantly harder to start at the late stages of a deal than at the early ones. The time to understand who else is involved in the decision is during discovery, not during legal review. Introducing yourself to a finance director after the proposal has been sent feels tactical. Doing it after the discovery call, as part of understanding how decisions are made at this company, feels like due diligence.",
+      },
+      {
+        type: "paragraph",
+        text: "The question that opens this up cleanly is one of the most useful questions in a discovery call: 'Who else is likely to be involved in evaluating or approving a decision like this?' Most prospects will answer this honestly in the early stages of a conversation because the question sounds like thorough preparation rather than stakeholder mapping for tactical purposes. The answer gives you three things: who the other relevant stakeholders are, what roles they occupy, and implicitly how centralised or distributed the buying decision actually is.",
+      },
+      {
+        type: "callout",
+        text: "A prospect who names three or four people across different functions is telling you the decision requires committee buy-in. A prospect who says 'just me' is either the genuine decision-maker or is understating the internal alignment required — and the follow-up question 'would anyone else need to weigh in before a decision is formally made?' is worth asking.",
+      },
+      {
+        type: "heading",
+        text: "Using CRM tracking to surface single-threaded risk in pipeline reviews",
+      },
+      {
+        type: "paragraph",
+        text: "A practical way to make multi-threading systematic rather than reactive is to track contact depth as a pipeline metric. For every active opportunity above a certain deal value, require that the CRM records at least two named contacts at the prospect organisation, with at least one being the economic buyer or confirmed decision-maker. Deals where only one contact is recorded after 30 days of active progress should surface in pipeline reviews as an explicit risk flag.",
+      },
+      {
+        type: "paragraph",
+        text: "The question to ask in the review is not 'what is the status of this deal?' but 'what would happen to this deal if your champion was unavailable for the next six weeks?' A deal where the honest answer is 'it would stall completely' is carrying significant structural risk that a standard pipeline stage view will not show. That risk belongs in the forecast weighting, and it belongs in the rep's action plan for the next two weeks.",
+      },
+      {
+        type: "heading",
+        text: "What a properly multi-threaded deal actually looks like",
+      },
+      {
+        type: "paragraph",
+        text: "A deal that has been multi-threaded effectively has several visible characteristics. There are at least two named contacts in the CRM with meaningful interaction history. The economic buyer has been in at least one direct conversation, even if brief. The rep can name the primary concern at each stakeholder level, because they have had separate conversations with each. The internal champion knows the rep has spoken to other people at the company — and is not threatened by it, because the relationship with the champion is strong enough that they see these conversations as supporting their internal case.",
+      },
+      {
+        type: "paragraph",
+        text: "Multi-threading done well makes your champion more confident, not more defensive. They know the rep understands the full landscape of what it takes to win internal approval, and that the conversation is being handled professionally at every level. It is not about managing around your champion. It is about giving them the backup they need to close the deal from the inside. The risk of single-threaded pipeline compounds silently until it does not — and the structural fix is available at discovery stage, if you ask the right questions early enough to act on the answers.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sales-pipeline-velocity-fix",
     category: "Sales Development",
     title: "Sales Pipeline Velocity: Why Most B2B Pipelines Are Broken and How to Fix Them",
