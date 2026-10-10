@@ -27,6 +27,92 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sales-pipeline-velocity-fix",
+    category: "Sales Development",
+    title: "Sales Pipeline Velocity: Why Most B2B Pipelines Are Broken and How to Fix Them",
+    excerpt:
+      "Most B2B sales pipelines tell a flattering story that the numbers underneath don't support. Pipeline velocity is the metric that reveals the real state of your funnel — and the management habit that actually improves it.",
+    readTime: "6 min read",
+    date: "10 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Every B2B sales pipeline tells two stories. The first is the one visible in your CRM: a list of opportunities at various stages, most of them nominally active, collectively adding up to a forecast that justifies current headcount and growth assumptions. The second is the story the pipeline actually tells when you look at how long deals have been sitting, how many are stuck in the same stage they were in last quarter, and how many nominally active opportunities would fail a basic qualification test. The gap between these two stories is where most pipeline management problems live — and why revenue forecasts are consistently off by more than most teams are comfortable acknowledging.",
+      },
+      {
+        type: "heading",
+        text: "What pipeline velocity measures and why it matters",
+      },
+      {
+        type: "paragraph",
+        text: "Pipeline velocity is a single metric that combines four variables: the number of qualified opportunities in your pipeline, your average win rate, your average deal size, and your average sales cycle length. The formula — opportunities × win rate × deal size ÷ sales cycle length — produces a figure that represents the daily revenue your pipeline is generating. More importantly, it immediately reveals which of the four variables is the actual constraint. Most sales leaders assume the problem is deal size or win rate. In practice, the most common culprit is sales cycle length: deals taking far longer to progress than they should because they never had the urgency, stakeholder access, or buying intent required to move.",
+      },
+      {
+        type: "heading",
+        text: "Why your pipeline stage data is probably wrong",
+      },
+      {
+        type: "paragraph",
+        text: "The problem with most CRM pipelines is not that deals are being lost — that's visible and understandable. The problem is that deals are being kept. An opportunity moved to 'Proposal Sent' sits there for three months while the rep marks it active because the prospect hasn't formally said no. A discovery-stage deal from six months ago survives every pipeline review because the rep is optimistic and no one asks the hard questions. Over time, the pipeline fills with dead weight. When the forecast says 120% of target is covered, the actual coverage can be closer to 60%, because a significant share of what looks like live pipeline is made up of opportunities that should have been disqualified months ago.",
+      },
+      {
+        type: "heading",
+        text: "The three categories of stuck deals — and which ones to act on",
+      },
+      {
+        type: "list",
+        heading: "Most stuck deals fall into one of three patterns:",
+        items: [
+          "Time-stalled without activity: deals where no meaningful contact has occurred in 30 or more days. They are either dead or require immediate re-engagement with a specific, new reason to progress — not another 'following up on my last email'",
+          "Progressing but not closing: deals that keep producing follow-up calls without advancing to a decision stage. Typically because there is no internal champion, no defined next step, or no genuine urgency on the prospect's side — and the rep keeps the conversation going rather than forcing a direct qualifying question",
+          "Ghosted post-proposal: prospects who engaged positively through discovery and demo, then went silent. These need a direct disqualification call, not perpetual low-value follow-up on the same thread. Closing them out cleanly is more useful than carrying them as nominal pipeline",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The honest pipeline review question is not 'what is the status of this deal?' but 'what would have to happen for this deal to close in the next 30 days, and is that realistic?' If the answer is 'I'm not sure' or 'they're just slow to respond', that deal's forecast weighting needs revisiting.",
+      },
+      {
+        type: "heading",
+        text: "How to run a pipeline review that creates momentum rather than status updates",
+      },
+      {
+        type: "paragraph",
+        text: "Most pipeline reviews are structured as a manager asking a rep to report on each deal, which produces a defence of each deal's continued presence in the pipeline rather than a genuine assessment of its health. The rep's incentive is to keep opportunities alive because closing them out removes a path to quota. The result is a weekly call that consumes an hour and changes very little. A more productive structure runs the review against three specific questions for each deal: What has materially changed since last week? What is the single thing that would move it to the next stage, and what is stopping that from happening? Does this deal still belong in active pipeline at this stage, or does it belong in a nurture track?",
+      },
+      {
+        type: "paragraph",
+        text: "The cadence matters too. A weekly review that attempts to cover every deal in the full pipeline is too broad to go deep and typically produces surface-level updates. A more effective model runs a focused weekly review on deals in the final two pipeline stages — where decisions are closest and forecast accuracy matters most — and a monthly deep-review on the full pipeline that explicitly asks whether each deal at early and mid-stage still earns its place.",
+      },
+      {
+        type: "heading",
+        text: "The pipeline hygiene actions with the most impact",
+      },
+      {
+        type: "list",
+        items: [
+          "Set a maximum age per stage: any deal that has sat in a single stage beyond a defined threshold — such as 30 days at discovery or 14 days post-proposal — triggers a required action or an automatic review rather than being left to drift",
+          "Require a specific next step for every active deal: not 'follow up next week', but a named date, named contact, and named action that the prospect has explicitly agreed to. A deal without a committed next step is not an active deal",
+          "Create a distinct nurture category for deals that are real but not yet active: this removes dead weight from active pipeline while preserving the relationship for a moment when urgency actually exists",
+          "Review disqualified deals quarterly to identify patterns: a recurring reason for deals stalling at a specific stage is a signal about ICP fit, qualification criteria, or a gap in the sales process that needs fixing upstream",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Connecting pipeline velocity back to upstream lead quality",
+      },
+      {
+        type: "paragraph",
+        text: "The fastest way to improve pipeline velocity is not to push harder on the existing pipeline — it is to fix what enters it. A deal admitted without a confirmed buying trigger, an identified economic buyer, and a realistic decision timeline will always degrade velocity metrics, because it will take longer to either close or disqualify. The pipeline review process described above will catch these deals eventually, but catching them three months in is far more expensive than not admitting them in the first place.",
+      },
+      {
+        type: "paragraph",
+        text: "Pipeline velocity as a metric and pipeline review as a management habit are most valuable when they create an honest feedback loop. When velocity is low, the cause is usually visible: too few genuinely qualified deals, too many that have stalled because the urgency was never real, or a sales cycle that has extended because the right stakeholders were never engaged. When velocity is healthy, it is almost always because deals were admitted to the pipeline with strong criteria, by a qualification process that did its job. Every pipeline management improvement eventually leads back to the same upstream question: how rigorously was this deal qualified before it was called active?",
+      },
+    ],
+  },
+  {
     slug: "discovery-call-framework-qualify-and-advance",
     category: "Sales Development",
     title: "The Discovery Call Framework: How to Structure the First 30 Minutes to Qualify, Engage, and Earn the Next Step",
