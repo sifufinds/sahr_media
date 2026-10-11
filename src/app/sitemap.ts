@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "sdr-to-ae-handoff-qualified-leads",
   "multi-threading-b2b-accounts-avoid-single-threaded-deals",
   "b2b-sales-pipeline-velocity-fix",
   "discovery-call-framework-qualify-and-advance",

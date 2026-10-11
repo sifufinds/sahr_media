@@ -27,6 +27,116 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "sdr-to-ae-handoff-qualified-leads",
+    category: "Sales Development",
+    title: "The SDR-to-AE Handoff: How to Stop Qualified Leads Dying Between Teams",
+    excerpt:
+      "Most B2B sales teams invest heavily in generating qualified leads and separately in closing them. Almost none have a rigorous process for the transition between the two — and that gap costs more than most teams measure.",
+    readTime: "5 min read",
+    date: "11 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The SDR pipeline review rarely mentions the moment a deal leaves the SDR's hands. The AE pipeline review rarely asks how it arrived. The space between those two conversations is where a meaningful share of genuinely qualified opportunities quietly disappear — not because the prospect said no, and not because the AE failed to close, but because the transition between them was handled poorly enough that momentum was lost before the AE had a chance to build it.",
+      },
+      {
+        type: "paragraph",
+        text: "The SDR-to-AE handoff is not a new problem and it is not a mystery. It is a structural gap that most revenue teams live with because it falls between two separately managed functions, each measured by different metrics and incentivised toward different outcomes. SDRs are measured on meetings booked. AEs are measured on deals closed. Neither metric captures what happens in the transition between them, and so the transition rarely gets the rigour it deserves.",
+      },
+      {
+        type: "heading",
+        text: "What a bad handoff actually looks like",
+      },
+      {
+        type: "paragraph",
+        text: "A bad handoff has recognisable symptoms. The AE walks into a first meeting with no context beyond a name, a company, and a calendar invite. The prospect refers to a conversation they had with the SDR that the AE knows nothing about. The AE asks questions already covered in the discovery call, prompting the prospect to wonder why they are repeating themselves. The deal starts at a disadvantage before the first real conversation has happened.",
+      },
+      {
+        type: "paragraph",
+        text: "The most common single cause is not laziness — it is a missing process. When there is no agreed format for what information transfers with a lead, the transfer quality depends entirely on the individual SDR's habits, the relationship they have with the AE, and how much time they have on a given day. All three vary, and so does the handoff quality. The result is that the consistency of your handoff process correlates more with SDR personality than with the quality of the lead.",
+      },
+      {
+        type: "heading",
+        text: "The five things an AE needs before a handoff is complete",
+      },
+      {
+        type: "paragraph",
+        text: "Not every lead requires the same depth of transfer. A small, fast-moving inbound request requires less than a large, complex outbound opportunity. But as a minimum, an AE receiving any qualified lead should have the following before meeting the prospect:",
+      },
+      {
+        type: "list",
+        items: [
+          "A summary of the business problem in the prospect's own words — not a CRM field label, but the actual framing they used when describing the issue in discovery",
+          "The name and role of the economic buyer, or the clearest available answer to who will actually make or approve a decision",
+          "The trigger event or reason the prospect engaged now — what changed or what happened to make this a current priority rather than a background one",
+          "Any objections, concerns, or sensitivities surfaced in the SDR conversations that the AE needs to be aware of before they start — a pricing concern raised informally, a previous bad experience with a competitor, or an internal political dynamic",
+          "A clear statement of what has been promised or implied — if the SDR committed to a specific demo structure, a particular use case focus, or a follow-up resource, the AE needs to know before the meeting starts",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires a lengthy document. Most of it can be captured in five to eight structured sentences if the SDR was listening carefully in discovery. The constraint is not time — it is whether the expectation exists that this information will be recorded and transferred.",
+      },
+      {
+        type: "heading",
+        text: "Standardising the handoff with a lead transfer note",
+      },
+      {
+        type: "paragraph",
+        text: "The most practical intervention for most sales teams is a mandatory lead transfer note attached to every opportunity before it leaves the SDR queue. The format matters less than the fact of having one. A shared template, even a short one, creates a consistent baseline and makes gaps visible. If an SDR cannot fill in the trigger event field, that is a signal that discovery did not surface one — which is either a prospect quality issue or a qualification gap that warrants a coaching conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "The transfer note also creates accountability in both directions. AEs who receive a thorough handoff note have less reason to claim they were unprepared. SDRs who know their notes will be read by the AE, and potentially reviewed in deal reviews, become more careful in their discovery conversations. The visibility the note creates changes the behaviour that produces it.",
+      },
+      {
+        type: "heading",
+        text: "The handoff call: five minutes before the first AE meeting",
+      },
+      {
+        type: "paragraph",
+        text: "For opportunities above a certain deal size or complexity threshold, a brief synchronous handoff call between the SDR and AE before the first AE meeting is worth mandating. The goal is not to repeat everything in the transfer note. It is to answer one question: what should I know about this person that is not in the notes?",
+      },
+      {
+        type: "paragraph",
+        text: "That question surfaces the things that do not fit comfortably in a CRM field — the prospect's communication style, the political context around the buying decision, the level of genuine urgency versus the level of stated urgency, or a concern raised in passing that the SDR noted but did not formally record. These are the details that experienced SDRs carry in their heads and that experienced AEs need to navigate a first conversation effectively.",
+      },
+      {
+        type: "callout",
+        text: "For deals with longer sales cycles, keeping the SDR briefly in the loop during early AE conversations costs very little and maintains continuity for the prospect, who has already built a working relationship with one person on your team. An abrupt disappearance of the SDR after booking is noticeable, and not in a positive way.",
+      },
+      {
+        type: "heading",
+        text: "How to measure handoff quality as a team metric",
+      },
+      {
+        type: "paragraph",
+        text: "Handoff quality is measurable, but most teams do not measure it. The proxy metric most worth tracking is the no-show and early-stall rate for first AE meetings: the share of booked meetings that either do not happen or progress no further after the first conversation. A high rate at this specific stage, relative to later-stage drop-off, points to a handoff or qualification problem rather than a closing problem. It tells you the deal was either not ready to advance or the AE arrived without the context to advance it.",
+      },
+      {
+        type: "paragraph",
+        text: "A second useful proxy is the rate at which AEs report going into first meetings without adequate context, tracked informally through deal review conversations. If AEs regularly describe learning something fundamental about the prospect during their first meeting that they should have known before it, the handoff process is not functioning. The symptom is visible; it just rarely gets attributed to the right cause.",
+      },
+      {
+        type: "heading",
+        text: "What to do when handoffs break down",
+      },
+      {
+        type: "paragraph",
+        text: "Handoff breakdown shows up as a pattern before it shows up as a single failed deal. Deals that stall or fall out after the first AE meeting at an above-average rate are worth investigating upstream. Not every loss is a handoff failure — but if the pattern concentrates in specific SDRs, specific lead sources, or specific deal types, the transfer process is the right place to look first.",
+      },
+      {
+        type: "paragraph",
+        text: "The diagnostic is straightforward: compare the transfer notes on the last five deals that progressed smoothly after handoff with the last five that stalled in the first AE conversation. The difference between them is usually visible without much analysis. A consistently thin handoff note tells you the SDR did not have the information to transfer. A missing handoff note tells you the process expectation was not clear or was not enforced. A thorough note on a deal that still stalled tells you the problem is elsewhere — qualification, AE execution, or genuine fit issues that emerged in a real conversation. Each answer points to a different fix.",
+      },
+      {
+        type: "paragraph",
+        text: "A handoff process that consistently works is not a complex system. It is a shared template, a clear expectation about when it gets completed, and a short synchronous conversation for opportunities that warrant it. The return on that investment runs across every qualified lead the team generates from that point forward — which makes it one of the more underpriced improvements available in a B2B sales operation where the top and bottom of funnel already receive most of the attention.",
+      },
+    ],
+  },
+  {
     slug: "multi-threading-b2b-accounts-avoid-single-threaded-deals",
     category: "Sales Development",
     title: "Multi-Threading in B2B Sales: Why Single-Threaded Deals Are Your Biggest Hidden Pipeline Risk",
