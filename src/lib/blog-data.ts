@@ -27,6 +27,134 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "re-engaging-dormant-leads-cold-prospects",
+    category: "Sales Development",
+    title: "Re-Engaging Dormant Leads: How to Turn a Cold Prospect List Into Active Pipeline",
+    excerpt:
+      "Most B2B sales teams build up a backlog of leads that went quiet after initial contact. A structured re-engagement campaign can recover a meaningful share of that pipeline — if it's run correctly.",
+    readTime: "6 min read",
+    date: "11 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Every B2B sales team accumulates a dormant lead backlog. Prospects who engaged initially, exchanged a few messages, requested information, and then went quiet for 60, 90, or 180 days. They sit in the CRM marked active because no one formally disqualified them, or marked as closed-lost because someone gave up without a structured follow-up. In both cases, a meaningful share of those contacts could re-engage if approached at the right moment with the right message. Re-engagement campaigns are one of the most efficient revenue recovery exercises available in B2B sales, because the relationship cost of the first contact has already been paid.",
+      },
+      {
+        type: "heading",
+        text: "What makes a dormant lead different from a dead one",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction matters because treating them identically is where most re-engagement efforts fail. A dormant lead is a contact who had genuine fit with your ICP, showed some form of initial engagement — a reply, a meeting, a content download, a referral from within the organisation — and then became unresponsive. The reason for the silence is usually one of a small number of patterns: a competing internal priority displaced the project, a budget cycle ended before a decision was made, the internal champion lost organisational support, or the timing simply wasn't right and the evaluation was quietly shelved.",
+      },
+      {
+        type: "paragraph",
+        text: "A dead lead, by contrast, is one where the prospect explicitly declined, showed no qualifying criteria in the first place, or where the fundamental fit has disappeared — a company acquired, closed, or pivoted away from the problem you solve. Sending re-engagement outreach to a genuinely dead lead is wasted effort. A proper dormant versus dead triage before running any campaign is the step most teams skip and the reason most re-engagement campaigns produce poor results.",
+      },
+      {
+        type: "heading",
+        text: "When to run a re-engagement campaign",
+      },
+      {
+        type: "paragraph",
+        text: "Timing re-engagement is not simply a question of how long a lead has been quiet. A dormant lead touched 90 days ago may still have the same internal situation that produced the silence. What creates genuine re-engagement opportunity is a change in context — either on the prospect's side or in the relevance of what you are offering.",
+      },
+      {
+        type: "list",
+        heading: "The triggers that justify re-engagement outreach:",
+        items: [
+          "A leadership change at the prospect company — a new CRO, VP of Sales, or Procurement Director restarts the evaluation window and creates genuine openness to new conversations",
+          "A funding round or investment announcement that signals active growth investment",
+          "A budget cycle reset — Q1 for most UK businesses, or post-summer for construction sector procurement",
+          "A meaningful development on your side: a new case study, a product change, or a new outcome from a comparable client in their sector",
+          "An industry development, regulatory change, or market event that makes the original problem more acute than it was when the lead first went cold",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Without one of these triggers, re-engagement outreach reads as following up again — which is what it is, and which prospects recognise immediately. A message that says 'I wanted to reconnect' with no new context gives the prospect no new reason to respond.",
+      },
+      {
+        type: "heading",
+        text: "Segmenting your dormant list before you contact anyone",
+      },
+      {
+        type: "paragraph",
+        text: "Not all dormant leads warrant the same treatment. A three-tier segmentation model works for most B2B pipelines and prevents a re-engagement campaign from becoming a spray-and-pray sequence on an old contact list.",
+      },
+      {
+        type: "list",
+        items: [
+          "Tier 1 — high-fit, prior engagement: contacts who reached discovery or proposal stage before going quiet, who clearly match your ICP, and where there is a plausible explanation for the silence. These warrant a personalised, direct re-engagement message from a senior person — not another sequence email",
+          "Tier 2 — medium engagement: contacts who replied and showed interest but never progressed beyond early qualification. These can be addressed with a lighter, trigger-led message; the goal is to surface whether the original context has changed",
+          "Tier 3 — minimal engagement: contacts who opened but never replied, or replied briefly once. These belong in a low-frequency nurture track rather than active re-engagement — a single relevant outreach once a quarter is appropriate; more than that crosses into noise",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What to say — the re-engagement message framework",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure in re-engagement outreach is treating it as a follow-up to the original pitch. The prospect has already seen that pitch. Sending a variation of it confirms their original decision to go quiet. What earns a response is a message that acknowledges the gap, provides a genuine current reason for re-contact, and makes a low-friction ask.",
+      },
+      {
+        type: "list",
+        heading: "A structure that works consistently:",
+        items: [
+          "Acknowledge the silence briefly and without apology — 'We have not spoken since [timeframe]' is a factual opener that respects the prospect's time and skips the performative 'just checking in'",
+          "Provide a specific, current reason for the outreach — the trigger that makes this contact timely rather than persistent",
+          "Make a narrow ask — not 'would you like to revisit the conversation?' but a specific question that gives them something concrete to respond to or decline",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The message should be shorter than any original outreach. A prospect who has been quiet for three months does not need to be re-pitched. They need a reason to re-engage, and that reason should be visible within the first two sentences.",
+      },
+      {
+        type: "callout",
+        text: "The goal of a re-engagement message is not to restart the original conversation from the beginning. It is to find out whether the circumstances that caused the silence have changed — and a single direct question does that more effectively than any amount of follow-up copy.",
+      },
+      {
+        type: "heading",
+        text: "The question that reactivates dormant deals more reliably than any pitch",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective re-engagement prompt is also the most direct: 'Is [the original problem] still something you're actively looking to address, or has it moved down the priority list for now?' This question does two things simultaneously. It gives the prospect a clean, non-awkward exit if the answer is no — and a prospect who says 'it's moved down the list for now' is not a dead lead. They have told you the problem is still real, the timing is not right, and there is an implicit invitation to return when it is.",
+      },
+      {
+        type: "paragraph",
+        text: "It also surfaces genuine re-engagement when it exists. A prospect who replies 'actually, we're looking at this again in Q1' is handing you a qualified pipeline entry in a single message. That outcome requires one direct question rather than a rebuilt nurture sequence, and the contrast in efficiency with a generic follow-up sequence is considerable.",
+      },
+      {
+        type: "heading",
+        text: "What to do when re-engagement succeeds",
+      },
+      {
+        type: "paragraph",
+        text: "A re-engaged lead is not the same as a new lead. The prior engagement history is an asset: the prospect already knows who you are, the conversation has existing context, and any objections or concerns surfaced previously are still live until shown otherwise. The rep handling a re-engaged lead should review the full prior conversation before the first call, treat it as a continuation rather than a restart, and address whatever caused the original stall early in the conversation rather than waiting for it to surface again at the same point.",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake after a successful re-engagement is treating the prospect as fully warmed up and moving straight to a demo or proposal. The gap matters. Budget situations shift. Internal priorities evolve. A brief qualification check — confirming the original problem is still active, the decision timeline, and who is still involved — takes five minutes and prevents a re-engaged deal from stalling again for the same reasons.",
+      },
+      {
+        type: "heading",
+        text: "Tracking re-engagement as a distinct pipeline source",
+      },
+      {
+        type: "paragraph",
+        text: "Re-engaged leads behave differently from new leads in pipeline. They typically move faster through early stages because baseline qualification has already happened, but they often carry unresolved concerns from the original conversation that slow late stages. Tracking them as a separate cohort — tagged by source in your CRM — gives you meaningful data on conversion rates, cycle length, and deal quality relative to your new-business pipeline.",
+      },
+      {
+        type: "paragraph",
+        text: "Most teams that run this analysis find that re-engaged leads convert at a higher rate than equivalent cold outreach, at lower cost per opportunity, because the cost of first contact was already paid in a previous campaign. The practical implication is that the dormant lead backlog is a standing asset rather than a historical archive, and treating it as such with a quarterly or semi-annual structured re-engagement process is one of the more overlooked efficiency levers available in a B2B sales operation.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-objection-handling",
     category: "Sales Development",
     title: "Objection Handling in B2B Cold Outreach: How to Respond When Prospects Push Back",
