@@ -27,6 +27,106 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "post-proposal-follow-up-b2b",
+    category: "Sales Development",
+    title: "The Post-Proposal Follow-Up: How to Chase a Decision Without Killing the Deal",
+    excerpt:
+      "Most proposals don't lose because the prospect said no — they stall because the follow-up process becomes either too aggressive or too passive. Here's the framework for navigating the post-proposal phase without damaging the relationship.",
+    readTime: "7 min read",
+    date: "12 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "The proposal is submitted. The prospect said it 'looks great' and they'll 'come back to you.' Two weeks later, nothing. The instinct for most reps is to send a check-in email. The instinct for the prospect is to ignore it, because they have three other proposals, a competing internal priority, and no particular urgency to make a decision today. The post-proposal phase is where a meaningful share of well-qualified deals quietly dissolve — not because the prospect chose a competitor, but because the follow-up process on both sides broke down and the conversation never had a natural way to close.",
+      },
+      {
+        type: "heading",
+        text: "Why proposals go dark",
+      },
+      {
+        type: "paragraph",
+        text: "There are three common causes. First, the champion who requested the proposal has lost internal support or is waiting for sign-off from above. Second, a competing priority has displaced the evaluation — budget, resource, or a leadership change has shifted attention elsewhere. Third, something in the proposal created friction: a pricing concern, a scope ambiguity, or a term the prospect has not raised openly, and they are avoiding the conversation rather than addressing it directly.",
+      },
+      {
+        type: "paragraph",
+        text: "Each requires a different response, and treating all three as a single 'follow-up' problem produces a single undifferentiated follow-up that works for none of them. The rep who sends 'just checking in' after two weeks of silence is not addressing the actual cause of the silence. They are generating noise in an inbox that already knows the proposal exists.",
+      },
+      {
+        type: "heading",
+        text: "The first follow-up: five days, not fourteen",
+      },
+      {
+        type: "paragraph",
+        text: "The timing of the first post-proposal contact matters more than most reps acknowledge. Waiting two weeks signals that you are not particularly urgent about the outcome. Following up after five business days — long enough to be respectful, short enough to maintain momentum — is a more effective working default for most B2B deals.",
+      },
+      {
+        type: "paragraph",
+        text: "The first follow-up should have a specific purpose, not a general check-in. Either answer a question you anticipated the prospect might have, add a piece of supporting information you intentionally held back, or confirm a detail that was not in the original document. Something like: 'One thing I should have included in the proposal was our typical onboarding timeline for a team at your stage — I wanted to share that in case it affects your evaluation.' This adds value and creates a natural reason to re-open the conversation without pressure.",
+      },
+      {
+        type: "heading",
+        text: "The question that tells you where you actually stand",
+      },
+      {
+        type: "paragraph",
+        text: "The follow-up question that most reliably surfaces the real state of a post-proposal conversation is not 'what do you think of the proposal?' It is 'what's the process from here to a decision?' A prospect who answers this concretely — 'we're presenting options at the end of the month and expect a decision within two weeks of that' — is still an active deal. A prospect who gives a vague answer like 'we'll know more once we get through a few things internally' is signalling that the internal sponsorship is uncertain, the timeline is not real, or something has changed that they have not said directly.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction matters because the two situations call for different next actions. An active deal needs patience, relevant support, and a clear point of contact. A deal with no defined process needs a direct conversation about what has shifted since the proposal was submitted — not another version of the same follow-up, but a genuine question about whether circumstances have changed.",
+      },
+      {
+        type: "heading",
+        text: "Re-engaging a champion who has gone quiet",
+      },
+      {
+        type: "paragraph",
+        text: "When the person who requested the proposal has gone silent but the deal is not formally closed, the most effective single action is a brief, personal note to the champion that acknowledges the silence without making it awkward. Not another reply to the main proposal thread, but a direct message that creates space for an honest answer.",
+      },
+      {
+        type: "callout",
+        text: "'I know these decisions take time, and I'm not trying to pressure you. I just want to understand where things stand — whether this is still being actively considered, or whether circumstances have changed since we submitted. Either answer is useful.' This message works because it removes pressure, acknowledges the real dynamics of a buying committee, and gives the prospect a clean way to communicate the truth rather than continuing to avoid the conversation.",
+      },
+      {
+        type: "heading",
+        text: "Using the comparison window to your advantage",
+      },
+      {
+        type: "paragraph",
+        text: "Most proposals sit alongside two or three others. The prospect is making a relative decision, and the post-proposal window is the last opportunity to shape that comparison before it closes. Not by underselling competitors — you know nothing reliable about what they submitted — but by deepening the case for your own approach with something that was not in the original document.",
+      },
+      {
+        type: "paragraph",
+        text: "A well-timed addition during the review period — a relevant reference from a comparable client, a concise answer to the objection most likely to separate you from alternatives, or a case study that closely mirrors the prospect's situation — creates incremental persuasion without the appearance of desperation. What does not work is re-sending the same pitch. A prospect reviewing a proposal has already processed the core argument. Another version of it reads as noise.",
+      },
+      {
+        type: "heading",
+        text: "When to call it and how to close cleanly",
+      },
+      {
+        type: "paragraph",
+        text: "There is a point at which continuing to follow up on a stalled proposal costs more in credibility and time than the potential value of the deal. That point is typically reached after two or three substantive follow-up attempts with no meaningful response and no clear signal of an active evaluation. The right move is not a final aggressive push, but a graceful close that preserves the relationship and leaves the door genuinely open.",
+      },
+      {
+        type: "paragraph",
+        text: "'I don't want to keep taking up your time if the timing has moved on. If this is something you'd want to revisit when the circumstances are right, I'm happy to reconnect then. I'll leave it with you.' This message accomplishes two things. It removes pressure, which often produces a real response — a clarification of what has changed, a timeline for reconnecting, or sometimes a direct re-engagement. And if the prospect remains silent, it closes the conversation professionally rather than letting the deal decay indefinitely in active pipeline.",
+      },
+      {
+        type: "heading",
+        text: "Construction versus SaaS: different decision timelines",
+      },
+      {
+        type: "paragraph",
+        text: "The post-proposal follow-up cadence differs significantly between sectors. A SaaS proposal for a mid-market tool typically has a decision timeline of two to four weeks — the evaluation is usually one or two stakeholders, the price is relatively modest, and the internal process moves quickly. A construction tender or large professional services proposal can have a formal decision timeline of 60 to 120 days, with board approval, procurement committee review, and a structured clarification process built in. Applying the same follow-up frequency to both produces either an aggressive SaaS cadence on a construction client who finds weekly check-ins inappropriate, or a passive construction cadence on a SaaS prospect who has already moved on.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical fix is to ask at the point of submission: 'What is your expected decision timeline, and how would you prefer we stay in touch in the meantime?' Most prospects will tell you, and a rep who follows the schedule the prospect themselves stated has standing to contact them on that basis without it feeling like pressure. The follow-up becomes expected rather than intrusive, which is a materially different dynamic to work from.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-calling-opening-framework",
     category: "Sales Development",
     title: "B2B Cold Calling: The Opening Framework That Earns Thirty More Seconds",
