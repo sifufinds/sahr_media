@@ -27,6 +27,114 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-calling-opening-framework",
+    category: "Sales Development",
+    title: "B2B Cold Calling: The Opening Framework That Earns Thirty More Seconds",
+    excerpt:
+      "Most SDRs treat cold calling as a volume game. The ones consistently booking meetings treat it as a conversation game — and the difference starts with how they architect the first twenty seconds.",
+    readTime: "7 min read",
+    date: "12 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Cold calling has been declared dead every year for the past decade. It keeps producing meetings. The SDR teams that have written it off have typically done so after running a volume-based approach — dialling the same list repeatedly, using the same opener, generating a low connection rate, and concluding that the channel doesn't work. The teams consistently booking meetings by phone are not making more calls. They are using a different opening architecture, a clearer understanding of what the first twenty seconds of a cold call actually needs to accomplish, and a more honest calibration of when phone fits better than email.",
+      },
+      {
+        type: "heading",
+        text: "What the first twenty seconds of a cold call actually have to do",
+      },
+      {
+        type: "paragraph",
+        text: "Most cold call openers try to do too much. They introduce the company, describe the product, reference a client, and ask for a meeting before the prospect has had a chance to form any impression beyond 'this is a sales call I didn't ask for.' The result is a polite interruption, a quick 'I'm a bit busy right now', and a disconnection.",
+      },
+      {
+        type: "paragraph",
+        text: "The only job of the opening is to earn the next thirty seconds. Nothing more. A prospect who gives you thirty additional seconds will usually give you sixty more if you use them well. The architecture of a cold call opener should be built entirely around earning that first extension — not around communicating your value proposition in full, not around a specific ask, and not around a commitment. Everything before that extension is still a gamble. Build for the extension first.",
+      },
+      {
+        type: "heading",
+        text: "The three-part structure that earns more time",
+      },
+      {
+        type: "paragraph",
+        text: "The opening structure that consistently performs in B2B cold outreach has three components: a pattern interrupt, a relevant context signal, and a low-pressure question. The sequence matters.",
+      },
+      {
+        type: "list",
+        items: [
+          "Pattern interrupt: something that doesn't sound like a standard sales call opener. The question 'Is this a good time?' is now so recognisable as a cold call preamble that it triggers an automatic 'not really' response. A more effective alternative is to state your purpose directly before asking anything: 'Hi [Name], I'll be upfront — this is a cold call. I'll keep it brief.' That transparency disarms a meaningful share of prospects who are braced for spin. Honesty is a pattern interrupt when the default is a pitch.",
+          "Relevant context signal: a single specific observation about the prospect's company or role that demonstrates you did some research. Not a compliment, not a generic reference to their industry, but something concrete: 'I saw you recently expanded your SDR team and that you're running outbound into [sector].' This takes ten seconds and immediately signals the call is targeted. Prospects who believe the contact is specific respond differently from those who assume they are one of five hundred calls going out today.",
+          "Low-pressure question: not 'do you have a few minutes?' because the honest answer is usually no and you have handed them an easy exit. Instead, a question that advances qualification while keeping the conversation open: 'Is [specific problem] something you're actively trying to address at the moment, or is it fairly settled?' The question respects their time by having a genuine exit built in — if the answer is 'settled', you get clean qualification data — and it creates real dialogue if the answer is 'actually, it's a live issue.'",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Handling the 'I'm busy' interruption before your opening is complete",
+      },
+      {
+        type: "paragraph",
+        text: "Every SDR team knows this version: you get three words into your opener and the prospect says 'I'm actually really busy right now.' The instinct is to apologise and ask for a callback time, which typically produces a nominal time slot and a no-show. A more effective response is to treat the interruption as data, not as a rejection.",
+      },
+      {
+        type: "paragraph",
+        text: "The short response that consistently produces real callbacks: 'Completely understand — I'll be thirty seconds. If it's not relevant, I'll let you go.' Then move directly to the context signal and the qualifying question. The prospect has implicitly agreed to thirty more seconds. Use them efficiently and respect the boundary. A prospect who feels their time was genuinely respected is far more likely to agree to a ten-minute call than one who was talked over.",
+      },
+      {
+        type: "heading",
+        text: "What to do when you get past the opener",
+      },
+      {
+        type: "paragraph",
+        text: "Getting past the opener doesn't mean you've booked a meeting. It means you've earned the right to a qualifying conversation. The mistake SDRs make at this point is treating the additional time as a green light to pitch. The better use of that window is qualification: confirm the problem space is real for this person, identify whether they are the right stakeholder, and surface enough context to know whether a follow-up conversation would be valuable for both sides.",
+      },
+      {
+        type: "paragraph",
+        text: "The qualification questions that work on a cold call are shorter than their email equivalents and framed more directly: 'How are you handling [problem] currently?' 'Is that something you'd be looking to change, or is it working well enough?' 'Who else typically gets involved in decisions like that at your company?' These are conversational, not interrogative, and they gather the same qualification information that a discovery email might take three exchanges to surface.",
+      },
+      {
+        type: "callout",
+        text: "The transition from qualifying question to meeting ask is where most cold calls stall. The bridge that works: 'Based on what you've said, it sounds like this is worth a proper 15-minute conversation — I can be flexible on timing this week or next. Does that make sense?' A specific, short ask for a specific, short meeting is far easier to say yes to than a request for a 'full discovery call'.",
+      },
+      {
+        type: "heading",
+        text: "The cadence position for phone touches",
+      },
+      {
+        type: "paragraph",
+        text: "Cold calls don't work best as the first contact in a sequence. They work best as the third or fourth touch — after an initial email and a LinkedIn interaction have established enough context that the call is not, from the prospect's perspective, entirely cold. A prospect who has received a relevant email and a LinkedIn connection request from the same person is meaningfully more receptive to a call than one who has had no prior contact at all. The name recognition alone changes the opening dynamic.",
+      },
+      {
+        type: "paragraph",
+        text: "The exception is a high-fit prospect with a strong trigger event: a leadership change, a funding announcement, or in the construction sector, a planning approval or project start that creates an urgent window. In those cases, a well-timed phone call as the first contact, referencing the specific trigger directly, can outperform a carefully sequenced email campaign, because the urgency context is real and the relevance is immediate rather than implied.",
+      },
+      {
+        type: "heading",
+        text: "Construction versus SaaS: different phone strategies",
+      },
+      {
+        type: "paragraph",
+        text: "The same structural differences that shape email cadence design apply to phone outreach. SaaS prospects — typically mid-level to senior managers in growth-focused companies — tend to be reachable by phone and, when the context is strong, responsive to direct outreach. A concise, well-researched cold call to a VP of Sales at a Series B company can convert directly from cold call to booked demo in a single exchange.",
+      },
+      {
+        type: "paragraph",
+        text: "Construction industry contacts — development directors, procurement managers, site directors — operate on longer relationship timelines and are considerably more guarded about unsolicited commercial calls. The phone is most effective here as a warm touch following prior email or LinkedIn contact, rather than as a cold opener. A call that references a prior email and a specific project the caller knows about is a relationship touch. A cold call with no prior context to a site director mid-project is, in most cases, the wrong use of the channel. Getting the timing and context right matters more than volume.",
+      },
+      {
+        type: "heading",
+        text: "Reading call data to improve the approach",
+      },
+      {
+        type: "paragraph",
+        text: "Most SDR teams track call outcomes at a surface level — connected, not connected, voicemail. The more useful diagnostic data lives one level deeper: for connected calls, how far into the conversation did the prospect disengage? A consistent pattern of calls ending at the opener stage suggests the context signal is not landing, the question is too aggressive, or the timing is off. A pattern of calls that progress through qualification but never result in a meeting ask suggests the transition from conversation to commitment is the weak point — not the opening.",
+      },
+      {
+        type: "paragraph",
+        text: "Brief call notes — even a single line per connected outcome — create the data set to run this analysis. Without it, the feedback loop is absent and the SDR keeps refining the opener while the actual constraint is elsewhere in the call architecture. The same principle that applies to reading reply patterns in email sequences applies here: the pattern across a hundred calls tells you more than the outcome of any individual one.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outreach-cadence-design",
     category: "Sales Development",
     title: "Outreach Cadence Design: How Many Touches, Which Channels, and How Far Apart",
