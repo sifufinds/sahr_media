@@ -27,6 +27,135 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outreach-cadence-design",
+    category: "Sales Development",
+    title: "Outreach Cadence Design: How Many Touches, Which Channels, and How Far Apart",
+    excerpt:
+      "Most B2B teams have sequences, but few have thought carefully about the architecture behind them — how long to run a cadence, which channels to use at each step, and why spacing matters as much as copy.",
+    readTime: "7 min read",
+    date: "12 Oct 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most discussions of B2B outreach focus on what to say. Fewer address the structural question underneath those messages: how many contact attempts to make, through which channels, and with what timing between each step. These architectural decisions — collectively the outreach cadence — shape whether a sequence builds momentum or erodes it. A well-written email in a poorly structured cadence underperforms. A sequence built on clear architecture, with each step serving a defined purpose, consistently outperforms one assembled without that thinking, regardless of the quality of any individual message.",
+      },
+      {
+        type: "heading",
+        text: "What a cadence is, and what it is not",
+      },
+      {
+        type: "paragraph",
+        text: "A cadence is a defined sequence of outreach steps with intentional timing, deliberate channel selection, and a specific purpose for each step. It is not a series of follow-up messages sent whenever someone remembers to send them. The distinction matters because the value of a cadence lives in its architecture: each step should build on the previous one, serve a role no other step already fills, and have a defined next action if it produces no reply. A collection of follow-ups without this structure is not a cadence. It is just email.",
+      },
+      {
+        type: "heading",
+        text: "How long a cadence should run",
+      },
+      {
+        type: "paragraph",
+        text: "The right cadence length depends on your sales cycle and the nature of your target audience. For most B2B outbound — mid-market and enterprise targets with defined buying processes — a sequence of eight to twelve touches spread across three to four weeks is a commonly effective working range. Too short, and you exit before the prospect had a realistic window to engage. Too long, and the later steps carry diminishing value and begin to read as persistence without purpose.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction sector outreach, where buying windows are longer and decisions involve more stakeholders, a lower-frequency sequence spread over 60 to 90 days often produces better results than a compressed sequence that applies volume pressure in a short window. The construction market rewards persistence over time, not intensity in a three-week sprint.",
+      },
+      {
+        type: "heading",
+        text: "Which channels to use and in what order",
+      },
+      {
+        type: "paragraph",
+        text: "Multi-channel cadences consistently outperform single-channel ones — not because more channels mean more noise, but because different prospects pay attention on different platforms at different times. Email, LinkedIn, phone, and voicemail each reach the same person through different contexts. The goal is not to contact them everywhere at once. It is to create a coherent presence across the channels they actually use.",
+      },
+      {
+        type: "list",
+        heading: "A working channel order for most B2B outbound:",
+        items: [
+          "Start with email as the primary channel: it is asynchronous, searchable, and creates a record the prospect can return to on their own schedule",
+          "Use LinkedIn as a warm-up layer before or alongside email: a connection request sent a few days before the first email means your name is not entirely unfamiliar when the message arrives",
+          "Introduce phone on the third or fourth step: calling someone who has received two relevant emails is materially different from calling cold",
+          "Voicemail at step five or six provides context for a follow-up email and signals genuine effort without requiring an immediate response",
+          "Use a final break-up email at the end of the sequence that closes the outreach cleanly and leaves the door open without pressure",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The order matters. Hitting someone with an email, a LinkedIn request, and a phone call within 48 hours creates pressure rather than familiarity. Spacing matters as much as sequence.",
+      },
+      {
+        type: "heading",
+        text: "The spacing logic between steps",
+      },
+      {
+        type: "paragraph",
+        text: "Spacing decisions are often arbitrary in practice — three days between every step because someone configured it that way. A more useful framework is to match the spacing to the context of the previous step. After an opening email, two to three days gives the prospect time to read and consider without the reply being buried under new correspondence. After a phone call that reached voicemail, a same-day or next-day email that references the call creates continuity. After a LinkedIn connection request that was accepted, a 24-hour pause before a message preserves the social norm of not immediately converting a new connection into a pitch.",
+      },
+      {
+        type: "paragraph",
+        text: "The general principle: compress spacing around related steps that form a natural unit — a phone call followed immediately by an email referencing it — and extend spacing between thematic arcs in the sequence, such as the initial approach versus the value-add step versus the final ask. A cadence with identical three-day gaps throughout treats all steps as equivalent, which they are not.",
+      },
+      {
+        type: "heading",
+        text: "The role of each step in the sequence",
+      },
+      {
+        type: "paragraph",
+        text: "Each step in a well-designed cadence should serve a distinct purpose. If two consecutive steps are functionally identical — both making the same value proposition, both asking for the same meeting — the cadence will feel repetitive to a prospect who reads them. The most effective sequences run through a series of distinct lenses rather than repeating the same ask in different words.",
+      },
+      {
+        type: "list",
+        heading: "A step-by-step purpose map for an eight-step cadence:",
+        items: [
+          "Step 1 (Opening): establish why you are reaching out to this specific person now, with a single clear ask",
+          "Step 2 (Value): add something concrete — a relevant case study, a specific insight, or content that demonstrates you understand their context",
+          "Step 3 (Social proof): a brief reference to a comparable company you have worked with, framed as context rather than name-dropping",
+          "Step 4 (Direct): a shorter, more direct message that asks plainly whether this is worth a 20-minute conversation",
+          "Step 5 (Perspective shift): approach from a different angle — a sector development, a risk framing, or a different way of describing the underlying problem",
+          "Step 6 (Phone + follow-up email): a call touch followed by a short email that references the call and reiterates the ask",
+          "Step 7 (Low-friction check-in): a brief message that acknowledges the silence and offers an easy exit or a clear next step",
+          "Step 8 (Break-up): a short message stating you will not follow up further, with a clean closing line that leaves the relationship intact",
+        ],
+      },
+      {
+        type: "callout",
+        text: "A break-up email is not a closing formality. Done well, it is often the message that generates a reply — because a prospect who has been meaning to respond suddenly realises the window is closing. Write it as if you mean it, with a genuine offer to reconnect if the timing changes.",
+      },
+      {
+        type: "heading",
+        text: "Cadence design for construction versus SaaS outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The cadence architecture that works for a SaaS SDR targeting a VP of Sales is different from the one that works for a business development manager reaching a development director at a construction firm. Applying a single cadence template across both is one of the more common reasons outreach programmes underperform in one segment while appearing to work in another.",
+      },
+      {
+        type: "paragraph",
+        text: "SaaS outreach typically justifies a higher-frequency, shorter cadence. The buying decision can accelerate quickly once someone is interested, and the product's relevance is often immediately apparent. A compressed 21-day sequence with higher touch frequency in the opening phase reflects the speed at which a SaaS evaluation can move from awareness to a booked demo.",
+      },
+      {
+        type: "paragraph",
+        text: "Construction outreach typically requires a longer, lower-frequency approach. The buying decision is embedded in project timelines that stretch months ahead, relationships matter more than speed, and contacting the same person five times in three weeks creates friction rather than familiarity. A sequence that runs across 60 to 90 days, with touches tied to relevant project signals or planning milestones, sits better with how procurement decisions actually move in the construction sector.",
+      },
+      {
+        type: "paragraph",
+        text: "The underlying framework is the same across both. The specific parameters — length, frequency, channel weighting, spacing — differ. Getting that calibration right is the step most teams skip when they take a template built for one segment and run it unchanged across another that operates on a fundamentally different decision timeline.",
+      },
+      {
+        type: "heading",
+        text: "Reading cadence performance to diagnose upstream problems",
+      },
+      {
+        type: "paragraph",
+        text: "A cadence that runs well tells you things about your ICP and targeting quality. A cadence with consistent performance problems often tells you something different from what you think. If reply rates are high but meeting quality is poor, the cadence is reaching the right volume but the wrong people — a targeting problem, not a messaging problem. If open rates are high but replies are rare, the subject lines are working but the body copy is not giving recipients a reason to respond. If later steps in the sequence consistently outperform the early ones, the opening approach is too aggressive or too generic, and prospects are engaging only once some familiarity has accumulated.",
+      },
+      {
+        type: "paragraph",
+        text: "These are not messages to fix by rewriting individual emails. They are architecture signals. A pattern of late-step engagement suggests the cadence should warm up more gradually before making a direct ask. A pattern of high opens and zero replies suggests the value framing needs to shift, not the subject line. Reading reply patterns at this level of granularity — by step, by channel, by segment — rather than at the level of overall reply rate is where the most actionable diagnostic signal lives, and where cadence design gets genuinely useful rather than just operational.",
+      },
+    ],
+  },
+  {
     slug: "re-engaging-dormant-leads-cold-prospects",
     category: "Sales Development",
     title: "Re-Engaging Dormant Leads: How to Turn a Cold Prospect List Into Active Pipeline",
