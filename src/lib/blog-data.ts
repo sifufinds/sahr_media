@@ -27,6 +27,128 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "account-based-sales-development-absd-target-accounts",
+    category: "Sales Development",
+    title: "Account-Based Sales Development: How to Run a Concentrated Outbound Campaign on a Short List of High-Value Targets",
+    excerpt:
+      "Standard outbound treats every prospect on the list roughly equally. Account-based sales development concentrates your best effort on a short list of high-value targets — and produces materially better results when it's run correctly.",
+    readTime: "7 min read",
+    date: "13 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR outreach programmes are designed for scale. They define an ICP, build a list of thousands of contacts who fit it, and run them through a sequence designed to work adequately for everyone without being exceptional for anyone. Volume compensates for the lack of precision. Response rates are managed as percentages of a large denominator, and individual account attention is minimal. This approach can work. It is rarely the highest-leverage use of an SDR team's time when the best opportunities are concentrated in a smaller number of accounts that each justify — and reward — a significantly more considered approach. Account-based sales development inverts the ratio: fewer accounts, more depth, and a programme of outreach designed around the specific context of each target rather than a template applied uniformly across a list of thousands.",
+      },
+      {
+        type: "heading",
+        text: "What account-based sales development is — and what it is not",
+      },
+      {
+        type: "paragraph",
+        text: "ABSD is not the same as account-based marketing. ABM typically refers to a marketing-led programme of content, advertising, and event activity aligned to named accounts. ABSD is the sales development equivalent: a structured outbound programme in which every contact attempt, every message, and every follow-up is designed specifically for the target account it is aimed at. The account, not the contact or the sequence, is the primary unit of organisation. A single target account might receive eight or ten outreach touchpoints across four stakeholders over three months. Each is informed by what was learned from the previous ones, adjusted based on the account's response pattern, and designed to advance the relationship with the account as a whole rather than the conversation with any single individual.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction from general outbound matters because it changes the inputs required. A standard outbound sequence can be prepared and run with ten minutes of contact-level research. An ABSD programme requires substantive account-level research before the first outreach goes out — understanding the organisational structure, the likely buying committee composition, the current technology or supplier landscape, the trigger events that might create a live conversation, and the internal dynamics that typically shape decisions of the type you are trying to generate.",
+      },
+      {
+        type: "heading",
+        text: "Building the target account list",
+      },
+      {
+        type: "paragraph",
+        text: "The account list is where most ABSD programmes succeed or fail before they start. An ABSD programme is expensive in research and management hours relative to volume outbound. Spending that budget on the wrong accounts — ones that are high-fit but have no current trigger, or ones where the sales cycle will always be too long to justify the investment — is where the model breaks down.",
+      },
+      {
+        type: "paragraph",
+        text: "A working target account list for ABSD typically sits between 30 and 100 accounts. Below that range, the programme lacks sufficient surface area to generate consistent pipeline. Above it, research quality begins to erode and the individual account attention that makes the model work gets diluted. The accounts on the list should share a small number of specific characteristics: strong ICP fit, a realistic path to a stakeholder conversation in the near term, a deal size that justifies the investment, and some form of observable trigger or signal that makes now a better time to approach than any random moment.",
+      },
+      {
+        type: "paragraph",
+        text: "Defining this list rigorously is worth slowing down for. Applying ABSD-level effort to an account with no active reason to engage is a poor return on the research hours. A target account that has recently hired a new head of the relevant function, raised capital, announced a new project, or is approaching a renewal decision with a current supplier is worth significantly more ABSD investment than one with no discernible signals.",
+      },
+      {
+        type: "heading",
+        text: "Researching target accounts before any outreach begins",
+      },
+      {
+        type: "paragraph",
+        text: "The value of ABSD lives in the quality of account intelligence, and account intelligence comes from deliberate research before the first contact is made. For each target account, the research phase should answer at least five questions: who are the relevant stakeholders and what role does each play in a decision of this type; what does the current state of the problem look like in this specific organisation; what has the company done recently that might create urgency or receptivity; what are the likely objections or complications based on what is publicly known; and who, if anyone in your network, has a relevant existing relationship with this account.",
+      },
+      {
+        type: "paragraph",
+        text: "This research is not a brief scan of the company's LinkedIn page. It involves reviewing recent hires, reading any press coverage, checking relevant public filings, examining job postings for clues about technology investments, and — where the account is in construction — reviewing planning applications and published project data. The research takes time, which is precisely why the account list must be short enough to justify it.",
+      },
+      {
+        type: "heading",
+        text: "Designing the outreach programme for a named account",
+      },
+      {
+        type: "callout",
+        text: "The most important design principle in ABSD outreach is coherence: every touch in the sequence should feel like it was informed by the previous one, building a cumulative picture of the account rather than a series of standalone attempts that happen to be aimed at the same company.",
+      },
+      {
+        type: "paragraph",
+        text: "Because each account is receiving a customised programme, the sequencing is built around account milestones rather than a generic day-count. The opening contact references a specific, recent event at the account. A second contact, delivered to a different stakeholder a week later, builds on a different angle but names the same context. A third contact might reference the initial outreach to create visible multi-threading: 'I've been speaking briefly with [colleague] about [problem] — I wanted to reach out separately because your perspective on [specific angle] would be useful to hear.' This sequence creates an impression of organisation-level engagement rather than cold individual outreach, which is exactly how a well-resourced team that takes large accounts seriously would operate.",
+      },
+      {
+        type: "paragraph",
+        text: "The messages themselves should be shorter than standard cold outreach, not longer. The account research gives you the credibility to be more direct: you know enough about the company to skip the generic framing and open with something specific. A message that demonstrably knows what is happening at the account this month reads entirely differently from one that could have been sent at any time to any company on a list.",
+      },
+      {
+        type: "heading",
+        text: "Multi-threading is built into ABSD from day one",
+      },
+      {
+        type: "paragraph",
+        text: "Multi-threading — maintaining relationships with multiple stakeholders at a prospect organisation rather than relying on a single contact — is not an afterthought in ABSD. It is the architecture of the programme. Where standard outbound typically begins with one contact and attempts to build additional relationships if the deal progresses, ABSD begins with a deliberate map of the buying committee and works across multiple contacts from the start.",
+      },
+      {
+        type: "paragraph",
+        text: "For each target account, the programme should identify at minimum: the likely economic buyer or budget holder; the operational or technical evaluator who will live with the decision day-to-day; and, where it exists, a potential internal champion whose role and incentives are most aligned with the problem you solve. Outreach to each should feel individually crafted while remaining coherent across the account as a whole. This requires coordinated tracking — what has been sent, to whom, when, and what the response was — to avoid the fragmentation that occurs when multiple contacts at the same account receive inconsistent messaging.",
+      },
+      {
+        type: "paragraph",
+        text: "The multi-threading advantage in ABSD is compounding. A single contact going quiet does not stall the programme. A new contact at the account who is introduced to the conversation by a colleague who has already heard of you is in a different position from a cold prospect. When stakeholders compare notes internally — which they invariably do once an account is receiving credible, informed outreach from the same business — the impression that forms is of an organised, well-prepared team that has done its homework on the account. That impression is worth more than any individual message.",
+      },
+      {
+        type: "heading",
+        text: "How to measure ABSD performance",
+      },
+      {
+        type: "paragraph",
+        text: "Standard outbound performance metrics — open rate, reply rate, meeting rate as a percentage of contacts touched — apply poorly to ABSD, because the denominators and objectives are different. The primary metrics for an ABSD programme should be measured at the account level rather than the contact level.",
+      },
+      {
+        type: "list",
+        heading: "The account-level metrics worth tracking:",
+        items: [
+          "Account engagement rate: the share of target accounts where at least one meaningful response has been received across any stakeholder — a better leading indicator than contact-level reply rates",
+          "Stakeholder penetration per account: how many of the mapped buying committee have had a substantive exchange — tells you whether the programme is building genuine account relationships or concentrating conversations in a single thread",
+          "Pipeline entry rate per account: the share of target accounts that have progressed to an active opportunity — the primary output metric, tracked against research quality and trigger strength",
+          "Account coverage velocity: how quickly the programme reaches all target stakeholders at each account — slow coverage increases the risk of a contact going cold before multi-threading is established",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "A well-run ABSD programme typically produces a higher meeting-to-pipeline conversion rate than standard volume outbound, because the quality of the conversation at first meeting is substantially higher when both sides arrive with context. The investment pays back in deal quality, not just deal volume.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: different timelines, same model",
+      },
+      {
+        type: "paragraph",
+        text: "The ABSD model applies to both SaaS and construction outbound, but the parameters differ significantly. For a SaaS company with a typical mid-market sales cycle, the target account list is likely to emphasise short-term trigger events — leadership changes, funding rounds, competitive displacement signals — and the programme will be designed to generate a conversation within 60 to 90 days of account entry. The research is dense at the start of a campaign and refreshed actively as the account responds or goes quiet.",
+      },
+      {
+        type: "paragraph",
+        text: "For a construction company targeting developers or asset managers, the timelines are longer and the relationships more central. The target account list might be built around planning applications at an early stage, developers approaching a framework renewal, or asset managers expanding into a new geography — signals that create a relevant entry point 12 to 18 months before a procurement decision. The ABSD programme here is less about generating an immediate meeting than about establishing a visible, credible relationship before the brief exists. The metrics look different — account engagement over six months rather than a meeting in 30 days — but the underlying principle, concentrated effort on a short list of the right accounts, is the same. In both sectors, the ABSD model outperforms scatter-gun outbound not because it works harder, but because it works on fewer things, more thoroughly.",
+      },
+    ],
+  },
+  {
     slug: "b2b-referral-engine-client-introductions",
     category: "B2B Growth",
     title: "The B2B Referral Engine: How to Turn Existing Clients into a Systematic Source of New Pipeline",

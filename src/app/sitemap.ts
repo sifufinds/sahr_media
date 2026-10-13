@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "account-based-sales-development-absd-target-accounts",
   "b2b-referral-engine-client-introductions",
   "post-proposal-follow-up-b2b",
   "b2b-cold-calling-opening-framework",
