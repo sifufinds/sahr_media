@@ -27,6 +27,106 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-ideal-customer-profile-icp-definition",
+    category: "B2B Growth",
+    title: "Defining Your ICP: Why Most B2B Companies Get Their Ideal Customer Profile Wrong — and How to Build One That Actually Drives Outbound Results",
+    excerpt:
+      "Most B2B companies have an ICP. Most of them are wrong — too broad to guide prospecting decisions, built from assumptions rather than evidence, and rarely revisited once written. Here's how to define one that actually changes how you prospect.",
+    readTime: "7 min read",
+    date: "13 Oct 2026",
+    color: "#059669",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B companies have an ICP. It exists somewhere — in the sales playbook, the SDR onboarding deck, a CRM field label. It typically describes a company size range, an industry vertical, a job title, and sometimes a region. Most of the time it was written once, has not been updated since, and is not consistently used to inform prospecting decisions. The SDRs know it exists. The marketing team references it. But in practice, target list criteria drift, exceptions get approved, and the line between 'ideal' and 'anyone we could plausibly sell to' becomes progressively blurred. The result is a prospecting operation that treats fit as a binary — in or out — without the granularity to distinguish between the accounts most likely to close, expand, and refer, and the ones that will churn at the first renewal or drain more service hours than they generate in revenue.",
+      },
+      {
+        type: "heading",
+        text: "What an ICP actually is — and what it is not",
+      },
+      {
+        type: "paragraph",
+        text: "An ICP is not a buyer persona, not a TAM definition, and not a list of firmographic criteria assembled during a planning session. It is a description of the type of company — not individual — for which your solution generates the most value, within a realistic and repeatable sales cycle. The key word is value, not revenue. A customer who generates high revenue but requires disproportionate support, generates constant escalations, or churns after 12 months is not an ideal customer in the sense that matters. The ICP should describe the companies that get clear, measurable value from what you deliver, renew predictably, expand when given the opportunity, and refer others. Revenue is a downstream output of fit. The ICP defines what fit looks like before revenue is visible.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction from buyer persona is also material. A persona describes an individual: job title, goals, reporting structure, objections. An ICP describes a company: size, stage, sector, structure, internal dynamics, problem maturity. Both are useful. But for prospecting decisions — which accounts to target, in what order, through what channels — the company-level profile is the primary instrument. A VP of Sales at a 15-person startup is a different prospect from a VP of Sales at a 400-person scale-up, even if their job title and apparent responsibilities are identical.",
+      },
+      {
+        type: "heading",
+        text: "Why most ICPs are built from the wrong data",
+      },
+      {
+        type: "paragraph",
+        text: "The most common error in ICP definition is using the existing customer base as the primary input without segmenting it by outcome. When a company describes its ideal customer as 'companies that look like our best existing clients,' they are typically describing who they have sold to — not who has achieved the best outcomes. These are often related, but not identical. A large enterprise client that represents a significant share of revenue may be a poor ICP anchor if the deal required extensive customisation, the implementation consumed twice the expected resource, and the renewal was uncertain until the last minute. A smaller client who deployed in six weeks, showed measurable results in the first quarter, and referred two additional customers in the same year is a better ICP template — even if they generate less absolute revenue.",
+      },
+      {
+        type: "paragraph",
+        text: "Segmenting the customer base by outcome means asking: who achieved the fastest time to value? Who required the least implementation effort? Who expanded their contract without needing significant persuasion? Who has referred other clients? The companies that appear consistently at the top across these dimensions are the ones that should anchor the ICP definition — not the largest contracts or the most recognisable names.",
+      },
+      {
+        type: "heading",
+        text: "The attributes that belong in a credible ICP",
+      },
+      {
+        type: "paragraph",
+        text: "Once the outcome-based segmentation identifies the highest-fit cohort, the goal is to extract the shared characteristics that distinguish them from the rest of the customer base. These typically sit across three levels:",
+      },
+      {
+        type: "list",
+        items: [
+          "Firmographic attributes: company size, sector, geography, ownership structure, revenue range, and growth stage. These are necessary filters but insufficient on their own — they describe who the prospect is, not whether they have the problem or the readiness to act on it",
+          "Operational or structural attributes: how the relevant function is organised within the company, whether there is dedicated ownership of the problem you solve, and whether the buying decision is typically centralised or distributed. A company that has no dedicated function for the problem you address will struggle to champion or implement a solution regardless of firmographic fit",
+          "Situational or trigger attributes: the circumstances that make a company ready to buy now rather than in principle. A new leader in the relevant function, a recent growth phase that has created process gaps, an upcoming contract renewal with a current supplier, or a strategic initiative that creates urgency. Firmographic fit tells you a company might buy. Situational fit tells you when",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The distinction between the first and third categories is where most ICPs fall short. A profile that specifies 'SaaS companies, Series B to D, 50 to 300 employees, UK-based' is a firmographic filter. It says nothing about which of those companies are actively experiencing the problem, have the organisational structure to evaluate a solution, or have any trigger that makes now the right moment. Adding situational attributes to the ICP definition converts it from a targeting filter into a prospecting guide.",
+      },
+      {
+        type: "callout",
+        text: "The question an ICP should answer is not just 'could this company be a customer?' It should answer 'is this company likely to be a good customer, right now?' — and those two questions select for very different accounts on any given list.",
+      },
+      {
+        type: "heading",
+        text: "Testing the ICP with outbound data",
+      },
+      {
+        type: "paragraph",
+        text: "Once defined, the ICP should be treated as a hypothesis, not a policy. Outbound prospecting is the fastest available feedback loop for testing whether the profile is accurate. When a segment defined by the ICP consistently produces low engagement, long disqualification cycles, or a pattern of stalling at a specific pipeline stage, the ICP needs examination before the messaging does. Most teams skip this step. When outbound performance is poor, the first instinct is to test subject lines and adjust copy. The more common upstream problem is that the list is built against criteria that do not actually predict buy-readiness.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical diagnostic is to compare two data sets: the accounts that have converted to pipeline in the past 90 days, and the accounts that were contacted but produced no engagement. Across both groups, the question is whether the ICP attributes — firmographic, operational, and situational — distribute differently. If the accounts that converted have a consistent attribute that the non-converters lack, that attribute belongs in the ICP definition as a positive filter. If there is an attribute consistently present in the non-converting group, it belongs as an exclusion criterion. Neither of these adjustments requires external data. They require someone to look at the pattern rather than treating the conversion rate as an aggregate number with no diagnostic value.",
+      },
+      {
+        type: "heading",
+        text: "ICP refinement for SaaS versus construction outbound",
+      },
+      {
+        type: "paragraph",
+        text: "The attributes that define a strong ICP look different across sectors, and applying a uniform framework without recognising this produces a profile that is technically correct and practically useless. For SaaS outbound, the most predictive ICP attributes tend to be growth stage and function maturity. A company at Series A with no formal sales operations function has a different problem set than a Series C company with a dedicated RevOps function already in place. The urgency, the internal sponsorship structure, and the decision timeline are different. An ICP that collapses both into the same firmographic bracket — 'Series A to C, 50 to 200 employees' — will produce a list where half the accounts are genuinely ready to evaluate and half are not, with no reliable way to tell which is which until discovery.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction sector outbound, the situational attributes matter even more than the firmographic ones. A development company with an active pipeline of mixed-use projects is a different prospect from one focused exclusively on social housing delivery. A contractor expanding into a new sector is at a fundamentally different stage of the buying journey than one renewing an incumbent supplier relationship. Project pipeline data, planning applications, recent hires, and sector strategy announcements are the situational inputs that make construction outbound targeting precise rather than approximate. A well-defined ICP for a construction client includes these signals explicitly — not as optional context, but as the criteria that determine whether to contact an account this month or in six months.",
+      },
+      {
+        type: "heading",
+        text: "Keeping the ICP current as the business evolves",
+      },
+      {
+        type: "paragraph",
+        text: "An ICP defined when the company had 20 clients and one product line will not hold when it has 80 clients across multiple verticals and a second product offering that addresses a different part of the market. Most companies update their ICP less frequently than their pitch deck. The result is a prospecting operation that keeps running against a definition of fit that no longer reflects where the most value is being generated.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical cadence is a quarterly ICP review — not a full redefinition each time, but a structured look at whether the most recent client cohort shares the characteristics defined in the current profile, whether any new outcome patterns have emerged, and whether any attributes consistently associated with poor-fit clients should be added as exclusion criteria. The ICP is never a finished document. It is the current best hypothesis about what fit looks like, and outbound data is the mechanism that keeps it honest. The teams with the sharpest outbound conversion rates are almost never the ones with the best copy or the most sophisticated sequencing tools. They are the ones that have invested time in understanding precisely which companies get the most from what they deliver — and have built their prospecting operation around finding more of them.",
+      },
+    ],
+  },
+  {
     slug: "account-based-sales-development-absd-target-accounts",
     category: "Sales Development",
     title: "Account-Based Sales Development: How to Run a Concentrated Outbound Campaign on a Short List of High-Value Targets",
