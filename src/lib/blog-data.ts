@@ -27,6 +27,119 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-prospecting-list-building",
+    category: "Sales Development",
+    title: "B2B Prospecting List Building: How to Source, Clean, and Segment a Contact List That's Actually Worth Working",
+    excerpt:
+      "Most outbound programmes underperform because of what goes in at the top — a list with outdated contacts, wrong job titles, and companies that were never the right fit. Here's how to build one that holds up.",
+    readTime: "8 min read",
+    date: "14 Oct 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound teams invest heavily in sequencing software, message copy, and cadence design. Very few invest proportionally in the quality of the contact list those sequences run against. A well-crafted email sent to a person who has been in a different role for eight months is not a performance problem the message can solve. A sequence optimised over months of A/B testing and run against a list where a third of the contacts no longer match the job title it was written for will consistently underperform a simpler sequence run against a clean, current, well-segmented list. List quality is the most underinvested element in B2B outbound, and it sits upstream of every other lever teams typically reach for when results are disappointing.",
+      },
+      {
+        type: "heading",
+        text: "Why most B2B prospecting lists are wrong before the first email goes out",
+      },
+      {
+        type: "paragraph",
+        text: "Data providers have improved substantially over the past several years, but they do not deliver clean, current contact data by default. They provide data at a point in time, and that data decays from the moment it is collected. Role changes, promotions, departures, restructures, and company events all move contacts away from the record a data provider holds. The UK mid-market — a primary target for most SaaS outbound programmes — tends to have less comprehensive and more slowly updated coverage than North American markets, where most major providers built their initial databases. The result is that a freshly exported list of 500 contacts may already have a meaningful proportion where the person named is no longer in that role, the email has changed since the record was last verified, or the company has been acquired or restructured since the export was run.",
+      },
+      {
+        type: "paragraph",
+        text: "The second failure mode is firmographic drift — a list that superficially matches search criteria but does not actually reflect your ICP when examined contact by contact. This happens when the filters used to build the list are loose proxies for the real qualification criteria rather than precise expressions of them. 'VP of Sales at a SaaS company with 50 to 500 employees in the UK' sounds specific, but it produces a list that includes a VP of Sales at a seed-stage company with 12 people, a VP of Sales at a company where the role is effectively a senior individual contributor with no team beneath them, and a VP of Sales at an enterprise company that uses that title for a role where the actual buying decision sits two levels above. Each of those contacts looks identical in the export. Each requires different outreach — or should not be on the list at all.",
+      },
+      {
+        type: "heading",
+        text: "Start with ICP criteria, not with the data tool",
+      },
+      {
+        type: "paragraph",
+        text: "The most common list-building error is opening a data platform and running a keyword search before the qualification criteria have been properly defined. The search produces a large, apparently comprehensive result, and the team begins working it. What the search actually produced is a list that matches the search parameters — which are a proxy for the ICP, not the ICP itself. Before any data tool is opened, the list-building process should start with a set of qualification criteria precise enough that two different people applying them to a single company would reach the same conclusion about whether it belongs on the list.",
+      },
+      {
+        type: "paragraph",
+        text: "Firmographic criteria — industry vertical, headcount range, revenue band, geography, ownership structure — are the entry filter. Operational criteria — how the function relevant to your offer is structured within the company, whether there is a named owner of the problem you solve, whether buying decisions are typically centralised or distributed — narrow the universe further. Situational criteria — the trigger events or circumstances that make now a better moment to approach than any random point in time — determine which of the companies that pass the first two filters warrant active outreach this month. A list built against all three criteria tiers will be smaller than a keyword export. It will also convert at a meaningfully higher rate.",
+      },
+      {
+        type: "heading",
+        text: "Sourcing contacts for your specific segment",
+      },
+      {
+        type: "paragraph",
+        text: "Different segments warrant different sourcing approaches, and tools that work well for one will produce inferior results for another.",
+      },
+      {
+        type: "list",
+        items: [
+          "SaaS mid-market outbound: LinkedIn Sales Navigator is the most reliable source for current role and seniority data, because profiles are self-maintained and update faster than third-party databases. Data providers such as Apollo, Cognism, or Lusha are useful for adding direct contact details to contacts identified on LinkedIn, but their coverage quality varies by geography and seniority level and should always be verified before use",
+          "SaaS enterprise outbound: Sales Navigator plus intent data platforms that aggregate content consumption signals across target accounts add a timing layer to firmographic targeting, surfacing accounts actively researching relevant categories rather than simply matching a job title filter",
+          "Construction sector outbound: planning portal data and commercial project databases are the primary sourcing mechanism, because they identify developers and asset managers with active projects rather than simply matching a title search. LinkedIn is then used to identify contacts at those companies — not as the primary sourcing tool, but as the contact identification layer applied to a project-data-sourced company list",
+          "Cross-segment: job postings as a buying signal — a company advertising for the role that would use your product, or hiring specifically in the function your product supports, is surfacing live intent that no static contact database captures. This signal is fast-moving and time-limited, which makes it particularly valuable for trigger-based prioritisation",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Enrich and verify before any contact is attempted",
+      },
+      {
+        type: "paragraph",
+        text: "Raw list data should be enriched and verified before it enters any sequence or CRM workflow. Enrichment means adding the fields required for personalisation and routing: direct email, direct dial where available, LinkedIn profile URL, company LinkedIn page. Verification means confirming that the email address is syntactically valid, the domain is active and accepting mail, and the contact is still in the role. Email verification tools run this check in seconds per contact and cost very little. Running a list through verification before loading it into a sequence is the single fastest way to reduce bounce rates and protect the sending domain reputation that every email in the campaign depends on.",
+      },
+      {
+        type: "paragraph",
+        text: "Contact decay is faster than most teams account for. Roles change, particularly at growth-stage companies where promotions, restructures, and leadership changes are common. A contact list built in January and still in active use by September of the same year will have accumulated meaningful decay at director and VP level, where movement is fastest. A quarterly refresh of active prospect lists — re-verifying email validity, checking for role changes on LinkedIn, removing contacts who have departed — catches this decay before it becomes bounces, misdirected conversations, and a gradual erosion of sender reputation that affects every email the domain sends.",
+      },
+      {
+        type: "heading",
+        text: "Segment by timing, not only by firmographics",
+      },
+      {
+        type: "callout",
+        text: "A list of 500 companies that match your ICP is a prospect universe, not a targeting plan. The targeting layer is the segmentation that tells your SDR team which 40 to prioritise this month — and that decision should be made on timing signals, not on the order the export ran in.",
+      },
+      {
+        type: "paragraph",
+        text: "The most practical structure is a three-tier segmentation applied to the qualified prospect universe. Tier one: companies with strong ICP fit and an active trigger signal within the past 30 to 60 days — a leadership change, a funding event, a planning approval, a relevant job posting, or a competitive displacement signal. These are the accounts that warrant the most SDR time, the deepest account research, and the most personalised outreach. Tier two: companies with strong ICP fit but no current trigger signal — they belong in a low-frequency monitoring track, contacted once per quarter or when a trigger event emerges. Tier three: companies with moderate fit or where the buying window is clearly further out — watched, not actively worked, until the situation changes.",
+      },
+      {
+        type: "paragraph",
+        text: "Working all three tiers as if they are equal in priority is one of the most common misallocations of SDR time in outbound programmes. A well-structured list makes the prioritisation explicit rather than leaving it to the SDR's instinct on a given morning.",
+      },
+      {
+        type: "heading",
+        text: "The contact-to-company ratio matters",
+      },
+      {
+        type: "paragraph",
+        text: "Lists built contact-first — one person per company, typically the most senior matching title found in the export — create structural risk. A single contact going quiet, changing roles, or being the wrong stakeholder entirely stalls the account. Lists built company-first and then populated with two or three contacts per account — an economic buyer, an operational evaluator, and a potential champion — give the outreach programme resilience and multi-threading capability from day one. The contact identification work to populate a 60-company list with two to three contacts each is not substantially more than building a flat 180-contact list, and it produces a fundamentally different kind of outreach programme: one that can develop account relationships rather than only individual contact relationships.",
+      },
+      {
+        type: "heading",
+        text: "List hygiene as an ongoing process, not a setup task",
+      },
+      {
+        type: "paragraph",
+        text: "Most teams build a prospect list once and work it until results degrade, at which point they build a new one. A more effective model treats the list as a living document with defined maintenance processes: contacts removed when they leave a company or enter a disqualified status, new contacts added when relevant hires or trigger events are identified, companies moved between tiers as their situation changes, and the whole list reviewed quarterly against the current ICP definition to catch any drift between what the ICP says and what the list actually contains. An actively maintained list of 300 high-fit contacts outperforms a stale list of 2,000 nominal-fit ones on every outbound metric that matters.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: different list mechanics, same underlying logic",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS outbound, role turnover is faster, data providers are more useful, and the prospect universe for a well-defined ICP is typically large enough to sustain a volume-based programme. The list mechanics prioritise freshness — quarterly verification cycles, active monitoring of role changes on LinkedIn, and data provider enrichment to maintain contact detail quality as the list ages. The trigger signals most worth monitoring are funding events, leadership changes, and technology adoption signals visible in job postings and intent data.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction outbound, the list is typically much smaller — 40 to 80 target accounts rather than hundreds — and each entry carries more specific account research. The primary sourcing mechanism is project data rather than contact databases: a company with an active planning pipeline, a recently awarded contract, or a known upcoming procurement decision is a qualitatively different prospect from one that merely fits the firmographic profile with no current project activity. Contact identification within those companies happens through LinkedIn, but the company selection happens through planning and project data first. The smaller list size is not a constraint — it is the correct architecture for a sector where relationships and project-specific knowledge matter more than volume, and where the research investment per account justifies itself over a longer relationship timeline.",
+      },
+    ],
+  },
+  {
     slug: "sdr-performance-metrics-what-to-track",
     category: "Sales Development",
     title: "SDR Performance Metrics: What to Track, What to Ignore, and How to Use the Data",

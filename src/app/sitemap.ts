@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-prospecting-list-building",
   "sdr-performance-metrics-what-to-track",
   "b2b-ideal-customer-profile-icp-definition",
   "account-based-sales-development-absd-target-accounts",
