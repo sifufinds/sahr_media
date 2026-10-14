@@ -27,6 +27,124 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "sdr-performance-metrics-what-to-track",
+    category: "Sales Development",
+    title: "SDR Performance Metrics: What to Track, What to Ignore, and How to Use the Data",
+    excerpt:
+      "Most SDR teams measure activity. The metrics that actually predict pipeline health — and drive coaching conversations that change behaviour — sit in a different tier entirely. Here's how to restructure what you measure.",
+    readTime: "7 min read",
+    date: "14 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR teams are measured on activity: dials per day, emails sent, LinkedIn messages delivered. These are the numbers that appear on dashboards, get reviewed in weekly standups, and form the basis of coaching conversations. The problem is not that activity is irrelevant. It is that activity metrics are a poor proxy for what actually matters — whether the outbound programme is generating qualified pipeline, and whether individual SDRs are getting better at their job. A rep who makes 80 dials a day and books no meetings is not a productive rep. A rep who makes 40 dials and books three is outperforming the first on every measure that feeds revenue. Measuring on activity alone optimises for the number, not the outcome.",
+      },
+      {
+        type: "heading",
+        text: "The activity metrics worth tracking — and their limits",
+      },
+      {
+        type: "paragraph",
+        text: "Activity metrics are not useless. They establish a baseline. An SDR making 10 dials per day cannot generate pipeline at the same rate as one making 40. Volume matters. But the meaningful question is not how many dials were made — it is how many connected calls produced a substantive conversation, and how many of those conversations produced a qualified next step. Tracking dials without tracking connection rate, or emails sent without reply rate by sequence step, produces numbers that feel like management but generate no improvement.",
+      },
+      {
+        type: "list",
+        heading: "Activity measures worth tracking — each paired with an outcome metric, not tracked in isolation:",
+        items: [
+          "Dials completed, alongside connection rate — the ratio of dials that reach a live person and produce a conversation beyond ten seconds",
+          "Emails sent, alongside open rate and reply rate broken down by sequence step — aggregate reply rate across a full sequence hides which steps are doing the work",
+          "LinkedIn touches, alongside connection acceptance rate and follow-up response rate after a connection is accepted",
+          "Total accounts touched per week, which captures multi-channel effort in a single figure and is more meaningful than any single-channel count",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "What these measures do not tell you: whether the conversations happening were worth having, whether the prospect was genuinely qualified, or whether the SDR's approach is improving over time. Activity metrics are a floor, not a ceiling. A programme that uses them as the primary management instrument will reliably produce a team that hits activity targets and misses pipeline targets.",
+      },
+      {
+        type: "heading",
+        text: "The outcome metrics that actually predict revenue",
+      },
+      {
+        type: "paragraph",
+        text: "The metrics worth managing are the ones that sit between activity and closed revenue. These are the numbers that reveal whether the outbound programme is functioning — not just running.",
+      },
+      {
+        type: "list",
+        items: [
+          "Qualified meetings booked, not meetings booked — a meeting that should never have been scheduled is not a win, and the distinction matters enormously for downstream conversion rates and AE time allocation",
+          "Show rate for first meetings: one of the most underused diagnostic metrics in SDR management — if consistently below 75%, qualification is too loose or the meeting value was not made clear enough at the point of booking",
+          "Meeting-to-opportunity conversion rate: the most important leading indicator of outbound programme health, because it tells you how many first meetings are producing real pipeline rather than one-and-done conversations that stall immediately",
+          "Pipeline created per SDR per month, tracked by source so that outbound-generated pipeline is separated from inbound-assisted or referral-sourced meetings that happen to pass through an SDR",
+          "Response rate by sequence step, which reveals where a cadence loses momentum — whether the early or late steps are carrying the programme, and which step is the consistent drop-off point",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The show rate metric warrants particular attention. A consistent pattern of low show rates indicates either that meetings are being booked with contacts who were not genuinely interested, or that the value of the meeting was not made clear enough at the time of booking. Both have different fixes, but neither is visible without tracking the metric separately from the booking count. Most SDR dashboards collapse both into a single meetings-booked figure, which means the distinction never surfaces in a coaching conversation.",
+      },
+      {
+        type: "heading",
+        text: "Leading vs lagging indicators: the distinction that changes how you manage",
+      },
+      {
+        type: "paragraph",
+        text: "Pipeline created is a lagging indicator: it tells you what happened last month, not what is likely to happen next month. The most actionable metrics for improving an outbound programme are leading indicators — data that predicts future pipeline before it materialises in CRM stage counts.",
+      },
+      {
+        type: "list",
+        heading: "Leading indicators worth monitoring in real time:",
+        items: [
+          "Accounts in active engagement: accounts where at least one substantive response has occurred in the past 14 days — a team with no accounts in active engagement today has a pipeline problem that will not show in the numbers for 60 days",
+          "Percentage of sequence completions with a positive response at any step: tells you whether sequences are ending naturally or simply dying without any engagement",
+          "Connected call conversation rate: connected calls that progress beyond 30 seconds, which separates genuine engagement from hang-ups counted as connections in the dial log",
+          "Time from first contact to first meeting: reveals how much friction exists in the outreach-to-meeting conversion, which is a combined signal of targeting quality and message relevance",
+        ],
+      },
+      {
+        type: "callout",
+        text: "A team with a healthy current pipeline but no accounts in active engagement today has a problem it will not see in the numbers for 60 days. Leading indicators are the early warning system that lagging metrics cannot provide — and they are the metrics that make pipeline reviews genuinely forward-looking rather than a retrospective account of what already closed.",
+      },
+      {
+        type: "heading",
+        text: "The coaching conversation that data should enable",
+      },
+      {
+        type: "paragraph",
+        text: "Most SDR coaching conversations are either account reviews — what is happening with each deal — or skills training — here is how to write a better subject line. Neither is well-informed by metrics tracked only at the aggregate team level. The coaching data that changes SDR performance comes from analysis at the individual level, broken out by segment, sequence step, and channel.",
+      },
+      {
+        type: "paragraph",
+        text: "An SDR with a high email open rate and low reply rate has a different problem from one with a high reply rate and a low meeting booking rate. The first has a messaging or offer problem: the subject line is working but the body copy is not creating a reason to respond. The second has a transition problem: the conversation is starting but not converting to a commitment. Treating both as a generic cadence issue — which is what aggregate metrics produce — wastes both the manager's and the rep's time. The specific pattern, by step, by channel, by account segment, is where the actionable diagnosis lives.",
+      },
+      {
+        type: "heading",
+        text: "The Goodhart's Law problem in SDR metrics",
+      },
+      {
+        type: "paragraph",
+        text: "Goodhart's Law — when a measure becomes a target, it ceases to be a good measure — applies precisely to SDR activity metrics. When a team is measured primarily on dials per day, reps optimise for dials per day. They call through lists faster, spend less time on each connected conversation, and book meetings with weakly qualified contacts because the meeting count is visible and the downstream conversion rate is not. This is not a character failure. It is a rational response to the incentive structure that has been set.",
+      },
+      {
+        type: "paragraph",
+        text: "The change that prevents this most reliably is tracking meeting quality separately from meeting volume. If every booked meeting is reviewed against qualification criteria before it enters the AE calendar, and meetings that fail that review are counted distinctly from qualified ones, the incentive for gaming the meeting count disappears. A meeting only counts when it meets the standard — and when that standard is explicit and applied consistently, optimising for it and optimising for genuine pipeline are the same action.",
+      },
+      {
+        type: "heading",
+        text: "SaaS vs construction: different benchmarks, different expectations",
+      },
+      {
+        type: "paragraph",
+        text: "The right benchmark metrics for SaaS outbound and construction outbound differ materially, and applying the same targets across both creates misleading performance signals in both directions. For SaaS outbound targeting mid-market accounts, a productive SDR in a well-defined programme will typically book six to ten qualified meetings per month, with a show rate of 75% or higher and a meeting-to-opportunity conversion of around 50–60% when qualification criteria are tight. These figures assume a clean list, a coherent ICP, and a well-tested sequence — not a first-quarter programme still iterating on the basics.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction outbound, the timescales are longer, contacts are harder to reach by phone, and relationships take longer to warm. A construction-focused BDR running a 60–90 day programme against 40–50 target accounts may produce two to four qualified conversations per month — but those conversations will typically be at a more advanced stage of relationship than a SaaS discovery call booked 48 hours after first contact. The value and conversion probability of each are different. Applying the same volume target to both creates a programme where one segment gets sacrificed to hit a number that was never designed for it. Set benchmarks by segment, not by team average, and review them annually as the programme matures and ICP targeting sharpens.",
+      },
+    ],
+  },
+  {
     slug: "b2b-ideal-customer-profile-icp-definition",
     category: "B2B Growth",
     title: "Defining Your ICP: Why Most B2B Companies Get Their Ideal Customer Profile Wrong — and How to Build One That Actually Drives Outbound Results",
