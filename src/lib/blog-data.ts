@@ -27,6 +27,114 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "cold-outreach-personalisation-at-scale",
+    category: "Sales Development",
+    title: "Personalisation at Scale in B2B Cold Outreach: How to Research, Tier, and Write Messages That Feel Individual",
+    excerpt:
+      "Most SDR teams treat personalisation as binary — every message unique, or everyone gets the template. The teams consistently seeing higher reply rates use a tiered model that deploys the right depth of research at the right account tier.",
+    readTime: "7 min read",
+    date: "14 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "There are two failure modes in B2B cold outreach personalisation. The first is doing none: every contact on the list receives the same email with their first name swapped in, and the reply rates reflect it. The second, less discussed, is trying to do too much: researching every contact for 20 minutes, writing bespoke messages for each, and burning through the list so slowly that the programme never generates enough volume to produce consistent pipeline. The teams with the highest sustained reply rates are not doing either. They are running a tiered personalisation model — one that distinguishes between the accounts that warrant deep individual research, the accounts that warrant structured but efficient research, and the accounts where segment-level personalisation is the right call. Getting that tier structure right is the lever that makes outbound sustainable at scale without sacrificing the relevance that makes it work.",
+      },
+      {
+        type: "heading",
+        text: "Why shallow personalisation is often worse than no personalisation",
+      },
+      {
+        type: "paragraph",
+        text: "There is a category of personalisation that has become so recognisable as a template that it functions as a trust signal in the wrong direction. Opening lines like 'I saw you recently posted about [topic]' or 'I noticed you attended [conference]' when the post was from nine months ago and the conference observation came from a LinkedIn profile scan — these read as automated research, not genuine attention. The prospect has seen enough of them to identify the pattern immediately. What registers is not 'this person has thought about my situation.' What registers is 'this person has used a tool to make a template look personal.'",
+      },
+      {
+        type: "paragraph",
+        text: "The credibility damage from that impression is often worse than a straightforward template would have caused. A template is forgettable. A personalisation attempt that misses lands as disingenuous — and a prospect who perceives a rep as disingenuous at first contact is less likely to respond than one who received a well-written message with no personalisation at all. The practical implication: personalisation that is visibly shallow is not a baseline to build from. It is an active liability. If you cannot do it well at a given tier, the generic version is the better option.",
+      },
+      {
+        type: "heading",
+        text: "The three-tier personalisation model",
+      },
+      {
+        type: "paragraph",
+        text: "The framework that resolves this tension allocates research effort by account tier rather than applying a uniform approach across the entire prospect list. The tier each account sits in should be determined by the combination of ICP fit and deal value — the accounts most worth your time are the ones that justify the most time per contact.",
+      },
+      {
+        type: "list",
+        items: [
+          "Tier 1 — high-value accounts: companies where the potential deal size, strategic fit, or account importance warrants genuine bespoke research. These accounts get 15–25 minutes of account-level research before any contact is written. The personalisation is specific to that company at that moment — a leadership change, a recent announcement, a project development, or a shift in their market position. The outreach is not personalised in the sense of referencing trivial LinkedIn details. It is personalised in the sense that a genuinely well-informed person wrote it with that specific company in mind.",
+          "Tier 2 — solid-fit accounts: companies that match the ICP but are not strategic enough to justify deep bespoke research. The personalisation here uses a structured set of research signals — two or three specific observations gathered in five to eight minutes per contact — to anchor the opening and distinguish it from a generic template. The body of the email can be largely consistent across this tier; the opening paragraph is where the tier-specific research appears.",
+          "Tier 3 — volume outreach: contacts in the prospecting universe where volume is the primary variable and individual account research is not economically justified. The personalisation here operates at the segment level — industry vertical, company size band, role archetype, or a specific situational pattern common to that cohort. 'Your company at your stage in your sector typically deals with [problem]' is not individual personalisation, but it is meaningfully more specific than 'we help businesses like yours.'",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What research actually signals quality — and what reads as template",
+      },
+      {
+        type: "paragraph",
+        text: "The research that generates credible personalisation at Tier 1 and Tier 2 is company-level and situation-level, not personal. The most effective personalisation signals are observations about what is happening at the company that creates a plausible connection to the problem you solve: a new hire in a relevant function, a recent press announcement, a job posting that reveals a technology investment or a strategic gap, a planning application or project announcement in the construction sector, a funding round, a new market they are entering. These are things a well-prepared person with a genuine reason to reach out would know.",
+      },
+      {
+        type: "paragraph",
+        text: "The research that generates weak personalisation — or actively undermines credibility — is personal detail drawn from public profiles that signals surveillance rather than relevance. Mentioning a comment someone made in a LinkedIn discussion three months ago, referencing where they went to university, or noting that you share a connection with someone they connected with in 2019 are not signals of relevant preparation. They are signals that a research tool ran against their profile. The test is simple: would a thoughtful, well-prepared person have known this as part of naturally staying current on their sector and target accounts? If the answer is no, it should not be in the opening.",
+      },
+      {
+        type: "heading",
+        text: "Building a repeatable research process for Tier 2 accounts",
+      },
+      {
+        type: "paragraph",
+        text: "The tier where most outbound programmes have the most room to improve is Tier 2 — the accounts that are a genuine fit but do not individually warrant 20 minutes of research. A structured research process for this tier should deliver two or three usable, current signals per account in five to eight minutes. The sources that consistently produce these signals, in rough priority order: the company's LinkedIn page for recent posts, hires, and announcements; the contact's own LinkedIn activity for recent comments or posts that reveal current priorities; job postings on the company's website or job boards that signal current technology investments, team expansions, or new initiatives; and any recent news coverage.",
+      },
+      {
+        type: "paragraph",
+        text: "The output from this research should be a single line per contact in the CRM — a brief note capturing the one most relevant signal found and when it was posted. This note is the raw material for the personalised opening. If no credible signal is found in eight minutes, the contact moves to Tier 3 treatment — a well-written segment-level message rather than a weak attempt at individual personalisation that reads as a template anyway.",
+      },
+      {
+        type: "callout",
+        text: "The personalised opening line does not need to run through the whole email. Its job is to signal that this contact is not one of five hundred on a list. Once it has done that, the rest of the message can be consistent with others in the same tier — the value proposition, the social proof, and the ask do not need to be individually unique to benefit from a strong opening.",
+      },
+      {
+        type: "heading",
+        text: "Writing the personalised opening — what earns a reply and what reads as template",
+      },
+      {
+        type: "paragraph",
+        text: "The most reliable structure for a Tier 2 personalised opening is a direct observation connected immediately to a relevant question. Not a compliment, not a generic reference, but a concrete link between something specific that is happening at their company and the problem the message is about. 'You've recently brought on a Head of Revenue — that hire usually comes with a review of how the outbound function is set up. Is that something your team is actively revisiting?' This works because the observation is specific, the connection to the problem is direct, and the question advances qualification rather than just performing research. The prospect can answer it or tell you it doesn't apply — either answer is useful.",
+      },
+      {
+        type: "paragraph",
+        text: "What does not work is a personalised observation with no connection to why you are reaching out. 'I saw you recently expanded into the Yorkshire market — congratulations on the growth' followed by a pivot to your service offering reads as a non-sequitur. The research signals competence. It does not produce a reply unless it is linked to something the prospect cares about in the context of your message. The observation earns the reader's attention for the next sentence. If the next sentence does not use that attention well, the research was wasted.",
+      },
+      {
+        type: "heading",
+        text: "Segment-level personalisation for Tier 3 — making generic less generic",
+      },
+      {
+        type: "paragraph",
+        text: "Tier 3 outreach cannot benefit from individual account research, but it can benefit substantially from specific cohort framing. A message that opens by naming the precise situation most companies in that segment face, using language that reflects how practitioners in that role actually describe the problem, reads differently from a message that could have been sent to anyone. Writing a Tier 3 sequence that is specific to the role, vertical, and company stage it is targeting — rather than writing a single sequence and relying on first name merge fields to differentiate it — is the closest equivalent to personalisation available at volume.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical investment here is in having multiple Tier 3 sequences rather than one: a sequence for Series B SaaS VP Sales contacts, a different sequence for commercial construction procurement managers, a different one for mid-market construction developers. Each is tailored to the language, concerns, and context of that segment. The per-contact investment is minimal, but the specificity is real — and it reads as considerably more considered than a universal template.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: different research surfaces, same logic",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS outbound, the most productive research surfaces are LinkedIn (company and individual activity), job postings, and funding announcements. A SaaS company actively hiring SDRs, or one that has just promoted a new VP of Marketing, or one that recently posted a role requiring proficiency in a specific tool you integrate with — these are credible, current signals that can anchor a Tier 2 personalised opening without requiring any deep research investment. The signal is recent, it is relevant, and it reflects a real thing happening at the company right now.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction outbound, the primary research surface is project and planning data rather than professional social media. A developer with a planning application approved last month, a contractor who has recently been awarded a contract in a new sector, or an asset manager with a portfolio transaction in a geography your service covers — these are the signals that anchor credible construction outreach. LinkedIn is used secondarily to identify and confirm the right contacts at companies the project data has flagged, rather than as the primary research mechanism. This asymmetry between the two sectors — content-visible in SaaS, project-visible in construction — means the research tools differ, but the underlying framework is identical: use current, specific, company-level signals to anchor the opening, connect the observation directly to the problem, and resist the temptation to personalise with detail that signals surveillance rather than relevance.",
+      },
+    ],
+  },
+  {
     slug: "b2b-prospecting-list-building",
     category: "Sales Development",
     title: "B2B Prospecting List Building: How to Source, Clean, and Segment a Contact List That's Actually Worth Working",
