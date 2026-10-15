@@ -27,6 +27,123 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "building-internal-champion-b2b-sales",
+    category: "Sales Development",
+    title: "How to Identify and Build an Internal Champion in a Complex B2B Deal",
+    excerpt:
+      "Most complex B2B deals don't stall because of price or product. They stall because no one inside the prospect organisation is actively selling on your behalf. Here's how to find, qualify, and equip an internal champion.",
+    readTime: "7 min read",
+    date: "15 Oct 2026",
+    color: "#DC2626",
+    content: [
+      {
+        type: "paragraph",
+        text: "In a complex B2B sale involving multiple stakeholders, a formal evaluation process, and a decision that requires internal sign-off from several directions, the factor that most often separates deals that close from deals that stall is not the quality of the product, the strength of the proposal, or the price. It is whether there is someone inside the prospect organisation actively advocating for your solution when you are not in the room. A deal with a genuine internal champion moves through the buying process with momentum. A deal without one moves by inertia — drifting through stages until it either finds a decision-maker willing to commit or quietly dissolves under the weight of competing priorities. Understanding how to identify, qualify, and enable a champion is one of the most high-leverage skills in complex B2B sales, and one of the most poorly understood.",
+      },
+      {
+        type: "heading",
+        text: "What an internal champion actually is — and what they are not",
+      },
+      {
+        type: "paragraph",
+        text: "A champion is not the same as a friendly contact, a supportive evaluator, or the person who booked the first meeting. Those people exist in most B2B sales conversations. A genuine champion is someone inside the prospect organisation who has a personal stake in the problem being solved, the credibility and access to influence the decision, and the willingness to act on both — to navigate internal politics, bring other stakeholders into the conversation, and make the case for your solution when it is tested by competing priorities or internal objections.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction from an economic buyer is equally important. An economic buyer controls the budget and signs the contract. A champion shapes the internal narrative before the economic buyer is formally engaged. In many complex deals, these are different people. A VP of Sales who needs the problem solved and will live with the outcome daily is a stronger champion candidate than a CFO who signs off on the budget but has no direct stake in the operational result. The champion's personal investment in the outcome is what drives their advocacy — not their organisational authority.",
+      },
+      {
+        type: "heading",
+        text: "Identifying potential champions early in the sales process",
+      },
+      {
+        type: "paragraph",
+        text: "The best time to identify a potential champion is during discovery, before you have invested significant time in the opportunity and before the deal has developed enough complexity to make a change of direction costly. The signals that indicate a strong champion candidate are a combination of position, stake, and behaviour.",
+      },
+      {
+        type: "list",
+        heading: "Champion qualification signals to look for in early conversations:",
+        items: [
+          "Operational ownership of the problem: the person whose team or workflow is directly affected by the issue your solution addresses — not the person who commissioned the evaluation, but the person who will live with the outcome. Operational owners have a personal incentive that persists after the deal closes",
+          "Proactive information sharing: a contact who volunteers context that wasn't explicitly asked for — internal constraints, political dynamics, upcoming deadlines, names of other stakeholders — is signalling engagement that goes beyond standard evaluation participation",
+          "Questions about internal process: a contact who asks how you have handled procurement challenges, integration with other vendors, or stakeholder presentation requirements at comparable clients is thinking about how to advance the deal internally, not just evaluating the product",
+          "Access to the buying committee: a contact with genuine access to the people who will make or influence the decision, rather than one who is reporting upwards through an intermediary. A champion without access cannot advocate where it matters",
+          "A visible personal stake in the outcome: the contact whose team metrics, performance targets, or direct responsibilities are materially affected by whether the problem gets solved. Personal stake is what turns interest into advocacy",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Qualifying a champion before you rely on them",
+      },
+      {
+        type: "paragraph",
+        text: "The most common champion mistake in B2B sales is assuming you have one based on enthusiasm alone. A contact who is consistently responsive, engaged in demos, and positive about the proposal is a good contact. They are not necessarily a champion unless they are also actively working the deal internally. The test is not how they engage with you. It is how they engage with their own organisation on your behalf.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical qualification approach is to ask for something that requires internal effort: a request to introduce you to a specific stakeholder, to share an internal briefing document you provide, or to facilitate a conversation with the technical or procurement team. A genuine champion will take that action or explain the constraints around it. A contact who agrees but consistently finds reasons why the introduction has not happened is not yet functioning as a champion — and recognising this early prevents a deal from progressing based on a relationship that only runs in one direction.",
+      },
+      {
+        type: "callout",
+        text: "The question that surfaces champion quality most directly: 'When you discuss this internally, who is the person most likely to push back, and what are they likely to say?' A contact who can answer this specifically — naming the objection and the stakeholder — is operating with genuine internal visibility. A contact who says they don't anticipate significant internal resistance, or gives a vague answer, often has less internal access than the conversations have implied.",
+      },
+      {
+        type: "heading",
+        text: "What champions need from you to advocate effectively",
+      },
+      {
+        type: "paragraph",
+        text: "Even a willing and well-positioned champion will not advocate effectively without the right support. Most champions are not professional salespeople. They are operational leaders or functional managers who believe in what you are offering but lack the framing, the language, and the materials to make the internal case convincingly. Your job is to equip them — to make it as easy as possible for them to advocate without requiring them to become experts in your value proposition.",
+      },
+      {
+        type: "list",
+        heading: "What to provide a champion to enable effective internal advocacy:",
+        items: [
+          "A one-page internal summary they can share: not your marketing collateral, which is written for an external audience, but a brief document written explicitly for their internal audience — their colleagues, their manager, or their board. It should address the specific context of their organisation, use language that resonates internally, and pre-answer the objections most likely to arise",
+          "A clear articulation of the cost of inaction: champions need to be able to answer 'why now?' internally. A response to this question framed around the specific cost of not solving the problem — operational, financial, or competitive — is more effective than a reiteration of your product's features",
+          "Comparable reference points: a brief example of how a similar organisation handled the same decision and what the outcome was. Internal advocates use these to neutralise scepticism about novelty or risk. The reference does not need to be a full case study; a concise, specific parallel is more useful than a detailed document they are unlikely to share",
+          "Answers to the objections they will face: if you know from experience which objections consistently arise at a company of their type, give your champion the responses in advance — not scripts, but clear reasoning they can make their own. A champion who is ambushed by a question they cannot answer loses credibility internally, and that credibility is the asset the deal depends on",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to enable a champion without creating dependence",
+      },
+      {
+        type: "paragraph",
+        text: "There is a practical tension in champion enablement: the more material you provide, the more work you create for the champion. An advocate who is buried under briefing documents, follow-up requests, and regular check-ins will begin to find the relationship demanding rather than productive. The goal is to make advocacy easy, not to make the champion a full-time project manager for your deal.",
+      },
+      {
+        type: "paragraph",
+        text: "The working principle is to give one thing at a time and confirm it was useful before adding another. A champion who shares a one-page summary and reports back on the response has told you what the internal conversation looks like. That information guides the next piece of support you provide. Working iteratively like this — a single, well-targeted enablement action, followed by a read of the internal reaction, followed by the next action — is more effective and less burdensome than providing everything upfront and hoping the champion knows how to use it.",
+      },
+      {
+        type: "heading",
+        text: "When a single champion is not enough",
+      },
+      {
+        type: "paragraph",
+        text: "In deals involving a formal buying committee — multiple stakeholders with different interests, separate approval stages, or a procurement process that runs alongside the business evaluation — a single champion, however strong, carries concentrated risk. A change in their role, a competing internal priority, or a single stakeholder who is not covered by your champion's advocacy can stall or derail a deal that appeared well-advanced.",
+      },
+      {
+        type: "paragraph",
+        text: "The solution is multi-layered advocacy: supporting your primary champion while simultaneously developing relationships with other stakeholders who have a stake in the outcome. This is not the same as multi-threading for its own sake. It is ensuring that the internal case for your solution is not entirely dependent on one person's continued availability and enthusiasm. A second advocate in a different function — a technical lead who can address implementation concerns, or a finance stakeholder who can speak to the commercial rationale — gives the deal resilience that a single-champion approach cannot provide. The goal is not to have allies in every corner of the organisation. It is to have the right coverage so that no single point of failure can quietly close a deal you were not aware was at risk.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: different champion profiles",
+      },
+      {
+        type: "paragraph",
+        text: "The profile of an effective internal champion looks different across sectors, and applying the same champion-building approach to both produces mismatched results. In SaaS sales to mid-market companies, champion candidates tend to be revenue-side leaders — VPs of Sales or Marketing, Heads of RevOps, or senior operational managers — who have clear personal accountability for the metric your product affects. These champions are typically comfortable with vendor relationships, accustomed to evaluating new tools, and able to move internal conversations quickly. The challenge is usually not willingness but bandwidth: a champion at a growth-stage SaaS company has many competing priorities, and your deal is one of them.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, effective champions are more often found in operational or commercial roles — a development director, a commercial manager, or a pre-construction lead — rather than in formal procurement or leadership positions. These contacts have deep domain knowledge, genuine operational stake, and the respect of their colleagues. What they often lack is experience championing external vendor relationships through formal procurement processes. They may need more support translating their operational endorsement into the language and documentation that procurement requires. The relationship timeline is also longer: a construction champion who genuinely advocates for you through a six-month tender process has invested significant relationship capital, and treating that investment with appropriate seriousness — prompt responses, clear documentation, consistent support — is as important as the quality of your solution itself.",
+      },
+    ],
+  },
+  {
     slug: "cold-outreach-personalisation-at-scale",
     category: "Sales Development",
     title: "Personalisation at Scale in B2B Cold Outreach: How to Research, Tier, and Write Messages That Feel Individual",
