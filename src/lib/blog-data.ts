@@ -27,6 +27,111 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-stakeholder-mapping-buying-committee",
+    category: "Sales Development",
+    title: "Stakeholder Mapping in B2B Sales: How to Chart the Buying Committee Before You Start Outreach",
+    excerpt:
+      "Most outbound campaigns target the most obvious job title and start sending. Stakeholder mapping asks who else shapes the decision — doing it before first contact changes what you say, who you say it to, and how far the deal can actually go.",
+    readTime: "8 min read",
+    date: "16 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B outbound campaigns start with a contact list and a message. The list is filtered by job title and company size. The message is written for that title. The campaign runs. What most teams never examine is whether the contacts they are targeting are the people who actually shape buying decisions at those accounts — not whether the data is accurate, but whether the people are right. Targeting the wrong tier of stakeholder is one of the most expensive efficiency losses in B2B sales development, and it is almost invisible because the activity metrics look fine while it is happening.",
+      },
+      {
+        type: "heading",
+        text: "Why outbound teams start campaigns without a full picture of the account",
+      },
+      {
+        type: "paragraph",
+        text: "The default approach to B2B prospecting is to identify a job title that plausibly connects to the problem you solve, source those titles at target accounts, and start outreach. This is rational as a starting point, but it treats each account as if it contains only one relevant person. In reality, anything that changes how an organisation spends money, operates, or takes on commercial risk will involve multiple people with different roles and different concerns. Starting a campaign to one title without understanding how that title relates to the others who will eventually need to approve, evaluate, or live with the outcome means beginning a process you cannot finish without eventually backtracking to map the committee you should have understood from the start.",
+      },
+      {
+        type: "paragraph",
+        text: "The consequence is not just wasted outreach. It is deals that progress to a certain stage and then stall because the conversation was built on a relationship with someone who cannot take it forward. The economic buyer surfaces and does not recognise the value case. The technical evaluator raises objections no one has addressed. The blocker appears late with concerns the seller had no reason to anticipate. Each of these failures has its root in the same place: outreach that started without a working model of who actually buys.",
+      },
+      {
+        type: "heading",
+        text: "The four roles that appear in almost every B2B buying decision",
+      },
+      {
+        type: "paragraph",
+        text: "Buying committees vary in size and complexity by sector, company size, and deal value. But four role types appear reliably across both SaaS and construction, regardless of how they are titled or how many individuals carry each function.",
+      },
+      {
+        type: "list",
+        items: [
+          "The economic buyer holds budget authority and makes the final commercial decision. In a SaaS company this is typically a C-suite executive or VP-level leader. In construction, it is usually a managing director or commercial director. Their primary concern is strategic fit and return on investment, not operational detail — and they are often not the person who responds first to outreach",
+          "The technical evaluator assesses whether the solution will work in the organisation's environment. In SaaS this might be a Head of Engineering, IT Director, or RevOps lead. In construction it is the person responsible for operations or delivery. Their concern is implementation risk, integration, and process change — and they can prevent a deal the economic buyer has approved if they are not engaged on their own terms",
+          "The day-to-day user is affected by the solution directly and often carries influence disproportionate to their seniority. Their concern is whether the change makes their work harder or easier. In SaaS this is typically the team who will use the platform. In construction it is the site or commercial team who will live with the process change. Ignoring this role until implementation is a common and costly mistake",
+          "The gatekeeper or blocker controls access to one or more of the above, or has a reason to slow or prevent the decision from progressing. This might be a procurement function, an EA, a peer with a competing priority, or a stakeholder whose existing vendor relationship the solution would displace. This role is the most often skipped in stakeholder mapping — and the one whose late appearance is most likely to kill a deal that seemed ready to close",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to build a working map before first contact",
+      },
+      {
+        type: "paragraph",
+        text: "Stakeholder mapping before outreach does not require perfect information. It requires enough to avoid starting a conversation that can only go so far before hitting a wall you did not know was there. The sources that reliably inform an account-level map are accessible without any prior relationship with the company.",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is the primary source for most B2B mapping work. Job titles, reporting lines where stated, length of tenure, and network connections between individuals within the same company all provide working information about who holds which function. A CFO who recently joined after a period of cost-cutting at a previous employer is a different economic buyer than one who has been in post for six years with an established vendor base. Tenure and recent history change how a stakeholder engages with new suppliers, and both are visible from a profile.",
+      },
+      {
+        type: "paragraph",
+        text: "For UK construction companies, Companies House filings are a practical and underused source. Named directors, financial signatories, and shareholding structures can clarify who holds economic authority in ways that are not always visible on a company website or LinkedIn. A commercial director named on a company's LinkedIn page may not be a director in the legal sense; a person who does not appear on the website may be a named shareholder with significant influence over capital decisions. The filing record is public and takes a few minutes to check.",
+      },
+      {
+        type: "callout",
+        text: "The goal of mapping before outreach is not a complete org chart. It is answers to three questions: who is the economic buyer, who is the most likely operational champion, and who is likely to raise the first significant objection? Those three anchors are enough to shape a campaign meaningfully before the first message is sent.",
+      },
+      {
+        type: "heading",
+        text: "The signals that indicate real authority versus nominal title",
+      },
+      {
+        type: "paragraph",
+        text: "Job title is a starting point, not a reliable guide to actual decision-making authority. A VP of Sales at a 30-person SaaS company may have limited budget authority compared to the same title at a 300-person company. A commercial director at a construction firm may control procurement decisions for some categories of spend and not others. The signals that are more reliable than title alone are tenure, stated scope, and external visibility.",
+      },
+      {
+        type: "paragraph",
+        text: "Tenure is a proxy for operational authority. A person who has been in their role for three or more years is more likely to have built the relationships, institutional knowledge, and political capital to move a decision through an organisation than someone who joined recently. This is especially relevant in construction, where relationships are built over time and a relatively new commercial director may defer to longer-tenured colleagues on significant vendor decisions.",
+      },
+      {
+        type: "paragraph",
+        text: "Stated scope in a LinkedIn summary or role description often names the budget categories, team size, or initiative types someone owns directly. Language about responsibility for a specific spend area, headcount, or named strategic programme is a stronger signal of authority than a general title. External visibility — speaking at industry events, publishing on LinkedIn, being quoted in trade press — also signals both accessibility and a stake in external reputation that well-crafted outreach can speak to directly.",
+      },
+      {
+        type: "heading",
+        text: "Why the blocker is the role sellers underestimate most",
+      },
+      {
+        type: "paragraph",
+        text: "The blocker role is most often omitted from early stakeholder mapping because identifying it requires thinking about how a deal can fail rather than how it can progress. In practice, a blocker who is not identified before a campaign starts will surface later — often at exactly the point when the economic buyer is engaged, the technical evaluation looks positive, and the deal appears ready to advance. A blocker appearing at that stage with concerns that were never addressed is one of the most common reasons B2B deals stall after significant time and resource have been invested on both sides.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical purpose of identifying likely blockers early is not to neutralise them before contact — it is to shape the outreach itself. If the economic buyer for a SaaS procurement typically defers to their Head of IT on infrastructure and security questions, the outreach should address both early rather than treating the IT evaluation as a later-stage hurdle. If the commercial director at a construction company will need to get any new supplier through a formal procurement process, the messaging should pre-empt that requirement rather than treating it as a surprise at proposal stage.",
+      },
+      {
+        type: "heading",
+        text: "How the buying committee differs between SaaS and construction",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS, buying committees tend to be smaller and more clearly delineated. The economic buyer is typically one person at a defined seniority level, the technical evaluator is named by function, and the process moves quickly. The most common failure mode is running all outreach to a champion-level contact and never engaging the economic buyer directly — the champion builds internal support but lacks the authority to close, and the deal stalls at final commercial approval.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, buying committees are often less formally structured but no less real. Decisions about new suppliers, particularly those involving process change or long-term relationships, tend to involve more people than any formal org chart suggests. The managing director may need to be comfortable with the decision even if the commercial director is the primary point of contact. The site or operations team may have a practical veto on solutions that affect their day-to-day work, regardless of what the commercial layer decides. The stakeholder map in construction requires more inference from indirect signals and a greater tolerance for ambiguity — but the underlying structure is the same. The four roles are present. Mapping them early still changes what the outreach says, who receives it, and how far the resulting conversation can go.",
+      },
+    ],
+  },
+  {
     slug: "appointment-setting-warm-response-to-booked-meeting",
     category: "Appointment Setting",
     title: "Appointment Setting in B2B: How to Turn a Warm Response into a Booked Meeting",
