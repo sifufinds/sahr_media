@@ -27,6 +27,87 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "win-loss-analysis-b2b-outbound",
+    category: "Sales Development",
+    title: "Win/Loss Analysis in B2B Sales: How to Learn from Closed Deals and Improve Your Outbound Programme",
+    excerpt:
+      "Most B2B sales teams track win rates but never examine what actually drove the outcome. A structured win/loss analysis turns closed deals into actionable intelligence for outbound targeting, qualification, and messaging.",
+    readTime: "7 min read",
+    date: "16 Oct 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "A win rate is a measurement, not an explanation. Most B2B sales teams track it — the percentage of deals that close against the number entered — but very few go further to understand what actually caused the outcomes it represents. Which accounts won, and why did they choose you over alternatives? Which accounts were lost, and what did the deciding factors actually look like when examined rather than guessed at? Without structured analysis of closed deals, the answers to these questions are replaced by instinct: the team's accumulated beliefs about why deals are won or lost, shaped by whichever conversations stick in memory and filtered by the psychological discomfort of revisiting losses. Those instincts are often wrong, systematically wrong in ways that are difficult to detect from the inside, and act as a steady drag on every aspect of outbound performance.",
+      },
+      {
+        type: "heading",
+        text: "Why most win/loss reviews produce the wrong conclusions",
+      },
+      {
+        type: "paragraph",
+        text: "The most common version of win/loss review is the post-mortem conversation. The deal closes or is lost, the AE gives their account of events, and the conclusion entered in the CRM reflects their interpretation. This produces three predictable distortions. First, the AE's explanation of a loss will naturally converge on factors outside their control — competitor pricing, timing, internal politics, a stakeholder who changed their mind — rather than on factors within the sales process that could have gone differently. Second, the explanation of a win will naturally credit the relationship, the product, or the AE's own capability, rather than the environmental factors — timing, a competitor's weakness, a triggered internal need — that may have been equally or more important. Third, both types of explanation are constructed retrospectively from incomplete information: the AE only knows what was shared with them during the sales process, which is typically a curated version of what actually drove the prospect's decision.",
+      },
+      {
+        type: "heading",
+        text: "When to conduct the analysis: the timing problem",
+      },
+      {
+        type: "paragraph",
+        text: "Win/loss analysis has a timing problem. The period immediately after a deal closes or is lost is the worst time to gather useful information. For a loss, the prospect has just made a decision and is managing the transition to the alternative they chose — they are unlikely to give detailed, honest feedback about why you were not selected to the person they just declined. For a win, the new client is in the initial relationship phase, where criticism of how the sales process worked is unwelcome. The practical answer is a short delay — two to four weeks after a loss — followed by a structured, low-pressure conversation. At that distance, the prospect has moved through the decision anxiety, the new relationship has been established or is beginning, and they are more willing to reflect honestly. Winning deals benefit from analysis three to six months after close, when the client has enough experience with the reality of the relationship to compare it to their expectations during the buying process.",
+      },
+      {
+        type: "heading",
+        text: "The four questions that produce actionable intelligence",
+      },
+      {
+        type: "list",
+        items: [
+          "Why did you decide to move forward at this point? The answer surfaces the trigger that made the prospect active in the buying process — which is often different from the reason they engaged with your outreach. A prospect who took a meeting because of your email sequence may have become a buyer because of a change in their team, a failed renewal with their existing vendor, or an upcoming project that created urgency. Understanding the actual trigger shapes which outbound signals are genuinely predictive and which are coincidental",
+          "What were the one or two factors that mattered most to your decision? Asked directly and without prompting, this question reliably produces an answer that differs from the factors the sales team assumed were decisive. Prospects frequently weight factors the team treated as secondary — implementation risk, procurement familiarity, peer references from their own network, or the quality of initial documentation — more heavily than the headline value proposition that received the most airtime during the sale",
+          "What was the alternative you were most seriously considering, and what did it offer that influenced your view? The competitive picture from the prospect's perspective almost always looks different from the competitive picture the sales team constructed. Understanding which alternatives were taken seriously, and what specifically about them created a viable comparison, is more useful than any third-party competitive intelligence gathered outside the deal",
+          "What, if anything, would have changed your decision or made the process easier? This question surfaces friction in the sales process itself: information that was missing, a conversation that did not happen, a proposal that arrived too late, a reference that was not offered. For losses, it surfaces what would have needed to be different to change the outcome. For wins, it surfaces the moments of the process that nearly produced a different result",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to gather honest feedback without bias",
+      },
+      {
+        type: "paragraph",
+        text: "The person best placed to conduct a win/loss analysis is not the AE who worked the deal. A third party — an internal colleague not involved in the sale, or an external researcher — will receive materially more honest responses from prospects. The dynamic of the conversation changes: a prospect who has chosen an alternative will be more direct about the real reasons to someone who is not the person they declined. A new client will volunteer more candid observations about the sales experience to someone who is not their primary relationship contact. For most B2B sales teams operating at volume, the practical version of this is to train a dedicated person — a sales ops manager, a senior SDR, or a marketing colleague — to conduct structured conversations with a consistent set of questions, so the data is gathered uniformly and is not filtered through the deal team's recollection.",
+      },
+      {
+        type: "callout",
+        text: "The single question that most reliably surfaces the true decision factor is: 'If you were advising a colleague in a similar situation, is there anything about this type of decision that you would tell them to pay particular attention to?' The indirect framing removes the awkwardness of direct criticism and produces an answer that often names the real deciding factor more honestly than a direct question about your own process would.",
+      },
+      {
+        type: "heading",
+        text: "Feeding win/loss findings back into outbound and qualification",
+      },
+      {
+        type: "paragraph",
+        text: "Win/loss analysis is only useful if the findings change something in the programme. The most common failure mode is conducting the analysis, producing observations, and filing them in a document that no one returns to. The findings that are most actionable fall into three categories: ICP refinement, messaging adjustment, and qualification tightening. If a pattern of losses reveals that a particular segment — a company size, a sector, a buying structure — consistently produces late-stage objections that are difficult to address, that segment belongs in the ICP review. If wins consistently cluster around a particular trigger event or company characteristic that outbound is not currently using as a prospecting signal, that signal belongs in the prospecting criteria. If a recurring theme in losses is that the value frame did not adequately address a specific concern that the winning competitor addressed more directly, that concern belongs in the messaging used in outreach and early-stage conversations.",
+      },
+      {
+        type: "paragraph",
+        text: "The cadence that makes this useful is a quarterly review of aggregated win/loss findings with the people responsible for ICP, outbound sequences, and qualification criteria. A single deal's outcome is a data point. A pattern across ten or twenty deals is a finding worth acting on. The quarterly review ensures that the analysis is connected to the people with the authority to adjust what it should be adjusting — and that the team operating at the front of the pipeline is building on the actual patterns in closed deals rather than assumptions that have never been tested against the evidence.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: different win/loss signals, same discipline",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS, the win/loss signals that tend to produce the most useful findings are competitor positioning, the quality of the technical evaluation, and the speed and clarity of the sales process itself. SaaS buyers often choose between two or three products with credible capabilities, and the deciding factors frequently come down to perceived implementation risk, the quality of references, and how clearly each vendor explained what would change after go-live. A loss in a SaaS deal that comes down to perceived implementation risk is a qualification signal — the team needed to address that concern earlier in the process, or the accounts for which implementation is a particularly sensitive issue should be approached differently in outreach and discovery.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, win/loss analysis tends to surface factors that are less visible earlier in the process: the weight given to existing supplier relationships, the influence of peer recommendations from within the sector, and the practical importance of a clear and reliable commercial proposal. A construction company that repeatedly loses tenders on commercial terms may be losing not because the price is wrong but because the scope definition was less precise than the competition's, and a client who has been exposed to variation claims will weight certainty of cost over a lower headline number. The win/loss analysis that surfaces this pattern informs not just outreach messaging but the entire proposal and qualification process — which is the level of operational improvement that a genuinely well-run win/loss programme produces. Not a quarterly report, but a continuous feed of evidence about where the programme is working and where it is not.",
+      },
+    ],
+  },
+  {
     slug: "pre-call-research-b2b-discovery-call",
     category: "Sales Development",
     title: "Pre-Call Research in B2B Sales: What to Find, Where to Look, and How to Use It Before a Discovery Call",
