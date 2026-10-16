@@ -27,6 +27,99 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "pre-call-research-b2b-discovery-call",
+    category: "Sales Development",
+    title: "Pre-Call Research in B2B Sales: What to Find, Where to Look, and How to Use It Before a Discovery Call",
+    excerpt:
+      "Most B2B discovery calls underperform not because the pitch is weak but because the rep arrived unprepared. A structured pre-call research process — twenty focused minutes, the right sources — changes what gets asked and whether the conversation advances.",
+    readTime: "7 min read",
+    date: "16 Oct 2026",
+    color: "#059669",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B discovery calls fail before they begin. Not because the product is wrong or the value proposition is unclear, but because the person making the call arrived without adequate preparation. Pre-call research is standard practice in sales development in theory. In practice, many SDRs and AEs do a version of it — a quick LinkedIn check, a glance at the company website — without a clear framework for what to look for or how to use it. The result is a call that opens with questions the prospect has answered dozens of times before, signals minimal effort to someone who gave up thirty minutes to take the meeting, and uses most of its limited time on context-establishing conversations that could have been handled in advance.",
+      },
+      {
+        type: "heading",
+        text: "What adequate preparation actually looks like",
+      },
+      {
+        type: "paragraph",
+        text: "The goal of pre-call research is not comprehensive knowledge of the prospect's business. A first discovery call is not an exam. The goal is to know enough to ask a better opening question than 'can you tell me a bit about what you do?' and to have identified at least one specific point of connection between what you know about the company's situation and what your solution changes. That requires twenty minutes of structured effort, not an hour of unfocused reading. The constraint that matters is not the time available but whether the time spent is on the right things in the right order.",
+      },
+      {
+        type: "paragraph",
+        text: "Adequate preparation also has a ceiling. A rep who spends two hours researching a prospect before a thirty-minute introductory call is likely to arrive with conclusions rather than questions, which is as damaging to a discovery call as arriving with no preparation at all. The role of pre-call research is to make the conversation better, not to replace it. The best preparation is specific enough to open the right doors and open-ended enough to learn through them.",
+      },
+      {
+        type: "heading",
+        text: "The four things worth finding before any B2B call",
+      },
+      {
+        type: "list",
+        items: [
+          "The company's current direction and visible priorities. A company's website, LinkedIn page, and recent news coverage will typically reveal what the business is publicly focused on — a new service line, a market expansion, a leadership change, a recently announced contract or project. These are not talking points to deploy; they are signals about where the company's attention is currently directed, which shapes which of your solution's capabilities are most relevant to surface in the conversation",
+          "The individual's role, tenure, and recent activity. How long someone has been in their current role matters. A person who has been in post for three years and built a team around a particular approach has different motivations from one who joined six months ago and is still mapping the landscape. Recent LinkedIn posts, shared articles, or comments reveal what the individual is thinking about publicly — and a question that picks up a thread they started themselves will land differently than one built on generic industry knowledge",
+          "Any recent trigger events at the account. A trigger event is any change at the company — a funding round, a senior hire or departure, a new product launch, an acquisition, a contract win or loss, a regulatory change affecting their sector — that plausibly changes the relevance of your solution. Trigger events are not excuses to mention in the opening line; they are context for why a conversation might be timely and what the most relevant angle is. The best use of a trigger is to understand what it implies about the company's current situation, not to reference it explicitly as a hook",
+          "What the prospect's peers in their sector are focused on. Understanding the dominant preoccupations in the prospect's industry right now — the problems being discussed in trade press, the challenges that come up in sector-specific forums, the trends shaping decisions in their category — allows you to speak to the prospect's world rather than a generic version of the problem your solution solves. This is particularly relevant in construction, where sector-specific pressures, regulatory changes, and market cycles vary significantly from broader B2B sales contexts",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Where to look without wasting the time",
+      },
+      {
+        type: "paragraph",
+        text: "The sources that deliver the most relevant information in the least time for a UK B2B sales call are more limited than the number of available options suggests. LinkedIn is the primary source for individual-level research — role, tenure, stated scope, recent activity, and mutual connections. The company website surfaces positioning, current messaging, and any news the company controls. Google News with the company name and a recent date range catches third-party coverage, contract announcements, or sector news the company did not write itself. For UK construction companies specifically, Companies House is a consistently underused source: named directors, filing history, and financial summaries tell you things about the company's structure and ownership that do not appear on any marketing page.",
+      },
+      {
+        type: "paragraph",
+        text: "Trade publications are worth five minutes for sector-level context. For SaaS prospects, publications covering their specific vertical will tell you what operational or commercial pressures that category is currently navigating. For construction companies, trade titles cover project wins, planning approvals, and industry regulation changes that directly affect which parts of a construction business's priorities are in motion. The goal is not to become an expert in the prospect's sector before the call — it is to have enough context to ask a question that demonstrates you understood something specific about their world rather than arriving with a generic sales framework.",
+      },
+      {
+        type: "callout",
+        text: "The test of adequate pre-call preparation is whether you can answer one question before the call begins: what is the single most relevant connection between this company's current situation and what we change for similar businesses? If you cannot answer that in a sentence, you are not ready. If you can, you are.",
+      },
+      {
+        type: "heading",
+        text: "Turning research into questions, not a script",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake with pre-call research is treating it as content to deliver rather than context to inform questions. A rep who opens a call by recounting what they found — 'I saw you recently expanded into Scotland, and I noticed you hired a new commercial director last quarter' — is displaying effort, not using it. The prospect did not take the meeting to hear their own news read back to them. Research is useful insofar as it shapes the questions that open productive lines of conversation. A question informed by the same research — 'I noticed you've been expanding commercially — when you're thinking about pipeline for new contracts, what does that process currently look like?' — opens a conversation the research made possible without making the research itself the subject.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical format that works is a short pre-call note with three things: a one-sentence description of what you know about the company's current situation that is relevant to your solution, the one question you most want to ask first based on what the research surfaced, and a reminder of what a successful outcome of this specific call looks like. The note is for your reference only. Its purpose is to prevent the research from being discarded the moment the call starts and the instinct to revert to a standard opening takes over.",
+      },
+      {
+        type: "heading",
+        text: "The signals worth checking even on a tight timeline",
+      },
+      {
+        type: "paragraph",
+        text: "When the pre-call window is genuinely short — a meeting booked the same morning, a last-minute reschedule — a useful triage is to prioritise in this order: the individual's LinkedIn profile first, the company homepage second, a thirty-second Google News check third. This takes under ten minutes and covers the most likely sources of a specific, relevant opening. A profile that shows the individual recently changed role, recently published on a relevant topic, or is connected to someone you know gives you something immediate and personal to work with. The company homepage reveals the current positioning and any recent announcements. News catches anything significant that happened outside the company's own communications.",
+      },
+      {
+        type: "paragraph",
+        text: "The information most often skipped under time pressure is also the information most often responsible for a call that misses its mark: the individual's actual tenure and scope in their current role. A VP of Sales who has been in post for four months is likely still establishing priorities and more open to new frameworks. One who has been in post for five years has built a functioning approach and will need a stronger reason to consider changing it. These are meaningfully different conversations, and confusing them is a common error that better preparation prevents.",
+      },
+      {
+        type: "heading",
+        text: "What to prioritise: SaaS versus construction",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS, the most valuable pre-call research is individual-level. The economic buyer for a SaaS product is typically a defined role at a defined seniority, and their current priorities, recent content, and prior experience with comparable tools are visible from LinkedIn and their company's own communications. A VP of Sales who has spent the last several months writing about pipeline predictability is signalling a priority that a well-prepared rep can speak to directly. A Head of Operations who recently published on integration challenges is pointing at exactly the concern a deployment discussion will need to address. SaaS pre-call research should prioritise the individual over the company.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, the balance shifts. Individual-level information is often less available: fewer construction professionals maintain active LinkedIn presences, and senior decision-makers in the sector are less likely to signal their priorities through public content. Company-level research becomes proportionally more important: recent project wins, tender submissions, financial health from Companies House, current geographic or sector expansion, and sector press coverage of the business. Understanding what a construction company is building towards commercially is often more useful preparation than knowing the individual's recent activity, because the company's strategic direction drives more of the conversation than personal professional identity does in most SaaS buying contexts.",
+      },
+    ],
+  },
+  {
     slug: "b2b-stakeholder-mapping-buying-committee",
     category: "Sales Development",
     title: "Stakeholder Mapping in B2B Sales: How to Chart the Buying Committee Before You Start Outreach",

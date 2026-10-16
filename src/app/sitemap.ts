@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "pre-call-research-b2b-discovery-call",
   "b2b-stakeholder-mapping-buying-committee",
   "appointment-setting-warm-response-to-booked-meeting",
   "b2b-pricing-conversations-defend-discount",
