@@ -27,6 +27,71 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "video-prospecting-b2b-outreach",
+    category: "Sales Development",
+    title: "Personalised Video in B2B Outreach: When It Works, When It Fails, and How to Structure One That Gets Watched",
+    excerpt:
+      "Asynchronous video has become a common addition to B2B outreach sequences, but most attempts fail because the format is used at the wrong moment or structured like a product demo. A small number of use cases justify the investment.",
+    readTime: "7 min read",
+    date: "17 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Video prospecting has moved from novelty to standard practice in many B2B SDR teams. Tools that enable short, personalised recordings have made it operationally straightforward to attach a video to an email or LinkedIn message, and the format now appears in outreach sequences across SaaS sales development and increasingly in construction sector business development. The result is a cadence technique used far more often than it is used well. Most prospecting videos are recorded with genuine intention but do what text cannot afford to do: spend ninety seconds establishing context, ask a vague question, and close with a request that a two-line email would have made more efficiently. The format does not inherently improve cold outreach — it changes the constraint set. Recording a video is slower than writing a sentence. Watching one requires more from a prospect than scanning a line. The question worth asking before picking up the camera is whether what you need to communicate actually benefits from the medium or whether the format is being used because it is novel rather than because it is right.",
+      },
+      {
+        type: "heading",
+        text: "What video does that text cannot",
+      },
+      {
+        type: "paragraph",
+        text: "The genuine advantage of personalised video in cold or warm outreach is not the format itself — it is what the format signals. A video that is demonstrably specific to the recipient requires effort that a text message does not. A prospect who watches thirty seconds of a video and can see that it is genuinely about them, not a mail-merge with their company name inserted, receives a signal about the level of preparation that text rarely communicates as clearly. That signal is real and it matters, but it is also fragile. The moment a prospect watches a video and recognises it as a template — the same points sent to anyone in their role, with only surface personalisation — the format works against the message rather than for it. The implicit claim of a prospecting video is that this account warranted extra effort. If that claim is not true, the medium makes the gap between expectation and reality more visible, not less.",
+      },
+      {
+        type: "heading",
+        text: "Four use cases where video reliably outperforms text",
+      },
+      {
+        type: "list",
+        items: [
+          "Re-engaging a prospect who has gone quiet after initial interest. A prospect who engaged with an earlier email, took a meeting, or interacted with content and then stopped responding has already signalled some relevance. A personalised video that references what they showed interest in and asks a specific, low-commitment question is more likely to cut through the silence than another text email, because it is visually differentiated in the inbox and signals more than routine follow-up effort. The reference must be specific — a general mention of 'our earlier conversation' is not a reason for the format",
+          "Breaking a stalled deal at the post-discovery or post-proposal stage. A deal that has progressed to evaluation and then gone quiet is a different problem from a cold prospect. The right tool is one that creates a moment rather than adds another data point to an inbox. A short, direct video from the AE addressing the specific concern or consideration that last came up in conversation can restart a dialogue that has stalled because the prospect is avoiding a decision rather than actively rejecting it",
+          "Explaining something that genuinely requires demonstration. A product feature, a technical integration, or a process that is difficult to describe in text without extensive context is a legitimate use case for a brief screen recording. If a prospect has asked a question that would take six dense paragraphs to answer clearly, a two-minute recording is often the more respectful and useful response. This applies more often in SaaS contexts, where questions about workflows and integrations arise regularly, than in construction, where early conversations are usually commercial rather than technical",
+          "Personalised follow-up after a specific trigger. A prospect who has recently appeared in trade press, posted publicly about a challenge relevant to your solution, or triggered an account signal that makes the timing plausible is worth a video that names the specific thing you noticed and explains clearly why it prompted the outreach. The condition is that the connection must be honest — not a generic reference to their recent activity but a specific explanation of what you noticed and why it is relevant to the question you are raising",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to structure a video that gets watched",
+      },
+      {
+        type: "paragraph",
+        text: "The structural problem with most prospecting videos is that they follow the same format as a cold email but remove the recipient's ability to skip to the point. A prospect scanning an email can read the last line in two seconds. A prospect receiving a video has to watch it. That asymmetry means that what a video earns in perceived effort is spent immediately if the opening does not match the commitment being asked. The structure that consistently works in short prospecting videos: begin with the specific reference in the first ten seconds — not a greeting, not a company introduction, the actual point — spend the next forty to sixty seconds on a single observation or question rather than a product overview, and close with a low-friction ask that requires minimal commitment to respond to. A yes or no question, a request to confirm or deny a hypothesis about their situation, or an offer to share something specific gives the prospect a clear exit that does not require them to engage in a full conversation. Leaving someone with an open-ended invitation to chat after ninety seconds of video is the same mistake as leaving it after an email — the format does not solve the ask problem.",
+      },
+      {
+        type: "callout",
+        text: "Before recording a prospecting video, apply one test: could this video, with only the name changed, be sent to ten different contacts in the same role and still make sense? If yes, it is not personalised and will be read as such. If the video references something true of this account that is not true of others, or raises a question that only applies to their situation, the format is justified. If it is a template wearing a personalised opener, the video adds production cost without delivering the signal it exists to send.",
+      },
+      {
+        type: "heading",
+        text: "Where in a sequence video belongs",
+      },
+      {
+        type: "paragraph",
+        text: "Video is rarely the right choice for the first contact in a cold sequence. A well-constructed first email or LinkedIn message is a more efficient instrument: it can be read in fifteen seconds, requires no commitment to watch, and can communicate genuine specificity as effectively as a video when it is researched and written well. Video earns its place further into a sequence — typically the third or fourth touch, after the prospect has received enough prior contact to understand the context and when text-based approaches have not produced a response. At that point, the visual differentiation in the inbox and the signal of additional effort is more likely to register than another email. The exception is a warm follow-up — after a meeting that did not progress, after an inbound engagement, after a specific trigger event — where the relationship context already exists and the video continues a thread rather than trying to start one from cold.",
+      },
+      {
+        type: "heading",
+        text: "SaaS and construction: different thresholds, same logic",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS sales development, video prospecting is most effective as a re-engagement tool for mid-pipeline accounts and as a technical clarification mechanism during evaluation. Cadence norms in SaaS mean that prospects are accustomed to multi-touch sequences and receive high volumes of outreach, which creates genuine opportunity for visual differentiation. A well-placed video in touch four of a sequence targeting a technical buyer — a VP of Engineering, a Head of RevOps — can stand out from the volume of text-based outreach they receive, provided the content justifies the format. In construction, the dynamic is different. Relationship and trust signals carry more weight in this sector, and an unsolicited video from an unknown sender can feel intrusive rather than attentive. The use cases that work in a construction context are consistently warmer: following up on a qualified conversation, responding to a specific commercial question that arose in discussion, or reconnecting with a contact at a firm you have previously engaged. Video can work in construction outreach — but the threshold for justification is higher, and the threshold for genuine personalisation is the same.",
+      },
+    ],
+  },
+  {
     slug: "win-loss-analysis-b2b-outbound",
     category: "Sales Development",
     title: "Win/Loss Analysis in B2B Sales: How to Learn from Closed Deals and Improve Your Outbound Programme",
