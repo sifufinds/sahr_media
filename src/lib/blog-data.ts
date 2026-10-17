@@ -27,6 +27,81 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-pipeline-coverage-ratio-sales-forecasting",
+    category: "B2B Growth",
+    title: "Pipeline Coverage Ratios: How Much Pipeline Your B2B Team Actually Needs to Hit its Revenue Target",
+    excerpt:
+      "Most sales teams know they need more pipeline than their target — but few have a systematic method for calculating the right coverage ratio for their specific conversion rates and deal velocity. Applying a generic ratio creates a false sense of control that shows up clearly when the quarter ends short.",
+    readTime: "7 min read",
+    date: "17 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The '3x pipeline coverage' rule gets quoted regularly in B2B sales conversations — you need three pounds of pipeline for every pound of target. The problem is that the 3x figure is an average derived from nothing in particular. It was not calculated from your conversion rates, your average deal size, your sales cycle length, or your stage-by-stage drop-off data. It is a heuristic that may be too conservative for a high-converting AE team running a fast SaaS sales cycle, and dangerously insufficient for a construction business development team working longer procurement timelines. Applying a generic ratio to your pipeline creates a false sense of control. You either generate prospecting activity against the wrong target, or you spend an entire quarter believing your forecast is healthy when the actual coverage — adjusted for age, stage, and realistic conversion — is well below what you need.",
+      },
+      {
+        type: "heading",
+        text: "What pipeline coverage actually measures",
+      },
+      {
+        type: "paragraph",
+        text: "Pipeline coverage is the ratio of total pipeline value in your forecast period to your revenue target for that period. A team with a £500,000 quarterly target and £1.5 million in pipeline has 3x coverage. The calculation is simple. What is not simple is knowing whether that coverage is real — whether the deals in the pipeline are at stages that could plausibly close in the period, at sizes that are accurate, with buyers who are genuinely progressing rather than stalled. Headline coverage ratios overstate actual capacity because most pipelines contain deals that are unlikely to close on time. The coverage calculation gives you a number. What matters is the quality-adjusted version of that number: the realistic value of the pipeline after you account for conversion probabilities at each stage, deal age, and the proportion of accounts that have genuinely progressed versus those that have sat at the same stage for longer than your average sales cycle.",
+      },
+      {
+        type: "heading",
+        text: "How to calculate the coverage ratio your team actually needs",
+      },
+      {
+        type: "paragraph",
+        text: "The right pipeline coverage ratio for your team is determined by two variables: your win rate and your in-period conversion rate. Win rate is the percentage of qualified opportunities you close. In-period conversion rate is the percentage of pipeline that was open at the start of a quarter that actually closes within that quarter. These are related but not the same. A team with a 35% win rate on qualified opportunities, where roughly half of active pipeline converts within the forecast period and the rest rolls into the next quarter, needs a higher coverage ratio than a team with the same win rate where most deals close within their expected cycle.",
+      },
+      {
+        type: "list",
+        heading: "The inputs to a coverage calculation that is actually yours:",
+        items: [
+          "Win rate on qualified pipeline: the percentage of deals that reach discovery and formal qualification that ultimately close as won. This is calculated from historical CRM data on closed opportunities over at least two to four quarters, to account for seasonality",
+          "Stage-by-stage conversion rates: what percentage of deals move from each stage to the next. A deal at proposal stage has a much higher probability of closing than a deal at initial qualification — a flat coverage ratio treats them as equivalent. Stage-weighted pipeline value gives you a more realistic picture of actual coverage",
+          "Average sales cycle length and its variance: a team where most deals close in six to eight weeks needs a different coverage calculation than one where deals average six months with significant variance. The longer and more variable the cycle, the more conservative your coverage ratio needs to be",
+          "Deal age distribution: the age of deals in your pipeline relative to your average cycle length. A pipeline where many deals are two or three times older than your average cycle without closing is overstating its value — those deals have either stalled or should be disqualified. Age-adjusted pipeline is always smaller than headline pipeline",
+          "In-period close rate: of all opportunities open at the start of a quarter, what percentage close within that quarter? This figure tells you how much of your pipeline is genuinely contributing to this quarter's number versus rolling forward",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Why SaaS and construction pipelines require different thinking",
+      },
+      {
+        type: "paragraph",
+        text: "The nature of the pipeline challenge differs significantly between SaaS and construction contexts, which means the coverage calculations and the management responses are also different. In SaaS sales development, deal cycles for mid-market accounts are typically shorter and more data-rich. Teams running high-volume outbound sequences have enough throughput to build historical conversion data relatively quickly, and the digital nature of the sales process — tracked emails, logged calls, proposal activity — makes stage progression more legible in the CRM. The challenge in SaaS pipelines is typically volume: getting enough qualified opportunities into the funnel to sustain coverage ratios across a growing team, and managing the drop-off at each stage as qualification standards tighten.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction and built-environment business development, the pipeline dynamics are different. Deal cycles for significant contracts are long, multi-stakeholder processes. Tender timelines are often determined by the client's procurement schedule rather than the seller's cadence. The pipeline can look healthy on paper — substantial deals at various stages — while the actual coverage for a given quarter is thin, because none of the large opportunities are close to a decision. Construction sales teams often face the opposite of the SaaS problem: the pipeline is not too thin, but too lumpy and too dependent on a small number of large, slow-moving deals. The coverage calculation needs to account for the fact that a single large deal dominates the ratio, and that its probability of closing in any given quarter is hard to estimate reliably.",
+      },
+      {
+        type: "callout",
+        text: "The vanity pipeline problem is common and consistently underdiagnosed. It occurs when teams do not disqualify deals that have stalled past their expected cycle length, because removing them would visibly reduce pipeline coverage. The result is a coverage ratio that looks adequate while the actual closable pipeline is a fraction of the reported figure. Running a quarterly pipeline audit — reviewing every deal older than your average cycle length and either resetting it with a concrete next action or removing it — is more useful than any amount of prospecting activity aimed at building apparent coverage on top of an inflated base.",
+      },
+      {
+        type: "heading",
+        text: "When coverage is consistently below where it needs to be",
+      },
+      {
+        type: "paragraph",
+        text: "Chronic under-coverage — pipeline that never reaches the ratio your conversion data says you need — is a prospecting problem, a qualification problem, or both. Before the answer is always 'generate more top-of-funnel activity', it is worth establishing which part of the pipeline is thin. If the funnel narrows sharply at qualification, the issue is that too many early-stage opportunities are being disqualified — which could mean the ICP definition needs tightening, the qualification criteria are too strict, or leads are arriving without sufficient prior validation. If the funnel is healthy through qualification but narrows at later stages, the issue is conversion: deals are entering the pipeline that are not progressing to close at the expected rate, which points to a proposal, pricing, or stakeholder problem rather than a volume problem. Generating more outbound activity to compensate for poor mid-funnel conversion is a common and expensive mistake. It improves the coverage number at the top while leaving the structural problem untouched.",
+      },
+      {
+        type: "heading",
+        text: "What to do if your data is not clean enough to calculate this",
+      },
+      {
+        type: "paragraph",
+        text: "Many B2B sales teams, particularly in smaller or earlier-stage organisations, do not have the CRM hygiene or historical data depth to calculate reliable stage conversion rates. In that situation, the practical answer is to start building it rather than waiting for it. Define your stages clearly and enforce consistent usage — the most common reason conversion data is unreliable is that different reps use different stage definitions, so the data does not aggregate into a meaningful signal. Begin tracking close dates, deal ages, and stage duration as standard fields. Within two to three quarters of consistent data entry, you will have enough to run a simple conversion analysis. In the interim, the most useful proxy is to look at every deal in your pipeline and apply a basic age filter: any deal that has been open longer than your best estimate of your average sales cycle should be reviewed and either advanced with a concrete next action or removed. That single discipline, applied consistently, produces a more honest view of actual coverage than a headline ratio built on a mix of real and stalled pipeline.",
+      },
+    ],
+  },
+  {
     slug: "linkedin-social-selling-b2b-outbound-pipeline",
     category: "Sales Development",
     title: "LinkedIn Social Selling for B2B: How to Turn Content Engagement into Outbound Pipeline",
