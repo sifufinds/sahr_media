@@ -27,6 +27,83 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "linkedin-social-selling-b2b-outbound-pipeline",
+    category: "Sales Development",
+    title: "LinkedIn Social Selling for B2B: How to Turn Content Engagement into Outbound Pipeline",
+    excerpt:
+      "Most LinkedIn advice for B2B sellers focuses on the connection request or the DM sequence. Treating content engagement as a warm signal generator — and building a systematic process for converting those signals into conversations — produces meaningfully warmer outbound than cold lists alone.",
+    readTime: "7 min read",
+    date: "17 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Social selling is one of those terms that has been so thoroughly colonised by platform marketing that it has lost most of its practical meaning. LinkedIn's own Social Selling Index is a metric designed to encourage platform activity, not pipeline. Most LinkedIn advice aimed at B2B sellers focuses on either the connection request — how to phrase the initial message — or the DM sequence that follows. What gets less attention is the earlier layer of the process: using content and engagement deliberately to create warm inbound signals before any direct outreach begins, and then converting those signals systematically into conversations. That layer, done with discipline, produces a qualitatively different kind of outbound. The prospect already has some context for who you are and what you talk about. The first message is not starting from zero.",
+      },
+      {
+        type: "heading",
+        text: "What social selling actually means for a B2B pipeline",
+      },
+      {
+        type: "paragraph",
+        text: "In practical terms, social selling in a B2B context means two things working together. The first is being visible to your target accounts on the platform they use — in most B2B markets that is LinkedIn — through content that is genuinely relevant to the problems your ICP is working on. The second is having a systematic process for identifying who in that audience is a qualified prospect, and then making contact in a way that references the shared context rather than ignoring it. Neither part is sufficient on its own. Content without a conversion process produces reach, not pipeline. Outreach that ignores the shared content context is indistinguishable from cold outreach, even if the prospect has seen your name before. The combination, where you are genuinely creating useful signal through what you publish and then acting on who engages, is what makes the approach worth the investment.",
+      },
+      {
+        type: "heading",
+        text: "Why engagement signals are more useful than most teams realise",
+      },
+      {
+        type: "paragraph",
+        text: "When a prospect reacts to or comments on a post you have written, they have done something that cold prospecting cannot manufacture: they have self-identified as interested in the topic you wrote about, at a moment when they chose to. That is a qualitatively different starting point from a name on a list that matches your ICP criteria. It does not mean they have buying intent — engagement with a post about common challenges in SaaS sales development does not mean the person is evaluating vendors — but it does mean they have demonstrated relevance. The topic mattered enough to them to acknowledge it. In a sequence where you are deciding which prospects to prioritise for outreach, an engagement signal is a meaningful filter. It narrows the list to people who have shown some alignment with the problem space you operate in, which makes the subsequent conversation easier to start and more likely to be relevant.",
+      },
+      {
+        type: "heading",
+        text: "What content reliably attracts ICP engagement",
+      },
+      {
+        type: "paragraph",
+        text: "Not all content produces the kind of engagement that is useful for outbound. Content that performs well in terms of impressions and reactions is not necessarily content that attracts the people you want to talk to. The distinction that matters is between content that resonates broadly with a general professional audience and content that is specifically relevant to the problems your ICP is actively working on.",
+      },
+      {
+        type: "list",
+        items: [
+          "Problem-specific posts that name a real, specific challenge your ICP faces. A post that describes a situation your ideal customer will recognise from their own experience — and that names it precisely enough to feel accurate rather than generic — tends to attract engagement from people genuinely in that situation. The goal is specificity: a post about pipeline stall in mid-market SaaS sales will attract a more qualified audience than a post about 'challenges in modern B2B sales'",
+          "Practitioner posts that share a specific approach or framework. Posts that teach a technique, share a process, or break down how to solve a specific problem tend to attract engagement from practitioners — the people who are actively working on the problem you are writing about. For a B2B lead generation agency, posts about qualifying frameworks, outreach structures, or specific sales scenarios are more likely to attract sales leaders and founders than posts about growth mindset or general strategy",
+          "Opinion posts that take a clear position on a debated question. Posting a clear, reasoned view on a question that your ICP actually debates — is BANT still a useful framework? does personalisation at scale work? — attracts engagement from people with an opinion, which means people who are engaged enough with the topic to have one. Controversy for its own sake is not the aim, but a clear perspective is more useful than hedged neutrality for generating signal",
+          "Posts that reference a recent development in your sector. A post that responds to a change in your ICP's market — a new regulation in construction procurement, a shift in SaaS buying behaviour — attracts people who are paying attention to that change. Timeliness makes the content more likely to generate engagement from people who are currently navigating the thing you are writing about",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to track who engaged and qualify them as prospects",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn notifies you when someone reacts to or comments on your posts. Most B2B sellers review this information casually, if at all. The discipline that converts social selling from a background activity into a pipeline input is to treat those notifications as a prospecting task. After posting, review who has engaged within 24 to 48 hours. For each person, run a quick ICP check: does their role, company size, and sector match the accounts you are trying to reach? If yes, they move into a warm outreach list rather than a cold one. LinkedIn Sales Navigator makes this more systematic — you can save searches that match your ICP and overlay engagement data, and you can see which accounts have interacted with your content even if you are not connected to the individual. The practical output of this process is a short list of qualified prospects who have shown recent, relevant engagement, rather than a static list built purely from database criteria. That list takes more effort to build but produces meaningfully warmer conversations.",
+      },
+      {
+        type: "callout",
+        text: "The most common mistake in this process is waiting too long. If someone engaged with your content this week and you reach out a month later, the context has faded and your message will feel as cold as any other. Treating engagement as a time-sensitive signal — acting within a week of the interaction, while the topic is still recent — is the difference between a warm reach-out that the prospect will understand immediately and one that requires them to reconstruct why you are relevant.",
+      },
+      {
+        type: "heading",
+        text: "What a warm outreach message looks like after a content signal",
+      },
+      {
+        type: "paragraph",
+        text: "The opening message after a content engagement signal should acknowledge the shared context directly. Not in a way that is performative — 'I noticed you liked my post' can read as surveillance — but in a way that establishes why you are reaching out at this moment. A message that references the topic of the post you wrote, asks a question specific to the challenge that post addressed, and then offers something genuinely relevant to their situation will outperform a cold message because the first line is already in context. It is not starting the conversation; it is continuing one that began on the content. The ask at the end of this message should be low-commitment: a reaction to a specific hypothesis you have about their situation, a question about whether a particular challenge is one they recognise, or an offer to share something useful on the topic. The goal is to move from a content interaction to a text exchange, not from a content interaction to a booked meeting in one step. Most buyers who are not actively in market need several interactions before a meeting makes sense.",
+      },
+      {
+        type: "heading",
+        text: "Social selling as a slow-build, not a replacement for outbound volume",
+      },
+      {
+        type: "paragraph",
+        text: "The limitation of content-led social selling as a lead generation method is time. Building enough of a presence on LinkedIn that content regularly attracts ICP engagement takes weeks to months of consistent posting, and the volume of qualified signals even a well-performing content programme generates is lower than the volume a full outbound cadence can produce. Social selling works best as a complement to outbound volume, not a substitute for it. What it contributes is a set of warmer contacts at the top of the funnel — people who have already encountered your thinking and found it relevant — which improves conversion rates on the outbound activity that follows. For SaaS sales development teams running high-volume outbound sequences, a content programme that generates even a small number of warm contacts per month is a meaningful addition to the pipeline mix. For construction business development, where relationships and reputation carry significant weight and volume outreach is less common, the social proof and visibility effects of consistent, relevant content may be more valuable than the direct engagement signals. In either context, the approach needs a genuine commitment to posting quality rather than frequency — a post that attracts no engagement from your ICP because it was written for a general audience is not useful social selling, whatever the impressions metric says.",
+      },
+    ],
+  },
+  {
     slug: "video-prospecting-b2b-outreach",
     category: "Sales Development",
     title: "Personalised Video in B2B Outreach: When It Works, When It Fails, and How to Structure One That Gets Watched",
