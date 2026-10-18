@@ -27,6 +27,91 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "competitive-displacement-b2b-outbound",
+    category: "Sales Development",
+    title: "Competitive Displacement in B2B Outbound: How to Win Accounts Already Using a Competitor",
+    excerpt:
+      "Most outbound programmes target greenfield accounts with no existing solution. Competitive displacement requires different signals, different messaging, and a completely different conversation strategy. Getting it wrong closes the door before it opens.",
+    readTime: "6 min read",
+    date: "18 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound programmes are built around greenfield opportunities — companies that do not currently use a solution in your category, or that are clearly under-served by the tools they have. Competitive displacement is a different problem. The account you are approaching already has a vendor, has gone through the procurement process to select them, and has an existing relationship that gives that vendor home-court advantage. The default outbound approach — explaining what your solution does and why the category matters — is irrelevant to a company that already knows. Displacement requires a different entry point, a different conversation structure, and a significantly different understanding of when and why buyers switch. Treating a displacement prospect like a greenfield prospect is the most common mistake SDR teams make when approaching competitive accounts, and it typically produces either a non-response or a polite confirmation that they are satisfied with their current provider.",
+      },
+      {
+        type: "heading",
+        text: "Why buyers switch — and why most don't",
+      },
+      {
+        type: "paragraph",
+        text: "The economics of switching are not in your favour. A buyer who has deployed a solution, trained their team on it, built workflows around it, and negotiated their current contract terms has real costs embedded in that relationship. To switch, those sunk costs must be outweighed by a credible expectation of forward benefit — not just marginal improvement, but improvement significant enough to justify the switching cost plus the disruption and political risk of making the case internally. This is why leading with the claim that you outperform a named competitor rarely works. Better in what dimension, by how much, and what is the cost to find out? Most buyers in a running deployment will default to staying unless they have an active reason to reconsider. The implication for outbound is that the right question is not how to reach competitive accounts, but which competitive accounts are currently in a state that makes reconsideration plausible.",
+      },
+      {
+        type: "heading",
+        text: "Identifying displacement-ready accounts",
+      },
+      {
+        type: "list",
+        items: [
+          "Contract timing signals: Accounts approaching the end of a multi-year contract are in a natural evaluation window. Companies typically begin informal due diligence several months before renewal, which means outreach timed appropriately can reach them while comparison is actively on the agenda. Contract end dates are not always publicly visible, but clues exist — vendor case studies sometimes mention customer tenure, procurement databases carry this information in some sectors, and company descriptions of their technology stack can give rough timing indicators.",
+          "Leadership change in the relevant function: A new head of the function that owns the vendor relationship is not emotionally invested in the vendor that was chosen before they arrived. A new VP of Sales who did not select the current sales engagement platform, or a new Head of IT who inherited the existing infrastructure setup, is structurally freer to evaluate alternatives than the person who made the original decision. Leadership changes are consistently one of the most reliable displacement signals.",
+          "Competitor's own product changes: A major pricing increase, a product discontinuation, an acquisition that changes a vendor's strategic direction, or a significant shift in roadmap creates displacement pressure from the supply side rather than the demand side. Accounts that were settled in their vendor relationship have been forced to reconsider without anyone asking them to. These windows are finite — they open quickly and close as accounts resign themselves to the new reality or make a move — so speed matters.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Messaging principles for displacement outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The messaging mistake to avoid is explicit competitor criticism. Naming a competitor and positioning against their weaknesses invites the buyer to defend a choice they made, puts them on the wrong emotional footing from the start, and signals that you do not know enough about this specific account to say anything more relevant. More practically, it tends to produce one of two responses: the prospect confirms they are happy with their current provider, which ends the conversation, or they are not happy but do not want to discuss it with someone who opened with competitive talking points.",
+      },
+      {
+        type: "paragraph",
+        text: "Effective displacement messaging focuses on an outcome the account wants, not the weakness of their current solution. A message framed around a specific constraint your category of accounts typically hits at a given growth stage works because it is specific to where the account is, it does not require them to admit a mistake, and it opens a conversation about a problem rather than a product. If the conversation confirms they are not experiencing that problem, you have found out quickly. If it confirms they are, you have a credible opening for a more substantive discussion.",
+      },
+      {
+        type: "heading",
+        text: "The displacement discovery conversation",
+      },
+      {
+        type: "paragraph",
+        text: "If the prospect agrees to a conversation, the goal is not to present your solution. It is to understand the depth of any dissatisfaction with their current setup — without asking directly, which would feel like fishing for complaints. The more effective approach is to start with their current workflow and desired outcomes. Asking someone to walk you through how their team currently achieves a relevant outcome usually surfaces gaps and friction points on their own. You do not need to manufacture them. When a gap emerges — something they are working around, something that requires more manual effort than it should, something that was not built out the way they expected — that is the opening for a substantive comparison. Not a feature comparison, but a conversation about whether the gap they have described is material to their actual goals.",
+      },
+      {
+        type: "heading",
+        text: "What not to do in competitive displacement outreach",
+      },
+      {
+        type: "list",
+        items: [
+          "Do not send a feature comparison as your opening move. A buyer with an existing solution already has a reference point, and a feature list helps them find reasons to stay with what they know rather than reasons to switch.",
+          "Do not reference competitor weaknesses as your opening line. You position yourself as the rep who bad-mouths the competition rather than someone with specific, useful insight.",
+          "Do not assume a long-standing contract means the account is untouchable. Relationships that have been in place for years are not immune to change — they are often more susceptible when the timing is right, because frustration with any incumbent relationship accumulates over time. The question is timing, not permanence.",
+          "Do not approach an account that has just renewed. An account that re-signed recently has reset its switching calculus. Track the account, monitor for the signals listed above, and return when the timing is relevant.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Competitive displacement in SaaS versus construction",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS, competitive displacement is faster-moving and often more visible. Review communities, product forums, and public social channels mean competitor dissatisfaction surfaces in places that can be monitored systematically. Switching costs are lower than in construction contexts, which means the buyer's threshold for reconsidering is lower and the displacement window, once open, can move quickly. The displacement playbook maps well to trigger-based prospecting: monitor tier-one competitive accounts for the signals described above and act on them promptly. Speed matters more than depth in the initial approach, because the evaluation window is often short.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, the dynamics are different. Procurement relationships are more personal, more durable, and more entangled with professional reputation and supply chain trust. A subcontractor that has been used on multiple projects over several years has a relationship asset that is substantially harder to displace through outbound sequences. Displacement in construction contexts typically requires a longer presence: establishing familiarity as a known quantity in the market before an active switching window opens, rather than arriving with a pitch in hand when the contract is up. The infrastructure for construction displacement is consistent visibility — trade events, referral networks, targeted content — so that when the moment arrives, the conversation begins from a warm base rather than a cold approach.",
+      },
+      {
+        type: "callout",
+        text: "The most productive question in any competitive displacement conversation is not whether the buyer is happy with their current provider — most buyers are primed to say yes. It is: what outcome are you most focused on improving over the next six months, and what is your biggest constraint in getting there? That question is about where the account wants to go. The gap between where they want to go and what their current setup can reliably deliver is where displacement opportunities actually live.",
+      },
+    ],
+  },
+  {
     slug: "b2b-account-tiering-outbound-prioritisation",
     category: "Sales Development",
     title: "Account Tiering in B2B Outbound: How to Stop Treating Every ICP Account the Same",
