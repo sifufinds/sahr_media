@@ -27,6 +27,105 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-account-tiering-outbound-prioritisation",
+    category: "Sales Development",
+    title: "Account Tiering in B2B Outbound: How to Stop Treating Every ICP Account the Same",
+    excerpt:
+      "Most outbound teams send the same cadence to every account on their list. Account tiering — ranking prospects by ICP fit and buying likelihood, then assigning different treatment to each tier — fixes that misallocation and produces more pipeline from the same SDR capacity.",
+    readTime: "7 min read",
+    date: "18 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound programmes treat every account on the list as equivalent. The company at the top gets the same sequence frequency, the same level of personalisation, and the same SDR time as the company at the bottom. This is the default behaviour of outreach tooling — every row in a sequence is a row — but it produces a programme that allocates the same effort to a high-fit account with a live buying signal and a marginal target that was pulled in to pad volume. The cost is not just wasted effort on lower-priority accounts. It is also the opportunity cost of not giving tier-one targets the frequency, research depth, and personalisation they warrant. Account tiering is the structural fix: rank your prospecting population by the combination of ICP fit and buying likelihood, then assign different outbound treatment to each tier. The mechanism is not complicated. The discipline required to maintain it is.",
+      },
+      {
+        type: "heading",
+        text: "What tiering actually means",
+      },
+      {
+        type: "paragraph",
+        text: "Account tiering is the process of ranking the accounts in your prospecting database by the combination of ICP fit and estimated buying likelihood, and then assigning different outbound treatment to different tiers. The most common version is three tiers. Tier one contains accounts with the highest strategic fit and the strongest signals of current or near-term buying likelihood — these receive the most effort, the most personalisation, and the highest contact frequency. Tier two contains good-fit accounts without strong timing signals — they receive a structured cadence but less investment per account. Tier three contains lower-fit or lower-priority accounts that may warrant occasional outreach but should not compete for the same SDR capacity as tier-one targets. The purpose of tiering is not to ignore lower-tier accounts. It is to acknowledge that not all accounts have the same probability of becoming a customer, and that the effort invested in outreach should be roughly proportional to that probability.",
+      },
+      {
+        type: "heading",
+        text: "The two variables that determine tier",
+      },
+      {
+        type: "list",
+        items: [
+          "ICP fit score: how closely the account matches your ideal customer profile — the factors you have validated as predictive of success, such as company size, sector, technology stack, team structure, and business model. This is the stable variable. A company either fits your ICP or it does not, regardless of when you contact them. A rigorous fit score requires defining criteria clearly and applying them consistently across the entire database. The most common failure is allowing fit to become a vague qualitative judgement that different team members apply differently, so the same account scores differently depending on who assessed it",
+          "Buying likelihood signals: what the current evidence suggests about whether this account is in an active or near-term buying process. This is the dynamic variable. A high-fit account with no current signals is a tier-two target. A high-fit account with a strong buying signal — a leadership change in a relevant function, a platform migration, a funding event, a public statement about a specific challenge — moves to tier one. Signals are perishable, which means tiering is not a one-time exercise: a tier assignment made in January may be outdated by March if the account's circumstances have changed",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How to build a fit score without overcomplicating it",
+      },
+      {
+        type: "paragraph",
+        text: "The mistake most teams make when building a scoring model is trying to quantify everything. A fit score with twenty variables and weighted coefficients is operationally expensive to maintain and typically no more predictive than a simpler version with four or five validated attributes. The right approach is to start from your closed-won data: which account characteristics were most consistently present in accounts that became good customers and stayed? Which characteristics were present in accounts that churned or were difficult to serve? The variables that reliably separate good-fit from poor-fit accounts in your historical data are the ones worth including in a forward-looking score. Everything else adds maintenance burden without improving the output.",
+      },
+      {
+        type: "paragraph",
+        text: "For most B2B teams with a defined ICP, three to five attributes produce a fit score that is both defensible and practical: sector, company size, a relevant operational characteristic (a technology stack indicator, the presence of a specific team or role, a business model attribute), and any exclusion criteria that disqualify accounts regardless of other fit signals. Applied consistently across every account in the database, the result is a population that can be tiered. The key word is consistently — a fit score that depends on analyst judgement rather than defined criteria will be applied differently by different people and will not produce comparable results across the database.",
+      },
+      {
+        type: "heading",
+        text: "Buying signals and how to track them",
+      },
+      {
+        type: "paragraph",
+        text: "A buying signal is any publicly observable change in an account that makes a buying decision more plausible at this point in time. In SaaS contexts, common signals include leadership changes in relevant functions — a new VP of Sales, Head of RevOps, or CTO is often early in a strategic review of their tooling — company growth events such as a funding round or team expansion that will increase demand for what you sell, or a public statement from a senior contact about a problem your solution addresses. In construction contexts, the equivalent signals are project announcements, tender opportunities, planning approvals for relevant project types, and senior hires in roles that influence procurement decisions.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical challenge with buying signals is that they require ongoing monitoring to be useful. A trigger event that happened six months ago is no longer a current signal — it was an opportunity that passed. Teams that use signals effectively have a monitoring process: a set of defined triggers for tier-one target accounts, tracked through a combination of LinkedIn alerts, news monitoring for account names and decision-makers, trade press feeds, and, where available, intent data platforms. The investment required depends on the size of the tier-one list. A list of fifty accounts can be monitored manually in a weekly review. A list of several hundred needs systematic tooling to remain current.",
+      },
+      {
+        type: "callout",
+        text: "The most consistent failure mode in account tiering is creating the tiers once and never updating them. Tier assignments should be reviewed at minimum each quarter and in real time when a trigger event fires. An account that was tier two several months ago because it had no timing signals may now have a new commercial director and a published expansion plan — which makes it a tier-one priority this month, not next quarter. Stale tier assignments are directionally misleading: the programme is investing more effort where probability was highest, not where it is highest now.",
+      },
+      {
+        type: "heading",
+        text: "What different tier treatment looks like in practice",
+      },
+      {
+        type: "paragraph",
+        text: "The practical output of a tiered system is a different outreach protocol for each tier. Tier one receives an account-specific approach: researched personalisation that references something true of this company specifically, a higher-frequency cadence of eight to twelve touches over four to six weeks, a mix of channels including email, LinkedIn, and phone where appropriate, and AE involvement in the sequence rather than SDR-only outreach. The personalisation is genuine — not a mail-merge variable but a reference to the actual situation of this account, developed from pre-call research.",
+      },
+      {
+        type: "paragraph",
+        text: "Tier two receives a structured cadence with thematic personalisation: messaging built around the ICP segment rather than the individual account, a lower frequency of five to seven touches over three to four weeks, and primarily email and LinkedIn as the channels. The investment per account is lower, but the sequencing is still disciplined and the messaging is still relevant to the sector and role. Tier three receives a lower-frequency cadence designed to test for inbound interest rather than generate it: two or three touches at wider intervals, largely to confirm that these accounts are genuinely low-priority rather than to convert them. This is also the pool from which tier-two accounts are sourced when new fit signals emerge.",
+      },
+      {
+        type: "heading",
+        text: "Avoiding the tier-one list inflation problem",
+      },
+      {
+        type: "paragraph",
+        text: "A tiered system only works if the criteria for tier-one placement are enforced. The common failure is that the tier-one list grows until it contains a large fraction of the database, because the people generating the list want more accounts in the high-effort category, or because the criteria are vague enough to justify inclusion for most accounts. When tier one becomes large, the average treatment reverts toward the average — there are not enough SDR hours to give every tier-one account genuine tier-one treatment. The result is a labelling exercise rather than a resource allocation discipline.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical constraint that keeps tier one meaningful is an explicit limit on its size relative to available SDR capacity. If a single SDR can manage eight to ten tier-one accounts concurrently with genuine high-touch treatment, then a two-person SDR team should have no more than sixteen to twenty accounts in tier one at any given time. The rest of the high-fit population sits in tier two until either capacity increases or a buying signal elevates a specific account. That constraint forces the team to make explicit decisions about which accounts are genuinely highest-priority right now, rather than applying the tier-one label broadly.",
+      },
+      {
+        type: "heading",
+        text: "Applying tiering in SaaS versus construction contexts",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS outbound, the tiering model is typically more dynamic. The volume of prospect data available, the speed at which accounts move through trigger events, and the frequency with which intent signals are detectable through digital channels mean tier assignments can be updated more often and more reliably. SDR teams in SaaS need a clear protocol for when a tier-two account is promoted: specific criteria, a defined signal threshold, and a process for the team lead to approve tier-one treatment rather than every rep self-selecting their own tier-one list. Without that governance, tier inflation is rapid.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, the tier-one list is typically smaller and more stable. Accounts move into tier one based on project pipeline signals and relationship context rather than high-frequency digital signals, and the tier-one treatment reflects the longer buying cycle: a relationship-building cadence rather than a high-frequency email sequence, and outreach designed to build familiarity over six to twelve months rather than generate a meeting in thirty days. The logic of tiering — allocating more effort where probability is higher — applies equally in both contexts. The signals, the treatment protocols, and the timeline all differ significantly, but the underlying discipline is the same: match your investment in each account to the realistic probability that it becomes a customer.",
+      },
+    ],
+  },
+  {
     slug: "b2b-pipeline-coverage-ratio-sales-forecasting",
     category: "B2B Growth",
     title: "Pipeline Coverage Ratios: How Much Pipeline Your B2B Team Actually Needs to Hit its Revenue Target",
