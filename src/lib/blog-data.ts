@@ -27,6 +27,97 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-voicemail-strategy-cold-calling",
+    category: "Sales Development",
+    title: "B2B Voicemail Strategy: When to Leave One and What It Should Say",
+    excerpt:
+      "Most SDRs either skip voicemails entirely or leave a recycled pitch that produces no results. A well-placed voicemail does a specific job in a multi-channel sequence — and it is not the job most reps think it is.",
+    readTime: "7 min read",
+    date: "18 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The voicemail question comes up in almost every outbound training conversation: should SDRs bother? The honest answer is that it depends on what you expect a voicemail to accomplish. If you expect it to produce direct callbacks at volume, the answer is usually no — the callback rate on unsolicited B2B voicemails is low, and the time cost of leaving a thoughtful message on every call quickly becomes prohibitive. But that framing misses the actual job voicemail does in a well-designed outbound sequence. A voicemail is not a standalone prospecting channel. It is a coordination mechanism that supports your email and LinkedIn touches by creating name recognition and signalling genuine human effort. The debate about whether to use voicemails usually resolves once you stop measuring it against callbacks and start measuring it against its actual contribution to multi-channel response rate.",
+      },
+      {
+        type: "heading",
+        text: "When voicemail earns its place in the sequence",
+      },
+      {
+        type: "paragraph",
+        text: "Voicemail is not a default step that belongs in every sequence at every stage. Its cost in time and cognitive effort is real, and at the lower end of your target account list it is rarely worth it. The cases where voicemail is consistently worth the investment are a narrower set: tier-one accounts where you are making a genuine multi-touch effort, mid-sequence after the prospect has already seen your email and LinkedIn message without responding, and accounts where the role you are targeting is senior enough that a call stands out from inbox noise. A voicemail left before any other touch lands with no context and produces the weakest result. A voicemail left on day four of a sequence, after the prospect has seen your name in their inbox and on LinkedIn, lands with recognition — even if they did not open the email, they saw the name, and the voicemail reinforces that this is a real person making a deliberate effort, not an automated flow.",
+      },
+      {
+        type: "heading",
+        text: "What a voicemail is not trying to do",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake SDRs make with voicemails is treating them as a compressed sales pitch: sixty seconds to deliver the company overview, the key benefits, and a call to action. The prospect, on the rare occasion they listen, hears a person reading a script at them and deletes it. The problem is not the voicemail itself but the expectation behind it. A voicemail cannot sell your solution, cannot qualify the prospect, and cannot explain your value proposition well enough to produce a buying decision. Trying to do all of that in under a minute produces a message that sounds exactly like every other unsolicited voicemail the prospect has ever received, and they stop listening before you reach the point.",
+      },
+      {
+        type: "paragraph",
+        text: "The actual job of a B2B voicemail is narrower and more achievable. Done well, it creates name recognition for the follow-up email that is about to arrive, signals that a real person is making a genuine effort to reach them — which differentiates you from automated sequences — and, in a small but real subset of cases, prompts a callback from someone who was already on the edge of engaging. That third outcome should not be the primary measure of success. The first two are what make voicemail worth including in tier-one sequences even when the direct callback rate stays low.",
+      },
+      {
+        type: "heading",
+        text: "The mechanics: length, pace, and clarity",
+      },
+      {
+        type: "list",
+        items: [
+          "Length: aim for 20 to 30 seconds. The prospect's available attention for a voicemail from an unknown number is not long, and a message that runs past 45 seconds risks losing them before you reach the only part that matters — your name, your number, and the specific reason you are calling. Anything longer typically contains material that belongs in the email instead.",
+          "Pace: speak more slowly than feels natural. On a voicemail, pace affects comprehension directly — a message delivered at your normal conversational speed is harder to follow than one that gives the listener time to register each element. This matters most for your name, company name, and callback number, which should be repeated twice and spoken slowly enough that the prospect can note them without replaying the message.",
+          "One specific hook, not a pitch: the voicemail should reference one specific, relevant reason you are calling — not a feature list, not a general category claim. The reference can be a recent change at their company, a challenge common to their stage or sector, or a result you achieved for a comparable account. It does not need to be elaborate. It needs to be specific enough that the prospect recognises it is not a template.",
+          "Reference your email explicitly: the single most useful close on a B2B voicemail is telling the prospect that you have sent them a short email and that they can reply there if it is easier than calling back. This converts the voicemail from a standalone piece of outreach into a bridge, and makes it more likely that your email is opened with context rather than as a cold first contact.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Integrating voicemail into a multi-channel sequence",
+      },
+      {
+        type: "paragraph",
+        text: "A voicemail works best as one element in a coordinated sequence, not as an isolated channel. The sequencing logic that tends to produce the best combined response rate is: email first to establish context, LinkedIn touch to add visibility, call and voicemail on the third or fourth interaction, followed by an email that references the voicemail explicitly. The email that follows a voicemail is a different email from a standard sequence step — it opens by acknowledging you left a message, briefly restates the reason you reached out, and asks a single direct question. This email performs materially better than a sequence email sent into a vacuum because it lands with context the prospect already has.",
+      },
+      {
+        type: "paragraph",
+        text: "For senior targets — heads of function, C-suite, VP level — the phone and voicemail often carry more weight than for individual contributors or mid-level buyers. Senior people typically have gatekeepers and low open rates on unsolicited email, but a brief, specific voicemail that does not sound like a pitch occasionally gets through where email does not. This is not a consistent effect and should not lead to over-investing in phone-heavy sequences for all senior targets. But it is worth ensuring that your tier-one call list includes the accounts where a voicemail might do work that email cannot.",
+      },
+      {
+        type: "heading",
+        text: "A framework for what to say",
+      },
+      {
+        type: "paragraph",
+        text: "Rather than a word-for-word script — which produces a delivered-speech quality that undermines the credibility a voicemail is meant to build — the more reliable approach is a structural framework with a few mandatory elements. The structure is: your name, your company name, the specific reason you are calling in one sentence, a reference to the email you have sent, your number spoken twice, and a closing line that reduces the friction of responding. That structure takes 25 to 30 seconds at a natural pace. The specific reason you are calling is the variable that determines whether the voicemail sounds like every other one. It needs to be concrete enough that the prospect cannot be receiving the identical message from another caller the same day — a reference to their sector and current stage, a recent company announcement, or a challenge specific to their function.",
+      },
+      {
+        type: "paragraph",
+        text: "Delivered, the framework sounds approximately like: your name and company first, then a single sentence connecting to something specific about their situation, then 'I've sent you a short email — easier to review there', then your number twice at a slower pace, then a brief line removing the pressure to call back directly. The specific connection replaces the generic benefits pitch. The repeated number removes a reason not to call back. The explicit mention of the email increases the chance it is opened. None of this requires invention — it requires knowing enough about the account to replace the generic with something particular to them.",
+      },
+      {
+        type: "heading",
+        text: "What not to do",
+      },
+      {
+        type: "list",
+        items: [
+          "Do not read from a script verbatim. The flat delivery that comes from reading prepared text sounds distinctly different from a natural call, and most prospects recognise it immediately. Internalise the framework and deliver it conversationally.",
+          "Do not end with an open-ended call to action such as 'give me a call if you're interested'. This places the burden of action entirely on the prospect and gives them nothing specific to respond to. A reference to the email you have sent — which they can read without committing to a call — lowers the response threshold.",
+          "Do not name-drop your client list unless you have a direct, credible connection to the prospect's context. A list of large clients in an unrelated sector is background noise. A reference to a comparable company in their specific situation is evidence. The former is showing off; the latter is relevant.",
+          "Do not use the phrase 'I don't want to take up too much of your time'. It reads as a verbal apology for calling and undermines the confidence your tone needs to carry. If the reason you are calling is relevant, the time is warranted.",
+          "Do not leave a voicemail at every call attempt in the sequence. Voice is highest effort and therefore highest cost. Reserve it for the points in the sequence where multi-channel coordination creates reinforcement — typically mid-sequence on tier-one accounts — not as a default on every dial.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The measure of a good voicemail is not the callback rate in isolation. It is whether the email that follows is more likely to be opened and replied to because the prospect heard your name and a specific, relevant reason for contact before it arrived. Most voicemails are wasted because they do not pass that test — they are mini pitches that replace genuine specificity with a compressed version of the deck. The fix is not better delivery. It is understanding the actual job the voicemail is doing in the sequence.",
+      },
+    ],
+  },
+  {
     slug: "competitive-displacement-b2b-outbound",
     category: "Sales Development",
     title: "Competitive Displacement in B2B Outbound: How to Win Accounts Already Using a Competitor",
