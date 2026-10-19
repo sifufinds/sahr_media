@@ -27,6 +27,112 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-outbound-sequencing-b2b-cadence",
+    category: "Construction Marketing",
+    title: "Outbound Sequencing for Construction: Why Standard B2B Cadences Fail Project-Based Buyers",
+    excerpt:
+      "Construction companies operate on project cycles, not fiscal quarters — and cold outreach that ignores this sends well-crafted messages at completely the wrong time. Adapting sequence design to fit how construction buyers actually make decisions changes the conversion rate from interesting-looking contact to booked meeting.",
+    readTime: "8 min read",
+    date: "19 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound sequences used in B2B sales are designed around the SaaS buying pattern: a relatively short decision cycle, a buyer who checks email regularly, a problem that exists regardless of what project the company is currently delivering, and a value proposition that can be validated in a thirty-minute demo. Apply that sequence design to a construction buyer and the structural mismatch is immediate. Construction companies buy in anticipation of work, not in response to a general improvement agenda. A commercial director at a main contractor who is deep in the delivery phase of three concurrent contracts does not have budget conversations, procurement conversations, or strategic supplier conversations on the agenda — not because they are not interested in improving their operation, but because the operational reality of the current phase makes it the wrong time. The most common failure in outbound to construction is not messaging quality. It is sending well-crafted messages during the wrong phase of the buyer's project cycle and interpreting the silence as disinterest.",
+      },
+      {
+        type: "heading",
+        text: "How construction companies actually make buying decisions",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS and most services businesses, buying decisions are largely independent of what the company is operationally doing at the moment. The CFO thinking about finance software is not constrained by which client the sales team is closing. In construction, this separation largely does not exist — at least not below director level. The people who would evaluate a new supplier, a new subcontractor, or a new services partner are often the same people managing the delivery of live projects. Their capacity for strategic procurement is tightly correlated with project phase. A company that has just been awarded a large contract and is mobilising is in pre-delivery mode — resourcing conversations are live, procurement is active, and there is a genuine appetite for new supplier conversations. A company six months into delivery of the same contract is heads-down, and the commercial director's inbox at that point is largely about variation orders, programme slippage, and subcontractor performance — not evaluation of new relationships.",
+      },
+      {
+        type: "paragraph",
+        text: "The implication for outbound sequencing is not subtle: timing is not just a nice-to-have optimisation. It is the difference between a sequence that enters a genuine buying conversation and one that generates technically perfect emails that nobody acts on. The standard outbound wisdom about persistence — more touches, tighter spacing, follow up until you get a definitive answer — does not hold in construction the way it does in software sales. Persistence into the wrong project phase erodes credibility and consumes contact capital without producing pipeline.",
+      },
+      {
+        type: "heading",
+        text: "The timing problem: why well-crafted emails get ignored",
+      },
+      {
+        type: "paragraph",
+        text: "Consider a construction business doing £20m a year in turnover. At any given time, their commercial director is managing several active contracts, pursuing a pipeline of tenders, and handling the subcontractor and supply chain relationships those projects require. Cold outreach for a new lead generation service, a new software tool, or a new strategic supplier relationship lands in a context where the commercial director has no immediate bandwidth for evaluation — not this month, possibly not next month. The email is read, the name noted, and the message filed or deleted. Three days later, another email from the same sequence arrives. It is equally well-written. It gets a shorter read and a faster delete. The sequence runs its standard eight or ten touches over three weeks, the prospect never responds, and the contact is marked as cold.",
+      },
+      {
+        type: "paragraph",
+        text: "The same contact, reached three months later when a major contract has moved to handover phase and the business is actively tendering for the next programme of work, has an entirely different context. The commercial director now has bandwidth for supplier evaluation. They are actively thinking about what the next twelve months requires. The outreach that was noise in the delivery phase is signal in the tendering phase. The standard cadence — front-loaded, tightly spaced, concluded within a month — never reaches the right phase and never finds out whether the prospect was genuinely uninterested or simply badly timed.",
+      },
+      {
+        type: "heading",
+        text: "Sequence structure for project-based buyers: longer gaps and more patience",
+      },
+      {
+        type: "paragraph",
+        text: "Outbound sequences designed for construction should run significantly longer and at wider intervals than a SaaS-equivalent campaign. A sequence that runs three to four months, with contact attempts spaced ten to fourteen days apart, covers a broader slice of the prospect's project cycle and increases the probability of at least one touch landing at the right moment. The total number of touchpoints can be similar to a standard sequence — eight to twelve — but distributed over a much longer window rather than compressed into three to four weeks.",
+      },
+      {
+        type: "list",
+        heading: "Structural principles for a construction outbound sequence:",
+        items: [
+          "Spacing: fourteen days between touches is a reasonable default, not a concession. In a standard software sales sequence, fourteen days between touches allows a prospect to forget the previous message. In construction, fourteen days is often the minimum gap that respects the operational rhythm of the business.",
+          "Sequence length: design for at least ten to fourteen weeks of active touches. This is not about being persistent in the face of disinterest — it is about covering enough of the target's time to intersect with at least one phase where evaluation is possible.",
+          "Channel mix: phone and email should both be present, but LinkedIn holds particular value in construction because it is where project wins, new hires, and company news surface — intelligence that sharpens both the timing and the messaging of follow-up touches.",
+          "Pause-and-monitor logic: build logic into sequences that automatically pauses outreach when a trigger signal suggests the prospect is entering a delivery-heavy phase (for example, a major contract award announcement), and re-activates when subsequent signals suggest a tendering or mobilisation phase is starting.",
+          "Post-sequence nurture: prospects who do not engage within the initial sequence window are not necessarily cold. In construction, more than in most sectors, they may simply have been caught at the wrong point in their cycle. Moving them to a lower-frequency nurture track — monthly contact over six to twelve months — is often more productive than treating them as closed-lost.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Role-specific sequencing: who you are reaching matters as much as when",
+      },
+      {
+        type: "paragraph",
+        text: "Construction businesses do not have a single buyer. The stakeholder map varies by company size and structure, but common roles in the buying process for services or strategic partnerships include the managing director, commercial director, estimating manager, procurement manager, and — in larger businesses — a head of business development. These roles have different relationships to the project cycle and different entry points into a buying conversation.",
+      },
+      {
+        type: "list",
+        items: [
+          "Managing director / owner: in smaller construction businesses, the MD is often the commercial decision-maker and is most reachable at the strategic level — company growth, margin, new market entry. They are less cycle-dependent than operational roles and more likely to engage with messaging around business outcomes rather than operational efficiency. Sequence timing matters less for MDs of smaller businesses; message relevance matters more.",
+          "Commercial director: the most cycle-dependent role on this list. Their bandwidth tracks almost directly with project phase. Sequences targeting commercial directors should be designed with the longest gaps and should lean heavily on trigger signals — award announcements, contract completions, new hire signals — to time outreach accurately.",
+          "Estimating manager: estimators operate in a relatively stable cycle of their own — they are always tendering for the next programme regardless of what is in delivery. Outreach to estimating teams can be more consistently timed and is often more productive because the role is inherently forward-looking. A service or tool that helps an estimating team win more tenders does not require a specific project cycle window to be relevant.",
+          "Procurement manager: in larger businesses with a dedicated procurement function, this role is the appropriate target for supplier relationship and services conversations. Procurement managers often have more structured supplier evaluation processes and are more accustomed to receiving and evaluating new vendor approaches.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What 'no response' means in construction — and why it is not the same as disinterest",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS outbound, a prospect who does not respond to an eight-touch sequence over three weeks has had a reasonable opportunity to engage. The lack of response is reasonable evidence of genuine disinterest — they are either not a fit, not in a buying cycle, or actively choosing to ignore the outreach. The sequence has run its course and the contact can be deprioritised. In construction, the same eight-touch sequence over three weeks is not a reasonable opportunity. It is a snapshot of one short window in a buying cycle that may span twelve to eighteen months. Non-response at that point tells you almost nothing about whether the prospect is a genuine future customer.",
+      },
+      {
+        type: "paragraph",
+        text: "This distinction matters for how construction contacts are categorised after a sequence completes without a response. Marking them as cold and removing them from active sequences treats a timing problem as a qualification failure. The better default is to move them into a low-frequency nurture track — one contact every four to six weeks — and to monitor the signals that indicate when a more active approach is appropriate: a LinkedIn announcement of a new major contract win, a job posting for a role that signals new capacity or new market entry, a tender publication that matches the company's profile. These are buying window signals, and they are the point at which a contact that went quiet under a standard sequence becomes worth a fresh direct approach.",
+      },
+      {
+        type: "heading",
+        text: "Trigger signals that tell you a construction company is entering a buying window",
+      },
+      {
+        type: "list",
+        items: [
+          "Contract award announcements: a company that has just won a significant contract is mobilising — resources, subcontractors, supply chain. If your service fits the mobilisation phase, this is a strong entry point. Even if your service is more strategic than operational, the award signals that the business is growing and the commercial director will shortly emerge from the delivery intensity of the previous programme.",
+          "New senior hire announcements: a new commercial director, estimating director, or head of BD often signals a shift in the company's growth agenda. New hires in senior commercial roles frequently carry a mandate to evaluate and change suppliers, systems, and approaches. They are more open to new conversations in their first ninety days than at any other point.",
+          "Job postings for estimators or business development roles: a company expanding its estimating or BD function is growing its pipeline activity. This is a buying window signal for services that support those functions.",
+          "Framework or preferred supplier list announcements: a construction company awarded a place on a new public sector framework or major client PSL is positioned to grow significantly in the next one to three years. The commercial implications of that position create a genuine context for new strategic supplier or services conversations.",
+          "Tender publications that match their profile: monitoring tender portals for contracts in the prospect's sector and geography, then referencing a live relevant tender in outreach, provides the kind of situational relevance that generic B2B sequences cannot match.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The key adjustment in construction outbound is not writing better emails — it is changing what you optimise for. A standard sequence optimises for response within thirty days. A construction sequence should optimise for presence across twelve months. The goal is to be the recognisable, relevant name that a commercial director thinks of when a buying window opens, not the name that arrived most persistently during the window that was definitely wrong.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sales-proposal-structure-close-deals",
     category: "Sales Development",
     title: "B2B Sales Proposals: How to Write a Document That Advances Deals Rather Than Stalling Them",
