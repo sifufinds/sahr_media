@@ -27,6 +27,93 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sales-proposal-structure-close-deals",
+    category: "Sales Development",
+    title: "B2B Sales Proposals: How to Write a Document That Advances Deals Rather Than Stalling Them",
+    excerpt:
+      "Most sales proposals arrive too long, too product-focused, and structured around what the vendor wants to say rather than what the buyer needs to decide. The fix is not brevity for its own sake — it is understanding what a proposal is actually supposed to do in a sales process.",
+    readTime: "8 min read",
+    date: "19 Oct 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "The sales proposal is the document that buyers use to make a decision — or, more commonly, to justify delaying one. Most proposals do the latter by default. They arrive too long, too product-focused, and structured around what the vendor wants to say rather than what the buyer needs to know. The result is a document the buyer skims, finds difficult to act on, and passes to procurement or legal for review — a move that adds weeks to the process without advancing it. A proposal that shortens a sales cycle is not the same document written more concisely. It is a fundamentally different artefact: a decision document built for the specific people who will read it, structured to make the path from reading to approving as short as possible. The gap between a proposal built on that logic and a standard vendor deck repurposed as a PDF is not marginal — it shows up in close rate, deal velocity, and the number of review cycles required before a decision is made.",
+      },
+      {
+        type: "heading",
+        text: "The actual job of a sales proposal",
+      },
+      {
+        type: "paragraph",
+        text: "A proposal enters the process at a specific point: after the buyer has already agreed that there is a problem worth solving and that your solution is worth examining further. They have had the discovery call and the demo. They are not looking for education or a presentation of your market positioning. What they need from the proposal is clarity on four things, in roughly this order: what they are specifically committing to, what it costs and under what terms, what happens after they say yes, and how they would justify the decision to others in their organisation — the finance lead, the technical reviewer, the board member who will ask why. A proposal that opens with a company history, then a market analysis, then a product overview, is built entirely around what the vendor wants to communicate, not around the questions the buyer is actually trying to answer. When a buyer cannot locate those answers without reading past content that is not relevant to their decision, they do one of two things: they ask for a follow-up call to go through it together, which delays the timeline, or they put the proposal aside to review properly when they have time, which also delays the timeline.",
+      },
+      {
+        type: "heading",
+        text: "Structure that serves the buyer's decision sequence",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective proposal structure is not a creative choice — it follows the order in which a buyer's questions arise. That order is consistent across most B2B buying contexts, which means a default structure can be established and adapted to account specifics rather than rebuilt from scratch for every deal.",
+      },
+      {
+        type: "list",
+        items: [
+          "Executive summary first: a one-page section that states the buyer's specific situation as you understand it, the outcome the engagement is designed to produce, and the commercial terms in summary. The buyer's CFO or CEO, who may co-sign the decision, might read only this page — it needs to stand alone as a complete account of what is being agreed to and why it is worth the investment.",
+          "Scope and deliverables, not features: what you will do, by when, and to what standard. This section is about the buyer's experience of working with you, not a product brochure. SDR capacity, outreach volume, reporting cadence, points of contact — the specifics that let the buyer model what engagement actually looks like.",
+          "Commercial terms presented clearly: total cost, payment structure, contract length, and any variables that could affect the number. Pricing that requires interpretation or a follow-up conversation to understand creates uncertainty, which delays decisions. Buyers are more comfortable committing to a number they can explain to someone else than one they are not fully sure they have read correctly.",
+          "Implementation and onboarding: what happens in the first thirty days, who is responsible for what, and when the buyer can expect to see initial results. This section reduces the perceived risk of the decision by making the path forward concrete. An undefined post-signature process is a risk, and buyers weight risk heavily in final decisions.",
+          "Supporting material last, not first: case studies, methodology detail, team profiles, and testimonials belong at the end or in an appendix. These are validation material for a buyer who wants reassurance — they are not decision-making material for a buyer who already needs the answers above.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Length: the counterintuitive reality",
+      },
+      {
+        type: "paragraph",
+        text: "The instinct in most sales organisations is to make proposals comprehensive. More detail signals thoroughness; more case studies signal credibility; more methodology content signals rigour. In practice, length correlates weakly with close rate and often negatively with decision speed. A buyer who receives a twenty-five-page proposal faces a reading task, not a decision document. The additional content does not reduce doubt — it defers the moment at which doubt is addressed. A buyer who receives a well-structured six-to-eight-page document with a strong executive summary, clear scope, transparent pricing, and a concrete implementation outline can typically complete the internal review process more quickly, because the document was designed to enable that review rather than to demonstrate vendor effort. This is not an argument for cutting corners on detail where detail is genuinely relevant — pricing structures that require explanation, engagement models with variable components, technical integrations with meaningful complexity. It is an argument for ruthless elimination of content that is present because vendors typically include it, not because this specific buyer at this stage of the process needs it to make a decision.",
+      },
+      {
+        type: "heading",
+        text: "The executive summary is the proposal",
+      },
+      {
+        type: "paragraph",
+        text: "In most B2B deals, especially those involving a buying committee, the executive summary is the only part of the proposal that every decision-maker reads in full. The detailed sections are read selectively — by the person responsible for the function, by the finance reviewer checking the commercial terms, by the technical lead checking the delivery scope. The summary is read by everyone. Writing it as a restatement of product benefits rather than as a crisp account of the specific deal being proposed is the single most common structural failure in B2B proposals. A strong executive summary answers: what problem at this company is being addressed, what the engagement will do about it, what it costs, and what the expected outcome is. It is written for someone who may not have attended any of the sales conversations — a board member, a CFO, an IT director — and it should give that person enough to understand and evaluate the decision without needing to read anything else. When the executive summary is built on this logic, the rest of the document becomes supporting evidence for a position the reader already understands.",
+      },
+      {
+        type: "heading",
+        text: "Common mistakes that cause proposals to stall after they land",
+      },
+      {
+        type: "list",
+        items: [
+          "Generic proposals with the company name substituted: a buyer who receives a proposal that reads as if it was designed for a different company and adapted by find-and-replace does not feel that the vendor understands their situation. The proposal should reference the specific challenges the discovery conversation surfaced, the specific outcomes the buyer named as priorities, and the specific context of their operation — not the generic version that applies to any company in their sector.",
+          "Pricing presented without context: a number without a justification is harder to approve internally than a number positioned clearly against the value it is intended to produce. This does not require a complex ROI model — it requires framing the investment relative to the specific outcome the buyer is pursuing, so they can articulate the case to others without inventing the justification themselves.",
+          "Sending the proposal without a scheduled review call: a proposal sent to a buyer's inbox with no follow-up structure gives the process no momentum. A proposal sent with a calendar invite for a thirty-minute review call — framed as a chance to address any questions — creates a commitment point that keeps the process moving. The review call is not a second pitch; it is a structured opportunity to surface hesitation before it has time to solidify.",
+          "Responding to 'we're still reviewing' without giving the buyer anything new: if a proposal is sitting in review for more than ten days, the right intervention is not another chasing email. It is a specific, relevant piece of information that gives the buyer a genuine reason to return to the document — a case study from a comparable situation, a clarification that removes a known question, a change in timeline or availability that creates a concrete reason to decide.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Adapting proposal structure for SaaS versus construction",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS, proposals are often sent earlier in the process and to a smaller buying group. The common error is producing a document that re-covers material from the demo rather than one that advances the decision. The executive summary and commercial terms should dominate. A SaaS proposal that runs beyond eight pages is almost certainly carrying content that belongs in the demo, not the proposal. Specific elements worth including: onboarding timeline, success milestones at thirty and ninety days, and a clear statement of what happens at the end of the initial term — renewal pricing, notice periods, data portability — because these are common points of hesitation that delay signing if left unaddressed.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction and built environment contexts, the proposal audience is different. Procurement teams and commercial directors review these documents with greater scrutiny, often against a tender specification or defined selection criteria. The structure of a construction services proposal should map to the criteria being assessed, with the supporting detail these buyers expect: evidence of relevant project experience, team credentials, H&S compliance, and commercial clarity. A generic sales proposal format does not serve this context — the buyer has a decision framework and wants to see evidence against it, not a narrative built around the vendor's preferred positioning. The investment in proposal quality is higher in construction for this reason: a weak proposal in a tender context is not merely a missed opportunity for a faster decision, it is a reason to eliminate the bid entirely.",
+      },
+      {
+        type: "callout",
+        text: "The most reliable signal that a proposal is structurally wrong is when the follow-up conversation needs to explain the proposal. If a buyer returns with questions about what is included, what the price covers, or what happens after they sign, the document did not answer those questions clearly enough. A well-constructed proposal produces either a yes, a no, or a specific question about terms — not a general request to walk through it again. Build the document as if the follow-up conversation will not happen, and the deals that are ready to close will close faster.",
+      },
+    ],
+  },
+  {
     slug: "b2b-voicemail-strategy-cold-calling",
     category: "Sales Development",
     title: "B2B Voicemail Strategy: When to Leave One and What It Should Say",
