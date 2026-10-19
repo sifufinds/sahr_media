@@ -27,6 +27,131 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-subcontractor-new-business-pipeline",
+    category: "Construction Marketing",
+    title: "How Specialist Subcontractors Build a New Business Pipeline — and Stop Waiting for the Phone to Ring",
+    excerpt:
+      "Most specialist subcontractors win work through a small pool of main contractor relationships built over years. The firms that grow fastest have moved beyond familiarity and built a deliberate outbound pipeline — one that generates new relationships rather than waiting for existing ones to deliver work.",
+    readTime: "8 min read",
+    date: "19 Oct 2026",
+    color: "#059669",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most specialist subcontractors describe their new business approach in roughly the same way: they have relationships with a handful of main contractors they have worked with over the years, they stay in touch when they can, and when those main contractors have work that fits, the phone rings. The work is won on reputation, quality, and the trust built over previous contracts. For many subcontractors, this has worked well enough — until it does not. A main contractor restructures their supply chain. A programme of work gets pushed. A new procurement director joins the main contractor and has their own preferred supplier network. The relationships that kept the order book full are disrupted, and there is no pipeline to fall back on because none was ever built.",
+      },
+      {
+        type: "paragraph",
+        text: "The specialist subcontractors that grow consistently — and that survive the disruption that is an inevitable part of any project-based business — treat new business development as a function, not an occasional activity. They have a process for identifying target main contractors, a method for making first contact with the right people, and a system for converting those contacts into preferred supplier relationships before a specific project creates urgency. The reactive model waits for the right main contractor to remember you. The proactive model puts you in front of the right main contractors before they need you, so that when they do, you are already known.",
+      },
+      {
+        type: "heading",
+        text: "Why most subcontractor pipelines are not really pipelines at all",
+      },
+      {
+        type: "paragraph",
+        text: "A pipeline implies a defined process from initial contact to awarded contract, with stages that describe how a prospect progresses and what is required at each step. Most specialist subcontractors have the opposite: a list of contacts in their phone, a record of who they worked with two years ago, and a vague commitment to stay in touch that in practice means an occasional LinkedIn connection or an annual Christmas message. This is a relationship list, not a pipeline.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction matters because a relationship list has no mechanism for generating new contacts, no method for prioritising which ones to develop, and no process for advancing a contact from aware to preferred. When the order book is full, this feels fine — the relationships are delivering work and there is no immediate pressure to build new ones. The problem arrives when the order book empties and there is no active process that can produce new opportunities within any predictable timeframe. At that point, the only available action is reactive: call every main contractor on the list at the same time, hoping someone has something relevant. This is exactly the behaviour that main contractor procurement teams find unconvincing, because it signals that the subcontractor's call is driven by their need for work, not by a genuine understanding of the main contractor's project programme.",
+      },
+      {
+        type: "heading",
+        text: "What main contractors actually want from new subcontractor relationships",
+      },
+      {
+        type: "paragraph",
+        text: "Main contractor procurement teams receive a high volume of unsolicited approaches from specialist subcontractors. The approaches that get taken seriously are the ones that demonstrate a clear understanding of what the main contractor is doing, what they typically require from that specialist discipline, and why this subcontractor is worth evaluating now — not when there is an active tender.",
+      },
+      {
+        type: "list",
+        heading: "What procurement teams consistently find unhelpful:",
+        items: [
+          "We are looking for new work and would love to be considered — signals need, not relevance",
+          "Generic brochures with no reference to the specific work the main contractor does",
+          "Approaches that come only when the subcontractor already knows a tender is live — too late to influence a PSL",
+          "Requests to be added to a preferred supplier list without any supporting information about capability, scale, or recent relevant projects",
+        ],
+      },
+      {
+        type: "list",
+        heading: "What makes an approach worth taking seriously:",
+        items: [
+          "Clear demonstration of relevant project experience in the specific scheme types and contract values the main contractor typically delivers",
+          "Evidence of track record on comparable schemes — project size, complexity, delivery outcomes, named clients where possible",
+          "A reason to have the conversation now rather than only when a project creates urgency — a new framework award, geographic expansion, or investment in capacity directly relevant to the main contractor's upcoming programme",
+          "Reference to a specific upcoming tender or programme that matches the subcontractor's capability, showing the outreach is informed rather than speculative",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building your target account list: who to approach and why",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake in subcontractor new business development is approaching too many main contractors indiscriminately and spreading effort too thin to build meaningful relationships with any of them. A focused list of thirty to fifty main contractors who genuinely fit — based on scheme type, geography, and contract value — prioritised by the likelihood of a near-term opportunity, is a more productive model than a broad sweep of every main contractor in the region.",
+      },
+      {
+        type: "list",
+        heading: "How to build a focused target account list:",
+        items: [
+          "Start with scheme type match: identify the main contractors who regularly deliver the specific type of project you specialise in. A cladding specialist whose track record is in commercial new-build has limited value to a main contractor that primarily does hospital refurbishment. The starting filter is relevant scheme type, not geography or size.",
+          "Layer in contract value range: your competitive position as a subcontractor is shaped by the contract values you have delivered. A specialist with a track record on £2–8m schemes is a strong fit for a main contractor typically delivering £10–30m projects; less so for one delivering £100m-plus schemes where the subcontract values are a different order of magnitude.",
+          "Use geography sensibly: main contractors want subcontractors who can reliably resource and deliver within their project geography. A clear regional focus and demonstrable local supply chain is often a stronger credential than a vague willingness to work nationally.",
+          "Monitor for buying signals: a main contractor awarded a new framework, recently appointed to a client's PSL, or publicly growing into a new sector is in motion. These are the businesses where a new subcontractor relationship conversation is most likely to have genuine traction in the near term.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Making first contact: what works and what wastes your time",
+      },
+      {
+        type: "paragraph",
+        text: "Cold email, phone, and LinkedIn are all viable channels for first contact with main contractor procurement and commercial teams. Each has different dynamics in a construction context. Phone works well when the call has a clear and specific reason: referencing a recent contract award, a specific tender you are aware of, or a direct connection to someone in the business. A cold call with no context beyond we are looking for work wastes the procurement contact's time and creates a negative first impression. A call that references their recently-awarded framework and explains specifically why your track record on that scheme type makes you worth a twenty-minute conversation is a different call with a different response rate.",
+      },
+      {
+        type: "paragraph",
+        text: "Email is the most scalable first-contact channel but requires specificity. A first email to a main contractor procurement director should reference something specific about their business — a project type, a recent announcement, or a shared sector — and should make a clear and narrow ask: not please add us to your PSL but could we have a brief call to discuss how our track record on this scheme type might be relevant to your upcoming programme. A broad pitch that asks for nothing specific rarely produces a reply; a narrow request that names a specific reason and a specific ask almost always gets a considered response, even if that response is not yet.",
+      },
+      {
+        type: "heading",
+        text: "LinkedIn as a subcontractor prospecting tool",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is underused by most specialist subcontractors but increasingly effective as the main place main contractor procurement and commercial staff build their professional presence. Following and engaging with target company pages, connecting with relevant procurement and commercial contacts, and posting project-specific content that demonstrates capability creates familiarity before direct outreach — and increases the response rate when outreach does occur. A procurement director who has seen three posts about your completed schemes in their sector over the past two months does not experience your connection request as cold outreach. They already have a formed impression of what you do and what you have delivered. That context change is the entire point of the LinkedIn layer: it moves the first substantive conversation from cold to warm without requiring any direct interaction before it.",
+      },
+      {
+        type: "paragraph",
+        text: "What to post: completed project announcements with specific scheme type, scale, and location rather than generic company news. Photographs with context — not just an image of a building but a note on what was delivered, the complexity involved, or a specific challenge that was resolved. Observations about sector trends, material availability, or programme management that demonstrate the kind of commercial and technical awareness that procurement teams associate with a reliable supply chain partner. Posts that demonstrate competence without being explicitly promotional tend to build the most durable credibility.",
+      },
+      {
+        type: "heading",
+        text: "Moving from first contact to preferred supplier",
+      },
+      {
+        type: "paragraph",
+        text: "First contact is not the goal — it is the entry point. The goal is a preferred supplier relationship: being included in tender invitations before a project is live, having your name on the shortlist when the procurement team sits down to identify who to go to for a particular scope. That position is not won through a single email. It is built over a series of touchpoints that progressively establish familiarity and credibility.",
+      },
+      {
+        type: "list",
+        heading: "What moves a subcontractor from initial contact to preferred supplier:",
+        items: [
+          "A follow-up call or meeting that goes beyond introductions to a genuine conversation about upcoming programmes, typical package sizes, and any gaps in the current supply chain the main contractor is looking to address",
+          "Submitting a capability statement tailored to the main contractor's project type — not a generic brochure but a document that clearly positions your track record against their specific requirements",
+          "Staying in contact at a sensible cadence — once a month on LinkedIn, once a quarter by phone or email — without the contact feeling like a sales call every time",
+          "Providing relevant, unprompted intelligence: flagging a tender you have seen that might be in their pipeline, sharing a note about a scheme type you have recently delivered that is similar to their upcoming programme",
+          "Asking for feedback on tender submissions when you are unsuccessful — this signals professionalism and creates a direct conversation about what would need to be different for you to win",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The subcontractors with the most stable order books are not necessarily the ones who deliver the best work in isolation. They are the ones whose main contractor relationships are broad enough that one programme drying up does not threaten the business. That breadth is not an accident — it is the result of a deliberate, sustained new business development effort that ran while the order book was full.",
+      },
+    ],
+  },
+  {
     slug: "construction-outbound-sequencing-b2b-cadence",
     category: "Construction Marketing",
     title: "Outbound Sequencing for Construction: Why Standard B2B Cadences Fail Project-Based Buyers",
