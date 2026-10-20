@@ -27,6 +27,134 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-stalled-deals-silent-prospect-recovery",
+    category: "Sales Development",
+    title: "When a B2B Prospect Goes Silent: A Framework for Recovering Stalled Pipeline",
+    excerpt:
+      "A prospect who engaged well on your discovery call and then stopped responding is not the same as a prospect who was never interested. Here is how to diagnose a stalled deal, re-engage without burning goodwill, and decide when to move on.",
+    readTime: "7 min read",
+    date: "20 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "A prospect who engaged well on a discovery call, asked good questions, and said they wanted to move forward going quiet is one of the most disorienting things in B2B sales. It does not feel like a rejection — there was no objection, no negative signal, and no clear decision. It simply stops. The instinct for most salespeople is to assume the worst and either send a flurry of increasingly urgent follow-up messages or quietly abandon the deal to avoid the awkwardness of chasing someone who has stopped responding. Neither approach serves the deal.",
+      },
+      {
+        type: "paragraph",
+        text: "The reality is that most stalled B2B deals are not dead. Prospects go quiet for reasons that have little to do with their evaluation of your solution. Internal priorities shift. The person championing the purchase gets pulled into another project. Budget discussions get delayed. A competing initiative is escalated above yours. In project-based businesses like construction, or in fast-moving SaaS sales environments where headcount and budget decisions change by the quarter, the timing of a deal is shaped as much by what is happening inside the buyer's organisation as by the quality of the sales process. The rep who understands this does not treat silence as rejection — they treat it as information about timing, and they respond accordingly.",
+      },
+      {
+        type: "heading",
+        text: "Why deals stall: what silence actually means",
+      },
+      {
+        type: "paragraph",
+        text: "Before responding to a stalled prospect, it helps to understand why deals stall in the first place. The most common reasons fall into a small number of categories, and each has a different appropriate response.",
+      },
+      {
+        type: "list",
+        heading: "Common reasons B2B prospects go quiet:",
+        items: [
+          "Competing internal priorities: another initiative has taken precedence and your deal has been put on hold without anyone communicating that to you. This is not a signal that the deal is dead — it means the timing is wrong right now.",
+          "The internal champion has lost bandwidth: the person you have been dealing with is no longer able to push the purchase forward, either because their remit has changed or because they are overextended.",
+          "Budget uncertainty: the budget that was expected has been delayed, reallocated, or is under review. The prospect may still want to buy but cannot commit.",
+          "Scope is being re-evaluated internally: the prospect is revisiting whether to solve this problem with your solution or in a different way — a different vendor, a different approach, or deferring the decision entirely.",
+          "The prospect feels awkward: they have been meaning to respond and have not, and the longer they leave it, the harder it feels to come back. This is more common than most salespeople expect.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The important observation is that only one of these — scope re-evaluation — is a genuine signal that the deal itself is in trouble. The rest are timing and access problems. Treating all silence as lost interest leads to either abandoning viable deals or applying pressure at exactly the wrong moment.",
+      },
+      {
+        type: "heading",
+        text: "The mistake most reps make when a deal goes quiet",
+      },
+      {
+        type: "paragraph",
+        text: "The default response to silence in most sales teams is to send another version of the last message: a follow-up that restates the value proposition, references the previous conversation, and asks if the prospect is still interested. This message rarely works. The prospect already knows they have not responded. Being reminded of that creates mild discomfort. The message signals that the salesperson is operating from their own pipeline anxiety rather than from a genuine understanding of the buyer's situation.",
+      },
+      {
+        type: "paragraph",
+        text: "A more damaging pattern is the escalating chase: an email on day five, another on day eight, a LinkedIn message on day ten, a call on day twelve. By this point, the prospect's inbox contains a record of every day they failed to respond, and each message makes re-engaging slightly more awkward. The rep is not advancing the deal — they are making it progressively harder for the prospect to come back without the conversation starting with an apology.",
+      },
+      {
+        type: "heading",
+        text: "Diagnose before you respond",
+      },
+      {
+        type: "paragraph",
+        text: "The right starting point when a deal goes quiet is to determine what kind of silence it is before deciding how to respond. Four questions help frame it:",
+      },
+      {
+        type: "list",
+        items: [
+          "What was the last confirmed next step? If a specific action was agreed — sending a document, scheduling a follow-up call, involving a colleague — did that action happen from your side? If not, the silence may simply mean the deal is waiting on you.",
+          "How long has it been silent? Five days after a discovery call is different from three weeks after a proposal. Short silences are normal; longer ones require more deliberate engagement.",
+          "Did the prospect give any signals that the timeline might shift? References to board meetings, quarter-end pressure, team changes, or ongoing projects are timing signals that explain delays without indicating lost interest.",
+          "How strong was the engagement before the silence? A prospect who asked detailed questions, involved colleagues, and requested supporting information is a different case to one who was polite but non-committal from the start.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "This diagnosis shapes the approach. A deal that has been quiet for a week after strong engagement, with a clear timing reason, requires patience and a single well-crafted message. A deal that has been quiet for a month with no clear context requires a different kind of reach-out — one that acknowledges the gap and creates a low-friction way to re-engage.",
+      },
+      {
+        type: "heading",
+        text: "What a good re-engagement message looks like",
+      },
+      {
+        type: "paragraph",
+        text: "An effective re-engagement message for a stalled deal has three characteristics: it acknowledges the reality of the silence without making the prospect feel accused, it gives them a reason to respond that is relevant to their world rather than your pipeline, and it makes responding easy by asking a simple, low-commitment question.",
+      },
+      {
+        type: "callout",
+        text: "A re-engagement message that works is not about whether the prospect is still interested in your solution. It is about whether the timing has changed or whether there is still a reason to have the conversation. Frame it from their world, not yours.",
+      },
+      {
+        type: "paragraph",
+        text: "A useful structure is to reference something new — a relevant development in their market, a new piece of content, a change in your offering, or an update to something they specifically asked about — and use that as the reason for reaching out rather than the absence of a reply. This resets the conversation to a fresh starting point and removes the awkwardness of the accumulated gap.",
+      },
+      {
+        type: "paragraph",
+        text: "For example: \"We have just put together a breakdown of how SaaS businesses at your revenue band are structuring outbound in Q4 — it is relevant to what we discussed around your SDR team's current capacity. Happy to share it if useful, or I can find ten minutes to cover the key points. Either way, how are you thinking about the pipeline picture heading into year-end?\" This message offers something new and relevant, proposes a low-commitment next step, and ends with a genuine question about the prospect's situation rather than a chase for a decision.",
+      },
+      {
+        type: "heading",
+        text: "Timing your re-engagement: how often and for how long",
+      },
+      {
+        type: "paragraph",
+        text: "A sensible re-engagement sequence for a stalled deal runs to three or four touches over four to six weeks — not a message every few days. The gap between touches should increase over time: a message at day seven, another at day fourteen, a final one at day twenty-eight or thirty-five. Each message should be short, offer something of value, and make it easy to respond. None of them should reference the previous unanswered messages.",
+      },
+      {
+        type: "paragraph",
+        text: "The final message in the sequence — often called a breakup message — serves a specific purpose. It signals that you are going to stop following up, and it does so in a way that makes it easy for the prospect to either re-engage or confirm that the timing is not right. A well-written breakup message treats the prospect as someone with a competing priority rather than someone who has rejected the solution: \"Given you have been difficult to reach, I am going to assume the timing is not right at the moment and drop this off your radar. If things change, you know where to find us.\" This is not a psychological manipulation — it is an honest acknowledgement of reality, and it removes the awkwardness that has been building.",
+      },
+      {
+        type: "heading",
+        text: "When to move a deal out of active pipeline",
+      },
+      {
+        type: "paragraph",
+        text: "The most important pipeline management decision when dealing with a stalled deal is when to stop treating it as active pipeline. An open opportunity with no movement in thirty-plus days is not really pipeline — it is wishful thinking that is distorting your forecast and distracting your attention from deals that are actually moving.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical threshold is roughly this: if a deal has had no meaningful engagement — no response to an outreach, no confirmed next step, no external signal that timing will change — for four to six weeks despite a structured re-engagement sequence, it should move to a nurture stage or be closed as lost, with a note on the reason. It stays on your radar as a future opportunity, because many stalled deals do eventually come back, but it should no longer be counted in the active pipeline that informs your quarterly forecast.",
+      },
+      {
+        type: "paragraph",
+        text: "This is not pessimism — it is discipline. A clean pipeline with accurate stage data gives you a realistic picture of what is likely to close and what needs attention. A pipeline bloated with stalled deals gives you false confidence and obscures the real gap between where you are and where you need to be. The decision to move a deal to nurture is not giving up — it is reclaiming the attention and energy that the deal was consuming and redirecting it to prospects that are actually progressing.",
+      },
+      {
+        type: "callout",
+        text: "Most stalled deals are not lost. They are displaced by competing priorities. The reps who recover the most from this situation are not the most persistent — they are the most patient and the most relevant when they do reach out.",
+      },
+    ],
+  },
+  {
     slug: "construction-subcontractor-new-business-pipeline",
     category: "Construction Marketing",
     title: "How Specialist Subcontractors Build a New Business Pipeline — and Stop Waiting for the Phone to Ring",
