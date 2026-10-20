@@ -27,6 +27,123 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-buyer-intent-data-outbound-timing",
+    category: "Sales Development",
+    title: "Buyer Intent Data in B2B Outbound: What the Signals Actually Tell You and How to Act on Them",
+    excerpt:
+      "Intent signals — from your own website data to third-party behavioural research tools — tell you when a target account may be actively exploring a problem your solution addresses. The challenge is knowing what those signals actually mean and building an outbound workflow that acts on them without misreading them as purchase intent they have not yet earned.",
+    readTime: "8 min read",
+    date: "20 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B outbound prospecting is essentially random with respect to where a target account sits in any kind of buying process. A rep with a list of companies in their ICP reaches out to all of them in sequence, treating a company that is actively researching their problem category the same as one that has not thought about it in two years. Timing — whether a prospect is in an active evaluation, casually exploring, or not thinking about the problem at all — is the variable that most determines whether an outbound touchpoint produces a conversation, and most outbound processes have no mechanism for measuring it.",
+      },
+      {
+        type: "paragraph",
+        text: "Intent data is the category of tools and signals that attempt to measure this. The basic premise is straightforward: a company that is actively researching vendors in your category, reading content about the problem you solve, or visiting review sites to compare solutions is behaving differently from one that is not. That behavioural signal — whether captured from your own website, from review platform data, or from third-party behavioural intelligence tools — is worth something in an outbound context. Used well, it changes outbound from a sequence of attempts spread evenly across a list to a model where the accounts with the highest current signal get prioritised first.",
+      },
+      {
+        type: "heading",
+        text: "What counts as intent data",
+      },
+      {
+        type: "paragraph",
+        text: "Intent data divides broadly into two types: first-party and third-party. First-party intent is behavioural data from your own properties — website visits (particularly to pricing pages, solution pages, or case studies), content downloads, email engagement, form completions, and returning visitors who have not yet converted. This data is highly accurate because it is direct evidence that someone from a target company has actively looked at your business, but it is narrow. It only tells you about accounts who already found their way to you. It says nothing about the large majority of your target market who are actively researching the problem but have not yet encountered your company.",
+      },
+      {
+        type: "paragraph",
+        text: "Third-party intent data attempts to fill that gap. Platforms in this category aggregate behavioural signals from across the web — content consumption on publisher sites, review site visits, search activity — and translate them into intent scores at the company level. The underlying data is noisier than first-party data because it is inferred from behaviour across many disparate sources, but it provides visibility into accounts that your own website has never seen. For an outbound team trying to prioritise a large ICP target list, this signal — even imperfect — is more useful than no signal at all.",
+      },
+      {
+        type: "heading",
+        text: "First-party intent: what your own data tells you",
+      },
+      {
+        type: "paragraph",
+        text: "For most outbound teams, building systematic use of first-party intent signals is the more accessible starting point. The data is already being generated — the gap is usually in how reliably it flows into the sales process.",
+      },
+      {
+        type: "list",
+        heading: "The most actionable first-party signals:",
+        items: [
+          "Repeat visits to pricing or solution pages from a company in your ICP, without a form submission — this is a strong signal that someone is evaluating options rather than casually browsing",
+          "A content download followed by further browsing — a prospect who downloads a guide and then visits your case study page is behaving like someone further into an evaluation than a one-page visit",
+          "Email engagement patterns — a contact in your CRM who has opened the last three emails but never replied is engaging with your communication even without responding; the timing of a direct outreach call may be better than another email",
+          "Return visits from a domain you have previously engaged with — a company whose contact was in a sequence six months ago and is back on your website now may simply have better timing than it did when the sequence ran",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The challenge is not collecting these signals — most marketing automation and CRM platforms already do. The challenge is surfacing them to the sales team in a way that results in timely, relevant follow-up. An SDR who knows that a target account visited the pricing page twice this week has a clear reason to reach out, and a reason to do so in a way that speaks to the account's situation without revealing that the rep saw the visit data.",
+      },
+      {
+        type: "heading",
+        text: "Third-party intent: reading the market before accounts find you",
+      },
+      {
+        type: "paragraph",
+        text: "Third-party intent tools give outbound teams visibility into accounts that are actively researching a problem category, even if those accounts have never visited your website. The signal is based on behavioural data collected across a network of publisher sites, review platforms, and content hubs — accounts whose employees are reading content about the problem you solve, comparing solutions on review sites, or consuming analyst reports about your category are generating intent signals that suggest active evaluation even before they have taken any specific action with your business.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical use of third-party intent data in an outbound workflow is primarily for prioritisation. Rather than working through an ICP target list alphabetically or by company size, the rep works from the accounts that currently have the strongest intent signal — the theory being that these accounts are closest to a buying moment, and outbound that reaches them now is more likely to intersect with a relevant internal conversation than outbound that reaches them three months later when the evaluation may have concluded.",
+      },
+      {
+        type: "paragraph",
+        text: "The honest caveat is that third-party intent scores are probabilities, not certainties. A high intent score means behavioural signals suggest active research — it does not mean an RFP is being prepared or that your solution is being evaluated specifically. The reps who use intent data most effectively treat it as a prioritisation input rather than a qualified lead signal. An account with a high intent score that fits your ICP is worth reaching out to sooner. The intent score itself is not a reason to skip the qualification process.",
+      },
+      {
+        type: "heading",
+        text: "Acting on intent signals without making prospects uncomfortable",
+      },
+      {
+        type: "paragraph",
+        text: "The most common concern when outbound teams first work with intent data is how to reference it in outreach without unsettling the prospect. There is a reasonable instinct behind this: saying 'I noticed someone from your company visited our pricing page twice this week' crosses a line from informed outreach to the kind of observation that most buyers find intrusive.",
+      },
+      {
+        type: "paragraph",
+        text: "The answer is not to reference the data explicitly, but to use it to sharpen the timing and angle of outreach rather than the message content. An SDR who knows a target account is actively researching a problem category reaches out with messaging that speaks to that problem, at a moment when the timing is right — but the message itself is about the prospect's situation, not the behavioural data. The signal informs the decision about when to reach out and which angle to lead with; it does not become the subject line.",
+      },
+      {
+        type: "callout",
+        text: "Intent data should make your outreach feel better-timed and more relevant to the prospect's current situation — not like you have been watching them. The signal is an internal prioritisation tool, not material for a message.",
+      },
+      {
+        type: "heading",
+        text: "Building an intent-informed outbound workflow",
+      },
+      {
+        type: "paragraph",
+        text: "Putting intent data to work requires more than a platform subscription. It requires a workflow that connects signal to action reliably and consistently, or the data becomes another dashboard that nobody checks.",
+      },
+      {
+        type: "list",
+        heading: "A basic intent-informed workflow for an SDR team:",
+        items: [
+          "Define the intent topics that correspond to your ICP's active research — what content categories, review platforms, and topic clusters would a company in your ICP explore while evaluating solutions in your category",
+          "Set a threshold: what level of intent signal — frequency, recency, or platform score — moves an account from the standard sequence backlog into a priority tier that gets contacted this week",
+          "Build the priority tier trigger into the rep's daily view: a regularly updated list of accounts that crossed the threshold, with the relevant signal noted alongside each one so the rep understands what they are acting on",
+          "Define the outreach angle for each major signal type — a pricing page visit warrants different framing than a content download or a review site visit; give reps a short playbook for each so translating signal to message takes seconds rather than deliberation",
+          "Track conversion by intent level: accounts with high intent scores should convert from outreach to meeting at a higher rate than cold accounts; if they are not, the signal categories being monitored may need to be refined",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What intent data does not tell you",
+      },
+      {
+        type: "paragraph",
+        text: "Intent data is useful but bounded. It tells you that a company is in some kind of research or evaluation activity. It does not tell you whether the person doing the research has purchasing authority, whether the evaluation is in its early stages or nearing a decision, or whether your specific solution is on the shortlist or simply in the same general category as what is being considered. A high-intent account that does not fit your ICP is not a good prospect. A high-intent account that fits your ICP and has a strong current signal is worth prioritising. The intent data tells you when to act; the qualification process determines whether the action was warranted.",
+      },
+      {
+        type: "paragraph",
+        text: "The most productive framing for intent data in an outbound context is as a signal layer on top of an existing ICP target list, not as a standalone lead generation method. Used this way — as a prioritisation tool that tells you which accounts on your list are likely to be most receptive right now — it improves the efficiency of an outbound motion that is already sound, without replacing any of the structural work that makes that motion sound in the first place.",
+      },
+    ],
+  },
+  {
     slug: "b2b-stalled-deals-silent-prospect-recovery",
     category: "Sales Development",
     title: "When a B2B Prospect Goes Silent: A Framework for Recovering Stalled Pipeline",
