@@ -27,6 +27,128 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-information-request-cold-outreach",
+    category: "Sales Development",
+    title: "Handling the 'Send Me Some Information' Response in B2B Outreach",
+    excerpt:
+      "When a cold prospect says 'send me some information', most reps comply and then follow up into silence. There is a more effective way to handle this response — one that moves the conversation forward rather than handing the prospect a polite exit.",
+    readTime: "7 min read",
+    date: "20 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "The 'send me some information' response sits in awkward territory for most SDRs. It is better than a hard no — the prospect has engaged enough to say something other than 'not interested' — but it rarely converts into a booked meeting without careful handling. Most follow-up sequences that begin with a brochure send end with the rep chasing a contact who has no intention of continuing the conversation. The material was a soft deflection, not a genuine request.",
+      },
+      {
+        type: "heading",
+        text: "What the response actually means",
+      },
+      {
+        type: "paragraph",
+        text: "The phrase carries several distinct meanings, and distinguishing between them before you respond changes the outcome considerably. In a minority of cases it is a genuine precursor to evaluation — the prospect has a real problem your solution might address and wants to understand it better before committing to a call. More often it is a polite way to end a conversation without a direct rejection. And in some contexts — particularly in construction procurement and complex SaaS buying — it is a delegating move: the person you reached has no authority to proceed but does not want to say so directly.",
+      },
+      {
+        type: "paragraph",
+        text: "The distinction matters because each interpretation calls for a different response. Treating all three the same way — by sending a deck and hoping for the best — is the source of most post-brochure ghosting. The rep who asks one question before sending anything is in a much stronger position than the rep who sends a 20-page overview and then follows up twice with 'did you get a chance to look at this?'",
+      },
+      {
+        type: "heading",
+        text: "The mistake most reps make",
+      },
+      {
+        type: "paragraph",
+        text: "The instinctive response is to comply immediately. Within the hour, the prospect receives a company overview deck, a case study PDF, and possibly a link to a webpage they could have found themselves. The rep logs 'sent materials' in the CRM and sets a follow-up reminder for three days later.",
+      },
+      {
+        type: "paragraph",
+        text: "The problem is that this removes all urgency from the conversation. The prospect now has the materials — they will read them when they get around to it, which often means never. The follow-up call arrives in a context where the prospect either has not looked at anything, leaving the conversation with nowhere to go, or has looked and decided not to proceed — in which case the follow-up is an unwelcome reminder of a decision already made privately.",
+      },
+      {
+        type: "paragraph",
+        text: "Sending materials before clarifying what the prospect actually wants to know is also wasteful from a qualification standpoint. A 20-slide capability deck is not targeted to the prospect's specific problem — it is designed to address all possible problems your company solves. A contact who said 'send me some information' because they are concerned about implementation timeline has just received slides about pricing, market positioning, and company history. None of it answers their real question.",
+      },
+      {
+        type: "heading",
+        text: "Ask one question before sending anything",
+      },
+      {
+        type: "paragraph",
+        text: "The more effective approach is a brief clarification before sending. Not a long interrogation, but one simple question that identifies what the prospect actually wants to understand. On a phone call: 'Before I send anything over — is there a particular aspect you would like to know more about, or is it more of a general overview?' In an email exchange, this takes one short reply. The question signals that you are not going to mindlessly comply with the stall — you are taking the request seriously enough to make it useful.",
+      },
+      {
+        type: "paragraph",
+        text: "This also creates a second touchpoint in the conversation rather than a handoff to passive materials. And practically, it surfaces objections that would otherwise remain invisible. A prospect who says 'we mainly want to understand if this works for companies with under 50 employees' has just told you the real question. You can answer it directly, in two sentences, which is more persuasive than any general overview deck.",
+      },
+      {
+        type: "heading",
+        text: "What to send — and how to send it",
+      },
+      {
+        type: "paragraph",
+        text: "If the prospect confirms they want information, keep what you send short and targeted. One relevant case study, or a two-paragraph summary of how you have worked with a company similar to theirs, is almost always more effective than a full capability deck. The goal is not to impress with the breadth of what you do — it is to give the prospect just enough to agree to a conversation.",
+      },
+      {
+        type: "list",
+        heading: "Effective materials to send in response to an information request:",
+        items: [
+          "A single case study from a company that matches the prospect's industry and scale — not a portfolio of everything you have ever done",
+          "A brief problem and solution summary, 150 to 200 words, tailored to the specific pain point you referenced in your original outreach",
+          "A short product or process walkthrough video if you have one — it is more likely to be watched than a PDF is to be read",
+          "A specific question or observation at the end of the email that creates a reason to reply, rather than just materials to consume in silence",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "What to avoid: full capability decks, pricing guides sent before any qualification, generic about-us pages, and any message that ends without a clear next step. Materials that tell the prospect everything about your company without creating a reason to respond are passive collateral. They are designed to be evaluated alone — which is exactly the condition under which most prospects decide not to proceed.",
+      },
+      {
+        type: "heading",
+        text: "Following up after sending",
+      },
+      {
+        type: "paragraph",
+        text: "The follow-up matters as much as what you send. A three-day wait followed by 'did you get a chance to review?' is the weakest possible approach — it requires the prospect to have already done something, and it gives them no new reason to re-engage.",
+      },
+      {
+        type: "paragraph",
+        text: "A more effective follow-up references the material itself with a specific hook: 'Following up on the case study I sent — the element that tends to resonate most with teams in your situation is how we handled [specific aspect]. Worth a ten-minute call to talk through whether that applies to you?' This is a concrete, value-led reason to respond, and it positions the call as a continuation of something the prospect already indicated interest in.",
+      },
+      {
+        type: "paragraph",
+        text: "The follow-up sequence after sending materials should be short — two or three touches over a week. If there is no response after that, the prospect either received enough to decide not to proceed, or the timing was wrong. Either way, extended follow-up rarely converts at this stage and risks damaging the relationship for any future approach.",
+      },
+      {
+        type: "heading",
+        text: "Recognising the decline",
+      },
+      {
+        type: "paragraph",
+        text: "Some information requests are exits dressed as requests. After one or two follow-ups with no engagement, the honest assessment is that the prospect used the material request to end the conversation politely. This is not a failure of follow-up volume — no further messages will change it.",
+      },
+      {
+        type: "paragraph",
+        text: "The right move is a brief, low-friction closing message: 'I will leave it there for now — if the timing changes or this becomes relevant again, feel free to get back in touch.' This preserves the relationship for a future approach, signals clearly that you are not going to continue chasing, and occasionally — more often than you might expect — prompts a response from a prospect who was on the fence.",
+      },
+      {
+        type: "callout",
+        text: "The information request is not a buying signal on its own — it is a pause. How you respond in the next 48 hours determines whether that pause becomes a conversation or a quiet exit.",
+      },
+      {
+        type: "heading",
+        text: "Applying this in SaaS and construction outreach",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS outbound, the information request often signals that a prospect wants to see the product in action, or understand the implementation process, before committing to a demo. A targeted reply that links to a two-minute product walkthrough or addresses a specific integration question is more effective than a general capability deck. The goal is to get a demo booked, not to replace the demo with a document.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction sales — particularly when approaching developers, main contractors, or procurement managers — the information request sometimes reflects a genuine process requirement. Procurement functions often need vendor information on file before authorising a meeting or site visit. Here, the right response is a concise capabilities statement alongside a question about their current tender pipeline or supplier review cycle. You comply with the request while simultaneously advancing the qualification.",
+      },
+    ],
+  },
+  {
     slug: "b2b-buyer-intent-data-outbound-timing",
     category: "Sales Development",
     title: "Buyer Intent Data in B2B Outbound: What the Signals Actually Tell You and How to Act on Them",
