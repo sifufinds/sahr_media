@@ -27,6 +27,109 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-calling-gatekeeper-strategy",
+    category: "Sales Development",
+    title: "Navigating the Gatekeeper in B2B Cold Calling",
+    excerpt:
+      "Most SDRs treat the gatekeeper as an obstacle to route around. The better approach is to treat them as a source of intelligence — and to understand why certain standard tactics consistently backfire before deciding what to actually say.",
+    readTime: "7 min read",
+    date: "21 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "The gatekeeper call is a distinct sub-skill within B2B cold calling that most training materials bundle into the general 'opening framework' without treating it separately. That is a mistake. The conversation with a receptionist, PA, or executive assistant operates under different dynamics than the conversation with the decision-maker — different incentives, different information available, and a fundamentally different goal. An SDR who uses the same approach for both consistently runs into the same friction. The gatekeeper is not a slower version of the decision-maker. They are a different call entirely.",
+      },
+      {
+        type: "heading",
+        text: "Why gatekeeper scripts usually fail",
+      },
+      {
+        type: "paragraph",
+        text: "The most common script approaches — sounding deliberately vague to avoid being filtered, pretending to have an existing relationship, or treating the gatekeeper as someone to be outmanoeuvred — fail for the same underlying reason. They assume the gatekeeper can be tricked into passing a call through. In practice, a receptionist or PA who has been in their role for more than six months has heard every variant of these approaches. The vague caller who refuses to say what it is regarding, the caller who implies they have met the director before without saying so clearly, the caller who makes it sound like an urgent operational matter when it is a cold outreach — all of these are recognisable patterns. The person on the other end knows what they are before the sentence is finished.",
+      },
+      {
+        type: "paragraph",
+        text: "The consequence is not just a rejected call. A gatekeeper who feels misled will actively protect the person they support from future contact. A contact who might have been passable with a straightforward approach becomes genuinely blocked. The short-term tactic produces a long-term problem at that account.",
+      },
+      {
+        type: "heading",
+        text: "What the gatekeeper's job actually is",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the gatekeeper's incentive structure changes how the call should be approached. Their job is not to block all external contact — it is to protect their manager's time from low-value interruptions while ensuring high-value or genuinely relevant contact reaches them. That distinction is important. A gatekeeper who blocks a supplier that would genuinely benefit their organisation has failed at their job just as surely as one who lets through irrelevant calls. Most are not trying to be obstructionist. They are making quick assessments of whether a given call is worth passing on.",
+      },
+      {
+        type: "paragraph",
+        text: "That assessment is based on a small number of signals: whether the caller sounds like a professional with a legitimate reason to speak to the contact, whether the stated reason is specific enough to be credible, and whether the caller is straightforward about what they want. The SDR who treats the gatekeeper as a collaborator in getting the right calls to the right person — rather than an obstacle to outwit — is working with that incentive structure rather than against it.",
+      },
+      {
+        type: "heading",
+        text: "What to say — and what not to say",
+      },
+      {
+        type: "list",
+        heading: "Approaches that consistently reduce pass-through rates:",
+        items: [
+          "Refusing to state the nature of the call: 'It's a personal matter' or 'I'd prefer to discuss it directly' signals evasion. Gatekeepers are trained to hold those calls, not pass them.",
+          "Implying a prior relationship that does not exist: any version of 'they'll know who I am' without that being true creates a problem the moment the call is passed — the decision-maker does not know who is calling, the gatekeeper has been misled, and the credibility for any future approach at that account is damaged.",
+          "Sounding vague about your company to avoid triggering a sales-call filter: experienced gatekeepers identify this immediately. Vagueness reads as evasion, not as mystery.",
+          "Asking to be put through without giving any reason: 'Could you just transfer me?' is a request for the gatekeeper to take a risk on your behalf with no information. They will not.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Approaches that consistently improve pass-through rates:",
+        items: [
+          "State your name, your company, and your specific reason for calling in one sentence. 'I'm calling from [company] — we work with [type of company] on [specific area]. I wanted to speak with [name] briefly about whether it might be relevant to them.' Specificity is more persuasive than pitch.",
+          "Ask a direct question rather than asking to be put through: 'Is [name] the right person to speak with about [area], or would there be someone else better placed?' This respects the gatekeeper's knowledge of the organisation and creates genuine dialogue rather than a binary pass or block.",
+          "Treat a voicemail or callback as a legitimate alternative: 'If they're not available, I'm happy to leave a voicemail or try back at a better time — when do they tend to be easiest to reach?' This signals you are organised and persistent without being aggressive.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Using the gatekeeper as an intelligence source",
+      },
+      {
+        type: "paragraph",
+        text: "The gatekeeper call, handled correctly, produces useful qualification information even when it does not result in an immediate transfer. A PA or receptionist often knows more about their organisation's current priorities, recent changes, and the right contact for a given topic than a company's website or LinkedIn page reflects. That information is available if you ask for it in a way that does not feel like interrogation.",
+      },
+      {
+        type: "paragraph",
+        text: "Useful questions to build into a gatekeeper call when the contact is unavailable: 'Is [name] still the person handling decisions around [area]?' This surfaces role changes and org restructures that list providers rarely capture in real time. 'Is this something they tend to manage themselves or is there a team involved?' This advances stakeholder mapping before you have spoken to anyone at the decision-maker level. 'Do you know if they're currently working with anyone in this space?' This is a direct qualification question that a significant share of PAs will answer if you ask it matter-of-factly, because they know — and because you have given them a reason to be helpful.",
+      },
+      {
+        type: "heading",
+        text: "When to route around versus when to go through",
+      },
+      {
+        type: "paragraph",
+        text: "In some accounts, the most efficient path to the decision-maker is not the main switchboard. A direct dial sourced from a data provider, a LinkedIn message to the contact directly, or an email to the person before calling — any of these may reduce gatekeeper friction without requiring the gatekeeper conversation at all. Routing around is a legitimate strategy when the account is a strong fit and the cost of a blocked switchboard call is a long reset period.",
+      },
+      {
+        type: "paragraph",
+        text: "The decision between going through the gatekeeper and routing around them should be based on account tiering. For high-priority accounts — the ones with the strongest ICP fit and the highest potential contract value — direct routes are worth sourcing. For mid-tier accounts, the switchboard call is an efficient first attempt. The mistake is applying one strategy uniformly across all accounts without considering whether the account justifies the additional research investment.",
+      },
+      {
+        type: "callout",
+        text: "The gatekeeper is not a problem to solve in fifteen seconds. They are a person making a professional judgement about whether your call is worth their manager's time. The caller who treats that judgement with respect — by being specific, honest, and brief — is giving the gatekeeper a reason to say yes.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: different gatekeeper contexts",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS outbound, the decision-makers SDRs are reaching — VPs of Sales, Heads of Marketing, CTOs — are often reachable without a formal gatekeeper intermediary. Direct dials, LinkedIn DMs, and email are frequently the primary routes. When a gatekeeper is involved, it is typically an EA supporting a C-suite contact at a larger organisation, where the stakes of the account are higher and the direct approach — well-researched, specific, and brief — matters most.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction outreach, the gatekeeper dynamic is often more pronounced. Development directors, procurement leads, and project directors at larger contractors and developers frequently work through PAs or central reception functions that are specifically trained to filter commercial calls. Here, the approach should account for longer relationship timelines: a call that does not result in a transfer today but ends with the gatekeeper knowing your name and your reason for calling is not a failed call. It is a first step. The follow-up email referencing the gatekeeper conversation — 'I spoke with your PA earlier this week and they suggested I reach out directly' — has a materially higher open rate than a cold email to a construction contact who has never heard of you.",
+      },
+    ],
+  },
+  {
     slug: "b2b-information-request-cold-outreach",
     category: "Sales Development",
     title: "Handling the 'Send Me Some Information' Response in B2B Outreach",
