@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "construction-tender-intelligence-b2b-prospecting",
   "in-house-sdr-team-vs-outsourcing-b2b-lead-generation",
   "b2b-cold-calling-gatekeeper-strategy",
   "b2b-information-request-cold-outreach",

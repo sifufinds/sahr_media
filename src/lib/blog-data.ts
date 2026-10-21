@@ -27,6 +27,112 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-tender-intelligence-b2b-prospecting",
+    category: "Construction Marketing",
+    title: "Tender Intelligence as a Construction Prospecting Tool: Finding Buyers Before They're Contracted Out",
+    excerpt:
+      "Most businesses treat UK tender portals as a source of work to bid on. The more productive use — for anyone selling to construction companies — is as a live feed of buying activity that tells you who is winning what, at what scale, and when their supply chain decisions will be made.",
+    readTime: "7 min read",
+    date: "21 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The standard use of UK tender portals — Contracts Finder, the Find a Tender Service, and the procurement platforms used by local authorities and major public bodies — is to search for contracts to bid on. That is a legitimate use, but it serves only the businesses that supply construction work directly. For anyone whose product or service goes to construction companies rather than to the end clients that commission them — lead generation agencies, SaaS businesses, specialist consultancies, professional services firms — the tender portals serve an entirely different purpose. They are a live feed of buying activity in the construction market: a public record of who is winning what kind of work, at what scale, and with which clients. Read with that lens, a contract award notice is not a tender to respond to. It is a prospecting signal.",
+      },
+      {
+        type: "heading",
+        text: "The difference between a tender notice and a contract award notice",
+      },
+      {
+        type: "paragraph",
+        text: "The two main document types on UK tender portals serve different purposes for a prospecting workflow. A tender notice is an announcement that a buyer is seeking suppliers — it is useful if you are bidding on the work, but it arrives at the wrong point for most commercial prospecting. The decision of which main contractor, developer, or specialist firm will be awarded the work has not yet been made. Reaching out to a construction business to introduce your services at the moment they are being evaluated as a potential contractor is poor timing: the commercial team is focused entirely on winning the contract, not on evaluating their own supply chain or support services.",
+      },
+      {
+        type: "paragraph",
+        text: "A contract award notice is published after the decision has been made. It names the company that won the contract, the buyer, the contract value, and the start date. This is the document that produces prospecting intelligence. A main contractor that has just been awarded a contract is entering mobilisation: they are resourcing the project, appointing subcontractors, setting up systems, and beginning the commercial management of a new programme of work. This is the window during which conversations about new suppliers, services, and tools are genuinely welcome — the business is in planning mode rather than bid mode, and the commercial team has a different quality of attention available.",
+      },
+      {
+        type: "heading",
+        text: "The main UK portals and what they cover",
+      },
+      {
+        type: "list",
+        items: [
+          "Contracts Finder (contracts.service.gov.uk): publishes public sector contract awards for England. The site allows searches filtered by CPV code, buyer type, and contract value, with saved search alerts available at no cost. Award notices rather than tender notices are the relevant documents for prospecting purposes.",
+          "Find a Tender Service (FTS): the post-Brexit equivalent of OJEU for the UK, covering higher-value public sector procurements across Great Britain. Higher-value construction contracts appear here as well as on Contracts Finder.",
+          "Local authority and NHS portals: many public bodies run procurement through platforms such as ProContract, Delta eSourcing, or In-Tend. These publish the same award notice data on individual portals that require separate monitoring.",
+          "Private sector work: private development contracts are not subject to public procurement rules and do not appear on any portal. For private sector prospecting, the equivalent intelligence sources are planning applications via the Planning Portal and individual local planning authority portals, building control applications, and industry press announcements.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The public tender portals cover the public sector only — a significant portion of UK construction volume but not the full picture. For businesses prospecting into main contractors and specialist subcontractors that work heavily on public sector programmes, the award notice data is a reliable and systematic source of buying window intelligence. For those targeting primarily private sector developers, the planning portal layer matters more.",
+      },
+      {
+        type: "heading",
+        text: "Reading a contract award notice for prospecting intelligence",
+      },
+      {
+        type: "paragraph",
+        text: "A typical contract award notice contains: the name of the awarding authority (the buyer), the name of the winning supplier (the main contractor or specialist firm), the contract value, the estimated start and end dates, and the procurement route. Each piece of this information has a specific prospecting use.",
+      },
+      {
+        type: "list",
+        items: [
+          "Contractor name and value: the first filter. Is this a business in your ICP — the right size, the right sector, within your service geography? A contract award to a main contractor delivering a £15m education scheme confirms scale, sector, and location in one notice.",
+          "Start date: the forward indicator of when the buying window is most open. A contract starting in six to eight weeks means mobilisation is underway now — outreach this week is well-timed. A contract starting in five months means this is an awareness opportunity rather than an urgent outreach. Both are useful; they determine whether the outreach should be direct and timely or introductory and patient.",
+          "Awarding authority: tells you the client relationship and likely procurement route. A local authority framework award suggests the contractor may be in line for a programme of similar projects, not just a single contract — the long-term value of a relationship in this context is correspondingly higher.",
+          "CPV codes and project description: the sector and scheme type classification. A contractor whose awards cluster around highways maintenance is a different prospect than one winning residential new-build. If your service is relevant to specific project types, these codes allow pre-filtering before reading the full notice.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building a monitoring workflow that surfaces signals automatically",
+      },
+      {
+        type: "paragraph",
+        text: "Manually checking tender portals each morning is not a scalable prospecting workflow. The portals that offer email alert functionality should be used to deliver award notices directly — set up alerts filtered by CPV code, contract value range, and geography so that relevant awards arrive automatically rather than requiring daily search sessions. On Contracts Finder, saved searches with email notifications are available at no cost. FTS has a similar alert function.",
+      },
+      {
+        type: "paragraph",
+        text: "For local authority portals where alert functions are limited, a monitoring layer built on RSS feeds where available, or scheduled searches on a defined day each week, distributes the effort to a predictable and manageable routine. The goal is to create a consistent flow of award intelligence that feeds directly into the prospecting workflow — not a research task that happens intermittently when the order book is thin.",
+      },
+      {
+        type: "paragraph",
+        text: "The output of this workflow should feed into your CRM as a trigger event: a contact record for the winning contractor, tagged with the contract details, the start date, and a prospecting task scheduled to align with the mobilisation window. A contract starting in six weeks is a high-priority outreach this week. A contract starting in five months is a lower-priority record to revisit in three months, with a LinkedIn connection and content touchpoint in the meantime.",
+      },
+      {
+        type: "heading",
+        text: "How to reference tender intelligence in outreach",
+      },
+      {
+        type: "paragraph",
+        text: "Referencing a publicly available contract award in outreach is legitimate and professional — it signals that you have taken the time to understand the prospect's current activity rather than sending a generic introduction. The key constraint is that public information should be used as context rather than framed as surveillance: you are reaching out because the company has won a relevant contract, not because you have been tracking their procurement history. One specific anchor is sufficient — the contract name, client, or sector type establishes that the outreach is informed. Beyond that single anchor, the conversation should pivot immediately to the prospect's likely situation and the specific value you can bring to it.",
+      },
+      {
+        type: "callout",
+        text: "A line like 'I noticed you were recently awarded the Northgate development — we work with main contractors on this scheme type and thought it worth a conversation' is specific and credible. It tells the prospect why the call is happening now, which is more persuasive than a generic introduction with no timing rationale.",
+      },
+      {
+        type: "paragraph",
+        text: "What to avoid: over-referencing the contract detail in a way that makes the prospect feel monitored. One specific reference that establishes context is enough. From there, the message should be about their situation — what mobilisation typically involves, what challenges arise in the first ninety days of a project of this type, and what you do about them. The award notice creates a reason to reach out; the relevance of your offer is what sustains the conversation.",
+      },
+      {
+        type: "heading",
+        text: "Using tender intelligence when selling SaaS into construction",
+      },
+      {
+        type: "paragraph",
+        text: "The tender intelligence approach is not exclusively useful for businesses that sell services directly into construction companies. SaaS businesses targeting the construction market — project management platforms, estimating software, procurement tools, document management systems — face the same timing challenge that all construction outbound encounters: reaching the right buyer at the wrong phase of their project cycle produces silence regardless of message quality. Contract award notices resolve part of that timing problem. A main contractor that has just been awarded a significant contract is actively evaluating the tools and systems they will use to deliver it. The window between contract award and mobilisation is when technology procurement decisions are most actively made, because the project programme is live but the delivery pressure has not yet started.",
+      },
+      {
+        type: "paragraph",
+        text: "The additional signal layer for SaaS outbound into construction is the senior hire announcement. A construction company that has appointed a new commercial director, operations director, or head of digital alongside a major contract win is doubly signalled: new leadership and a new programme together create the buying context for strategic technology decisions. Monitoring LinkedIn for hire announcements alongside tender portals for contract award intelligence gives a more complete picture of when a target account is in the right moment for a technology conversation — and gives outreach a pair of credible timing reasons rather than one.",
+      },
+    ],
+  },
+  {
     slug: "in-house-sdr-team-vs-outsourcing-b2b-lead-generation",
     category: "Sales Development",
     title: "In-House SDR Team vs. Outsourced Lead Generation: How to Make the Right Call",
