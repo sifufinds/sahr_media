@@ -27,6 +27,123 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "in-house-sdr-team-vs-outsourcing-b2b-lead-generation",
+    category: "Sales Development",
+    title: "In-House SDR Team vs. Outsourced Lead Generation: How to Make the Right Call",
+    excerpt:
+      "Most companies approach this decision as a cost comparison before they've understood what each model actually delivers. The choice depends on your stage, your sales motion, and how much risk you can absorb while a new function ramps.",
+    readTime: "8 min read",
+    date: "21 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "The question of whether to build an in-house sales development function or use an external lead generation agency comes up at a predictable point in most B2B companies' growth: when the founders have outgrown running outbound themselves, but before there is a clearly established process to hand over. At that inflection point, the decision tends to get framed as a cost comparison. It should be framed as a risk-and-capability question. Cost matters, but it is usually the third or fourth consideration, not the first.",
+      },
+      {
+        type: "heading",
+        text: "What the comparison usually misses",
+      },
+      {
+        type: "paragraph",
+        text: "The standard comparison goes: one or two full-time SDRs at a given salary versus an agency retainer. The in-house option looks cheaper on a spreadsheet until you add the full picture. A first sales hire requires sourcing, interviewing, and onboarding — processes that take significant management time. The ramp period before a new SDR reaches full productivity typically runs three to six months, during which output is partial. Add employer costs, a sales technology stack (CRM, sequencing tool, data provider), and the management overhead of running performance, coaching, and reporting for someone whose output is measured in meetings and pipeline, and the real cost of an in-house SDR is substantially higher than the base salary line.",
+      },
+      {
+        type: "paragraph",
+        text: "The agency comparison misses the other side. Outsourced lead generation has a different cost structure — it delivers activity and pipeline without the hiring and ramp overhead, but it also operates at a remove from your product, your market knowledge, and your existing customer relationships. The rep making calls on your behalf does not carry the institutional knowledge of a long-tenured sales hire. That gap is manageable in some sales motions and significant in others.",
+      },
+      {
+        type: "heading",
+        text: "Where outsourced lead generation works well",
+      },
+      {
+        type: "paragraph",
+        text: "Outsourced lead generation consistently performs well when the core sales motion is repeatable, the ICP is well-defined, and the value proposition is clear enough to be conveyed in an outreach sequence without deep product knowledge. If you can write a tight one-paragraph description of who you target, what problem you solve, and why a decision-maker would take a thirty-minute call — and that description holds across the contacts you are reaching — then most of the SDR's job can be executed by a skilled external team.",
+      },
+      {
+        type: "paragraph",
+        text: "It also works well as a testing mechanism. Before committing to building an in-house SDR function, running an outsourced engagement of three to six months gives you real data on which segments respond, which messages land, what the conversion rate from outreach to meeting looks like, and what the sales cycle looks like when outbound-sourced deals enter the pipeline. That data is worth more than a forecast. It turns a hiring decision that would otherwise be based on assumptions into one based on demonstrated results in your specific market.",
+      },
+      {
+        type: "list",
+        heading: "Conditions that favour outsourcing:",
+        items: [
+          "You have a defined ICP but no outbound process yet — the agency brings the process and the tooling.",
+          "You are entering a new vertical or geography and want to test demand before committing headcount.",
+          "Your AEs are time-constrained and need a consistent pipeline of qualified meetings without managing the activity themselves.",
+          "You cannot absorb a three-to-six month ramp period before the SDR function produces results.",
+          "Outbound is one channel among several, and you want the flexibility to scale activity up or down without a fixed headcount commitment.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Where in-house SDRs have the advantage",
+      },
+      {
+        type: "paragraph",
+        text: "In-house SDRs become the stronger choice when the product is genuinely complex, when the sale requires a nuanced understanding of the buyer's situation to qualify accurately, or when the relationship between prospecting and the broader sales process requires tight coordination. A new SDR who sits next to the AE they feed, attends product training, hears customer calls, and participates in deal reviews builds a level of product and market knowledge that is difficult to replicate in an external team running multiple client programmes simultaneously.",
+      },
+      {
+        type: "paragraph",
+        text: "In-house also becomes the more efficient model at scale. Once a repeatable playbook is established — tested messaging, proven sequencing, clear qualification criteria — the fixed cost of a full-time SDR distributed over a higher volume of output makes the per-meeting cost competitive with outsourced alternatives. The efficiency argument for in-house is strongest when the function is already running, not when it is being built from scratch.",
+      },
+      {
+        type: "list",
+        heading: "Conditions that favour in-house:",
+        items: [
+          "The product or service requires detailed technical knowledge to qualify effectively — the sales qualification conversation demands real depth.",
+          "The sales process involves multiple touches over a long period, and continuity of the relationship between outreach and first meeting matters.",
+          "You have a sales leader with capacity to coach and manage an SDR team — the function will underperform without active management.",
+          "You already have a working outbound playbook and are scaling headcount rather than building a process from scratch.",
+          "The organisation is large enough that an in-house SDR feeds a dedicated AE, rather than splitting time across multiple revenue-generating conversations.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The hybrid model most companies eventually land on",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, many B2B companies that have worked with both models arrive at a hybrid — typically an outsourced engagement handling volume prospecting across the broader ICP while one or two in-house SDRs manage high-priority accounts, inbound follow-up, and the highest-complexity segments where product knowledge matters. This structure captures the speed and breadth of outsourced outreach while keeping the most sensitive conversations with people who know the business.",
+      },
+      {
+        type: "paragraph",
+        text: "The hybrid is not always the right answer from the start, and it requires coordination to avoid duplication — both teams need to be working from the same account lists with clear ownership rules. But it is worth naming as an outcome, because companies often assume the decision is binary when in practice the two approaches are complementary rather than competing.",
+      },
+      {
+        type: "heading",
+        text: "Questions to ask before you decide",
+      },
+      {
+        type: "list",
+        heading: "Use these to clarify which model fits your situation:",
+        items: [
+          "How long can you wait before the new function produces meetings? If the answer is less than three months, in-house hiring is not a realistic option on that timeline.",
+          "Do you have a sales leader with the bandwidth to manage an SDR directly? An SDR without active coaching and pipeline management will underperform regardless of their individual capability.",
+          "How well-defined is your outbound process? If you do not have tested messaging, a proven sequence structure, and clear qualification criteria, you are not yet ready to hand those decisions to a new hire.",
+          "Is this a market you understand or a market you are testing? For established markets, in-house scales more efficiently. For market validation, outsourced engagement produces answers faster.",
+          "What happens to the organisation if outbound produces no results for six months? That outcome is possible with either model, but the cost of that period — and the accountability structure for fixing it — is different.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The most expensive outcome is building an in-house SDR function before you have a playbook to hand them. The second most expensive is running an outsourced engagement without the AE capacity to work the meetings it generates. Both are avoidable if the question is asked at the right stage.",
+      },
+      {
+        type: "heading",
+        text: "The decision is not permanent",
+      },
+      {
+        type: "paragraph",
+        text: "One factor that gets underweighted in this decision is reversibility. Hiring an in-house SDR is a commitment with a ramp period, a notice period, and a real cost to unwind if the role is not working. Outsourced lead generation engagements are more adjustable — scope, focus, and volume can be changed faster than headcount. For companies still figuring out their sales motion, that flexibility has real value that does not show up in a spreadsheet comparison.",
+      },
+      {
+        type: "paragraph",
+        text: "The right sequence for most companies is to establish the process through outsourced engagement, validate the playbook with real results, and then bring the function in-house once there is a demonstrated model to scale. Starting in-house before the process is established is where most stories of failed SDR hires originate — not because the person was wrong for the role, but because the organisation was not yet ready to deploy them effectively.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-calling-gatekeeper-strategy",
     category: "Sales Development",
     title: "Navigating the Gatekeeper in B2B Cold Calling",
