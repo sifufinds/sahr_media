@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "job-posting-signals-b2b-prospecting",
+    category: "Sales Development",
+    title: "Job Postings as B2B Prospecting Signals: What Hiring Activity Reveals About Buying Intent",
+    excerpt:
+      "Most outbound teams treat job boards as a place to find candidates. The more productive use for B2B prospecting is to read a company's hiring activity as a live feed of strategic intent — revealing where the business is investing, what problems it is trying to solve, and when a buying conversation is most likely to land.",
+    readTime: "7 min read",
+    date: "22 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B prospecting intelligence comes from the same handful of sources: a data provider, LinkedIn company pages, the prospect's own website, and — for UK companies — public filings. These are useful but largely static: they tell you about a company's current state, not about what it is actively moving towards. Job postings are different. A company's hiring activity is a real-time indicator of strategic intent. When a business opens a role, it is committing budget and management attention to a problem or direction — and doing so publicly. For outbound teams selling into SaaS companies or construction businesses, learning to read that signal systematically is a low-cost way to arrive at a conversation with better timing and sharper context than most cold outreach achieves.",
+      },
+      {
+        type: "heading",
+        text: "What a job posting actually reveals",
+      },
+      {
+        type: "paragraph",
+        text: "A job posting is the formal expression of a resource gap — but the gap it describes is rarely purely operational. Roles are opened because a business is growing into a new function, replacing a capability that was lost, investing in a strategy that requires headcount, or acknowledging a problem it has tried to solve without dedicated resource. Each of these is a useful signal for a B2B conversation.",
+      },
+      {
+        type: "list",
+        items: [
+          "A new senior hire in a function signals investment, not just vacancy. A first Head of Revenue Operations, a newly created VP of Demand Generation, or a Head of Commercial at a construction business that has not had one before means the company is formalising and scaling a function — which is often the exact moment when supplier and vendor conversations happen.",
+          "A replacement hire signals continuity risk or change. A company hiring a replacement Sales Director, CFO, or Operations Director has an active leadership transition underway. The incoming person will evaluate what they have inherited — and that evaluation window is a well-documented buying trigger.",
+          "Multiple roles in one function signal acceleration. A company posting several SDR roles, account executives, and a sales enablement manager simultaneously is building out a function at pace. This level of investment in a go-to-market team often coincides with funding, a new product launch, or a shift in sales strategy.",
+          "Specialist roles reveal technology decisions. A job spec naming a specific CRM or marketing automation platform signals which tools the company is investing in — and which ones it may have recently adopted or is about to evaluate.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The roles that signal the most for B2B prospecting",
+      },
+      {
+        type: "paragraph",
+        text: "Not every open role is a useful prospecting signal. The ones worth tracking depend on your ICP and what you sell, but some function categories produce reliably high-signal postings.",
+      },
+      {
+        type: "list",
+        items: [
+          "Commercial leadership roles (Head of Sales, VP of Sales, Commercial Director, Chief Revenue Officer): new commercial leadership is one of the strongest buying triggers in B2B. The incoming person has a mandate to understand the current setup, evaluate what is working, and make changes. Most outreach targeting new joiners arrives too late — by the time a new director appears prominently on LinkedIn, they have often been in post for four to eight weeks. Job posting monitoring surfaces the hire before that window closes.",
+          "Marketing and demand generation roles: a company hiring for demand generation, content, or performance marketing is investing in pipeline building. If your product or service is relevant to pipeline generation, outreach at this moment connects to an active internal conversation about how to build it better.",
+          "Operations and systems roles (RevOps, Sales Operations, IT): these roles often precede or accompany technology decisions. A business hiring a Revenue Operations manager is almost always also evaluating its tech stack.",
+          "Finance and commercial roles at construction businesses: a construction company hiring a commercial manager, quantity surveyor, or bid manager is typically in a growth phase or responding to an increase in pipeline volume. Each signals a business where commercial capacity — and the services that support it — is under active consideration.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Reading between the lines of a job description",
+      },
+      {
+        type: "paragraph",
+        text: "The role title is the first filter; the job description contains most of the useful signal. Specific elements of a specification reveal far more about the business than the headline.",
+      },
+      {
+        type: "list",
+        items: [
+          "The tools named in the requirements: a job spec listing specific platforms reveals the existing tech stack and — equally — the gaps in it. If your product integrates with or competes with any of the tools named, that alignment or displacement opportunity is worth referencing in outreach.",
+          "The problems described in the responsibilities section: job descriptions often describe what the role will be solving, not just what it will do. 'Improve our inbound lead qualification process' or 'build out our first outbound motion' describes an active problem the business is paying to fix. A message that speaks directly to that problem, rather than to the company in general, is categorically better received than a generic introduction.",
+          "The experience level specified: a company hiring a junior SDR for the first time is building outbound from scratch. A company specifying five or more years of SDR management experience is professionalising an existing function. Both signal different stages of maturity and require different opening conversations.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "A job posting is a company telling the market where it is investing and what problem it has decided to solve with headcount. Both pieces of information are useful for a B2B conversation — and they are published before most competitors think to look.",
+      },
+      {
+        type: "heading",
+        text: "Where to find job posting data at scale",
+      },
+      {
+        type: "paragraph",
+        text: "For individual priority accounts, monitoring LinkedIn's jobs section and the company's own careers page is sufficient. For scale intelligence — tracking hiring activity across a list of fifty to two hundred target accounts — that approach is impractical. Several options make this more manageable.",
+      },
+      {
+        type: "list",
+        items: [
+          "LinkedIn Sales Navigator: the job alerts and hiring intent filters allow monitoring of hiring activity at saved accounts. This is the most accessible starting point for teams already running LinkedIn-based prospecting.",
+          "ATS job boards (Greenhouse, Lever, Workable, Otta): many companies post roles on specialist hiring platforms rather than LinkedIn, or post them there before they appear elsewhere. Checking a target company across multiple job boards surfaces roles that do not appear in a standard LinkedIn search.",
+          "Intent data platforms: several established B2B data providers now aggregate job posting signals as part of a broader intent scoring layer. For teams already using a data platform, checking whether job activity is included in the intent scoring — and how it is weighted — is a useful audit to run.",
+          "Google Alerts: for teams without dedicated tooling, a Google Alert set to a company name combined with 'careers' or 'we are hiring' is imprecise but free. It works well for high-priority account monitoring where any signal is worth catching.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: how the signals differ",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS businesses, the most actionable job postings are in commercial functions: sales, marketing, and revenue operations. A SaaS company posting aggressively into these functions is in a growth phase that creates demand across the category — new tools, new vendors, new services. The lead time on outreach is short: by the time the senior hire is in post and evaluating the function, the best window for an unsolicited conversation has often passed. The right outreach targets the mid-level hire — the SDR manager, the demand generation lead — with a message that acknowledges what they are building, because that is typically a role posting in the weeks before the function is properly stood up.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction businesses, the most actionable postings are in bid, commercial, and operations functions. A construction company hiring additional bid writers, a commercial manager, or a project director is in a growth phase that typically precedes or follows a significant contract award. This connects directly to tender portal monitoring as a complementary intelligence layer: a contract award notice confirms the company won work, and a flurry of job postings confirms it is staffing up to deliver it. Together, they establish both the timing and the nature of the commercial conversation — and each signal, spotted independently, is confirmed by the other.",
+      },
+      {
+        type: "heading",
+        text: "Integrating job posting signals into outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The point is not to lead with 'I saw you are hiring' — that framing is overused and tends to feel intrusive rather than relevant. The more effective approach is to use the intelligence to sharpen the context and timing of an outreach that does not mention the posting at all. A company visibly hiring for a function your service supports warrants moving up the priority list, reaching out sooner, and framing the message around the build-out or transition that the hiring reflects — without necessarily citing the job posting as the source.",
+      },
+      {
+        type: "paragraph",
+        text: "For cases where the posting itself is a legitimate conversation starter — particularly where the role describes a problem you directly solve — referencing it briefly and specifically is appropriate. 'I noticed you are building out your first outbound function — we work specifically with SaaS teams at this stage' is a connection, not a stalk. The difference between useful context and intrusive surveillance is usually brevity and relevance: one sentence that earns the rest of the message is better than a paragraph demonstrating how closely you have been watching.",
+      },
+      {
+        type: "paragraph",
+        text: "Job postings are among the most underused prospecting signals available to outbound teams. The data is public, updated continuously, and produced by the prospect without any curation for audience. Reading it with a prospecting lens — not a recruitment one — turns a standard job board into a live feed of strategic intent across a target market. Applied to high-priority accounts alongside other intelligence sources, it changes the quality of first contact from a cold introduction to a timely, contextually grounded conversation.",
+      },
+    ],
+  },
+  {
     slug: "uk-companies-house-prospecting-intelligence",
     category: "Sales Development",
     title: "Using UK Companies House Filings as a B2B Prospecting Intelligence Source",
