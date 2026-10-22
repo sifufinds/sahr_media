@@ -27,6 +27,130 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "crm-outbound-sdr-workflow-fundamentals",
+    category: "Sales Development",
+    title: "CRM Discipline for Outbound SDR Teams: The Fundamentals That Most Teams Skip",
+    excerpt:
+      "Most SDR teams adopt a CRM and immediately under-use it. The result is not just missing data — it is a chain of operational problems that silently erode outbound performance: duplicated effort, invisible pipelines, and managers running reviews without reliable information.",
+    readTime: "7 min read",
+    date: "22 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR teams adopt a CRM with genuine intent: a single source of truth, full visibility across every account, and the means to run rigorous prospecting operations. Most teams also settle, within a few months, for something considerably short of that. Logging becomes selective. Task queues fill and are ignored. Contact records accumulate duplicates, outdated job titles, and missing fields. The CRM is technically in use but not actually useful — it is a system that captures effort after the fact, not one that organises and informs it in advance.",
+      },
+      {
+        type: "paragraph",
+        text: "The operational consequences are real: SDRs duplicate outreach to the same contact, managers run pipeline reviews without reliable data to work from, and handoffs to account executives create confusion because the context exists in someone's memory rather than in the system. None of this is unusual. The root cause is rarely the CRM itself — it is the absence of explicit standards for how the team uses it. A CRM is infrastructure, not a behaviour. The discipline that makes it useful has to be built separately.",
+      },
+      {
+        type: "heading",
+        text: "What a CRM is for in an outbound SDR context",
+      },
+      {
+        type: "paragraph",
+        text: "A CRM serves different purposes depending on the team using it. For account executives managing late-stage opportunities, it is primarily a deal-tracking and forecasting tool. For SDRs running outbound, the primary value is different: it is a sequencing and prioritisation system for outreach activity across a large number of accounts and contacts simultaneously. This distinction matters because it shapes what the team should configure and maintain.",
+      },
+      {
+        type: "list",
+        heading: "An SDR CRM setup optimised for outbound needs:",
+        items: [
+          "A clear structure for accounts versus contacts: the company as the top-level record, with individual contacts attached to it, each carrying a status that reflects the current stage of outreach — not yet contacted, in sequence, replied, disqualified, handed off.",
+          "A consistent status taxonomy: without agreed definitions for what each status means — particularly around what qualifies as a replied contact versus a meeting booked versus a not-interested — the data in the CRM is not comparable across reps or over time.",
+          "A task system that drives next actions: each active contact should have a logged next step — a task with a due date — not just a record of the last outreach.",
+          "Account ownership that prevents duplication: a clear assignment of which rep owns which accounts and contacts prevents two SDRs independently reaching the same contact within the same week.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Activity logging: what to record and what to leave out",
+      },
+      {
+        type: "paragraph",
+        text: "Logging fatigue is a genuine risk in outbound teams. If every micro-interaction requires a CRM update, reps will either batch-log inaccurately at the end of the week or develop informal systems outside the CRM to avoid the overhead. The solution is not maximum logging — it is minimum useful logging: recording only what informs a future action or enables accurate reporting.",
+      },
+      {
+        type: "list",
+        heading: "What always warrants logging:",
+        items: [
+          "A live conversation, regardless of outcome: every call where a human answered and a conversation took place should be logged, with a note covering the response, objection, or outcome. 'Called, left voicemail' is less useful than 'spoke with PA — director on site until end of month, advised to call back after the 28th.'",
+          "A substantive email reply: any reply that conveys an opinion, objection, timing signal, or a referral to another contact should be captured in the contact record. An out-of-office is not a substantive reply. 'We don't handle this centrally — group procurement owns it' is.",
+          "Any positive signal: a LinkedIn connection accepted after a message, a request for more information, or a meeting booked through any channel should update the contact status immediately, not at the next weekly review.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "What does not need individual log entries:",
+        items: [
+          "Voicemails left on standard sequences: if the team runs a cadence that includes voicemail steps, recording each attempt as a separate CRM entry is low-value overhead. Record the sequence step and move on.",
+          "Email opens and link clicks: these are tracking artefacts, not interactions. Logging 'opened email' as a CRM note adds noise without signal.",
+          "Automated sequence touchpoints: if the sequencing tool logs its own activity back to the CRM automatically, manual duplication adds nothing.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Account and contact hygiene as a weekly practice",
+      },
+      {
+        type: "paragraph",
+        text: "A CRM does not maintain itself. Without a regular hygiene practice, contact records accumulate outdated job titles, wrong phone numbers, and duplicates from multiple imports. The damage is incremental — no single dirty record is catastrophic — but the compounded effect is a system the team trusts less over time, uses less reliably, and eventually works around.",
+      },
+      {
+        type: "list",
+        heading: "A practical weekly hygiene practice:",
+        items: [
+          "Deduplication at point of entry: when adding a new contact or importing a list, search for existing records before creating new ones. Most CRMs offer duplicate detection, but it still requires a deliberate check.",
+          "Status discipline at end of week: before closing the week, every contact the rep touched should have an accurate current status. 'To be contacted' with a task date set is meaningful. 'New' from three months ago is not.",
+          "Flag bounced and disconnected contacts immediately: emails that have hard-bounced or phone numbers that have been disconnected should be marked accordingly, not left unupdated. A sequencing tool will re-attempt them unless the record reflects the problem.",
+          "Record job changes as they occur: when a target contact changes employer, update the record and treat it as a prospecting trigger in its own right. The move is often the best reason for a timely outreach.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The ten minutes a rep spends weekly on contact hygiene prevents the forty minutes spent, two months later, discovering that half the active sequence is running against stale data.",
+      },
+      {
+        type: "heading",
+        text: "Using the task system to drive daily outbound activity",
+      },
+      {
+        type: "paragraph",
+        text: "The task system is the most underused component of most CRMs. For an outbound SDR, a well-maintained task queue should be the primary driver of daily activity: a sequenced list of next actions for every active account, with due dates and brief context notes. In practice, most reps maintain an informal mental model — or a spreadsheet alongside the CRM — because the task system is either not configured correctly or not trusted to be accurate.",
+      },
+      {
+        type: "list",
+        items: [
+          "Every active contact not on a fully automated sequence should have one open task: the next human action required, with a due date.",
+          "Tasks should be specific enough to complete without re-reading the full contact history. 'Follow up — mentioned budget review on the 15th, call after that date' is actionable. 'Follow up' is not.",
+          "Completed tasks should be closed before the working day ends. A queue of overdue tasks is harder to prioritise than a current one.",
+          "Any task with a due date more than three weeks out should have a context note. A task in the distant future without explanation will be meaningless when it resurfaces.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What managers need from a well-maintained CRM",
+      },
+      {
+        type: "paragraph",
+        text: "For SDR managers, the CRM's value is different from the rep's. Managers use it for pipeline visibility, performance review preparation, and territory analysis. A CRM maintained to a consistent standard means managers can answer operational questions without asking for manual updates: how many contacts are actively in sequence, which accounts have gone dark and why, what the conversion rate from first contact to booked meeting looks like by rep and by account type.",
+      },
+      {
+        type: "list",
+        heading: "The reporting a manager should reliably be able to run:",
+        items: [
+          "Activity by rep over any rolling period: calls made, emails sent, meetings booked, contacts disqualified. When the data is logged accurately, the review becomes a coaching conversation rather than a reconciliation exercise.",
+          "Pipeline coverage by status: a snapshot of how many accounts sit at each stage of outreach, indicating where momentum is building and where the team is running thin.",
+          "Sequence performance by template or version: if two cold email variants are running simultaneously, the connected sequencing tool should be able to show the difference in reply rate and meeting conversion.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The CRM does not generate pipeline on its own. It is infrastructure — and like all infrastructure, its value scales with how consistently it is maintained. A team that treats CRM discipline as an administrative task separate from the commercial work pays twice: once for the software and once for the operational drag that comes from running outbound without reliable visibility. Treated instead as part of the commercial rhythm — a few minutes of logging at the time of each interaction, a short weekly tidy-up, a reporting layer that managers actually use — the CRM becomes the system that makes a larger outbound operation manageable. The difference between a small SDR team that feels chaotic and one that scales predictably is not usually strategy. It is often this.",
+      },
+    ],
+  },
+  {
     slug: "job-posting-signals-b2b-prospecting",
     category: "Sales Development",
     title: "Job Postings as B2B Prospecting Signals: What Hiring Activity Reveals About Buying Intent",
