@@ -27,6 +27,115 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "uk-companies-house-prospecting-intelligence",
+    category: "Sales Development",
+    title: "Using UK Companies House Filings as a B2B Prospecting Intelligence Source",
+    excerpt:
+      "Most outbound teams rely on LinkedIn and data providers for prospect research — both of which tell you what a company says about itself. Companies House tells you what the statutory record reveals: revenue trends, headcount, director appointments, and strategic commentary that most of your competitors are not reading.",
+    readTime: "7 min read",
+    date: "22 Oct 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B prospecting intelligence comes from the same sources: a data provider, LinkedIn, the target company's website, and a quick search before a call. None of these are wrong, but they share a limitation — they are largely surface-level. They tell you what a company says about itself, not what its statutory record reveals. For companies registered in the UK, a different source sits open and free at Companies House: the full public record of every registered company, including annual accounts, confirmation statements, director appointments, and change notices. Most salespeople have heard of it. Very few use it systematically as part of a prospecting workflow. The ones who do tend to find it changes the quality of their intelligence meaningfully — particularly for the kinds of B2B sales where company size, financial trajectory, and management stability are relevant to whether and when a prospect is likely to buy.",
+      },
+      {
+        type: "heading",
+        text: "What Companies House contains — and what it does not",
+      },
+      {
+        type: "paragraph",
+        text: "The core public record at Companies House (companieshouse.gov.uk) includes confirmation statements, annual accounts, director appointment and resignation notices, and charges and mortgages filings. Each serves a different purpose in a prospecting workflow.",
+      },
+      {
+        type: "list",
+        items: [
+          "Confirmation statements: filed each year, these confirm basic details — registered address, SIC codes, people with significant control. They serve mainly as a current-state check rather than a trend source.",
+          "Annual accounts: the most useful document for prospecting purposes. Companies that file full or medium-sized accounts reveal revenue, operating profit, employee headcount, and often a directors' report that describes recent developments and the outlook for the year ahead.",
+          "Director appointment and resignation notices (AP01, CH01, TM01): these record when new directors join a business and when existing ones leave, with the date of the change. A new commercial director, CFO, or operations director at a target account is one of the cleanest buying-signal proxies available.",
+          "Charges and mortgages: records of secured lending — useful as an indirect indicator of recent investment or acquisition activity. A newly registered charge typically signals a funding event or significant capital purchase.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "What it does not contain: day-to-day operational activity, private client relationships, employee salaries below director level, or current projects beyond what appears in the directors' report. Companies House is a statutory filing record, not a real-time business intelligence feed. That distinction matters for calibrating how you use it — it is a research layer, not a replacement for live intelligence.",
+      },
+      {
+        type: "heading",
+        text: "Reading annual accounts for prospecting signals",
+      },
+      {
+        type: "paragraph",
+        text: "Full accounts reveal more than most outbound teams know to look for. The most useful prospecting signals come from a small number of specific areas that are worth checking consistently on priority target accounts.",
+      },
+      {
+        type: "list",
+        items: [
+          "Revenue trends: a company whose revenue has grown significantly year-on-year is a different prospecting target than one that is flat or declining. Growth usually means increased headcount, expanded operations, and the attendant need for new suppliers, systems, and services. Flat or declining revenue can signal a genuine commercial opportunity — a business that needs better lead generation or a cost-efficient alternative to an existing supplier — but it changes the conversation significantly and warrants knowing in advance.",
+          "Employee numbers: full accounts include average headcount during the year. This is an indirect indicator of business scale and trajectory. For SaaS companies selling to a specific headcount band, this figure confirms whether the prospect still fits the ICP — or whether they have grown out of or below it since a data provider last updated their record.",
+          "Directors' report: this section, which appears in full and medium-sized company accounts, contains a short narrative about the business. It typically covers significant developments since the previous year-end, key risks, and sometimes commentary on strategic direction. It is one of the few places UK companies publicly describe their commercial situation in their own words — and it sometimes names exactly the problem or investment that your solution addresses.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Director appointments as a prospecting trigger",
+      },
+      {
+        type: "paragraph",
+        text: "New director appointments are among the most reliable and underused prospecting triggers in the UK market. A new commercial director, CFO, head of operations, or VP of Sales at a target account is starting their role with a mandate to understand the current setup and — in most cases — a genuine openness to reviewing existing supplier and partner relationships. This person does not have years of legacy relationships protecting the current supply chain. They are, by definition, in evaluation mode.",
+      },
+      {
+        type: "paragraph",
+        text: "The AP01 forms filed at Companies House are publicly searchable and include the appointment date. Building a simple monitoring workflow around target company filings — checking for new appointments at high-priority accounts once a month — surfaces these signals in a timely enough window to be useful. A director appointment caught in the week it is filed is a very different outreach opportunity than one discovered three months later when the new hire has already embedded their supply chain preferences.",
+      },
+      {
+        type: "paragraph",
+        text: "Referencing a director's new role in outreach is legitimate and professional. A message acknowledging the appointment and connecting it to a relevant service is better-received than a cold call with no timing context. The key is brevity and relevance: establish the connection between their role, their likely agenda in the first few months, and the specific area you work in. A single clear sentence that does this is more effective than a long pitch that happens to mention the appointment as an afterthought.",
+      },
+      {
+        type: "callout",
+        text: "Companies House is a public record that most of your competitors are not systematically using. A fifteen-minute review of a target company's most recent accounts and director history before first contact gives you the kind of contextual depth that most cold outreach is entirely missing.",
+      },
+      {
+        type: "heading",
+        text: "Incorporating Companies House into a practical prospecting workflow",
+      },
+      {
+        type: "paragraph",
+        text: "The risk of any research-heavy source is that it becomes a distraction — a tool that absorbs time without proportionally improving results. Companies House intelligence is most useful as a tiering and qualification layer, not as primary research for every account on a cold prospecting list.",
+      },
+      {
+        type: "list",
+        heading: "A practical approach at two stages:",
+        items: [
+          "Pre-outreach check on high-priority accounts: a ten-minute review of the most recent accounts and director history before first contact provides enough context to improve the first message materially — and occasionally reveals that the timing is wrong (declining revenue, a departing director, an accounts note signalling a major restructure) before you spend a sequence on it.",
+          "Ongoing monitoring for the top tier: the top twenty to thirty accounts on the target list are worth checking monthly for director appointments, significant changes to the accounts structure, or new charge registrations. This is where the trigger-based value comes from — catching a signal at the right moment, rather than after it has already driven the buying conversation elsewhere.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "What does not work is applying this level of research to the full breadth of a cold prospecting list. The Companies House layer is for accounts where the effort is justified by the potential contract value and the strength of the ICP fit — not a blanket research requirement that creates a bottleneck before any outreach can go out.",
+      },
+      {
+        type: "heading",
+        text: "SaaS versus construction: where this intelligence lands differently",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS outbound, the most actionable Companies House signals are revenue and headcount trends (confirming ICP fit), new director appointments in commercial or operations functions (fresh evaluation context), and directors' report commentary about strategic direction (alignment between your solution category and where the company is heading). A directors' report noting investment in a new CRM, a move to a new billing model, or expansion into a new market segment is a direct signal that the company is in a transition that your product may be relevant to.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction outbound, the charges and mortgages register adds a useful layer. A construction company registering a new secured charge — particularly one associated with plant financing, a new land acquisition, or development funding — is in an active capital deployment phase. Construction companies taking on a new development site or a programme-level infrastructure contract often register the associated funding, and the timing of that registration is an early signal about the procurement activity that will follow. Combined with contract award notices from the tender portals, the Companies House charge register gives a picture of where a construction business is investing — and therefore what it may be buying next.",
+      },
+      {
+        type: "paragraph",
+        text: "The broader point is that the statutory record reflects the business as it actually is, rather than as its marketing materials present it. Prospects rarely update their website or LinkedIn company page to reflect a difficult trading year, a change in strategic direction, or a new director who has come in to fix something that was not working. Companies House captures these things because it has to — and that candour is precisely what makes it useful as a prospecting intelligence layer.",
+      },
+    ],
+  },
+  {
     slug: "construction-tender-intelligence-b2b-prospecting",
     category: "Construction Marketing",
     title: "Tender Intelligence as a Construction Prospecting Tool: Finding Buyers Before They're Contracted Out",
