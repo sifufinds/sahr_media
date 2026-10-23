@@ -27,6 +27,126 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "saas-expansion-revenue-upsell-cross-sell-outbound",
+    category: "SaaS Lead Generation",
+    title: "SaaS Expansion Revenue: Using Outbound Techniques to Drive Upsell and Cross-Sell Pipeline",
+    excerpt:
+      "Most SaaS outbound programmes are built around new logo acquisition. The mechanics that generate qualified pipeline from cold prospects — trigger monitoring, multi-threading, structured cadences — work just as well inside an existing customer base, and with a lower cost per opportunity.",
+    readTime: "7 min read",
+    date: "23 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SaaS companies run their outbound programme as a pure new-logo machine. SDRs work cold prospect lists, sequences are calibrated for strangers, and the customer base is effectively a separate universe managed by customer success. The result is a blind spot: a pool of accounts that already trust the product, have demonstrated budget, and contain multiple potential buyers — treated as invisible to the prospecting function.",
+      },
+      {
+        type: "paragraph",
+        text: "Expansion revenue — upsell into higher tiers, cross-sell into adjacent products, and new user licences in other departments — is not a by-product of a good renewal process. It is a pipeline category that requires the same proactive, structured approach as new business development. The mechanics differ in some respects, but the core disciplines of outbound — trigger identification, qualification, multi-threading, structured sequencing — transfer directly.",
+      },
+      {
+        type: "heading",
+        text: "The difference between renewal management and expansion prospecting",
+      },
+      {
+        type: "paragraph",
+        text: "Renewal management is a defensive activity. It is about protecting revenue that already exists — monitoring health scores, addressing at-risk signals, ensuring the existing champion remains satisfied. Customer success teams are typically measured on net revenue retention as an output of this work.",
+      },
+      {
+        type: "paragraph",
+        text: "Expansion prospecting is different in nature. It is proactive pipeline generation targeting a specific person or department who does not yet use the product — with the advantage that there is an existing commercial relationship in the same organisation. The person being approached may know the product exists and that a colleague uses it, or they may have no awareness of it at all. Either way, they have not requested a conversation. This distinction matters because it determines the approach. Renewal conversations belong with customer success. Expansion prospecting belongs with whoever manages proactive outbound pipeline: an SDR with an expansion remit, or an AE managing their own book.",
+      },
+      {
+        type: "heading",
+        text: "Trigger signals worth monitoring in an existing account",
+      },
+      {
+        type: "paragraph",
+        text: "In cold outbound, trigger signals narrow the universe of target accounts and create a reason for contact. The same logic applies inside an existing account. Approaching a contact in the finance department about your product without a specific reason is no different from a cold call without a hook. Triggers create context.",
+      },
+      {
+        type: "list",
+        items: [
+          "New executive joins: a head of marketing, CTO, or operations director starting at an existing account is a meaningful signal. New executives frequently audit the tools their team uses, reallocate budget, and are open to conversations a predecessor may have declined. They have no existing vendor loyalty and are actively forming their view of the technology landscape.",
+          "Headcount growth in a target department: a company expanding a function significantly suggests that a per-seat or department-level tool conversation may be relevant. LinkedIn headcount data and job posting velocity are usable proxies for this.",
+          "Product usage spikes in the existing account: if usage data shows that one team's adoption is unusually high relative to the rest of the business, it signals that the problem being solved is real and felt — and likely exists elsewhere in the organisation. Accounts with strong adoption in one team are demonstrably better expansion candidates than accounts with low overall adoption.",
+          "Fundraising events or major contract announcements: a company that has just raised a round or announced a significant new project has demonstrated that capital is available and the business is in a growth phase. Both are conditions under which purchasing conversations are more likely to succeed.",
+          "Contract anniversary approach: six months before renewal is an active window for expansion conversations, because commercial decisions are already being considered and the buyer mindset is more receptive to adjacent purchases.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Multi-threading into new departments",
+      },
+      {
+        type: "paragraph",
+        text: "A software product used by the marketing team at an account is a reference point, not a barrier, when approaching the sales enablement or revenue operations team. The fact that a colleague in the same organisation uses and pays for the product removes the credibility burden that a cold approach carries. It does not remove the need to qualify, personalise, or demonstrate relevance to the new contact's specific problem.",
+      },
+      {
+        type: "paragraph",
+        text: "Identifying which departments are plausible expansion targets requires a combination of product knowledge — which problems does the product solve, and which other roles experience those problems? — and account research: which departments at this specific account are large enough, and structured in a way that suggests the same problem exists? A CRM or sales tool used by a 15-person sales team may be a strong fit for the 20-person account management team with a near-identical workflow. That connection is worth making explicitly in the outreach.",
+      },
+      {
+        type: "paragraph",
+        text: "When approaching a new contact in an existing account, name the reference point directly and briefly. The message is not 'your colleague told me you might be interested' — that puts an internal sponsor in an uncomfortable position. It is: 'We have been working with your [team or department] since [year], and wanted to understand whether the same challenges apply to your team.' That framing is honest, non-invasive, and immediately relevant.",
+      },
+      {
+        type: "heading",
+        text: "How the outreach differs from cold prospecting",
+      },
+      {
+        type: "paragraph",
+        text: "Cold outbound treats every contact as a stranger with no prior reason to trust the vendor. Expansion outbound has a material advantage: the company is already a paying customer, which means there is a live commercial relationship to reference without manufacturing one. This changes the opening, but it does not change the qualification requirement.",
+      },
+      {
+        type: "callout",
+        text: "A common failure mode in expansion outreach is assuming that familiarity with the company means familiarity with the contact. The head of IT who has never interacted with your product is, from their perspective, receiving a cold approach — they do not know whether it is relevant to their problems or whether budget exists. The same qualification questions that cold outbound requires still apply. They just arise in a warmer context.",
+      },
+      {
+        type: "paragraph",
+        text: "The opposite failure mode is treating the expansion conversation as an account management activity, with an overly deferential tone that signals the seller is there to serve rather than to open a commercial conversation. Expansion prospects respond to the same things cold prospects do — a specific problem framing, a clear reason for the conversation, and a concrete next step. The warm context lowers the barrier to engagement; it does not change what qualifies the opportunity.",
+      },
+      {
+        type: "heading",
+        text: "Qualification framework for expansion conversations",
+      },
+      {
+        type: "list",
+        items: [
+          "Does the problem we solve actually exist in this department, in a form this specific product addresses? A tool that solves a workflow problem for sales operations is not automatically relevant to finance, even in the same account.",
+          "Is there a budget mechanism — whether a departmental allocation or a centralised software budget — that could fund a new seat or licence set? Expansion deals in established accounts often face unexpected procurement friction: a tool already approved for one team may still require a separate purchase order for another.",
+          "Is the existing commercial relationship in good standing? An expansion conversation at an account with an open support escalation or an at-risk renewal in progress is unlikely to progress well. Coordinate with customer success before approaching any new contact at an at-risk account.",
+          "Is the person being approached the relevant buyer, or does the budget decision sit elsewhere in the organisation? Multi-stakeholder dynamics inside a single account can be as complex as in any new business deal.",
+          "What is the realistic timeline? A department in a headcount freeze or a company-wide spending review is unlikely to be a near-term expansion opportunity regardless of how well the qualification fits otherwise.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "SDR versus AE ownership of expansion conversations",
+      },
+      {
+        type: "paragraph",
+        text: "Who manages the expansion conversation depends on account size and the complexity of the internal relationship. For accounts where the AE has an established relationship across multiple contacts, the AE is better placed to manage expansion prospecting as part of their account development plan. For accounts where the relationship is primarily held by customer success and the AE has minimal day-to-day involvement, an SDR with an expansion remit can run prospecting sequences adjusted for the warm reference context.",
+      },
+      {
+        type: "paragraph",
+        text: "The handoff mechanics also matter. An SDR who books an expansion meeting with a new department contact should brief the AE on the existing account context before the meeting. The discovery process for an expansion meeting needs to cover both the specific problem of the new contact and the existing relationship dynamics — which teams use the product, who the internal sponsors are, and whether there are any sensitivities the AE should be across from the start.",
+      },
+      {
+        type: "heading",
+        text: "Treating expansion as a pipeline category, not a bonus",
+      },
+      {
+        type: "paragraph",
+        text: "The test of whether a SaaS team takes expansion revenue seriously is whether it appears as a distinct pipeline category in the CRM, with source attribution, opportunity stage tracking, and conversion metrics tracked separately from new business. Expansion pipeline managed as a vague 'account growth' activity with no structured cadence or qualification criteria is not a programme — it is a label applied to the deals that happen to come through regardless of effort.",
+      },
+      {
+        type: "paragraph",
+        text: "The teams that consistently outperform on net revenue retention run expansion with the same discipline as new business outbound: a defined ICP for expansion contacts, a structured approach to trigger monitoring, a qualification process that creates real pipeline rather than speculative additions to the forecast, and a clear ownership model that does not leave expansion prospects unworked because they fall between the customer success and sales functions. The existing customer base is not a passive asset. It is a prospecting list with better starting conditions than any cold list you will ever build.",
+      },
+    ],
+  },
+  {
     slug: "b2b-trade-shows-events-prospecting-strategy",
     category: "Sales Development",
     title: "Trade Shows and Industry Events as B2B Prospecting: How to Generate Pipeline Before, During, and After",

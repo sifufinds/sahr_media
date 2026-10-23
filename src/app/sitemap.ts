@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "saas-expansion-revenue-upsell-cross-sell-outbound",
   "b2b-trade-shows-events-prospecting-strategy",
   "outbound-channel-mix-email-phone-linkedin",
   "crm-outbound-sdr-workflow-fundamentals",
