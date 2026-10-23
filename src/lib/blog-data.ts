@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-trade-shows-events-prospecting-strategy",
+    category: "Sales Development",
+    title: "Trade Shows and Industry Events as B2B Prospecting: How to Generate Pipeline Before, During, and After",
+    excerpt:
+      "Most companies attend industry events without a prospecting plan. The result is a stack of business cards, a few vague follow-ups, and no measurable pipeline. A deliberate approach — built around preparation, qualification, and a tight follow-up window — changes the ROI entirely.",
+    readTime: "7 min read",
+    date: "23 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Industry events and trade shows occupy an odd position in most B2B sales development programmes. Attendance is common; a systematic approach to converting attendance into qualified pipeline is far rarer. Most teams treat events as a passive activity — send a few people, collect some business cards, follow up when everyone is back at their desks — without recognising that event prospecting operates under fundamentally different conditions from cold outbound. The face-to-face encounter that a well-attended trade show or sector conference creates is a compressed window for building the kind of familiarity that cold email sequences spend weeks trying to approximate at a distance. Wasted without a plan; highly productive with one.",
+      },
+      {
+        type: "heading",
+        text: "Why events produce a different kind of prospecting opportunity",
+      },
+      {
+        type: "paragraph",
+        text: "The core difference between event prospecting and cold outbound is the nature of the first contact. In cold outbound, the SDR is reaching out to a stranger with no shared context. In event prospecting, both parties are already in the same room, attending the same industry gathering — which creates an immediate, legitimate reason for the conversation that cold outreach can never replicate. A prospect who would not take a cold call and would not open a cold email will often spend ten minutes talking to a peer at a sector event. The event pre-selects for interest and intent: people who paid registration fees, travelled to attend, and booked a day out of their calendar are signalling active engagement with the industry topic the event represents.",
+      },
+      {
+        type: "paragraph",
+        text: "This does not mean every event attendee is a buyer. The floor of a trade show is a mix of buyers, suppliers, press, and people who came for the keynote. Qualification still matters. But the starting conditions are better than in cold outbound, and that changes how time and effort should be allocated — more preparation, fewer cold approaches on the floor, and a much tighter follow-up window than most post-event outreach achieves.",
+      },
+      {
+        type: "heading",
+        text: "Pre-event preparation: the phase most teams skip",
+      },
+      {
+        type: "paragraph",
+        text: "The highest-leverage time in any event prospecting cycle is the two weeks before the event — not the event itself. Most teams invert this: they spend minimal time preparing and maximum time at the event, trying to make up in volume what they have not built in targeting.",
+      },
+      {
+        type: "list",
+        items: [
+          "Build a priority list from the attendee or exhibitor data: most industry events publish an exhibitor list, a speaker programme, or a registered attendee directory. This is a ready-made prospecting list, pre-filtered for sector interest. Cross-reference it against your ICP and identify the ten to twenty contacts worth a focused conversation.",
+          "Send LinkedIn connection requests one to two weeks before the event: a brief, specific note mentioning that you will be attending and that you work in a relevant area is typically well-received. Prospects who accept the connection before the event arrive at the floor already aware of who you are — the event encounter becomes a second touch, not a cold first one.",
+          "Pre-book meetings where the prospect warrants it: for high-priority accounts, a direct message requesting a twenty-minute conversation at a specific time is more productive than hoping to find them on the floor. Many events provide meeting room bookings or networking apps specifically for this purpose.",
+          "Brief the attending team on priorities before the day: which companies to approach, which conversations to have, and what a good outcome from each one looks like. A team that arrives with an agreed objective for each priority contact uses the floor time more effectively than one that splits up and works independently.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "On the floor: qualification over pitch",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake in event prospecting is pitching. An SDR who walks up to a prospect at an industry event and immediately launches into a company overview has misread the context. Event encounters are not demo opportunities. They are qualification and relationship-building conversations — the goal is to identify whether a follow-up call is worth having, and to leave the prospect with a reason to accept that follow-up.",
+      },
+      {
+        type: "list",
+        items: [
+          "Lead with a question, not a statement: 'what is bringing you to this event?' or 'what are you hoping to find here?' opens a qualification conversation. Launching into your company description closes one.",
+          "The single most useful qualification question at any event: 'what are you focused on solving over the next six months?' The answer tells you whether there is a commercial conversation worth having, what the timing looks like, and whether this person is the right contact or whether the decision sits elsewhere in their organisation.",
+          "Extend conversations selectively: four focused conversations of fifteen minutes with real buyers are more productive than twelve hurried ones that produce business cards with no context. Know when to disengage and move on.",
+          "Take brief notes immediately after each conversation — not during. Writing down the specific problems mentioned, the timing they described, and any referrals offered is the raw material for a follow-up that feels personal rather than templated. Notes taken two days later from memory will be vague.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The best event conversations end with a clear next step agreed in the room: 'I'll send you the case study we discussed' or 'let's put a call in the diary for next week' is better than 'I'll follow up' — which commits you to chasing someone who has not agreed to be chased.",
+      },
+      {
+        type: "heading",
+        text: "The follow-up window: the phase that determines ROI",
+      },
+      {
+        type: "paragraph",
+        text: "The forty-eight hours after an industry event is the highest-leverage outreach window in event prospecting. Memories are fresh on both sides, the event is still a shared reference point, and the prospect has not yet been fully absorbed back into their normal workload. Most event follow-up fails because it arrives too late — on day five or six, when the event has faded — or too generically, with a company overview and 'great to meet you' that could have been sent to anyone.",
+      },
+      {
+        type: "list",
+        items: [
+          "Lead with the specific conversation, not the general introduction: 'I wanted to follow up on what you mentioned about your bid team's capacity' is a reference to a real exchange. 'It was great to connect at the event' is not. The former opens a conversation; the latter is the functional equivalent of a cold email.",
+          "Match the follow-up medium to the conversation depth: a prospect you spent twenty minutes with warrants a direct email or LinkedIn message. A contact you briefly introduced yourself to is better reached through a LinkedIn connection with a specific note than a cold email referencing a two-sentence exchange.",
+          "Send any materials you committed to in the room — promptly, with a brief personalised note that references why this specific piece is relevant to what they described.",
+          "If a next step was agreed in the room, confirm and book it as the first line of the follow-up. Do not treat it as a request that still needs to be re-established from scratch.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Construction versus SaaS: different event dynamics",
+      },
+      {
+        type: "paragraph",
+        text: "The mechanics of event prospecting are the same in both markets, but the event landscape and buyer behaviour differ enough to be worth addressing separately.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, events like UK Construction Week, Futurebuild, Chartered Institute of Housing conferences, and regional chamber and procurement forums bring together procurement leads, commercial managers, project directors, and development professionals in significant concentrations. A face-to-face conversation with a procurement director at a housing developer or a commercial manager at a main contractor can compress months of gatekeeper navigation into a ten-minute exchange on a trade floor. Relationship currency is particularly high in construction procurement — many supplier decisions at this level involve a trust element that is harder to build through cold outbound alone. The event encounter creates a warm reference for every subsequent touch.",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS and technology markets, the event landscape skews toward conferences, user groups, and vertical-specific forums. Buyers attending a SaaS industry event are usually there for education, not procurement — and the prospect who feels pitched at a sales conference is considerably less receptive than one who has a useful peer conversation. The most productive conversations in this context happen around sessions and panels rather than on the exhibition floor: the person asking sharp questions in a breakout about pipeline management or AI in sales is often at the front of a buying conversation by their own admission.",
+      },
+      {
+        type: "heading",
+        text: "Measuring whether an event is worth attending",
+      },
+      {
+        type: "paragraph",
+        text: "The standard post-event metric — business cards collected — tells you almost nothing useful about commercial value. The metric that matters is meetings booked within thirty days from event-sourced contacts, and of those, how many advance to qualified pipeline. Tracking this requires logging event contacts separately in the CRM from cold prospecting lists, with a source tag that allows attribution over time.",
+      },
+      {
+        type: "paragraph",
+        text: "The cost of an event is not the registration fee alone. For an SDR attending a full-day event, the real cost includes preparation time in the preceding two weeks, the day of attendance, and the follow-up work in the days immediately after — conservatively three to four days of capacity. An event that produces no qualified pipeline in thirty days is not a channel that warrants repeat investment at the same format or scale. An event that consistently produces qualified meetings with a conversion rate comparable to warm outbound warrants a permanent place in the channel mix and a more systematic pre-event targeting process.",
+      },
+      {
+        type: "paragraph",
+        text: "The failure mode is not attending the wrong events — it is attending the right ones without the preparation that converts attendance into pipeline. Most outbound teams that describe events as 'not particularly useful for us' have not run a structured pre-event targeting process, have not tracked event-sourced pipeline separately from other channels, and have not treated the follow-up window with the urgency they would apply to a warm inbound lead. The event did not fail. The event prospecting process was not in place.",
+      },
+    ],
+  },
+  {
     slug: "outbound-channel-mix-email-phone-linkedin",
     category: "Sales Development",
     title: "Outbound Channel Mix: How to Balance Email, Phone, and LinkedIn in B2B Sales Development",
