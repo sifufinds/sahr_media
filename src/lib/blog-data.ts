@@ -27,6 +27,142 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "outbound-channel-mix-email-phone-linkedin",
+    category: "Sales Development",
+    title: "Outbound Channel Mix: How to Balance Email, Phone, and LinkedIn in B2B Sales Development",
+    excerpt:
+      "Most SDR teams default to whichever channel feels most comfortable. A deliberate channel mix — calibrated to the target segment, sales cycle, and deal size — consistently outperforms defaulting to email-heavy sequences.",
+    readTime: "7 min read",
+    date: "23 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Ask a room of SDRs which channel they use most and the answer is almost always email. This is partly a function of scale — a well-configured email sequence can reach a hundred prospects with a fraction of the effort a phone-first approach demands. But defaulting to email-heavy outbound is not a channel strategy. It is an avoidance strategy dressed up as efficiency. The SDR teams that consistently produce the strongest meeting rates tend to treat the three main outbound channels — email, phone, and LinkedIn — as complementary tools with distinct roles in a deliberate sequence, not as interchangeable options ranked by comfort.",
+      },
+      {
+        type: "heading",
+        text: "What each channel actually does",
+      },
+      {
+        type: "paragraph",
+        text: "The starting point for building a sensible channel mix is understanding what each channel does well and what it does poorly — not in general, but specifically for B2B outbound targeting the kinds of accounts your team is pursuing.",
+      },
+      {
+        type: "list",
+        heading: "Email:",
+        items: [
+          "High volume, low friction to send, but increasingly low deliverability and low attention. Email is best at conveying specific, written-down information — a relevant case study, a pointed observation about the prospect's situation, a clear ask. It performs poorly as a rapport-building channel; the relationship has to come from somewhere else.",
+          "Email works well in sequences precisely because it creates a trail that the prospect can return to on their own schedule. A decision-maker who was not ready when the first email arrived may come back to the third one six weeks later.",
+          "The biggest risk of email-heavy outbound is not spam filters. It is sameness: if all your competitors are running automated email sequences, adding yours to the inbox creates noise, not differentiation.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Phone:",
+        items: [
+          "High signal, high effort, and the only channel that allows real-time dialogue. A phone call — whether it reaches the target or goes to voicemail — communicates intent and effort in a way that email does not. It also delivers information that no other channel can: the gatekeeper who tells you the decision-maker is on leave for a month, the prospect who says they just renewed a contract but will be reviewing again in April, the tone that tells you a polite reply was not actually a positive response.",
+          "Phone is often avoided because the failure rate is visible and immediate. Email failure is invisible — a send that is ignored looks identical to a send that was read. A call that does not connect feels like a rejection. This is an illusion: the information gathered from twenty dials that go unanswered still exceeds what is learned from twenty emails that are opened but ignored.",
+          "In construction and in sectors with older buyer demographics, the phone remains the primary commercial channel. Decision-makers who spend most of their day on site or in projects are not in their inboxes — they are reachable by phone, or not at all.",
+        ],
+      },
+      {
+        type: "list",
+        heading: "LinkedIn:",
+        items: [
+          "LinkedIn is not a cold outreach channel in the sense that email and phone are. It is a credibility and context channel. A prospect who has seen your profile, noted your connection request, and read a post or two before your first email arrives is in a fundamentally different position from a prospect encountering your name for the first time in their inbox.",
+          "Direct LinkedIn messages can work for initial outreach in certain segments — particularly senior buyers who are active on the platform — but LinkedIn's primary value for outbound SDRs is pre-call warming: creating a small amount of digital familiarity before the first phone or email touch.",
+          "LinkedIn's limitations include a hard cap on connection request volume, an increasingly full direct message inbox for active professionals, and an audience skewed toward certain industries and seniority levels. It is not a reliable primary channel for high-volume outbound.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The case for phone-first in high-value segments",
+      },
+      {
+        type: "paragraph",
+        text: "For accounts with a deal value above a meaningful threshold — the exact figure depends on your market, but somewhere above a few thousand pounds in annual contract value tends to be the indicator — phone-first outbound almost always outperforms email-first. This is not a romantic attachment to cold calling. It is a practical observation about where effort is best deployed when the commercial upside per account justifies it.",
+      },
+      {
+        type: "paragraph",
+        text: "Phone-first does not mean ignoring email. It means that the first substantive attempt to reach a target contact is by phone, that email follows as a context-setting and reference document, and that the cadence is structured around the phone touch as the primary engagement point rather than as a reluctant fallback when email fails to generate a reply.",
+      },
+      {
+        type: "callout",
+        text: "For construction sector outreach — where decision-makers are frequently site-based, inboxes are often monitored by administrative staff, and relationship cues matter — a phone-led approach is rarely optional. Email sequences alone routinely underperform in this market.",
+      },
+      {
+        type: "heading",
+        text: "Structuring a multi-channel sequence",
+      },
+      {
+        type: "paragraph",
+        text: "A common mistake in multi-channel sequencing is treating each channel as an independent effort: separate email sequences, occasional LinkedIn connection requests, sporadic phone dials that are not integrated into the same account record or tracked against the same contact. The result is activity that is visible to no one in aggregate — including the manager running the weekly review.",
+      },
+      {
+        type: "paragraph",
+        text: "A sequence that uses all three channels effectively tends to follow a logic rather than a rigid day-by-day script. The logic is: use LinkedIn to build a thin layer of familiarity before the first live touch, use phone as the primary engagement channel for contacts above a certain seniority or deal value, and use email as the document layer — the message that conveys specific detail and creates a reference the prospect can return to.",
+      },
+      {
+        type: "list",
+        heading: "A practical multi-channel sequence structure for a mid-market outbound target:",
+        items: [
+          "Day 1 — LinkedIn: Connect with a personalised note that does not pitch. The note establishes who you are and why you exist in their network. No pitch, no meeting request.",
+          "Day 3 — Email 1: A short, specific email that references something real about the target's business — a recent project, a hire, a sector event — and makes a single clear point about what you do. Ends with a low-friction ask.",
+          "Day 5 — Phone call 1: First dial. If the contact answers, you are in a live conversation. If not, leave a voicemail that is under thirty seconds and references the email sent two days ago.",
+          "Day 8 — Email 2: A follow-up email that adds a single additional piece of context — a case study, a relevant outcome for a comparable company — without repeating the previous email verbatim.",
+          "Day 10 — Phone call 2: Second dial, ideally at a different time of day than the first attempt. If the contact answers and declines, log the objection and close the sequence cleanly. If voicemail again, no second voicemail — send the next email instead.",
+          "Day 14 — Email 3 (break-up): A short, direct note that acknowledges the lack of response, provides a clean exit, and leaves the door open without pressure. This email frequently generates replies — either a genuine no, a timing signal, or occasionally an actual interest.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Adjusting the mix by segment",
+      },
+      {
+        type: "paragraph",
+        text: "The right channel weighting is not universal. A SaaS SDR targeting heads of product at growth-stage software companies is operating in a very different environment from a business development rep targeting main contractors in the UK construction sector. Treating the sequence as a single template for all target segments is one of the more common ways that outbound programmes underperform.",
+      },
+      {
+        type: "list",
+        heading: "Practical adjustments by segment type:",
+        items: [
+          "SaaS buyers (technical and product roles): LinkedIn engagement is higher and more likely to build genuine familiarity; email open rates can be decent for specific, well-targeted copy; phone tends to be less effective than in other sectors, though still worth using for senior titles where deal value justifies the effort.",
+          "Construction decision-makers (project directors, commercial managers, procurement leads): phone-first, email as follow-up context, LinkedIn as a background credibility layer. This segment is frequently off-screen and unreachable by digital channels alone. Voicemail and message discipline matter more here than in most other B2B sectors.",
+          "Senior buyers and C-suite: regardless of sector, the response rate to cold outreach drops as seniority increases and the volume of unsolicited contact they receive rises. Sequences targeting senior buyers should be shorter, more specific, and heavier on phone — the effort signals intent in a way that automated email sequences cannot.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What not to do: channel fatigue and over-sequencing",
+      },
+      {
+        type: "paragraph",
+        text: "A multi-channel sequence with too many steps and too little spacing between them is not an aggressive strategy. It is a way to train prospects to associate your company with unsolicited pressure. The risk of over-sequencing is not primarily that a contact marks you as spam — though that happens. It is that you have consumed all your available touchpoints without building enough trust to have a real conversation, and there is nowhere left to go.",
+      },
+      {
+        type: "paragraph",
+        text: "The principle that governs sequence design is not 'how many touches can we fit before they disengage' — it is 'what is the minimum number of deliberate, well-timed touches that makes it easy for an interested prospect to say yes, and easy for an uninterested one to say no cleanly'. Most over-sequenced outbound programmes are not failing because they are doing too little. They are failing because every additional low-effort touch reduces the quality signal of the touches that came before it.",
+      },
+      {
+        type: "heading",
+        text: "Measuring channel performance, not just sequence performance",
+      },
+      {
+        type: "paragraph",
+        text: "Most SDR teams track meetings booked and reply rates. Fewer track which channel generated the initial response that led to a booked meeting. This gap in measurement makes it difficult to optimise the mix, because the attribution is obscured: a prospect who replied to email 3 may have only opened it because they saw a LinkedIn connection request two weeks earlier and remembered the name. Without logging the channel that generated the first substantive interaction — not the first send — the team is flying blind on what is actually working.",
+      },
+      {
+        type: "callout",
+        text: "A simple addition to CRM logging: when a prospect replies, books a meeting, or converts to an active opportunity, note the channel and touch number that generated the first genuine response. Over time, this data tells you more than any theoretical channel advice.",
+      },
+      {
+        type: "paragraph",
+        text: "Channel mix is not a permanent setting. It should shift as the team learns what works in each segment, as the target market's communication habits evolve, and as the competitive landscape in the inbox changes. The teams that improve their outbound performance consistently are not those that found the right sequence once — they are those that measure, adjust, and treat channel strategy as an ongoing operational question rather than a decision made once at onboarding.",
+      },
+    ],
+  },
+  {
     slug: "crm-outbound-sdr-workflow-fundamentals",
     category: "Sales Development",
     title: "CRM Discipline for Outbound SDR Teams: The Fundamentals That Most Teams Skip",
