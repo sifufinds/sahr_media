@@ -27,6 +27,142 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-meeting-no-show-reduction-confirmation-sequence",
+    category: "Appointment Setting",
+    title: "Reducing B2B Meeting No-Shows: The Confirmation Sequence That Keeps Prospects on the Calendar",
+    excerpt:
+      "A booked meeting that doesn't happen wastes pipeline, disrupts schedules, and leaves the SDR chasing an already-cold prospect. A short, well-structured confirmation sequence significantly reduces no-show rates — without making the prospect feel pestered.",
+    readTime: "7 min read",
+    date: "24 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "A meeting that makes it into the calendar is not a meeting that will happen. No-shows are a consistent drain on B2B sales productivity — not because prospects are unreliable, but because the period between booking and the meeting itself is almost always left unmanaged. A well-constructed confirmation sequence does not guarantee attendance, but it removes the most common reasons prospects fail to show: they forgot, they lost the link, or they let the time pass because no one reminded them that a real person would be waiting.",
+      },
+      {
+        type: "heading",
+        text: "Why B2B meeting no-shows happen",
+      },
+      {
+        type: "paragraph",
+        text: "Most no-shows fall into one of three categories. The first is a commitment made without genuine intent — the prospect agreed to the meeting to end the conversation, not because they wanted to attend. This is a qualification and expectation-setting problem that starts in the booking conversation and cannot be resolved by a confirmation sequence after the fact.",
+      },
+      {
+        type: "paragraph",
+        text: "The second and third categories are process failures, not motivation failures: the prospect lost track of the meeting in a busy week, or something higher-priority landed in the same slot and they took the path of least resistance — not showing — rather than the slightly higher-effort path of rescheduling. These two cases are the ones a confirmation sequence addresses. They represent a large share of no-shows on well-qualified meetings.",
+      },
+      {
+        type: "heading",
+        text: "The booking confirmation: set the agenda immediately",
+      },
+      {
+        type: "paragraph",
+        text: "The first message in the sequence should go out within an hour of the meeting being booked, either automatically via a calendar tool or manually. Its purpose is twofold: confirming logistics and establishing why the meeting exists.",
+      },
+      {
+        type: "paragraph",
+        text: "A confirmation that says only 'looking forward to speaking on Tuesday' gives the prospect nothing to anchor the meeting to. A message that restates the specific topic — 'as discussed, we will cover [specific problem], what that looks like for your team, and whether there is a sensible next step worth exploring' — reminds the prospect why they agreed and positions the meeting as worth protecting in their schedule.",
+      },
+      {
+        type: "list",
+        heading: "A booking confirmation should include:",
+        items: [
+          "The date, time, and join link — all three in the same message, not split across the calendar invite and the email body.",
+          "One sentence restating the specific topic. Not a generic company overview, a specific problem or question the call will address.",
+          "A note that they can reschedule if the time no longer works. Giving a clear reschedule option reduces ghosting by making the alternative lower-effort than simply not showing up.",
+          "The name and direct contact details of whoever will be on the call, so the prospect knows who to respond to if something changes.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What to put in the calendar invite",
+      },
+      {
+        type: "paragraph",
+        text: "Most calendar invites in B2B sales development are underused. The title field often reads 'Intro Call' or 'Discovery Call — [Company]', the body is blank, and the join link is in the location field only. A prospect glancing at their calendar on Monday morning to plan their week sees a 30-minute meeting with minimal context and makes a quick judgement about how important it is.",
+      },
+      {
+        type: "list",
+        heading: "Calendar invite checklist:",
+        items: [
+          "Title: include both company names and a brief descriptor of the meeting's purpose — 'SAHR Media / [Prospect Company] — pipeline strategy conversation' is more specific than 'Intro Call'.",
+          "Body: one or two sentences on what the call covers, the join link repeated in the body as well as the location field, and the expected duration.",
+          "Organiser: the invite should come from a named individual, not a generic company calendar. A meeting from a named person reads as a real commitment.",
+          "Participants: add only the contacts who will actually be on the call. An invite with five attendees from the seller's side creates friction and signals a pitch rather than a conversation.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The 48-hour reminder",
+      },
+      {
+        type: "paragraph",
+        text: "For meetings booked more than three days in advance, a message sent 48 hours before the call surfaces in the prospect's inbox at a natural planning point — when they are looking at what the next two days hold. It also provides another opportunity to reschedule if the time no longer works.",
+      },
+      {
+        type: "paragraph",
+        text: "This message should be short and conversational. Three sentences maximum. It should not repeat the full booking confirmation or re-pitch the meeting. A simple 'Just flagging our call on [Day] at [Time] — the join link is in the calendar invite. Let me know if anything has changed at your end' is sufficient. The tone should read as a human being who remembered the meeting, not a sequence tool following a cadence. An automated-sounding 48-hour reminder gets treated as automated — which is to say, ignored.",
+      },
+      {
+        type: "heading",
+        text: "The day-of touch: 1 hour before",
+      },
+      {
+        type: "paragraph",
+        text: "A message sent an hour before the call serves a different function from the earlier reminders. By this point the prospect either intends to attend or is on the fence. The 1-hour touch makes the human dimension explicit: a real person will be on the call, the link is ready, and the meeting is happening.",
+      },
+      {
+        type: "paragraph",
+        text: "For senior prospects or meetings booked more than a week in advance, a 1-hour touch is worth the 30 seconds it takes. For shorter-cycle meetings with engaged prospects who have already confirmed, it can feel like overkill — use judgement based on how much signal of intent the prospect has given between booking and the call date. If they have responded to any of the earlier messages, skip the 1-hour touch. If they have been silent since booking, send it.",
+      },
+      {
+        type: "heading",
+        text: "When a prospect doesn't join",
+      },
+      {
+        type: "paragraph",
+        text: "Wait five to seven minutes from the scheduled start time before sending a recovery message. Do not wait longer — if the prospect is going to join late, they will have messaged by then. Do not send a recovery message immediately at the start time, as it can arrive while the prospect is still logging in.",
+      },
+      {
+        type: "callout",
+        text: "The tone of the no-show recovery message matters as much as the content. A message that implies frustration creates friction and makes the prospect feel that rescheduling is now an awkward conversation. A neutral, practical message — 'I'm on the call — happy to connect if you're still able to, or we can find another time' — makes rescheduling easy and signals that the seller is not rattled by the situation.",
+      },
+      {
+        type: "paragraph",
+        text: "If there is no response to the same-day recovery message, follow up the next morning. The follow-up should acknowledge briefly that something presumably came up and offer two specific alternative times. An open 'when does your diary look like?' requires the prospect to do more work than 'I have Tuesday at 2pm or Thursday at 11am — either of those work?' Specificity reduces friction and gets faster decisions.",
+      },
+      {
+        type: "heading",
+        text: "When to accept a meeting is dead",
+      },
+      {
+        type: "paragraph",
+        text: "After two no-show recovery attempts — the same-day message and the next-morning reschedule offer — with no response, the meeting should be considered dead for this cycle. Move the prospect to a long-term nurture sequence or a low-frequency re-engagement cadence, depending on how well-qualified they were when the meeting was originally booked.",
+      },
+      {
+        type: "paragraph",
+        text: "Sending three or four reschedule attempts beyond the initial no-show signals that the seller has no other pipeline to work and damages the commercial dynamic of the relationship. One or two recovery attempts is persistent and professional. More than two is friction that erodes whatever goodwill existed from the original conversation.",
+      },
+      {
+        type: "heading",
+        text: "Tracking show rates as a distinct metric",
+      },
+      {
+        type: "paragraph",
+        text: "The structural point is this: show rates are worth measuring separately from meetings booked. A team booking thirty meetings per month at a 60% show rate is generating eighteen attended meetings. A team booking twenty meetings at an 85% show rate is generating seventeen — with less wasted effort and more qualified pipeline per attended call.",
+      },
+      {
+        type: "paragraph",
+        text: "If show rates are consistently below 75%, the confirmation sequence is worth auditing first before drawing conclusions about prospect quality. Low show rates on initially well-qualified meetings typically indicate a process problem — the confirmation sequence, calendar invite, or reminder messages are failing. Low show rates across all lead sources, including warm referrals and inbound leads, more often indicate a qualification problem in the booking conversation itself: prospects who agreed without genuine intent cannot be confirmation-sequenced into committed attendance.",
+      },
+      {
+        type: "paragraph",
+        text: "Segmenting show rates by SDR, by lead source, and by the lead time between booking and call date will usually identify which of those two problems is driving the number. Lead time is underrated as a variable: meetings booked for the same week tend to show at a meaningfully higher rate than meetings booked two or three weeks out, because the gap gives the prospect's priorities less time to shift. Where there is discretion over meeting timing, booking within five to seven business days of the initial conversation tends to outperform longer lead times.",
+      },
+    ],
+  },
+  {
     slug: "saas-expansion-revenue-upsell-cross-sell-outbound",
     category: "SaaS Lead Generation",
     title: "SaaS Expansion Revenue: Using Outbound Techniques to Drive Upsell and Cross-Sell Pipeline",
