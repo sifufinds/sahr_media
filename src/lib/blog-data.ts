@@ -27,6 +27,134 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-sales-playbook",
+    category: "Sales Development",
+    title: "The B2B Outbound Playbook: What It Should Contain and Why Most Teams Never Use Theirs",
+    excerpt:
+      "Most SDR playbooks are written once, filed in a shared drive, and forgotten by month two. The problem is rarely content — it is structure. A playbook that actually gets used looks different from one that is merely comprehensive.",
+    readTime: "6 min read",
+    date: "24 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most sales development teams have a playbook. Very few teams actually use it. The pattern is consistent: a document is assembled during a period of rapid growth or when a new sales leader joins, it covers everything in sufficient detail to satisfy the person who commissioned it, and within two months it is filed in a shared drive where it is occasionally referenced by new hires trying to understand the company's product. The SDRs working accounts daily do not consult it.",
+      },
+      {
+        type: "paragraph",
+        text: "The problem is rarely effort. Most playbooks are built with genuine intent. The problem is structure. A playbook that gets used is a different document from one that is merely complete.",
+      },
+      {
+        type: "heading",
+        text: "Why most SDR playbooks do not get used",
+      },
+      {
+        type: "paragraph",
+        text: "Most playbooks fail for one of three reasons: they are written at too high an altitude, they try to cover everything, or they conflate product training with sales development guidance.",
+      },
+      {
+        type: "paragraph",
+        text: "A playbook that reads like a business plan — company overview, market positioning, competitive landscape — gives an SDR nothing to work with on a call. The purpose of a playbook is to reduce the amount of real-time thinking required during prospecting: what do I say to this type of prospect? How do I respond to this objection? When is this account worth pursuing further? A document that answers those questions in practical terms gets used. One that explains the company's founding story does not.",
+      },
+      {
+        type: "paragraph",
+        text: "The second failure is comprehensiveness. Playbooks that attempt to cover every scenario become too long to navigate. An SDR preparing for a cold call in the two minutes before they dial will not read through a forty-page document to find the section on gatekeepers. They will do what they have always done. The more concise and specific the playbook, the more likely it is to be consulted.",
+      },
+      {
+        type: "paragraph",
+        text: "The third failure is conflating product training with sales methodology. Product training explains what the product does and what problems it solves. The playbook explains how to run an outbound prospecting programme: who to target, what to say, how to qualify, and how to handle the situations that require a decision. Mixing both into a single document makes both worse.",
+      },
+      {
+        type: "heading",
+        text: "The ICP section: the foundation everything else builds on",
+      },
+      {
+        type: "paragraph",
+        text: "The ideal customer profile section of a playbook is the most important part. If an SDR does not have a clear, practical description of which accounts to target and which to skip, the rest of the playbook is operating without a north star.",
+      },
+      {
+        type: "paragraph",
+        text: "Most ICP sections are too broad. A statement like 'we target mid-market SaaS companies with 50 to 500 employees' describes a category, not a profile. A useful ICP section goes further:",
+      },
+      {
+        type: "list",
+        items: [
+          "Specific firmographic parameters that indicate fit: revenue range, headcount, growth stage, tech stack, org structure — the ones that actually correlate with closed deals, not the ones that sound plausible.",
+          "Explicit disqualifiers: types of company that look like they fit but typically do not buy, convert slowly, or churn quickly. These save SDR time and protect pipeline quality.",
+          "Named example accounts that represent the best kind of target, and others that represent clear non-fits. Abstract definitions are harder to apply than concrete comparisons.",
+          "The decision-making profile: who owns the problem the product solves, who holds budget, who has veto power, and what stakeholder combination is required for a deal to progress.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Messaging frameworks, not scripts",
+      },
+      {
+        type: "paragraph",
+        text: "Scripts are a common inclusion in playbooks that tend to make conversations worse. An SDR reading from a script sounds like an SDR reading from a script. Prospects detect it immediately, and it removes the conversational quality that makes cold outreach effective.",
+      },
+      {
+        type: "paragraph",
+        text: "A messaging framework is a different thing. It gives the SDR a structure — a purpose statement, a relevant problem framing, a question to open dialogue — without dictating the exact words. The SDR adapts to the tone and context of the prospect while working within a structure that has been tested and refined. For each primary ICP segment, the playbook should include:",
+      },
+      {
+        type: "list",
+        items: [
+          "The core problem or pain the outreach addresses, stated as the prospect would describe it — not as the product team would.",
+          "A short credibility statement: why the company is credible to this specific type of prospect.",
+          "Two or three opening angles that have been tested and shown to generate engagement — not theoretical hooks, but ones that have produced responses.",
+          "The qualifying question that determines whether the conversation is worth continuing: the single most important thing to establish in the first two minutes.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Objection responses",
+      },
+      {
+        type: "paragraph",
+        text: "Objection handling is one area where a playbook genuinely reduces real-time cognitive load. The common objections in B2B cold outreach are finite and predictable: 'we already have something,' 'not the right time,' 'send me some information,' 'we are under contract.' An SDR who has a pre-thought response framework for each one arrives at those moments with a structured reply rather than improvising under pressure.",
+      },
+      {
+        type: "paragraph",
+        text: "The playbook should contain responses for the five or six objections that come up regularly, structured as: acknowledge the objection briefly, ask a question that tests whether it is substantive or reflexive, then advance or close gracefully depending on the answer.",
+      },
+      {
+        type: "callout",
+        text: "The most common mistake in playbook objection sections is over-scripting the responses. If the reply to a common objection is a four-sentence paragraph, the SDR will not use it. A three-part framing — acknowledge, test, advance — with a suggested question is more useful than a verbatim script.",
+      },
+      {
+        type: "heading",
+        text: "What not to include",
+      },
+      {
+        type: "list",
+        heading: "Keep these out of the playbook:",
+        items: [
+          "Product feature walkthroughs. Those belong in product training documentation. Link to them from the playbook rather than embedding them.",
+          "Company history, mission statements, or culture content. These belong in onboarding materials, not in a live prospecting reference.",
+          "Exhaustive competitor analysis. A one-page competitive summary covering the three or four most common alternatives is useful; a comprehensive market map is noise that gets skipped.",
+          "Processes already enforced by the CRM. Documenting a workflow in two places creates two documents that will inevitably diverge.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Keeping the playbook current",
+      },
+      {
+        type: "paragraph",
+        text: "A playbook becomes wrong over time. ICPs evolve as the company learns which accounts actually buy. Messaging gets tested and some angles are retired while others are added. New objections emerge as competitors change their offerings or the market shifts.",
+      },
+      {
+        type: "paragraph",
+        text: "The simplest maintenance structure is a monthly review — brief and focused — where sales and marketing compare what is working in current outreach against what the playbook says. Major revisions go through a formal update; minor ones can be incorporated continuously. Ownership matters: a playbook without a named owner will drift. Assign maintenance to a specific person and make the review cycle a standing agenda item rather than something that happens when someone gets around to it.",
+      },
+      {
+        type: "paragraph",
+        text: "The version of the playbook that SDRs actually consult is the one that is current, concise, and specific enough to answer the real questions that come up during active prospecting. If the document is not being read, the question to ask is not how to make it more comprehensive — it is how to make it more practical.",
+      },
+    ],
+  },
+  {
     slug: "b2b-meeting-no-show-reduction-confirmation-sequence",
     category: "Appointment Setting",
     title: "Reducing B2B Meeting No-Shows: The Confirmation Sequence That Keeps Prospects on the Calendar",
