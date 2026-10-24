@@ -27,6 +27,111 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "technographic-targeting-b2b-saas-prospecting",
+    category: "SaaS Lead Generation",
+    title: "Technographic Targeting: Using Tech Stack Data to Prioritise Your B2B Prospect List",
+    excerpt:
+      "Most B2B prospecting lists are built on firmographics alone — industry, size, location. Layering in technographic data reveals which accounts have the infrastructure, the immediate motivation, and the budget signals to buy what you are selling.",
+    readTime: "7 min read",
+    date: "24 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SaaS companies build their prospecting lists using the same three filters: industry vertical, company headcount, and geography. These are necessary starting points, but they describe categories of companies, not buying situations. Two companies with identical firmographics — same industry, same size, same region — can have very different appetites for your product depending on what technology they already use and what they have recently changed.",
+      },
+      {
+        type: "paragraph",
+        text: "Technographic data — information about the software and platforms a company uses — adds a layer of context that firmographic filters cannot provide. It allows outbound teams to find accounts that are not just a plausible fit in theory, but are likely to be actively motivated to buy in the near term.",
+      },
+      {
+        type: "heading",
+        text: "What technographic data actually tells you",
+      },
+      {
+        type: "paragraph",
+        text: "At a basic level, technographic data reveals what software a company has deployed: their CRM, marketing automation platform, payment processor, analytics stack, cloud infrastructure, and HR systems. The data is collected through several methods — browser script detection, job posting language, vendor integrations listed on company websites, and enrichment services that aggregate all of the above.",
+      },
+      {
+        type: "paragraph",
+        text: "The raw fact that a company uses a particular tool is interesting. The more valuable signal is the combination and pattern. A company running a modern CRM alongside a marketing automation platform looks very different from one operating a legacy system on-premise with no automation layer. The first signals an organisation that has invested in its go-to-market stack and is likely evaluating additions; the second signals one that has not yet prioritised the category or is entering a phase of rationalisation.",
+      },
+      {
+        type: "heading",
+        text: "The four main targeting use cases",
+      },
+      {
+        type: "list",
+        items: [
+          "Competitive displacement: accounts that currently use a direct competitor are confirmed category buyers who have already made a procurement decision. The conversation is about differentiation, not category education.",
+          "Integration fit: if your product integrates with or depends on another platform, accounts already using that platform are a natural fit. They do not need to be convinced the category matters — they need to understand why your product extends what they already have.",
+          "Category greenfield: accounts with no tools in your category represent a different opportunity that requires more qualification to establish whether the gap reflects a genuine need or a deliberate choice.",
+          "Stack change as a buying signal: a recent change in a company's tech stack — a new CRM adoption, a platform migration, the addition of a new data layer — often signals a period of active re-evaluation. Companies in the middle of technology consolidation are more likely to be evaluating new tools across the board.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Where to get technographic data",
+      },
+      {
+        type: "paragraph",
+        text: "Several platforms provide technographic enrichment at different price points and data depths. BuiltWith and Wappalyzer detect client-side technologies from public web properties — JavaScript libraries, analytics tags, e-commerce platforms. These are strong for marketing technology and front-end infrastructure visible through a company's website.",
+      },
+      {
+        type: "paragraph",
+        text: "Data providers like Clearbit, ZoomInfo, and Apollo aggregate technographic data across a broader range of signals including job postings, company websites, and third-party integrations. G2 and Bombora overlay intent data on top of technographic profiles, adding signals about whether a company is actively researching your category rather than simply using a particular tool.",
+      },
+      {
+        type: "paragraph",
+        text: "Job postings are a particularly underused source. A company hiring for a role that requires proficiency with a specific platform is advertising its tech stack to anyone who looks. A posting for a Salesforce Administrator, a HubSpot Marketing Manager, or a Workday implementation specialist tells you more about the company's current environment than most enrichment tools can reliably provide.",
+      },
+      {
+        type: "heading",
+        text: "Matching the tech stack to your outreach message",
+      },
+      {
+        type: "paragraph",
+        text: "Technographic data only creates value if it changes what you say. Using a filter to identify competitor users and then sending generic outreach misses the point. The message should reflect what you know about the prospect's current environment.",
+      },
+      {
+        type: "paragraph",
+        text: "For competitive displacement, the message should acknowledge the category without assuming dissatisfaction. Most accounts using a competitor are not actively searching for a replacement. The effective angle is to identify a specific limitation relevant to this type of account and raise it as a question rather than an assertion — asking whether a particular gap is something they encounter opens a conversation without leading with an attack on a tool they may be satisfied with.",
+      },
+      {
+        type: "callout",
+        text: "For integration-fit outreach, the most effective opening connects the tool you know they use to the outcome your product improves. Referencing their current environment in the opening line signals that you understand their setup before you have spoken to them — and that is a meaningfully better start than a generic value proposition.",
+      },
+      {
+        type: "heading",
+        text: "The accuracy problem and how to handle it",
+      },
+      {
+        type: "paragraph",
+        text: "Technographic data is directional, not definitive. Detection tools identify technologies at a point in time; they do not capture tools deployed behind a company's firewall, platforms recently sunset but not yet replaced, or software used by only one division of a larger business. Treating technographic filters as hard qualifiers — assuming every account showing a particular technology is definitely using it — introduces errors into your list.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical approach is to treat technographic data as a targeting and prioritisation signal rather than a confirmed fact. Use it to rank and sequence your account list, not to disqualify accounts that do not appear to meet a filter. A light verification question early in a first conversation — confirming that a platform you saw referenced is still in use — corrects the data without making the prospect feel over-researched.",
+      },
+      {
+        type: "heading",
+        text: "Combining technographics with other signals",
+      },
+      {
+        type: "paragraph",
+        text: "Technographic data is most powerful when combined with other signals rather than used in isolation. An account with a competitor on their stack, the right employee count, a recent relevant hire, and an active job posting for a role that involves tools your product sits alongside is a meaningfully stronger prospect than one identified by any single signal. The combination tells a story about the buying situation rather than just the buyer.",
+      },
+      {
+        type: "paragraph",
+        text: "Building a simple scoring model — even one maintained as a set of CRM fields — that weights technographic signals alongside firmographic fit and other timing indicators allows outbound teams to focus their highest-effort activity on the accounts most likely to convert. The output is not a guarantee of readiness; it is a sharper rank order that makes the same number of outreach hours produce better results.",
+      },
+      {
+        type: "paragraph",
+        text: "The teams that consistently find better prospects are not prospecting harder. They are prospecting with more context. Technographic data is one of the most actionable sources of that context because it describes the buying situation, not just the buyer's demographic profile. The companies most likely to buy your product are not only those that match your existing customers on paper — they are the ones whose current technology environment makes the need visible.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-sales-playbook",
     category: "Sales Development",
     title: "The B2B Outbound Playbook: What It Should Contain and Why Most Teams Never Use Theirs",
