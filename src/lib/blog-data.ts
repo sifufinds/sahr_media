@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "saas-outbound-product-led-growth-sales-overlay",
+    category: "SaaS Lead Generation",
+    title: "Outbound in a Product-Led Growth Company: Building a Sales Overlay That Actually Converts",
+    excerpt:
+      "Many SaaS companies run PLG and outbound in parallel and get the worst of both. The teams that make it work treat product usage as the richest prospecting signal they have — and they reach out at the moment it matters most.",
+    readTime: "7 min read",
+    date: "25 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "When a SaaS product is designed to acquire users through self-service — free trials, freemium tiers, or usage-gated conversion — the conventional wisdom says the sales motion should take a back seat. Let the product do the work. But for most PLG companies, the product converts some users on its own and leaves a substantial pool of engaged users who never upgrade without a conversation. Outbound in a PLG context is not contradictory — it is the mechanism that converts the pool the product built but cannot close alone.",
+      },
+      {
+        type: "paragraph",
+        text: "The problem is that most sales teams in PLG companies treat their free users like cold prospects. They run generic sequences, push demos before the prospect has experienced any value, and apply pressure at moments when the user is not ready for a commercial conversation. The result is often worse than cold outbound, because they have taken a warm prospect with first-hand product experience and made them feel like any other cold lead. The overlay works when it is genuinely different from cold outreach — in who it targets, in what it says, and in when it arrives.",
+      },
+      {
+        type: "heading",
+        text: "What a sales overlay is — and what it is not",
+      },
+      {
+        type: "paragraph",
+        text: "A sales overlay is a sales motion that runs alongside a PLG acquisition model. It identifies product users who have reached a specific level of engagement, have characteristics that match the ICP for a paid or expanded account, and then initiates outbound contact to convert or expand that relationship through human-assisted selling.",
+      },
+      {
+        type: "paragraph",
+        text: "It is not: following up every free sign-up with a call, running the same sequences on PLG users as on cold prospects, or treating any product engagement as equivalent to buying intent. A poorly designed overlay assumes that sign-up plus any usage equals readiness to buy. In practice, a meaningful portion of free users are students, competitors, job candidates, or people evaluating the category rather than your specific product. The overlay should be selective about who it targets and deliberately different in how it communicates.",
+      },
+      {
+        type: "heading",
+        text: "Identifying which product users to pursue",
+      },
+      {
+        type: "paragraph",
+        text: "The starting point for a sales overlay is usage data, not sign-up data. A free user who created an account and never completed setup is not the same prospect as one who has logged in twelve times in the last thirty days, connected integrations, and invited two colleagues. Product-qualified leads — commonly called PQLs — are defined by this engagement depth, and the threshold should be calibrated to what has historically correlated with paid conversion, not set by intuition.",
+      },
+      {
+        type: "list",
+        heading: "Usage signals worth prioritising when qualifying PQLs:",
+        items: [
+          "Login frequency and recency — sporadic use suggests exploration; regular use suggests operational reliance on the product.",
+          "Feature depth — users accessing core workflow features rather than just onboarding flows have moved further into the product's value loop.",
+          "Team expansion — when a single user has added colleagues, the product is becoming embedded in a shared workflow rather than being evaluated individually.",
+          "Integration connections — linking the product to a CRM, a data source, or a communication tool signals intent to make it a permanent part of the stack.",
+          "Repeated contact with a usage limit or gated feature — a user who has hit a paywall multiple times is already in the process of making a commercial decision.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Reaching out when they already know the product",
+      },
+      {
+        type: "paragraph",
+        text: "The opening message to a PQL should not read like a cold email. The prospect has used the product — they do not need an explanation of what it does, a proof point about why it works, or a walkthrough of features they have already clicked through. Starting a sales conversation with a product overview to someone who has been using the product for several weeks is a signal that you are not paying attention.",
+      },
+      {
+        type: "paragraph",
+        text: "The first message should acknowledge the context without being intrusive about it. Not referencing exact session timestamps — that reads as surveillance — but recognising that the person has been using the product and that you are reaching out because you want to understand whether a paid tier or expanded account would serve them better. That framing is the only reason the outreach feels credible rather than tone-deaf. A generic demo request sequence sent to an active free user does not land as a sales email; it lands as evidence that the company does not know what is happening inside its own product.",
+      },
+      {
+        type: "callout",
+        text: "The most effective opening to a PQL is a short, direct question about what they are using the product to do. Not a pitch. The product already earned their attention — the job of outreach is to start the commercial conversation, not re-sell the product from scratch.",
+      },
+      {
+        type: "heading",
+        text: "Timing the outreach correctly",
+      },
+      {
+        type: "paragraph",
+        text: "Timing in a PLG overlay is more sensitive than in cold outbound. A user reached too early — before they have seen enough of the product to form a view — will not have a substantive conversation. A user reached too late — after they have settled into a free-tier habit and decided the current tier is enough — may have no active reason to upgrade unless something changes. The right moment is shortly after they have demonstrated consistent engagement and before a free-tier routine has calcified.",
+      },
+      {
+        type: "paragraph",
+        text: "A reliable trigger for outreach is the first time a user hits a usage ceiling. At that moment, they are actively evaluating how important the product is to their workflow. An outbound reach-out that arrives when the prospect is already in that decision has a fundamentally different dynamic than one that arrives cold. The user is not being asked to create a problem and then consider a solution — the problem is live. That is the highest-intent moment the sales team will encounter with that prospect, and letting it pass without contact is a common and avoidable miss.",
+      },
+      {
+        type: "heading",
+        text: "Getting product data to the SDR without manual reconciliation",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most common operational failures in PLG overlay programmes is poor data flow between the product and the sales team. If the SDR has to manually cross-reference a list of sign-ups with usage metrics before building their sequences each morning, they will do it inconsistently or eventually stop doing it. The overlay depends on the SDR having a clear, current view of which PQLs meet the engagement threshold — surfaced directly in the CRM or sales engagement tool rather than requiring manual data reconciliation.",
+      },
+      {
+        type: "paragraph",
+        text: "The setup does not need to be technically complex. A basic integration that pushes a product event — user hit feature limit, team size reached a threshold, third integration connected — into the CRM as a task or lead record gives the SDR the signal they need to prioritise and personalise the first touch. The more the product and sales systems share data in real time, the less friction sits between a user taking a high-intent action and an SDR reaching them while that intent is still active. Delays of days or weeks in that signal chain are where the PLG-to-sales conversion falls apart.",
+      },
+      {
+        type: "heading",
+        text: "Avoiding the most common mistakes",
+      },
+      {
+        type: "paragraph",
+        text: "PLG overlays fail most often in two ways. The first is contacting too broadly — enrolling all free users into sequences rather than the subset who meet a defined PQL threshold. This burns through a warm audience, generates unsubscribes, and produces a lasting signal that the company's outreach is indifferent to product context. For a SaaS company where expansion and referral depend on user goodwill, that is a meaningful cost beyond the conversion rate.",
+      },
+      {
+        type: "paragraph",
+        text: "The second mistake is using cold-outbound messaging on warm prospects. An SDR who sends a 'just wanted to reach out and introduce myself' email to someone who has been using the product for three weeks creates a credibility problem that is hard to recover from in the same thread. The messaging for PLG outreach should be maintained separately from cold templates, reviewed for context-appropriateness before use, and written on the assumption that the recipient already has a view of the product — which they do.",
+      },
+      {
+        type: "heading",
+        text: "What differentiates a PLG overlay that converts",
+      },
+      {
+        type: "paragraph",
+        text: "The difference between a PLG overlay that converts and one that does not is not primarily messaging quality — it is target selection and timing. Teams that define PQL thresholds rigorously, build their sequences around high-intent product events, and open with a question rather than a pitch tend to see strong conversion because they are arriving into a decision the prospect is already making. The product created the context. The SDR's job is to show up at the right moment with the right question, not to recreate the conditions for interest from scratch.",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS companies serving B2B buyers, a well-run overlay is one of the highest-leverage sales investments available. The prospect pool has already self-selected into product engagement — the qualification work the cold outbound team has to do manually has already been done by the product itself. The overlay's only job is to convert that engagement into a commercial conversation without squandering the goodwill the product built.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sales-enablement-sdr-team-resources",
     category: "Sales Development",
     title: "Sales Enablement for Outbound Teams: What Your SDRs Need Before They Start Prospecting",
