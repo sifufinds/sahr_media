@@ -27,6 +27,138 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-seasonal-pipeline-planning",
+    category: "Sales Development",
+    title: "B2B Sales Seasonality: How to Plan Your Outbound Calendar Around Buying Cycles",
+    excerpt:
+      "Most outbound teams run at the same intensity in August as in January. The teams that consistently hit annual targets do not — they plan around the predictable rhythms of B2B buying and use slow periods to build the pipeline that converts when buyers are ready.",
+    readTime: "6 min read",
+    date: "25 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound teams run the same playbook in August as they do in January. The volume target is the same, the sequence is the same, and the message is the same. The results are not. B2B buying is not uniform throughout the year — it moves in predictable cycles anchored to fiscal year-ends, budget planning windows, board sign-off timelines, and sector-specific procurement rhythms. Teams that plan around these cycles consistently outperform those that treat every week of the year as interchangeable.",
+      },
+      {
+        type: "paragraph",
+        text: "This is not an argument for doing less outbound in difficult periods. It is an argument for doing different things at different times of year — and for treating the calendar as a planning input, not background noise.",
+      },
+      {
+        type: "heading",
+        text: "Why B2B buying follows predictable patterns",
+      },
+      {
+        type: "paragraph",
+        text: "B2B purchases are not spontaneous decisions. They require internal alignment, budget allocation, procurement processes, and stakeholder sign-off — all of which are anchored to organisational rhythms. In the UK, the two most common company year-end dates are 31 December and 31 March. This means that for most targets, a cycle of budget approval, Q4 urgency, and Q1 new-year purchasing repeats annually with reasonable predictability.",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding this calendar does not eliminate the need for consistent outbound activity. It does change how to weight different types of activity across the year — specifically, when to push volume hard, when to focus on building and warming relationships, and when to prioritise preparation over outreach.",
+      },
+      {
+        type: "heading",
+        text: "Q1: the highest-intent quarter for most B2B buyers",
+      },
+      {
+        type: "paragraph",
+        text: "For companies with a December year-end — and many with a March year-end who complete budget planning in Q3 and Q4 — January through March is the period of highest purchasing intent. New budgets are approved, strategic initiatives are announced, and decision-makers who deferred purchasing decisions into 'next year' are now in next year. The conversations that stalled in November due to budget freeze or stakeholder unavailability are suddenly viable again.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that Q1 outbound should be heavily weighted toward advancing warm relationships and following up on Q4 conversations. New cold outreach belongs in the mix, but the highest-conversion activity in Q1 is almost always with contacts who received a first touch in September to November. An SDR who built a pipeline of warm, qualified conversations through Q4 will find Q1 significantly more productive than one who treated Q4 as a dead period and starts the year cold.",
+      },
+      {
+        type: "heading",
+        text: "Q4: the pressure quarter — handle with precision",
+      },
+      {
+        type: "paragraph",
+        text: "Q4 is frequently misread by outbound teams. It is simultaneously the period of highest urgency — prospects with expiring budgets or end-of-year targets need to make decisions — and the period of highest noise, as every other sales team in the market is chasing the same year-end closes. The buyers who are genuinely ready to decide in Q4 are more motivated than at almost any other time. The buyers who are not ready are more resistant, because they have already heard from everyone.",
+      },
+      {
+        type: "paragraph",
+        text: "The effective Q4 approach separates the two audiences. For accounts that are already mid-funnel, year-end urgency is a legitimate accelerant and worth deploying. For cold prospects being reached for the first time in October or November, the pitch-heavy environment of year-end is exactly the wrong context for a first cold touch. A short, low-friction message that acknowledges the busy period and raises a specific relevant question tends to outperform a standard value proposition email aimed at generating an immediate meeting.",
+      },
+      {
+        type: "callout",
+        text: "The most valuable Q4 activity for outbound teams is often not closing — it is building a pipeline of warm relationships that convert in Q1. The SDR who plants seeds in October and November reaps the benefit in January.",
+      },
+      {
+        type: "heading",
+        text: "The summer slowdown: what actually works and what does not",
+      },
+      {
+        type: "paragraph",
+        text: "Many outbound teams scale back significantly in July and August, treating the summer as a dead period. The reality is more nuanced. Decision-makers are genuinely harder to reach across these months — holidays, reduced headcount, and slower internal processes make complex procurement unlikely to advance. High-volume cold outreach targeting senior decision-makers in mid-July produces low returns and uses up goodwill that could be deployed more effectively in September.",
+      },
+      {
+        type: "list",
+        heading: "What works in summer vs. what does not:",
+        items: [
+          "Works well: list building and enrichment work that falls behind in busier quarters, deep account research on targets to be approached in Q3/Q4, and reconnecting with prospects who went quiet in Q2 with a low-pressure touch.",
+          "Works well: testing new messaging variants or sequences on a smaller sample before deploying at full scale in September, when the competitive environment in the inbox is significantly more crowded.",
+          "Does not work: high-volume cold outreach to senior decision-makers expecting immediate responses, or attempting to advance complex deals that require multiple stakeholders to be mobilised across an organisation.",
+          "Construction-specific note: August is often quieter on-site due to summer shutdowns, which can make some site-based contacts — project directors and commercial managers in particular — more reachable by phone than they would be during peak build periods.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "September to November: the highest-activity window",
+      },
+      {
+        type: "paragraph",
+        text: "For most B2B markets in the UK, September through November is the single most productive period for new outbound activity. Decision-makers are back from summer, strategic planning for the following year is underway, and purchasing decisions deferred to post-summer are being actively progressed. This is the period to maximise outbound volume, prioritise the accounts most likely to convert by year-end, and build the pipeline that will carry Q1.",
+      },
+      {
+        type: "paragraph",
+        text: "The September restart requires preparation in August. Teams that arrive in September without a refreshed target list, updated messaging, and a clear pipeline target for Q4 lose the first two weeks to catch-up activity. The first week of September should be outbound-ready. The preparation that makes that possible happens in July and August — not in the final days before the quarter starts.",
+      },
+      {
+        type: "heading",
+        text: "Construction-specific seasonal patterns",
+      },
+      {
+        type: "paragraph",
+        text: "Construction outbound has its own layer of seasonality that overlaps with but differs from the general B2B calendar. The construction procurement cycle is linked to project start dates, planning permission timelines, and main contractor tendering windows — all of which create predictable phases of procurement activity that do not map neatly onto standard fiscal year rhythms.",
+      },
+      {
+        type: "paragraph",
+        text: "In UK construction, the period from October through March typically sees the most active tender and procurement work for projects due to start in spring and summer. Developers and main contractors are commissioning design work, inviting specialist contractors to tender, and building their supply chains for the following year's build programme. Outbound targeting these buyers from September to November is reaching them at the point of active procurement planning — not after decisions have already been made.",
+      },
+      {
+        type: "paragraph",
+        text: "A second active window exists in construction in September, particularly for public sector clients, housing associations, and local authority frameworks whose procurement cycles track April year-ends. These buyers are often planning their H2 programme — October to March — in the weeks immediately following the summer period. An outbound programme that has not been in contact through Q4 and Q1 has missed the primary window.",
+      },
+      {
+        type: "heading",
+        text: "Building an annual outbound calendar",
+      },
+      {
+        type: "paragraph",
+        text: "The practical output of seasonal planning is a simple annual calendar that maps the team's activity against the known rhythms of their target market. It does not need to be complex. Four columns: the quarter, the primary outbound focus, the secondary activity, and any sector-specific events or trigger points to plan around.",
+      },
+      {
+        type: "list",
+        heading: "A working template for a UK B2B outbound calendar:",
+        items: [
+          "Q1 (Jan–Mar): Primary focus on converting warm pipeline from Q4, accelerating mid-funnel conversations with buyers who have new budgets approved, and cold outreach to top-tier accounts not reached in Q4. The highest-conversion period of the year — do not fill it with low-quality targets.",
+          "Q2 (Apr–Jun): Consistent cold outreach, new account development, and building pipeline for Q4. For construction targets, April is the start of many public sector procurement cycles — prioritise incoming tender notices and new project announcements as timing signals.",
+          "Q3 (Jul–Sep): July and August focused on research, list quality, and test campaigns. September is the restart — execute the highest-volume activity of the quarter in the last three weeks with a prepared list and refreshed messaging.",
+          "Q4 (Oct–Dec): Maximum outbound intensity through October and November. Advance mid-funnel accounts with urgency messaging where it is genuinely applicable. December varies by sector — many UK businesses wind down from mid-December, so close the year on relationship maintenance rather than hard-push outreach.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "Annual pipeline targets are not met by running the same playbook at the same intensity for twelve consecutive months. They are met by SDRs who understand the rhythm of their buyers' year and plan their own activity to match it.",
+      },
+      {
+        type: "paragraph",
+        text: "Seasonal planning is not a sophisticated concept. It is a discipline that most outbound teams know they should apply and rarely do with enough specificity to make a difference. The teams that consistently hit annual targets are not outworking the competition every month — they are working smarter in the months that matter most, and using the quieter periods to build the assets that make the busy periods pay off.",
+      },
+    ],
+  },
+  {
     slug: "technographic-targeting-b2b-saas-prospecting",
     category: "SaaS Lead Generation",
     title: "Technographic Targeting: Using Tech Stack Data to Prioritise Your B2B Prospect List",
