@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-reply-handling",
+    category: "Sales Development",
+    title: "What Happens After the Reply: How SDRs Should Handle Inbound Responses to Cold Outreach",
+    excerpt:
+      "Getting a reply to cold outreach is not the same as having a pipeline opportunity. How an SDR handles the first response — whether positive, a soft no, or a timing deflection — often determines whether the conversation advances or quietly dies.",
+    readTime: "7 min read",
+    date: "27 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Outbound teams spend most of their training, coaching, and process time on the send side of the equation — crafting sequences, refining subject lines, testing call openers. When a prospect finally replies, that preparation often gives way to improvisation. There is no equivalent framework for what to do when the message lands and the prospect responds. The result is that a reply — the moment the outreach was designed to produce — gets handled differently by different SDRs, and often handled poorly by the same SDR on different days. The reply is not the outcome. It is the beginning of the actual sales process, and it deserves the same deliberate approach as the outreach itself.",
+      },
+      {
+        type: "heading",
+        text: "Why reply handling is usually inconsistent",
+      },
+      {
+        type: "paragraph",
+        text: "SDR onboarding is front-loaded. New reps learn the ICP, build their sequences, practise call openers, and work through objection-handling frameworks. What they rarely receive is a structured approach to managing inbound replies — how to read them, how to respond within the right timeframe, and how to route each type of reply through the right next step. That gap shows up in outcomes. An SDR who has received thorough outreach training but no reply-handling guidance will default to instinct, which tends to be inconsistent across reply types and inconsistent with what actually advances deals.",
+      },
+      {
+        type: "paragraph",
+        text: "The inconsistency compounds when reply volume increases. When an SDR is handling a manageable number of sequences, they can give each reply individual attention. When reply volume grows — because the sequences are working, because the ICP sharpened, or because a campaign landed well — the lack of a framework becomes a bottleneck. Replies pile up unanswered, positive responses get slow follow-up, and timing deflections get logged in CRM and never revisited. A reply-handling workflow is not only a quality mechanism; it is a scalability mechanism.",
+      },
+      {
+        type: "heading",
+        text: "A working typology of cold outreach replies",
+      },
+      {
+        type: "paragraph",
+        text: "Most replies to cold outreach fall into a small number of recognizable categories. Treating each category as a distinct type with a defined response approach removes the need for the SDR to improvise from scratch every time. The categories are not mutually exclusive — a reply can contain elements of more than one — but classifying the dominant signal in the reply gives the SDR a clear starting point.",
+      },
+      {
+        type: "list",
+        heading: "The main categories of cold outreach replies:",
+        items: [
+          "Positive and open — the prospect has indicated genuine interest and is inviting more information or a next step. Examples: 'sounds interesting, tell me more', 'yes, open to a call', 'could work, what does this involve?'",
+          "Conditional interest — the prospect is not saying no but has a qualification condition first. Examples: 'depends on what this costs', 'we might be looking at this in H2', 'send me something and I'll take a look'.",
+          "Timing deflection — the prospect is declining for now but leaving the door open. Examples: 'not the right time, try me in Q2', 'we've just started something similar, follow up in six months'.",
+          "Sceptical but not closed — the prospect pushes back on a specific claim or questions the relevance. Examples: 'how is this different from what we already use?', 'not sure this applies to our situation'.",
+          "Declining — the prospect is removing themselves from the conversation. Examples: 'not for us', 'not interested', 'please remove me from your list'.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Handling the positive reply",
+      },
+      {
+        type: "paragraph",
+        text: "When a prospect responds positively to cold outreach, the most common SDR error is over-responding. A prospect who says 'sounds interesting, tell me more' has given a small signal of openness — they have not asked for a case study pack, a detailed explanation of the product, and a set of pricing options. The instinct to flood that opening with information is understandable, but it converts a crisp opening into a low-priority reading task for the prospect. By the time the prospect has worked through the SDR's response, the energy of the initial reply has dissipated.",
+      },
+      {
+        type: "paragraph",
+        text: "The right response to a positive reply is short, direct, and moves toward a meeting rather than toward an email conversation. The goal is to get a call or meeting booked before the thread becomes a back-and-forth information exchange. A two or three sentence response that acknowledges the reply, states one relevant detail about why this applies to their context, and proposes a specific time or a booking link does the job. The prospect asked for more — a call is more. Sending paragraphs of explanation is not more; it is a detour.",
+      },
+      {
+        type: "heading",
+        text: "Handling the timing deflection",
+      },
+      {
+        type: "paragraph",
+        text: "Timing deflections — 'not now, follow up later' — are among the most mishandled replies in cold outbound. The standard SDR reflex is to create a CRM task, set a reminder for the date mentioned, and move on. Six months later, the reminder fires and the SDR sends a generic re-engagement email that has no connection to the original thread. The prospect barely remembers the exchange, and the follow-up reads like any other cold email. The goodwill of the original positive signal has been entirely lost.",
+      },
+      {
+        type: "paragraph",
+        text: "A timing deflection should be treated as a soft opt-in, not a polite no. The prospect took the time to reply and gave you a specific signal — they are not opposed to this, just not now. That means the next contact should acknowledge the prior exchange, reference what was discussed, and arrive at the right moment rather than a generic interval. If the prospect said Q2, the follow-up should reference Q2 specifically, acknowledge what the original conversation covered, and ask whether the timing has become more relevant. Generic re-engagement collapses the value of the prior exchange.",
+      },
+      {
+        type: "callout",
+        text: "When a prospect gives you a timing signal, record the exact context in CRM — not just the date, but what was discussed and what the prospect's stated reason for deferring was. A follow-up that references both the original conversation and their stated reason is categorically different from a generic 'following up on our previous conversation' email.",
+      },
+      {
+        type: "heading",
+        text: "Handling the soft no without closing the door",
+      },
+      {
+        type: "paragraph",
+        text: "A prospect who declines is not a permanently lost lead. A declining reply that says 'not for us' or 'happy with our current provider' is a signal about their current situation, not a permanent verdict. The correct response to a soft no is short, gracious, and leaves the door open without being pushy. A single sentence — acknowledging the reply, thanking them for taking the time, and noting that you will check back when circumstances change — does enough. The goal is to exit the conversation without generating resentment, because the same prospect may be worth re-approaching in six to twelve months when their situation is different.",
+      },
+      {
+        type: "paragraph",
+        text: "Where SDRs go wrong with soft declines is either ignoring them entirely — leaving the prospect enrolled in the sequence to receive further automated touches — or pushing back on the rejection with more information. Both create friction. A prospect who is removed from a sequence after declining and then re-approached appropriately months later has a meaningfully better chance of converting than one who received four more emails after saying no. The exit from a declining conversation is a transaction worth handling well.",
+      },
+      {
+        type: "heading",
+        text: "Response time and what it signals",
+      },
+      {
+        type: "paragraph",
+        text: "How quickly an SDR responds to a reply matters more than most teams recognise. When a prospect replies to cold outreach, they are in an active moment of engagement with the topic — their attention is on it, and the threshold for taking a next step is lower than it will be an hour or a day later. A fast response — measured in minutes or hours, not days — catches the prospect while their engagement is still live. A delayed response arrives when that engagement has faded and the prospect has moved on to other priorities.",
+      },
+      {
+        type: "paragraph",
+        text: "Response time also signals something to the prospect about how the relationship will work. A prompt reply to an initial positive response communicates that the SDR and their organisation take the prospect's time seriously. A reply that arrives two days after the prospect's message communicates the opposite, regardless of what the message says. At the prospecting stage, the SDR is forming the prospect's first impression of the company's operational attentiveness. Slow reply handling at this stage predicts slow follow-through at later stages in the prospect's mind, fairly or not.",
+      },
+      {
+        type: "heading",
+        text: "Building a reply workflow that holds up at volume",
+      },
+      {
+        type: "paragraph",
+        text: "Individual SDR judgment is not scalable. When reply volume increases, a workflow built on case-by-case improvisation produces inconsistent results and forces good SDRs to spend disproportionate time on routine decisions. A functional reply workflow removes that overhead by giving the SDR a decision tree — what type of reply is this, what is the defined first response, what is the CRM action, what is the sequence disposition? The decisions that require judgment are limited to the genuine edge cases; the standard reply types are handled through a defined process.",
+      },
+      {
+        type: "paragraph",
+        text: "The components of a working reply workflow are: a classification step where the SDR reads the reply and identifies its type, a defined response template for each type that the SDR personalises rather than creates from scratch, a CRM disposition that records the reply type and any relevant context, and a sequence action — pause, remove, or reroute — based on what the reply signals. The workflow does not eliminate judgment; it reserves judgment for the moments where it adds value and removes it from the moments where it only introduces inconsistency.",
+      },
+      {
+        type: "paragraph",
+        text: "Getting a reply from cold outreach is an achievement — it means the targeting was accurate enough, the message was relevant enough, and the timing was close enough for the prospect to spend thirty seconds responding. The only thing that determines whether that achievement converts into pipeline is what happens in the next hour and the weeks that follow. Reply handling is where outbound sequences either pay off or quietly leak value, and it deserves the same structured investment as the sequences themselves.",
+      },
+    ],
+  },
+  {
     slug: "saas-outbound-product-led-growth-sales-overlay",
     category: "SaaS Lead Generation",
     title: "Outbound in a Product-Led Growth Company: Building a Sales Overlay That Actually Converts",
