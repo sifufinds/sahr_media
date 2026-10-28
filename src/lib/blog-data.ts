@@ -27,6 +27,113 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-program-first-90-days",
+    category: "Sales Development",
+    title: "Why Most Outbound Sales Programs Fail in the First 90 Days",
+    excerpt:
+      "Starting an outbound sales programme is expensive before a single qualified meeting appears. The failure pattern is consistent enough to be preventable — and it almost never comes down to the market or the SDRs.",
+    readTime: "7 min read",
+    date: "28 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Starting an outbound sales programme is one of the more expensive experiments a B2B company can run. The infrastructure — tooling, headcount, time spent building sequences and lists — costs real money before a single qualified meeting appears in the pipeline. Despite that investment, most early-stage outbound programmes either produce no meaningful results in the first quarter or produce just enough to keep going without ever becoming reliable pipeline generators. The failure pattern is consistent enough to be preventable. It is almost never caused by bad luck or an unapproachable market. It is caused by a predictable set of structural problems that compound quickly in the early months and become difficult to untangle once they are embedded in the programme's habits and assumptions.",
+      },
+      {
+        type: "heading",
+        text: "The expectation gap",
+      },
+      {
+        type: "paragraph",
+        text: "The most damaging thing an outbound programme can inherit is unrealistic timing expectations. Cold outreach at scale has a well-defined production cycle. A sequence sent today typically produces meetings two to four weeks later, and those meetings produce pipeline entries whose close times can stretch months further. When the programme launch is tied to a quarterly revenue target — as it often is — the arithmetic rarely works out. The leadership team expecting pipeline contribution in month one or two of a brand-new outbound function is measuring a construction project by the depth of the foundations rather than the height of the building.",
+      },
+      {
+        type: "paragraph",
+        text: "This expectation mismatch has a direct operational consequence: it creates pressure to optimise for the wrong metrics at the wrong time. SDRs start gaming activity numbers. Managers start asking for meetings instead of quality conversations. The pressure compresses the time available for the slower, more important work of working out what actually resonates with the target market. The programme starts optimising for volume before it knows what it is supposed to be producing at volume.",
+      },
+      {
+        type: "heading",
+        text: "Launching without a validated ICP",
+      },
+      {
+        type: "paragraph",
+        text: "Almost every outbound programme starts with a defined Ideal Customer Profile on paper. The problem is that most of those ICPs are built from internal assumptions — who the founders think the best buyers are, who the existing client base happened to include, or who marketing has been targeting in content. Until tested with live outreach data, an ICP is a hypothesis, not a fact.",
+      },
+      {
+        type: "paragraph",
+        text: "A common early mistake is committing significant SDR effort to a single ICP definition before testing whether that definition is correct. When the initial sequence generates weak reply rates and poor conversion to meetings, the team adjusts the copy, the send times, the sequence length — everything except the fundamental question of whether they are targeting the right people. Testing two or three meaningfully different ICP definitions in the first thirty days, and measuring which generates substantive engagement rather than polite deferrals, compresses months of wasted effort into weeks of useful learning.",
+      },
+      {
+        type: "heading",
+        text: "Skipping message-market fit",
+      },
+      {
+        type: "paragraph",
+        text: "Outreach sequences get written once and then send for months. The first sequence a new outbound programme deploys is almost always wrong — not entirely wrong, but not calibrated to the specific buyer, their specific context, and the specific way they think about the problem your product or service addresses. Getting to a message that converts requires iteration, and iteration requires a deliberate testing process.",
+      },
+      {
+        type: "paragraph",
+        text: "The mistake is treating the initial message as the final message. Sequences get deployed, performance is measured in aggregate, and when results are poor the whole sequence gets replaced rather than dissected. The more productive approach is to treat each element — subject line, opening line, value proposition, call to action — as a variable, and to change one thing at a time with enough volume to draw a meaningful conclusion. This sounds obvious in principle. In the first 90 days, under activity pressure, it rarely happens in practice.",
+      },
+      {
+        type: "heading",
+        text: "The tooling-first trap",
+      },
+      {
+        type: "paragraph",
+        text: "Outbound tooling — sequencing platforms, data enrichment tools, CRM integrations, dialler software — is genuinely useful once a programme knows what it is doing. In the first 90 days, complex tooling is more often a distraction than an enabler. Weeks get absorbed in integration projects, data hygiene, and feature configuration before any substantive outreach has happened. The operational overhead of managing the tooling consumes the time that should be spent on the activities that generate actual learning: writing copy, making calls, having conversations, and analysing what works.",
+      },
+      {
+        type: "paragraph",
+        text: "A simpler starting setup — a reliable data source, a basic sequencing tool, and a CRM — is sufficient to generate enough outreach volume to learn what the programme needs to learn in its first quarter. Tooling sophistication should follow demonstrated performance, not precede it. The best-configured sequencing platform in the world does not compensate for targeting the wrong people with the wrong message.",
+      },
+      {
+        type: "heading",
+        text: "Hiring before the programme is designed",
+      },
+      {
+        type: "paragraph",
+        text: "Bringing in SDRs before the programme infrastructure is ready is one of the most expensive mistakes an outbound launch can make. An SDR hired into a programme with no validated ICP, no tested messaging, and no clear process for qualifying and handing off responses is being asked to figure those things out themselves — while also being measured on meeting volume. The results are predictably poor, and the attribution of that poor performance to the individual SDR rather than the programme design is a common outcome.",
+      },
+      {
+        type: "paragraph",
+        text: "The sequence matters: define the ICP, test the messaging, build the qualification framework, then hire SDRs to run a process that is already demonstrably capable of generating qualified conversations. Hiring first and designing later means SDRs are conducting product and market research at the cost of SDR salaries, and the learning gets lost when those SDRs leave.",
+      },
+      {
+        type: "callout",
+        text: "The 90-day failure pattern is almost always structural, not executional. When early outbound results are poor, the problem is rarely that the SDRs are underperforming — it is that the programme they have been hired into was not ready to run.",
+      },
+      {
+        type: "heading",
+        text: "What a well-structured first 90 days looks like",
+      },
+      {
+        type: "paragraph",
+        text: "A properly sequenced outbound launch treats the first quarter as a learning phase rather than a production phase. The objective is not to hit a meeting quota; it is to establish which ICPs generate substantive conversations, which messages produce positive engagement, and which qualification criteria distinguish prospects who are likely to advance from those who will stall. That learning foundation, built in the first quarter, is what makes months four through twelve consistently productive.",
+      },
+      {
+        type: "paragraph",
+        text: "Practically, this means doing a small amount of outreach with high intentionality rather than high volume. Target two or three distinct ICP segments simultaneously. Write different messaging for each. Measure response quality — substantive replies, held meetings, deals progressed — not just activity volumes. Run weekly reviews that ask what the data is telling you about the ICP and the message, not just whether the targets were hit. Build the process around learning, and production follows.",
+      },
+      {
+        type: "list",
+        heading: "Markers that an outbound programme has passed the 90-day danger zone:",
+        items: [
+          "The team can articulate, from real data, which ICP segment generates the highest meeting-to-opportunity conversion",
+          "At least one message variant has been proven to generate positive replies at a repeatable rate",
+          "The SDR-to-AE handoff has a documented qualification standard that both parties have agreed on and applied to real opportunities",
+          "Reply volume and meeting bookings are trending upward across consecutive four-week windows, not bouncing erratically",
+          "Sequence performance data is being reviewed and acted on in a regular cadence rather than stockpiled for a quarterly review",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most outbound programmes that survive their first 90 days in a healthy state share a common characteristic: someone, early on, made the decision to treat month one as a laboratory rather than a factory. The temptation to add headcount, upgrade the tooling, or broaden the target list in response to slow early results is understandable — it looks like action. But the lever that actually changes early-stage outbound performance is almost always tighter targeting, sharper messaging, and a clearer qualification standard. Pulling those levers requires time, discipline, and protection from the pressure to look busy rather than to learn.",
+      },
+    ],
+  },
+  {
     slug: "construction-framework-agreements-b2b-pipeline",
     category: "Construction Marketing",
     title: "UK Construction Framework Agreements: A Business Development Tool, Not Just a Procurement Gateway",
