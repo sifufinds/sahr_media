@@ -27,6 +27,113 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-email-human-ai-outreach-2026",
+    category: "Sales Development",
+    title: "Writing B2B Cold Outreach That Reads Human in an AI-Saturated Inbox",
+    excerpt:
+      "The signal-to-noise ratio in B2B inboxes has shifted sharply as AI-generated outreach becomes standard practice. The teams still getting replies have not abandoned volume — they have learned what makes an email feel like it was written by someone who actually looked.",
+    readTime: "7 min read",
+    date: "28 Oct 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "The volume of cold outreach hitting B2B inboxes has increased substantially as AI tools make sequence generation frictionless. For any senior buyer at a SaaS company, a construction firm, or any organisation in a moderately competitive sector, a day's email now includes a meaningful share of outreach that was researched, written, and personalised by a language model with a contact database attached. Most recipients have developed a working pattern recognition for it — even if they could not articulate exactly what gives it away.",
+      },
+      {
+        type: "paragraph",
+        text: "That shift has changed the competitive landscape for outbound teams. The teams still generating strong reply rates have not abandoned AI tools — they have learned to deploy them in ways that add substance rather than volume. The teams being ignored are the ones using AI to send higher quantities of the same hollow personalisation. Understanding the difference is now a meaningful capability gap.",
+      },
+      {
+        type: "heading",
+        text: "What AI-generated outreach sounds like to a recipient",
+      },
+      {
+        type: "paragraph",
+        text: "The giveaways are not always obvious, but they are consistent. AI-generated outreach tends to use generic research signals as though they are specific ones — referencing a company's LinkedIn profile description or a recent funding announcement that every SDR in the category has also pulled from the same data provider. It tends toward structured formality that reads as templated even when surface details change: the three-clause opening, the transition sentence, the single call to action formatted identically in email after email. It demonstrates awareness of category without demonstrating awareness of the individual situation.",
+      },
+      {
+        type: "paragraph",
+        text: "The deeper problem is that AI tools trained on what 'good cold email looks like' reproduce patterns associated with historically successful outreach without the underlying reasoning that made those patterns effective in context. An opening line referencing a specific company initiative can work when it shows genuine relevance — when the SDR has connected that initiative to a reason for reaching out. When the connection is surface-level, the research reads as a pretext for a message that could have been sent to any company in the category.",
+      },
+      {
+        type: "heading",
+        text: "The specific-versus-generic test",
+      },
+      {
+        type: "paragraph",
+        text: "The fastest diagnostic for whether a cold email reads as human or automated is the specificity test: could this sentence have been written about any company in the target segment, or does it require knowing something about this specific company? A message that passes the test has at least one element — an observation, a reference, a question — that would not apply to the next account on the list. A message that fails it is generic regardless of the merge fields.",
+      },
+      {
+        type: "paragraph",
+        text: "The specificity test is demanding because it requires actual research. It is also the most reliable route to reply rates that hold up over time, because the threshold for passing it is not particularly high. A single sentence that references something genuinely specific to the company — a product decision visible on their website, a position they have taken in a recent piece of content, a hire that signals a strategic shift — elevates the entire email. The rest of the message can be template-like because the opening demonstrates that the SDR looked. Most AI-generated outreach fails the test in the opening line, which is where the decision to reply or delete is made.",
+      },
+      {
+        type: "list",
+        heading: "The signals buyers use to evaluate whether a cold email was written by a person:",
+        items: [
+          "An opening line that references something too specific or too recent to have been scraped from a standard data source",
+          "A question that reflects the recipient's particular business situation rather than a generic category problem",
+          "A value proposition framed around a consequence the recipient's role actually deals with, not a feature benefit",
+          "An absence of transition sentences that exist purely to link clauses ('As a leader in your space, you likely face...')",
+          "A call to action that is specific about what will happen in a conversation, not just a request for '15 minutes to chat'",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Where personalisation adds genuine value and where it becomes performance",
+      },
+      {
+        type: "paragraph",
+        text: "There is a category of 'personalisation' in cold outreach that functions as a performance of research rather than evidence of it. Referencing the prospect's company name in the subject line, noting their job title, acknowledging the city their office is in — these signals communicate that the SDR used a contact database, not that they understand the prospect's situation. Buyers who receive cold outreach regularly have developed a reliable instinct for this distinction. The personalisation that matters is the kind that takes longer to produce: connecting a company's observable situation to a specific reason for reaching out that is particular to them.",
+      },
+      {
+        type: "paragraph",
+        text: "The appropriate level of research per email scales with the value of the target account. For a top-tier account with significant potential, fifteen minutes of focused research that produces one genuinely specific opening line is an efficient use of time. For a mid-tier account being worked at higher volume, a lighter touch is appropriate — but the minimum for a message that reads human is still something that passes the specificity test. Emails that use merge fields as a substitute for understanding consistently underperform emails that demonstrate, even briefly, that the sender was paying attention.",
+      },
+      {
+        type: "callout",
+        text: "The question worth asking before sending any cold email: would the recipient be able to tell this was written specifically about them, or would they clock it as one of forty they received today? If the honest answer is the latter, the email is not ready.",
+      },
+      {
+        type: "heading",
+        text: "The case for writing less",
+      },
+      {
+        type: "paragraph",
+        text: "AI tools make it easy to generate longer emails with multiple proof points, case study references, and detailed value propositions. The instinct to include more is understandable — more content means more chances to land on something that resonates. In practice, longer AI-generated emails tend to perform worse than shorter human ones, for two reasons. First, a longer email gives the recipient more surface area in which to identify the generic structure. Second, a longer email implies that the sender believes the prospect has time to read it, which signals a misunderstanding of how busy decision-makers actually are.",
+      },
+      {
+        type: "paragraph",
+        text: "A short email — two or three sentences — that contains one specific observation and one clear question reads as confident and respectful of the recipient's time. It also reads as something a person actually wrote, because the calculation that brevity is more likely to get a response is a distinctly human one. An AI optimising for apparent thoroughness will rarely produce two-sentence emails. The brevity itself is a signal.",
+      },
+      {
+        type: "heading",
+        text: "Using AI in outreach without sounding like it",
+      },
+      {
+        type: "paragraph",
+        text: "The error is not using AI tools — it is delegating the thinking to them. AI tools are genuinely useful for drafting outreach that a human then edits for specificity, for generating structural variations to test against each other, for suggesting angles based on research the SDR provides, and for reducing the time it takes to move from a blank page to a working draft. Where they fail is when they are the starting and ending point for the message: when the sequence is generated, reviewed for obvious errors, and sent without the SDR adding the element that makes it specific to this prospect.",
+      },
+      {
+        type: "paragraph",
+        text: "Teams using AI effectively for outreach treat it as a drafting aid rather than an authoring system. The SDR identifies the specific angle — what about this company makes them a particularly good prospect right now — and uses the AI tool to develop that angle into a working email, rather than asking the tool to generate the angle and the email from scratch. The output of that process reads different from AI-generated outreach because the specific reasoning behind it came from a person.",
+      },
+      {
+        type: "heading",
+        text: "What this means for SDR teams running at volume",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge for high-volume outbound teams is that genuine specificity takes time and does not scale at the same rate as automated personalisation. There is a real tension between the volume targets most SDR teams operate against and the research investment that makes individual emails effective. The teams handling this tension well have made a deliberate choice about where to invest that time — concentrating genuine research effort on the top tier of their account list, and using lighter but still human-sounding outreach for the mid-tier, rather than applying the same AI-generated template across everything.",
+      },
+      {
+        type: "paragraph",
+        text: "The underlying shift is this: when AI-generated outreach was novel, it stood out — not because it was particularly good, but because it was unusual. Now that it is the majority of what a senior B2B buyer receives, the signal value has inverted. The emails that stand out are the ones that read like they came from a person who looked at the company and had a reason to reach out. That used to be the baseline expectation for professional outreach. In 2026, it has become the differentiator.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-program-first-90-days",
     category: "Sales Development",
     title: "Why Most Outbound Sales Programs Fail in the First 90 Days",
