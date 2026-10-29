@@ -27,6 +27,139 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-tech-stack-2026",
+    category: "Sales Development",
+    title: "The B2B Outbound Tech Stack in 2026: What SDR Teams Actually Need",
+    excerpt:
+      "Most outbound teams have more tools than they need and use fewer of them well than they think. The stack that drives consistent pipeline is not the most comprehensive one — it is the one where every layer is configured correctly and connected to everything else.",
+    readTime: "7 min read",
+    date: "29 Oct 2026",
+    color: "#DC2626",
+    content: [
+      {
+        type: "paragraph",
+        text: "The outbound tooling market has expanded substantially over the past few years. Most SDR teams now run four to eight different platforms to prospect, sequence, enrich, and track — and a meaningful portion of those tools were purchased to solve a problem that a different tool already addressed, or that the programme was not mature enough to need. The result is a stack that is technically impressive and operationally complicated, where more time goes into managing integrations and reconciling data than into the prospecting activity the tools are supposed to support.",
+      },
+      {
+        type: "paragraph",
+        text: "This is not an argument for minimal tooling. A well-configured stack genuinely accelerates outbound performance. The acceleration comes from the right tools integrated cleanly, not from the largest number of subscriptions. The teams running the most productive outbound programmes in B2B SaaS tend to share a common characteristic: they have fewer tools than average, and they use each one more completely.",
+      },
+      {
+        type: "heading",
+        text: "The four functional layers every outbound stack needs",
+      },
+      {
+        type: "paragraph",
+        text: "An outbound stack serves four distinct functional purposes, and a well-designed stack has at least one strong tool in each layer — and rarely more than one. The four layers are: a CRM to own the account and contact record; a sales engagement platform to run sequences and track interactions; a data and enrichment tool to populate and verify contact information; and a signal layer to identify which accounts are in an active buying window. Each layer has a distinct job. The problems arise when teams stack tools within a layer — running two sequencing platforms simultaneously, maintaining two data sources with overlapping coverage — or skip a layer entirely because it seems optional.",
+      },
+      {
+        type: "list",
+        heading: "The four layers and what they do:",
+        items: [
+          "CRM: the system of record for all accounts, contacts, and interactions. Every other tool writes to this or reads from it. Poor CRM hygiene undermines every other layer.",
+          "Sales engagement platform: manages sequences (email, phone, LinkedIn), tracks opens and replies, and routes responses. This is where the SDR's daily workflow lives.",
+          "Data and enrichment: provides contact details — emails, direct dials — enriches company records with firmographic signals, and keeps the contact database clean. Often the layer with the most tool overlap.",
+          "Signal and intent data: surfaces which accounts are showing behavioural signals suggesting active category evaluation. Genuinely useful for some programmes; overcomplicated for others at their current scale.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "CRM first — no other tool works well without it",
+      },
+      {
+        type: "paragraph",
+        text: "The CRM is the foundation of the outbound stack, and the most common reason outbound programmes underperform is poor CRM configuration rather than weakness in any other layer. An outbound CRM needs to do a small number of things reliably: hold a clean, duplicate-free account and contact database, record every meaningful interaction at the contact and account level, track where each account sits in the pipeline, and give the SDR a view of their book of business they can act from each morning.",
+      },
+      {
+        type: "paragraph",
+        text: "The tools that connect to the CRM — the sequencing platform, the enrichment layer, the intent data — are only as useful as the records they connect to. An SDR trying to sequence from CRM data that is out of date, inconsistently formatted, or full of duplicates will spend more time on data cleanup than on prospecting. Getting CRM hygiene to a usable standard before layering other tools on top is the single most productive investment a new outbound programme can make, because everything else depends on it.",
+      },
+      {
+        type: "heading",
+        text: "Sales engagement platforms — the daily operating layer",
+      },
+      {
+        type: "paragraph",
+        text: "The sales engagement platform is where SDRs spend most of their active prospecting time. It manages email sequences, prompts call tasks, and logs LinkedIn activity. For most mid-size outbound teams, the established platforms in this category cover the requirements adequately. The more important decision than which platform to use is how to configure the one you have.",
+      },
+      {
+        type: "paragraph",
+        text: "The common failure mode is using a sales engagement platform as an email blast tool — building long, generic sequences and enrolling large contact lists without segmenting by persona, sequence variant, or stage of engagement. A well-configured platform has distinct sequences for different ICP tiers and personas, a clear system for routing inbound replies out of automated sequences and into the SDR's active management, and reporting that surfaces which steps and variants are generating responses versus which are running untouched. Most teams use roughly a third of the capability of their sequencing platform and then look elsewhere for the performance improvement.",
+      },
+      {
+        type: "heading",
+        text: "Data and enrichment — accuracy matters more than coverage",
+      },
+      {
+        type: "paragraph",
+        text: "The data layer is where most outbound teams overspend. Coverage — how many contacts a data provider has in its database — is the metric most sales teams use to evaluate data tools. Accuracy — what percentage of those contacts have current, verified email addresses and phone numbers — is the metric that actually determines whether the data is usable.",
+      },
+      {
+        type: "paragraph",
+        text: "A common pattern is purchasing a data tool with broad coverage and discovering that email bounce rates are high enough to damage sender reputation, or that a significant proportion of phone numbers reach the wrong person or a disconnected line. This is not a problem that a second data tool solves by addition — two overlapping data sources with mediocre accuracy still produce mediocre data. The more effective approach is to identify which provider has the most accurate coverage for your specific target market — by vertical, geography, and company size — and use that one well rather than triangulating between several.",
+      },
+      {
+        type: "callout",
+        text: "The test for any data tool is not how many contacts it claims — it is what percentage of the contacts you export actually have accurate, working details when you run a test batch. Run that test before committing to an annual contract.",
+      },
+      {
+        type: "heading",
+        text: "Intent data — when it helps and when it does not",
+      },
+      {
+        type: "paragraph",
+        text: "Intent data — signals that indicate a company is actively researching a category, such as patterns of engagement with review sites, competitor content, or category-specific search terms — is one of the more heavily marketed but least consistently useful layers in the modern outbound stack.",
+      },
+      {
+        type: "paragraph",
+        text: "Intent data is genuinely useful when the buying cycle for your product is long enough and deliberate enough that category-level research signals actually precede a purchase decision by a meaningful window. For SaaS products with complex implementations and multi-stakeholder procurement, this is often the case. For products with short evaluation cycles, the signal arrives too close to the decision to provide a meaningful outbound advantage.",
+      },
+      {
+        type: "paragraph",
+        text: "The other limitation is that intent signals at the account level tell you that someone at the company has been researching the category — not who, not with what authority, and not necessarily in a procurement context. Treating an intent score as a confirmed buying signal leads to investing effort in accounts that are educating themselves rather than procuring. Intent data is most productively used as a secondary tiebreaker between accounts that already meet your ICP criteria — a signal to prioritise, not to qualify.",
+      },
+      {
+        type: "heading",
+        text: "The integration question: how the layers connect",
+      },
+      {
+        type: "paragraph",
+        text: "The value of a well-configured outbound stack comes largely from how cleanly the layers connect to each other. A sequencing platform that does not write activity back to the CRM forces the SDR to manually log calls and emails. An enrichment tool that requires exports and reimports rather than direct CRM sync creates a latency problem where the data the SDR uses is always a few days old. An intent platform that surfaces signals in its own interface rather than pushing them as tasks into the CRM means the SDR has to check another dashboard to find the account.",
+      },
+      {
+        type: "paragraph",
+        text: "Most of the manual overhead that slows down outbound teams comes from poor integration rather than missing tools. Before evaluating a new platform, the more useful question is usually whether the existing tools are connected correctly. A sequencing platform, data tool, and CRM that write to each other in real time is a more functional outbound stack than those same three tools plus two more that require manual reconciliation. Integration is not a feature to evaluate after purchase — it is a requirement to verify before signing.",
+      },
+      {
+        type: "list",
+        heading: "Integration checkpoints to verify before committing to a tool:",
+        items: [
+          "Does the tool write activity (calls logged, emails sent, replies received) directly to your CRM, or does it require a manual export step?",
+          "Does enrichment data sync to the CRM record directly, or does it live in a separate database that the SDR has to cross-reference?",
+          "When a contact replies and is removed from a sequence, does that status update propagate to the CRM record in real time?",
+          "If a contact unsubscribes from outreach, does that suppression apply across all sending domains and tools in the stack automatically?",
+          "Can the sequencing platform pull account and contact data from the CRM rather than maintaining a parallel contact database that drifts out of sync?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What the stack cannot fix",
+      },
+      {
+        type: "paragraph",
+        text: "The most persistent mistake in outbound tooling is treating the stack as a substitute for the strategic decisions that determine whether outbound produces pipeline. No sequencing platform compensates for targeting the wrong ICP. No intent data tool surfaces buying readiness in an account that simply does not have the problem your product addresses. No enrichment tool fixes a value proposition that does not resonate with the buyer.",
+      },
+      {
+        type: "paragraph",
+        text: "The outbound stack is infrastructure. It determines the efficiency with which a programme executes once the targeting, messaging, and qualification decisions are right. Those decisions are made before the first tool is opened, and they are what most struggling outbound programmes need to revisit — not a new platform. The question worth asking before any tooling investment is whether the programme would produce better results with its existing tools configured and used more completely, or whether a genuinely missing capability is the constraint. In most cases, it is the former.",
+      },
+      {
+        type: "callout",
+        text: "A useful heuristic: if the SDR cannot describe, in one sentence, what decision a particular tool helps them make faster or better, the tool is adding administrative overhead without adding capability. The stack should simplify the SDR's working day, not complicate it.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-email-human-ai-outreach-2026",
     category: "Sales Development",
     title: "Writing B2B Cold Outreach That Reads Human in an AI-Saturated Inbox",
