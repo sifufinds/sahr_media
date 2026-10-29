@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "sdr-ramp-framework-new-hire-pipeline",
   "b2b-outbound-tech-stack-2026",
   "b2b-cold-email-human-ai-outreach-2026",
   "b2b-outbound-program-first-90-days",

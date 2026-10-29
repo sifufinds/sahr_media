@@ -27,6 +27,115 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "sdr-ramp-framework-new-hire-pipeline",
+    category: "Sales Development",
+    title: "SDR Ramp Planning: Getting New Hires to Consistent Pipeline Faster",
+    excerpt:
+      "Most SDR ramp plans treat the first 60 days as a waiting period. The teams that ramp new hires faster treat it as a managed programme with specific milestones — and the sequence of those milestones matters as much as the timeline.",
+    readTime: "7 min read",
+    date: "29 Oct 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "The typical SDR ramp plan is a list of product training sessions and a target date for when the rep is expected to hit quota. The time between those two points is loosely managed — the rep does some shadowing, gets access to the CRM, attends a few call listen-backs, and is expected to produce pipeline at some point around the 60-day mark. The problem with this approach is that it treats ramp as a waiting period rather than a managed programme with specific milestones at each stage.",
+      },
+      {
+        type: "paragraph",
+        text: "The result is predictable. Reps who are strong independently figure out the job on their own; those who need clearer structure either produce late or leave before they get there. The attrition cost is significant and the diagnosis is usually misattributed to hiring rather than onboarding. Getting ramp right is not about holding the rep's hand — it is about front-loading the inputs that determine whether the first few months of prospecting activity are productive or wasted.",
+      },
+      {
+        type: "heading",
+        text: "What most ramp plans get wrong",
+      },
+      {
+        type: "paragraph",
+        text: "Most ramp plans prioritise product knowledge because it is the easiest thing to teach and the easiest thing to schedule. Reps spend the first two weeks in product demos and certification sessions. Product fluency matters, but it is not what drives early prospecting performance. An SDR who knows the product thoroughly but cannot write a compelling opening line, has not been trained on the ICP, and is still learning which sequences to use for which personas will not produce better pipeline than an SDR with moderate product knowledge and clear prospecting fundamentals.",
+      },
+      {
+        type: "paragraph",
+        text: "The other common error is moving reps to solo activity too quickly. Early prospects receive a worse experience from a rep who has not yet heard what a good conversation sounds like on this team, and who handles replies with whatever instinct they brought from a previous role. Supervised prospecting in the first six weeks prevents a rep from building habits that take significantly longer to correct than they would have taken to instil correctly in the first place.",
+      },
+      {
+        type: "heading",
+        text: "The three phases of a structured ramp",
+      },
+      {
+        type: "paragraph",
+        text: "A well-designed ramp programme runs in three distinct phases, each with specific objectives and metrics. The phases are not rigid calendar blocks — they are milestones the rep should clear before moving to the next level of independence. Some reps move faster, some slower, and the programme should accommodate that rather than treating 60 days as a fixed graduation date.",
+      },
+      {
+        type: "list",
+        heading: "The three phases:",
+        items: [
+          "Phase 1 — Foundations (Weeks 1–2): ICP and buyer education, messaging framework, product knowledge sufficient to answer basic questions, and CRM and tool access setup. The rep does not yet send sequences. The goal is fluency, not throughput.",
+          "Phase 2 — Supervised activity (Weeks 2–4): The rep begins prospecting under coaching. First sequences reviewed by a manager before sending. First calls made with a coach listening or reviewing recordings. Warm responses handled with manager involvement. Metrics tracked are activity volume and process adherence, not outcomes.",
+          "Phase 3 — Calibrated independence (Weeks 4–8): The rep runs their own prospecting with weekly pipeline reviews and call coaching sessions. Targets are graduated — lower meeting expectations early in the phase, increasing toward full quota by week 8. Outcomes start to count.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Build ICP fluency before tool fluency",
+      },
+      {
+        type: "paragraph",
+        text: "The most productive thing a new SDR can learn in their first week is who they are trying to reach and why those people care. This means understanding the ICP at a level beyond job title and company size — what problems the target persona actually faces, what language they use to describe those problems, and what would make a message from a stranger worth reading.",
+      },
+      {
+        type: "paragraph",
+        text: "This is different from product training. Product training explains what the product does. ICP training explains what the prospect's world looks like before the product exists in it, and why the product matters in that context. An SDR with clear ICP understanding writes messages that resonate with the problems the buyer actually has — not the features the seller wants to promote. This makes every subsequent prospecting activity more effective, and it is the foundation that sequences, scripts, and tools sit on.",
+      },
+      {
+        type: "paragraph",
+        text: "Tool proficiency — the CRM, the sequencing platform, the data tool — can be learned in parallel with early supervised activity rather than before it. Most SDRs are competent enough with modern software to run simple sequences within a few days of access. ICP and messaging understanding takes longer to develop and pays higher returns. Sequencing the two so that ICP work comes first means the first sequences the rep sends are built on something real, not on guesswork about the buyer.",
+      },
+      {
+        type: "heading",
+        text: "Supervised activity before solo activity",
+      },
+      {
+        type: "paragraph",
+        text: "The shift from training to prospecting should not be binary. The common pattern — training ends, quota starts — removes the feedback loop that would make early prospecting productive. A rep who sends sequences without review builds copy habits based on what felt right to them. A rep who makes cold calls without hearing what a good call sounds like on this team accumulates instincts from a previous context that may not fit the current product, buyer, or motion.",
+      },
+      {
+        type: "paragraph",
+        text: "Supervised activity means the manager or a senior SDR reviews the rep's first 20 to 30 outbound messages before they go out, listens to or reviews recordings of the first calls and gives structured feedback, and stays close to the first few warm replies to ensure the rep handles early responses correctly. This is not micromanagement — it is calibration. It prevents the rep from spending six weeks reinforcing habits that a single hour of feedback in week two would have corrected.",
+      },
+      {
+        type: "callout",
+        text: "The purpose of supervised activity is not to check whether the rep is working. It is to catch the two or three habits they are building in the first few weeks that will limit their performance at full quota — and correct them while correction is still cheap.",
+      },
+      {
+        type: "heading",
+        text: "Define what 'ramped' means before the start date",
+      },
+      {
+        type: "paragraph",
+        text: "Most SDR ramp plans have a vague endpoint. The rep is on the programme for 60 or 90 days and is then expected to be at full quota. What that means in practice — how many qualified meetings per week, what pipeline coverage the role is expected to maintain, what the qualifying criteria are for a passed opportunity — is often not specified until the rep is already behind it.",
+      },
+      {
+        type: "paragraph",
+        text: "A ramped SDR has a specific performance definition, not a time definition. They are booking a consistent number of qualified meetings per week, using the correct qualification criteria when passing opportunities to the AE, and managing their activity at a level that produces predictable pipeline. When the threshold is defined in terms of outcomes rather than calendar days, the rep has something concrete to aim at and the manager has something objective to assess.",
+      },
+      {
+        type: "paragraph",
+        text: "The timeline for reaching that threshold varies. Some reps clear it in 45 days, others need 75. The ramp framework sets the conditions for getting there — the right sequenced inputs, the supervised activity period, the feedback loops. Treating the 60-day mark as a graduation ceremony regardless of where the rep actually sits prevents the programme from catching the cases where more support would get them to the threshold faster, and misses the cases where they have already cleared it.",
+      },
+      {
+        type: "heading",
+        text: "The management practice after ramp",
+      },
+      {
+        type: "paragraph",
+        text: "Ramp ends when a rep hits the performance definition, not when the calendar says so. What happens next matters almost as much as the ramp itself. Reps who hit the threshold and are then left without structured call coaching, pipeline review, and ongoing feedback gradually drift. The habits that made the early months productive require reinforcement, and the pipeline problems that emerge at month four — single-threaded accounts, deals stuck without clear next steps, sequences that have stopped generating responses — require a manager with visibility into both activity and outcomes.",
+      },
+      {
+        type: "paragraph",
+        text: "The ramp framework creates the foundation. The management practice after ramp is what builds on it. An SDR who ramped well and then went unmanaged for a quarter will, in most cases, show a performance drop that looks like a talent problem but is an infrastructure problem. The investment in structured ramp is largely wasted without the ongoing management infrastructure that sustains it.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-tech-stack-2026",
     category: "Sales Development",
     title: "The B2B Outbound Tech Stack in 2026: What SDR Teams Actually Need",
