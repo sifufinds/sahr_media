@@ -27,6 +27,135 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-procurement-budget-timing-outreach",
+    category: "Construction Marketing",
+    title: "Construction Procurement Cycles: How to Time Outreach Around Budget Decisions",
+    excerpt:
+      "Construction clients — developers, main contractors, public sector bodies — make procurement decisions on cycles tied to budget approval and programme planning. Most outreach ignores this. The firms that time their approach to the procurement calendar convert conversations into instructions faster.",
+    readTime: "7 min read",
+    date: "30 Oct 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Construction procurement does not happen in a steady, continuous flow. It moves in cycles tied to budget approval rounds, financial year planning, project programme milestones, and framework refresh schedules. A developer who receives outreach from a contractor in November, when their capital allocation for the following year is being finalised, is in a completely different position from the same developer receiving outreach in April, when that allocation is spent and the programme is locked.",
+      },
+      {
+        type: "paragraph",
+        text: "Most outbound approaches in construction treat procurement as an undifferentiated stream — if a company looks like a target, contact them. The firms that convert pipeline more consistently understand that timing is not a secondary consideration. Reaching a procurement decision-maker at the moment their budget is open and their forward programme is uncertain costs the same as reaching them at the wrong moment, but produces a fundamentally different outcome.",
+      },
+      {
+        type: "heading",
+        text: "How different client types make procurement decisions",
+      },
+      {
+        type: "paragraph",
+        text: "The procurement calendar differs significantly depending on the client type. Understanding which calendar governs your most common target client is the starting point for any timing-aware outreach strategy.",
+      },
+      {
+        type: "list",
+        heading: "The main procurement cycles by client type:",
+        items: [
+          "Private developers — smaller developers and regional housebuilders typically plan their project starts around land acquisition timing and planning consent dates, rather than calendar year cycles. The trigger for contractor engagement is usually the grant of planning permission and the completion of funding arrangements, not a fixed annual window.",
+          "Institutional developers and property companies — larger property companies and institutional developers often run annual capital expenditure programmes aligned to their financial year. Many UK-listed property companies have December or March financial year ends. Capital expenditure approved in the annual cycle funds the following year's development programme, which means the window between budget approval and active procurement is predictable once you know the company's financial year.",
+          "Main contractors engaging subcontractors — main contractors typically review their supply chains as projects are won and programmed. The most consistent procurement cycles come from contractors' annual supply chain review processes, where preferred contractor lists and framework panels are updated, often in Q1 and Q3.",
+          "Public sector clients — local authorities, NHS trusts, and central government bodies are governed by a financial year running April to March in England. Capital programmes are often most active in Q3 (October–December) and Q4 (January–March), as project teams work to commit approved budgets before the financial year closes.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Public sector: working with the April to March cycle",
+      },
+      {
+        type: "paragraph",
+        text: "The public sector financial year is the most legible procurement calendar in construction because it is consistent and publicly defined. Local authorities, NHS trusts, academy trusts, and central government departments all operate to an April-to-March budget year, with capital expenditure allocations typically confirmed in the February-to-March window before the new financial year begins.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication for outreach is that October through January is the highest-value window for engaging public sector project teams and procurement leads. In this period, capital budgets for the coming financial year are being confirmed, project programmes are being built, and decisions about which contractors and consultants to engage are being made — often before any formal tender process opens.",
+      },
+      {
+        type: "paragraph",
+        text: "Outreach to a local authority estates team in April, when the new financial year has just started and the programme is set, will frequently receive a response along the lines of 'noted for next year.' The same outreach in November, when the following year's capital programme is being confirmed, arrives at a moment when the contact has both the need and the budget context to act on it.",
+      },
+      {
+        type: "callout",
+        text: "For public sector prospects, October to January is the window that matters most. This is when capital budgets are confirmed and project programmes are built. Outreach in this window is not competing with an already-locked programme — it is arriving before the programme is set.",
+      },
+      {
+        type: "heading",
+        text: "Private developers and the planning grant trigger",
+      },
+      {
+        type: "paragraph",
+        text: "Private developers — particularly smaller developers and regional housebuilders — do not follow a fixed annual cycle in the way public sector clients do. Their procurement timeline is driven by project-specific events: planning consent, funding completion, and the point at which the developer's commercial team is satisfied the project is viable to commit.",
+      },
+      {
+        type: "paragraph",
+        text: "For this client type, the planning grant date is the most reliable procurement timing signal available. In England, a full planning permission gives the developer three years to implement the consent. The development timeline from grant to site start varies widely by project size, but there is typically a six-to-twelve month window between planning consent and the point at which the developer begins substantive engagement with contractors — whether through a framework, a tender, or a direct approach.",
+      },
+      {
+        type: "paragraph",
+        text: "Tracking planning applications and timing outreach to the period shortly after a planning decision — rather than before it or after the developer is already in market — gives a contractor a meaningful timing advantage. The developer's attention is on the project, the budget assumption is in place, and the contractor conversation can begin before the tender market opens.",
+      },
+      {
+        type: "heading",
+        text: "Main contractor supply chain reviews",
+      },
+      {
+        type: "paragraph",
+        text: "Subcontractors and specialist suppliers targeting main contractors face a different procurement structure. Main contractors do not buy construction services through an annual budget cycle — they procure project by project. What does follow a cycle, however, is their supply chain management: the processes by which they maintain, update, and expand their approved subcontractor lists for each trade and specialism.",
+      },
+      {
+        type: "paragraph",
+        text: "Many larger contractors run formal supply chain review processes annually or biannually, typically in Q1 or ahead of a major project pipeline ramp. These reviews are when new firms get added to preferred supplier lists, when existing relationships are formalised through framework agreements, and when capacity assessments are conducted against the forward programme. Getting onto an approved list before a project is in procurement is materially different from applying once a tender is already in process.",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective timing for subcontractors approaching new main contractors is in the period before a known project procurement cycle opens — using intelligence from planning data or tender databases to identify when a main contractor's live projects are likely to require their specific trade, and approaching ahead of that rather than in response to a tender notice.",
+      },
+      {
+        type: "heading",
+        text: "Building a procurement calendar into your CRM",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the broad procurement calendars for different client types is useful context. Converting that context into a practical prospecting process requires recording the relevant timing information against specific accounts in your CRM, so outreach is prompted by calendar logic rather than whatever is front of mind on any given week.",
+      },
+      {
+        type: "list",
+        heading: "The fields worth capturing for each target account:",
+        items: [
+          "Client type (public sector, institutional developer, private developer, main contractor) — this determines which default procurement calendar applies.",
+          "Financial year end date, where known — this anchors the annual budget cycle for institutional and public sector clients.",
+          "Last confirmed procurement activity — the date a project went to tender, or a supply chain review was run, gives a basis for estimating when the next cycle opens.",
+          "Open planning applications — for developer targets, tracking the status of their planning pipeline gives a real-time signal of when procurement is approaching.",
+          "Next touch date — calculated from the procurement calendar logic, not from a fixed contact interval.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most construction firms manage outreach cadences on a fixed interval — follow up every three months, review every six months — regardless of where any individual account sits in its own procurement cycle. The firms with higher conversion rates from outreach to instruction manage their follow-up cadences around procurement calendar logic, concentrating effort on accounts that are approaching their decision window rather than spreading contact evenly across the year.",
+      },
+      {
+        type: "heading",
+        text: "Timing does not replace relationship, but it multiplies it",
+      },
+      {
+        type: "paragraph",
+        text: "No amount of good timing will convert a first contact with no existing relationship into a major contract instruction. Construction procurement is still fundamentally relationship-driven — developers, main contractors, and public sector clients select firms they know, trust, and have evidence for. What timing does is determine whether a good relationship bears commercial fruit within one procurement cycle or takes two or three cycles to produce work.",
+      },
+      {
+        type: "paragraph",
+        text: "A well-timed first contact with a new prospect establishes the relationship at the moment when acting on it is possible. A poorly timed first contact with the same prospect might produce a warm response, but then face a wait of twelve to eighteen months before the budget cycle opens again. The same quality of outreach, the same quality of relationship development, but a materially different pipeline output because the timing was misaligned to the decision calendar.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction firms with a sustained business development programme, building procurement calendar awareness into how accounts are managed is not a marginal improvement — it is the difference between a prospecting investment that produces consistent new business and one that produces unpredictable outcomes despite consistent effort.",
+      },
+    ],
+  },
+  {
     slug: "uk-planning-applications-construction-prospecting-signal",
     category: "Construction Marketing",
     title: "UK Planning Applications as a Prospecting Signal: Turning Public Data Into Construction Pipeline",

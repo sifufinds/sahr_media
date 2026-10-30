@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "construction-procurement-budget-timing-outreach",
   "uk-planning-applications-construction-prospecting-signal",
   "sdr-ramp-framework-new-hire-pipeline",
   "b2b-outbound-tech-stack-2026",
