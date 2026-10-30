@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "saas-lead-scoring-pre-demo-qualification",
+    category: "SaaS Lead Generation",
+    title: "SaaS Lead Scoring: How to Build a Pre-Demo Qualification System That Routes the Right Leads to Sales",
+    excerpt:
+      "Most SaaS companies discover mid-demo that they're talking to the wrong person. A pre-demo qualification layer — built around fit signals and engagement signals — fixes the routing problem before it becomes a revenue problem.",
+    readTime: "7 min read",
+    date: "30 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SaaS sales teams qualify in the demo, not before it. The discovery questions get asked fifteen minutes into a 45-minute call, by which point both the AE's time and the prospect's goodwill are already partly spent. A pre-demo qualification system shifts that work earlier — into a routing decision that happens before a calendar invite is sent — so AE time lands on conversations that have a credible chance of moving forward rather than politely confirming they don't.",
+      },
+      {
+        type: "paragraph",
+        text: "The cost of late qualification is not only wasted demo slots. It distorts conversion metrics, inflates the denominator in demo-to-close ratios, and builds a culture where AEs expect to spend a meaningful portion of their week running calls that were never likely to produce pipeline. For SaaS companies growing from founder-led sales into a structured sales function, installing a qualification layer before the demo is often the most direct route to improving AE productivity without adding headcount.",
+      },
+      {
+        type: "heading",
+        text: "What lead scoring is and what it isn't",
+      },
+      {
+        type: "paragraph",
+        text: "Lead scoring is a structured approach to prioritising inbound leads by their likelihood to convert, using signals available before a sales call. It is not a prediction of whether a deal will close — no model can tell you that from a form fill and a few website visits. It is a routing mechanism: a system for deciding which leads go to sales immediately, which go to nurture, and which are disqualified at the top of the funnel rather than at the bottom. The value of the system is in the routing decision, not in the score itself.",
+      },
+      {
+        type: "paragraph",
+        text: "Lead scoring is also not the same as qualification. Qualification is a conversation — it happens with the prospect, and it surfaces information no pre-demo signal can capture: why they are looking now, what the internal dynamics around the decision are, whether the budget process is real. Lead scoring tells you whether a conversation is likely to be worth having. Qualification, when it happens, tells you how to advance it. Conflating the two leads to over-reliance on scores — either skipping qualification entirely because the score was high, or declining to engage because the score was low despite clear intent signals the model missed.",
+      },
+      {
+        type: "heading",
+        text: "The two types of signals that drive a useful scoring model",
+      },
+      {
+        type: "paragraph",
+        text: "A workable B2B SaaS lead scoring model draws on two categories of signal: fit signals and engagement signals. Each tells you something different, and neither is sufficient on its own.",
+      },
+      {
+        type: "paragraph",
+        text: "Fit signals are static attributes that describe the company and the contact: company size, industry, job title, location, tech stack, funding status. These signals reflect whether the lead represents the kind of company and buyer your product is designed for — whether they are in your ICP at all. A fit-based score is essentially a firmographic match assessment. It can be assembled from form data, enriched using third-party data tools, and applied to any lead regardless of how they arrived.",
+      },
+      {
+        type: "paragraph",
+        text: "Engagement signals are behavioural: what the lead has done on your site and in your product before requesting a demo. Which pages they visited, whether they read pricing, whether they started a trial and how far they got, what content they downloaded, how recently and frequently they visited. Engagement signals tell you something about where the lead is in their own evaluation process — whether they have done the research that suggests active consideration rather than casual browsing.",
+      },
+      {
+        type: "paragraph",
+        text: "A lead that scores high on fit but has minimal engagement may be a good target for outbound but is not necessarily ready for a demo. A lead that scores low on fit but has high engagement signals a mismatch worth investigating before investing AE time. The strongest demos come from leads that score well on both: the right company, the right contact, and behavioural signals consistent with an active evaluation.",
+      },
+      {
+        type: "list",
+        heading: "The fit signals most useful in a B2B SaaS scoring model:",
+        items: [
+          "Job title or seniority level of the person who filled the form — a VP or Director in a relevant function carries more weight than a junior analyst",
+          "Company size, measured by employee count or revenue range — match this to your ICP, not just 'bigger is always better'",
+          "Industry or sector vertical — especially relevant for SaaS products with deep vertical specialisation",
+          "Existing tech stack — if your product integrates with or replaces a specific tool, prospects using that tool score higher",
+          "Geography — particularly relevant for UK-focused SaaS products where territory affects support capacity and close rates",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Setting the routing thresholds",
+      },
+      {
+        type: "paragraph",
+        text: "The practical output of a scoring model is not a number — it is a routing decision. Most models work with three buckets: route to sales now, add to a nurture sequence, disqualify. The threshold between each bucket is the decision that requires the most care, because it directly determines how AE time is allocated and what proportion of the inbound volume each outcome receives.",
+      },
+      {
+        type: "paragraph",
+        text: "Setting the threshold too low — routing everything to sales — recreates the problem the scoring model was supposed to solve. Setting it too high — routing only perfect-fit leads to sales — leaves real pipeline sitting in nurture flows waiting for the right contact to request a demo themselves. The right threshold is calibrated against real conversion data: what proportion of leads that received a demo at each score range actually converted to pipeline, and at what stage were the poor-fit leads typically disqualified?",
+      },
+      {
+        type: "paragraph",
+        text: "Most teams installing scoring for the first time do not have this data — they are setting up the system precisely because they cannot currently see those conversion rates clearly enough to make the call. The practical starting point is to set an initial threshold based on the ICP definition, run the model for a quarter, then pull the actual demo-to-opportunity conversion rate by score band and adjust. A system calibrated against real outcomes will always outperform one built on assumptions, and real outcomes are only a quarter of data away.",
+      },
+      {
+        type: "callout",
+        text: "The threshold decision is where most lead scoring implementations fail. Setting it in a planning session based on what feels right produces a routing rule that optimises for internal comfort rather than conversion rates. Set an initial threshold, run it for a quarter, and let the data move it.",
+      },
+      {
+        type: "heading",
+        text: "When the score and the SDR's judgment conflict",
+      },
+      {
+        type: "paragraph",
+        text: "Lead scores are inputs to a decision, not substitutes for one. An SDR reviewing the inbound queue should be able to override a model score when they have contextual information the model does not: a note in the form field explaining an unusual use case, a known enterprise brand in a lower-fit segment, or a referral context that changes the evaluation entirely.",
+      },
+      {
+        type: "paragraph",
+        text: "The override rate — how often SDRs override model scores in either direction — is worth tracking. A high override rate upward (routing low-score leads to sales) should prompt investigation: either the model is systematically underscoring a segment worth addressing, or the SDRs are not applying the routing criteria consistently. A high override rate downward (putting high-score leads into nurture) is a more urgent signal: it suggests the fit signals in the model are not reflecting what the team actually considers a good lead.",
+      },
+      {
+        type: "paragraph",
+        text: "Treating discrepancies between scores and SDR judgments as data rather than as exceptions to manage is how a scoring model improves over time. The best models are not the most sophisticated — they are the ones reviewed, challenged, and adjusted regularly enough to stay calibrated to what a good lead actually looks like as the ICP evolves.",
+      },
+      {
+        type: "heading",
+        text: "The connection between lead scoring and outbound prospecting",
+      },
+      {
+        type: "paragraph",
+        text: "A lead scoring model built for inbound routing has a direct application to outbound as well. The fit dimension of the model — the firmographic attributes that define your ICP — is the same logic that should govern which accounts SDRs target proactively. A well-defined fit model for inbound produces, as a by-product, a cleaner picture of the ICP for outbound: what company types generate the strongest conversion signal, what job titles produce the most productive conversations, what tech stack signals indicate a problem your product addresses.",
+      },
+      {
+        type: "paragraph",
+        text: "Teams running both inbound and outbound functions that treat their lead scoring model as shared infrastructure across both benefit from a unified view of ICP performance. Rather than maintaining separate definitions of what a good lead looks like for inbound versus outbound, the scoring model creates a common language that the SDR team and the marketing function can both point to when assessing whether a lead is worth pursuing.",
+      },
+      {
+        type: "paragraph",
+        text: "The output is not just better demo quality — it is a sharper picture of the market that improves the entire demand generation programme over time. Most SaaS companies install lead scoring as an operational fix. The ones that benefit most from it treat it as a continuous learning system: a feedback loop between what the market tells them about who converts well and what the GTM team does with that information.",
+      },
+    ],
+  },
+  {
     slug: "construction-procurement-budget-timing-outreach",
     category: "Construction Marketing",
     title: "Construction Procurement Cycles: How to Time Outreach Around Budget Decisions",
