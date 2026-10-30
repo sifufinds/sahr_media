@@ -27,6 +27,134 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "sdr-1-on-1-coaching-pipeline-quality",
+    category: "Sales Development",
+    title: "How to Run SDR 1:1s That Build Pipeline Quality, Not Just Fill Activity Logs",
+    excerpt:
+      "Most SDR 1:1s are status meetings in disguise. A structured coaching rhythm focused on conversation quality and prospecting judgment builds the skills that actually move pipeline.",
+    readTime: "7 min read",
+    date: "30 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "The default pattern for an SDR 1:1 is familiar: the manager asks how the week went, the SDR shares their dial count and email sent count, they discuss a couple of open sequences, and fifteen minutes later nothing has changed. The numbers go into a spreadsheet. Next week looks the same. Activity is being reported, not developed.",
+      },
+      {
+        type: "paragraph",
+        text: "This is not a time management problem. SDR managers who run ineffective 1:1s are usually trying hard. The issue is structural: without a clear definition of what a 1:1 is supposed to produce, it defaults to what is easiest to fill the time — a summary of what the CRM already shows. The result is an SDR who feels managed rather than coached, and a pipeline that reflects whatever habits the SDR arrived with rather than the judgment they have been deliberately developing.",
+      },
+      {
+        type: "heading",
+        text: "What you are actually developing in a weekly SDR 1:1",
+      },
+      {
+        type: "paragraph",
+        text: "A weekly SDR 1:1 can only do a limited amount of work. It is not the place to run through every prospect in the pipeline or review every sequence that was sent. Its purpose is narrower: to develop two specific capabilities that drive pipeline quality over time — prospecting judgment and conversation competency.",
+      },
+      {
+        type: "paragraph",
+        text: "Prospecting judgment is the SDR's ability to identify which accounts to prioritise, which contacts within an account to approach, and which triggers suggest genuine opportunity rather than noise. An SDR with strong prospecting judgment fills their sequence queue with leads that have a plausible reason to engage, rather than leads that simply satisfy a volume target. This judgment is developed through review, feedback, and repetition — it cannot be instilled through a training deck alone.",
+      },
+      {
+        type: "paragraph",
+        text: "Conversation competency is the SDR's ability to handle the actual outreach interactions — cold calls, email replies, LinkedIn exchanges — in a way that moves conversations forward rather than closing them down. Most SDRs improve their activity volume quickly. Improving their quality of interaction is a slower process that requires deliberate practice and specific feedback on real examples.",
+      },
+      {
+        type: "heading",
+        text: "A weekly structure that produces development rather than reporting",
+      },
+      {
+        type: "paragraph",
+        text: "A useful SDR 1:1 runs for thirty to forty-five minutes and follows a consistent structure. Consistency matters more than cleverness: an SDR who knows what to expect from the session will prepare differently than one who walks in cold.",
+      },
+      {
+        type: "list",
+        heading: "A workable weekly structure:",
+        items: [
+          "Pipeline pulse (5 minutes): three or four accounts the SDR wants to move this week, and the specific action they plan to take on each. Not a full pipeline review — just the accounts that need a decision.",
+          "Outreach review (15–20 minutes): one or two real examples — a cold call recording, an email thread, a LinkedIn exchange — reviewed together. What worked, what didn't, and one specific thing to do differently.",
+          "Skill focus (10 minutes): one topic from a short running list of development areas — objection handling, opening lines, research practice, personalisation — worked through with a real example from the SDR's queue.",
+          "Blockers (5 minutes): anything process, tooling, or data related that is slowing the SDR down and requires action from someone other than them.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The key constraint is the outreach review. It only works if the manager has listened to or read the actual examples before the session, not in real time. Reviewing a call recording together during the meeting, with neither party having prepared, produces impressionistic feedback rather than specific coaching. The investment of ten minutes beforehand — listening to one cold call, reading one email thread — makes the coaching conversation specific and credible.",
+      },
+      {
+        type: "heading",
+        text: "How to give feedback on outreach quality without closing down the conversation",
+      },
+      {
+        type: "paragraph",
+        text: "Feedback on outreach quality is personal in a way that feedback on process is not. A cold call is a performance. Telling an SDR their opening was weak lands differently than telling them their CRM hygiene is inconsistent. Done badly, outreach feedback produces defensive responses that calcify bad habits rather than replacing them. Done well, it produces an SDR who is actively curious about improving their craft.",
+      },
+      {
+        type: "paragraph",
+        text: "The most reliable pattern is to ask before telling. Before giving your read on a call, ask the SDR what they noticed: what went well, where they felt the prospect disengage, what they would change. SDRs who develop self-assessment as a habit will eventually surface the feedback themselves, which is more durable than feedback they received passively. Your job shifts from delivering observations to confirming or redirecting them.",
+      },
+      {
+        type: "paragraph",
+        text: "When you do give direct feedback, anchor it to the prospect's perspective rather than your own preference. 'I thought the opening was too long' is a manager opinion. 'When you spend forty seconds on context before asking a question, you are asking the prospect to hold a lot before they know why it matters to them — what could you cut?' gives the SDR something to work with. The distinction between observation and prescription matters most when the feedback touches on language, tone, or style — areas where the SDR needs latitude to develop their own voice, not just replicate yours.",
+      },
+      {
+        type: "callout",
+        text: "The most common coaching mistake is giving feedback on what should have been said instead of helping the SDR understand why the conversation went the direction it did. If they understand the mechanism, they can adapt. If they only know the correct answer for that call, they will struggle on the next one.",
+      },
+      {
+        type: "heading",
+        text: "Which metrics belong in a 1:1 versus a team review",
+      },
+      {
+        type: "paragraph",
+        text: "Metrics serve different purposes depending on the audience. A team review is the right place for comparative data — how each SDR's conversion rates or sequence performance compares to the team. That context is useful for identifying outliers and setting expectations. A 1:1 is the wrong place for comparative data, because it shifts the conversation from development to evaluation. An SDR who spends their 1:1 being compared to their peers is in a performance review, not a coaching session.",
+      },
+      {
+        type: "paragraph",
+        text: "In a 1:1, the useful metrics are longitudinal and individual: how this SDR's reply rate, connect rate, or qualified conversation rate has trended over the past four to six weeks. Trend data tells you whether the coaching is working. Snapshot data tells you where they are today relative to a standard, which answers a different question.",
+      },
+      {
+        type: "list",
+        heading: "Metrics worth tracking in individual 1:1s:",
+        items: [
+          "Connect rate on cold calls (dials to live conversations) — tells you whether targeting and timing are improving",
+          "Qualified conversation rate (live conversations to meaningful qualification exchanges) — the output of conversation competency development",
+          "Positive reply rate on email sequences — distinct from total reply rate, which can include noise",
+          "Pipeline created per week — the downstream outcome of both prospecting judgment and outreach quality",
+        ],
+      },
+      {
+        type: "heading",
+        text: "When a 1:1 reveals a process problem rather than a skill gap",
+      },
+      {
+        type: "paragraph",
+        text: "Not every SDR performance problem is a coaching problem. Some patterns that show up in 1:1 conversations — inconsistent output, difficulty getting responses in certain segments, calls that do not convert regardless of the approach — reflect process or tooling issues rather than individual skill gaps. Distinguishing between the two is one of the more important management calls you will make, because the intervention is completely different.",
+      },
+      {
+        type: "paragraph",
+        text: "The signal to watch for is consistency across the team. If one SDR is struggling to get replies on a particular sequence, that is likely a skill gap. If the entire team is struggling with the same sequence, it is a sequence problem. If one SDR consistently has low connect rates, review their call timing and target list. If the team's connect rates dropped across the board last month, something external changed — data quality, the segment's response patterns, a product messaging shift that made the value proposition less clear.",
+      },
+      {
+        type: "paragraph",
+        text: "A 1:1 is where you first notice these patterns, because that is where you are closest to the actual work. Make it a habit to ask yourself after each session: is what I just coached something this individual needs to develop, or is it something about how we have set up the system? The answer determines whether the follow-up action is coaching or process change — and the wrong call wastes time in both directions.",
+      },
+      {
+        type: "heading",
+        text: "Keeping the rhythm when pipeline is behind",
+      },
+      {
+        type: "paragraph",
+        text: "The temptation when pipeline is short is to convert 1:1s into pipeline rescue sessions: reviewing every account, pushing for more activity, adding urgency to the conversation. Occasionally that is the right call. As a default pattern, it erodes the coaching relationship and does not actually produce the pipeline it is designed to generate.",
+      },
+      {
+        type: "paragraph",
+        text: "The faster route back to pipeline is a 1:1 that stays on skill development, because the root cause of short pipeline is almost always a gap in prospecting judgment or conversation quality — not a gap in how many accounts were reviewed in a manager meeting. An SDR who leaves their weekly 1:1 with one specific thing to do differently on their next ten calls will generate more pipeline over the following quarter than one who left with a longer account list and more urgency to work through it.",
+      },
+    ],
+  },
+  {
     slug: "saas-lead-scoring-pre-demo-qualification",
     category: "SaaS Lead Generation",
     title: "SaaS Lead Scoring: How to Build a Pre-Demo Qualification System That Routes the Right Leads to Sales",
