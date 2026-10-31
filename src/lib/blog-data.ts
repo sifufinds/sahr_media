@@ -27,6 +27,138 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sales-marketing-alignment-lead-quality",
+    category: "Sales Development",
+    title: "Sales and Marketing Alignment in B2B: How to Close the Lead Quality Gap",
+    excerpt:
+      "The lead quality argument between sales and marketing is structural, not personal. Teams that resolve it build shared definitions and feedback loops — not louder disagreements.",
+    readTime: "7 min read",
+    date: "31 Oct 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The argument is familiar in almost every B2B sales organisation past a certain size: marketing says they are sending qualified leads and sales is not following up; sales says the leads are not qualified and marketing is measuring the wrong things. Both are usually partly right, and neither resolves it by escalating.",
+      },
+      {
+        type: "paragraph",
+        text: "Sales and marketing misalignment at the lead level is a structural problem, not a people problem. Teams that resolve it build shared definitions, create feedback loops that both sides use, and agree on what a qualified lead means before the first form is filled. Teams that do not resolve it spend years managing the symptoms — lead volume debates, SDR capacity arguments, pipeline forecast gaps — without touching the underlying cause.",
+      },
+      {
+        type: "heading",
+        text: "Where the gap actually starts",
+      },
+      {
+        type: "paragraph",
+        text: "Most B2B organisations have an Ideal Customer Profile document somewhere. Far fewer have a document that both sales and marketing have agreed to use as the basis for lead qualification. The gap between them is where misalignment lives.",
+      },
+      {
+        type: "paragraph",
+        text: "Marketing typically builds its lead-scoring model around engagement signals: website visits, content downloads, email opens, webinar attendance. These signals are easy to collect and straightforward to aggregate into a score. The problem is that engagement signals measure interest in content, not readiness to buy or fit with the product. A contact who downloads three whitepapers and attends two webinars is an engaged contact — they may still have no budget, no authority, no active project, and no urgency.",
+      },
+      {
+        type: "paragraph",
+        text: "Sales, working from a different definition, disqualifies these leads quickly and moves on. Marketing sees low follow-up rates and concludes that sales is not working the leads. Sales sees a low conversion rate and concludes that marketing is not sending the right contacts. Both observations are correct from where each team sits — which is why the argument never ends through escalation alone.",
+      },
+      {
+        type: "heading",
+        text: "Building a shared MQL definition from won deals",
+      },
+      {
+        type: "paragraph",
+        text: "The starting point for any alignment conversation is agreeing on what a Marketing Qualified Lead actually means in terms of company fit and contact fit, not engagement score alone.",
+      },
+      {
+        type: "paragraph",
+        text: "Company fit should be defined by the same firmographic criteria that close deals: industry, company size, technology stack, geography, revenue band. If deals consistently close with UK SaaS companies of 50 to 250 employees using a specific CRM, an MQL definition that allows UK SaaS companies of any size using any CRM is not aligned with what sales is being measured on.",
+      },
+      {
+        type: "paragraph",
+        text: "Contact fit should define the seniority and function that represent genuine buying access. An SDR spending most of the week speaking with junior analysts because the MQL definition allows it is not working pipeline — they are working a list.",
+      },
+      {
+        type: "callout",
+        text: "A practical approach: pull the last 30 closed-won deals and map the company and contact characteristics they shared. That pattern — real data from real wins — should be the foundation of your MQL definition, not a theoretical ICP built in a strategy session and never revisited.",
+      },
+      {
+        type: "heading",
+        text: "The service-level agreement that governs the pass",
+      },
+      {
+        type: "paragraph",
+        text: "Once the qualification definition is shared, the next step is an agreed service-level agreement covering what happens to a lead once marketing passes it to sales. The SLA answers three questions: how quickly will SDRs contact a new MQL, what constitutes a good-faith follow-up attempt, and what happens when a lead is disqualified.",
+      },
+      {
+        type: "paragraph",
+        text: "The third question is the most important and the most commonly ignored. When an SDR decides a lead does not qualify and removes them from the active sequence, that decision needs to flow back to marketing with a reason — not as a blame mechanism, but as feedback that improves the scoring model over time. If a significant share of leads are being rejected as the wrong industry, that is a marketing data problem that can be fixed. If they are being rejected because there is no current project, a nurture sequence might address it. Neither problem is fixable if marketing does not know it is happening.",
+      },
+      {
+        type: "heading",
+        text: "Building the feedback loop in practice",
+      },
+      {
+        type: "paragraph",
+        text: "The feedback loop between sales and marketing on lead quality does not need to be complex — it needs to be consistent. A workable version: SDRs log a disqualification reason from a predefined list when they reject an MQL. Marketing reviews those reasons weekly. If any single reason accounts for more than a threshold — say, 20% of rejections — it triggers a review of the scoring model or the lead source generating those leads.",
+      },
+      {
+        type: "list",
+        heading: "A practical disqualification reason list for SDRs:",
+        items: [
+          "Wrong company size — outside the ICP firmographic range",
+          "Wrong industry — a market we do not serve",
+          "Wrong geography — outside the sales territory",
+          "No budget authority — the contact cannot influence a purchase",
+          "Existing contract — not in active evaluation",
+          "No active project — interested but no current initiative",
+          "Duplicate record — already in active outreach",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The predefined list matters. A free-text field produces inconsistent data that cannot be aggregated. A short dropdown produces data that marketing can act on. Teams that implement this consistently find that lead quality improves without either side needing to escalate — marketing learns which signals predict real pipeline, and sales develops more confidence in the leads coming through the channel.",
+      },
+      {
+        type: "heading",
+        text: "Making pipeline data visible to both teams",
+      },
+      {
+        type: "paragraph",
+        text: "A persistent driver of misalignment is that marketing measures success at the lead level while sales measures success at pipeline and revenue. Different metrics create different incentives.",
+      },
+      {
+        type: "paragraph",
+        text: "Marketing optimising for lead volume will fill the SDR queue, but not necessarily with high-conversion leads. Sales optimising purely for close rate will underweight early-stage pipeline investment. Both optimisations are rational within each team's reporting structure; together they create friction.",
+      },
+      {
+        type: "list",
+        heading: "A shared pipeline dashboard should show both teams:",
+        items: [
+          "Leads generated by source — volume by channel",
+          "MQL to SQL conversion rate by source — where intent is genuine versus manufactured",
+          "SQL to opportunity conversion rate — how well qualification holds up in discovery",
+          "Opportunity to close rate — which sources actually produce revenue",
+          "Average deal size by lead source — not all pipeline carries the same value",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "When marketing can see which sources produce the highest SQL conversion rate, they optimise toward those sources. When sales can see which sources produce the highest close rates, they prioritise those leads. The conversation shifts from 'your leads are bad' to 'these three sources generate the bulk of our closed revenue — how do we get more from them?'",
+      },
+      {
+        type: "heading",
+        text: "What well-aligned teams do differently",
+      },
+      {
+        type: "paragraph",
+        text: "The day-to-day of a well-aligned B2B sales and marketing team looks different in concrete ways. Joint ICP reviews happen on a scheduled cadence — quarterly at minimum — so that qualification criteria stay current with what is actually closing. Campaign briefs are reviewed by a sales leader before launch so that lead-capture assumptions match what SDRs can realistically work. Marketing listens in on SDR calls occasionally so they hear objections directly rather than through a secondhand summary.",
+      },
+      {
+        type: "paragraph",
+        text: "None of this is structural transformation. It is a set of habits that keep both teams working from the same definition of success. The absence of those habits is what produces the lead quality argument in the first place — not bad intentions, not incompetence, but two teams measuring different things and assuming the other side is doing it wrong.",
+      },
+    ],
+  },
+  {
     slug: "b2b-inbound-lead-response-playbook",
     category: "Sales Development",
     title: "The Inbound Lead Response Playbook: Turning Demo Requests and Trial Signups Into Pipeline",
