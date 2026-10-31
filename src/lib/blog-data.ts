@@ -27,6 +27,139 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "uk-b2b-cold-outreach-gdpr-pecr-compliance",
+    category: "Sales Development",
+    title: "UK B2B Cold Outreach and GDPR: A Practical Compliance Framework",
+    excerpt:
+      "UK GDPR and PECR do not prohibit B2B cold outreach — they set a documented framework for it. Understanding which rules apply, and when, is the difference between a compliant programme and a regulatory risk.",
+    readTime: "7 min read",
+    date: "31 Oct 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most UK B2B sales teams have one of two relationships with data protection law: they assume someone else has checked the rules, or they have been told that cold outreach is illegal and have overcorrected into near-paralysis. Neither position is accurate, and both create problems — one legal, one commercial.",
+      },
+      {
+        type: "paragraph",
+        text: "UK B2B cold outreach is not prohibited under GDPR or PECR, provided it is conducted under a valid legal basis and the relevant regulations are followed. What the law prohibits is not cold outreach but undocumented outreach — the kind where no one in the organisation can answer the question: what legal basis are we using to process and contact this person? Teams that can answer that question confidently, and have a programme that reflects it, can run outbound at scale without material legal risk.",
+      },
+      {
+        type: "heading",
+        text: "UK GDPR and PECR: two overlapping but distinct frameworks",
+      },
+      {
+        type: "paragraph",
+        text: "UK B2B outreach sits at the intersection of two pieces of legislation that many teams conflate. UK GDPR — the UK's retained version of the EU General Data Protection Regulation — governs how personal data is collected, stored and used. PECR (the Privacy and Electronic Communications Regulations 2003, as amended) governs the sending of marketing by electronic means — email and SMS — and live marketing telephone calls. Understanding which one applies, and at which stage, is the starting point for a compliant outreach programme.",
+      },
+      {
+        type: "paragraph",
+        text: "The two frameworks have different scope and different requirements. UK GDPR sets the legal basis for processing contact data in the first place. PECR sets additional rules for actually sending marketing communications by electronic means or making live marketing calls. A piece of outreach can comply with PECR but fail GDPR if the underlying data processing has no valid basis, or comply with GDPR but fail PECR if channel-specific restrictions have not been respected. Both frameworks apply independently and both have to work together.",
+      },
+      {
+        type: "heading",
+        text: "PECR and B2B: where corporate accounts are treated differently",
+      },
+      {
+        type: "paragraph",
+        text: "PECR Regulation 19 covers unsolicited marketing communications sent by electronic mail. For individual subscribers — consumers, sole traders, and partnerships in England, Wales and Northern Ireland — it requires prior consent before sending marketing email. This is the rule that governs B2C email marketing.",
+      },
+      {
+        type: "paragraph",
+        text: "For corporate subscribers — limited companies, LLPs, and similar entities — the ICO's published guidance is that PECR Regulation 19 does not apply in the same strict way to emails sent to corporate email addresses such as name@company.com. Marketing to those addresses falls outside the strictest PECR consent requirement. What applies instead is UK GDPR: the processing of the contact's personal data must have a valid legal basis, opt-outs must be honoured, and standard data subject rights apply.",
+      },
+      {
+        type: "callout",
+        text: "An important distinction: a 'corporate subscriber' under PECR means the email is sent to the company's account, not a personal address. If a contact uses a personal Gmail or Hotmail address for work, or if they are a sole trader using a personal address, the individual subscriber rules apply — not the more permissive corporate treatment.",
+      },
+      {
+        type: "heading",
+        text: "Legitimate interest as the legal basis for B2B outreach",
+      },
+      {
+        type: "paragraph",
+        text: "Under UK GDPR Article 6, several legal bases exist for processing personal data. For outbound B2B sales and marketing, the most relevant is legitimate interest under Article 6(1)(f). Consent — the other option some teams consider — requires an affirmative opt-in before any contact is made, which makes it impractical as a basis for outbound prospecting. Legitimate interest works differently: it allows processing where the organisation has a legitimate purpose, where processing is necessary to achieve it, and where that purpose is not overridden by the data subject's rights and interests.",
+      },
+      {
+        type: "paragraph",
+        text: "For B2B outreach, the legitimate interest is typically commercial: the organisation has a product or service that may be relevant to the prospect's professional role, and contacting them to introduce it is a foreseeable and proportionate use of their business contact information. The ICO's guidance explicitly acknowledges that marketing and commercial interests can constitute legitimate interests under this test.",
+      },
+      {
+        type: "heading",
+        text: "The legitimate interests assessment: what it requires in practice",
+      },
+      {
+        type: "paragraph",
+        text: "Before relying on legitimate interest, an organisation should conduct a legitimate interests assessment (LIA). The ICO's framework breaks this into three parts: the purpose test — is the interest legitimate? — the necessity test — is the processing necessary to achieve that purpose? — and the balancing test — do the individual's interests override the organisation's?",
+      },
+      {
+        type: "paragraph",
+        text: "For B2B outreach, the balancing test is where most organisations need to think carefully. The ICO considers factors including whether the individual is a professional being contacted in a professional capacity, whether the data was sourced from a business context such as a company's public-facing website or a B2B data provider, whether the outreach is directly relevant to their professional role, and whether a clear opt-out mechanism is provided in every communication.",
+      },
+      {
+        type: "list",
+        heading: "The balancing test weighs up factors including:",
+        items: [
+          "Whether the individual is being contacted as a professional, not a consumer",
+          "Whether their role makes the outreach reasonably foreseeable",
+          "Whether the contact data came from a professional or publicly available business source",
+          "Whether the communication is clearly relevant to their work context",
+          "Whether they have an easy, friction-free way to opt out at any point",
+          "Whether opt-outs are respected promptly and logged against the contact record",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The LIA does not need to be a lengthy document. A short record that captures the purpose, why processing is necessary, and how the balancing test was applied is sufficient. What the ICO looks for in an investigation is evidence that the question was asked and answered, not a specific format or word count.",
+      },
+      {
+        type: "heading",
+        text: "Cold calling under PECR: TPS and CTPS",
+      },
+      {
+        type: "paragraph",
+        text: "For live telephone marketing calls, PECR Regulation 21 applies separately from the email rules. Organisations making outbound sales calls must not call numbers registered on the Telephone Preference Service (TPS), which covers individual subscribers, or the Corporate Telephone Preference Service (CTPS), which covers corporate numbers — unless the recipient has specifically consented to receive marketing calls from that organisation.",
+      },
+      {
+        type: "paragraph",
+        text: "Screening calling lists against TPS and CTPS before dialling is a legal requirement. The ICO and Ofcom both enforce this. For B2B outbound programmes, this means lists must be screened before outreach begins and re-screened at regular intervals, because registrations change. Relying on legitimate interest under GDPR does not override the TPS and CTPS requirement under PECR — the two frameworks apply independently, and a number can satisfy GDPR's legitimate interest test and still be prohibited from unsolicited marketing calls if it is registered.",
+      },
+      {
+        type: "heading",
+        text: "What an ICO-ready outbound programme looks like",
+      },
+      {
+        type: "paragraph",
+        text: "The practical requirements for a compliant UK B2B outbound programme are not complex, but they do require consistent implementation and documentation.",
+      },
+      {
+        type: "list",
+        heading: "A compliant B2B outbound programme should cover:",
+        items: [
+          "A completed legitimate interests assessment documented before outreach begins",
+          "Contact data sourced from professional, publicly available, or purchased B2B databases — not personal social profiles scraped without business context",
+          "Clear opt-out language in every email and a mechanism that is easy to use",
+          "Suppression lists maintained in the CRM and applied at every send",
+          "TPS and CTPS screening for any cold calling programme, re-run at regular intervals",
+          "A privacy notice accessible from outreach communications that explains how prospect data is used",
+          "A process for responding to data subject access requests and deletion requests within the statutory timeframe",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The standard the ICO applies when investigating a complaint is whether the organisation was aware of the rules, could demonstrate it had considered them, and had a process for respecting opt-outs. Organisations that can show a documented LIA, maintained suppression lists, and TPS-screened calling activity are in a materially different position from those that cannot produce any of that.",
+      },
+      {
+        type: "callout",
+        text: "This post is a practical guide to how the frameworks work, not legal advice. Organisations should review their specific outreach activities with a qualified data protection practitioner, particularly if they are processing high volumes of personal data or operating in regulated sectors.",
+      },
+      {
+        type: "paragraph",
+        text: "B2B outreach is not a compliance minefield if you treat the frameworks as what they are: a set of documented, manageable requirements. The organisations that attract ICO attention are almost never running a structured, documented programme with opt-out processes in place. They are the ones where no one has thought the question through — and that is entirely avoidable.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sales-marketing-alignment-lead-quality",
     category: "Sales Development",
     title: "Sales and Marketing Alignment in B2B: How to Close the Lead Quality Gap",
