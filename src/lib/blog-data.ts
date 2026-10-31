@@ -27,6 +27,145 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-inbound-lead-response-playbook",
+    category: "Sales Development",
+    title: "The Inbound Lead Response Playbook: Turning Demo Requests and Trial Signups Into Pipeline",
+    excerpt:
+      "Most B2B teams treat inbound leads as guaranteed pipeline. They are not — they are a window that closes quickly. A structured inbound response process is the difference between a high-converting demand gen channel and an expensive source of wasted leads.",
+    readTime: "7 min read",
+    date: "31 Oct 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Inbound leads carry an assumption of intent that is partly true and partly misleading. Someone who fills in a demo request form or signs up for a free trial has raised their hand — that is real signal. What it does not mean is that they are ready to buy, that they are the right person in their organisation, or that the window for engagement will stay open while your team gets to them in two or three business days.",
+      },
+      {
+        type: "paragraph",
+        text: "Most B2B sales teams underestimate how quickly that window closes. The lead who submitted a form on Monday afternoon has often already spoken to a competitor, found an answer elsewhere, or simply lost the urgency that drove the original action by the time someone calls on Wednesday morning. The input was warm; the contact is now cold. A structured inbound response process prevents that from happening consistently.",
+      },
+      {
+        type: "heading",
+        text: "Why the inbound window is shorter than it looks",
+      },
+      {
+        type: "paragraph",
+        text: "When someone fills in a B2B form, they are in a state of active consideration. Something prompted the action — a problem surfaced, a conversation with a colleague, a piece of content that made the situation concrete. That state is perishable. The further you get from the moment they acted, the more likely it is that their attention has moved elsewhere, the problem has been temporarily resolved by other means, or a faster-moving competitor has already had the conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "This is not an argument for calling every lead within sixty seconds. The urgency varies significantly by lead type, deal size, and market segment. It is an argument for having a clearly defined response time standard for each lead type, enforcing it consistently, and treating inbound follow-up as time-sensitive work rather than a low-priority task that gets processed when the queue allows.",
+      },
+      {
+        type: "heading",
+        text: "Defining your inbound lead types before building a process",
+      },
+      {
+        type: "paragraph",
+        text: "Not all inbound leads carry the same level of intent. A demo request is different from a whitepaper download. A free trial signup is different from a newsletter subscription. Before you can build a consistent response process, you need to define which lead types warrant immediate SDR action and which belong in a nurture sequence rather than a direct response workflow.",
+      },
+      {
+        type: "list",
+        heading: "A workable three-tier framework:",
+        items: [
+          "High-intent leads — respond same day, call attempt within a few hours: demo requests, pricing page enquiries, contact us submissions, free trial signups. These leads have taken a direct action toward a purchase conversation and should be treated accordingly.",
+          "Mid-intent leads — respond within 24–48 hours, lighter initial touch: gated content downloads from ICP-fit contacts, webinar registrations, case study downloads. The intent is research-stage rather than purchase-stage; the response should match that.",
+          "Low-intent leads — nurture sequence only, no immediate SDR action: general newsletter subscriptions, event registrations from non-ICP contacts, broad content engagements. Pushing SDR outreach onto these leads wastes time and generates negative impressions.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Getting this classification right matters because the failure mode in both directions is expensive. Treating low-intent leads as high-intent floods the SDR queue with noise and damages the brand. Treating high-intent leads as mid-intent loses deals to competitors who moved faster.",
+      },
+      {
+        type: "heading",
+        text: "Building the inbound response sequence",
+      },
+      {
+        type: "paragraph",
+        text: "A response sequence for a high-intent inbound lead has two components: a fast initial touchpoint and a short follow-up cadence if there is no response to the first contact.",
+      },
+      {
+        type: "paragraph",
+        text: "The initial touchpoint should be a call attempt and a direct email within the first few hours of the lead arriving. Not a templated marketing email — an SDR outreach message that references the specific action the lead took and asks a direct question about what prompted it. The call matters because inbound leads respond to phone contact at substantially higher rates than cold outreach prospects; the form submission creates a context that makes the call expected rather than intrusive.",
+      },
+      {
+        type: "list",
+        heading: "A high-intent inbound follow-up sequence that works in practice:",
+        items: [
+          "Day 1: Call attempt + personalised email referencing the specific form or trial signup",
+          "Day 2: Second call attempt, voicemail if no answer, short follow-up email",
+          "Day 4: Final call attempt + email asking whether the timing is still right",
+          "Day 7: One closing email acknowledging they may have moved on, leaving the door open",
+          "After day 7: Move to longer-cycle nurture sequence — do not continue active SDR follow-up",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Continuing to contact leads that have not responded after seven to ten days of attempts shifts the SDR from responsive to persistent, which is a different relationship. The goal of the sequence is to make contact while the intent is live, not to eventually wear down a disinterested contact.",
+      },
+      {
+        type: "heading",
+        text: "The qualification conversation for inbound leads",
+      },
+      {
+        type: "paragraph",
+        text: "Qualifying an inbound lead is structurally different from qualifying a cold outreach prospect, and teams that do not adjust for this make a consistent error.",
+      },
+      {
+        type: "paragraph",
+        text: "With cold outreach, the SDR's first job is to establish relevance and earn the right to ask questions. With an inbound lead, that permission has already been granted — the lead took an action. The SDR's first job is not to explain who they are and why they are calling; it is to understand what prompted the action and whether the situation behind it represents a real sales opportunity.",
+      },
+      {
+        type: "paragraph",
+        text: "The qualification conversation should start from curiosity rather than script. What were they trying to solve when they signed up? What does their current process look like? Who else is involved in evaluating options? These questions qualify the lead and demonstrate that the SDR has paid attention to what the lead actually did, rather than running them through a generic cold call script as though the form submission never happened.",
+      },
+      {
+        type: "callout",
+        text: "The most expensive inbound lead mistake is not moving too slowly — it is treating a warm inbound lead like a cold prospect once you do reach them. If your response scripts and qualification questions are the same for inbound and outbound, your SDRs are leaving conversion rate on the table every day.",
+      },
+      {
+        type: "heading",
+        text: "Where SDR and AE responsibility should split on inbound",
+      },
+      {
+        type: "paragraph",
+        text: "The division of inbound work between SDRs and AEs is a source of significant inefficiency in teams that have not made it explicit. The most common failure mode is AEs handling their own inbound leads — demo requests that come in through their named accounts, or referrals that land in their inbox directly. AEs who handle their own inbound qualification spend time on a task that SDRs can handle in less time, and they end up with inconsistent pipelines because inbound follow-up competes with their existing deal work.",
+      },
+      {
+        type: "paragraph",
+        text: "A clean model: all inbound leads, regardless of account size or source, route to SDRs for initial qualification. If the lead qualifies, the SDR books a discovery call with the AE and hands over the context. The AE does not engage directly until there is a qualified conversation on the calendar. This preserves AE time for deal progression and creates a consistent qualification standard across all inbound, rather than a variable one that depends on which AE happened to be available.",
+      },
+      {
+        type: "paragraph",
+        text: "The one exception worth acknowledging: for enterprise accounts where the inbound lead is a VP or above and has specifically requested to speak with a senior person, routing them to an SDR who works through a standard qualification script can damage the relationship before it starts. In those cases, a direct AE or sales leader conversation for the first contact is the right call — document the exception, but do not let it become the default.",
+      },
+      {
+        type: "heading",
+        text: "Tracking inbound conversion as a distinct metric",
+      },
+      {
+        type: "paragraph",
+        text: "Most B2B teams measure SDR performance on total pipeline created without separating inbound from outbound sources. This blurs what is actually happening in each channel. Inbound leads are warmer and convert at higher rates than cold outreach leads; blending the metrics hides the true conversion rate of each channel and makes it difficult to diagnose where performance is breaking down.",
+      },
+      {
+        type: "list",
+        heading: "Track these inbound-specific metrics separately:",
+        items: [
+          "Inbound lead volume by type and source — understand what your demand gen channels are actually producing",
+          "Average response time to first contact attempt — the single most controllable variable in inbound conversion",
+          "Inbound lead-to-qualified conversation rate — how well the team converts warm intent into real pipeline",
+          "Inbound lead-to-pipeline rate — the end-to-end yield from inbound investment",
+          "Inbound versus outbound average deal size — to understand which channel generates higher-value pipeline",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Comparing these metrics across SDRs tells you which reps handle warm leads well, which struggle with the qualification conversation, and where the handoff process is breaking down. It also gives you an honest read on what your demand gen budget is actually producing at the pipeline level — which is a different and more useful question than what it is producing at the lead level.",
+      },
+    ],
+  },
+  {
     slug: "sdr-1-on-1-coaching-pipeline-quality",
     category: "Sales Development",
     title: "How to Run SDR 1:1s That Build Pipeline Quality, Not Just Fill Activity Logs",
