@@ -27,6 +27,131 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "discovery-call-follow-up-email-b2b",
+    category: "Sales Development",
+    title: "The Discovery Call Follow-Up Email: How to Write One That Advances the Deal",
+    excerpt:
+      "The email you send within hours of a discovery call is often the deciding factor between a deal that moves and one that stalls. Most reps get it wrong — here is what the effective version actually contains.",
+    readTime: "6 min read",
+    date: "1 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The discovery call went well. The prospect asked questions, shared pain points, mentioned a timeline. And then, twenty minutes after the call ended, you sent a follow-up email that said 'great chatting with you — I'll send over some info.' Now the deal is stalled.",
+      },
+      {
+        type: "paragraph",
+        text: "The follow-up email after a discovery call is one of the most underestimated steps in the B2B sales process. It is the first document the prospect reads after forming their initial impression of you and your company. It either confirms that the conversation was worth having, or it begins the slow process of their attention drifting back to their existing priorities.",
+      },
+      {
+        type: "heading",
+        text: "What the follow-up email is actually for",
+      },
+      {
+        type: "paragraph",
+        text: "Most sales reps write discovery call follow-ups as if their purpose is to summarise what was said. It is not. Summaries are useful, but they are a means to an end. The purpose of the follow-up is threefold: to confirm that both parties understand the same thing from the conversation; to restate the prospect's stated problem in their own language, so they can see that you actually listened; and to establish a specific, agreed next step with a clear owner and a timeline.",
+      },
+      {
+        type: "paragraph",
+        text: "An email that summarises the call without establishing a next step is meeting notes with a warm opening. It documents the past rather than building towards the future. A deal that has no confirmed next step after the discovery call is not progressing — it is waiting for one party or the other to re-engage, and that is almost always the rep.",
+      },
+      {
+        type: "heading",
+        text: "The five elements of an effective follow-up",
+      },
+      {
+        type: "paragraph",
+        text: "A follow-up that advances the deal consistently contains five things, in roughly this order.",
+      },
+      {
+        type: "list",
+        items: [
+          "A short personal reference to something specific from the call — not 'great call' but a brief callback to something the prospect actually said",
+          "A summary of their situation and stated problem in their language, not yours",
+          "What you agreed to do next and when you will do it",
+          "What you are asking them to do, and by when",
+          "A single, direct question to confirm the next step is locked",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The total email should be short enough to read in under two minutes. That means four to six short paragraphs, no attachments beyond what was explicitly promised during the call, and no marketing materials that were not discussed. If something was not mentioned on the call, it does not belong in the follow-up.",
+      },
+      {
+        type: "heading",
+        text: "Documenting what was discussed",
+      },
+      {
+        type: "paragraph",
+        text: "The summary section of the follow-up matters more than most reps realise. Prospects are typically talking to several vendors simultaneously, and they are busy enough that the call you just had will have faded from their working memory within a day. A follow-up that accurately documents what they told you — their current situation, the problem they are trying to solve, the constraints they mentioned — does two things.",
+      },
+      {
+        type: "paragraph",
+        text: "First, it signals that you were listening. If the prospect said their ops team is spending two days a week on manual reconciliation, your follow-up should reflect that back — not replace it with generic language about 'streamlining workflows.' The specific detail is what makes the email feel as though it was written about them rather than pulled from a template library.",
+      },
+      {
+        type: "paragraph",
+        text: "Second, it creates a shared record that anchors the deal. If the prospect has a buying committee, they will often forward the follow-up to colleagues. A well-written summary that accurately reflects the problem means you are now part of the internal conversation, framed in terms you controlled.",
+      },
+      {
+        type: "heading",
+        text: "The next step: specific, not vague",
+      },
+      {
+        type: "paragraph",
+        text: "'Let's find time to discuss further' is not a next step. It is an intention. A next step has three things: what happens, who owns it, and when. 'I'll send the pricing breakdown by Thursday' is a next step. 'I'd like to set up a 30-minute call with our technical lead — can you do Thursday at 2pm or Friday at 10am?' is a next step.",
+      },
+      {
+        type: "paragraph",
+        text: "The specificity matters because vague next steps get deprioritised. If the prospect has to reply to your email, check three calendars, and propose a time, that is friction you created. Offering two specific options is almost always better than asking when they are available. The same applies to the commitment you are making. If you said you would send a case study, a pricing breakdown, or an introduction to someone on your team, the follow-up should confirm exactly what you are sending and when.",
+      },
+      {
+        type: "callout",
+        text: "Meeting the commitment you name in the follow-up — on time, without chasing — is a small but visible signal of operational reliability. At the early stages of a deal, demonstrated follow-through on small things is often the factor that keeps a prospect's attention.",
+      },
+      {
+        type: "heading",
+        text: "Mistakes that kill deal momentum",
+      },
+      {
+        type: "paragraph",
+        text: "Beyond writing in vague generalities, a few other patterns consistently damage deals at the follow-up stage.",
+      },
+      {
+        type: "list",
+        heading: "The most common mistakes in discovery call follow-ups:",
+        items: [
+          "Sending the follow-up the next day — send it within a few hours of the call ending, while the conversation is still fresh for both parties",
+          "Attaching a deck, brochure, or capabilities document that was not discussed — it signals you are broadcasting rather than responding to what was actually said",
+          "Over-formatting the email with sections, headers, and call-to-action buttons — short, conversational prose performs better than a marketing communication",
+          "Using the follow-up to restart the discovery conversation by asking questions you forgot to ask during the call — one brief clarifying question is acceptable, a list is not",
+          "Writing in consultative filler language — 'we can definitely support your journey' is less useful than 'based on what you described, the main use case would be X, and implementation typically takes six to eight weeks'",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Timing and length",
+      },
+      {
+        type: "paragraph",
+        text: "Send the follow-up within two to four hours of the call ending. For a call that ends at 11am, that means before 2pm the same day. For a call that ends at 4pm, first thing the following morning is acceptable — emails that arrive after 6pm are typically not read until the next morning, and the delay of a few hours does not meaningfully change the outcome.",
+      },
+      {
+        type: "paragraph",
+        text: "Length should be determined by how much was covered on the call. As a working benchmark, most effective follow-up emails from a 45-minute discovery call come in at around 200 to 300 words in the body. If you are consistently writing more than that, you are likely including content the prospect did not ask for.",
+      },
+      {
+        type: "heading",
+        text: "What a strong follow-up actually signals",
+      },
+      {
+        type: "paragraph",
+        text: "A discovery call follow-up that is specific, accurate, prompt, and proposes a concrete next step signals something that most prospects consciously register, even if they never articulate it: that you are organised, you were listening, and you do what you say you will do. At the early stages of a B2B deal, that last point — demonstrated reliability on small things — is often the difference between a prospect who re-engages and one who lets your emails drift to the bottom of their inbox.",
+      },
+    ],
+  },
+  {
     slug: "uk-b2b-cold-outreach-gdpr-pecr-compliance",
     category: "Sales Development",
     title: "UK B2B Cold Outreach and GDPR: A Practical Compliance Framework",
