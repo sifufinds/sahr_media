@@ -27,6 +27,136 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "competitor-review-intelligence-b2b-prospecting",
+    category: "SaaS Lead Generation",
+    title: "Using Competitor Review Sites as B2B Prospecting Intelligence",
+    excerpt:
+      "Review sites like G2 and Capterra are public databases of companies actively evaluating their current vendors. Here is a practical method for turning competitor reviews into a prospecting signal.",
+    readTime: "7 min read",
+    date: "1 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Review sites like G2, Capterra, and Trustpilot are typically used by vendors to manage their own reputation, respond to negative feedback, or benchmark against competitors. Most sales teams treat them as a marketing concern. The prospecting application is less commonly used but more immediately actionable: these sites are public, searchable databases of named individuals, at identified companies, expressing specific dissatisfaction with their current vendor. That is exactly the signal a displacement-focused prospecting programme needs.",
+      },
+      {
+        type: "paragraph",
+        text: "The value is in the timing and specificity. Someone who leaves a three-star review of a competitor in October is actively thinking about whether that product is working for them. They have already done the internal work of forming a critical opinion, and they have taken the step of publishing it publicly. That is a qualitatively different prospect from one in a static list who may have been using a competitor for years without complaint.",
+      },
+      {
+        type: "heading",
+        text: "What review site data actually contains",
+      },
+      {
+        type: "paragraph",
+        text: "A typical G2 or Capterra review contains more information than most prospecting teams realise. The reviewer's job title and company name are usually visible. The review text identifies specific pain points: onboarding friction, poor customer support, missing integrations, feature gaps. The date of the review establishes recency. For reviews attached to named reviewer profiles, LinkedIn cross-referencing can confirm the individual is still at that company and surface additional contacts at the same account.",
+      },
+      {
+        type: "paragraph",
+        text: "The detail in the review text is particularly useful. A reviewer who writes 'we constantly struggle with the reporting module and support takes over a week to respond' has named their exact pain point before you have contacted them. A reviewer who writes 'the product is fine for small teams but we have outgrown it' has told you their growth stage and the nature of their problem. Both pieces of context are more useful than outreach built on a job title and company size alone.",
+      },
+      {
+        type: "heading",
+        text: "The review signals worth tracking",
+      },
+      {
+        type: "paragraph",
+        text: "Not all competitor reviews are prospecting signals. A five-star review from a satisfied customer indicates no near-term reason to switch. The useful signals are more specific.",
+      },
+      {
+        type: "list",
+        heading: "Reviews that indicate an actively evaluating prospect:",
+        items: [
+          "Three-star and below reviews published within the last twelve months",
+          "Reviews mentioning specific, solvable problems rather than vague dissatisfaction",
+          "Reviews from mid-to-senior titles such as Operations Director, Head of Revenue, or VP of Engineering",
+          "Reviews that mention a recent decision point: 'we renewed despite reservations' or 'we are currently evaluating alternatives'",
+          "Reviews from company sizes that match your ICP",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Reviews from very junior titles are useful context but less useful as direct prospecting signals. Purchasing decisions at the target company size are rarely driven by someone at coordinator or analyst level alone. The review still provides intelligence about the account, but the outreach entry point needs to be a decision-maker or budget holder identified separately.",
+      },
+      {
+        type: "heading",
+        text: "Extracting prospects in practice",
+      },
+      {
+        type: "paragraph",
+        text: "The workflow for turning review data into prospecting contacts is manual but targeted. Start by identifying your top three to five competitors on the relevant review platform for your category. For SaaS companies this is most often G2 or Capterra. Sort reviews by most recent, filter to below four stars, and work through the qualifying entries.",
+      },
+      {
+        type: "list",
+        heading: "Extraction steps:",
+        items: [
+          "Note the reviewer's job title and company name from each qualifying review",
+          "Cross-reference on LinkedIn to confirm the individual is still at that company and identify the correct name",
+          "Check that the company fits your ICP on firmographic criteria: size, sector, geography",
+          "Identify any additional decision-makers or budget holders at the same account",
+          "Log the pain point from the review text as prospecting context — not to quote back, but to inform how you frame the problem your solution addresses",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "This is not a high-volume channel. A thorough review of a competitor's G2 page over the past twelve months may yield ten to twenty qualifying contacts. That is not a number to build an entire pipeline on, but ten highly contextualised prospects with known pain points are worth significantly more prospecting investment than fifty names from a generic list.",
+      },
+      {
+        type: "heading",
+        text: "How to use the signal in outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The mistake that makes this channel feel intrusive rather than smart is referencing the review explicitly. 'I saw your review of [Competitor] on G2' is not a good cold email opening. The prospect knows their review is public, but having a stranger quote it back at them signals that you are monitoring them specifically, which most buyers find uncomfortable regardless of how legitimate the outreach is.",
+      },
+      {
+        type: "paragraph",
+        text: "The right approach is to use the review as research context, not as the opening line. The review tells you the pain point. The outreach is built around that pain point in the way any well-researched cold message would be — referencing the problem category without attributing your knowledge to the review itself. The prospect reads a message that clearly understands their situation without knowing exactly how you arrived at that understanding.",
+      },
+      {
+        type: "callout",
+        text: "Using a review as research is not the same as using it as a sales hook. Knowing a prospect's frustration helps you write a relevant message. Quoting their review back at them signals surveillance, not expertise — and closes the door before it opens.",
+      },
+      {
+        type: "heading",
+        text: "Building a systematic review-monitoring process",
+      },
+      {
+        type: "paragraph",
+        text: "Review site intelligence works best as a recurring input rather than a one-off exercise. A monthly or quarterly review-monitoring cycle for each active competitor keeps the list of qualifying prospects fresh. A review published eighteen months ago is a weaker signal than one from last month — the prospect's situation may have changed, they may have already switched vendors, or the organisation may have moved on from whoever wrote the review.",
+      },
+      {
+        type: "paragraph",
+        text: "Some prospecting teams build competitor review monitoring into their weekly research cadence alongside job posting data, funding announcements, and other buying signals. The review signal is more specific than most: it comes with context about why the company might switch, not just that they fit the ICP. That specificity makes the manual research time worthwhile even at low volumes.",
+      },
+      {
+        type: "heading",
+        text: "SaaS categories specifically",
+      },
+      {
+        type: "paragraph",
+        text: "Review sites are most richly populated in SaaS categories. G2 organises by software category with established review volume across CRM, project management, marketing automation, customer support software, and dozens of others. For B2B SaaS companies pursuing competitive displacement, the review intelligence available on G2 is detailed enough to function as a standalone prospecting source rather than a secondary one.",
+      },
+      {
+        type: "paragraph",
+        text: "The categories with the highest review volume tend to be the categories with the most churn — saturated markets with multiple credible vendors and real differences in product quality and fit. Those are exactly the markets where displacement prospecting is viable, and where the review signal carries the most weight.",
+      },
+      {
+        type: "heading",
+        text: "Where this fits in the prospecting mix",
+      },
+      {
+        type: "paragraph",
+        text: "Review intelligence is a targeted, low-volume channel suited to competitive displacement. It does not replace broader list-building or intent data tools, and it will not generate the volume needed to fill a pipeline from a standing start. What it provides is a set of high-context prospects where the pain point is already known, the timing is recent, and the case for switching is already forming in the prospect's mind.",
+      },
+      {
+        type: "paragraph",
+        text: "For an SDR team running a competitive displacement programme, a standing process for monthly review extraction at the top three to five competitors — cross-referenced against ICP criteria — adds a consistent source of well-qualified contacts that most competing teams overlook. The intelligence is publicly available to anyone. The advantage is in the systematic application of it.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-cadence-exit-when-to-stop",
     category: "Sales Development",
     title: "Cadence Exit Criteria: How to Decide When to Stop Chasing a Cold Prospect",
