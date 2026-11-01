@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-cadence-exit-when-to-stop",
+    category: "Sales Development",
+    title: "Cadence Exit Criteria: How to Decide When to Stop Chasing a Cold Prospect",
+    excerpt:
+      "Most SDR teams run outbound cadences with no defined exit rules, which means reps either chase too long or quit too early. Here is how to build a principled stopping framework into your outbound programme.",
+    readTime: "6 min read",
+    date: "1 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR cadence problems appear at one of two points: the rep who has sent fourteen touches over three months to someone who has never responded once, or the rep who gives up after two emails and marks the contact as unresponsive. Both waste pipeline capacity. The first clogs the CRM with contacts that will never convert. The second leaves real opportunities untouched because the prospect simply was not ready at the moment they were contacted.",
+      },
+      {
+        type: "paragraph",
+        text: "Exit criteria — a principled rule for when to stop chasing a cold prospect — prevent both failure modes. Most outbound programmes invest time designing entry criteria: who to target, when to start a sequence, what to say. Far fewer document when a sequence ends and what happens to the contact afterwards. The result is that stopping a cadence becomes an informal judgement call rather than a consistent, repeatable decision.",
+      },
+      {
+        type: "heading",
+        text: "Why sequence length alone is not enough",
+      },
+      {
+        type: "paragraph",
+        text: "A common approach is to set a maximum touch count — twelve touches, or eight, or fifteen — and stop when the sequence is exhausted. That is better than no limit, but touch count alone is a blunt instrument. A prospect who opened every email but never clicked is different from one who never opened a single message. A prospect who replied with 'not right now' is different from one who said 'remove me from your list'. A company that just announced a funding round is different from one in a sector that has been contracting for two years.",
+      },
+      {
+        type: "paragraph",
+        text: "Treating all of these identically — stopping at touch twelve regardless — means the exit decision is driven by a count rather than by the signals available to you. A more useful framework treats cadence exit as a combination of a maximum touch limit and a set of explicit disqualifying signals, whichever comes first.",
+      },
+      {
+        type: "heading",
+        text: "Hard stops versus soft stops",
+      },
+      {
+        type: "paragraph",
+        text: "Disqualifying signals split into two categories. Hard stops end the cadence immediately, regardless of where the sequence is. Soft stops end active outreach but keep the contact available for future re-engagement.",
+      },
+      {
+        type: "list",
+        heading: "Hard stops — close the cadence immediately:",
+        items: [
+          "An explicit opt-out, unsubscribe, or 'do not contact' request — in the UK this must be honoured immediately and permanently under UK GDPR",
+          "A reply confirming the contact has left the company or changed roles",
+          "A response that confirms a genuine disqualifier: wrong company size, wrong geography, wrong use case",
+          "An unambiguous confirmation that the prospect has just signed a multi-year deal with a competitor",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Soft stops — retire the contact but mark for review:",
+        items: [
+          "No engagement of any kind across the full cadence",
+          "A reply indicating timing is wrong but not categorically closed ('we are not looking at this until Q3 next year')",
+          "A company trigger that makes the prospect temporarily unsuitable: a known hiring freeze, a merger underway, a leadership transition",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Hard stops end the contact's active status entirely. Soft stops move the contact into a dormant pool with a note and a scheduled review date — not a live sequence, but not a permanent no either. The difference matters because treating soft-stop contacts as hard stops permanently removes prospects who might have become customers in different circumstances.",
+      },
+      {
+        type: "heading",
+        text: "The break-up touch: what it actually does",
+      },
+      {
+        type: "paragraph",
+        text: "The break-up email — a final message that explicitly signals you are stepping back — has become a standard fixture in SDR playbooks. The theory is sound: acknowledging that you are stopping often prompts a reply from prospects who had been meaning to respond but had not made it a priority. The practice is often poor — the break-up touch becomes another template with subject lines like 'Is it time to close your file?' that have been used so widely they produce no meaningful response.",
+      },
+      {
+        type: "paragraph",
+        text: "A break-up touch works when it does two specific things: it names precisely why you originally reached out, and it gives the prospect a frictionless way to indicate if timing is the issue rather than disinterest. Something like: 'I reached out because [specific, relevant reason]. I will step back from following up — but if the timing changes later this year, just reply and I can pick the conversation back up.' That is substantively different from a generic final message sent because the sequence has run out.",
+      },
+      {
+        type: "callout",
+        text: "What the break-up touch is not: a pressure tactic, a veiled urgency play, or a guilt message. Emails framed as 'this is my final attempt to connect' are broadly ineffective and occasionally irritating enough to permanently close a future opportunity.",
+      },
+      {
+        type: "heading",
+        text: "Using engagement data to inform the decision",
+      },
+      {
+        type: "paragraph",
+        text: "If your outbound stack includes email open tracking, it can inform exit decisions — with caveats. Opens are unreliable in isolation. Email clients that automatically pre-fetch content generate false positives, and privacy-focused clients suppress tracking entirely, producing false negatives. A contact who has never registered an open might simply be running a privacy-respecting mail client.",
+      },
+      {
+        type: "paragraph",
+        text: "Click data is more reliable, and replies are definitive. A prospect who clicked a link but never replied is a qualitatively different signal from one with no detectable engagement at all. Some teams build a specific additional touch into the end of a cadence for contacts showing this kind of silent activity — a message that references the content they appeared to engage with, as a way to surface latent interest before the sequence closes.",
+      },
+      {
+        type: "heading",
+        text: "Account-level versus contact-level retirement",
+      },
+      {
+        type: "paragraph",
+        text: "Stopping a cadence for a specific contact is not the same as stopping outreach to an account. In account-based programmes, one unresponsive contact is a signal to consider other entry points at the same company — a different title, a different function, or someone who works alongside the original contact. A contact-level retirement should trigger an account-level review before the account is closed entirely.",
+      },
+      {
+        type: "paragraph",
+        text: "For soft-stop contacts, a quarterly review process gives the programme a mechanism to recycle prospects when conditions change. The trigger that warranted a soft stop — wrong timing, a frozen budget, an active merger — has a finite shelf life. A CRM task that fires ninety days after soft-stop status is applied ensures these contacts are re-evaluated systematically rather than quietly lost in a dormant list that no one reviews.",
+      },
+      {
+        type: "heading",
+        text: "Writing exit criteria down",
+      },
+      {
+        type: "paragraph",
+        text: "A documented exit framework gives every rep a consistent answer to the same question: have I reached the end of this outreach, and if so, what happens to the record next? It does not need to be complicated. A single page defining the maximum touch count for each sequence type, the signals that trigger an immediate stop, the distinction between a hard stop and a soft stop, and what happens to the contact record after each — is sufficient.",
+      },
+      {
+        type: "paragraph",
+        text: "The value is not the complexity of the rules but the consistency they produce. When exit decisions are informal, different reps make them differently. Some chase too long, some stop too early, and neither group knows it is diverging from the other. Documented exit criteria give the programme a shared standard — and they give managers a basis for coaching conversations that are grounded in policy rather than personal judgement.",
+      },
+    ],
+  },
+  {
     slug: "discovery-call-follow-up-email-b2b",
     category: "Sales Development",
     title: "The Discovery Call Follow-Up Email: How to Write One That Advances the Deal",

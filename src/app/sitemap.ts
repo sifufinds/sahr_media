@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-outbound-cadence-exit-when-to-stop",
   "discovery-call-follow-up-email-b2b",
   "uk-b2b-cold-outreach-gdpr-pecr-compliance",
   "b2b-sales-marketing-alignment-lead-quality",
