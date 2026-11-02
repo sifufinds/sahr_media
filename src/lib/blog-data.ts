@@ -27,6 +27,151 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "mutual-action-plan-b2b-sales-close-process",
+    category: "Sales Development",
+    title: "The Mutual Action Plan: How to Use a Shared Close Plan to Accelerate B2B Sales Cycles",
+    excerpt:
+      "After the demo, most B2B deals stall because neither side has a shared picture of what getting to a decision actually requires. A mutual action plan fixes that — by making the path to close explicit and co-owned.",
+    readTime: "7 min read",
+    date: "2 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "The moment most often cited as the point where B2B deals go wrong is not the cold call, not the demo, and not the pricing conversation. It is the period after a positive demo when both sides acknowledge the fit looks good — and then nothing happens. The prospect goes quiet. Follow-up emails get read and not replied to. A deal that felt like it was progressing turns out to have been drifting.",
+      },
+      {
+        type: "paragraph",
+        text: "The drift is almost never intentional. It is structural. After the demo, the salesperson's next step is clear: advance the deal. The prospect's next step is much less clear: they need to involve procurement, get sign-off from someone who was not on the call, schedule a technical review, and align with a colleague who has concerns. None of that has been made explicit. Without a shared map of what getting to a decision actually requires, both sides are working from different assumptions about what happens next — and assumptions erode into inaction.",
+      },
+      {
+        type: "heading",
+        text: "What a mutual action plan actually is",
+      },
+      {
+        type: "paragraph",
+        text: "A mutual action plan (MAP) is a short, shared document that lists the milestones both sides need to complete between the current point in the sales process and a signed contract. Each milestone has a named owner — buyer side or seller side — and a target date. The document is co-created with the prospect, updated as the process evolves, and used by both parties as a reference for what is on track and what is outstanding.",
+      },
+      {
+        type: "paragraph",
+        text: "The format should be simple. A shared Google Doc, a Notion page, or even a formatted email can serve as a MAP — the tool matters less than the practice. A MAP that runs to four pages with nested subtasks is not a MAP; it is a project plan, and it will be ignored. A MAP that fits on a single screen, with six to ten clear milestones and named owners, will be used.",
+      },
+      {
+        type: "list",
+        heading: "A typical MAP for a mid-market SaaS deal contains:",
+        items: [
+          "A brief statement of what the prospect is trying to achieve — their stated success criteria from discovery",
+          "The evaluation milestones: technical review, security questionnaire, reference call, legal review",
+          "Internal steps the prospect needs to complete: stakeholder sign-off, procurement engagement, budget confirmation",
+          "Seller-side commitments: custom proposal delivery, integration documentation, legal redline turnaround",
+          "Target dates for each milestone and the person responsible",
+          "A target contract date or go-live date, which anchors the whole timeline",
+        ],
+      },
+      {
+        type: "heading",
+        text: "When to introduce it",
+      },
+      {
+        type: "paragraph",
+        text: "Timing matters significantly. A MAP introduced before discovery is a presumption — you are mapping out a process before you know what the prospect's internal evaluation actually looks like. A MAP introduced months into a stalled deal reads as a last-ditch attempt to force urgency. The right moment is immediately after a strong discovery call or initial demo, when you have enough context to make the MAP specific and the prospect's interest is sufficiently established that they will engage with it.",
+      },
+      {
+        type: "paragraph",
+        text: "At that point you know their pain, their timeline, their stakeholders, and the broad shape of their internal decision process. That context is what makes the MAP credible rather than generic. A MAP that reflects what the prospect actually told you — 'you mentioned you need sign-off from your Head of Infrastructure before any vendor decision can proceed' — is a different document from a template with placeholder names.",
+      },
+      {
+        type: "heading",
+        text: "How to get the prospect to co-own it",
+      },
+      {
+        type: "paragraph",
+        text: "The framing you use when you introduce the MAP determines whether the prospect treats it as a shared tool or a sales pressure device. Presenting it as 'here is our process for working with you' positions it as something you are doing to them. Presenting it as 'here is a draft of the steps I think we both need to get through — can you tell me what I've missed?' positions it as something you are building together.",
+      },
+      {
+        type: "callout",
+        text: "The framing that works consistently: 'Based on what you described, I've put together a rough outline of the steps that typically make sense for an evaluation like yours. I've left gaps where I'm not sure how your process works — can you fill those in?' That hands the prospect a pen rather than handing them a document.",
+      },
+      {
+        type: "paragraph",
+        text: "The co-creation step is the mechanism that makes the MAP function. A prospect who adds milestones to the MAP has implicitly committed to a process. They have named the procurement step themselves, or written in the security review date themselves. Those commitments carry more weight than ones you inserted, because they reflect the prospect's own understanding of what their internal process requires — not your estimate of it.",
+      },
+      {
+        type: "heading",
+        text: "Using the MAP to surface deal risk early",
+      },
+      {
+        type: "paragraph",
+        text: "The MAP is a diagnostic tool as well as a coordination tool, and often the more valuable one. When you try to build a MAP with a prospect and they cannot answer basic questions — who needs to sign off, what the procurement process looks like, whether legal review is involved — those are not gaps in their knowledge of your product. They are gaps in their internal alignment. The deal may look healthy from the outside, but the prospect has not yet done the internal work of building a case for a decision.",
+      },
+      {
+        type: "paragraph",
+        text: "Deal risk that surfaces during the MAP conversation is risk you can address. You can offer to help the prospect build their internal business case. You can ask what would help them get the right people aligned. You can understand whether the timeline they gave you is real or aspirational. None of that is possible if the risk sits unacknowledged until late in the cycle — which is when it tends to surface as a deal that goes suddenly quiet, a timeline that slips by a quarter, or a 'we've decided to pause for now' email.",
+      },
+      {
+        type: "list",
+        heading: "Red flags that surface during MAP-building conversations:",
+        items: [
+          "The prospect cannot name who has final sign-off authority on the decision",
+          "They are unwilling to commit to any dates, even approximate ones",
+          "They do not know whether procurement or legal will be involved",
+          "They are vague about who else is evaluating the product internally",
+          "The timeline they gave you does not match the milestones they need to complete",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of these flags mean the deal is dead. They mean the deal has a specific problem that needs to be addressed before it can progress. Identifying the problem before the end of Q3 is materially different from identifying it in the last week of Q4.",
+      },
+      {
+        type: "heading",
+        text: "The accountability mechanism",
+      },
+      {
+        type: "paragraph",
+        text: "A MAP creates lightweight mutual accountability that changes the texture of late-stage follow-up. Without a MAP, following up on a stalled deal requires manufacturing a reason to reach out — a new product feature, a case study the prospect might find relevant, a vague 'just checking in.' All of these are transparent, and the prospect knows it.",
+      },
+      {
+        type: "paragraph",
+        text: "With a MAP, the follow-up is anchored to a specific commitment. 'We had your technical review pencilled in for this week — is that still on track?' is a legitimate question about a milestone the prospect agreed to. It is not a push for urgency; it is a practical check-in about a shared plan. The prospect experiences a different kind of outreach — one that treats them as a party to an agreed process rather than a target to be nudged.",
+      },
+      {
+        type: "paragraph",
+        text: "This is particularly valuable in deals where the rep has limited visibility into the prospect's internal process. When a procurement step is late, the MAP gives the rep grounds to ask why without it feeling intrusive. When a decision-maker has not yet been looped in, the MAP gives the rep grounds to ask when that conversation will happen. The MAP does not create urgency artificially — it creates a shared language for discussing progress honestly.",
+      },
+      {
+        type: "heading",
+        text: "Common mistakes",
+      },
+      {
+        type: "list",
+        items: [
+          "Making it too detailed: a MAP with thirty rows and nested dependencies is a project plan that will be opened once and ignored thereafter. Keep it to the essential milestones.",
+          "Presenting it as a seller tool: if the MAP reads as 'here is our process,' the prospect will treat it as your document. Frame it as a shared evaluation guide.",
+          "Introducing it too early: presenting a MAP on the first call before discovery signals that you are trying to lock in a process before understanding the prospect's situation.",
+          "Not updating it: a MAP that reflects the state of the deal two months ago is not useful. The document should evolve as milestones are completed and new information emerges.",
+          "Using it for every deal: for a transactional sale with a single decision-maker and a short cycle, a MAP adds overhead without value. Reserve it for complex, multi-stakeholder evaluations.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Which deals warrant a MAP",
+      },
+      {
+        type: "paragraph",
+        text: "The right threshold is roughly this: if the deal involves more than two stakeholders on the buyer side, a sales cycle longer than four to six weeks, or any form of procurement or legal process, a MAP earns its overhead. For enterprise SaaS deals, agency retainer sales above a meaningful contract value, or any deal where sign-off requires multiple departments, a MAP is genuinely useful rather than just structured.",
+      },
+      {
+        type: "paragraph",
+        text: "For smaller, faster deals — a transactional SaaS purchase, a low-value one-month trial, a straightforward renewal — the MAP adds more friction than it resolves. The practice is not universally applicable; applying it selectively to complex deals, rather than mandating it across the board, keeps it from becoming a bureaucratic box to check rather than a tool with genuine commercial value.",
+      },
+      {
+        type: "paragraph",
+        text: "The pattern that makes a MAP effective is not the document itself — it is the conversation that creates it. A thirty-minute MAP-building session with a qualified prospect surfaces more deal intelligence than almost any other interaction in the sales process. It makes implicit expectations explicit, puts both parties on record about what they are committing to, and gives the seller a clear-eyed picture of whether the deal is actually progressing or just appearing to.",
+      },
+    ],
+  },
+  {
     slug: "competitor-review-intelligence-b2b-prospecting",
     category: "SaaS Lead Generation",
     title: "Using Competitor Review Sites as B2B Prospecting Intelligence",
