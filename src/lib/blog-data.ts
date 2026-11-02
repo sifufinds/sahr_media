@@ -27,6 +27,141 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-messaging-ab-testing-framework",
+    category: "Sales Development",
+    title: "How to Run Outbound Messaging Experiments: A Practical A/B Testing Framework for SDR Teams",
+    excerpt:
+      "Most SDR teams improve their cold outreach by feel rather than by evidence. A simple experimentation framework — one variable, defined metrics, a shared log — turns outbound messaging from a guessing game into a compound learning machine.",
+    readTime: "6 min read",
+    date: "2 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR teams have strong opinions about what works in their cold outreach. Fewer have systematic evidence for those opinions. The typical pattern is to run a campaign, see low reply rates, rewrite the sequence based on instinct, and repeat — with no controlled comparison between the old version and the new. That approach generates activity without generating learning. Without a framework for testing messaging deliberately, improvements are hard to attribute, wins are hard to replicate, and teams keep solving the same problems from scratch each quarter.",
+      },
+      {
+        type: "paragraph",
+        text: "Treating outbound messaging like a conversion optimisation problem — with controlled experiments, defined variables, and recorded outcomes — turns the SDR function into a learning machine. The methodology is not complicated, but it requires discipline around a few principles: one variable changed at a time, sufficient volume before reading results, and a central place where findings are stored rather than lost when a rep moves on.",
+      },
+      {
+        type: "heading",
+        text: "The variables worth testing",
+      },
+      {
+        type: "paragraph",
+        text: "Not every element of an outbound sequence is equally productive to test. Some variables have a larger effect on outcomes than others, and some are easier to isolate cleanly. The most useful testing ground, in rough order of impact:",
+      },
+      {
+        type: "list",
+        items: [
+          "Subject line: for cold email, the subject line determines whether the message is opened at all. Subject lines are easy to vary and easy to attribute — a different subject on an otherwise identical email isolates the variable cleanly.",
+          "Opening line: the first sentence determines whether the reader continues past the preview pane. A curiosity-driven opener versus a relevance-first opener, or a trigger-based opener versus a problem-framed opener, can produce meaningfully different engagement rates.",
+          "Call to action: the specific ask at the end of the message — fifteen minutes, a single question, asking permission to send more context — affects both reply rate and the quality of replies. Whether a softer CTA produces more replies than a direct meeting ask is worth knowing for your specific prospect profile.",
+          "Value proposition framing: whether you lead with ROI, a specific pain point, or social proof changes how the message lands for different buyer profiles. Testing different frames against the same contact profile identifies which resonates best.",
+          "Message length: short versus medium-length emails perform differently depending on the audience and the complexity of the problem you are describing. Testing length as a variable calibrates how much context your prospects actually need before they will engage.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What not to test simultaneously",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake in outbound message testing is changing multiple variables at once. If you rewrite the subject line, the opening paragraph, and the CTA in the same variant, you have no idea which change drove any difference in results. This is the reason most 'new sequence' experiments produce ambiguous findings — the experiment is confounded from the start.",
+      },
+      {
+        type: "paragraph",
+        text: "A controlled test requires a control and a variant that differ in exactly one respect. The control is the version currently in use. The variant changes a single element. Everything else — the target account profile, sending volume, follow-up timing, day of send — stays constant across both versions. Discipline on this point is what separates a finding you can act on from a result you can only speculate about.",
+      },
+      {
+        type: "heading",
+        text: "How much volume you need before reading results",
+      },
+      {
+        type: "paragraph",
+        text: "A common failure is drawing conclusions from small samples. If you send twenty emails per variant and one produces two replies while the other produces zero, that difference tells you nothing — it could easily reflect random variation in who happened to check their email that week. Small samples produce noise that looks like signal.",
+      },
+      {
+        type: "paragraph",
+        text: "The specific volume threshold depends on your typical reply rates and sector. A rough working principle: before treating any result as directional, the difference should be visible across at least two separate sends on different days, and each variant should have had meaningful exposure to a consistent audience segment. Be sceptical of conclusions drawn from fewer than fifty sends per variant, and treat anything below that as early signal worth investigating rather than a finding to act on.",
+      },
+      {
+        type: "callout",
+        text: "The fastest way to generate junk findings is to stop a test the moment one variant takes an early lead. Let both variants run their full planned volume before comparing results — early leaders frequently reverse once the sample grows.",
+      },
+      {
+        type: "heading",
+        text: "What to measure",
+      },
+      {
+        type: "paragraph",
+        text: "Reply rate is the primary metric for cold outreach experiments, but not the only one worth tracking. A test that optimises for raw reply rate can inadvertently produce more replies from unqualified prospects or curiosity-driven responses that go nowhere. The metrics worth recording across both variants:",
+      },
+      {
+        type: "list",
+        items: [
+          "Reply rate: the percentage of contacted prospects who replied at all",
+          "Positive reply rate: replies that express genuine interest, ask for more information, or agree to a call — distinct from out-of-office, unsubscribe, or hard no responses",
+          "Meeting conversion rate: of positive replies, what proportion turned into booked meetings",
+          "Negative reply rate: tracking outright 'not interested' or unsubscribe responses separately can identify whether a variant is generating noise rather than genuine intent",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "An experiment that produces a higher raw reply rate but a lower positive reply rate may have found a more provocative opener that generates responses without qualifying intent. That is useful to know, but it does not mean the variant is better overall. The metric that matters most is whatever is closest to the outcome you are actually optimising for — usually booked meetings, not raw replies.",
+      },
+      {
+        type: "heading",
+        text: "Running the experiment in practice",
+      },
+      {
+        type: "list",
+        heading: "The mechanical steps are straightforward:",
+        items: [
+          "Choose one variable to test and define the control and variant precisely — write both versions down before sending anything",
+          "Select a contact pool that is consistent across both variants: same ICP criteria, similar account sizes and sectors, comparable seniority range",
+          "Split the contact pool randomly between control and variant, keeping all other conditions equal",
+          "Run both versions to their planned volume without stopping early or adjusting mid-test",
+          "Record the results: sends, replies, positive replies, meetings booked",
+          "Write a brief conclusion: what the test found, whether the result is directional or ambiguous, and what the next test should investigate",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most SDR teams already have the infrastructure to run these tests — a sequencing tool, a CRM, and a spreadsheet are sufficient. The gap is not tooling; it is process. Without a deliberate structure for defining what is being tested before the sends go out, results get interpreted post-hoc in ways that confirm whatever the team already believed.",
+      },
+      {
+        type: "heading",
+        text: "The testing log: where findings live or die",
+      },
+      {
+        type: "paragraph",
+        text: "Individual tests are nearly worthless without a place to store and build on the findings. The most common failure mode in outbound experimentation is not bad methodology — it is the absence of institutional memory. A rep runs a well-controlled experiment, finds that problem-framed openers outperform ROI-led openers for their specific persona, and records the finding in a personal spreadsheet. When that rep moves on or a new manager joins, the finding disappears and the same experiment gets run again eighteen months later.",
+      },
+      {
+        type: "paragraph",
+        text: "A shared testing log — accessible to the whole team, with a consistent format for recording variables, outcomes, and interpretations — turns individual experiments into collective knowledge. Over twelve months of consistent testing, a team can accumulate meaningful evidence about what works for their specific ICP, their specific value proposition, and their specific market. That evidence compounds in a way that intuition alone does not.",
+      },
+      {
+        type: "paragraph",
+        text: "The log format needs to be simple enough to actually be maintained: date, variable tested, hypothesis, result, and a one-line verdict. More complex formats create overhead that prevents the log from being updated consistently. A basic shared document that gets filled in after every experiment is worth more than a sophisticated system that no one uses.",
+      },
+      {
+        type: "heading",
+        text: "What systematic testing cannot tell you",
+      },
+      {
+        type: "paragraph",
+        text: "Testing frameworks answer the question of which version performs better with a given audience in a given channel. They do not answer whether the audience is right, whether the channel is right, or whether the underlying offer is positioned correctly. A sequence that consistently produces very low reply rates is not a testing problem — the systematic finding is that the approach needs rethinking at a more fundamental level. No amount of subject line optimisation fixes a broken ICP.",
+      },
+      {
+        type: "paragraph",
+        text: "Testing is a tool for optimising within an approach that is already roughly calibrated. The teams that use outbound experimentation most effectively treat it as a continuous background practice, not a periodic initiative. Small, consistent tests that run alongside normal prospecting activity generate compounding learning over time — which is the kind of edge that distinguishes an SDR function that steadily improves from one that stays flat quarter after quarter.",
+      },
+    ],
+  },
+  {
     slug: "mutual-action-plan-b2b-sales-close-process",
     category: "Sales Development",
     title: "The Mutual Action Plan: How to Use a Shared Close Plan to Accelerate B2B Sales Cycles",
