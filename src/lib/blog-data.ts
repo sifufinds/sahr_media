@@ -27,6 +27,111 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "conversation-intelligence-b2b-sales-call-recordings",
+    category: "Sales Development",
+    title: "Conversation Intelligence for B2B Sales: How to Use Call Recordings to Improve Outbound Results",
+    excerpt:
+      "Most sales teams record calls but few extract systematic insight from them. Here is a practical framework for using conversation intelligence to diagnose outbound problems and sharpen SDR performance.",
+    readTime: "7 min read",
+    date: "3 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound sales teams now record calls as a matter of course. The tools are widely available, the legal consent notices are built into diallers, and a growing share of CRMs log call recordings directly against the contact record. The problem is not recording — it is what happens after. In most teams, recordings accumulate but are rarely revisited systematically. A manager listens to a rep's call during onboarding, or occasionally when a specific deal needs unpicking. The rest of the library sits unused. Conversation intelligence — the structured practice of reviewing, categorising, and acting on call recordings — is the gap between storing conversations and learning from them.",
+      },
+      {
+        type: "heading",
+        text: "What conversation intelligence tools actually do",
+      },
+      {
+        type: "paragraph",
+        text: "Dedicated CI tools such as Gong, Chorus, and Modjo (as well as similar capabilities built into more recent CRM platforms) do two things that manual call review cannot. First, they transcribe every call and apply a searchable index across the whole library — a manager can search for every call where 'pricing' was mentioned in the first two minutes, or every discovery call where the prospect mentioned a named competitor. Second, they surface aggregate patterns: which reps' calls have the highest talk-to-listen ratio, which discovery questions appear in the calls that advance versus the ones that stall, which objections come up most often at which stage of the process. The result is the ability to treat calls as a dataset rather than a collection of one-off events.",
+      },
+      {
+        type: "paragraph",
+        text: "Teams without dedicated CI tooling can still implement a version of this practice using call recordings in their existing stack, provided they build a consistent review routine and a shared tagging or note-taking system. The manual version is slower and less comprehensive, but the underlying principle is the same: extract generalizable insight from individual conversations, not just deal-specific context.",
+      },
+      {
+        type: "heading",
+        text: "What to review in recorded calls",
+      },
+      {
+        type: "list",
+        items: [
+          "Opening seconds: does the rep establish why the call is worth the prospect's time within the first thirty seconds? The opening determines whether the prospect settles into the conversation or stays in passive resistance mode throughout",
+          "Discovery question quality: are questions open-ended and genuinely curious, or leading and confirmation-seeking? Calls that advance tend to contain questions that surface pain the prospect did not expect to articulate",
+          "Talk-to-listen ratio: a rough guide for discovery calls is that the prospect should be speaking for more of the call than the rep — a rep who talks continuously is pitching, not qualifying",
+          "Objection handling: how does the rep respond when the prospect pushes back? The response to 'we're not looking at this right now' reveals more about a rep's skill than almost any other moment in the call",
+          "Next step commitment: does the call end with a specific next action — a date, a name, a decision — or with a vague 'I'll send some information and we can catch up'? Calls that end without a specific commitment rarely produce one later",
+          "Prospect language: what words does the prospect use to describe their problem? Exact language from buyers is more useful for outreach copy than anything written from scratch by people who have not heard it from a buyer's mouth",
+        ],
+      },
+      {
+        type: "heading",
+        text: "How managers should use CI data",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective use of CI data in a management context is pattern identification, not individual policing. Listening to one rep's call and giving feedback is useful but limited — it addresses the instance rather than the underlying pattern. The more valuable practice is comparing the calls of reps who convert at a higher rate against those who convert at a lower rate, identifying the specific behaviours that differentiate them, and building those into a coaching framework for the whole team.",
+      },
+      {
+        type: "paragraph",
+        text: "This works best when managers designate specific things to look for before they listen, rather than free-form reviewing. A listening template — a short checklist of four or five behaviours to mark — allows a manager to review five calls in the time it would otherwise take to process one, and produces comparable notes across reps rather than impressionistic feedback. The output of a well-structured review session should be: one or two specific patterns to address in coaching, and one or two examples of what good looks like that can be shared as reference material.",
+      },
+      {
+        type: "heading",
+        text: "How reps should use their own recordings",
+      },
+      {
+        type: "paragraph",
+        text: "Self-review is uncomfortable for most people — listening to a recording of yourself is rarely enjoyable — but it is one of the fastest ways for an SDR or AE to identify habits they are not aware of. The most common patterns reps do not notice in the moment: filler words and hesitations that undermine authority on the call, a tendency to rescue awkward silences by talking rather than waiting, moving to pitch before the prospect has fully articulated their situation, and summarising back in a way that restates what the rep wants the problem to be rather than what the prospect actually said.",
+      },
+      {
+        type: "paragraph",
+        text: "A useful practice for reps is to review their own calls against a short set of criteria immediately after a call that did not advance — within the same day, while the conversation is still fresh. Not to judge the call, but to identify the specific moment where momentum was lost and form a hypothesis about why. Over time, a rep who does this consistently develops much faster than one who relies solely on manager feedback.",
+      },
+      {
+        type: "callout",
+        text: "The most underused asset in any call recording is the prospect's own language. Every call contains phrases that describe problems the way buyers actually experience them — raw, unpolished, often imprecise. That language, copied directly into outreach templates and discovery frameworks, will consistently outperform anything written by people who have not heard it from the buyer's mouth.",
+      },
+      {
+        type: "heading",
+        text: "Connecting call analysis to outbound improvements",
+      },
+      {
+        type: "paragraph",
+        text: "Conversation intelligence has a feedback loop into outbound prospecting that most teams do not close. The patterns that emerge from discovery call recordings — the specific problems that come up most often, the objections that reliably appear, the stage of the process where deals most commonly stall — are directly applicable to improving cold outreach. If the discovery calls reveal that a particular competitor is mentioned in a large share of conversations, that is a signal for competitor displacement messaging. If prospects consistently frame the same problem using a phrase the team has not been using in its outreach, that is a copy adjustment that will raise reply rates.",
+      },
+      {
+        type: "paragraph",
+        text: "The cleanest way to operationalise this loop is a short monthly review between the outbound lead and whoever owns messaging. Agenda: what are the top three things prospects say in discovery that we are not currently addressing in outreach? This single question, answered from real call data rather than assumptions, is more valuable than most outbound messaging reviews.",
+      },
+      {
+        type: "heading",
+        text: "Common mistakes in CI implementation",
+      },
+      {
+        type: "list",
+        items: [
+          "Using call recordings primarily as a performance management tool rather than a learning tool — when reps feel recordings will trigger consequences, they game the metrics rather than improve the underlying behaviour",
+          "Reviewing calls without a structured template, which produces inconsistent feedback and makes cross-rep comparison impossible",
+          "Focusing exclusively on calls that went badly — calls that advanced further than expected are equally useful and often easier to learn from because the rep cannot attribute the success to luck",
+          "Not closing the loop to outbound: insights from discovery calls stay in the coaching context rather than informing prospecting messages, sequences, or ICP refinements",
+          "Reviewing too many calls per session — three well-analysed calls are more valuable than ten calls reviewed quickly; the depth of the review determines whether it changes behaviour",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Making the practice stick",
+      },
+      {
+        type: "paragraph",
+        text: "Conversation intelligence works only if it becomes a standing practice rather than an occasional exercise. The teams that extract the most value from it treat call review the way high-performing sports teams treat game film — not as punishment after a loss, but as a routine part of preparation. That means a fixed slot in the weekly or fortnightly calendar, a consistent format, and a clear expectation that insights feed directly into how the team operates. The recording library a sales team builds over six months is one of its most valuable assets for training new hires, refining messaging, and identifying why specific deals are advancing or stalling. It is worth treating it that way.",
+      },
+    ],
+  },
+  {
     slug: "cold-outreach-technical-buyers-cto-vp-engineering-saas",
     category: "SaaS Lead Generation",
     title: "Cold Outreach to Technical Buyers: Messaging Frameworks for CTOs, VP Engineering, and Product Leaders",
