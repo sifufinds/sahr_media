@@ -27,6 +27,120 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "sdr-compensation-framework-outbound-quality",
+    category: "Sales Development",
+    title: "SDR Compensation Frameworks: How to Structure Pay to Drive Outbound Quality Over Quantity",
+    excerpt:
+      "Most SDR comp structures reward meetings booked and nothing else — which reliably produces volume without quality. Here is how to design compensation that aligns rep behaviour with pipeline outcomes rather than activity counts.",
+    readTime: "7 min read",
+    date: "3 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR compensation is built around a single metric: meetings booked. This made sense when outbound was new and establishing pipeline volume was the only challenge. It makes far less sense today, when SDR teams routinely hit their meeting targets while AE teams report that a significant share of those meetings do not qualify, do not show, or produce deals that stall at proposal stage. The meeting number keeps going up while the quality of what feeds into the pipeline stays flat. The compensation structure is the mechanism driving that outcome.",
+      },
+      {
+        type: "heading",
+        text: "Why volume-only commission creates the wrong incentives",
+      },
+      {
+        type: "paragraph",
+        text: "When a rep is paid a flat bonus per meeting booked, the rational response is to book as many meetings as possible in the fastest way available — which often means loosening qualification standards. A prospect who says 'sure, book me in' without any real pain or buying intent is a booked meeting for commission purposes. An AE who runs that meeting, finds no genuine opportunity, and marks it unqualified does not affect the SDR's comp. The incentive structure has cleanly separated the SDR's behaviour from the outcome that actually matters to the business.",
+      },
+      {
+        type: "list",
+        heading: "Specific behaviours that volume-only comp drives",
+        items: [
+          "Booking prospects who match the job title but not the situation, because the title alone looks like the ICP",
+          "Rushing through discovery to get a yes to a meeting before the prospect has time to qualify themselves out",
+          "Describing the meeting in ways that lower the prospect's expectations so they are less likely to cancel",
+          "Over-promising on the product or use case to secure a calendar slot",
+          "Booking contacts already in the pipeline or previously worked by the AE team, which inflates the metric without generating net new pipeline",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The metrics that actually matter for comp design",
+      },
+      {
+        type: "paragraph",
+        text: "The goal of SDR compensation design is to make the rep's incentive structure track the business outcome their role is meant to produce — qualified pipeline, not meeting volume. This requires including at least one downstream metric in the comp formula: a metric that can only be positive if the meeting itself produced something of value. The most commonly used downstream metrics in SDR comp are:",
+      },
+      {
+        type: "list",
+        items: [
+          "Meetings held: attended by the prospect, not just booked — filters out cancellations and ghosts without penalising the SDR for circumstances outside their control",
+          "SQL conversion rate: the percentage of meetings that advance to a qualified opportunity — directly connects SDR behaviour to pipeline quality",
+          "Pipeline generated: total value of qualified opportunities originating from SDR bookings — links to revenue outcome but depends on AE qualification discipline, so attribution needs to be clean",
+          "Deal conversion rate: percentage of SDR-sourced opportunities that close — lags too far behind activity to be useful for monthly comp; better as a quarterly review metric than a direct commission driver",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The practical choice for most outbound teams is a formula that weights both meetings held and SQL conversion — typically a base rate per meeting held plus an uplift for each meeting that converts to a qualified opportunity. This rewards volume without ignoring quality and gives the SDR a financial incentive to qualify before booking rather than after.",
+      },
+      {
+        type: "heading",
+        text: "Base versus variable split",
+      },
+      {
+        type: "paragraph",
+        text: "The base/variable ratio for SDR roles in B2B sales tends to sit higher on base relative to AE roles. A common structure is 70% base and 30% variable for a junior SDR still ramping; as the rep matures, teams sometimes shift toward 65/35 or 60/40 to increase upside for high performers. The logic differs from the AE model: an AE can produce large individual deal value that justifies substantial variable compensation, while an SDR's output is measured in activities and pipeline initiation — the ceiling is lower, and so is the floor. Over-weighting variable in SDR comp creates financial instability for the rep and drives exactly the short-term behaviour described above.",
+      },
+      {
+        type: "callout",
+        text: "The most reliable signal that a comp structure is working is when SDRs voluntarily disqualify meetings they could have booked. An SDR who tells their manager 'I chose not to book that one — the situation did not feel right' is operating in a comp environment that rewards quality. An SDR who never disqualifies is almost certainly not being paid to.",
+      },
+      {
+        type: "heading",
+        text: "Handling the ramp period",
+      },
+      {
+        type: "paragraph",
+        text: "The first 60 to 90 days of an SDR's tenure are not a reliable indicator of long-term production. Pipeline generation takes time — leads worked in week one rarely convert to meetings until week four or five, and those meetings may not qualify until week eight. A comp structure that measures a new hire against the same targets as a fully ramped rep will either underpay them if standards are applied strictly, or overpay them relative to what the business is receiving if standards are informally relaxed. The cleaner approach is a formal ramp plan that sets lower targets in the first month and increases them linearly to the full target by month three or four, while paying a guaranteed floor for the ramp period so financial pressure does not push the rep toward gaming activity metrics.",
+      },
+      {
+        type: "paragraph",
+        text: "The ramp period is also the right time to introduce qualitative coaching benchmarks alongside the quantitative ones — not as formal comp drivers but as explicit expectations. A manager's assessment of call quality, outreach personalisation, and ICP accuracy during ramp sets the standard for how the SDR understands what good looks like before they are fully accountable to their number.",
+      },
+      {
+        type: "heading",
+        text: "Aligning SDR and AE incentives",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most persistent misalignments in B2B sales is when SDR and AE comp structures create conflicting incentives around handoff quality. If the SDR is paid on meetings booked and the AE is measured on close rate, a structural friction develops: the AE has an incentive to disqualify borderline meetings to protect their close rate, and the SDR has an incentive to book borderline meetings to hit their target. Both are rational responses to their respective comp structures, and both collectively degrade the pipeline.",
+      },
+      {
+        type: "paragraph",
+        text: "The fix requires either connecting part of the SDR's comp to a downstream AE metric — SQL rate or pipeline generated — or creating a joint accountability mechanism, such as a regular pipeline quality review that both functions attend, with agreed criteria for what constitutes a qualified handoff. Some teams implement a claw-back for meetings that do not hold or are immediately disqualified. This works but must be designed carefully: the SDR should not be penalised for AE no-shows or AE disqualifications that reflect a changing ICP definition rather than a qualification failure on the SDR's part.",
+      },
+      {
+        type: "heading",
+        text: "Common mistakes in SDR comp design",
+      },
+      {
+        type: "list",
+        items: [
+          "Paying on meetings booked with no held or qualified filter — consistently produces volume over quality",
+          "Setting targets without establishing clear qualification criteria first — if SDR and AE do not share a definition of a qualified meeting, the comp metric is measuring something ambiguous",
+          "Making the variable component so small it has no behavioural effect — a 5% bonus changes nothing; a 30% uplift changes quite a lot",
+          "Not revisiting comp design as the SDR function matures — structures built for a two-person team rarely work at twelve",
+          "Linking SDR comp directly to deal close rate — the attribution lag is too long and too much happens between first contact and a signed contract to make this a fair accountability measure at the rep level",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Making the structure visible",
+      },
+      {
+        type: "paragraph",
+        text: "The most important condition for a comp structure to change behaviour is that the rep understands it clearly enough to calculate their own projected earnings on any given day. Compensation design that requires a spreadsheet from finance to decode will be mentally discounted by reps who cannot see the direct connection between what they do tomorrow morning and what appears in their paycheck at month end. Simple, transparent structures — even if they sacrifice some sophistication — will produce better aligned behaviour than complex ones that reps stop trying to understand. If a new SDR cannot explain their own commission structure to a colleague in two minutes, the design almost certainly needs simplifying.",
+      },
+    ],
+  },
+  {
     slug: "conversation-intelligence-b2b-sales-call-recordings",
     category: "Sales Development",
     title: "Conversation Intelligence for B2B Sales: How to Use Call Recordings to Improve Outbound Results",
