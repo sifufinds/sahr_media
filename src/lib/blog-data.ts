@@ -27,6 +27,111 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "inbound-led-outbound-first-party-signals-sdr-prioritisation",
+    category: "SaaS Lead Generation",
+    title: "Inbound-Led Outbound: Using First-Party Engagement Data to Prioritise Your SDR's Prospecting List",
+    excerpt:
+      "When a prospect reads your pricing page, downloads your implementation guide, or registers for a webinar, they are signalling something about their current situation. Here is how to route those first-party signals to your SDR team and use them to prioritise outreach without fabricating personalisation.",
+    readTime: "6 min read",
+    date: "4 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SaaS companies generate more engagement data than they use. Website visitors browse pricing pages, contacts download implementation guides, prospects register for webinars, marketing emails get opened by people who never reply to sales. All of this behaviour leaves a traceable record in the marketing stack. The SDR team, meanwhile, is usually prospecting from a static list that assigns equal priority to a VP who spent nine minutes reading the security documentation last week and one who has never heard of the product. First-party engagement data is the mechanism for closing that gap — routing warm signals to the top of the outbound queue rather than treating all cold prospects identically.",
+      },
+      {
+        type: "heading",
+        text: "What counts as a first-party signal",
+      },
+      {
+        type: "paragraph",
+        text: "First-party signals are behavioural data captured directly by systems you own — no third-party data vendor is involved. The categories most useful for SDR prioritisation are:",
+      },
+      {
+        type: "list",
+        items: [
+          "Pricing page visits, particularly multiple visits or time-on-page above a defined threshold",
+          "Content downloads that indicate evaluation-stage intent: security overviews, compliance documentation, implementation guides, ROI calculators",
+          "Webinar registration — regardless of attendance, the act of signing up indicates active interest at a specific moment",
+          "Marketing email engagement from contacts who have opened multiple messages in a nurture sequence but have not taken a demo request step",
+          "Free trial signups that have stalled at a low usage level, for companies with a product-led model",
+          "Returning visits from contacts already in the CRM who had previously gone cold",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Not all signals carry equal weight. A visit to your pricing page is a stronger buying signal than a read of a general thought-leadership post. High-intent content is content that someone would only seek out if they were actively evaluating — it has limited appeal as casual reading. Low-intent content (blog posts, broad industry commentary) attracts a wider audience that includes researchers, students, journalists, and competitors. Mixing the two in a single signal-scoring approach dilutes the usefulness of the whole system.",
+      },
+      {
+        type: "heading",
+        text: "How this differs from third-party intent data",
+      },
+      {
+        type: "paragraph",
+        text: "Third-party intent data tools aggregate signals from across the web — review site visits, content consumption on trade publications, job posting patterns — and attempt to infer when an account is likely in-market for a category. First-party signals operate at a more granular level. Rather than inferring company-level intent from distributed web behaviour, you are observing a named individual in your existing database taking specific actions in your own environment. The signal is higher-confidence because it is direct and attributable. The limitation is reach: it only surfaces people who have already found you and engaged with your properties, which makes it a prioritisation layer rather than a prospecting source in its own right.",
+      },
+      {
+        type: "heading",
+        text: "Deciding which signals warrant outbound action",
+      },
+      {
+        type: "paragraph",
+        text: "Not every piece of engagement justifies moving a contact to the top of the SDR queue. The useful framework is to evaluate signals on two dimensions simultaneously: content intent and job title fit. Content intent refers to how closely the content aligns with an active buying decision — pricing pages and security documentation are high-intent; blog posts on general industry topics are low-intent. Job title fit is straightforward: does this person hold the authority or influence over the category of decision you are targeting? A signal only warrants immediate outbound action when both dimensions are positive. High-intent content from a job title outside your ICP is research noise. Low-intent content from your ideal buyer is probably casual reading.",
+      },
+      {
+        type: "list",
+        heading: "A simple prioritisation matrix",
+        items: [
+          "High-intent content + ICP job title: add to SDR queue within 24 hours",
+          "High-intent content + adjacent job title (influencer, not decision-maker): add to a nurture sequence, flag for SDR if further signals emerge",
+          "Low-intent content + ICP job title: no immediate action — monitor for follow-on signals",
+          "Low-intent content + non-ICP job title: exclude from outbound prioritisation entirely",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The highest-confidence first-party trigger for most SaaS outbound teams is a returning CRM contact — someone who went cold six or more months ago — visiting your pricing page or downloading evaluation-stage content. They already know who you are. The timing signal is unambiguous, and the outreach can reference shared history rather than starting from scratch.",
+      },
+      {
+        type: "heading",
+        text: "Referencing the engagement in outreach copy",
+      },
+      {
+        type: "paragraph",
+        text: "The practical question is how to acknowledge the engagement without sounding as though you have been monitoring the prospect. The direct approach — mentioning that you saw them visit your pricing page — tends to land poorly in cold outreach, partly because it reads as surveillance-adjacent and partly because it creates an awkward asymmetry before the conversation has started. The prospect knows they were tracked; the opening is now about data collection rather than their situation.",
+      },
+      {
+        type: "paragraph",
+        text: "The more effective approach is to use the engagement as a targeting signal rather than mentioning it explicitly. If someone downloaded an implementation guide for your enterprise tier, write copy that addresses the concerns an implementation-stage evaluation typically surfaces — integration complexity, timeline, change management — without explaining that you are contacting them because of the download. The signal tells you what they are probably thinking about; the message addresses that thinking without exposing the mechanism. If you do choose to reference the content, a category-level reference reads better than a session detail: 'Given that you have been researching how teams handle X...' lands as market knowledge rather than a tracking confirmation.",
+      },
+      {
+        type: "heading",
+        text: "Routing signals to the SDR team",
+      },
+      {
+        type: "paragraph",
+        text: "The operational challenge is getting the signal into the SDR's workflow at the right moment. The most common failure mode is delay: marketing generates a weekly report of engaged contacts, the SDR receives it on Monday, and by the time they reach someone, the engagement was three weeks prior and the moment has closed. Signal value decays quickly, particularly for high-intent actions like pricing page visits. The ideal setup routes relevant signals directly into the SDR's CRM queue in near real-time, with a task created automatically when the threshold condition is met. Most modern marketing stacks can do this natively — HubSpot, Salesforce with Pardot or Marketo — though the configuration requires deliberate coordination between marketing ops and sales ops. For teams without that integration in place, a Slack notification to the relevant SDR on signal trigger is a workable lower-tech alternative that beats a weekly spreadsheet.",
+      },
+      {
+        type: "heading",
+        text: "What this approach does not replace",
+      },
+      {
+        type: "paragraph",
+        text: "Inbound-led outbound supplements cold prospecting; it does not replace it. First-party signals only surface people who have already found you, which limits the addressable pool to companies already in your orbit. For a business targeting net-new accounts — particularly one expanding into a new segment, geography, or company size range — the inbound signal layer will be thin or nonexistent in those new markets. Cold outbound to ICPs who have never heard of you remains the mechanism for building pipeline in territory that your marketing has not yet reached. The two approaches work best in combination: first-party signals handle the warm end of the queue, and cold outbound handles the expansion end.",
+      },
+      {
+        type: "heading",
+        text: "Starting before the tech stack is fully in place",
+      },
+      {
+        type: "paragraph",
+        text: "The minimum viable version of this approach requires only two things: a CRM that tracks contact-level activity, and a habit of checking it before beginning outreach. If your website platform writes page views to contact records in your CRM, an SDR can manually scan contacts who have visited key pages in the past two weeks before prospecting from the broader list. It is slower and less systematic than automated signal routing, but it produces the same directional outcome: prospects who have recently shown interest move up the queue. Many teams discover that this manual version surfaces more warm contacts already in the database than expected — leads marked cold after a first-touch sequence ran out, who have been quietly engaging with content ever since. Those contacts deserve a different opening than a genuinely cold prospect, and acting on that difference does not require a sophisticated tech setup.",
+      },
+    ],
+  },
+  {
     slug: "sdr-compensation-framework-outbound-quality",
     category: "Sales Development",
     title: "SDR Compensation Frameworks: How to Structure Pay to Drive Outbound Quality Over Quantity",
