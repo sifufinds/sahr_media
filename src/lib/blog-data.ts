@@ -27,6 +27,147 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-champion-departure-deal-recovery",
+    category: "Sales Development",
+    title: "When Your Champion Leaves: Recovering a B2B Deal After Contact Turnover",
+    excerpt:
+      "Contact turnover during an active sales cycle is one of the most reliable ways for a deal to stall or die. This is the recovery playbook for when your internal champion changes roles, moves company, or goes quiet without explanation.",
+    readTime: "7 min read",
+    date: "4 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B sales teams have a plan for when prospects go quiet, raise objections, or stall on pricing. Few have a plan for when their primary contact inside the account disappears. A champion who moves company, changes role, or exits without warning takes more than a relationship — they take internal context, the history of conversations, the informal advocacy they were doing in the background, and sometimes the allocated budget that only moved because of their sponsorship.",
+      },
+      {
+        type: "paragraph",
+        text: "Deal recovery after contact turnover is achievable in many cases. The teams that succeed at it treat it as a standard scenario with a defined playbook, not an unlucky exception that requires improvisation.",
+      },
+      {
+        type: "heading",
+        text: "What champion departure actually looks like",
+      },
+      {
+        type: "paragraph",
+        text: "It rarely announces itself cleanly. The most common pattern is a gradual change in engagement — responses slow down, meetings get rescheduled, the champion who used to reply within two hours now takes a week. Sometimes this signals internal politics, sometimes the champion's own situation changing — a new responsibility set, a pending announcement, a role change they cannot discuss yet.",
+      },
+      {
+        type: "paragraph",
+        text: "The clearest signals that a contact change is approaching rather than a standard engagement drop: meeting invites stop including other internal stakeholders; responses arrive on unusual days or times; the champion asks process questions about who the main point of contact would be post-implementation or whether there is flexibility on start dates; LinkedIn activity from the contact picks up, particularly engagement with posts about career transitions or new roles.",
+      },
+      {
+        type: "paragraph",
+        text: "When these signals appear, the natural response is to push harder on the deal. That is usually the wrong move. The more useful response is to surface the relationship risk in the next conversation and start building contact breadth while the champion is still engaged and able to introduce you.",
+      },
+      {
+        type: "heading",
+        text: "The 48-hour response window",
+      },
+      {
+        type: "paragraph",
+        text: "When the departure becomes confirmed — a LinkedIn announcement, a bounced email, or a message from their replacement — there is a short window in which to act effectively. After that window, internal memory of the sales process begins to fade, the new contact forms their own opinion of the deal status, and the narrative around whether to continue is set without you.",
+      },
+      {
+        type: "list",
+        heading: "Immediate steps within 48 hours",
+        items: [
+          "Find the most likely successor from public sources — LinkedIn, the company website, any existing email threads that CC'd others",
+          "Send a brief, factual email to the successor referencing the work done to date and asking for a short call to understand how they would like to proceed — not a sales email, a continuity email",
+          "Review all email threads and CRM notes for any other internal names who have been involved and reach out to them directly",
+          "If you have an existing relationship with any senior stakeholder at the account, use it — a brief message acknowledging the change and expressing interest in continuing is better than radio silence",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The email to the new contact should not attempt to restart the full sales motion. It should acknowledge that there is transition happening, reference the concrete progress made, and request a short call. Keeping it factual and low-pressure preserves optionality. A follow-up that feels like a cold sales approach makes the new contact more likely to treat the deal as one they inherited rather than one they should own.",
+      },
+      {
+        type: "heading",
+        text: "Re-entering the account without the original relationship",
+      },
+      {
+        type: "paragraph",
+        text: "The practical challenge is that the new contact or successor has no emotional investment in the deal. The original champion had a reason to care — a business problem they were trying to solve, a project they owned, a commitment they had made internally. The successor may have inherited the evaluation but not the motivation.",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective re-entry is not a replay of the original pitch. It is a discovery conversation that treats the new contact as a decision-maker with their own perspective, while drawing on the groundwork already laid.",
+      },
+      {
+        type: "list",
+        heading: "Questions that open the re-entry conversation",
+        items: [
+          "What is their current understanding of the evaluation? This reveals what was communicated internally before the transition.",
+          "Is the original problem still a priority from their vantage point? The business need may have been downgraded or the internal politics may have changed.",
+          "What does a good outcome look like for them? A successor may have different success criteria than the original champion.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Share documentation from the previous evaluation — proposal, demo notes, any agreed trial terms — as a summary, not as a presumption that the deal is still live. This approach treats the conversation as a qualifying call that happens to have prior context, rather than a sales call that assumes inherited momentum. Many deals reopen on exactly this basis. Some do not, and finding that out early is more valuable than spending months pursuing a deal the new contact was never going to advance.",
+      },
+      {
+        type: "heading",
+        text: "When the champion moves to a new company",
+      },
+      {
+        type: "paragraph",
+        text: "Champion departure sometimes creates opportunity rather than deal risk. A contact who moves to a new company takes their knowledge of your product, their familiarity with your team, and in many cases the problem they were trying to solve — to a new employer who may have exactly the same need.",
+      },
+      {
+        type: "paragraph",
+        text: "Contacts who change roles or companies are frequently in a position where they are evaluating vendors for the new organisation's needs within their first ninety days. They already trust you, already understand your capability, and can often compress the buying cycle significantly because the relationship and reference-check work is already done. The practical outreach is a brief, personal message — not a formal sales email — acknowledging the move and noting genuine interest in staying connected. If their new role clearly fits your offering, say so directly. If the fit is not immediately obvious, the follow-up can wait until their remit becomes clearer.",
+      },
+      {
+        type: "callout",
+        text: "A champion who becomes a buyer somewhere new is one of the highest-conversion leads you will ever work. Treat departures as a prospect creation event, not just a deal risk event.",
+      },
+      {
+        type: "heading",
+        text: "Building redundancy before it matters",
+      },
+      {
+        type: "paragraph",
+        text: "The more important lesson from most champion departure scenarios is that the dependency on a single contact was unnecessary. Multi-threading — engaging with multiple stakeholders inside the buying organisation — is a standard discipline, but the specific habit relevant here is ensuring that at least one other person inside the account understands what is being evaluated and why before the cycle has run for more than eight weeks.",
+      },
+      {
+        type: "paragraph",
+        text: "Some champions are protective of the evaluation, managing access to their organisation's decision-makers carefully. Working around that too aggressively damages the relationship. But it is usually possible to build some redundancy without overreaching: ask the champion to include others in a progress update call or technical review; suggest a shared stakeholder summary document that the champion can circulate internally; note every other name that appears in email threads and ensure each has had at least one direct exchange with someone from your side. If a deal has been live for more than eight weeks with only one internal contact, that single point of failure should be flagged in the CRM and addressed in the next customer conversation.",
+      },
+      {
+        type: "heading",
+        text: "Deciding when to continue and when to close out",
+      },
+      {
+        type: "paragraph",
+        text: "Not every deal that loses its champion is worth pursuing. The honest evaluation is whether the business need that drove the original evaluation is still present, still prioritised, and owned by someone in the organisation who has both the authority and the motivation to advance it.",
+      },
+      {
+        type: "list",
+        heading: "Deals worth continuing to pursue",
+        items: [
+          "The underlying business problem is strategic rather than a personal initiative of the departed champion",
+          "There is an identifiable successor or related stakeholder willing to engage",
+          "The evaluation has reached a stage where internal effort has already been invested — pilot, technical review, formal proposal — giving the new owner reason to progress something the organisation has committed time to",
+        ],
+      },
+      {
+        type: "list",
+        heading: "Deals worth closing out",
+        items: [
+          "The need was driven by the champion's own project agenda, which no longer has an internal owner",
+          "The new contact has no context, no interest in re-engaging, and the company is in a period of transition — merger, restructure, budget freeze",
+          "Multiple direct outreach attempts to multiple internal contacts yield no response",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Closing out a deal is not failure — it is accurate pipeline management. A deal with no qualified owner inside the account is not a deal. Recording the departure clearly in the CRM and setting a future trigger date to revisit keeps the account in scope without cluttering the active pipeline with deals that no longer have a path forward.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-territory-planning-account-coverage",
     category: "Sales Development",
     title: "SDR Territory Planning: How to Divide and Assign Accounts for Maximum Outbound Coverage",
