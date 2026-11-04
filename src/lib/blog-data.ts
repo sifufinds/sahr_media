@@ -27,6 +27,127 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-territory-planning-account-coverage",
+    category: "Sales Development",
+    title: "SDR Territory Planning: How to Divide and Assign Accounts for Maximum Outbound Coverage",
+    excerpt:
+      "Most outbound programmes run on informal account assignment until coverage gaps start hurting pipeline. Here is a practical framework for dividing target accounts across your SDR team deliberately, before the gaps appear.",
+    readTime: "6 min read",
+    date: "4 Nov 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Territory planning is the unglamorous side of SDR management. By the time most outbound programmes mature enough to need it, the team has usually been operating under an informal system that works well enough — whoever spots an account first owns it, senior reps default to the best accounts, and nobody quite knows why coverage feels uneven. That informal system eventually breaks down. Accounts fall through gaps, effort duplicates across the same targets, and the SDR team's collective work fails to systematically cover the addressable market. Formal territory planning is the fix — not a bureaucratic exercise, but a deliberate mechanism for ensuring that every high-value account in the addressable market receives the right level of outbound attention.",
+      },
+      {
+        type: "heading",
+        text: "What territory planning means in outbound",
+      },
+      {
+        type: "paragraph",
+        text: "Territory planning is the process of dividing your total addressable market into defined segments and assigning each segment to a specific SDR. The purpose is to ensure complete coverage, avoid duplication, and align rep effort with account potential. In outbound sales, the alternative to deliberate territory assignment is usually implicit geographic or alphabetical assignment — which produces uneven workloads and leaves entire segments unworked because they happened to fall to reps who prioritised elsewhere.",
+      },
+      {
+        type: "paragraph",
+        text: "Territory planning is distinct from account tiering, which ranks accounts by attractiveness within a territory. Territory planning sets the boundaries; account tiering determines the outreach sequence within those boundaries. Both are necessary components of a managed outbound programme, but they operate at different levels. You can have an excellent tiering model and still generate poor coverage if the territories are drawn badly.",
+      },
+      {
+        type: "heading",
+        text: "The dimensions you can carve by",
+      },
+      {
+        type: "paragraph",
+        text: "Territory divisions work best when they reflect dimensions your SDR team can act on meaningfully. The common approaches are:",
+      },
+      {
+        type: "list",
+        items: [
+          "Geographic: dividing by region, country, or city. Works well for businesses with field sales components or where local market knowledge matters — construction industry prospecting is a good example, where the connection to regional procurement networks is commercially meaningful.",
+          "Vertical: dividing by industry sector such as construction, SaaS, logistics, or professional services. Works well when your messaging and research work differs significantly across sectors, since an SDR covering a single vertical builds useful contextual knowledge quickly.",
+          "Company size: dividing by headcount band or revenue range. Works well when your product-market fit or pricing tier is tightly correlated with size, and when the typical buying process and stakeholders differ materially between small and large accounts.",
+          "Named account lists: specific accounts assigned to specific SDRs without reference to a broader segmentation logic. Works well for high-value ABM-style targets where relationship continuity matters and you want a single point of contact across a long sales cycle.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Most teams combine dimensions rather than relying on a single one. A common combination for SaaS companies with multi-sector products is to carve first by company size — separating mid-market from enterprise accounts — and then within each size band by vertical. This keeps messaging work coherent: an SDR focusing on 100-500 employee logistics companies builds meaningful sector knowledge quickly. It also keeps account volumes manageable without fragmenting the territory into segments too small to generate consistent pipeline.",
+      },
+      {
+        type: "heading",
+        text: "Sizing territories to SDR capacity",
+      },
+      {
+        type: "paragraph",
+        text: "The practical question that determines everything else is: how many accounts can a single SDR actively work at any point in time? This varies by outreach intensity, sequence length, and the research requirements of the market. A territory with active cadences running on 50 accounts simultaneously, using 5-7 touch points per cadence over three weeks, is a different workload from a territory where an SDR sends heavily personalised single-thread sequences to 20 accounts at a time.",
+      },
+      {
+        type: "paragraph",
+        text: "A workable principle for teams running standard multi-touch sequences: an SDR should have a total territory pool of 300-500 target accounts, with roughly 10-15% of those in an active sequence at any point. The pool provides enough volume to refresh the active sequence without immediately recycling accounts that already received a full outreach run in the previous quarter. Territories that are too large produce shallow coverage — the SDR skims the most accessible companies and never reaches the bottom third. Territories that are too small generate artificial pressure to prospect outside the ICP to hit activity numbers.",
+      },
+      {
+        type: "heading",
+        text: "Static versus rotating territories",
+      },
+      {
+        type: "paragraph",
+        text: "Territory assignment can be static — an SDR owns a defined account set until they leave or are reassigned — or rotating, where account pools are refreshed on a quarterly or semi-annual basis. Each model suits different markets.",
+      },
+      {
+        type: "paragraph",
+        text: "Static territories compound relationship depth over time. An SDR who has worked the same 300 construction companies for twelve months understands the seasonality of that market, recognises names they have spoken to before, and can reference previous conversations in ways that restart-from-zero outreach cannot. Static territories are particularly useful in markets where relationship continuity is commercially meaningful, such as construction procurement, where the same procurement and commercial teams make decisions across multiple projects and over multiple years.",
+      },
+      {
+        type: "paragraph",
+        text: "Rotating territories work better in markets where accounts naturally cycle through buying windows more frequently. SaaS SMB is a good example: funding rounds, headcount growth, and product changes repeatedly open outbound opportunities at the same companies. If the account pool is refreshed by market events anyway, rotation allows the SDR team to build broader market knowledge collectively and prevents territorial politics from forming around high-value names. The practical cost of rotation is lost context — the new SDR on a territory starts each cycle without the relationship history their predecessor built.",
+      },
+      {
+        type: "heading",
+        text: "Handling territory gaps and team changes",
+      },
+      {
+        type: "paragraph",
+        text: "Territory plans are most useful when they also specify what happens during gaps — an SDR out on leave, an open vacancy, or a departing rep whose accounts need reassigning. Without a plan for this, high-potential accounts in an unmanned territory typically go unworked for weeks while the team figures out temporary coverage.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical solution is to designate coverage rules at the time the territory is designed, not when the gap occurs. For accounts in the top tier — highest potential, furthest along in outreach — specify a named SDR who picks them up during gaps. For mid-tier accounts, specify a default queue. For low-tier accounts, accept that coverage will be delayed. This is a deliberate prioritisation call, not an oversight, and treating it as such avoids the last-minute scramble that tends to produce low-quality outreach to accounts that deserved better.",
+      },
+      {
+        type: "callout",
+        text: "Territory coverage during team changes is a leading indicator of outbound programme maturity. Teams that have a written rule for account reassignment before a rep leaves are almost always the ones whose pipeline holds up through headcount changes.",
+      },
+      {
+        type: "heading",
+        text: "Running territory reviews",
+      },
+      {
+        type: "paragraph",
+        text: "Territory design made in January will not reflect market reality in June. Companies cross revenue thresholds, merge with competitors, enter new verticals, or fall out of the ICP as their own business changes. A quarterly territory review — working through each account pool, removing companies that no longer fit, adding accounts that have entered the ICP, and adjusting territory boundaries if one SDR's volume has grown materially larger than another's — keeps the system calibrated without requiring a full redesign.",
+      },
+      {
+        type: "paragraph",
+        text: "The review also surfaces territory-level intelligence that is otherwise lost. An SDR covering mid-market construction companies may have found that businesses at a specific growth stage respond differently to outreach framing. That observation, shared in a review, can recalibrate how other SDRs approach similar accounts in their own territories. This is the kind of collective learning that ad-hoc coverage arrangements rarely produce.",
+      },
+      {
+        type: "paragraph",
+        text: "A territory review that runs efficiently covers account pool health, any boundary adjustments needed, and rep feedback on what is and is not working in the market. Forty-five to sixty minutes per SDR per quarter is sufficient. Keeping the agenda structured prevents it from collapsing into a deal review — territory planning is about the design of the addressable market coverage, not individual account progress, which belongs in the pipeline review.",
+      },
+      {
+        type: "heading",
+        text: "What good territory design actually produces",
+      },
+      {
+        type: "paragraph",
+        text: "The teams that benefit most from formal territory planning are usually the ones that resisted it longest. When the SDR team is small — two or three people — informal systems feel simpler and they often are. The problems surface as the team grows: a fourth or fifth SDR added without formal territory design tends to either duplicate work already done or inherit the accounts nobody else wanted. Neither produces the pipeline density that growing headcount is supposed to deliver.",
+      },
+      {
+        type: "paragraph",
+        text: "Formal territory planning gives SDR managers the operational visibility to manage coverage as a resource allocation problem. Which segments of the ICP are systematically underworked? Which SDRs are carrying territories that exceed a reasonable capacity, producing shallow outreach? Which accounts have been touched multiple times without progress and might benefit from a fresh rep perspective? These are management questions that require a defined territory structure to answer. Without it, the data exists but the framework for acting on it does not.",
+      },
+    ],
+  },
+  {
     slug: "inbound-led-outbound-first-party-signals-sdr-prioritisation",
     category: "SaaS Lead Generation",
     title: "Inbound-Led Outbound: Using First-Party Engagement Data to Prioritise Your SDR's Prospecting List",
