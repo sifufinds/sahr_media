@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "ae-self-sourced-pipeline-account-executive-prospecting",
   "b2b-mid-market-vs-enterprise-sdr-approach",
   "b2b-champion-departure-deal-recovery",
   "b2b-sdr-territory-planning-account-coverage",

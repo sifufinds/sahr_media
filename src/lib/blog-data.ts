@@ -27,6 +27,142 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "ae-self-sourced-pipeline-account-executive-prospecting",
+    category: "Sales Development",
+    title: "Why Account Executives Should Self-Source Pipeline — and How to Build That Motion",
+    excerpt:
+      "Teams that rely entirely on SDR-sourced pipeline for AE quotas leave revenue exposed when SDR capacity drops or inbound slows. Here is how to build an AE self-sourcing motion that adds resilience without duplicating or undermining SDR activity.",
+    readTime: "8 min read",
+    date: "5 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "In teams with a healthy SDR function, account executives can go long stretches without having to prospect for themselves. The meeting queue is full, quota is covered, and self-sourcing looks unnecessary. The dependency only becomes visible when something changes — an SDR leaves, inbound volume drops, a campaign misses, or the SDR team is restructured — and suddenly AE pipeline is thin and there is no muscle memory for sourcing from scratch.",
+      },
+      {
+        type: "paragraph",
+        text: "Building an AE self-sourcing motion is not a signal that the SDR function is failing. It is an acknowledgement that revenue resilience requires more than one source of pipeline and that AEs have distinct advantages in certain prospecting scenarios that SDRs do not. Used correctly, AE self-sourcing covers territory and uses channels that complement the SDR motion rather than duplicating it.",
+      },
+      {
+        type: "heading",
+        text: "Why AEs have an edge in certain prospecting scenarios",
+      },
+      {
+        type: "paragraph",
+        text: "SDRs are effective at high-volume, top-of-funnel outreach — identifying cold prospects, breaking through inboxes, and booking introductory meetings at scale. That is a specialised skill and it is where their time should be concentrated. But there are prospecting scenarios where an SDR's credibility ceiling limits what is possible, and an AE's seniority and commercial context is a genuine asset.",
+      },
+      {
+        type: "paragraph",
+        text: "A cold email from an SDR to a VP of Sales at a 400-person SaaS company will be evaluated as a prospecting attempt. The same message from an account executive with ten years in B2B sales, sent with a specific business observation rather than a generic pitch, is more likely to be treated as a peer-level conversation. AEs can also draw on existing customer relationships — introductions, references, and conversation threads — in ways that fall outside the SDR's natural workflow.",
+      },
+      {
+        type: "list",
+        heading: "The prospecting scenarios where AEs have a natural edge",
+        items: [
+          "Warm introductions from existing customers to prospective accounts in the same sector",
+          "Re-engaging contacts who have moved from a customer account to a new company — sometimes called alumni outreach",
+          "Direct outreach to senior stakeholders at high-value target accounts where SDR cold outreach has not progressed",
+          "Accounts in the AE's named territory that have been unresponsive to SDR sequences for 60 or more days",
+          "Referrals from closed-lost deals where the contact had a positive experience with the sales process itself",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What AE outreach looks like in practice",
+      },
+      {
+        type: "paragraph",
+        text: "AE self-sourced outreach should not look like SDR outreach sent from a different name. The tone, the framing, and the ask are different. Where an SDR's first message typically introduces the company and establishes relevance, an AE can open with a commercial observation — a point about how they see a problem showing up across their current customer base — and invite a conversation from that angle. The message carries more credibility because the AE is not selling from cold context; they are sharing informed perspective.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical volume is also different. SDRs manage hundreds of active prospects across structured sequences. AEs self-sourcing should focus on a tighter set — typically 20 to 30 of the most strategically important accounts in their territory — with individually crafted outreach rather than a templated sequence. The objective is not to match the SDR's volume but to open conversations in accounts the SDR motion is not currently progressing.",
+      },
+      {
+        type: "callout",
+        text: "AE self-sourcing fails when it is treated as light SDR work. The approach earns its place only when AEs use it in the specific scenarios where their seniority and existing relationships create a genuine advantage — not as a fallback when the SDR queue looks thin.",
+      },
+      {
+        type: "heading",
+        text: "Using customer relationships as a pipeline source",
+      },
+      {
+        type: "paragraph",
+        text: "One of the clearest AE prospecting advantages is the ability to use existing customer relationships to open doors to new accounts. A satisfied customer in the same sector as a target prospect is a credible reference point. An introduction from that customer — whether a direct email, a LinkedIn connection, or a mention in a conversation — changes the dynamic of the first outreach significantly.",
+      },
+      {
+        type: "paragraph",
+        text: "AEs who build a habit of asking for introductions from closed accounts are building a systematic pipeline channel. This does not need to be a formal programme. At the point where a customer has seen initial value from the engagement — typically after the first renewal or a successful onboarding milestone — a natural ask is whether they know anyone dealing with the same challenges. Most customers who had a positive buying experience are willing to make an introduction when asked directly.",
+      },
+      {
+        type: "paragraph",
+        text: "Contacts who move from a customer company to a new role elsewhere are another underused signal. If the new company fits your ICP and the contact had a good experience with your product or your team, the conversation starts from established trust rather than from zero. These alumni contacts should be on every AE's prospecting shortlist — they represent genuine warm pipeline that requires far less effort to open than a cold account.",
+      },
+      {
+        type: "heading",
+        text: "LinkedIn as an AE relationship-building channel",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn plays a different role in AE self-sourcing than in SDR outreach. SDRs typically use it as a messaging channel — sending connection requests and InMail as part of a multi-channel sequence. AEs can use it as a relationship-building and credibility-building channel over a longer horizon, lowering the threshold for a later direct conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "Sharing specific insight about challenges their target accounts face — not promotional content about their own company, but substantive observations about how buyers in a given sector are approaching a problem — builds visibility with the right audience over time. When an AE eventually reaches out directly to someone who has been reading their posts for a few months, the conversation starts with recognition rather than from cold. This requires consistency and patience, but for AEs working a named territory of high-value accounts it is a worthwhile investment.",
+      },
+      {
+        type: "list",
+        heading: "Practical LinkedIn habits for AEs building visibility in a target sector",
+        items: [
+          "Post two or three times per week — focus on specific observations about challenges your buyers face, not company announcements",
+          "Comment substantively on posts from target contacts rather than just reacting — a thoughtful comment builds more visibility than passive engagement",
+          "Connect with stakeholders at named accounts as a first step, well before any direct outreach",
+          "Share useful frameworks or process breakdowns without a sales angle, to demonstrate thinking rather than intent to sell",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Coordinating with the SDR team to avoid confusion",
+      },
+      {
+        type: "paragraph",
+        text: "The practical risk in AE self-sourcing is that an AE reaches out to an account already being worked by an SDR, creating a confusing experience for the prospect and unnecessary tension internally. This is avoidable with straightforward coordination.",
+      },
+      {
+        type: "paragraph",
+        text: "The cleanest model is to designate AE-sourced accounts explicitly in the CRM. If an AE wants to self-source an account, they mark it and the SDR team pauses outreach for that account while the AE works it. If an account is in an active SDR sequence, the AE can be briefed on its status and decide whether to work in parallel or wait. The key is that ownership is explicit and both parties know who is working what.",
+      },
+      {
+        type: "paragraph",
+        text: "In well-run teams this is a coordination protocol rather than a point of conflict. SDRs have more accounts than they can work deeply at any given time, and AEs adding coverage on strategic accounts they are well-positioned to open is a net positive for overall pipeline. Problems arise when coordination is informal and two people are sending separate messages to the same contact without awareness of each other.",
+      },
+      {
+        type: "heading",
+        text: "What to track for AE self-sourced pipeline",
+      },
+      {
+        type: "paragraph",
+        text: "Self-sourced pipeline should be tracked separately from SDR-sourced pipeline. The purpose is not to rank sources against each other but to give sales leadership an accurate picture of where opportunities are coming from and how each source is converting. If AE self-sourcing is producing a materially different conversion rate from SDR-sourced pipeline, that is useful signal — it may indicate that the accounts AEs choose to self-source are more qualified at the point of entry, or it may suggest that the SDR sourcing criteria need adjustment.",
+      },
+      {
+        type: "list",
+        heading: "Metrics worth tracking for AE self-sourced pipeline",
+        items: [
+          "Volume: how many opportunities per quarter are AE-sourced versus SDR-sourced",
+          "Conversion rate from first meeting to qualified opportunity, by source",
+          "Average deal size and sales cycle length by source — AE-sourced deals are often in higher-value accounts",
+          "Win rate by source, tracked over at least two quarters to get a reliable signal",
+          "Sub-source breakdown within AE-sourced: introduction, alumni outreach, direct cold, or LinkedIn-warmed",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Teams that track these numbers consistently often find that AE self-sourced pipeline, though lower in volume than SDR-sourced, carries a higher win rate and larger average deal size. That is not a reason to shift resources away from SDR outreach — it is a reason to ensure the AE self-sourcing motion is deliberate and consistent rather than ad hoc.",
+      },
+    ],
+  },
+  {
     slug: "b2b-mid-market-vs-enterprise-sdr-approach",
     category: "Sales Development",
     title: "Mid-Market vs Enterprise SDR: Why the Same Outreach Approach Won't Work for Both",
