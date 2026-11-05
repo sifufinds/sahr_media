@@ -27,6 +27,136 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-mid-market-vs-enterprise-sdr-approach",
+    category: "Sales Development",
+    title: "Mid-Market vs Enterprise SDR: Why the Same Outreach Approach Won't Work for Both",
+    excerpt:
+      "Most SDR teams run a single outreach playbook across all segments. The result is average performance in both. Here is how to build separate motions for mid-market and enterprise accounts — and when each one applies.",
+    readTime: "7 min read",
+    date: "5 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "A common pattern in growing B2B teams: the SDR team is performing adequately in mid-market and struggling in enterprise. Leadership assumes the pipeline gap is a volume problem and asks the team to send more. The actual problem is that the outreach was designed for mid-market buying behaviour and was never adapted for enterprise. The fix is not more of the same — it is a different approach.",
+      },
+      {
+        type: "paragraph",
+        text: "Mid-market and enterprise are not just different sizes of the same thing. They have different buying structures, different timelines, different internal politics, and different decision-making norms. An outreach motion that works for one will consistently underperform in the other if left unchanged.",
+      },
+      {
+        type: "heading",
+        text: "How mid-market and enterprise buying actually differ",
+      },
+      {
+        type: "paragraph",
+        text: "In mid-market — typically companies with somewhere between 50 and 500 employees — buying decisions often sit with a small group, frequently a founder or functional VP who feels the problem directly, with limited procurement involvement. The person who feels the pain is often the person who signs. The sales cycle is shorter because there are fewer people to involve and less internal coordination required. Mid-market buyers tend to move from evaluation to decision faster when the value proposition is clear.",
+      },
+      {
+        type: "paragraph",
+        text: "Enterprise operates differently. Decisions involve multiple stakeholders across different functions — a business champion, an IT or security review, procurement, finance, and in many cases a legal or compliance team. The person who feels the problem is rarely the person who approves the budget or signs the contract. Enterprise sales cycles are longer not because buyers are indecisive but because the internal process requires that length. Outreach that assumes enterprise buyers behave like mid-market buyers will burn goodwill and produce poor results.",
+      },
+      {
+        type: "list",
+        heading: "The practical differences that affect SDR outreach",
+        items: [
+          "Mid-market: 1–3 stakeholders in the buying decision; enterprise: 5–10 or more across functions",
+          "Mid-market: 4–12 week sales cycle from first meeting to decision; enterprise: 3–18 months",
+          "Mid-market: limited procurement process, often informal approval; enterprise: formal RFP, vendor onboarding, security questionnaires",
+          "Mid-market: individual pain motivates action; enterprise: organisational risk and strategic fit motivates action",
+          "Mid-market: a single champion can often drive a decision; enterprise: consensus is required and no single champion can override it",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Mid-market outreach: directness and compression",
+      },
+      {
+        type: "paragraph",
+        text: "Mid-market outreach works best when it is direct, specific to the company's situation, and moves quickly toward a conversation about the problem. The buyer is typically a VP or director who is close to the work, recognises the symptoms you are describing, and can act relatively quickly if the value is apparent. Long preambles, excessive personalisation for its own sake, and overly formal approaches tend to slow things down rather than help.",
+      },
+      {
+        type: "paragraph",
+        text: "Sequence design for mid-market should reflect this. A sequence of 7–10 touches over three to four weeks is typically appropriate. The first few steps establish relevance; the middle steps offer insight or challenge conventional thinking; the final steps are brief check-ins or new angles. Phone calls work well in mid-market because the people you are calling are accessible and move fast.",
+      },
+      {
+        type: "list",
+        heading: "What works in mid-market outreach",
+        items: [
+          "Leading with the specific problem or outcome rather than product features",
+          "Short emails — three to five sentences — that make a single clear point",
+          "Direct asks for a 20-minute call with a specific time offer",
+          "Referencing something specific about the company such as recent growth, tech stack, or job postings to show research without overloading the message",
+          "Phone calls on Tuesday through Thursday mornings, treated as a primary channel rather than a supplement",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Enterprise outreach: patience and threading",
+      },
+      {
+        type: "paragraph",
+        text: "Enterprise outreach requires structural patience. The buying timeline is longer, the champion you first reach may not have full budget authority, and the number of stakeholders who need to be involved means that any single contact moving quickly is not the same as the deal moving quickly. Treating enterprise outreach with mid-market urgency is a reliable way to push contacts away — it signals a misunderstanding of how enterprise buying works.",
+      },
+      {
+        type: "paragraph",
+        text: "In enterprise, the job of outreach is not primarily to book a demo. It is to find and develop an internal champion who has the motivation to drive a process internally and the credibility to bring others along. That takes more relationship-building in the early stages, more content that is useful rather than purely promotional, and a longer sequence horizon. Enterprise sequences often run 12–16 touches over six to ten weeks, with intentional gaps that allow time for internal conversations to happen without pressure.",
+      },
+      {
+        type: "list",
+        heading: "What works in enterprise outreach",
+        items: [
+          "Leading with strategic insight relevant to their industry or function rather than a problem-solution pitch",
+          "Multi-threading from the start — identifying 3–5 stakeholders and reaching out to multiple simultaneously",
+          "Content sharing — a relevant report, case study, or framework — as an opening move rather than immediately asking for time",
+          "Following trigger events such as leadership changes, funding announcements, or acquisitions to time outreach when internal priorities are in flux",
+          "Longer email copy that earns the ask with more context, particularly for senior contacts who want to see thinking before agreeing to a conversation",
+          "LinkedIn as a research and warming tool, not just a messaging channel",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Messaging frame for each segment",
+      },
+      {
+        type: "paragraph",
+        text: "The message frame that lands in mid-market is usually a pain-and-outcome frame: companies like yours typically struggle with X — teams that address it this way tend to see Y. The mid-market buyer who feels the pain will immediately recognise it and respond. The frame is personal and tactical.",
+      },
+      {
+        type: "paragraph",
+        text: "Enterprise messaging works better at a strategic level. The champion you are cultivating needs to be able to sell internally, and that means your message needs to give them a compelling case to make to their own stakeholders. Pointing to how peer companies are approaching a problem and what the operational impact has been is more useful to an enterprise champion than a first-person pain acknowledgement. You are giving them the building blocks for an internal business case, not just validating their frustration.",
+      },
+      {
+        type: "callout",
+        text: "A practical test: could your enterprise prospect take your email and present the core argument to their internal stakeholders without additional work? If not, you are writing for a mid-market buyer, not an enterprise champion.",
+      },
+      {
+        type: "heading",
+        text: "How qualification and handoff differ",
+      },
+      {
+        type: "paragraph",
+        text: "In mid-market, a qualified meeting usually means you have confirmed the problem is a priority, identified budget authority, and established that the timing is right for an evaluation. The handoff to an account executive should be clean and fast — mid-market deals move on momentum, and delays in handoff create friction that is hard to recover.",
+      },
+      {
+        type: "paragraph",
+        text: "Enterprise qualification is a process rather than a moment. The first meeting is rarely a qualification point — it is an entry point. The SDR's job in enterprise accounts extends beyond booking the initial meeting. They should stay involved in multi-threading the account while the account executive leads the main conversation, ensuring the number of internal relationships grows rather than the deal becoming single-threaded. Enterprise deals that go quiet are often single-threaded deals where the one contact went silent — and the SDR is best positioned to open other doors.",
+      },
+      {
+        type: "heading",
+        text: "Deciding which motion to run where",
+      },
+      {
+        type: "paragraph",
+        text: "A practical split for most B2B teams: define your mid-market band explicitly by company size or revenue, and treat anything above it as enterprise. Apply a different sequence, different messaging architecture, and different KPIs to each. Mid-market SDRs should be measured primarily on meetings booked and show rate. Enterprise SDRs or those managing enterprise accounts should also be measured on account penetration depth — how many stakeholders have been engaged per account, not just meetings booked.",
+      },
+      {
+        type: "paragraph",
+        text: "Many teams resist this split because it requires more sequence management and training. The alternative is a blended approach that consistently underperforms in one or both segments. For teams already running territory-based models, assigning enterprise territory to more experienced SDRs and mid-market to those earlier in their ramp is a practical way to match skill level to complexity without requiring a full programme rebuild.",
+      },
+    ],
+  },
+  {
     slug: "b2b-champion-departure-deal-recovery",
     category: "Sales Development",
     title: "When Your Champion Leaves: Recovering a B2B Deal After Contact Turnover",
