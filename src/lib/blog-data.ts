@@ -27,6 +27,120 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-pilot-proof-of-concept-saas-sales-structure",
+    category: "SaaS Lead Generation",
+    title: "B2B Pilot and Proof-of-Concept Deals: How to Structure Them So They Convert",
+    excerpt:
+      "Unstructured POCs are where SaaS deals go to stall. Here is how to build a pilot framework that creates commitment, surfaces objections early, and gives both sides a clear basis for a decision.",
+    readTime: "7 min read",
+    date: "5 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "When a SaaS prospect asks for a proof-of-concept before committing, the typical sales response is to say yes and hope for the best. A trial environment gets provisioned, the champion is told to explore, and the account executive waits for feedback that often does not come. What follows is a familiar pattern: the POC runs for weeks beyond the agreed window, internal champions lose momentum, the buying committee's attention shifts elsewhere, and the opportunity either stalls or quietly dies without a decision being reached.",
+      },
+      {
+        type: "paragraph",
+        text: "The POC itself is not the problem. For complex SaaS products, a structured pilot is often the right path — it surfaces technical objections early, gives internal champions the evidence they need to build a business case, and creates a natural milestone for a commercial conversation. The problem is that most POCs are run without structure, which means they create ambiguity rather than resolve it. A well-structured pilot does the opposite: it sets up a clear decision by giving both sides a defined endpoint, shared success criteria, and an explicit commitment from the buyer before the trial begins.",
+      },
+      {
+        type: "heading",
+        text: "What makes a POC succeed or fail before it starts",
+      },
+      {
+        type: "paragraph",
+        text: "The outcome of a pilot is largely determined before it begins, in the conversations that precede it. The two most important things to establish upfront are what success looks like and who inside the buyer's organisation is accountable for the evaluation. Without defined success criteria, any outcome can be interpreted as neither a clear yes nor a clear no. Without named internal ownership, the pilot becomes something that happens around the edges of people's real work rather than something they are actively driving toward a decision.",
+      },
+      {
+        type: "paragraph",
+        text: "Success criteria should be specific enough to be measurable. Something like processing 500 inbound leads through a routing workflow without manual intervention, or reducing average response time for inbound enquiries from four hours to under 30 minutes, gives both sides a testable standard. The AE running the deal should push to convert the buyer's vague aspirations into specific, testable statements before agreeing to start the POC. This conversation also reveals whether the buyer has thought seriously about the problem or is exploring out of curiosity without real urgency.",
+      },
+      {
+        type: "list",
+        heading: "Questions to answer with the buyer before a pilot begins",
+        items: [
+          "What specific outcome, measured how, would constitute a successful POC?",
+          "Who inside your team will be responsible for running the evaluation?",
+          "What is the timeframe — a hard start date and a hard end date?",
+          "Who else inside your organisation needs to sign off on the outcome before a decision can be made?",
+          "What would need to be true for this to become a full commitment after the pilot?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Getting stakeholder commitment before provisioning anything",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most effective practices for improving POC conversion is to treat the pilot agreement itself as a mini-close. Before provisioning a trial environment or investing resource in the technical setup, the AE should obtain explicit acknowledgement from the champion — and ideally from the economic buyer — that if the success criteria are met, the company will proceed to full commercial terms. This does not need to be adversarial. It is simply a reasonable ask: if we can demonstrate the agreed outcomes over the next four weeks, do you see any reason you would not move forward?",
+      },
+      {
+        type: "paragraph",
+        text: "The purpose of this ask is to surface objections before the pilot rather than after. If the answer reveals a concern about budget, timing, or internal sign-off that the champion has not mentioned before, that is important information. A buyer who cannot answer this question clearly is probably not at the stage where a formal POC makes sense. Pushing a pilot through in those circumstances does not accelerate the deal — it defers a conversation that needs to happen.",
+      },
+      {
+        type: "callout",
+        text: "A POC is a sales tool, not a support ticket. Its purpose is to generate evidence that removes the remaining objections between the current stage and a closed deal. If those objections are not commercial, a pilot will not resolve them.",
+      },
+      {
+        type: "heading",
+        text: "Structuring the pilot to maintain momentum",
+      },
+      {
+        type: "paragraph",
+        text: "A structured pilot has three phases: a kickoff, one or two midpoint check-ins, and a close conversation. Each phase should have a named meeting on the calendar before the pilot begins, agreed between the AE and the champion when the terms are set. Without these checkpoints, the pilot drifts, the champion becomes the gatekeeper rather than the driver, and the AE has no legitimate reason to maintain contact throughout.",
+      },
+      {
+        type: "paragraph",
+        text: "The kickoff meeting is not a product walkthrough. It should confirm the success criteria in writing, name the people involved in the evaluation, agree on how progress will be tracked, and establish who will join the close conversation. Done well, it treats the pilot as a shared project between the sales team and the buyer's team, not as a unilateral vendor exercise.",
+      },
+      {
+        type: "paragraph",
+        text: "Midpoint check-ins should not be framed as how is it going conversations. They should reference the agreed success criteria directly: which metrics are on track, which need attention, and what either side needs to do to stay on course. This keeps the evaluation focused and prevents the pilot from drifting into a general product exploration that never converges on a decision.",
+      },
+      {
+        type: "heading",
+        text: "What to do when the pilot stalls mid-run",
+      },
+      {
+        type: "paragraph",
+        text: "If the champion has gone quiet during a pilot, the most likely explanation is that the evaluation has fallen down their priority list rather than that it has failed. A direct message to the champion acknowledging that evaluations are hard to run around competing priorities, and asking what the AE can do to help move things forward, is usually better received than a chasing email disguised as a check-in.",
+      },
+      {
+        type: "paragraph",
+        text: "If the stall is because the internal team has not had time to run the technical side of the evaluation, the best response is often to offer to do more of the work on behalf of the buyer — running configuration, preparing demonstration data, or drafting a summary of what the platform would look like in their environment. This reduces the activation energy for the champion and keeps the pilot progressing. It also signals that the vendor is invested in the success of the evaluation rather than simply waiting for a decision.",
+      },
+      {
+        type: "heading",
+        text: "Closing from a POC without pressure",
+      },
+      {
+        type: "paragraph",
+        text: "The close conversation at the end of a POC should not feel like a sales call. It should feel like a decision review — a structured conversation where the AE and the champion walk through the agreed success criteria, assess what was demonstrated, identify any remaining concerns, and determine what the next step is. If the success criteria were met, the AE is not asking the buyer to make a leap of faith; they are asking them to act on evidence they agreed upfront would constitute a reasonable basis for a decision.",
+      },
+      {
+        type: "paragraph",
+        text: "This is the structural advantage of a well-run pilot. The close is built into the upfront agreement — it is a point where both sides come back to the question they agreed to answer, rather than a fresh ask that the buyer was not prepared for. Remaining objections at this stage are usually specific and negotiable: pricing, contract terms, implementation timing. Generic concerns about whether the platform is right for the buyer's needs should have been addressed during the pilot itself.",
+      },
+      {
+        type: "list",
+        heading: "Signs a POC is on track to convert",
+        items: [
+          "The champion is actively running the evaluation and sharing progress without prompting",
+          "Internal stakeholders beyond the champion have been introduced to the AE's team",
+          "The buyer has started asking questions about implementation, onboarding, or rollout",
+          "The midpoint review generated specific, solvable concerns rather than vague hesitation",
+          "The close conversation is confirmed with the right people in the room",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "POCs that convert well do not succeed because the product performed flawlessly during the trial. They succeed because the sales team built a structure that made a clear decision the natural outcome — with committed ownership, agreed criteria, and a process that the buyer and the AE ran together toward a shared endpoint.",
+      },
+    ],
+  },
+  {
     slug: "ae-self-sourced-pipeline-account-executive-prospecting",
     category: "Sales Development",
     title: "Why Account Executives Should Self-Source Pipeline — and How to Build That Motion",
