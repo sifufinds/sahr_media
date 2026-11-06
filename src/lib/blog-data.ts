@@ -27,6 +27,131 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-hiring-performance-prediction",
+    category: "Sales Development",
+    title: "Hiring B2B SDRs: The Signals That Predict Performance Before the First Dial",
+    excerpt:
+      "SDR interviews are easy to pass for the wrong candidates and easy to fail for the right ones. Here is how to redesign the hiring process around the signals that actually predict outbound performance.",
+    readTime: "7 min read",
+    date: "6 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "SDR hiring has an unusually high miss rate compared to most other sales roles. The core problem is that the skills required to perform well in an interview — the ability to present confidently, answer structured questions fluently, and project enthusiasm — overlap very little with the skills required to perform well in an outbound role. Cold outreach demands persistence under repeated rejection, genuine curiosity about a prospect's business, the ability to improvise when a call goes off-script, and the discipline to maintain activity volume when results are slow. None of those things are easy to observe in a 45-minute interview.",
+      },
+      {
+        type: "paragraph",
+        text: "The result is that companies frequently hire SDRs who interview well but struggle to convert their activity into pipeline, while passing on candidates who interview awkwardly but would have been strong performers. The fix is not to get better at judging interview performance — it is to change what the hiring process tests for. A process designed to predict SDR performance looks less like a structured panel interview and more like a compressed version of the actual job.",
+      },
+      {
+        type: "heading",
+        text: "Resume signals that matter and ones that do not",
+      },
+      {
+        type: "paragraph",
+        text: "The most commonly overweighted resume signal in SDR hiring is a name-brand employer. Having done an SDR role at a well-known SaaS company tells you the candidate was hired there, was trained by their programme, and left at some point. It does not tell you whether they hit quota, whether their quota was actually demanding, or whether their pipeline came from genuine prospecting or from an overflow of marketing-qualified inbound leads that any SDR would have converted.",
+      },
+      {
+        type: "paragraph",
+        text: "The resume signals that predict more reliably are evidence of consistent quota attainment over multiple periods rather than a single peak month, demonstrated outbound activity in previous roles where inbound was limited, and any evidence of independent prospecting — building their own list, researching accounts without being handed them, working a cold territory rather than a warm book. A candidate who has only ever worked accounts handed to them by marketing has not yet done the job you are hiring for.",
+      },
+      {
+        type: "list",
+        heading: "Resume and background signals worth probing in the interview",
+        items: [
+          "Quota attainment across multiple quarters — ask for consistency, not just peaks",
+          "What share of their booked meetings came from cold outreach vs. inbound or warm referrals",
+          "Whether they built their own prospecting lists or worked from provided lists",
+          "The average deal size and sales cycle of the product they were selling — the complexity shapes what the role demanded",
+          "Why they left — a pattern of moving on when targets got harder is worth exploring",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Practical exercises that reveal real ability",
+      },
+      {
+        type: "paragraph",
+        text: "The most useful signal in SDR hiring comes from exercises that approximate the actual work rather than from questions about it. Three exercises cover the range of skills that matter most in outbound roles, and each one can be completed in 20 to 30 minutes.",
+      },
+      {
+        type: "paragraph",
+        text: "The first is a cold email exercise. Give the candidate a brief description of a mock ICP account — a company name, sector, rough size, and a named prospect with a title — and 15 minutes to write a cold outreach email. What you are testing is whether they can write a first line that is specific to the account, whether the message is about the prospect's likely problem or about the sender's product, and whether the ask at the end is a reasonable next step or an aggressive pitch. Most candidates default to a template they have used before. Good candidates adapt to the specific account.",
+      },
+      {
+        type: "paragraph",
+        text: "The second is a live objection exercise. Tell the candidate you are going to play a prospect who answers a cold call, and give them a standard deflection — something like 'we're not looking at this right now' or 'just send me some information.' Ask them to work through it. What you are observing is whether they collapse immediately, whether they push back clumsily, or whether they ask a question that moves the conversation forward without escalating the tension. The ability to hold a call after the first objection is one of the most reliable predictors of cold call conversion, and it is very hard to fake in a live exercise.",
+      },
+      {
+        type: "paragraph",
+        text: "The third is a prioritisation exercise. Give the candidate a list of ten mock accounts with brief descriptions — revenue size, sector, job posting hints, and a recent trigger — and ask them to tell you which three they would call first and why. This tests both their research instincts and their ability to build a coherent argument for a prioritisation decision. Candidates who struggle to explain their reasoning, or who pick accounts purely on company size without considering signal, reveal gaps in prospecting judgement that rarely close through training.",
+      },
+      {
+        type: "callout",
+        text: "The best SDR candidates make the hiring process feel like a discovery call. They ask good questions, listen to the answers, and adapt their responses accordingly. If a candidate only ever delivers rehearsed answers, that is what they will do on cold calls.",
+      },
+      {
+        type: "heading",
+        text: "Interview questions that surface genuine indicators",
+      },
+      {
+        type: "paragraph",
+        text: "The most informative interview questions for SDR hiring are specific and behavioural rather than hypothetical. 'What would you do if a prospect told you they already work with a competitor?' generates a prepared answer. 'Tell me about a specific time a prospect told you they already had a solution in place, and walk me through how you responded' generates something much closer to the truth.",
+      },
+      {
+        type: "list",
+        heading: "Questions worth including in a structured SDR interview",
+        items: [
+          "Walk me through how you research a prospect account before a cold call — what sources do you use, what are you looking for, and how long does it take?",
+          "Tell me about a cold call that turned around after a bad start. What changed it?",
+          "What was the hardest stretch you had in a previous outbound role, and what did you change about your approach during it?",
+          "If your outbound activity is consistent but your meeting rate drops for two weeks, what do you do first?",
+          "Tell me about a prospect you worked for a long time before it converted. What kept you engaged with the account?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The answers to these questions tell you whether the candidate has actually done outbound work in a meaningful way and whether they reflect on their own process. Candidates who cannot give specific examples are either inexperienced or not particularly self-aware — both are problems in an outbound role where self-correction is a core skill.",
+      },
+      {
+        type: "heading",
+        text: "What the first 30 days should confirm",
+      },
+      {
+        type: "paragraph",
+        text: "Even the best hiring process will sometimes produce the wrong outcome. Early in a new SDR's tenure, the signals that matter most are not whether they are booking meetings — ramp takes time — but whether the underlying behaviours are present. Are they making a consistent number of dials each day without being pushed? Are their email sequences specific to the accounts they are targeting, or are they obviously templated? Are they asking useful questions in team reviews, or are they passive and waiting to be told what to do?",
+      },
+      {
+        type: "paragraph",
+        text: "The input behaviours in the first 30 days are more predictive than output results. An SDR who is hitting 80 calls a day, writing thoughtful sequences, and actively debriefing their calls with their manager is on a trajectory that will produce pipeline. An SDR who is at 40 calls a day and can produce a detailed explanation for why the accounts they are working are not ready is on a different trajectory, regardless of whether they have booked anything yet.",
+      },
+      {
+        type: "heading",
+        text: "Red flags worth taking seriously in the process",
+      },
+      {
+        type: "paragraph",
+        text: "Several patterns in SDR interviews predict poor outcomes reliably enough to be treated as genuine red flags rather than areas to explore further.",
+      },
+      {
+        type: "list",
+        heading: "Hiring process red flags that predict poor outbound performance",
+        items: [
+          "An inability to describe their research process in specific terms — candidates who worked outbound seriously always have a process",
+          "A track record that relies entirely on inbound-qualified leads, with no evidence of cold prospecting",
+          "Answers to objection exercises that escalate to pitching rather than asking a question",
+          "An absence of any stories involving persistence over a long period — genuine outbound often requires months of consistent contact",
+          "Discomfort with the idea that most calls will end in a no — candidates who have not come to terms with this do not last in outbound roles",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The most common version of an expensive SDR hire is a candidate who was excellent at a previous role with a strong inbound engine and assumes the outbound mechanics are essentially the same. They are not. The process differences between working a warm inbound lead and building a cold account from scratch are significant, and candidates who have not done sustained cold prospecting often find the adjustment harder than expected. A hiring process that specifically tests cold skills — through exercises, targeted questions, and reference checks focused on prospecting rather than deal progression — will produce a substantially better hit rate than one that relies on general sales interview performance.",
+      },
+    ],
+  },
+  {
     slug: "b2b-nurture-track-not-ready-to-buy-prospects",
     category: "Sales Development",
     title: "Building a Nurture Track for B2B Prospects Who Said 'Not Now'",
