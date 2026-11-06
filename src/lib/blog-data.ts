@@ -27,6 +27,130 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-lost-deal-rebid-strategy",
+    category: "B2B Growth",
+    title: "Losing the Deal Isn't the End: How to Build a B2B Lost-Deal Rebid Strategy",
+    excerpt:
+      "Most reps treat a lost B2B deal as a closed chapter. The reps who consistently win rebids treat it as the opening of a longer cycle. Here is how to run that process deliberately.",
+    readTime: "7 min read",
+    date: "6 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Losing a B2B deal is uncomfortable enough that most reps mentally close the account and move on. The CRM opportunity gets marked closed-lost, the contact gets removed from active sequences, and attention shifts to deals still in progress. This is understandable, but it is also a systematic waste of a sales asset. A company that made it to proposal or final evaluation stage has already spent significant time engaging with your offer. The buyer understands the problem category, has evaluated your solution against alternatives, and has formed a view on relative strengths. That is a substantial amount of commercial groundwork that simply does not exist with a cold account.",
+      },
+      {
+        type: "paragraph",
+        text: "Many B2B contracts — particularly in SaaS and professional services — run on 12 to 36 month cycles. When a contract comes up for renewal, the incumbent faces scrutiny it did not face in year one. Buyers who locked in a decision under time pressure, or who had different priorities at the point of purchase, often re-evaluate more carefully at renewal. The company that lost the original deal is in a structurally better position than any cold competitor to win that rebid — provided it has stayed credible and visible during the gap. The question is whether that happens by design or by accident.",
+      },
+      {
+        type: "heading",
+        text: "The 48-hour post-loss conversation",
+      },
+      {
+        type: "paragraph",
+        text: "The first thing most reps do after losing a deal is nothing — a brief, awkward silence followed by an automated 'staying in touch' email at some point in the future. The reps who build rebid pipelines do something different: they contact the buyer within 48 hours, not to argue the decision or offer a discount, but to ask a single, specific question about why they lost.",
+      },
+      {
+        type: "paragraph",
+        text: "The question matters. 'Is there anything we could have done differently?' is too open and tends to produce polite non-answers. 'Was the decision primarily about price, capability, or fit with an internal direction?' is specific enough that most buyers will give a real answer. The goal is not to reopen the deal — it is to understand whether the loss was competitive, budget-driven, or a reflection of a genuine capability gap. That classification determines how to handle the account going forward.",
+      },
+      {
+        type: "paragraph",
+        text: "A buyer who chose a competitor over price, or who had an internal relationship with the winning vendor, is a fundamentally different rebid target than one who decided your product genuinely could not do what they needed. The first situation is recoverable. The second requires a real product change before re-engagement is credible.",
+      },
+      {
+        type: "heading",
+        text: "Which lost deals are worth tracking for a rebid",
+      },
+      {
+        type: "paragraph",
+        text: "Not every loss goes into a rebid pipeline. Some accounts were genuinely a poor fit — wrong sector, wrong budget band, problem that your solution cannot address. Those are worth tracking for a future ICP refinement exercise but not for active re-engagement.",
+      },
+      {
+        type: "paragraph",
+        text: "The accounts worth building a systematic rebid process around share a specific profile: the buyer chose a provider rather than ruling out the category entirely, the contract is multi-year with a foreseeable renewal window, and the relationship you built during the sales cycle was broadly positive even if the decision went the other way. Within that profile, certain factors raise the rebid probability further.",
+      },
+      {
+        type: "list",
+        heading: "Signals that suggest a lost deal has high rebid potential",
+        items: [
+          "The loss was primarily competitive rather than a capability or budget rejection",
+          "The incumbent was acquired, underwent significant leadership change, or has publicly raised prices since the contract started",
+          "Your internal champion at the account has changed role or left — a new stakeholder may have different priorities",
+          "The buyer acknowledged your solution's strengths and the decision was genuinely close",
+          "The contract length is known and renewal is 12-18 months away",
+          "The problem you were solving is growing in importance for their sector",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Structuring contact over the gap period",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge of the gap period is staying visible without becoming a source of low-grade irritation. An account that gets an automated 'just checking in' email every six weeks will mute the sender. An account that gets a brief, relevant message every few months — usually tied to something happening in their world rather than something happening in your pipeline — will stay receptive.",
+      },
+      {
+        type: "paragraph",
+        text: "A rough framework for mid-market lost deals on a 24-month contract cycle: a brief note two to three months after the loss acknowledging where things landed and opening the door to future conversation; a lightweight touchpoint at around six months, ideally tied to a relevant development (a new product capability, a relevant industry event, a piece of research that speaks to the problem they were trying to solve); a more substantial outreach at 12 months that acknowledges you have stayed in contact and signals genuine interest in whether their situation has changed; and a direct conversation opener at 15-18 months that positions the rebid window without pretending it is not what it is.",
+      },
+      {
+        type: "paragraph",
+        text: "The content of each touchpoint matters as much as the timing. The most effective messages in the gap period reference something specific about the buyer's business — a product launch, a press mention, a hire they made, a challenge their sector is navigating. These signals that you are paying attention are more valuable than any amount of product update content.",
+      },
+      {
+        type: "callout",
+        text: "Automated nurture sequences are not a rebid strategy. The buyers who are worth re-engaging know what a template email looks like. If your re-engagement is entirely automated, the message you are sending is that the account is not important enough for real attention — which is precisely the wrong message ahead of a renewal conversation.",
+      },
+      {
+        type: "heading",
+        text: "Timing the rebid approach",
+      },
+      {
+        type: "paragraph",
+        text: "The timing of the rebid approach is frequently where the opportunity is lost. Many reps wait until a contract is actively at renewal before reaching out, which means they are entering the conversation after the incumbent has already begun renewal discussions. By the time a contract is formally up for renewal, the status quo carries significant momentum — procurement teams are busy, switching costs feel high, and the path of least resistance is to extend.",
+      },
+      {
+        type: "paragraph",
+        text: "A three to four month lead on the renewal date is usually the right window to open the rebid conversation. At that point, the buyer is aware that renewal is coming, may already have concerns about the incumbent's performance, and has not yet started formal evaluation. An outreach that arrives at this moment — framed around understanding how things have evolved since you last spoke, not around asking for a meeting to repitch — lands in a genuinely receptive window.",
+      },
+      {
+        type: "paragraph",
+        text: "If you do not know the contract length or renewal date from the original sales process, it is worth asking directly in the post-loss conversation. Most buyers will tell you, and the question is entirely reasonable in context. If you did not ask then, the 12-month touchpoint is a reasonable moment to surface it: 'I know you locked in a decision last year — are you on a multi-year arrangement or is there a natural review point coming up?'",
+      },
+      {
+        type: "heading",
+        text: "The rebid conversation itself",
+      },
+      {
+        type: "paragraph",
+        text: "When the rebid conversation opens, the right approach is not to replay the original pitch. A lot has changed: the buyer's business has evolved, the incumbent has demonstrated (or failed to demonstrate) what it actually delivers in practice, and your own product has moved on. Walking in with the same deck you lost with signals that you have not been paying attention.",
+      },
+      {
+        type: "paragraph",
+        text: "The opening framing that works best is a genuine question about the buyer's current situation: what has changed since the last time you spoke, what parts of the original problem are now more or less pressing, and how the current solution is performing against what they expected. This is not a sales technique — it is an honest attempt to understand whether the fit has changed in either direction. Buyers in a renewal evaluation know the difference between a rep who is probing for wedge issues and one who is genuinely trying to understand their situation before making any claim about their solution.",
+      },
+      {
+        type: "paragraph",
+        text: "If the conversation surfaces genuine dissatisfaction with the incumbent, let the buyer articulate it rather than amplifying it. The reps who win rebids are usually the ones who listen more than they talk in the first conversation back, and who make clear that any comparison between then and now needs to be grounded in what the buyer's situation actually requires — not in what your pitch deck covers.",
+      },
+      {
+        type: "heading",
+        text: "Building a lost-deal pipeline as a CRM discipline",
+      },
+      {
+        type: "paragraph",
+        text: "For this process to work at any volume, it needs to be a managed pipeline rather than a rep-by-rep discretionary habit. Lost deals with rebid potential should be tracked in the CRM with a renewal date, a reason-for-loss classification, and a re-engagement schedule. A manager reviewing pipeline should be able to see not only active deals and open outbound accounts but the cohort of lost deals that are approaching their rebid window.",
+      },
+      {
+        type: "paragraph",
+        text: "The economics of a well-managed lost-deal pipeline are significantly better than pure cold prospecting. The deals are warmer, the sales cycles tend to be shorter because the buyer already understands the category, and the win rate on rebids against deteriorating incumbents is typically higher than the original win rate. Treating lost deals as an asset — systematically, over the medium term — is one of the lower-cost ways to build pipeline that most B2B sales teams consistently underuse.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-hiring-performance-prediction",
     category: "Sales Development",
     title: "Hiring B2B SDRs: The Signals That Predict Performance Before the First Dial",
