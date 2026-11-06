@@ -27,6 +27,120 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-nurture-track-not-ready-to-buy-prospects",
+    category: "Sales Development",
+    title: "Building a Nurture Track for B2B Prospects Who Said 'Not Now'",
+    excerpt:
+      "The gap between 'interested but not right now' and an active evaluation is where most B2B pipeline value gets quietly abandoned. Here is how to build a nurture track that keeps you positioned for when timing changes.",
+    readTime: "7 min read",
+    date: "6 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "A large share of the prospects in any active outbound programme will not be ready to buy when you first reach them. That is not a failure of targeting or messaging — it is simply the reality of how B2B purchasing decisions happen. Budget cycles, existing contracts, internal priorities, and leadership changes all affect when a buyer is in a position to evaluate and commit. The question is what to do with those prospects in the meantime.",
+      },
+      {
+        type: "paragraph",
+        text: "The two most common responses are to keep sending follow-up emails on a tightening schedule until the prospect stops replying, or to mark them as 'nurture' in the CRM and check back whenever pipeline looks thin. Neither is a strategy. The first trains buyers to associate the vendor with low-value contact. The second typically results in sporadic outreach that arrives with no context, requires the prospect to remember a conversation from months ago, and fails to convert. A proper nurture track is built differently — it is a structured cadence of relevant contact designed to maintain presence and credibility over a defined period, so the prospect thinks of you first when their situation changes.",
+      },
+      {
+        type: "heading",
+        text: "What separates a nurture track from a follow-up sequence",
+      },
+      {
+        type: "paragraph",
+        text: "A follow-up sequence is designed to convert. Its purpose is to keep the prospect engaged until they agree to a meeting or tell you to stop. A nurture track, by contrast, accepts that the prospect is not in a buying position and is designed for a different objective: to maintain a relationship at low friction over months, adding occasional value and staying visible, so that when the buyer's situation changes they already have a relationship with you rather than starting from cold.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical differences are significant. A follow-up sequence might run at five to seven touchpoints over four weeks. A nurture track might run at five to eight touchpoints spread over six to eighteen months. A follow-up sequence keeps a consistent ask at its centre. A nurture track removes the ask almost entirely and focuses on being credible, relevant, and not annoying. The ask returns only when there is a signal that timing has changed.",
+      },
+      {
+        type: "callout",
+        text: "The goal of a nurture track is not to change the prospect's mind. It is to be the first call they make when their circumstances change — a new budget cycle, a new hire, a new problem. That position is earned by staying credible and not pushing for something the prospect cannot give.",
+      },
+      {
+        type: "heading",
+        text: "Structuring the cadence",
+      },
+      {
+        type: "paragraph",
+        text: "The right cadence length depends on the product's typical sales cycle and the reason the prospect is not ready now. A SaaS product with a 60 to 90 day sales cycle, where the prospect said their contract with a competitor runs for another year, warrants a nurture track that runs for eight to twelve months and re-activates around two months before that contract is likely to come up for renewal. A construction company in the middle of a capital freeze expected to lift in the new financial year warrants a track that runs for three to six months and re-activates when the new budget period opens.",
+      },
+      {
+        type: "list",
+        heading: "A basic nurture cadence structure for a 6-month track",
+        items: [
+          "Month 1: A short message acknowledging the timing, confirming when to check back, and setting the next contact point explicitly",
+          "Month 2–3: One piece of relevant content — a framework, a brief sector observation, something specific to their situation — with no ask attached",
+          "Month 3–4: A light conversation-starter tied to a business trigger, such as a relevant hire, a competitor move, or an industry development the prospect is likely tracking",
+          "Month 5: A direct question about whether the situation has changed, framed as a genuine check rather than a sales push",
+          "Month 6: A re-activation attempt that re-opens the original conversation with fresh context from monitoring the account",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What the content of each contact should look like",
+      },
+      {
+        type: "paragraph",
+        text: "The most common mistake in B2B nurture is re-pitching. A prospect who declined or deferred a pitch in March does not want a lightly reworded version of the same pitch in June. If every message is structurally a variation of here is what we do and here is why it is relevant to you, the prospect correctly reads the contact as the vendor waiting for them to change their mind. That is not a relationship — it is a low-frequency form of pressure.",
+      },
+      {
+        type: "paragraph",
+        text: "Effective nurture contact is not about the vendor. It might be a brief note about a change in the prospect's sector — a regulatory development, a shift in procurement patterns, a move a named competitor made — that is relevant to the problem the product addresses. It might be a framework or a brief analysis the prospect could actually use in their role, with no mention of the product at all. The standard to hold each contact to is: would this be worth reading even if the prospect were never going to buy from us? If the answer is no, the message is re-pitching dressed differently.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that move a prospect from nurture back to active pipeline",
+      },
+      {
+        type: "paragraph",
+        text: "The best nurture conversions do not come from waiting patiently until the prospect voluntarily decides to re-engage. They come from monitoring for signals that indicate the buyer's situation has changed and responding promptly when those signals appear. The response to a trigger should not be the same message restarted — it should be a fresh note that references the trigger directly and re-opens the conversation from a new angle.",
+      },
+      {
+        type: "list",
+        heading: "Signals worth monitoring for prospects in nurture",
+        items: [
+          "A job change — the contact moves to a new company, creating a potential new opportunity at the new employer and a need to identify a replacement contact at the original account",
+          "A new hire in a relevant role at the prospect's company — a new Head of Sales, a new Procurement Director, or a hire that signals the problem is now a priority",
+          "A funding announcement that expands the buyer's available budget",
+          "A job posting that signals the problem your product addresses has moved up the priority list — an SDR manager role posted at a SaaS company that sells to sales teams, for instance",
+          "Sector news that creates urgency or changes the buyer's context — a regulatory change, a large competitor making a move, or a macro event affecting their market",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Monitoring tools range from basic LinkedIn alerts and Google Alerts for company news to signal platforms that aggregate job postings, funding data, and news mentions across a prospect list. The right level of investment depends on the size of the nurture cohort and the value of the deals in it. For high-value accounts, manual monitoring is worth the time. For a larger cohort of smaller prospects, automation makes the difference between tracking signals consistently and missing most of them.",
+      },
+      {
+        type: "heading",
+        text: "Managing nurture at scale inside a CRM",
+      },
+      {
+        type: "paragraph",
+        text: "A nurture track that covers more than 20 or 30 prospects cannot be managed entirely manually without contacts falling through the gaps. The minimum CRM configuration needed is a nurture status field that distinguishes prospects in a formal track from inactive records, a next-contact date field that surfaces records at the right point in the cadence, and a notes field or activity log that captures the reason for the deferral and what the agreed re-entry trigger is.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical failure mode in most CRMs is treating prospects as either actively sequenced or dormant. A nurture prospect is neither — they are in a managed relationship with defined checkpoints. Teams that do not build a distinct workflow for this category either keep nurture prospects in an active sequence that overreaches, or move them to a dormant list where they receive no contact until a manual decision to re-engage is made. Both approaches result in poor nurture conversion.",
+      },
+      {
+        type: "heading",
+        text: "When to exit a nurture track",
+      },
+      {
+        type: "paragraph",
+        text: "Nurture is not indefinite. After a defined period without any signal of change — typically 12 to 18 months for SaaS, longer for construction where project cycles can span years — the realistic assessment is that the opportunity has not materialised and that further nurture contact is unlikely to be worth the resource. The right way to exit is an explicit, honest message: something that acknowledges the contact history, asks directly whether the problem the original conversation was about is still on the roadmap, and states that if the answer is no, you will stop reaching out. This message sometimes converts; it always closes the loop cleanly and avoids leaving a prospect in a perpetual low-frequency contact stream.",
+      },
+      {
+        type: "paragraph",
+        text: "The inverse is also true. A prospect who is ready to move from nurture to an active evaluation will typically show signals before explicitly saying so — longer or more engaged replies, questions about implementation, pricing, or integration, or the appearance of one of the buying triggers listed above. SDRs and AEs who monitor nurture contacts actively will catch these signals and re-engage in time to shape the evaluation before the prospect goes to market and starts talking to competitors.",
+      },
+    ],
+  },
+  {
     slug: "b2b-pilot-proof-of-concept-saas-sales-structure",
     category: "SaaS Lead Generation",
     title: "B2B Pilot and Proof-of-Concept Deals: How to Structure Them So They Convert",
