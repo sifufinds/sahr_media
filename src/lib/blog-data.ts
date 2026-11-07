@@ -27,6 +27,128 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-saas-procurement-legal-delay-close-process",
+    category: "B2B Growth",
+    title: "The Procurement Black Box: Managing SaaS Deals That Stall After the Verbal Yes",
+    excerpt:
+      "Getting a verbal yes from an economic buyer feels like the deal is done. In practice, it is the moment when a different set of risks takes over — procurement, legal, IT security, and finance sign-off before a contract is signed.",
+    readTime: "7 min read",
+    date: "7 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Getting a verbal commitment from an economic buyer feels like the deal is done. In practice, it is the moment when a different set of risks takes over. The B2B SaaS buying process does not end with a commercial decision — it typically passes through procurement, legal, IT security, and sometimes a finance sign-off before ink hits paper. Each stage introduces its own timeline, its own stakeholders, and its own potential to unwind the momentum you built in the sales cycle. Many SaaS deals that look like a done deal in October are still in legal review in January.",
+      },
+      {
+        type: "paragraph",
+        text: "This gap between verbal yes and signed contract is where a significant proportion of late-stage pipeline is lost or delayed. Deals slip quarters, decision-makers change roles, budgets get reassigned. The reps who close at a consistent rate tend to have a systematic approach to this period — not leaving it to chance or to the buyer's internal process.",
+      },
+      {
+        type: "heading",
+        text: "What procurement teams actually care about",
+      },
+      {
+        type: "paragraph",
+        text: "Procurement's job is not to approve your deal — it is to manage vendor risk and ensure the company is not making a commitment it cannot get out of on acceptable terms. The commercial conversation you had with the economic buyer is largely irrelevant to procurement; they are looking at contract terms, liability clauses, data protection obligations, and vendor financial stability. Understanding this distinction helps frame how to engage with procurement teams when they appear.",
+      },
+      {
+        type: "paragraph",
+        text: "The most common reasons deals stall in procurement are: security questionnaires that require detailed technical responses the vendor is not prepared for, contract language disagreements on liability caps or indemnity clauses, missing compliance documentation (SOC 2, ISO 27001, GDPR data processing agreements), and a straightforward backlog where your deal is not the top priority. None of these are fundamentally deal-threatening — but all of them take longer to resolve if they surface as surprises rather than being pre-empted.",
+      },
+      {
+        type: "heading",
+        text: "Map the internal process before you get a verbal yes",
+      },
+      {
+        type: "paragraph",
+        text: "The best time to understand a buyer's internal process is during the sales cycle, not after the commercial decision has been made. A simple set of questions surfaced during the evaluation phase can tell you a great deal about what will happen post-decision: who approves vendor contracts above a certain value, whether there is a mandatory security review, whether legal uses standard NDAs and service agreements or is known for heavy redlines, and what a typical timeline looks like from verbal decision to signed contract.",
+      },
+      {
+        type: "list",
+        heading: "Questions worth asking before the deal enters procurement",
+        items: [
+          "Who is involved in final contract sign-off beyond the economic buyer — is there a procurement or legal team we should loop in early?",
+          "Does your organisation have a standard vendor security review process, and can you tell me what documentation they typically ask for?",
+          "Is there a contract template your legal team prefers to work from, or would you expect to work from ours?",
+          "What is a realistic timeline from a commercial decision to a signed agreement in your organisation — have you been through this recently with another vendor?",
+          "Are there any compliance certifications — SOC 2, ISO 27001, Cyber Essentials — that your procurement team will require?",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These questions do not feel intrusive if they are framed as helping the buyer move quickly. Most buyers appreciate reps who have clearly been through this before and want to avoid delays. The answers give you a material advantage when the deal enters procurement — you know who the stakeholders are, what documentation will be requested, and roughly how long the process takes.",
+      },
+      {
+        type: "heading",
+        text: "Keep your champion active after the commercial decision",
+      },
+      {
+        type: "paragraph",
+        text: "Your champion's job is not done when the economic buyer says yes. In procurement, the champion is usually the internal advocate who can chase approvals, escalate delays, and explain to procurement why your contract terms are commercially reasonable. Without active champion involvement, procurement reviews happen on procurement's timeline — which may not align with yours.",
+      },
+      {
+        type: "paragraph",
+        text: "The most practical thing you can do in the post-decision phase is give the champion a clear, simple internal narrative they can use. This means a brief summary of what has been agreed commercially, what the next steps are, and what they need to do to keep things moving. A well-constructed mutual action plan shared with the champion is more effective than ten check-in calls — it externalises the shared expectation so the champion can reference it internally without you in the room.",
+      },
+      {
+        type: "callout",
+        text: "A champion who stops responding after the verbal yes is a material risk. It usually means they are overloaded, the deal is not their top priority, or something has changed internally. A prompt, specific message — 'I want to make sure we have everything lined up for procurement — are there any docs I should prepare now?' — is more useful than a passive follow-up.",
+      },
+      {
+        type: "heading",
+        text: "Pre-empt the documentation delays",
+      },
+      {
+        type: "paragraph",
+        text: "Security questionnaires are one of the most common sources of delay in SaaS procurement. A large proportion of enterprise and mid-market buyers will require the vendor to complete a detailed questionnaire covering data storage, encryption, access controls, incident response, and third-party sub-processors. If the first time you are completing this is after the commercial decision, you are adding weeks to the close.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical way to close this gap is to maintain a standard security pack — a completed questionnaire aligned to common frameworks, a data processing agreement template, and your SOC 2 or ISO 27001 certification if applicable — that can be shared proactively as soon as a deal reaches late stage. Similarly, having your legal team define your standard contract positions in advance (what you will accept, what requires escalation, what is a hard no) means that when redlines arrive, your review is a matter of hours rather than weeks.",
+      },
+      {
+        type: "list",
+        heading: "Documentation to prepare before procurement begins",
+        items: [
+          "Completed security questionnaire covering data storage, access controls, encryption, and sub-processors",
+          "Data processing agreement (DPA) template meeting UK GDPR requirements",
+          "Current compliance certifications: SOC 2 Type II, ISO 27001, Cyber Essentials, or equivalent",
+          "Standard contract positions document — what your legal team will and will not flex on",
+          "Company information pack: registered address, VAT number, insurance certificates if required",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Managing contract redlines without letting them drag",
+      },
+      {
+        type: "paragraph",
+        text: "Legal negotiations in B2B SaaS contracts tend to get stuck on a predictable set of issues: liability caps, indemnity scope, data breach notification timelines, governing law, and termination rights. Buyers in regulated industries — financial services, healthcare, public sector — tend to have harder positions on these than others. Knowing this in advance is half the battle.",
+      },
+      {
+        type: "paragraph",
+        text: "The reps who close cleanest tend to have clear visibility into which issues are genuinely negotiable within their organisation and which are not. Going back to legal every time a redline comes in adds cycles. A simple internal reference — here is what we can flex, here is what needs escalation, here is what is a hard line — means you can often respond to a buyer's legal team directly on many points without internal delays. For the issues that do require escalation, being able to articulate exactly what is being asked and why it matters commercially (quarter-end close, budget expiry, implementation timeline) makes it easier for your legal team to prioritise.",
+      },
+      {
+        type: "heading",
+        text: "Attaching the close to a real deadline",
+      },
+      {
+        type: "paragraph",
+        text: "Commercial urgency is easier to create honestly than many reps assume. If a deal is closing at quarter-end, there is usually a genuine commercial reason to close before that date: pricing is typically tied to a commercial conversation, implementation slots fill up, and onboarding teams have capacity constraints. These are legitimate reasons to put a date on the mutual action plan — not artificial pressure, but a real consequence of when the engagement starts.",
+      },
+      {
+        type: "paragraph",
+        text: "What does not work is vague urgency ('our pricing changes at the end of the month') that the buyer has heard before and does not believe. What does work is a specific, honest conversation with the champion: 'If we can get the contract signed before [date], we can hold the pricing we agreed and get you into the implementation cohort we discussed. If it pushes past that, we will need to revisit both. I do not want that to happen — what do we need to do on your end to hit that date?'",
+      },
+      {
+        type: "paragraph",
+        text: "Late-stage pipeline does not close itself. The post-verbal-yes period requires the same deliberate management as the sales cycle that preceded it — arguably more, because the levers are less familiar and the internal dynamics are harder to see from the outside. The reps and teams who treat procurement as a managed process rather than a waiting room close at materially higher rates, and their revenue lands in the quarters they forecast it for.",
+      },
+    ],
+  },
+  {
     slug: "b2b-lost-deal-rebid-strategy",
     category: "B2B Growth",
     title: "Losing the Deal Isn't the End: How to Build a B2B Lost-Deal Rebid Strategy",
