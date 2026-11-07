@@ -27,6 +27,122 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-job-change-prospecting-role-transitions",
+    category: "Sales Development",
+    title: "Job Change Signals in B2B Prospecting: Turning Role Transitions Into Pipeline",
+    excerpt:
+      "When a contact you've built a relationship with changes roles, there is a brief window where your existing credibility carries across — and where the new context creates a genuine reason to re-engage. Most sales teams let that window close by accident.",
+    readTime: "7 min read",
+    date: "7 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "When a contact you've built a relationship with changes roles, there is a brief window where your existing credibility carries across — and where the new context creates a genuine reason to re-engage. Most sales teams let that window close by accident. They are either monitoring connections passively or not at all, and by the time they notice a job change, the new hire has already audited their tech stack, made vendor decisions, and is no longer in the open-to-change mindset that characterised their first weeks in the role.",
+      },
+      {
+        type: "paragraph",
+        text: "Monitoring role transitions systematically — and acting on them quickly — is one of the more reliable ways to generate pipeline from an existing network without starting from cold. It applies equally to SaaS teams targeting buyers who move between companies and to construction supply chains where relationships with project managers, quantity surveyors, or procurement leads are the primary mechanism for winning work.",
+      },
+      {
+        type: "heading",
+        text: "Why new roles create buying windows",
+      },
+      {
+        type: "paragraph",
+        text: "A contact who has just taken a new role is operating in a specific mindset that is different from someone twelve months into the job. In the first few weeks, they are assessing what they have inherited — which vendors are delivering, which are not, what tools the team is using, and where the gaps are. They have not yet built the inertia that makes changing anything feel like a large project. They also have a reason to demonstrate impact quickly, which often means they are more willing to have vendor conversations than they would be once they are settled.",
+      },
+      {
+        type: "paragraph",
+        text: "There is also a credibility dynamic at work. A contact who knows you from a previous role does not need to trust you from scratch. You have an existing relationship — perhaps a sales process you ran together, a contract you managed, or simply a rapport built over several calls. That relationship travels with the contact to their new company, and it gives you a head start that cold outreach into the same account could never provide.",
+      },
+      {
+        type: "heading",
+        text: "The five job change signals worth tracking",
+      },
+      {
+        type: "list",
+        items: [
+          "An existing contact is promoted into a decision-making or budget-holding role at their current company — they can now approve the category of spend your product sits in.",
+          "An existing contact moves to a new company in your target account list where you have no current relationship.",
+          "A former champion — someone who was an advocate for your product at a previous customer — joins a new company that fits your ICP.",
+          "A contact you lost a deal to, or who deprioritised a conversation, has changed roles and is effectively a new buyer in a new context.",
+          "A contact you have been cold prospecting without success has just moved to a new company where you may have an existing relationship or a warmer entry point.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Each of these has a different outreach dynamic. The promoted contact needs a warm re-engagement that acknowledges the new remit. The former champion who has moved is arguably your strongest signal — they know what your product does, they had a positive experience, and they are now in a fresh environment where they may want to replicate what worked. The lost deal contact is an opportunity to remove the objections or circumstances that prevented the original deal, without the baggage of that specific sales cycle weighing on the conversation.",
+      },
+      {
+        type: "heading",
+        text: "How to monitor job changes at scale",
+      },
+      {
+        type: "paragraph",
+        text: "Manual monitoring — checking LinkedIn periodically to see if contacts have updated their profiles — does not work reliably once you have a contact base of more than a few hundred people. The signal is too slow, the coverage is incomplete, and the contacts who change jobs without updating LinkedIn immediately are missed entirely.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical options are: LinkedIn Sales Navigator's saved lead alerts, which notify you when saved contacts change roles; CRM enrichment tools such as Cognism, Apollo, or Clay that track employment data and can flag changes automatically; and native LinkedIn alerts from connections when their notifications are turned on. Each has coverage and latency tradeoffs. Sales Navigator is typically the most reliable for LinkedIn-active contacts but misses people who do not update their profiles promptly. Data enrichment tools vary in how quickly they pick up job changes — some have a lag of several weeks after the LinkedIn update.",
+      },
+      {
+        type: "callout",
+        text: "The goal is not to catch every job change — it is to catch the ones in your ICP quickly. A tightly defined saved search in Sales Navigator covering your target personas and sectors will give you a manageable signal volume and a high relevance rate.",
+      },
+      {
+        type: "heading",
+        text: "The outreach sequence when you spot a job change",
+      },
+      {
+        type: "paragraph",
+        text: "The first message should not be a pitch. A congratulations message on LinkedIn — brief, specific to the role, and genuine — is the right first contact. If you have a real relationship with the person, it feels natural. If the relationship was more transactional, it still lands better than a cold pitch dressed as congratulations. The goal of this first message is simply to re-open the channel, not to sell anything.",
+      },
+      {
+        type: "paragraph",
+        text: "Two to three weeks later is usually the right moment for a more substantive message. By this point, they have been in the role long enough to have formed a view of what they have inherited and what they want to do differently, but not so long that the initial period of openness has closed. This is where you introduce relevance — a specific, brief message connecting what you do to something they are likely to be thinking about in the new role. It is not a demo request at this stage; it is a conversation starter.",
+      },
+      {
+        type: "list",
+        heading: "The job change outreach sequence",
+        items: [
+          "Day 1-3: Brief congratulations message on LinkedIn — no ask, just re-open the channel.",
+          "Day 14-21: Follow-up message connecting your work to something relevant to their new role — a challenge you know that persona typically faces, something from their company's public context, or a reference to what you worked on together previously.",
+          "Day 28-35: If no response, a simple check-in with a light ask — a 15-minute call to understand their priorities for the first quarter. Keep the barrier to yes as low as possible.",
+          "Day 50+: If still no response, move them to a lower-cadence nurture track. The window is not fully closed, but the urgency is lower.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "If the contact was a former champion — someone who actively used or advocated for your product — the sequence can move faster. The first message can acknowledge the relationship directly: 'I saw you've joined [company] — congratulations. We've worked together before so I know you understand what we do. Would it be worth a quick call to see if there's a relevant application in your new role?' That level of directness is earned by the existing relationship and does not feel presumptuous.",
+      },
+      {
+        type: "heading",
+        text: "What not to do",
+      },
+      {
+        type: "paragraph",
+        text: "Pitching immediately on the day a contact announces a job change is the most common mistake. A message that arrives within hours of a LinkedIn update — 'Congratulations on the new role, we help companies like [new employer] with X, would you have time for a call?' — signals that you are monitoring them opportunistically. It lands as a sales trigger-pull, not a human response, even if you have a genuine relationship. The congratulations and the pitch need space between them.",
+      },
+      {
+        type: "paragraph",
+        text: "Assuming the context from a previous deal carries over directly is also a mistake. A contact who was involved in a deal that did not close, or who had a specific set of priorities at a previous company, may have an entirely different remit in the new role. Referencing the old context too specifically can anchor the conversation to something that is no longer relevant. Use the old relationship as the reason for the warm outreach, not as the basis for the pitch.",
+      },
+      {
+        type: "heading",
+        text: "Adding job change tracking to your CRM workflow",
+      },
+      {
+        type: "paragraph",
+        text: "Job change signals are only useful if they translate into action. The most common failure mode is a rep who sees the notification, thinks they should reach out, and then gets pulled into other work. A week later, the moment has passed. Building job change monitoring into CRM workflow — logging a specific activity type, creating a follow-up task on the same day a signal is detected, and tracking these contacts separately from cold outreach — is how teams turn this from an occasional good idea into a consistent pipeline source.",
+      },
+      {
+        type: "paragraph",
+        text: "Whether you tag these contacts in a CRM sequence, a Sales Navigator list, or a manual tracking spreadsheet is less important than the fact that you have a process. The goal is that no high-value job change signal in your ICP goes unactioned for more than 48 hours. At that cadence, over a twelve-month period, the contacts in your existing network who move into new roles represent a meaningful and relatively low-effort pipeline contribution — one that sits alongside cold outreach rather than replacing it.",
+      },
+    ],
+  },
+  {
     slug: "b2b-saas-procurement-legal-delay-close-process",
     category: "B2B Growth",
     title: "The Procurement Black Box: Managing SaaS Deals That Stall After the Verbal Yes",

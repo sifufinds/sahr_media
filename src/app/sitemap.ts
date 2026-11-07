@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-job-change-prospecting-role-transitions",
   "b2b-saas-procurement-legal-delay-close-process",
   "b2b-lost-deal-rebid-strategy",
   "b2b-sdr-hiring-performance-prediction",
