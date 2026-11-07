@@ -27,6 +27,128 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-linkedin-prospecting-decision-makers",
+    category: "Construction Marketing",
+    title: "LinkedIn Prospecting in Construction: Finding Decision-Makers in a Sector That Resists Social Media",
+    excerpt:
+      "Construction has lower LinkedIn adoption than most B2B sectors, which makes it both harder and more valuable to get right. The contacts who are on the platform tend to be more senior and commercially focused — but reaching them requires a different approach than tech-sector prospecting.",
+    readTime: "7 min read",
+    date: "7 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "LinkedIn adoption in construction is lower than in professional services, technology, or financial services. Decision-makers like project directors, quantity surveyors, procurement managers, and commercial directors are on the platform, but typically with thinner profiles, less frequent activity, and a different relationship to the medium than you would find in SaaS or marketing. Some of the most commercially powerful contacts in a mid-tier contractor or specialist subcontractor have not updated their LinkedIn profile in two years and do not engage with content at all.",
+      },
+      {
+        type: "paragraph",
+        text: "The implication is not that LinkedIn is useless for construction prospecting — it is that the standard playbook does not transfer. High-volume connection requests, content engagement as a warm-up strategy, or social selling scores do not map cleanly onto a sector where many senior people treat the platform as a CV host rather than a business development channel. The contacts who are most reachable on LinkedIn in construction are a specific subset of the overall buyer population, and finding them requires understanding which roles they hold and how they actually use the platform.",
+      },
+      {
+        type: "heading",
+        text: "Which construction roles are most reliably on LinkedIn",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn activity in construction clusters around certain roles and types of firm. Senior commercial roles — Commercial Directors, Heads of Business Development, Group Procurement Directors — tend to maintain active profiles and use LinkedIn to track market activity, monitor competitor hirings, and stay visible to their own professional network. Directors at regional main contractors, mid-tier M&E firms, and specialist subcontractors are present in reasonable numbers, particularly at firms that are actively hiring or bidding for framework contracts where visibility matters.",
+      },
+      {
+        type: "paragraph",
+        text: "Quantity surveyors and estimators at junior to mid-level are less consistently represented. Site managers, project engineers, and operational roles are the least active segment — they are reachable, but LinkedIn is not their primary channel and their profiles are often incomplete, rarely updated, or absent entirely. For roles that are fundamentally site-based or operational, phone and in-person approaches typically outperform digital outreach by a significant margin.",
+      },
+      {
+        type: "list",
+        heading: "Construction roles most reliably reachable via LinkedIn",
+        items: [
+          "Commercial Directors and Business Development Managers at Tier 2 and Tier 3 main contractors",
+          "Group Procurement Directors and Category Managers at large Tier 1 contractors",
+          "Directors and partners at specialist subcontracting firms — M&E, groundworks, roofing, cladding, fit-out",
+          "Construction consultants — cost consultants, employer's agents, project managers in private practice",
+          "Developer-side roles: Development Managers and Project Directors at housebuilders and commercial developers",
+          "Heads of Preconstruction at design-and-build and contractor firms",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building a construction prospect list in LinkedIn Sales Navigator",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge with construction on LinkedIn is that job titles are far less standardised than in technology or professional services. The person responsible for procurement decisions at a 300-person contractor might be titled Managing Director, Commercial Director, Contracts Manager, or Head of Procurement — sometimes all of these roles exist at the same firm with partially overlapping remits. A direct search on a single title will miss a large proportion of relevant contacts.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical approach using Sales Navigator is to use the Industry and Company Headcount filters as the outer boundary, then apply persona filters across a wider range of titles, with the expectation that you will refine the list manually. For a focused campaign, pulling 50 to 100 contacts and reviewing each profile is more productive than a large list that includes contacts who are not genuine decision-makers. Construction tends to reward quality of contact over volume of list more than most sectors — a well-identified procurement director at a target contractor is worth more than ten ambiguous contacts at the same firm.",
+      },
+      {
+        type: "callout",
+        text: "Construction is a relationship-driven industry. The LinkedIn contacts most likely to respond to cold outreach are those who already have a reason to trust the category you are in — former project collaborators, contacts who follow your content, or companies where you have worked with another contact. Use LinkedIn to identify these warm connections before spending time on pure cold messaging.",
+      },
+      {
+        type: "heading",
+        text: "What connection requests actually get accepted",
+      },
+      {
+        type: "paragraph",
+        text: "Generic connection request notes — 'I'd like to add you to my professional network' or 'I work with businesses in the construction sector' — have poor acceptance rates. Construction professionals tend to treat LinkedIn connections more selectively than contacts in sectors where the platform is used for routine business development. The absence of activity on their profile does not mean they are not reading incoming connection requests — it means the bar for accepting them is higher.",
+      },
+      {
+        type: "paragraph",
+        text: "The connection requests that get accepted tend to reference something specific and accurate: a shared connection, a project type you have genuine experience with, a sector they operate in, or something visible from their company's current activity. If a firm has just announced a major contract win, referenced a planning approval, or posted a hire for a role that signals a new direction, that provides a natural hook. The reference does not have to be elaborate — a single, accurate, specific observation about their context is typically enough to distinguish you from every other message they received that week.",
+      },
+      {
+        type: "list",
+        heading: "What makes a construction LinkedIn connection request work",
+        items: [
+          "One specific observation — a named project type, a sector they actively work in, or a verifiable fact from their company page",
+          "A brief professional reason for connecting — not a sales pitch, just a credible framing",
+          "No ask in the connection request itself — the goal is the connection, not an immediate response",
+          "Under 200 characters — the note field is limited and long messages read as templates",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The warm-up period after connecting",
+      },
+      {
+        type: "paragraph",
+        text: "Once a construction contact connects, the common mistake is moving to a pitch within 24 to 48 hours. Construction professionals tend to operate on longer relationship-building timelines than SaaS buyers. The move from LinkedIn connection to commercial conversation is typically slower, and trying to accelerate it too aggressively signals that the connection request was always a sales trigger rather than a genuine introduction.",
+      },
+      {
+        type: "paragraph",
+        text: "A sequence that tends to work better: connect, observe their activity without messaging for one to two weeks, then send a first message that references something relevant to their world — not a pitch, but a brief, specific comment that positions you as someone who understands the sector. A second message, two to four weeks later, can introduce what you do in a brief, direct way, ideally linked to a project type or challenge they face. This is slower than a cold email sequence, but it produces a materially warmer conversation when it lands.",
+      },
+      {
+        type: "heading",
+        text: "Using LinkedIn alongside other channels for construction outreach",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn performs better in construction when it is part of a multi-channel approach rather than the primary channel. A contact who has connected with you on LinkedIn and seen relevant posts or messages from you will receive a cold phone call differently than the same call arriving from an unknown number with no prior context. The LinkedIn presence reduces the cold-call friction without replacing it.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction prospects who are not reliably on LinkedIn — project engineers, site managers, estimators at smaller firms — the platform is useful for identifying who to call but not for the outreach itself. Use LinkedIn to find the right name, title, and reporting line, then reach out by phone or email. For this segment, Companies House filings, planning portal data, and published tender results are often more reliable discovery mechanisms than LinkedIn's search interface.",
+      },
+      {
+        type: "callout",
+        text: "Construction decisions are rarely made by one person. Using LinkedIn to map the commercial team at a target firm — identifying the BD Director, Commercial Director, and procurement leads simultaneously — is a better use of the platform than chasing direct responses from any one contact. The map informs the outreach strategy across all channels rather than replacing them.",
+      },
+      {
+        type: "heading",
+        text: "What not to do on LinkedIn in construction",
+      },
+      {
+        type: "paragraph",
+        text: "Posting high-frequency LinkedIn content and expecting construction buyers to warm up to your outreach through content engagement does not work reliably in a sector where most decision-makers do not use the feed. The social selling model where content builds pipeline visibility assumes an audience that is regularly scrolling — in construction, that audience is smaller and less predictable than in sectors like SaaS or HR technology.",
+      },
+      {
+        type: "paragraph",
+        text: "The other failure mode is treating LinkedIn as a volume channel. Sending large numbers of connection requests to anyone with a construction-adjacent title, followed by an immediate message sequence, produces both a low acceptance rate and a poor response rate among those who do connect. Construction's commercial community in the UK is relatively small and concentrated — a reputation for spammy outreach travels. A smaller number of researched, specific messages is a better investment than a high-volume automated sequence that most construction contacts will simply ignore.",
+      },
+    ],
+  },
+  {
     slug: "b2b-job-change-prospecting-role-transitions",
     category: "Sales Development",
     title: "Job Change Signals in B2B Prospecting: Turning Role Transitions Into Pipeline",
