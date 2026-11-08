@@ -27,6 +27,112 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-attrition-retention-sales-leaders",
+    category: "Sales Development",
+    title: "B2B SDR Attrition: Why Good SDRs Leave and What Sales Leaders Can Do About It",
+    excerpt:
+      "SDR attrition is not primarily a people problem — it is a structural one. Understanding the design decisions that drive good SDRs out is the first step to building a programme that retains them.",
+    readTime: "6 min read",
+    date: "8 Nov 2026",
+    color: "#DC2626",
+    content: [
+      {
+        type: "paragraph",
+        text: "SDR attrition is expensive in ways that go beyond the cost of replacing a hire. When an SDR leaves after six to twelve months, their replacement starts from zero: no account context, no warm relationships in progress, no institutional knowledge of the territory. The pipeline they were building disappears with them. For teams running three or more SDRs, sustained attrition structurally caps the ceiling on pipeline output regardless of individual performance.",
+      },
+      {
+        type: "paragraph",
+        text: "The cost of a single mid-tenure departure — lost pipeline, recruiting and onboarding, ramp time, and the opportunity gap during the transition — typically adds up to substantially more than the exiting SDR's annual salary. Most sales leaders understand this in the abstract but rarely run the actual calculation. Doing so makes the case for deliberate retention investment straightforward.",
+      },
+      {
+        type: "heading",
+        text: "The difference between structural and personal attrition",
+      },
+      {
+        type: "paragraph",
+        text: "Not all SDR departures are preventable, and conflating the ones that are with the ones that are not leads to the wrong interventions. Some SDRs leave because they are promoted internally — exactly the outcome a well-run programme wants. Some leave because the role is not right for them regardless of environment. Attrition from poor-fit hires is healthy.",
+      },
+      {
+        type: "paragraph",
+        text: "The problematic attrition is structural: good SDRs leaving not because of personal fit but because the programme itself creates conditions that are difficult to sustain. The signs are consistent — most departures happening in a narrow window (commonly 8 to 14 months in), most leavers moving to AE roles elsewhere when no internal path exists, and exit interview themes pointing to the same two or three issues repeatedly. When the same problems appear across multiple leavers, they are programme problems, not individual ones.",
+      },
+      {
+        type: "heading",
+        text: "Quota design as a retention risk",
+      },
+      {
+        type: "paragraph",
+        text: "The most common structural cause of avoidable SDR attrition is quota design that makes it difficult for genuinely good SDRs to feel successful. This takes two forms. The first is ramp quotas that do not reflect the actual time required to build working pipeline in a given market. If a new SDR is expected to hit full quota at month three in a market where meaningful prospect engagement takes six to eight weeks of consistent touchpoints, the ramp expectations are disconnected from reality. An SDR who is performing correctly may still miss their number for months. If they are measured and managed against that number before the pipeline can mature, they will feel like they are failing when they are not.",
+      },
+      {
+        type: "paragraph",
+        text: "The second form is quota targets that treat all SDR markets as equivalent. An SDR working a high-volume small-to-mid market is operating a fundamentally different job from one covering large enterprise accounts in a narrow ICP. The same number of meetings booked does not represent the same relative difficulty or value in both cases. When quota design fails to reflect this, enterprise-focused SDRs are systematically set up to underperform on paper against peers working easier-to-reach markets.",
+      },
+      {
+        type: "heading",
+        text: "The absence of a clear promotion path",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most consistent drivers of SDR attrition is the gap between when an SDR is ready for an AE role and when the company is ready to give them one. For many SDRs, the reason for joining the SDR role is explicitly to build toward an AE position. If that path is vague, delayed, or consistently filled from outside rather than from the internal SDR team, the most ambitious SDRs — typically the most valuable — will find that path elsewhere.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical fix requires genuine commitment from sales leadership: define the criteria for SDR-to-AE promotion in writing, make them available to every SDR from day one, and honour them consistently. Criteria should be specific enough that an SDR can assess their own progress at any point — consistently hitting quota, managing pipeline to a defined CRM standard, demonstrating the commercial aptitude required in AE conversations — rather than relying on assessments that feel like moving goalposts.",
+      },
+      {
+        type: "paragraph",
+        text: "If the company does not intend to promote SDRs internally — because headcount growth is slow or AE hiring will remain external — that should also be communicated clearly and early. Some SDRs will choose to leave sooner knowing this. Most will respect the honesty more than a path that was implied but never materialises.",
+      },
+      {
+        type: "heading",
+        text: "How managers accelerate or slow attrition",
+      },
+      {
+        type: "paragraph",
+        text: "Poor management accelerates attrition from SDRs who might otherwise have stayed. The specific patterns that drive early departure are not always the obvious ones. Heavy monitoring of activity metrics — daily dial counts, sequence volumes, email output — can generate short-term compliance at the cost of meaningful engagement with the role. SDRs who experience their job primarily as a throughput exercise rather than skilled work tend to detach quickly.",
+      },
+      {
+        type: "paragraph",
+        text: "The management practices most associated with SDR retention treat the job as skill-developing work. Regular call review sessions that focus on conversation quality rather than call count. Coaching that gives specific, actionable feedback rather than generic encouragement. Recognition tied to quality of outcomes — a conversation that produced a genuine qualified opportunity — not purely to activity volume. This does not mean ignoring activity metrics, which are a valid leading indicator of pipeline. It means that coaching time should be spent developing skill, not running the same activity review the CRM already surfaces automatically.",
+      },
+      {
+        type: "heading",
+        text: "Compensation and recognition beyond base salary",
+      },
+      {
+        type: "paragraph",
+        text: "Base salary is a hygiene factor for SDR retention: if it falls materially below market rate, departure becomes likely. Within a reasonable market range, though, base salary is rarely the primary lever for the voluntary attrition that damages programmes. What matters more is whether SDRs feel that good performance is recognised, that total compensation is fair relative to the difficulty of the role, and that there is a clear line between current performance and future earnings potential.",
+      },
+      {
+        type: "list",
+        heading: "Practical compensation practices that support retention",
+        items: [
+          "Spiff structures tied to pipeline quality — opportunities that advance to later pipeline stages — rather than purely to meeting volume",
+          "Transparent performance visibility so SDRs can see how they compare to peers and what top performance looks like",
+          "Defined step increases within the SDR tier: an SDR who hits quota consistently for three consecutive quarters earns a base increase at a known threshold, without waiting for a formal promotion",
+          "Spot recognition for account work that develops slowly but correctly — a long-cycle account where the SDR has built real relationships deserves acknowledgment even when pipeline has not yet converted",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The pipeline cost most programmes do not calculate",
+      },
+      {
+        type: "paragraph",
+        text: "Most sales leaders track SDR attrition as a headcount and cost problem: cost per replacement, time to hire, ramp time. Fewer track the pipeline cost — the qualified opportunities in progress when an SDR left, the accounts where the relationship was developing, the territory knowledge that walked out the door. For programmes working long-cycle deals, this pipeline cost is often larger than the replacement cost itself.",
+      },
+      {
+        type: "paragraph",
+        text: "Running that calculation makes the case for retention investment legible. The case for better quota design, clearer promotion criteria, and improved coaching becomes straightforward when measured against a concrete cost of doing nothing. Most of the structural changes that meaningfully reduce attrition do not require significant additional spend — they require deliberate programme design that most teams have simply not prioritised.",
+      },
+      {
+        type: "callout",
+        text: "An SDR programme built for throughput — where attrition is treated as normal and replacement is the main response — creates a ceiling on pipeline quality. The accounts that take six to twelve months to develop cannot be worked effectively by an SDR who is likely to leave before they mature. Structural retention is not an HR concern; it is a pipeline capacity decision.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-long-sales-cycle-management",
     category: "Sales Development",
     title: "Managing B2B Outbound When Your Sales Cycle Runs Six Months or Longer",
