@@ -27,6 +27,141 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-long-sales-cycle-management",
+    category: "Sales Development",
+    title: "Managing B2B Outbound When Your Sales Cycle Runs Six Months or Longer",
+    excerpt:
+      "Most outbound programmes are built on monthly logic — cadences, quarterly targets, 90-day pipeline reviews. When your average deal takes six to twelve months to close, that structure works against you. Here is how to redesign your programme around the cycle your buyers actually operate on.",
+    readTime: "8 min read",
+    date: "8 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "The standard B2B outbound model assumes a certain pace. A contact enters your sequence, receives five to seven touchpoints over three to four weeks, either responds or does not, and exits. Your SDR tracks activity, meetings booked, and pipeline created within a 90-day rolling window. Pipeline health is judged monthly. Forecasts run to quarter-end.",
+      },
+      {
+        type: "paragraph",
+        text: "That model works reasonably well when buyers can make decisions quickly — a mid-market SaaS deal with a single decision-maker, or a small specialist subcontract where the commercial director has clear authority. But when your typical sales cycle runs six, nine, or twelve months — common in enterprise SaaS, construction technology, complex professional services, or any deal involving a formal procurement process — building your outbound programme around quarterly logic produces a programme that looks permanently underperforming against targets that were never designed for your market.",
+      },
+      {
+        type: "heading",
+        text: "What a long sales cycle actually means for your outbound structure",
+      },
+      {
+        type: "paragraph",
+        text: "A six-to-twelve month sales cycle does not mean buyers are slow. It means the buying process has genuine complexity: multiple approvers, budget cycles that renew annually, procurement processes that require competitive bids, or organisational priorities that shift between seasons. The SDR's job in this environment is not to create urgency where none exists, but to be present and credible when the moment of genuine readiness arrives.",
+      },
+      {
+        type: "paragraph",
+        text: "This is a different role for outbound than most programmes are designed for. Rather than generating pipeline that converts in 90 days, the goal is to build a programme where most of the value is in staying correctly positioned across a 12 to 18 month window. The contacts you are reaching out to today are more likely to become qualified opportunities next fiscal year than this one — and the question is whether your programme can maintain that relationship without becoming noise.",
+      },
+      {
+        type: "heading",
+        text: "Restructuring your cadence for long-cycle buyers",
+      },
+      {
+        type: "paragraph",
+        text: "Standard cadences — five to seven touches over three to six weeks — are designed to capitalise on a narrow window of interest. If the prospect does not respond, the assumption is that they are not in-market, and you exit the sequence. For long-cycle buyers, this logic does not hold. A prospect who does not respond to your October sequence may be in budget planning in January and actively evaluating options in March. Exiting them from your programme in October loses that pipeline.",
+      },
+      {
+        type: "list",
+        heading: "A tiered cadence structure for long-cycle buyers",
+        items: [
+          "Tier 1 — initial outreach: 5-7 touches over 4-6 weeks. Standard first contact. If no response, do not discard — move to Tier 2 rather than marking as dead.",
+          "Tier 2 — long-cycle holding: Monthly or bi-monthly single touchpoints over 3-6 months. These are not follow-ups to the original sequence — they are fresh, brief messages referencing something current in the prospect's world. The goal is to stay visible, not to push for a meeting.",
+          "Tier 3 — annual reactivation: Quarterly or semi-annual contacts in year two and beyond. Some of your best-converting conversations begin with a contact who ignored 18 months of earlier messages and responded to a single, well-timed note in a new fiscal year.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The move between tiers should be governed by explicit criteria, not just inactivity. A contact who declines explicitly should exit. A contact who has not responded but has opened emails or engaged with your content warrants more patience. Build the decision criteria into your CRM so it is applied consistently across the SDR team, not left to individual judgement.",
+      },
+      {
+        type: "heading",
+        text: "The annual rhythm: aligning touchpoints to your buyer's decision calendar",
+      },
+      {
+        type: "paragraph",
+        text: "For many long-cycle buyers — particularly in enterprise SaaS and construction — the annual calendar is the actual buying calendar. Budget decisions happen at specific points in the fiscal year. Framework agreements are reviewed annually. Procurement teams reassess vendor relationships at year-end or year-start. If you do not understand your target segment's decision calendar, you are messaging at random intervals relative to the moments that actually matter.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical approach: for each target segment, identify when buying decisions are most likely to be made and work backwards. If your target construction clients typically award contracts in Q2 and Q3, your most productive outreach windows are Q4 (when they are planning ahead) and Q1 (when budget is fresh and projects are being scoped). If your SaaS target operates on a December fiscal year-end, your best windows are October and November — before the budget is locked — and January and February, when new fiscal mandates are live.",
+      },
+      {
+        type: "callout",
+        text: "Mapping your buyer's annual decision calendar does not require exact precision — it requires a rough model that is better than messaging at a fixed cadence regardless of where your buyer sits in their fiscal year. Even a broad segmentation (Q4 is budget season for this segment; Q1 is planning season) materially improves the quality of your outreach compared to a purely sequence-driven approach.",
+      },
+      {
+        type: "heading",
+        text: "Using trigger events to re-engage without seeming like you are chasing",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective single touchpoint in a long-cycle programme is one triggered by something that happened in the prospect's world, not on your outreach schedule. Contract awards, planning approvals, leadership changes, new offices, funding announcements, or public statements about strategic direction all provide a natural, credible reason to send a brief, specific message after a period of silence.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction prospects, relevant signals include: contract award announcements on trade publications or company websites, planning portal updates, Companies House confirmation of new directorships or significant financial changes, and new tender invitations published on procurement portals. For SaaS prospects: funding round announcements, senior leadership hires, product launches, and job postings for roles that imply a buying trigger — a large sales team hire that suggests a CRM evaluation, or a data team expansion that implies analytics stack investment.",
+      },
+      {
+        type: "paragraph",
+        text: "A trigger-based touchpoint does not require a lengthy message. The message can be brief: acknowledge the event, connect it to something genuinely relevant about what you offer, and suggest a short conversation. It works because it signals that you are paying attention to their business rather than running them through a generic sequence — and that distinction is immediately apparent to the recipient.",
+      },
+      {
+        type: "heading",
+        text: "CRM discipline for long-cycle pipeline",
+      },
+      {
+        type: "paragraph",
+        text: "The main operational failure in long-cycle outbound is CRM hygiene. When a standard cadence ends without a conversion, contacts frequently get moved to a vague nurture status or accumulate in an unstructured list that nobody works systematically. Without a clear system, the contacts built up in year one become noise in year two and dead weight in year three.",
+      },
+      {
+        type: "list",
+        heading: "A minimal CRM system for long-cycle outbound",
+        items: [
+          "Create a specific pipeline stage or contact status for long-cycle active — contacts who did not convert in the initial cadence but remain valid ICP targets worth continuing to work",
+          "Schedule a next-action date for every contact in this stage — not an open-ended nurture flag, but a specific date when someone will take a specific action",
+          "Review long-cycle contacts in monthly or quarterly cadence reviews, assessing whether they remain valid targets and whether any trigger events have occurred",
+          "Set a discard threshold — typically 18-24 months of no engagement — at which a contact exits the long-cycle list rather than accumulating indefinitely",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The goal is not to maintain an ever-growing list of semi-qualified contacts, but to have a live, manageable set of targets that an SDR can work consistently alongside their primary prospecting motion. If a long-cycle list is too large to actively manage, it is not being worked — it is just being stored.",
+      },
+      {
+        type: "heading",
+        text: "Pipeline coverage and forecasting for long-cycle programmes",
+      },
+      {
+        type: "paragraph",
+        text: "A programme with a twelve-month average sales cycle needs materially more pipeline coverage than one operating on a 90-day cycle. If your close rate for late-stage opportunities is comparable, but your pipeline takes three to four times longer to mature, your top-of-funnel activity needs to be proportionally larger relative to quarterly revenue targets — otherwise you will consistently fall short of near-term targets regardless of how much prospecting is happening.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical solution is to separate your pipeline into time-horizon buckets: opportunities that could close this quarter, next quarter, and within twelve months. Track the health of each bucket independently. Early-stage pipeline is not a forecast input — it is an investment in future quarters. Presenting it alongside this-quarter pipeline in a forecast review creates false confidence in the near-term numbers.",
+      },
+      {
+        type: "paragraph",
+        text: "For SDR teams building long-cycle pipeline, the ramp plan and activity expectations need to reflect this reality. A new SDR working a long-cycle market will not show booked meetings in week three at the same rate as one working a short-cycle market. Activity metrics that make sense for a 60-day cycle will generate the wrong behaviour for a 12-month one — measuring on dials, emails, and sequences completed rather than on the quality of contact and account coverage built over time.",
+      },
+      {
+        type: "heading",
+        text: "What long-cycle outbound gets wrong most often",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure is treating a long-cycle pipeline problem as a volume problem. When initial cadences do not convert, the response is to run more sequences, more contacts, higher touch frequency. This tends to produce the opposite of the intended result: an overwhelming CRM, an SDR team chasing rather than building, and a prospect population that learns to filter out everything the team sends.",
+      },
+      {
+        type: "callout",
+        text: "Long-cycle outbound compounds when it is built on patience and precision. Fewer targets worked more thoroughly. Touchpoints that are individually worth reading. A cadence that respects your buyer's decision calendar rather than your monthly quota. The pipeline built in year one starts converting in year two, and the relationships built in year two anchor year three. The model rewards consistency over volume in a way that short-cycle outbound does not.",
+      },
+    ],
+  },
+  {
     slug: "construction-linkedin-prospecting-decision-makers",
     category: "Construction Marketing",
     title: "LinkedIn Prospecting in Construction: Finding Decision-Makers in a Sector That Resists Social Media",
