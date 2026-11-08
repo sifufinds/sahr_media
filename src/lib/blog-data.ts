@@ -27,6 +27,113 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-pqq-prequalification-tender-invitations",
+    category: "Construction Marketing",
+    title: "Construction Pre-Qualification: Building a PQQ Strategy That Wins More Tender Invitations",
+    excerpt:
+      "Most contractors treat PQQ submissions as an administrative task. The ones consistently winning invitation to tender treat them as a sales document. Here is how to close the gap.",
+    readTime: "7 min read",
+    date: "8 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most construction contractors treat pre-qualification questionnaires as compliance documents — a tick-box exercise before the real work of tendering begins. The procurement teams receiving them tend to see the same generic responses repeated across submissions. The contractors who consistently receive invitation to tender in competitive markets treat PQQ differently: as the first document in a sales process, not an administrative threshold.",
+      },
+      {
+        type: "paragraph",
+        text: "Pre-qualification serves a gatekeeping function in construction procurement. Before a client invites contractors to submit a full tender price, they need to satisfy themselves on financial stability, relevant experience, health and safety capability, and technical competency. That process — whether it is a formal questionnaire, a Constructionline check, a Builders Profile submission, or a client-specific portal — determines who gets to price the work at all. Failing to pass pre-qualification does not mean losing a tender; it means never being allowed to compete.",
+      },
+      {
+        type: "heading",
+        text: "What most PQQ submissions have in common — and why that is a problem",
+      },
+      {
+        type: "paragraph",
+        text: "The standard PQQ submission pattern is predictable. A contractor copies their company boilerplate into the relevant fields, attaches their RAMS, their ISO certificates, their insurance certificates, and their last set of accounts, and submits within the deadline. The content is factually accurate and structurally complete. It also looks almost identical to most of the other submissions the procurement team will read that week.",
+      },
+      {
+        type: "paragraph",
+        text: "Procurement teams reviewing multiple PQQ submissions are making a qualitative judgement about relative competence and fit, not just checking boxes. When every submission uses the same language — committed to delivering quality outcomes, health and safety is at the heart of everything we do — that language loses signal value entirely. The contractors who stand out are the ones whose submissions demonstrate specific understanding of the type of project being pre-qualified for, rather than generic capability claims applicable to any project.",
+      },
+      {
+        type: "heading",
+        text: "Tailoring versus templating",
+      },
+      {
+        type: "paragraph",
+        text: "There is a meaningful difference between a PQQ submission that has been tailored and one that has simply been partially edited from a template. Genuine tailoring means reading the client's project description, procurement documents, and any available context about their organisation, and adjusting the relevant experience, case study, and methodology sections to reflect relevant comparators. A contractor pre-qualifying for a care home refurbishment programme should not lead with the same project examples they would use when pre-qualifying for a large commercial shell and core fit-out, even if both are technically relevant work.",
+      },
+      {
+        type: "paragraph",
+        text: "The specific areas where tailoring has the highest impact are relevant project experience — match the type, scale, and procurement route of the target project as closely as possible — and the health and safety section, where moving beyond policy statements toward how processes worked in practice on comparable projects carries significantly more weight. Financial information is usually fixed, but the narrative around it can be adjusted. A contractor with a strong cash position but modest turnover relative to the contract value should address that proactively rather than leaving the client to draw their own conclusion.",
+      },
+      {
+        type: "heading",
+        text: "Building a PQQ library that enables faster tailoring",
+      },
+      {
+        type: "paragraph",
+        text: "One practical reason contractors default to generic submissions is that building tailored content under deadline pressure is difficult. The answer is to build a structured PQQ library proactively, before specific opportunities require it. That library should contain project case studies organised by type (commercial, residential, education, healthcare, industrial), by contract value range, by procurement route, and by the specific challenges resolved — cost overrun management, design coordination, tight programme delivery, restricted access. When a PQQ lands with a ten-working-day deadline, the library reduces tailoring to selection and editing rather than drafting from scratch.",
+      },
+      {
+        type: "list",
+        heading: "What a useful case study entry should include",
+        items: [
+          "Project type, client name, contract value, and your scope of works",
+          "The specific challenge or constraint the project presented — not generic difficulty, but something the evaluator could verify",
+          "What your team did in response — decisions made, processes applied, resources deployed",
+          "The outcome, as specifically as possible: programme met, defects within defined threshold, repeat commission awarded",
+          "Any independently verifiable reference — a client contact willing to field calls, or a named contract in a public register",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Case studies that name a verifiable client and an auditable outcome carry more weight than narratives that could have been written by anyone. The goal is not length but specificity. A hundred words describing a real project outcome in concrete terms outperforms five hundred words of generalist capability narrative.",
+      },
+      {
+        type: "heading",
+        text: "The financial submission as a sales document",
+      },
+      {
+        type: "paragraph",
+        text: "The financial sections of a PQQ are where many contractors are passive when they could be active. If your accounts will generate a question — because turnover is lower than the contract value would typically require, because there was an unusual year in the last two to three sets of accounts, or because your legal structure is complex — the PQQ is an opportunity to address that question before it becomes a reason to deselect. A short explanatory note within the financial section, correctly referencing the accounts it relates to, demonstrates that the contractor understands the concern and has considered it. Silence invites the procurement team to reach their own conclusion.",
+      },
+      {
+        type: "paragraph",
+        text: "Parent company guarantees, bonds, and subcontract arrangements that affect risk allocation can also be explained clearly in the financial section rather than left as an interpretive exercise. Procurement teams appreciate submissions that make their assessment easier, not harder. If your financial picture requires context to be read fairly, provide that context.",
+      },
+      {
+        type: "heading",
+        text: "Tracking PQQ performance and iterating",
+      },
+      {
+        type: "paragraph",
+        text: "Most contractors do not systematically track their PQQ success rate. They submit, receive a result, and if unsuccessful, rarely find out why. Building a simple tracking system — a spreadsheet that records each PQQ submitted, the client, the project type, the contract value, whether ITT was received, and where available any feedback — creates the data needed to improve over time. Patterns become visible. If your ITT conversion rate is markedly lower for a particular project type than for others, that is a signal worth investigating, either because your case studies for that type are weaker or because your financial profile is not matching client thresholds for that tier.",
+      },
+      {
+        type: "paragraph",
+        text: "Requesting feedback when you are not shortlisted is worth the effort even when clients decline to give it. Some will offer a brief reason. Any information is better than the assumption that the submission was simply competitive and the margins were narrow. For public sector clients in particular, some procurement frameworks have obligations to provide debrief feedback — this is information you are entitled to request, and few contractors do.",
+      },
+      {
+        type: "heading",
+        text: "Pre-qualification as a pipeline signal for business development",
+      },
+      {
+        type: "paragraph",
+        text: "Pre-qualification is typically framed as a reactive activity — a client publishes a PQQ, you respond. But the existence of a PQQ from a target client is itself a pipeline signal. A client running a pre-qualification process for a programme of works is signalling procurement intent with a timescale attached. That is a stronger buying signal than most outbound prospecting generates. Contractors who track pre-qualification opportunities — through Contracts Finder, Find a Tender, local authority portals, and sector-specific framework portals — as an early-stage pipeline input can align their business development activity with real procurement timelines rather than speculative outreach.",
+      },
+      {
+        type: "paragraph",
+        text: "Over time, a contractor who consistently reaches ITT stage with the same client type builds a track record that makes future pre-qualification easier. Each successful pre-qualification that leads to a tender, whether or not the work is won, adds a credible project reference to the library and reinforces the relationship with the procurement team. That compounding effect is what separates contractors with a consistent flow of invitation to tender from those who pre-qualify sporadically and win work less predictably.",
+      },
+      {
+        type: "callout",
+        text: "PQQ submissions are the entry point to any tendered construction project. Improving your conversion rate from PQQ to ITT costs nothing except the time invested in building better documentation — and it removes the most expensive form of wasted effort in construction business development: pricing work you were never going to win because you failed to pass the first gate.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-attrition-retention-sales-leaders",
     category: "Sales Development",
     title: "B2B SDR Attrition: Why Good SDRs Leave and What Sales Leaders Can Do About It",
