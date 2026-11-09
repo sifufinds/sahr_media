@@ -27,6 +27,113 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-pe-backed-portfolio-companies",
+    category: "Sales Development",
+    title: "Outbound to Private Equity-Backed Companies: A Targeting Framework for B2B Teams",
+    excerpt:
+      "PE-backed portfolio companies are one of the most consistently underused B2B prospecting segments. They have explicit growth mandates, predictable buying timelines, and decision-makers motivated by investment theses rather than departmental preferences.",
+    readTime: "7 min read",
+    date: "9 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B prospecting lists are built from the same filters: job title, company size, industry, and technology stack. These are useful criteria, but they tell you very little about why a company is buying now. Private equity-backed companies are one of the few account segments where the buying context is knowable before you have spoken to anyone. The investment thesis — why a PE firm acquired or backed the company — tells you what the management team has been hired to achieve, what results they need to demonstrate within a defined timeframe, and what category of problem they are likely to be prioritising. That is more signal than most outbound lists offer.",
+      },
+      {
+        type: "paragraph",
+        text: "In the UK, there are several thousand PE-backed portfolio companies at any given time, spread across mid-market and growth equity portfolios. Many sit well within the revenue ranges that B2B SaaS and professional services companies target. Despite this, the PE-backed segment is rarely treated as a distinct prospecting category with its own research logic and messaging approach. Most sales teams prospect into them the same way they would prospect into any company of comparable size — missing the structural difference in how those companies make decisions and allocate spend.",
+      },
+      {
+        type: "heading",
+        text: "Why PE-backed companies are systematically different buyers",
+      },
+      {
+        type: "paragraph",
+        text: "A founder-led company makes buying decisions at the pace its founder chooses, with priorities that often reflect personal conviction alongside commercial logic. A publicly listed company is constrained by quarterly earnings visibility and procurement bureaucracy. A PE-backed portfolio company operates on a different clock. The investment thesis and exit horizon create explicit, documented targets that management is judged against. When a PE firm acquires a business and sets revenue or margin targets for the first three years, the management team inherits those targets and builds their operating plan around them. The vendors who help them hit that plan become a priority.",
+      },
+      {
+        type: "paragraph",
+        text: "This creates something that outbound reps are trained to find but rarely encounter in a pure form: genuine, structural urgency that exists independently of the sales process. The management team of a PE-backed company typically arrives knowing they have a limited window to demonstrate results before the next funding event or exit process. That urgency is real and documented. It makes ROI-focused outreach significantly more effective than feature-driven pitches in this segment.",
+      },
+      {
+        type: "heading",
+        text: "How to identify PE-backed companies in your target market",
+      },
+      {
+        type: "paragraph",
+        text: "The most direct route is PE firm websites. Most UK and European mid-market PE funds maintain public portfolio pages listing current investments by company name, sector, and sometimes management team. Working through the portfolios of PE firms whose investment thesis overlaps with your ICP — technology buyouts, B2B services, construction and infrastructure — will surface a substantial list of companies that meet your firmographic criteria and are likely to be in an active investment period.",
+      },
+      {
+        type: "paragraph",
+        text: "Companies House adds useful context for UK-based prospects: the shareholder register shows when a PE fund acquired a majority position, and recent accounts filings indicate how the financial profile has changed since the acquisition. For public deal announcements, sector trade press and financial news are searchable by industry. Tools such as Beauhurst track UK private equity and venture investment activity with filtering by sector, deal type, and company size — their data extends well beyond what individual PE firm websites show and is specifically oriented toward UK mid-market activity.",
+      },
+      {
+        type: "heading",
+        text: "Using the investment thesis as a prospecting signal",
+      },
+      {
+        type: "paragraph",
+        text: "PE firms acquire companies for a reason, and that reason — the investment thesis — is frequently either stated explicitly in deal announcements or inferrable from the firm's track record. A fund that acquires underperforming mid-market businesses and brings in operational management is signalling a turnaround play. A fund that backs high-growth B2B services businesses and focuses on building out the sales function is signalling a revenue-growth play. These are different buying environments with different priorities.",
+      },
+      {
+        type: "paragraph",
+        text: "In a turnaround play, the new management team frequently replaces the supplier base as part of a broader operational reset. Speed of delivery, credibility, and clear cost-versus-outcome framing matter most. In a growth play, the management team is focused on scalability — they want to know that the solutions they buy will work at twice the current scale without requiring replacement in eighteen months. Framing outreach around these different pressures, informed by what type of investment the backing represents, produces more relevant conversations than generic capability pitches.",
+      },
+      {
+        type: "heading",
+        text: "The post-acquisition window and why timing matters",
+      },
+      {
+        type: "paragraph",
+        text: "The first 90 to 120 days after a PE acquisition is the most active buying period in a portfolio company's investment cycle. New management is reviewing every part of the operating model: existing suppliers, technology infrastructure, team structure, and processes. Budget is typically available — PE firms inject working capital at acquisition. And the new leadership team has limited institutional attachment to incumbent vendors, which means they are genuinely open to switching in a way they will not be at month twelve, when the operational picture has settled.",
+      },
+      {
+        type: "paragraph",
+        text: "Timing outreach to this window requires tracking deal announcements. Setting up news alerts for PE firms active in your target sectors is a straightforward starting point. LinkedIn is also useful: a new CEO, CFO, or commercial director joining a PE-backed business is frequently a signal that the acquisition phase is complete and operational decisions are being made. Reaching those contacts in the first month of their tenure is structurally different from reaching them a year later. By then, their vendor decisions are largely made and the switching cost has risen.",
+      },
+      {
+        type: "heading",
+        text: "What to say in outreach to PE-backed buyers",
+      },
+      {
+        type: "paragraph",
+        text: "PE-backed buyers are professionally sophisticated and ROI-oriented. They are accustomed to being sold to and will not respond differently to generic capability pitches than any other senior buyer. The messages that land are ones that demonstrate understanding of the operational context they are working in, without being presumptuous or surveillance-like about their ownership structure.",
+      },
+      {
+        type: "list",
+        heading: "Outreach principles for PE-backed prospects",
+        items: [
+          "Lead with the business problem relevant to their stage of growth, not your product's features",
+          "Frame outcomes in business results: revenue impact, time to onboard, ROI at scale — PE management is comfortable receiving and expects quantified business cases",
+          "Show that the solution will work at the scale they are targeting, not just at today's size — scalability is a consistent evaluation criterion in this segment",
+          "If you have worked with other PE-backed portfolio companies, reference that context — 'we work with a number of PE-backed businesses in this sector' signals relevant experience to this audience",
+          "Avoid opening with any reference to their funding or ownership that would feel intrusive — the buying context should inform how you frame your message, not what you say about them",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The tone that works in this segment is direct and commercial. These buyers are not looking for a vendor who needs to be educated about their context — they want a supplier who understands the pressures of a growth mandate and can deliver against one. Outreach that positions your capability in those terms, without manufacturing pressure that the buyer already has plenty of, tends to produce better response rates than the same message would to a founder-led business of comparable size.",
+      },
+      {
+        type: "heading",
+        text: "Expanding across the portfolio after a first win",
+      },
+      {
+        type: "paragraph",
+        text: "One of the structural advantages of winning business with a PE portfolio company is the expansion pathway it creates. PE funds typically work with their portfolio companies through operating partners — experienced executives who sit across multiple investments advising on specific functional areas. A strong engagement with one portfolio company creates the opportunity for a warm introduction to others in the same fund, facilitated either by the operating partner relationship or by the management network that connects portfolio companies at a peer level.",
+      },
+      {
+        type: "paragraph",
+        text: "This does not happen automatically. It requires deliberate follow-up: after a successful engagement, understand who the operating partner is for your functional area, and ask your contact whether they would be comfortable with an introduction to comparable roles in other portfolio companies. The investment thesis that made your solution relevant to the first company often applies across the fund's portfolio. A fund focused on operational improvement in B2B services will have that same focus across all its portfolio companies — not just the one you are already working with.",
+      },
+      {
+        type: "callout",
+        text: "PE-backed portfolio companies are one of the few prospecting segments where the buying context is documented before your first conversation. The investment thesis tells you what management has been hired to achieve. The acquisition timeline tells you when their buying decisions are most active. Using both — rather than treating PE-backed companies as just another firmographic segment — is what separates targeted outbound from generic prospecting at scale.",
+      },
+    ],
+  },
+  {
     slug: "b2b-year-end-pipeline-urgency-q4-close",
     category: "Sales Development",
     title: "B2B Year-End Pipeline Urgency: How to Move Deals Forward in Q4 Without Burning Bridges",
