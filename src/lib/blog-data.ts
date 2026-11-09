@@ -27,6 +27,124 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-dream-100-target-account-list-outbound",
+    category: "Sales Development",
+    title: "The Dream 100 Approach to B2B Outbound: Building and Working a Focused Target Account List",
+    excerpt:
+      "Most outbound programmes treat every prospect the same: run a sequence, hit exit criteria, move on. The dream 100 framework does the opposite — it identifies your highest-fit accounts and works them consistently over months, without burning bridges along the way.",
+    readTime: "7 min read",
+    date: "9 Nov 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "The standard outbound model runs on throughput. Build a list, enrol prospects in a sequence, trigger exit criteria at step seven, mark as 'no reply' and move on. At scale, this produces activity metrics that look healthy but conversion rates that plateau. The underlying assumption — that every prospect on the list is equally worth the same amount of outreach — is rarely examined, and that assumption is usually wrong.",
+      },
+      {
+        type: "paragraph",
+        text: "The dream 100 framework is a structurally different approach. Rather than maximising the number of accounts in a sequence, it identifies a defined set of highest-fit target accounts and commits to working them persistently — over quarters, not weeks — until they become a conversation, a deal, or a clear close. The name comes from a sales development concept that has circulated in various forms for years, but the underlying logic is straightforward: a small number of your best-fit accounts are worth far more sustained attention than a large number of average-fit ones. The goal is to earn a relationship before the buyer is ready to buy, so that when they are, you are already in the room.",
+      },
+      {
+        type: "heading",
+        text: "Why most outbound lists are too broad",
+      },
+      {
+        type: "paragraph",
+        text: "A standard prospecting list is built from firmographic filters: company size, industry, location, technology stack. Those filters are a starting point, not a finished answer. They produce a list of companies that theoretically match your ICP, but they tell you nothing about which of those companies are genuinely ideal — which ones have the operational context, internal priorities, or structural characteristics that make them meaningfully more likely to buy, more likely to stay, and more likely to generate expansion revenue.",
+      },
+      {
+        type: "paragraph",
+        text: "The result is an outbound programme that treats a perfect-fit account the same as a marginal-fit account. Both receive the same five-step sequence. Both get the same three attempts before the rep moves on. When the perfect-fit account does not reply, it is marked as exhausted and removed from rotation — even though the rep has barely started. Meanwhile, the pipeline fills with average-fit accounts that are easier to get in front of but harder to close and more likely to churn.",
+      },
+      {
+        type: "heading",
+        text: "Building the list: criteria beyond company size and industry",
+      },
+      {
+        type: "paragraph",
+        text: "A dream 100 list starts with firmographic criteria but then layers on additional signals that indicate genuine buying readiness or strategic fit. The goal is not to find every company that could theoretically use your product but to find the specific companies where the problem is most acute, the internal conditions are right, and the value you deliver is hardest to replicate with an alternative. That set is usually much smaller than your total addressable market — and that is the point.",
+      },
+      {
+        type: "list",
+        heading: "Criteria to layer on top of firmographic filters",
+        items: [
+          "Operational indicators of the specific problem you solve — hiring patterns, job postings, technology changes, or organisational restructures that signal the problem is live",
+          "Strategic fit indicators — business model characteristics, go-to-market motion, or customer segment overlap that makes your solution structurally relevant rather than generically useful",
+          "Relationship potential — companies where you have warm connections, shared contacts, or a credible reference customer in the same space who could facilitate an introduction",
+          "Competitive displacement opportunity — accounts where you know an incumbent vendor is underperforming, pricing aggressively, or losing support, based on market feedback or review activity",
+          "Commercial fit — deal size potential, budget authority structure, and procurement complexity that makes the account worth the sustained effort the dream 100 approach requires",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "In practice, building this list takes more time than pulling a standard prospecting export. You are making qualitative judgements about individual accounts, not applying bulk filters. That investment is justified by the asymmetry: a well-chosen dream 100 account that converts is worth many times the value of a marginal account that happens to reply to email four of a generic sequence.",
+      },
+      {
+        type: "heading",
+        text: "Tiered persistence vs. spray-and-pray",
+      },
+      {
+        type: "paragraph",
+        text: "Once the list exists, the operational question is how to work it. The dream 100 framework is not a licence to send ten emails to every account until someone replies out of exhaustion. It is a commitment to sustained, relevant, low-friction engagement that keeps your name and company in the peripheral awareness of key stakeholders at each account — without being intrusive enough to generate irritation that closes doors before you have opened them.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, this means a tiered model. A small number of accounts — the highest priority, closest to ready — receive active outreach: personalised email, direct LinkedIn engagement, phone attempts where appropriate. A larger number receive lighter-touch engagement: a LinkedIn comment on a relevant post, a brief email when a genuine trigger event occurs (a funding announcement, a job change, a news story about a challenge you can address), a re-engagement when the original outreach window has passed. The former group changes as deals progress. The latter group stays warm so that when conditions shift at that account, you have not gone dark.",
+      },
+      {
+        type: "heading",
+        text: "Using buying signals to prioritise within the list",
+      },
+      {
+        type: "paragraph",
+        text: "One of the operational advantages of a focused target account list is that monitoring a small number of accounts for buying signals is tractable in a way that monitoring a large one is not. When you have 500 accounts in a sequence, you cannot realistically track what is happening at each one. When you have 100 accounts you care deeply about, you can.",
+      },
+      {
+        type: "list",
+        heading: "Signals that should move an account up your priority stack",
+        items: [
+          "A new executive hire in the relevant function — a new Head of Sales, CTO, or Head of Operations often signals a mandate to review the existing toolset and supplier base",
+          "A funding announcement or acquisition — new capital typically precedes new spending authority and a compressed decision-making timeline",
+          "A job posting for a role your product replaces or supports — if a company is hiring for a function you automate or improve, they are actively thinking about that problem",
+          "A content signal — a senior stakeholder publishing or engaging with content about the problem you solve is an indication of active consideration, not passive interest",
+          "A competitor exit or pricing change — when an incumbent vendor raises prices, loses support resources, or exits a market segment, the switching cost calculation changes at every account they serve",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These signals do not guarantee readiness, but they change the probability. An account that has just hired a new CFO is more likely to be open to a conversation about financial operations tooling than it was three months ago. That shift is worth acting on with a timely, relevant reach-out rather than waiting for the account to come around to the next step in a pre-programmed sequence.",
+      },
+      {
+        type: "heading",
+        text: "When to add and remove accounts",
+      },
+      {
+        type: "paragraph",
+        text: "The list should not be static. Accounts enter and leave based on changing conditions at the company, changing conditions in your business, or changed intelligence about fit. An account that closes a funding round and enters a rapid-growth phase may warrant elevation to active outreach. An account that gets acquired by a company that is an existing customer may warrant a different kind of engagement. An account that you have consistently been unable to find a credible entry point for after six months of monitoring may warrant removal in favour of a better-fit replacement.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical rhythm is to review the list once per quarter: remove accounts where circumstances have closed the opportunity, add replacements from the broader ICP pool using the layered criteria described above, and re-evaluate the tiering of accounts that have had material signal changes since the last review. This keeps the list current without requiring constant maintenance that distracts from the actual outreach work.",
+      },
+      {
+        type: "heading",
+        text: "How the dream 100 changes your messaging",
+      },
+      {
+        type: "paragraph",
+        text: "The other thing a focused target account list changes is what you say. When you have been monitoring an account for three months before your first outreach attempt, you know considerably more about it than you would know from a ten-minute LinkedIn search the morning you enrol them in a sequence. You know which challenges the company is publicly discussing, which hires they have made, what their product or service direction appears to be, and what their competitive environment looks like. That knowledge enables a first touch that is specific enough to be credible — not in a surveillance-like way, but in the way a well-prepared professional would naturally contextualise a business problem.",
+      },
+      {
+        type: "paragraph",
+        text: "The result is outreach that reads as genuinely relevant rather than templated. Buyers at well-researched target accounts notice the difference. They may not always reply, but the probability that your message registers as worth a conversation is materially higher than it is for a generic sequence sent to a marginal-fit account without research. Over a sustained period, that difference compounds: the accounts you have worked thoughtfully are more likely to reach out when they are ready, because you are already associated with the problem they are trying to solve.",
+      },
+      {
+        type: "callout",
+        text: "The dream 100 is not a shortcut — it requires more research per account and more patience before seeing results than a high-volume spray-and-pray approach. What it produces is a pipeline weighted toward your best-fit customers: the ones most likely to buy, stay, and expand. That trade-off is worth making deliberately, not by accident.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-pe-backed-portfolio-companies",
     category: "Sales Development",
     title: "Outbound to Private Equity-Backed Companies: A Targeting Framework for B2B Teams",
