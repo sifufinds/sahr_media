@@ -27,6 +27,93 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-fast-growth-company-prospecting-track",
+    category: "Sales Development",
+    title: "Targeting Fast-Growth Companies: How to Build a B2B Prospecting Track Around Growth Signals",
+    excerpt:
+      "Fast-growth companies have a particular property that makes them valuable outbound targets: they are actively investing in new tools, processes, and partnerships to handle scale. This post covers how to identify these companies systematically and structure your outreach around the moments when they are most likely to act.",
+    readTime: "7 min read",
+    date: "10 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The ICP in most B2B outbound programmes is defined by what a company looks like today: headcount, industry, technology stack, revenue band. Those are static attributes. They tell you whether a company fits your product but they say nothing about where that company is in its trajectory, and trajectory matters more than most outbound programmes acknowledge. A company that is growing fast is not just a customer — it is a customer with active problems. It is making new hires, adopting new processes, outgrowing its current tools, and looking for partners who can help it absorb scale without losing efficiency. That set of conditions is structurally different from a stable company in the same sector with the same headcount, and it deserves to be treated differently.",
+      },
+      {
+        type: "paragraph",
+        text: "Building a fast-growth prospecting track means identifying companies that are in this state of productive expansion and structuring your outreach to reach them while that window is open. The window is real but not permanent — a company that raised a Series A twelve months ago has by now either absorbed that growth phase or moved on to a different set of priorities. Catching the signal early and acting on it quickly is the operational discipline the track requires.",
+      },
+      {
+        type: "heading",
+        text: "Why fast-growth companies are a distinct prospecting segment",
+      },
+      {
+        type: "paragraph",
+        text: "The reason to carve out fast-growth companies as a distinct segment, rather than simply adding growth signals to your general outbound programme, is that they behave differently as buyers. A fast-growing SaaS company that has just doubled headcount is under time pressure to close the operational gaps that come with scale. They are more willing to move quickly on a vendor decision than a mature organisation working through a formal annual procurement cycle. The commercial conversation has a different quality: they are not asking whether they need a solution — they are asking whether you can deliver quickly enough and handle their scale. That is a materially different conversation, and your messaging should reflect it.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, the equivalent is a subcontractor or tier-two contractor moving into a new tier of project values. A civil engineering firm that has historically tendered for sub-£5m contracts and has just secured a framework agreement placing them in the £10-25m bracket is managing genuine growing pains: increased reporting requirements, more complex supply chain management, different procurement expectations from the main contractor or end client. They are likely to be actively looking for support in areas where their current processes cannot scale. They are also unlikely to have been targeted by your competitors in precisely that way, because most outbound programmes are defined by static firmographic criteria rather than growth stage.",
+      },
+      {
+        type: "heading",
+        text: "Five signals to monitor",
+      },
+      {
+        type: "list",
+        heading: "Growth indicators worth building into a prospecting track",
+        items: [
+          "Headcount growth — a company that has grown its LinkedIn headcount significantly in the past twelve months is in an active hiring cycle. The growth rate matters more than the absolute number: a fifteen-person company scaling to twenty-five is in a materially different operational state than a 500-person company adding a similar number of staff. Tools like LinkedIn Sales Navigator allow you to filter by recent headcount growth as part of a prospect search.",
+          "Fundraising announcements — for SaaS companies, a funding round typically precedes an investment phase in sales, marketing, and operations. Reaching a funded company in the first three months after a raise means catching them while budget allocations are still being decided and new vendor relationships are being formed. Beyond that window, internal priorities tend to have hardened.",
+          "New leadership hires — a new Head of Sales, VP of Operations, or Chief Revenue Officer at a target account is a strong prospecting signal. New leaders typically audit existing vendors and processes, are prepared to bring in new tools and partners, and have an internal mandate to demonstrate improvement. The period immediately following a senior hire is often when the most consequential vendor decisions are made.",
+          "Geographic or service expansion — a company opening a regional office, entering a new vertical, or launching a new product line is making structural investments that often create operational gaps. Those gaps represent exactly the conditions where your offer may land as a solution to a live problem rather than a future consideration.",
+          "Growth list appearances — in the UK, annual rankings such as the Deloitte Technology Fast 50 and sector-specific growth awards flag companies in a confirmed period of rapid expansion. These lists are publicly available, published annually, and largely ignored by most outbound programmes. Monitoring them systematically is a low-effort way to identify accounts that have been externally validated as fast-growing.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building the monitoring system",
+      },
+      {
+        type: "paragraph",
+        text: "Signal monitoring does not need to be complex, but it does need to be systematic. The approach that fails is the one where growth signals are noticed incidentally — a rep happens to see a funding announcement and manually adds the company to their list. That produces occasional wins but not a repeatable track.",
+      },
+      {
+        type: "paragraph",
+        text: "A minimal monitoring system has three components: a watch list of target accounts, a set of triggers configured in your tooling, and a regular review process to action the alerts. The watch list should include your tier-one and tier-two target accounts — companies where you already have a reason to reach out if conditions are right. Configure LinkedIn Sales Navigator alerts for headcount changes at those accounts, set up Crunchbase or Beauhurst alerts for funding events in your ICP sectors, and use Google Alerts for news mentions of target company names. The review process asks one question at each interval: has anything happened at these accounts that justifies new outreach or reactivation of a dormant contact?",
+      },
+      {
+        type: "heading",
+        text: "Adapting your messaging for a growth-stage audience",
+      },
+      {
+        type: "paragraph",
+        text: "The mistake in messaging for fast-growth companies is leading with features or generic value propositions. A company experiencing real growth challenges is overwhelmed with incoming messages about products and services that claim to solve the same abstract problems. The message that breaks through is the one that acknowledges the specific growth context. If a construction firm has just secured a new framework agreement, the opening email should reference that event and connect it to a specific operational challenge that typically accompanies that transition. If a SaaS company has just raised a Series B, the message should acknowledge the stage they are at and frame the conversation around what typically needs to change in the transition from Series A to Series B execution.",
+      },
+      {
+        type: "paragraph",
+        text: "This level of personalisation is not achievable at high volume, which is part of why the fast-growth track works best as a distinct, smaller-volume effort rather than as the backbone of the main outbound programme. The economics are different from standard sequencing: fewer contacts, more time per contact, higher expected conversion because the relevance of the outreach is structurally higher. A message that correctly identifies someone's current operational challenge and addresses it directly will consistently outperform a well-crafted generic sequence, and that asymmetry is worth the additional research time the track demands.",
+      },
+      {
+        type: "heading",
+        text: "The pitfall: mistaking funding for budget authority",
+      },
+      {
+        type: "paragraph",
+        text: "The growth signal that most reliably misleads is the fundraising announcement. A company that has raised £5m has not necessarily been given permission to spend it on your product. The capital may be allocated to hiring, product development, or market expansion — not to the budget line you are selling into. The funding announcement is a signal that the company is in a growth phase and that budget allocations are being decided, not that your specific category has been approved.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that outreach triggered by a funding announcement should be framed around the operational context of growth, not around the assumption of an available budget. Attempts to manufacture urgency based on a recent raise — framing it as the right moment for the prospect to invest in your product — read as opportunistic and misunderstand how capital allocation works inside funded businesses. The better frame is empathy with the operational challenge that comes with the growth stage, and an offer to have a focused conversation about whether there is a real problem worth exploring together.",
+      },
+      {
+        type: "callout",
+        text: "Fast-growth company prospecting is not a volume play. It is a precision exercise: identify the right companies at the right moment in their trajectory, reach them with a message that acknowledges what is actually happening in their business, and earn a conversation while the conditions are live. The SDR team that builds this track alongside a broader outbound programme has access to a consistently higher-quality lead source than one relying on static list-building alone.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-quota-setting-outbound-sales-leaders",
     category: "Sales Development",
     title: "How to Set SDR Quotas That Actually Work: A Framework for Sales Leaders",
