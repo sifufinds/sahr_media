@@ -27,6 +27,114 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-quota-setting-outbound-sales-leaders",
+    category: "Sales Development",
+    title: "How to Set SDR Quotas That Actually Work: A Framework for Sales Leaders",
+    excerpt:
+      "Most SDR quotas are set backwards — derived from a revenue target and divided through an assumed close rate. This post sets out a bottom-up framework that produces targets grounded in what an SDR can actually generate, rather than what finance needs to see on a spreadsheet.",
+    readTime: "8 min read",
+    date: "10 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "The standard approach to SDR quota-setting runs like this: the business has a revenue target, the revenue target implies a certain pipeline value, the pipeline value implies a certain number of qualified meetings, and that number gets divided by the number of SDRs. The resulting per-rep figure is presented as a quota. It is a coherent piece of arithmetic, but it has a critical flaw — nobody checked whether the SDR can actually produce that meeting volume. The quota is derived from what finance needs rather than what outbound can deliver, and when those two things diverge, the resulting gap is called underperformance.",
+      },
+      {
+        type: "paragraph",
+        text: "This post sets out a bottom-up alternative. The goal is not to lower expectations but to base them on observable reality: what conversion rates does your outbound motion actually produce at each stage, what can a fully-ramped SDR realistically work in a month, and how do factors like territory quality and ramp time affect the numbers. A quota built from that foundation is harder to arrive at than one derived from a spreadsheet formula, but it is vastly more useful as a management tool — and considerably less corrosive to the SDR team when it is consistently achievable.",
+      },
+      {
+        type: "heading",
+        text: "The three types of SDR quota and which one to prioritise",
+      },
+      {
+        type: "paragraph",
+        text: "Before discussing how to set the right number, it is worth being precise about what you are measuring. Sales leaders commonly conflate three different types of quota when talking about SDR targets: activity quotas (dials, emails, LinkedIn touchpoints), output quotas (meetings booked or conversations held), and quality-adjusted output quotas (qualified meetings or meetings that progress beyond the first call). Each measures something different, and conflating them creates different kinds of dysfunction.",
+      },
+      {
+        type: "paragraph",
+        text: "Activity quotas incentivise volume regardless of quality. An SDR who books ten meetings a month with poorly qualified prospects is meeting an activity-adjacent quota while actively damaging AE efficiency. Output quotas on raw meetings booked are better but still susceptible to gaming — an SDR who books meetings with contacts who clearly will not advance has technically hit the target. The most useful primary quota metric for an outbound SDR is qualified meetings held: meetings that meet an agreed definition of qualification and that the AE confirms as a legitimate pipeline entry. That definition should be written down and agreed between SDR management and the AE team before targets are set, not after the first argument about meeting quality.",
+      },
+      {
+        type: "heading",
+        text: "Building the quota from the conversion chain upward",
+      },
+      {
+        type: "paragraph",
+        text: "The bottom-up approach starts with the conversion chain your outbound motion actually produces. That chain runs from the top of the funnel downward: contacts worked in a given period → positive replies or live conversations → discovery-stage conversations with qualified contacts → meetings booked → meetings held → meetings that meet your qualification criteria. Each stage has a conversion rate, and those rates are unique to your motion — your ICP, your messaging, your channels, and your market. The job is to find those rates from your own data rather than applying generic benchmarks from an industry report.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, this means pulling the relevant data from your CRM and sequencing tool. If an SDR works 120 new contacts in a month, generates 14 replies, connects on eight live calls, books five meetings, and three of those meet your qualification criteria, those are the rates to build from — not a hypothetical. The point of the bottom-up approach is to anchor the quota to something observable rather than something aspirational. Once you have rates across this chain, you can work backwards from a target qualified-meeting quota to a required contacts-worked volume. If the quota is four qualified meetings per month and the chain is producing one qualified meeting for every 40 contacts worked, the SDR needs to work 160 new contacts in a month. The question then becomes whether that is realistic given list availability, research time, and the administrative overhead of a sales role. If it is not, the quota is not achievable regardless of effort.",
+      },
+      {
+        type: "list",
+        heading: "What to track at each stage of the conversion chain",
+        items: [
+          "Contacts worked — the number of new prospects enrolled in outreach in a given period, not contacts in the CRM database; contacts actively worked with at least one touchpoint that month",
+          "Positive replies — responses expressing interest or requesting information, separated from out-of-office, bounce, and negative replies, which inflate reply rates but carry no pipeline value",
+          "Live conversations — phone calls where the prospect engaged for more than a brief acknowledgement, including calls that did not immediately result in a meeting but that advanced familiarity",
+          "Meetings booked — calendar invitations accepted, not just agreed verbally; verbal commitments have a materially higher no-show rate than confirmed calendar entries with a reminder sequence",
+          "Meetings held — the subset of booked meetings that actually took place, accounting for no-shows and cancellations that were not rescheduled within the same measurement period",
+          "Qualified meetings — meetings confirmed by the AE as meeting your agreed qualification criteria, typically involving confirmed budget relevance, a defined timeline, appropriate seniority, and a problem your product can credibly solve",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Accounting for ramp time",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most consistent errors in SDR quota-setting is treating a new hire as if they will be fully productive from day one. A newly onboarded SDR is simultaneously learning the product, the ICP, the messaging, the sequencing tool, the CRM, the qualification criteria, and the market dynamics of the accounts they are calling. Even with a well-designed onboarding programme, it takes time for all of those elements to come together into consistent outbound execution. Setting full quota from the first month is not a motivational technique — it is a reliable way to generate early-stage discouragement and misread ramp data as individual underperformance.",
+      },
+      {
+        type: "paragraph",
+        text: "A practical ramp schedule typically runs across three to four months, with quota expectations stepped up progressively: activity-focused milestones in the first month as the SDR works through onboarding, a materially lower output target in month two as active outreach begins, a further step in month three as messaging and objection handling improve, and full quota expectation from month four. The specific structure should be calibrated to your onboarding programme's length and intensity. What matters is that the ramp is explicit, written down, and agreed with the SDR before they start — not communicated retroactively when they miss month one.",
+      },
+      {
+        type: "heading",
+        text: "Territory and ICP quality are part of the equation",
+      },
+      {
+        type: "paragraph",
+        text: "Two SDRs on identical quotas working materially different territories are not operating under equivalent conditions. A territory with higher density of ideal-fit accounts, more active buying signals, and stronger brand recognition among prospects will produce better conversion rates than a territory where none of those conditions apply. Setting the same quota across unequal territories is rational only if you are prepared to accept that outcomes will differ for structural reasons rather than individual performance reasons — and that the SDR working the harder territory will, on average, appear to underperform against a rep in a more productive patch.",
+      },
+      {
+        type: "paragraph",
+        text: "The cleaner solution is to standardise territories before setting quota: ensure that each SDR's addressable universe — in terms of account count within ICP, signal density, and market accessibility — is roughly equivalent. When standardisation is not practical, territory quality should be factored into quota expectations explicitly. An SDR covering a less-developed market segment should have a target that reflects the lower conversion environment, with the expectation adjusted upward if and when territory conditions improve. A single quota applied indiscriminately across unequal territories tells you more about territory quality than individual performance, and attributing the difference to rep effort produces the wrong management conclusions.",
+      },
+      {
+        type: "heading",
+        text: "What to do when you have no historical data",
+      },
+      {
+        type: "paragraph",
+        text: "The bottom-up approach requires historical conversion data, and many sales leaders face the challenge of building an outbound function from scratch where no such data exists. The temptation in that situation is to apply benchmarks — conversion rates and meeting volumes from industry reports, peer comparisons, or agency case studies. Those benchmarks are useful as a sanity check, but they are a poor substitute for your own data because they describe averages across diverse outbound motions in diverse markets. Your ICP, your messaging, and your market will produce different results.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical approach when starting from zero is to defer output quota-setting until you have enough observed data to work from. Run an explicitly exploratory phase — typically the first 60 to 90 days of active outbound — where activity targets replace output targets, and the goal is to generate the conversion data you need to set a credible quota. At the end of that period, you have something real to build from. Some sales leaders resist this approach because it means operating without a formal output target for a quarter, but a quota set without underlying data will likely need to be revised anyway, and the revision conversation is more disruptive than the initial delay.",
+      },
+      {
+        type: "heading",
+        text: "When and how to revise quotas",
+      },
+      {
+        type: "paragraph",
+        text: "Quotas should not be permanent fixtures. They should be reviewed at meaningful intervals — at minimum annually, but also when material changes occur in the factors that informed the original target. A significant ICP shift, a product repositioning that changes messaging fundamentally, a territory expansion or contraction, or a sustained change in market conditions are all grounds for a quota review. The trigger is not whether the SDR is hitting or missing; the trigger is whether the conditions that underpinned the quota remain valid.",
+      },
+      {
+        type: "paragraph",
+        text: "The review process itself matters. An SDR who receives a quota increase without explanation experiences it as a moving goalpost, particularly if they have been working hard to reach the previous target. The effective approach is to show the data: explain what conversion rates have improved, what territory conditions have changed, or what pipeline data suggests capacity exists beyond the current quota. When the case is data-led and the SDR has had visibility into the analysis, a quota change lands as a logical progression rather than an arbitrary demand. Mid-quarter changes should be avoided unless circumstances have changed dramatically — a target adjusted in the middle of a measurement period undermines both the number and the trust it depends on.",
+      },
+      {
+        type: "callout",
+        text: "A quota is a prediction about what an SDR can produce in a given environment. Like any prediction, it needs to be grounded in evidence to be useful. A target derived from a finance model rather than from observed outbound performance is not a quota — it is a wish. Building targets from the conversion chain upward takes more work upfront, but it is the only approach that produces numbers both sides of the conversation can stand behind.",
+      },
+    ],
+  },
+  {
     slug: "b2b-dream-100-target-account-list-outbound",
     category: "Sales Development",
     title: "The Dream 100 Approach to B2B Outbound: Building and Working a Focused Target Account List",
