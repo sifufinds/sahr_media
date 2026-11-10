@@ -27,6 +27,108 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-pipeline-stage-definitions-crm-exit-criteria",
+    category: "Sales Development",
+    title: "Pipeline Stage Definitions and CRM Exit Criteria: Building a Pipeline That Tells the Truth",
+    excerpt:
+      "Most B2B pipelines are populated by stages named after seller actions rather than confirmed buyer states, which produces forecasts that look full but consistently underproduce. This post covers how to define stages and exit criteria that make your pipeline an accurate working tool rather than an organised list of wishful thinking.",
+    readTime: "7 min read",
+    date: "10 Nov 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B pipelines are populated by stages named after activities rather than buyer states: Contacted, Demo Scheduled, Proposal Sent. The rep moves a deal forward when something happens on their side — a call made, a document sent, a meeting taken — not when something changes on the buyer's side. This conflation between seller activity and actual deal progress is the root cause of pipelines that look full but consistently underproduce. The deals are in the CRM, but most of them have not moved in any commercially meaningful sense.",
+      },
+      {
+        type: "paragraph",
+        text: "The result is a forecasting problem that cannot be fixed by running more pipeline reviews or demanding more activity from the team. A review that surfaces all available data about every deal is not more accurate than one with half the deals and twice the evidence of genuine buyer progression. Pipeline volume is not pipeline quality, and without stage definitions built around observable buyer behaviour, the two are impossible to separate. This post covers how to build stages and exit criteria that give each deal a verifiable position, so the pipeline reflects what is actually happening rather than what the team has done.",
+      },
+      {
+        type: "heading",
+        text: "The anatomy of a stage that works",
+      },
+      {
+        type: "paragraph",
+        text: "A pipeline stage that works describes a confirmed state of the buyer, not a planned action of the seller. Demo Scheduled is a seller action. Decision criteria confirmed and a second stakeholder introduced describes a buyer state. The first can be true even if the buyer has no intention of purchasing. The second requires real engagement from their side and cannot be manufactured by the rep moving a deal card.",
+      },
+      {
+        type: "paragraph",
+        text: "The defining question for any stage is: what has changed on the buyer's side that justifies moving this deal forward? Not what have we done, but what do we now know or have confirmed about the buyer's situation, intent, and progression? If the answer is nothing — if the deal is moving because the rep sent an email rather than because the buyer indicated something — the stage move is premature. Stages built on this principle describe the buyer's journey rather than the seller's calendar, which is the minimum condition for a pipeline that tells you something true.",
+      },
+      {
+        type: "heading",
+        text: "Entry criteria versus exit criteria",
+      },
+      {
+        type: "paragraph",
+        text: "Entry criteria define the conditions that must be true before a deal can enter a given stage. Exit criteria define the conditions that must be true before it can advance to the next. Most CRM configurations only have entry criteria — or more commonly, neither, with reps moving deals based on instinct. Exit criteria are more valuable because they define what the rep is actively working toward. They make the purpose of each stage explicit: a deal sits here until these specific things are confirmed, at which point it advances.",
+      },
+      {
+        type: "paragraph",
+        text: "A deal in a discovery stage might require, as exit criteria: a confirmed understanding of the buyer's current situation and primary problem, a named decision-maker engaged in the conversation, a rough sense of timeline, and an agreed next step with a specific date. Until all four are confirmed, the deal stays in discovery. The exit criteria set the minimum evidence bar for advancement, and that bar prevents premature progression just as meaningfully as it pushes reps to gather the evidence needed to move forward.",
+      },
+      {
+        type: "heading",
+        text: "Common stage definition mistakes",
+      },
+      {
+        type: "list",
+        heading: "Patterns that undermine pipeline accuracy",
+        items: [
+          "Using seller actions as stage names. Demo Done, Proposal Out, and Follow-Up Sent describe what happened on the seller's side, not what was confirmed. A demo completed with no confirmed follow-up is not a deal in the pipeline — it is a meeting that may never progress.",
+          "Too many stages. Beyond six well-defined stages, maintenance overhead increases sharply and reps begin skipping steps because the administrative load outweighs the perceived value. Four to six stages with clear exit criteria consistently outperform eight or nine loosely defined ones.",
+          "Stages with no meaningful distinction. If two consecutive stages have no discernible difference in what must be confirmed before advancing, they should be merged. Distinct stages should mark genuine shifts in buyer engagement, not arbitrary seller checkpoints.",
+          "Subjective or unverifiable exit criteria. A criterion that reads the rep believes the prospect is engaged cannot be checked in a pipeline review. Every exit criterion should be something that either exists in the CRM — a note, a confirmed next step, an identified stakeholder — or does not.",
+          "Missing the final approval stage. Deals commonly jump from Negotiation to Closed Won without a stage that tracks the administrative steps required to actually close: legal review, procurement sign-off, board approval. Omitting this stage produces false confidence about deals that are verbally agreed but not commercially committed.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What good pipeline stages should cover",
+      },
+      {
+        type: "list",
+        heading: "A progression built around confirmed buyer states",
+        items: [
+          "Qualified: the opportunity meets your ICP, a named decision-influencer has engaged, and there is a confirmed problem worth addressing. Deals below this threshold belong in a separate prospecting or nurture track, not the main pipeline. The pipeline starts here.",
+          "Discovery active: a full discovery conversation is underway. Exit criteria include confirmed understanding of the buyer's current situation, budget scope, timeline, and the names of the key stakeholders involved in the decision.",
+          "Evaluation: the buyer is actively assessing your solution against their requirements and potentially against alternatives. Exit criteria include confirmed decision criteria, a mapped buying group, and an agreed evaluation timeline.",
+          "Commercial: proposals, pricing conversations, and negotiation are in progress. Exit criteria include a submitted proposal acknowledged by the buyer and evidence that commercials are under active review, not merely that a document was sent.",
+          "Final approval: the buyer has indicated intent but the deal is pending internal sign-off — procurement, legal, finance, or a senior approval step. The exit criteria here are largely outside the rep's direct control; the stage exists to track real administrative progress, not to close the review faster.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The cultural challenge: getting reps to maintain stage hygiene",
+      },
+      {
+        type: "paragraph",
+        text: "The practical obstacle in any pipeline-hygiene conversation is adoption. Reps resist additional CRM requirements for a reasonable reason: most such requirements have been added by administrators optimising for reporting accuracy in ways that do not help the rep manage their own work. The way to address this is to make the stage definitions useful to the rep, not just to management. A rep who understands that the exit criteria for each stage represent the evidence they need to advance their deal — and that the absence of that evidence is the first thing any experienced reviewer will surface — has a reason to maintain stage accuracy. Stage hygiene becomes preparation for the conversation rather than overhead on top of it.",
+      },
+      {
+        type: "paragraph",
+        text: "This requires sales managers to actually use the definitions in reviews. If deals advance through stages without exit criteria being checked, the message to the rep is that the definitions do not matter. If every pipeline review opens with what is the confirmed exit evidence for this stage, the definitions become part of how the team operates rather than a documentation exercise that sits in an onboarding deck and is never referenced again.",
+      },
+      {
+        type: "heading",
+        text: "What an accurate pipeline makes possible",
+      },
+      {
+        type: "paragraph",
+        text: "A pipeline built on confirmed buyer states rather than seller activities produces forecasting that behaves differently. Deal velocity becomes a genuine signal: you can observe where deals stall by stage and diagnose whether the issue is qualification, stakeholder access, messaging, or something downstream in the commercial process. Deals that sit in one stage far longer than typical progression time are identifiable weeks before the quarter closes, not in the final days. Pipeline reviews get shorter because the evidence is in the CRM and can be reviewed in advance of the meeting — the conversation is about what to do about specific deals, not about whether the data is accurate enough to reason from.",
+      },
+      {
+        type: "paragraph",
+        text: "None of this requires sophisticated tooling or a CRM implementation project. It requires stage definitions that describe confirmed buyer states, exit criteria that are specific and checkable, and a management cadence that holds those definitions to account consistently. The pipeline that results tells you what is actually happening in your deals, which is the minimum condition for being able to act on it.",
+      },
+      {
+        type: "callout",
+        text: "Pipeline stages based on seller actions produce pipelines that reflect activity, not deal health. Exit criteria built around confirmed buyer states give every stage a purpose and every pipeline review a ground truth to work from. This is unglamorous infrastructure work, but it is the foundation on which accurate forecasting, effective coaching, and reliable revenue planning all depend.",
+      },
+    ],
+  },
+  {
     slug: "b2b-fast-growth-company-prospecting-track",
     category: "Sales Development",
     title: "Targeting Fast-Growth Companies: How to Build a B2B Prospecting Track Around Growth Signals",
