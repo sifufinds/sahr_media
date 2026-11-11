@@ -27,6 +27,107 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sales-battle-card-sdr-team",
+    category: "Sales Development",
+    title: "How to Build a B2B Sales Battle Card Your SDR Team Will Actually Use",
+    excerpt:
+      "Most battle cards are written by marketing, never updated, and ignored by reps the moment they face a real objection. Here is how to build a competitive reference tool that SDRs reach for in cold outreach and discovery, rather than one that gathers dust in a shared drive.",
+    readTime: "7 min read",
+    date: "11 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most organisations have battle cards. Most battle cards are not used. The gap between the two is not a motivation problem or a process problem — it is a construction problem. Battle cards fail because they are written from the wrong perspective, at the wrong level of detail, without input from the people who are supposed to use them. The result is a document that reflects marketing's understanding of competitive positioning rather than the actual questions and objections a rep encounters when talking to a prospect who is evaluating alternatives.",
+      },
+      {
+        type: "paragraph",
+        text: "A useful battle card is not a comparison table of features or a list of reasons your product is better. It is a practical reference document that helps a rep handle a specific competitive situation in real time — whether that means responding to an objection in a cold call, preparing for a discovery where the prospect has mentioned a competitor, or framing an email sequence against a known alternative. That definition changes what goes in the document, who should build it, and how it should be maintained.",
+      },
+      {
+        type: "heading",
+        text: "What a battle card is actually for",
+      },
+      {
+        type: "paragraph",
+        text: "A battle card has one job: help a rep navigate a moment where a competitor is in the room, real or implied. That moment might be a prospect saying 'we're currently using X' on a cold call, a discovery where the buyer has listed a shortlist that includes your direct competitor, or a proposal stage where the rep needs to frame your offer against an alternative the buyer is considering. The card should be reachable in that moment — a one or two page reference that the rep can review in two minutes before a call or pull up during a conversation without losing the thread.",
+      },
+      {
+        type: "paragraph",
+        text: "What a battle card is not: a comprehensive product comparison. The more exhaustively a battle card tries to document every feature difference, pricing nuance, and integration detail, the less useful it becomes in real time. A rep in a live conversation cannot consult a twelve-page document. The constraint is a feature, not a limitation: if the card cannot be absorbed in two minutes, it has not been edited enough.",
+      },
+      {
+        type: "heading",
+        text: "The five sections that actually matter",
+      },
+      {
+        type: "list",
+        heading: "What a working battle card contains",
+        items: [
+          "Who this competitor targets — their ICP, the accounts where you are most likely to meet them, and the specific buyer profiles they tend to resonate with. If you are likely to encounter them primarily in mid-market SaaS accounts with a certain tech stack, say so. Generic descriptions of a competitor's market position are less useful than specific guidance on where the rep will actually face them.",
+          "Why prospects choose them — not why they should not, but why they actually do. A rep who understands the genuine appeal of a competitor is better placed to handle objections than one who has only been told that the alternative is inferior. This section should include the specific strengths that come up repeatedly in win-loss data, not a dismissive summary of what marketing considers irrelevant features.",
+          "Where you win and why — the conditions under which your offer consistently outperforms this competitor. These should be specific: not 'we have a better API', but 'when the buyer has complex multi-system integration requirements and a technical evaluation team, our implementation approach tends to score higher because...' The more specific the conditions, the more useful the guidance.",
+          "The objections that come up and how to respond — the actual language prospects use when they raise the competitor's name, and the response framework that works. This is the section reps return to most frequently. It should be built from real objections captured in call recordings and CRM notes, not hypothetical challenges invented in a planning session.",
+          "What not to say — the approaches that consistently backfire. Features you should avoid comparing directly because the competitor is legitimately stronger there. Claims that prospects have challenged. This section is often omitted, but it is one of the most practically useful: knowing what to avoid is as important as knowing what to lead with.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building it from real data, not marketing assumptions",
+      },
+      {
+        type: "paragraph",
+        text: "The standard process for building a battle card is to assign it to a product marketer who gathers information from the competitor's website, review platforms, and their own product team, then writes a document that reflects what the company believes about itself and its competitors. The resulting card is accurate about features and largely disconnected from what actually happens when a rep talks to a prospect.",
+      },
+      {
+        type: "paragraph",
+        text: "The alternative is to build it from the evidence reps are already generating. Review the last six months of call recordings where competitors were mentioned. Pull the notes from every lost deal where the stated reason was competitive. Run a structured session with the reps who regularly face this competitor and ask them specifically: what do prospects say when they mention this competitor, what usually works, what has backfired? The resulting card reflects lived competitive experience rather than a theoretical positioning framework. This takes more time upfront but produces a document that reps recognise as accurate — which is the only condition under which they will consult it.",
+      },
+      {
+        type: "heading",
+        text: "Who owns it and how to keep it current",
+      },
+      {
+        type: "paragraph",
+        text: "Competitive positioning shifts. A competitor that lacked a particular feature six months ago may have shipped it. Pricing changes. The types of accounts they are targeting may have evolved. A battle card that is not updated becomes worse than useless — it is actively misleading if a rep relies on it and finds the information no longer matches what a prospect tells them.",
+      },
+      {
+        type: "paragraph",
+        text: "Ownership needs to sit with someone who has an ongoing relationship with the information: typically a sales enablement or revenue operations function, in collaboration with frontline reps. The cadence depends on how dynamic the competitive environment is. For most B2B SaaS markets, a quarterly review is a reasonable minimum — checking against recent call recordings, new win-loss data, and any publicly announced competitor changes. The review does not need to rebuild the card from scratch; it needs to verify that the objections and responses sections still reflect current reality.",
+      },
+      {
+        type: "heading",
+        text: "How SDRs should use it in cold outreach",
+      },
+      {
+        type: "paragraph",
+        text: "A battle card is most obviously useful in inbound discovery and late-stage deals. Its value in outbound is less often considered, but it is real. When a rep is building a cadence for a prospect known to be using a competing product, the card should inform how the opening message is framed. Not by attacking the competitor — that reliably backfires — but by understanding what the prospect values about their current solution and finding a way to open a conversation that acknowledges that context rather than ignoring it.",
+      },
+      {
+        type: "paragraph",
+        text: "For cold calling, the card's most useful section is the objections list. A rep who knows the five most common ways this competitor comes up in conversation — 'we just renewed', 'we've tried switching before and it didn't work', 'their support is better for our team size' — can prepare responses before dialling rather than improvising in the moment. This is the specific point where a well-maintained battle card changes what happens on a cold call: not in the opening, but in the response to the moment when a prospect mentions an alternative and the rep needs to handle it without deflating the conversation.",
+      },
+      {
+        type: "heading",
+        text: "The common failure modes",
+      },
+      {
+        type: "list",
+        heading: "Why battle cards stop being used",
+        items: [
+          "Written without rep input. If the people expected to use the card were not involved in building it, the objections listed will not match the objections they actually encounter. Reps will read it once, notice the gap, and not return to it.",
+          "Too long to scan in context. A battle card consulted mid-conversation needs to surface the relevant section in under a minute. Cards structured as dense paragraphs or organised by feature category rather than by use case — 'how to respond when the prospect mentions competitor pricing' — fail this test.",
+          "Owned by nobody. A card built for a product launch and not assigned to an owner for ongoing maintenance will be outdated within a quarter. When reps find a piece of competitive information in the card that contradicts what a prospect tells them, they stop trusting the whole document.",
+          "Competing too hard. Battle cards that position every competitor weakness as disqualifying, with no acknowledgement of genuine strengths, train reps to deliver dismissive responses that prospects recognise immediately as prepared spin. Credibility in a competitive conversation requires acknowledging where the alternative is legitimate and explaining clearly where your offer is the stronger choice.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "A battle card built from actual call recordings and win-loss data is a different object from one assembled by marketing from product documentation. The first is a working tool reps consult before difficult calls; the second is a reference document that sits unread. The difference is not how much effort went in — it is whether the effort was directed at the problem the rep actually faces.",
+      },
+    ],
+  },
+  {
     slug: "b2b-pipeline-stage-definitions-crm-exit-criteria",
     category: "Sales Development",
     title: "Pipeline Stage Definitions and CRM Exit Criteria: Building a Pipeline That Tells the Truth",
