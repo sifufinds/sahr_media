@@ -27,6 +27,90 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-brief-agency-lead-generation",
+    category: "B2B Growth",
+    title: "What to Include in a B2B Outbound Brief for a Lead Generation Agency",
+    excerpt:
+      "Most agencies waste the first four to six weeks recovering information the client should have brought to the first call. Here is what a genuinely useful outbound brief covers, and why getting this right before engagement starts determines whether the programme builds momentum or stalls.",
+    readTime: "7 min read",
+    date: "11 Nov 2026",
+    color: "#059669",
+    content: [
+      {
+        type: "paragraph",
+        text: "When a B2B company decides to engage an external lead generation agency, there is usually a period of intense expectation on the client side and intense information-gathering on the agency side. The first few weeks are often spent doing what should have happened before the contract was signed: agreeing on who the ideal customer is, what the proposition says, what a qualified meeting looks like, and what has already been tried. This is not a failure of agency process — it is a brief that never existed.",
+      },
+      {
+        type: "paragraph",
+        text: "A well-structured outbound brief is not a document that tells the agency how to do their job. It is the foundation from which a programme can be built quickly and accurately. The agencies that build momentum in the first 60 days almost always have clients who showed up to the first session with real material: an honest description of who they sell to, what actually resonates in conversation, and what a successful outcome means commercially. The agencies that spend the first 60 days still triangulating on ICP have clients who deferred that work, hoping it would get sorted once things were underway.",
+      },
+      {
+        type: "heading",
+        text: "The ideal customer profile: bring a working version, not a blank page",
+      },
+      {
+        type: "paragraph",
+        text: "The ICP section of a brief is where most clients under-prepare. It is common to arrive with a broad description — 'SaaS companies with 50 to 500 employees' or 'mid-sized UK construction contractors' — and expect the agency to sharpen it. That sharpening is legitimate agency work, but it needs raw material. The raw material is your own sales history: which accounts closed fastest, which accounts have the best retention, which accounts have you won two or three times from the same buyer persona, and which accounts looked right on paper but proved difficult or unprofitable. If you can walk into the brief with five examples of your best-fit customers and a one-line description of what made them good fits, the agency can build a targeting model in days rather than weeks.",
+      },
+      {
+        type: "paragraph",
+        text: "For companies that have been selling for less than 18 months and have a small customer base, the ICP will be more hypothetical. That is fine — the brief should say so explicitly rather than presenting a speculative description as a validated one. An honest 'we believe the fit is X but have only closed eight customers so far' is more useful than a confident but untested profile that sends the agency after accounts where the proposition does not land.",
+      },
+      {
+        type: "heading",
+        text: "Messaging: what you know and what you have already tried",
+      },
+      {
+        type: "paragraph",
+        text: "A lead generation agency can write outbound messaging, but they cannot invent knowledge about what your buyers care about. The brief should include the specific problems your product or service solves, described in the language your customers use rather than internal product terminology. If your prospects consistently raise a particular pain in discovery calls, that language belongs in the brief. If a specific angle has worked well in past outreach — a question that gets replies, a reframe that shifts the conversation — include it. If you have messaging that failed and you know why, include that too. Knowing what does not work is as useful as knowing what does.",
+      },
+      {
+        type: "paragraph",
+        text: "The brief should also note which objections come up most frequently in cold outreach and early-stage calls. The agency will encounter these objections in the first weeks of a programme. If they already know the most common ones and have context on how your sales team handles them, they can build that into sequences and cold calling scripts from the start rather than discovering objections the hard way and then rebuilding messaging mid-programme.",
+      },
+      {
+        type: "heading",
+        text: "Defining a qualified meeting: the most important alignment in the brief",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most common sources of friction between a client and a lead generation agency is a misaligned definition of what constitutes a qualified meeting. The agency is typically incentivised to book meetings. The client judges success by whether those meetings convert. If the definition of 'qualified' is ambiguous or was never formally agreed, the gap opens immediately: the agency books meetings that the internal sales team considers unqualified, the client feels they are not getting value, and the agency feels they are delivering against the brief.",
+      },
+      {
+        type: "paragraph",
+        text: "The brief should define qualification criteria explicitly. At minimum, this means: seniority and function of the contact (a VP of Operations is a qualified contact; a junior project manager is not), company type and size, and what the prospect should have confirmed or acknowledged before the meeting is booked. If your team needs the prospect to have a known business challenge, a live project, an active budget, or a specific technology in place, the brief should say so. These criteria should be realistic — setting the bar too high means the agency cannot fill a reasonable calendar; setting it too low means the internal sales team wastes time on meetings that should never have been booked.",
+      },
+      {
+        type: "heading",
+        text: "Commercial context: deal size, sales cycle, and how pipeline converts",
+      },
+      {
+        type: "paragraph",
+        text: "A lead generation agency makes targeting, volume, and prioritisation decisions that are informed by the commercial economics of your sales process, even if implicitly. If your average deal size is £8,000 and your sales cycle is 45 days, the right outbound approach looks different from a programme where the average deal is £80,000 and the cycle is six months. The brief should give the agency enough commercial context to make sensible prioritisation calls: average contract value, typical sales cycle from first meeting to close, how many meetings typically convert to proposals, and what the pipeline conversion rate is from proposal to close.",
+      },
+      {
+        type: "paragraph",
+        text: "This context also affects how the agency thinks about account tiering. If large enterprise accounts take six months to close but the pipeline contribution justifies that effort, the brief should say so, and the agency can allocate appropriate time to research-heavy, senior-level outreach. If the fastest path to revenue is mid-market accounts with faster buying cycles, the agency should know that too. These are not decisions the agency should be making without input — they should be surfaced in the brief.",
+      },
+      {
+        type: "heading",
+        text: "Competitive landscape and existing tooling",
+      },
+      {
+        type: "paragraph",
+        text: "Two sections of the brief that clients most often leave out are the competitive context and the existing tooling. The competitive context matters because outbound messaging increasingly lands in accounts that are already using an alternative or are actively evaluating the market. If the agency does not know who your main competitors are and how buyers typically perceive the differences, they cannot frame your proposition effectively or handle competitive objections in cold calling. A brief should name the two or three alternatives buyers most commonly consider and give the agency at least a headline view of where you win and where you lose.",
+      },
+      {
+        type: "paragraph",
+        text: "The existing tooling section matters for two reasons. First, the agency will typically need to integrate with or work alongside your CRM, and knowing the state of that system before engagement starts prevents unpleasant surprises. If your CRM data is sparse, inconsistently formatted, or mostly populated with cold contacts rather than active pipeline, the brief should say so. Second, if you have already run outbound activity — through a previous agency, through an in-house SDR, or through ad-hoc prospecting — the brief should capture what lists were contacted, what tools were used, and what the data retention situation is. Recontacting accounts that were extensively prospected six months ago without that context can undermine the new programme's credibility before it has started.",
+      },
+      {
+        type: "callout",
+        text: "Brief an agency the way you would brief an experienced new hire: give them context, history, and an honest view of what good looks like — not a list of tasks. The more signal you bring to the engagement from the start, the less time and budget get consumed on discovery that should have been done before the first message went out.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-recently-acquired-companies-ma-signal",
     category: "Sales Development",
     title: "Using Acquisitions as a B2B Prospecting Signal: How to Work Recently Acquired Companies",
