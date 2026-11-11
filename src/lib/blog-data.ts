@@ -27,6 +27,100 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-recently-acquired-companies-ma-signal",
+    category: "Sales Development",
+    title: "Using Acquisitions as a B2B Prospecting Signal: How to Work Recently Acquired Companies",
+    excerpt:
+      "An acquisition puts an account in motion — vendor relationships under review, org charts disrupted, budgets reallocated. Here is how to identify when M&A creates a genuine buying window, who to target, and how to frame outreach that does not come across as opportunistic.",
+    readTime: "7 min read",
+    date: "11 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "An acquisition is one of the cleaner buying signals in B2B prospecting because it creates genuine organisational disruption with a known start date. When a company is acquired — by private equity, by a larger trade buyer, or through a merger — the status quo changes. Technology stacks get audited. Vendor relationships get reviewed. Budget lines shift. People in new roles need to demonstrate commercial judgement and may be open to conversations they would not have taken six months earlier. For outbound sales, this represents a material change in the account's receptiveness, not just an addressable hook.",
+      },
+      {
+        type: "paragraph",
+        text: "What most SDR teams miss is that the acquisition itself is not the signal — the specific conditions the acquisition creates are. A PE firm buying a mid-market software business creates different opportunities from a large construction group acquiring a regional fit-out contractor, and both create different opportunities from a merger of two B2B SaaS companies with overlapping products. The work is in identifying which acquisitions produce buying conditions that match what you sell.",
+      },
+      {
+        type: "heading",
+        text: "The acquisition types that create real opportunities",
+      },
+      {
+        type: "list",
+        heading: "M&A structures worth prioritising in your outbound",
+        items: [
+          "PE buyout of a mid-market business: the new owners typically introduce centralised financial oversight, a push for operational efficiency, and often a mandate to audit existing spend and rationalise vendors. For SaaS sellers, this is often the most fertile acquisition type — the new ownership group frequently wants to consolidate technology across portfolio companies, replace legacy systems, or introduce the tools they already use elsewhere in their portfolio. The productive window is roughly 60 to 150 days after close.",
+          "Trade sale where the acquirer has an established tech stack: the acquired company will likely be migrated onto the acquirer's platforms over a 12 to 24 month timeline. This creates two opportunities simultaneously — selling into the acquirer as they manage integration, and catching the acquired company's existing vendors who are about to be displaced and whose customers are evaluating alternatives.",
+          "PE roll-up in construction or professional services: a PE firm rolling up regional businesses under one umbrella is an ongoing prospecting opportunity. Each new acquisition in the portfolio introduces the same dynamics: central procurement, overhead rationalisation, and new stakeholders evaluating existing relationships. The pattern repeats with every new bolt-on.",
+          "Merger of equals: less common but creates the longest window. When two companies of similar size combine, duplication elimination typically takes 12 to 18 months and touches almost every vendor relationship. Decision-making is slower as organisations align, so the opportunity is real but requires patience and sustained coverage rather than a short burst of outreach.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Where to find acquisition signals in the UK",
+      },
+      {
+        type: "paragraph",
+        text: "For UK-focused outbound, acquisition signals are more accessible than many teams realise. Companies House records beneficial ownership and directorship changes, though the lag between deal completion and filing means it is a lagging rather than leading indicator. More useful in practice are business news sources — the FT, The Times business section, and trade publications specific to your vertical. Construction industry acquisitions appear regularly in Construction Enquirer, Building, and trade journals covering the facilities management and civil engineering sectors. Beauhurst tracks UK private company investment and acquisition activity and is worth the subscription if you work mid-market accounts. For SaaS-adjacent markets, LinkedIn company announcements typically surface deals within days of announcement. LinkedIn Sales Navigator alerts on company changes can flag when accounts in your target list post about acquisitions or change their company description. Setting up Google Alerts for a target company name alongside terms like 'acquired' or 'investment' is a low-cost starting point before committing to a paid source.",
+      },
+      {
+        type: "heading",
+        text: "Timing the approach",
+      },
+      {
+        type: "paragraph",
+        text: "Timing is where most teams get this wrong. The natural instinct is to reach out immediately after an announcement — the signal is fresh, competition is lower, the hook feels obvious. The problem is that the first four to eight weeks after an acquisition announcement are almost universally chaotic for the people inside the acquired business. Org chart uncertainty, management communication, and integration planning consume leadership attention. Outreach in this window lands when decision-makers are least equipped to engage.",
+      },
+      {
+        type: "paragraph",
+        text: "The productive window in most acquisitions is 60 to 150 days after the deal closes — not the announcement date, which can precede close by weeks or months. By this point, the initial disruption has settled, the new ownership has conducted its first audit cycle, and the people in the business know who they report to and what their mandate is. This is when gaps become visible and conversations about filling them become possible. For construction industry acquisitions, the equivalent window often tracks to the first post-acquisition financial reporting period, when new ownership wants to demonstrate efficiency gains and is actively reviewing how the business operates.",
+      },
+      {
+        type: "heading",
+        text: "Who to target after an acquisition",
+      },
+      {
+        type: "paragraph",
+        text: "An acquisition typically produces two categories of relevant contact. The first is the new parent company: a VP, CFO, or CTO at the acquirer who is now responsible for the acquired entity and may be forming a view of what needs to change. This is a colder conversation because they may not yet have deep familiarity with what the acquired business uses or needs. The second is the acquired company's own leadership: a CFO who now has new ownership and may want to show commercial initiative, a Head of Operations aware that their tech stack is under scrutiny, or a Sales Director who needs to build credibility with the new owners. This second group is often more immediately accessible and tends to have higher urgency because they are operating under a spotlight.",
+      },
+      {
+        type: "paragraph",
+        text: "Avoid building relationships with contacts who are likely to be exited in the restructuring. This requires some judgement — seniority, function, and LinkedIn activity can all give signals about who is consolidating their position versus who is likely to leave. Someone posting about the company's exciting new direction is a different signal from someone who has gone quiet. Spending significant time nurturing a contact who is gone within 90 days resets the account from scratch and wastes the timing advantage the acquisition created.",
+      },
+      {
+        type: "heading",
+        text: "How to frame the outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The acquisition should inform your outreach strategy, but it should not be the opening line. 'I saw you were recently acquired' as an opener signals that you are pattern-matching on news events rather than engaging with the account's actual situation. It also makes the recipient feel surveilled rather than understood — there is no connection between the news item and your message beyond the fact that you noticed it.",
+      },
+      {
+        type: "paragraph",
+        text: "A better approach is to reason from the conditions the acquisition creates to the specific problem it surfaces. If you sell financial consolidation software and your prospect has just been acquired by a PE firm, the opening is not 'I noticed you were acquired' — it is a message that reflects the specific operational challenge most businesses in their position face in the first year under new ownership. The acquisition is your research, not your pitch. It tells you which problem to surface and which stakeholder now owns that problem; it does not need to appear in the message itself. For cold calling, the acquisition context is most useful in the planning stage: it tells you to expect budget review conversations, possible procurement changes, and potentially new decision-makers without long institutional relationships with existing vendors.",
+      },
+      {
+        type: "heading",
+        text: "How this plays out in SaaS and construction",
+      },
+      {
+        type: "paragraph",
+        text: "In SaaS markets, PE acquisitions often create tool consolidation mandates. A portfolio company under private equity typically faces pressure to adopt shared platforms — CRM, finance, HR, and sometimes vertical-specific tooling — across the portfolio. If your product is already in use at another portfolio company, that is a credible reference. If it is not, the pitch is around why the acquired business would benefit from adopting a modern solution during the integration phase rather than migrating a legacy system to the new parent's environment. The procurement window is real but often moves faster than anticipated — integration timelines are set by the new ownership, not the acquired business, which means the decision can accelerate or close without warning.",
+      },
+      {
+        type: "paragraph",
+        text: "In construction, PE roll-ups create a specific dynamic worth understanding. A PE group rolling up regional contractors typically wants to centralise procurement and business development functions while leaving operational delivery largely decentralised. This creates opportunities at both the central level — where the PE-appointed management team is building out functions they did not inherit — and at the subsidiary level, where leaders are adjusting to new reporting lines and may be more open to conversations than they were under previous ownership. Framework agreements, supply chain relationships, and tendering technology are all categories that become active when a construction group transitions from a single business to a multi-entity structure.",
+      },
+      {
+        type: "callout",
+        text: "An acquisition puts an account in motion. The goal is not to call the moment you see the news — it is to identify the specific gap the acquisition creates in this account, build a view of who now owns the problem, and reach them in the window when they are equipped to act on it. That window is usually narrower than teams expect and later than the initial announcement suggests.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sales-battle-card-sdr-team",
     category: "Sales Development",
     title: "How to Build a B2B Sales Battle Card Your SDR Team Will Actually Use",
