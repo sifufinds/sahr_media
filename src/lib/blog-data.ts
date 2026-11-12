@@ -27,6 +27,117 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "linkedin-inmail-b2b-sdr-prospecting",
+    category: "Sales Development",
+    title: "LinkedIn InMail for B2B SDRs: When to Use It and How to Write Messages That Generate Responses",
+    excerpt:
+      "InMail lets you reach senior B2B buyers without connection request friction, but most SDRs treat it as cold email in a different wrapper. Here is how to use InMail as the specific channel it is, so the premium access turns into real conversations.",
+    readTime: "6 min read",
+    date: "12 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "LinkedIn InMail is a genuinely different outreach channel from cold email, and treating it as the same thing sent through a different platform is the most common mistake SDRs make with their Sales Navigator credits. The core difference is not delivery — it is context. When a prospect receives an InMail, they are on LinkedIn, in a professional mindset, looking at professional content. When they receive a cold email, they are in their inbox with competing demands from internal colleagues, vendors, and noise. InMail arrives in an environment the recipient associates with professional development, networking, and career context. That context changes what a good message looks like and what it asks for.",
+      },
+      {
+        type: "paragraph",
+        text: "The other structural difference is friction. A connection request requires a decision from the recipient before any message is read — they must accept the connection before seeing the message, which introduces a screening step, and senior buyers with large networks are often selective about who they connect with. InMail bypasses that friction entirely. The message arrives regardless of connection status. That is why InMail is better positioned for senior decision-makers where connection request acceptance rates are low, or for cold accounts where email contact has already been attempted without a response. The flip side is that InMail credits are finite, so they should be concentrated on contacts where the access advantage genuinely matters.",
+      },
+      {
+        type: "heading",
+        text: "When to use InMail and when to hold your credits",
+      },
+      {
+        type: "paragraph",
+        text: "InMail earns its place in a B2B outbound programme in specific situations. Senior buyers at director level and above — CTO, VP of Engineering, CFO, Commercial Director at mid-market companies — are the strongest use case. These buyers are reachable through LinkedIn but typically cautious about unsolicited connection requests. InMail is often the first channel that lands in their field of vision without requiring them to make a connection decision first.",
+      },
+      {
+        type: "paragraph",
+        text: "InMail is also well-suited to warm-ish accounts where email sequences have already completed without a response. When a prospect has seen your emails three to five times over a few weeks and not replied, an InMail creates a different-channel re-engagement rather than extending the same email thread indefinitely. It signals that you are willing to pursue the conversation through different means, without escalating to phone calls the contact has not invited.",
+      },
+      {
+        type: "list",
+        heading: "When to hold InMail credits instead",
+        items: [
+          "Junior or mid-level contacts where connection requests and cold email are sufficient — the access premium of InMail is largely wasted at seniority levels where connection acceptance rates are higher",
+          "Accounts where you have a warm contact already — a referral or introduction through a mutual connection is worth more than any InMail and costs nothing",
+          "Large-volume lower-seniority prospecting where the numbers required make per-credit spending impractical — email sequences scale, InMail does not",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The InMail subject line does more work than most SDRs realise",
+      },
+      {
+        type: "paragraph",
+        text: "InMail is one of the few LinkedIn outreach formats that includes a subject line field, and it is the first thing a recipient reads in the notification. Most SDRs write generic subject lines — 'Introduction', 'Quick question', 'Reaching out about X' — that are indistinguishable from thousands of other InMails and cold emails. A specific, non-generic subject line does two things: it signals that the message was written with this person in mind, and it frames the content before the recipient opens it.",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective InMail subject lines reference something specific to the recipient's LinkedIn activity or company situation — a recent post they wrote, a role change in the past six months, a company announcement visible in their feed. 'Following your expansion into the DACH market' or 'Your post on procurement delays last week' tells the recipient immediately that this message is not templated. The subject line does not need to tease the content; it needs to establish that the sender has done enough homework to be worth opening. On LinkedIn, specificity signals effort, and effort signals that the message might be worth reading.",
+      },
+      {
+        type: "heading",
+        text: "Structure and length for InMail messages",
+      },
+      {
+        type: "paragraph",
+        text: "InMail has a character limit, but most SDRs write messages far longer than optimal. The LinkedIn reading context — often mobile, in a notification flow — rewards brevity more aggressively than email. A message that takes more than 30 to 45 seconds to read is likely to be skimmed or skipped by a busy senior buyer who has fifteen other notifications behind it.",
+      },
+      {
+        type: "paragraph",
+        text: "A structure that works consistently: one sentence establishing why this specific person (not their company, not their role generically, but something observable about them); one sentence about a problem common to their situation; one sentence about what you do, framed in terms of outcomes rather than features; one clear ask. That is typically 100 to 160 words — enough to establish credibility and relevance without asking the reader to process more than they need to before deciding whether to respond.",
+      },
+      {
+        type: "list",
+        heading: "What to avoid in InMail body copy",
+        items: [
+          "'I came across your profile' — this is true for every InMail ever sent and signals nothing about why this person specifically",
+          "Describing your company's history, size, or funding in the opening lines — credentials belong later in the conversation, not before the buyer has any reason to care",
+          "Asking for 'just 15 minutes' in the first message — for a cold InMail, asking if the topic is relevant is a lower-friction opening than an immediate calendar request",
+          "Bullet lists in the main message body — InMail renders as a message thread, and formatted sales pitches feel out of place in a channel associated with peer-to-peer professional conversation",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The personalisation bar is higher on LinkedIn than email",
+      },
+      {
+        type: "paragraph",
+        text: "Because InMail arrives in a channel the recipient associates with intentional professional communication, the implied expectation is that the sender was deliberate about reaching out — not running bulk outreach. A generic templated InMail stands out more negatively than a generic cold email, because the recipient's experience of InMail is that it was sent specifically to them. If the message reads like a template, the contrast with that expectation is jarring.",
+      },
+      {
+        type: "paragraph",
+        text: "The minimum viable personalisation for InMail is a reference to something specific to the person: a recent post, a role change in the last six months, a public initiative their company has announced, a mutual connection in your network, or something specific to their sector that links to the problem your outreach addresses. Automated InMail at scale rarely works in B2B SaaS and professional services contexts where the seniority of targets is high. The economics only work if credits are concentrated on a small number of high-priority accounts where genuine tailored InMail is realistic.",
+      },
+      {
+        type: "heading",
+        text: "Following up without spending another credit",
+      },
+      {
+        type: "paragraph",
+        text: "After an InMail is sent with no response, follow-up does not require spending another credit. Engaging with the recipient's LinkedIn content — liking or leaving a substantive comment on a recent post — creates visibility without sending another direct message. If the recipient posts in the week after receiving the InMail, a thoughtful comment on their post creates a touchpoint that sits entirely outside the outreach frame, and occasionally opens a conversation that the InMail itself did not start.",
+      },
+      {
+        type: "heading",
+        text: "InMail as one touch in a multi-channel sequence",
+      },
+      {
+        type: "paragraph",
+        text: "InMail works best as one touch inside a broader multi-channel sequence, not as a standalone campaign. A sequence that opens with two or three emails and a phone attempt, then follows with an InMail after the initial sequence completes, tends to outperform InMail sent in isolation. By the time the InMail arrives, the recipient has likely seen the sender's name in their email inbox, which creates a degree of familiarity even without a previous response. Cold outreach familiarity builds across channels in ways that any single-channel approach cannot replicate on its own.",
+      },
+      {
+        type: "paragraph",
+        text: "The reverse ordering — InMail first, then email — can also work for accounts where senior seniority makes email engagement harder to track, or where the LinkedIn profile gives you enough context for strong personalisation that cold email cannot match. The right sequencing depends on where your best existing contact data lives and how well you know the account before first touch. What rarely works is treating InMail as a parallel campaign that runs independently of the rest of the outbound programme, without reference to what other touches have already happened on that account.",
+      },
+      {
+        type: "callout",
+        text: "InMail is a high-precision tool, not a volume channel. Concentrating credits on the right twenty accounts — with personalised messages that justify the premium access — will consistently outperform bulk InMail to two hundred contacts. Reserve it for the accounts where the structural advantage genuinely matters: senior buyers who do not easily accept connection requests, and warm accounts where email sequences have already run their course.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-messaging-complex-product",
     category: "Sales Development",
     title: "B2B Cold Outreach for Complex Products: How to Write Messaging That Does Not Require a Whitepaper",
