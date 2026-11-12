@@ -27,6 +27,98 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-programme-audit-diagnose-stalled-results",
+    category: "Sales Development",
+    title: "The B2B Outbound Programme Audit: How to Diagnose Why Results Have Stalled",
+    excerpt:
+      "Most underperforming outbound programmes fail in one place, not everywhere — but aggregate metrics make it impossible to see where the break actually is. Here is how to isolate the specific failure point and fix it without rebuilding the whole programme from scratch.",
+    readTime: "8 min read",
+    date: "12 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "When an outbound programme is not producing, the instinctive response is to do more of everything: more calls, more emails, more sequences, a tighter cadence. This rarely works, because the problem is almost never a volume shortfall. It is usually a specific point in the outbound funnel where conversion breaks down — and adding volume upstream of that break just produces more waste at the same rate. The diagnosis has to come before the fix, and the diagnosis requires breaking the programme apart rather than evaluating it as a whole.",
+      },
+      {
+        type: "paragraph",
+        text: "Aggregate metrics — connects per week, meetings booked per month, pipeline generated — are useful for tracking whether a programme is healthy. They are almost useless for diagnosing why a programme has stalled, because they collapse together the contributions of data quality, messaging, process discipline, and meeting quality into a single output number. A programme that books four meetings per month when it should be booking twelve could be failing at any stage, or at several stages simultaneously, and the aggregate number does not tell you which. The audit is the process of separating those contributions and assessing each independently.",
+      },
+      {
+        type: "heading",
+        text: "Build the funnel before you assess it",
+      },
+      {
+        type: "paragraph",
+        text: "The first step of any outbound audit is constructing the actual conversion funnel from the data in your CRM and sequencing tool. This means pulling the real numbers at each stage — contacts touched, contacts who received the full sequence, positive responses, conversations had, meetings booked, and meetings attended — for a representative time window, typically the past 60 to 90 days. The specific conversion rates between each stage are what you are looking for. A steep drop between contacts touched and completed sequences suggests a deliverability or early engagement problem. A steep drop between conversations and meetings booked suggests a qualification or messaging problem in live conversation. A steep drop between meetings booked and meetings attended suggests a problem with how meetings are being booked or confirmed.",
+      },
+      {
+        type: "paragraph",
+        text: "Most teams do not have clean funnel data because the sequencing tool and CRM are not consistently maintained. If the data exists but is fragmented or inconsistently logged, you need to reconstruct it manually for a sample of outreach before the audit can proceed. Working from a clean sample of 200 to 300 touches is more useful than trying to interpret corrupted data across a larger set.",
+      },
+      {
+        type: "heading",
+        text: "List quality and ICP coverage",
+      },
+      {
+        type: "paragraph",
+        text: "List quality problems tend to show up as very low connect rates and email engagement rates even when the volume of touches is high. If the email open rate is well below what you would expect for well-structured cold outreach, or if the phone connect rate is consistent but conversations are systematically short and unproductive, the lists are the most likely culprit. Common list quality issues include contacts in the wrong seniority band for the proposition, accounts that fall outside the actual ICP even though they superficially match it, and stale data with high bounce rates from outdated contact records.",
+      },
+      {
+        type: "paragraph",
+        text: "ICP coverage is a subtler version of the same problem. It is possible to have clean, accurate data on contacts who are simply a poor fit for what you sell, and to run perfectly executed outreach into a market that does not have strong demand for your proposition in its current form. This is uncomfortable to identify because it is not a process failure — it means the targeting needs to be reconsidered rather than just refreshed. The sign to look for is consistent low engagement across multiple sequence experiments: if you have changed the messaging, tried different subject lines, varied the approach and channel, and engagement remains flat, the list is the problem. If engagement varies meaningfully across different sequence approaches, the list is usable and the message is the issue.",
+      },
+      {
+        type: "heading",
+        text: "Isolating messaging from data",
+      },
+      {
+        type: "paragraph",
+        text: "Messaging and data quality problems look similar in aggregate — both produce low response rates — but require completely different interventions. The way to separate them is to hold the data constant and vary the messaging, or to hold the messaging constant and vary the data. The most reliable approach in practice is to take a subset of the list you have high confidence in — accounts that closely match your best existing customers — and run a fresh short sequence with restructured messaging to see whether response rates improve against that known-good population. If they do, the broader list has a data quality problem. If they do not, the messaging needs to change regardless of list quality.",
+      },
+      {
+        type: "paragraph",
+        text: "Common messaging failures that do not look like messaging failures on the surface include: opening with the problem your product solves rather than a problem the buyer recognises and owns, using internal product language instead of the vocabulary your buyers use, leading with proof rather than posing a question, and writing for a generalised ICP rather than the specific type of company in this batch of outreach. These errors produce messages that are technically accurate and not spammy but that consistently fail to generate a response because they address a problem the buyer does not feel urgency around.",
+      },
+      {
+        type: "heading",
+        text: "Process discipline: the overlooked failure mode",
+      },
+      {
+        type: "paragraph",
+        text: "Process discipline problems are the most underdiagnosed failure mode in outbound programmes, partly because they are uncomfortable to surface and partly because they are not visible in outcome metrics alone. A process discipline problem means that the activities the programme requires are not actually happening consistently: sequences are being skipped, calls are being substituted for emails, follow-up steps are being left incomplete, the daily contact volume is significantly below target. The programme, on paper, should produce a certain output at the stated activity level. The gap between the stated level and the actual level explains more of the shortfall than most teams are willing to acknowledge.",
+      },
+      {
+        type: "paragraph",
+        text: "Auditing process discipline requires comparing intended activity — the number of calls and emails per rep per day built into the programme design — against actual CRM-logged activity. This comparison should be run per rep, not in aggregate, because team-level averages can mask individuals who are significantly below target and obscure the fact that the programme has not actually been run as designed. If a rep is completing 60% of the sequenced steps across the board, the missing 40% of activity is a contribution to the output gap that is entirely independent of messaging or data quality.",
+      },
+      {
+        type: "heading",
+        text: "Meeting quality: when the problem is downstream",
+      },
+      {
+        type: "paragraph",
+        text: "It is possible for an outbound programme to book a reasonable volume of meetings while still being considered underperforming because the internal sales team converts a low proportion of those meetings to pipeline. When this is the presenting complaint, the audit needs to look downstream rather than upstream. The question is whether the meetings being booked reflect the agreed qualification criteria, whether the people attending are the contacts who should be in the first conversation, and whether the internal team's conversion expectations are calibrated accurately to what the outbound channel realistically delivers.",
+      },
+      {
+        type: "paragraph",
+        text: "Meeting quality problems frequently have more than one cause. Some proportion of low-quality meetings is a booking standards problem: the SDR is confirming meetings with contacts who do not meet the qualification criteria, either because the bar is not enforced or because it was never precisely defined. Some proportion is a show rate problem: meetings are booked but not attended, and the confirmation process is insufficient. And some proportion is an expectations problem: the internal sales team has an implicit expectation of meeting quality that was never made explicit in the programme brief, so meetings that are genuinely qualified are still considered unqualified by the team receiving them. Separating these three contributions requires reviewing a sample of meeting notes and recordings directly, not just the pipeline conversion statistics.",
+      },
+      {
+        type: "heading",
+        text: "The fix order matters",
+      },
+      {
+        type: "paragraph",
+        text: "Once the audit has identified where the programme is breaking, the sequence in which you fix things matters. Fixing messaging before fixing list quality wastes the effort — a well-crafted message sent to a poorly targeted list will not produce the response rate improvement you are looking for, and you will draw the wrong conclusion about the message. Fixing process discipline before clarifying the programme design means reps run harder down a path that has not been validated. The sequence that produces the most reliable signal is: data quality and ICP accuracy first, messaging second, process discipline third, meeting quality criteria fourth. Each stage depends on the one before being sound enough to generate a valid signal.",
+      },
+      {
+        type: "callout",
+        text: "An outbound programme that has stalled is not necessarily a programme that needs to be replaced — but it does need to be opened up and examined stage by stage. The most common outcome of a structured audit is not a full rebuild; it is the discovery of one specific break that explains most of the gap, with the rest of the programme operating roughly as intended. Finding that break early is the difference between a one-week fix and three months of compounding the wrong problem.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-brief-agency-lead-generation",
     category: "B2B Growth",
     title: "What to Include in a B2B Outbound Brief for a Lead Generation Agency",

@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-outbound-programme-audit-diagnose-stalled-results",
   "b2b-outbound-brief-agency-lead-generation",
   "b2b-outbound-recently-acquired-companies-ma-signal",
   "b2b-sales-battle-card-sdr-team",
