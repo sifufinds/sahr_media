@@ -27,6 +27,109 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-problem-unaware-buyers-new-category",
+    category: "SaaS Lead Generation",
+    title: "Selling a New Software Category: How to Write B2B Cold Outreach When Buyers Do Not Know They Have the Problem",
+    excerpt:
+      "Selling B2B SaaS into a category buyers have not heard of requires a fundamentally different outreach strategy. The standard cold email playbook breaks when buyers do not yet recognise the pain — here is how to build messaging that creates problem awareness before asking for a meeting.",
+    readTime: "8 min read",
+    date: "13 Nov 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B SaaS cold outreach assumes the prospect already knows they have the problem. The sequence starts with a pain point reference, moves to a capability claim, and closes with a meeting ask — all built on the assumption that the recipient already has the problem in their active consideration set. This assumption holds reasonably well in established software categories: when selling a CRM to a sales leader, they know what a CRM is and have probably formed a view on whether they need one. It breaks completely when selling into a category that does not yet have a name in the market, or selling a capability that buyers associate with complexity rather than a business problem they have already articulated.",
+      },
+      {
+        type: "paragraph",
+        text: "Problem-unaware buyers are not reluctant or disengaged — they are simply at a different stage of the decision journey. The challenge for the SDR team is that the standard outreach playbook does not reach them effectively. A cold email that opens with a question about whether they are struggling with a named problem fails if the recipient does not yet think of that as a category of problem worth managing. A meeting ask lands awkwardly when the recipient has no context for why a conversation about this would be worth their time. The outreach strategy needs to be rebuilt from the question of how to create awareness, not how to capitalise on it.",
+      },
+      {
+        type: "heading",
+        text: "Why standard cold outreach fails on problem-unaware buyers",
+      },
+      {
+        type: "paragraph",
+        text: "Standard cold outreach sequences are optimised for prospects who already understand the problem category. The opening hook references a pain they have — a growth bottleneck, a process inefficiency, a compliance exposure. The pitch connects that pain to a capability. The call to action offers a conversation about how to address it. This structure presupposes a chain of recognition: the recipient reads the hook, acknowledges the problem, and considers whether the solution might apply to them. A problem-unaware buyer breaks this chain at the first link. If the hook names a problem they do not yet see as a problem, nothing that follows connects.",
+      },
+      {
+        type: "paragraph",
+        text: "The failure mode is usually invisible. A sequence that runs against problem-unaware buyers often looks like a cold outreach problem — low reply rates, sequences completing without engagement — when it is actually a messaging architecture problem. The same product, sold to buyers who are already problem-aware, might perform entirely differently. Without segmenting the two populations, teams misread poor results as sequence design failure or insufficient volume, and respond by sending more of the same outreach, faster.",
+      },
+      {
+        type: "heading",
+        text: "The awareness spectrum and where most SaaS outreach gets stuck",
+      },
+      {
+        type: "paragraph",
+        text: "Buyers exist on a spectrum from completely unaware to actively evaluating vendors. At one end: a buyer who has not yet noticed any friction in the process your product addresses. In the middle: a buyer who is experiencing friction but has not yet connected it to a software category — they think of it as a resourcing problem, a process constraint, or simply an accepted feature of their role. Further along: a buyer who recognises the category and is researching options. Standard outbound SDR targeting optimises for the middle-to-right end of this spectrum because those buyers respond to conventional messaging. Category creation outreach must start further left.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that outreach to problem-unaware buyers needs to accomplish something that normal cold email does not: make the problem visible. This is a materially different goal from demonstrating a capability or differentiating a solution. It requires the first message in a sequence to do more persuasive work — which typically means it needs to be more concrete, more specific, and more directly tied to something the recipient already observes in their business, even if they have not framed it as a problem worth solving.",
+      },
+      {
+        type: "heading",
+        text: "How to frame a problem for buyers who have not yet named it",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective approach for problem-unaware buyers is to anchor the opening message in a symptom rather than a category. The symptom is something they already observe — a metric that is worse than expected, a process step that takes longer than it should, a type of work that falls through the cracks without anyone owning it. The category is what your product addresses. If you open with the category, you lose them. If you open with the symptom they already see, you are describing something they recognise before you have asked them to change how they think about it.",
+      },
+      {
+        type: "paragraph",
+        text: "An outreach message structured for problem-unaware buyers might contain: one sentence naming a specific, observable symptom in terms the recipient would use to describe it themselves; one sentence that reframes that symptom as a category of problem that has a solvable structure; one sentence that positions the company's capability in relation to that category; and a low-friction ask — not a meeting to pitch, but a question or a resource that gives the recipient something to engage with on their own terms before committing time.",
+      },
+      {
+        type: "list",
+        heading: "Framing approaches that work for problem-unaware buyers",
+        items: [
+          "Open with a symptom they already observe: a process they manage manually that your product automates, a decision they make with incomplete data that your product structures, or a friction point in a workflow they have normalised as unavoidable",
+          "Use their industry vocabulary, not your product vocabulary — name the symptom in terms their role would use, not in terms of the category your product creates",
+          "Avoid asking whether they have the problem as an open question — it implies they should already have the answer. Instead, describe what you see in similar businesses and ask whether it resonates",
+          "Offer a resource rather than a meeting as the first ask — a framework, a benchmark, or a short piece of content that makes the problem category tangible before asking for time",
+          "Keep the first message shorter than a standard cold email: a problem-unaware buyer has less incentive to read far, and a single compelling symptom observation is more valuable than a complete capability pitch",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Sequencing for a problem-unaware market: a longer education arc",
+      },
+      {
+        type: "paragraph",
+        text: "A standard five-step cold email sequence is designed to convert buyers who already have a problem in mind. For problem-unaware buyers, the same five steps often complete without reaching the moment where the recipient's understanding has shifted enough to make a meeting valuable. The sequence needs more steps, more variety, and a deliberately different progression: early touches aimed at problem framing, middle touches connecting the problem to business outcomes, and later touches presenting evidence and a specific ask.",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn plays a larger role in category-creation outreach than in standard cold outbound. For buyers who have not yet engaged with your category, your personal and company LinkedIn presence functions as a low-commitment touchpoint between sequence steps. A prospect who receives an email touch, looks you up on LinkedIn, and finds content that consistently addresses the symptoms you described is completing an education process that email alone cannot accomplish. This is not a reason to invest in content marketing as a substitute for outreach — it is a reason to treat LinkedIn content as part of the outreach architecture for category-creation plays, so that every touchpoint the prospect encounters reinforces the same problem framing.",
+      },
+      {
+        type: "heading",
+        text: "Which buyers to prioritise in a problem-unaware market",
+      },
+      {
+        type: "paragraph",
+        text: "Not all buyers in a problem-unaware market are equally worth targeting. The most accessible early segment consists of buyers who are closest to problem awareness — those who are experiencing the symptoms most acutely and have the most incentive to find a solution once they have framed one. For many SaaS categories, these are buyers in high-growth, resource-constrained businesses where the absence of a structured solution is most visible: scaling teams where manual processes are visibly breaking, businesses undergoing change that exposes gaps in existing tooling, and buyers in adjacent categories who are already familiar with the broader space your product fits into.",
+      },
+      {
+        type: "paragraph",
+        text: "Avoid building the initial category-creation list from buyers who are most problem-unaware: those in stable, low-growth businesses where the absence of a solution creates no visible friction. These accounts require the most education and produce the slowest pipeline. Category-creation outreach works by building initial density in the most receptive segment, generating case studies and reference customers that make the category legible to the broader market, and then expanding to less receptive segments once social proof exists.",
+      },
+      {
+        type: "heading",
+        text: "When to shift from education to a direct conversion ask",
+      },
+      {
+        type: "paragraph",
+        text: "Outreach to problem-unaware buyers requires patience in the early stages and precision about when to shift to a direct meeting ask. The signal to shift is engagement with the problem framing: a reply that acknowledges the symptom, a LinkedIn interaction with content about the category, a question that shows the prospect is thinking about the problem in the terms you have introduced. When that signal appears, the conversation can move directly to a meeting ask anchored on the specific symptom they engaged with. The mistake is to skip to a meeting ask before the problem framing has had time to land — the ask then arrives in a vacuum and the sequence completes with no response, which is not a rejection of the product but of the sequencing logic.",
+      },
+      {
+        type: "callout",
+        text: "The practical constraint of category-creation outreach is resourcing. It takes more touches, more channel variety, and a longer arc to convert a problem-unaware buyer than a buyer who already has the problem on their list. For most outbound teams, this means problem-unaware messaging should target a subset of the total ICP — the highest-fit accounts where the problem is most acute — rather than the entire prospect universe. Running this approach at scale produces worse results than running it precisely at a small, well-qualified list. The leverage is in the specificity of target selection and the quality of problem framing, not in volume.",
+      },
+    ],
+  },
+  {
     slug: "b2b-contact-data-decay-outbound-list-maintenance",
     category: "Sales Development",
     title: "B2B Contact Data Decay: Why Your Outbound List Goes Stale and How to Keep It Current",
