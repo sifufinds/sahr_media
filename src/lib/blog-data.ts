@@ -27,6 +27,104 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-contact-data-decay-outbound-list-maintenance",
+    category: "Sales Development",
+    title: "B2B Contact Data Decay: Why Your Outbound List Goes Stale and How to Keep It Current",
+    excerpt:
+      "B2B contact data has a shelf life that most outbound teams systematically underestimate. Here is what causes it to degrade, how to spot it early, and the workflow changes that prevent stale data from quietly undermining sequence performance.",
+    readTime: "6 min read",
+    date: "13 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "B2B contact data has a shelf life. People change jobs, companies restructure, domains change on acquisition or rebrand, and job titles shift without any external announcement. An outbound list that looked accurate at build time looks different six months later — and most teams find this out through rising bounce rates and inexplicably low engagement rather than through proactive audit. The result is wasted SDR time, deliverability damage that extends beyond the stale segment, and sequences that complete without ever reaching the person they were intended for.",
+      },
+      {
+        type: "heading",
+        text: "Why contact data degrades faster than most teams account for",
+      },
+      {
+        type: "paragraph",
+        text: "The contacts targeted most heavily in B2B outbound — senior commercial and technical decision-makers — are also the most likely to change roles frequently. VP and director-level positions carry shorter average tenures than more junior roles in many sectors, and senior hires are more likely to move with the market, change companies at funding events, or be promoted into roles that change their remit and reporting structure. Targeting decision-makers is the right instinct. It also means building lists against a population that changes more quickly than the database you used to build them.",
+      },
+      {
+        type: "paragraph",
+        text: "Email format changes create a separate class of data failure that is harder to catch than a job change. When a company is acquired and migrated to the parent's email domain, the old addresses often stop working without generating a clean hard bounce — they may deliver to a catch-all inbox, generate a soft bounce, or silently disappear. A startup that rebrands and moves to a new domain mid-year takes its email infrastructure with it. These events are not visible in contact database records until the database provider runs its own refresh cycle, which may lag reality by weeks or months.",
+      },
+      {
+        type: "heading",
+        text: "How stale data shows up in an active outbound programme",
+      },
+      {
+        type: "paragraph",
+        text: "The most visible signal is a rise in hard bounce rates. Email providers use hard bounce rate as a sender reputation indicator, so a programme that is quietly mailing against stale data is degrading its own deliverability while doing it — a compounding effect that takes time to unwind even after the data problem is fixed. Soft bounce patterns are harder to interpret but carry similar risk over time.",
+      },
+      {
+        type: "list",
+        heading: "Signs your contact data is actively degrading",
+        items: [
+          "Hard bounce rate rising across a domain or specific list segment",
+          "A higher than expected share of out-of-office replies from generic mailboxes rather than named individuals",
+          "LinkedIn Sales Navigator flagging contacts as 'no longer at this company' in saved leads",
+          "Increasing proportion of calls connecting to voicemail at numbers that were previously live",
+          "Sequences completing with zero opens from an account segment that previously engaged",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The less visible impact is SDR time. A sequence that completes against five contacts at a target account without a response might look like a qualified rejection — the company saw the outreach and was not interested. It might equally be five stale data points, with no one at the company having received the message at all. Distinguishing between the two requires data verification, not just sequence analysis.",
+      },
+      {
+        type: "heading",
+        text: "The limits of email verification alone",
+      },
+      {
+        type: "paragraph",
+        text: "Email verification tools — services that check whether an email address is deliverable at the SMTP level — catch one class of data failure: addresses that will bounce. They do not catch addresses that belong to contacts who have changed roles, changed responsibilities, or left the company without their mailbox being closed. A verified email for a contact who moved to a new employer three months ago will show as valid if the former employer has not closed the mailbox. The SDR then sequences an individual who may never see the message, or who sees it on behalf of an empty desk.",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn enrichment solves a different part of the problem. Pulling the current employer and job title from a Sales Navigator search confirms whether the contact is still in the role your outreach assumes. It does not confirm the email address. Neither source alone is sufficient; a data hygiene workflow that relies on only one of them will catch different failure modes and miss the other. The practical approach is to combine SMTP-level verification with a LinkedIn employer check for any contact being enrolled in a sequence for the first time, and to treat both as required rather than optional.",
+      },
+      {
+        type: "heading",
+        text: "A re-verification schedule that fits the outbound workflow",
+      },
+      {
+        type: "paragraph",
+        text: "Contact data benefits from a validity window that varies by how much time has passed since it was collected or last verified. Contacts enrolled in an active sequence are the highest priority: any contact data older than six months before enrollment should be re-checked. Contacts sitting in a holding segment, queued but not yet enrolled, can tolerate a slightly longer window if the original data source was high-quality and the segment is relatively static. Contacts imported from purchased lists or event capture forms should always be verified before first use, regardless of stated list age — these sources carry the highest initial inaccuracy rates.",
+      },
+      {
+        type: "list",
+        heading: "Triggers that should prompt re-verification before outreach",
+        items: [
+          "Contact data collected more than six months before planned enrollment",
+          "Any account that has been acquired, merged, or rebranded since the contact was added",
+          "Any contact completing a full sequence without engagement, before re-sequencing to a different channel or persona",
+          "Contacts sourced from a purchased list, trade show export, or lead capture form",
+          "Any segment where the import source does not carry a stated data refresh frequency",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Embedding data hygiene into the SDR workflow rather than treating it as a quarterly fix",
+      },
+      {
+        type: "paragraph",
+        text: "Data hygiene works best as a step in the standard contact preparation process rather than a periodic mass-cleaning exercise. The practical version is a standing rule: before enrolling any contact, the SDR or the enrichment workflow confirms the email is deliverable and the LinkedIn profile shows the contact is currently at the company. This adds a small amount of time per contact at the front end. It removes a larger amount of waste — in SDR time, in domain reputation, in sequence sends that complete against invalid data — from the back end.",
+      },
+      {
+        type: "paragraph",
+        text: "Automated enrichment tools — Clay, Apollo, Cognism, and comparable platforms — can run much of this check without manual SDR input. A workflow configured to pull the LinkedIn employer, verify the email, and flag conflicts between the two reduces the per-contact overhead to reviewing flagged exceptions rather than verifying every record individually. The SDR judgment still matters for cases where the data is technically clean but the role or remit has shifted — a contact who moved from VP Sales to Chief Revenue Officer at the same company has valid data but a changed context for the outreach message. Automation surfaces the obvious failures; human review catches the subtler ones.",
+      },
+      {
+        type: "callout",
+        text: "A quarterly audit of contact data is a low-overhead operational habit that prevents an accumulating drag on outbound performance. The process is straightforward: pull every contact added more than six months ago, run them through verification, flag those where the email is no longer deliverable or the LinkedIn profile shows a job change, and remove or update them before the next sequence enrollment. For most mid-market SDR teams, this takes a day per quarter. The return — in preserved domain reputation, in SDR time not spent on stale sequences, and in the confidence that sequence performance data reflects real prospect behaviour rather than data quality failure — is proportionate to that investment.",
+      },
+    ],
+  },
+  {
     slug: "b2b-saas-win-back-outreach-former-customers",
     category: "SaaS Lead Generation",
     title: "B2B SaaS Win-Back Outreach: How to Approach Former Customers Who Cancelled",
