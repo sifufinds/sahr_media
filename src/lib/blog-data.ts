@@ -27,6 +27,116 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-saas-win-back-outreach-former-customers",
+    category: "SaaS Lead Generation",
+    title: "B2B SaaS Win-Back Outreach: How to Approach Former Customers Who Cancelled",
+    excerpt:
+      "Former SaaS customers already know what your product does and have experienced the problem it solves — but most go-to-market teams treat them like cold prospects. Here is how to structure win-back outreach differently, and what to say to open a conversation that cold email rarely can.",
+    readTime: "8 min read",
+    date: "13 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Former SaaS customers sit in a category of their own in outbound sales. Unlike cold prospects, they have already made a decision about your product — they tried it, ran it in their environment, and then cancelled. That history changes almost everything about how to approach a win-back conversation. They know what your product does. They understand the category. They have experienced the problem you solve. What they concluded was that at some point in their usage, your product did not deliver enough value to justify the cost or effort of continuing. That is a very specific signal, and it creates a very specific kind of outreach opportunity that looks nothing like cold prospecting.",
+      },
+      {
+        type: "paragraph",
+        text: "Despite this, most SaaS go-to-market teams treat churned customers as though they were cold accounts — using the same email templates, the same opening gambits, the same offer structure. If a win-back email sounds like a cold acquisition email, it misses the entire advantage of reaching someone who already has context, and it signals to the recipient that the company has not thought carefully about why they left.",
+      },
+      {
+        type: "heading",
+        text: "When win-back outreach is worth running",
+      },
+      {
+        type: "paragraph",
+        text: "Win-back outreach pays off under specific conditions. The most important factor is elapsed time. Accounts that churned at least six to twelve months ago are typically more receptive than those who cancelled recently. A customer who cancelled within the last two months is likely still carrying the negative feelings that drove the cancellation decision and may still be in a contract with a replacement vendor. By contrast, a customer who churned over a year ago has had time to experience the alternative, potentially encountered its limitations, and may have new stakeholders in the buying decision who were not involved the first time.",
+      },
+      {
+        type: "paragraph",
+        text: "Product improvements are the clearest trigger for win-back activity. If the company has shipped features, changed pricing, addressed reliability issues, or improved onboarding since the customer left, there is a material reason to re-open the conversation beyond simply trying again. Without a concrete reason why the experience would be different, win-back outreach is an ask without an answer.",
+      },
+      {
+        type: "list",
+        heading: "Conditions that favour win-back outreach",
+        items: [
+          "Six months or more have passed since cancellation",
+          "The product has meaningfully improved since the customer used it",
+          "The customer's business has visibly changed — new team, new priorities, a funding round, a restructure",
+          "Churn was driven by external factors rather than product dissatisfaction: budget cuts, internal project freeze, or a champion leaving",
+          "The account represented significant ARR and was an otherwise good-fit customer",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Win-back is rarely worth pursuing where churn was due to fundamental product misfit — where the customer's use case was outside the product's design scope and that has not changed. Similarly, accounts where churn involved non-payment disputes, public complaints, or acrimonious offboarding create legal and reputational risk that outweighs pipeline value. Where the entire buying team has turned over, the account should often be reclassified as a cold prospect rather than a win-back, since there is no existing context in the room.",
+      },
+      {
+        type: "heading",
+        text: "The churn reason determines the message",
+      },
+      {
+        type: "paragraph",
+        text: "If you have a CRM or customer success record of why the customer left, that record is the starting point for messaging — not the standard cold outreach template. The win-back message needs to demonstrate that the company knows why the customer left and has a reason to believe the situation has changed. A generic message that does not address the departure reason tells the recipient that either the company does not know why they churned, or does not care. Neither is a credible opening for a renewal conversation.",
+      },
+      {
+        type: "list",
+        heading: "Common churn reasons and how they shape win-back messaging",
+        items: [
+          "Budget cuts or financial pressure: approach when the company's financial situation appears to have improved — new funding, hiring activity, expansion news — and lead with pricing or packaging changes if any exist",
+          "Product gaps or missing features: lead with a specific product update that directly addresses the gap the customer raised, but only if that gap has genuinely been closed",
+          "Low adoption or limited usage: acknowledge the usage challenge and offer a different onboarding path, a dedicated contact, or a structured pilot — not simply another subscription on the same terms",
+          "Champion departure: the existing contact is new; the win-back is essentially cold outreach with the advantage of a known account history, so reference the previous relationship without assuming the new contact shares their predecessor's views",
+          "Switched to a competitor: approach six to nine months before the competitor contract is likely to expire, using trigger signals like competitor pricing changes, acquisition activity, or public customer complaints about the alternative",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What to say in the first win-back message",
+      },
+      {
+        type: "paragraph",
+        text: "A win-back message has a different permission structure than cold outreach. The relationship means you can reference the shared history directly — but only carefully. Opening with the specific month of cancellation or dwelling on the departure is awkward and puts the recipient on the defensive. A better approach is to open with the reason the conversation is worth having now: a specific product change, a timing trigger, something observable in their business that makes this a good moment to reconnect.",
+      },
+      {
+        type: "paragraph",
+        text: "A structure that works for win-back: one sentence establishing the specific, credible reason to reach out now — not a generic appeal to the past relationship; one sentence acknowledging the previous relationship without dwelling on the cancellation; one sentence about the concrete change since they left that addresses a likely concern; and a low-friction ask — not 'are you ready to come back', but whether it would be worth a conversation to see if the situation has changed.",
+      },
+      {
+        type: "paragraph",
+        text: "Win-back messages should avoid discounting as an opening move. Offering a heavy discount immediately signals either that the product is overpriced or that the company will always discount for anyone who pushes back. It frames re-engagement as a commercial concession rather than a conversation about value. If pricing was part of the original churn reason and you have flexible options, that conversation belongs in a discovery call, not the opening email.",
+      },
+      {
+        type: "heading",
+        text: "Timing and sequencing for win-back campaigns",
+      },
+      {
+        type: "paragraph",
+        text: "Win-back campaigns do not require the same multi-touch cadence volume as cold prospecting. Because the recipient has shared history with the company, over-sequencing carries a greater reputational risk. A three-touch sequence across three to four weeks — an email, a LinkedIn message, and a final email — is typically sufficient. If none receive a response, quarterly re-attempts rather than persistent weekly follow-up are more appropriate for former customers.",
+      },
+      {
+        type: "paragraph",
+        text: "Channel selection matters more in win-back than in cold outreach. If the previous relationship was primarily managed by a customer success manager or account executive, a message from that same person carries more weight than one from a new SDR. Where the original contacts are still at the company, routing the first win-back touch through the person they knew creates a continuity advantage that cold outbound cannot replicate. It is worth the coordination cost of routing the message through the right sender.",
+      },
+      {
+        type: "heading",
+        text: "What to do when a win-back prospect responds",
+      },
+      {
+        type: "paragraph",
+        text: "A response to win-back outreach requires a different discovery conversation than a standard first call. The fundamentals have been established — the company knows your product, knows your pricing structure, knows the basics of implementation. The discovery conversation needs to understand what has changed since they left: new priorities, new team members in the buying decision, new use cases, new budget position. Repeating the original demo or pitch is a mistake; the conversation should diagnose what is different now and demonstrate specifically how that has changed.",
+      },
+      {
+        type: "paragraph",
+        text: "Former customers are also often sources of candid feedback about the product, the sales process, or the support experience that shaped their original departure. A win-back discovery call that makes space for that feedback — without becoming defensive — demonstrates a different quality of engagement than a standard sales process. Some of the most useful product intelligence for a SaaS go-to-market team comes from precisely these conversations, regardless of whether they result in a renewed contract.",
+      },
+      {
+        type: "callout",
+        text: "Win-back outreach works best when it is a formal part of the pipeline programme, not an occasional one-off when sales quotas need filling. A systematic quarterly review of churned accounts — filtered by account size, churn reason, and elapsed time — produces a small, high-quality list that is worth more than the same effort spent on marginal cold prospects. Former customers who re-engage typically convert at higher rates than cold acquisition, and they enter the product with less onboarding friction. The investment in a structured win-back programme is typically low relative to the pipeline it generates.",
+      },
+    ],
+  },
+  {
     slug: "linkedin-inmail-b2b-sdr-prospecting",
     category: "Sales Development",
     title: "LinkedIn InMail for B2B SDRs: When to Use It and How to Write Messages That Generate Responses",
