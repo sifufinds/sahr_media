@@ -27,6 +27,103 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-funding-signals-outbound-prospecting-vc-backed",
+    category: "Sales Development",
+    title: "Using Funding Announcements as an Outbound Trigger: A B2B Prospecting Playbook for Recently Funded Companies",
+    excerpt:
+      "A funding announcement is one of the clearest buying signals available to outbound teams — but most SDRs reach out too late, too generically, or at the wrong stage. Here is how to build a funding-triggered prospecting system that converts the signal into pipeline.",
+    readTime: "6 min read",
+    date: "14 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "A recently funded company is a business in motion. It has fresh capital, a mandate to deploy it, and in most cases a growth plan that requires new software, services, or infrastructure. For B2B outbound teams, funding announcements are among the highest-quality prospecting triggers available — not because every funded company is a perfect buyer, but because the moment of a funding round is one of the few points in a company's lifecycle where budget decisions are actively being made and vendors are actively being evaluated.",
+      },
+      {
+        type: "paragraph",
+        text: "Most outbound triggers are proxies. A job posting suggests intent. A new hire implies a capability gap. A technology change is a signal of an open architecture. Funding is different: it is a direct, verifiable event that changes the company's buying position. A company that has just raised a Series A is not the same commercial entity it was six months earlier — it has more resource, different headcount targets, and in most cases a sales leader or CTO who has just been given a budget and needs to build a stack quickly. The trigger is not speculative; it is documented.",
+      },
+      {
+        type: "heading",
+        text: "Where to find UK funding data",
+      },
+      {
+        type: "paragraph",
+        text: "For UK-based outbound teams, the main sources of funding announcement data are Beauhurst (UK-specific, tracks seed through growth rounds in private companies), Crunchbase (broader international coverage with strong UK representation), Dealroom (European focus with filtering by stage, sector, and geography), and Sifted and Tech.eu for editorial coverage of European rounds. For larger rounds at Series A and above, TechCrunch and City A.M. typically provide earlier coverage than data aggregators. LinkedIn founder and investor posts often precede press coverage by hours or days and are worth monitoring directly for accounts in your ICP.",
+      },
+      {
+        type: "paragraph",
+        text: "For construction tech specifically — a growing segment with dedicated funding activity — Built Environment Networking, Procore Partner News, and construction industry trade press surface rounds that general tech media misses. For formal verification after a round closes, Companies House shareholder and capital filings provide official confirmation, though these typically lag the announcement by several weeks.",
+      },
+      {
+        type: "heading",
+        text: "Timing the outreach: the window between announcement and first vendor decisions",
+      },
+      {
+        type: "paragraph",
+        text: "The practical window between a funding announcement and initial vendor decisions closing is narrow. Too early — within the first day or two of announcement — and the company may not yet have the internal structure to field vendor conversations. Too late — beyond six to eight weeks — and the initial stack decisions for the most urgent categories have typically already been made. The sweet spot for most SaaS and B2B service categories is roughly two to four weeks after the announcement goes public. By this point the company has a point of contact who can take a conversation, evaluation processes are still open, and the pressure to build capability is at its peak.",
+      },
+      {
+        type: "paragraph",
+        text: "For larger rounds at Series B and above, the window extends because the buying decisions are more complex and involve more stakeholders across a longer evaluation process. For seed-stage companies, the buyer is usually the founder directly, and earlier outreach often works because the founder is personally managing most vendor relationships in those early stages and has less bureaucracy filtering inbound.",
+      },
+      {
+        type: "heading",
+        text: "Matching your messaging to the funding stage",
+      },
+      {
+        type: "paragraph",
+        text: "The funding stage tells you who the buyer is, what they are building, and what they are likely to be buying right now. Generic outreach that ignores the stage looks like noise. A message optimised for a Series B scale-up landing in the inbox of a recently seed-funded founder misses everything that makes the timing relevant.",
+      },
+      {
+        type: "list",
+        heading: "Stage-specific messaging approach",
+        items: [
+          "Seed: the founder is typically the buyer. Messaging should focus on lightweight, low-friction first steps — a brief conversation rather than a formal demo, a question about the go-to-market plan rather than a capability pitch. Seed-stage founders are evaluating everything simultaneously and respond well to directness and speed.",
+          "Series A: the first professional management layer is forming. Sales leaders, marketing leads, and CTOs are being hired or just joining. Messaging should reference the growth mandate directly — connecting your capability to the headcount targets and revenue goals that come with the round. The buyer is now a function head, not the founder.",
+          "Series B+: buying committees are established and procurement processes exist. Messaging needs to be stakeholder-specific, with different angles for the CFO, the CTO, and revenue leadership. The outbound motion looks more like enterprise selling, with multi-threading from the first touch.",
+          "Construction-tech: funding in construction tech typically targets a capital project, platform expansion, or compliance-driven product build. Research the stated use of funds — if a construction software company has raised to expand into new regions, outreach positioned around regional scaling challenges is more relevant than a generic growth message.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What most SDRs get wrong when messaging funded companies",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure is treating a funding announcement as an excuse to send a generic cold email with the company name swapped in. Messaging that opens with 'Congratulations on your Series A — I wanted to reach out about [product]' is not personalisation. It is a template with a data field. The prospect sees the structure immediately and the credibility of the approach collapses before the second sentence.",
+      },
+      {
+        type: "list",
+        heading: "Common mistakes to avoid",
+        items: [
+          "Congratulating the company without connecting the acknowledgement to anything specific about their situation or growth plan",
+          "Naming the funding amount without showing understanding of what that stage implies for the business — the amount is public data; the insight is in knowing what a company at that stage is typically buying",
+          "Sending the same message to funded companies as to your general ICP list with one additional line at the top",
+          "Reaching out before doing minimal company research — newly funded companies receive a surge of inbound vendor interest and have a low tolerance for lazily-personalised outreach",
+          "Ignoring the lead investor — who led the round often signals the growth model and strategic priorities the company is pursuing, and referencing this shows you have done the work",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Setting up an automated funding alert system",
+      },
+      {
+        type: "paragraph",
+        text: "Manual monitoring of funding announcements does not scale past a small list. The practical approach is to configure automated alerts that surface relevant announcements directly to the SDR team as soon as they go public. Most data tools — Crunchbase, Dealroom, Apollo — have saved search and alert functionality that can be filtered by country, funding stage, sector, and company size. The output should feed directly into the prospecting workflow with enough context for the SDR to draft the first message immediately, not into a spreadsheet to be reviewed manually at the end of the week.",
+      },
+      {
+        type: "paragraph",
+        text: "For teams without access to a paid data tool, Google Alerts configured to monitor sector and funding terms, Sifted and Tech.eu newsletter digests, and LinkedIn searches filtered by industry and recent company updates provide reasonable coverage at no cost, though with more manual processing. The goal in either case is the same: shorten the time between the announcement going public and the first credible outreach message landing in the inbox of the right contact. Speed is a genuine advantage in a window where every other vendor targeting the same ICP is also watching.",
+      },
+      {
+        type: "callout",
+        text: "Funding data has a lag. By the time a round appears in Crunchbase or receives press coverage, the company may already be fielding vendor inquiries. Teams that monitor LinkedIn founder and investor posts — rather than waiting for aggregator updates — consistently reach their targets earlier in the evaluation window. Build the monitoring setup to catch announcements as close to real-time as possible, and treat the first few days after a round as the highest-priority window for outreach in that account.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-problem-unaware-buyers-new-category",
     category: "SaaS Lead Generation",
     title: "Selling a New Software Category: How to Write B2B Cold Outreach When Buyers Do Not Know They Have the Problem",
