@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-programme-economics-cost-of-pipeline",
+    category: "Sales Development",
+    title: "The Real Cost of a Booked Meeting: Understanding B2B Outbound Programme Economics",
+    excerpt:
+      "Most outbound programmes track activity metrics faithfully but have no clear picture of what a booked meeting or qualified opportunity actually costs. Getting this number right changes how you allocate budget, structure teams, and decide when to scale.",
+    readTime: "7 min read",
+    date: "14 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "Sales leaders who run outbound programmes can usually tell you how many calls their SDRs made last week, how many emails went out, and what the reply rate was on the most recent sequence. What most cannot tell you — quickly, with confidence — is what a booked meeting costs them, what a qualified opportunity costs, or what the outbound channel's cost per closed deal looks like compared to inbound or referral. This gap matters more than it might appear. Without a clear view of outbound unit economics, every resourcing and investment decision — hiring a third SDR, switching tools, moving to an agency — is made on intuition rather than data.",
+      },
+      {
+        type: "paragraph",
+        text: "The goal of this framework is to give B2B sales and marketing leaders the tools to build a simple, honest picture of outbound programme economics — one that is rigorous enough to inform decisions but not so complex that it becomes a quarterly finance exercise. The numbers involved are rarely precise, but even a rough cost-per-meeting figure that everyone on the leadership team agrees on is more useful than no number at all.",
+      },
+      {
+        type: "heading",
+        text: "The five conversion rates that define outbound performance",
+      },
+      {
+        type: "paragraph",
+        text: "Before calculating costs, you need a reliable conversion funnel. For most B2B outbound programmes, this runs from activity through to pipeline at five stages: activities to conversations, conversations to meeting booked, meeting booked to meeting attended, meeting attended to SQL or qualified opportunity, and SQL to pipeline. Each stage has its own conversion rate, and the aggregate of those rates determines your outbound programme's underlying efficiency. If you have six months of historical data and can calculate stable conversion rates at each stage, you have the foundation for economics modelling.",
+      },
+      {
+        type: "list",
+        heading: "The five-stage conversion funnel for outbound economics",
+        items: [
+          "Activity to conversation: the percentage of outbound touches (calls, emails, LinkedIn messages) that result in a two-way exchange — a reply, a live answer, an agreed callback",
+          "Conversation to booked meeting: the percentage of conversations that result in a confirmed meeting or demo in the diary",
+          "Booked meeting to attended meeting: sometimes called the show rate — the percentage of booked meetings where the prospect actually turns up",
+          "Attended meeting to SQL: the percentage of attended meetings that meet your qualification criteria for a sales-qualified lead or qualified opportunity",
+          "SQL to pipeline opportunity: the percentage of SQLs that convert to a formal sales opportunity — typically where a named value and close date are assigned in the CRM",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These conversion rates are worth calculating separately for each outbound channel — email, phone, and LinkedIn — rather than blending them. The dynamics are different enough that a blended number obscures more than it reveals. A programme with a high email volume and a low call volume will show very different aggregate conversion rates from one with the same total activity but weighted toward phone. Keeping the channels separate also allows the team to allocate effort based on where the conversion economics are most favourable.",
+      },
+      {
+        type: "heading",
+        text: "Calculating the total cost of your outbound programme",
+      },
+      {
+        type: "paragraph",
+        text: "The common mistake in calculating outbound programme cost is counting only the most visible line items — SDR salaries and the main sales engagement tool. A realistic cost calculation needs to include all direct and indirect inputs: SDR salaries and employer costs, the full stack of outbound technology (sales engagement platform, data provider, LinkedIn Sales Navigator, CRM licences attributable to outbound usage, intent data, calling software), data spend (list purchasing, enrichment credits), the management and coaching time the team requires (typically one to two hours per SDR per week from a sales manager or head of sales), and ramp costs for new hires. For companies using an external agency for outbound lead generation, the total agency fee is the equivalent input.",
+      },
+      {
+        type: "paragraph",
+        text: "Many outbound teams undercount by a significant margin when they exclude management time. A head of sales spending five hours a week on SDR management, pipeline review, and outbound strategy is contributing a material portion of their time — and their salary cost — to the outbound programme, even if none of that time appears in the SDR budget line. The same applies to any RevOps resource spent building and maintaining sequences, cleaning data, or running reporting on the programme.",
+      },
+      {
+        type: "heading",
+        text: "Cost per meeting, cost per SQL, cost per pipeline",
+      },
+      {
+        type: "paragraph",
+        text: "Once you have a reliable total programme cost and a stable conversion funnel, the calculation at each stage is straightforward: divide the total monthly or quarterly programme cost by the number of outcomes at each stage. If the programme costs £15,000 per month all-in and books 30 meetings, the cost per meeting is £500. If 18 of those meetings become SQLs, the cost per SQL is £833. If 10 of those SQLs become pipeline opportunities, the cost per pipeline opportunity is £1,500. These numbers are illustrative — the point is the structure, not the figures.",
+      },
+      {
+        type: "paragraph",
+        text: "The number most decision-makers find useful is cost per SQL or cost per qualified pipeline opportunity — not cost per meeting, because a meeting that does not qualify is a poor proxy for commercial output. The cost per pipeline figure is what allows comparison with other lead generation channels. If inbound marketing is producing qualified pipeline at one cost and outbound at another, the question of channel allocation becomes a commercial decision rather than a preference. The comparison only works if the quality of opportunities from each channel is similar — a pipeline opportunity from outbound that closes at the same rate and average contract value as an inbound-sourced opportunity is worth the same; one that closes at half the rate is worth proportionally less.",
+      },
+      {
+        type: "heading",
+        text: "Using the economics to make decisions",
+      },
+      {
+        type: "paragraph",
+        text: "The primary use of outbound economics is as a decision-making tool, not a reporting tool. The figures are relevant at four recurring decision points: whether to scale the programme, whether to change the approach, whether to compare in-house outbound with agency outsourcing, and whether to present the investment case for outbound to board or investors.",
+      },
+      {
+        type: "paragraph",
+        text: "Scaling decisions are more defensible when you know the current economics. If the cost per SQL is within a range your business can sustain given your average contract value and gross margin, adding headcount or increasing data spend to increase volume is a reasonable decision. If the cost per SQL is already above a viable threshold, adding volume makes the problem worse rather than better — the right move is to improve conversion rates before scaling. This is a distinction that activity-focused reporting cannot surface; unit economics can.",
+      },
+      {
+        type: "paragraph",
+        text: "The in-house versus agency comparison is frequently made without a consistent cost calculation. Companies that compare the gross agency fee against the gross SDR salary typically conclude that in-house is cheaper — but that calculation omits tools, data, management time, and ramp costs on the in-house side. When both options are costed fully, the comparison is usually much closer than it first appears, and the decision rests on factors like speed to ramp, flexibility to scale down, and the depth of specialisation the agency brings to sequencing, messaging, and account selection.",
+      },
+      {
+        type: "heading",
+        text: "Common mistakes that distort the numbers",
+      },
+      {
+        type: "list",
+        heading: "What to avoid when building your outbound economics model",
+        items: [
+          "Measuring cost per meeting rather than cost per SQL — meetings that do not qualify inflate the apparent efficiency of the programme and lead to overconfident scaling decisions",
+          "Excluding management and leadership time from the total cost calculation — this consistently leads to undercounting in-house outbound costs by a material margin",
+          "Using a single blended conversion rate across all channels — email and phone have structurally different economics and should be modelled separately",
+          "Measuring during the ramp period of a new SDR — the first three to four months of a new hire's time produce unrepresentative output; exclude ramp periods from steady-state benchmarks",
+          "Attributing all outbound-sourced meetings to pure outbound — if the SDR followed up on an inbound content download or a warm referral, the channel attribution is mixed and should be tracked separately to avoid overstating outbound efficiency",
+          "Failing to adjust for average deal size when making cross-channel comparisons — a cost per qualified opportunity that looks high may be entirely viable if the average contract value is significantly above the market norm for the channel",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Presenting the case for outbound investment",
+      },
+      {
+        type: "paragraph",
+        text: "One of the clearest benefits of building an economics model for outbound is that it converts the investment case from an operational argument to a financial one. The difference in register matters significantly when presenting to a board, a CFO, or an investor. An operational argument — 'we need more SDRs to build more pipeline' — requires the audience to trust the sales team's judgment about what pipeline capacity is needed. A financial argument — 'we have demonstrated a cost per qualified opportunity of X, our target pipeline coverage is Y times quota, and adding Z to the monthly programme budget is projected to close the gap by quarter three' — requires the audience to evaluate the arithmetic, which is an easier decision-making frame.",
+      },
+      {
+        type: "paragraph",
+        text: "The model does not need to be more precise than the underlying data allows. An agreed cost per qualified opportunity, even if it carries a range of uncertainty, provides enough of a shared reference point to structure the conversation about investment level, timing, and expected return. Teams that operate without this reference point tend to have recurring budget conversations that are resolved by seniority rather than analysis.",
+      },
+      {
+        type: "callout",
+        text: "The purpose of outbound economics is not to produce a precise figure — it is to produce a consistent, agreed figure that the leadership team uses to make decisions. If everyone agrees that a qualified outbound opportunity costs roughly a known amount and that this is commercially viable given the business's average contract value and close rates, that shared frame is more valuable than a more precise number that no one trusts or references.",
+      },
+    ],
+  },
+  {
     slug: "vertical-saas-outbound-niche-market-prospecting",
     category: "SaaS Lead Generation",
     title: "Outbound Prospecting for Vertical SaaS: How to Build Pipeline in a Market Where Everyone Knows Each Other",
