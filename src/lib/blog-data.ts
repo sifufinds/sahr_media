@@ -27,6 +27,105 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "vertical-saas-outbound-niche-market-prospecting",
+    category: "SaaS Lead Generation",
+    title: "Outbound Prospecting for Vertical SaaS: How to Build Pipeline in a Market Where Everyone Knows Each Other",
+    excerpt:
+      "Vertical SaaS companies sell into small, defined industries where buyers talk to each other and your reputation travels faster than your email sequence. The standard outbound playbook needs significant modification when the total addressable market is measured in hundreds of accounts, not thousands.",
+    readTime: "7 min read",
+    date: "14 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "The market for a vertical SaaS product is typically measured in hundreds or low thousands of accounts — not tens of thousands. A workforce management platform built specifically for the scaffolding sector in the UK, or a compliance tool designed for UK private equity-backed accountancy firms, may have a total addressable market of a few hundred companies. This bounded scope is what makes vertical SaaS commercially attractive: high relevance, defensible positioning, lower sales complexity per deal. It is also what makes the outbound motion categorically different from general SaaS outreach.",
+      },
+      {
+        type: "paragraph",
+        text: "Standard outbound playbooks assume a replenishable market. If a sequence burns 500 accounts without converting, there are another 5,000 to work. In a vertical market, 500 burned accounts may be the entire ICP. Every prospect who receives a poor-quality sequence, an irrelevant message, or a sequence that fails to convert and is never re-engaged represents a meaningful portion of the total market. The mistake rate that is tolerable in a broad-market outbound programme is not tolerable in a vertical one.",
+      },
+      {
+        type: "heading",
+        text: "Mapping the vertical market before you begin outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The first step in vertical SaaS outbound is building an accurate account map — the total list of companies that fall within your ICP. In a broad market, this is primarily a filtering exercise: take a data source, apply firmographic criteria, and produce a working target list. In a vertical market, the account map is a research exercise. The goal is to reach a point where the team knows — with high confidence — roughly how many accounts exist, what the named companies are, and where each one sits in terms of size, maturity, and current technology posture.",
+      },
+      {
+        type: "paragraph",
+        text: "Sources for a vertical account map vary by industry. Industry trade bodies, sector directories, Companies House SIC code filters, conference exhibitor lists, award shortlists, and trade publication subscriber demographics are all more valuable in vertical markets than general data aggregators. For construction technology verticals, the CIOB membership directory, Constructionline, and regional contractor databases often provide better coverage than Apollo or ZoomInfo. For specialist financial services SaaS, FCA register data combined with industry association membership produces a more accurate and complete picture than conventional firmographic data alone.",
+      },
+      {
+        type: "paragraph",
+        text: "The purpose of the account map is not just to have a list — it is to understand the capacity constraints on the outbound programme. If the account map yields 400 companies and 200 of them are already customers or in active conversations, the outbound programme is working against 200 accounts. That number determines how patiently and carefully the sequences must be run.",
+      },
+      {
+        type: "heading",
+        text: "Messaging that shows you understand the vertical",
+      },
+      {
+        type: "paragraph",
+        text: "Buyers in tight industry verticals evaluate vendors partly on whether the vendor understands their specific operating context. A generic SaaS cold email that could apply to any company of a given size and growth stage signals, in a vertical market, that the sender does not know the industry. That signal is more damaging in a small market than in a large one, because the recipient has no shortage of vendors claiming to understand their sector — and most of them have not done the work.",
+      },
+      {
+        type: "paragraph",
+        text: "Genuine vertical expertise in a cold email is not achieved by inserting the industry name into a template. It is demonstrated through the specifics of what you observe: the operational constraints your prospects navigate, the regulatory or compliance environment they work within, the named processes or workflow categories that define their role, the technology decisions common at their stage of maturity. In construction technology, a message that correctly names the tension between programme management software and ERP integration at the tier-two contractor level shows a level of understanding that no amount of personalisation at scale can replicate.",
+      },
+      {
+        type: "list",
+        heading: "What genuine vertical expertise looks like in cold outreach",
+        items: [
+          "Naming an industry-specific constraint, compliance requirement, or operational norm that the prospect works with daily — not a generic business function dressed in sector vocabulary",
+          "Referencing a process or workflow that is specific to the vertical, using the terminology the prospect would use to describe it themselves",
+          "Demonstrating awareness of the technology environment most companies at that stage are already operating in — what they are most likely running now, and where the integration or replacement decision typically arises",
+          "Avoiding capability claims that apply equally to any SaaS product — focusing on the specific category of problem your product addresses in this vertical's context",
+          "Showing awareness of the buying cycle dynamics of the sector — budget cycles, compliance deadlines, procurement structures — rather than treating every industry as if it buys software the same way",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Pacing outbound to protect the market",
+      },
+      {
+        type: "paragraph",
+        text: "Standard outbound sequence design — often six to ten touches over four to six weeks, then a break-up email — is calibrated for markets with enough accounts that a completed-without-reply sequence can be deprioritised and a fresh set of accounts loaded in its place. In a vertical market, the break-up email is not a disposal mechanism. The prospect is still in the market. They may be a buyer in six months or two years. The sequence design needs to account for this.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that outreach in a vertical market should run at a lower contact frequency than conventional sequences, with longer gaps between touches, and with a higher proportion of value-driven touches relative to meeting asks. A sequence that runs eight touches in five weeks across a 400-account vertical risks reaching every account in the ICP with an aggressive cadence before the outbound programme has built any reputation in the market. Practically, this means designing sequences with two to three weeks between steps rather than three to five days, with content touches that deliver genuine value at each step, and with a re-engagement motion that respects the full sales cycle length. For vertical SaaS where average deal cycles run six months or more, an account that completes a sequence without reply should enter a nurture programme with quarterly check-ins, not be archived permanently.",
+      },
+      {
+        type: "heading",
+        text: "How reputation spreads in a small market",
+      },
+      {
+        type: "paragraph",
+        text: "The dynamics of professional reputation are qualitatively different in a market of 300 accounts compared to a market of 30,000. In a large market, one poorly-received sequence has no measurable effect on the company's standing. In a vertical, it may reach the desk of a buyer who sits on the same industry working group as three of your current prospects and discusses vendor behaviour with them regularly. UK trade verticals in particular — construction, specialist financial services, legal tech, niche property services — are characterised by industries where senior decision-makers know each other, attend the same events, and share intelligence through trade body channels. The outbound programme is not operating anonymously.",
+      },
+      {
+        type: "paragraph",
+        text: "The reverse of this dynamic is also valuable: genuinely useful, well-timed outreach in a vertical market can accelerate referral and reputation effects in a way that is not available in a broad-market programme. A prospect who receives a thoughtful, well-researched sequence and is not yet a buyer is more likely to mention the company positively to a peer than the same prospect would in a commoditised market. The investment in quality pays out across more accounts than the ones directly engaged, because word travels.",
+      },
+      {
+        type: "heading",
+        text: "Events and community as a force multiplier",
+      },
+      {
+        type: "paragraph",
+        text: "For vertical SaaS, the outbound programme should be designed in coordination with the company's presence at industry events and within sector-specific online communities. Cold outreach into a vertical works best when it has a referent: when the recipient has heard the company name before, seen a speaker at a trade body conference, or encountered the brand in a newsletter that serves the sector. The outbound motion is significantly more efficient when it follows an impression rather than creates one from scratch.",
+      },
+      {
+        type: "paragraph",
+        text: "This means timing outreach sequences around industry events — reaching out before a conference to offer a meeting, following up after one to reference a session or theme — and making sure that event and community presence creates ambient visibility that makes outreach land as familiar rather than cold. For UK verticals in construction and specialist SaaS, the trade body conference calendar, sector awards, and LinkedIn groups specific to the vertical are the primary venues for this kind of ambient presence. They are not expensive to participate in relative to the percentage of the total market they reach.",
+      },
+      {
+        type: "callout",
+        text: "In a vertical market, the SDR team and the product team need to be closer than in general SaaS outbound. Buyers evaluating specialist software expect product depth from an SDR conversation, not just a surface-level discovery and a handoff. Briefing the SDR team on the product's specific behaviour in the vertical's most common workflow scenarios — not just the positioning deck — is an investment that pays out directly in first-to-second-meeting conversion rates.",
+      },
+    ],
+  },
+  {
     slug: "b2b-funding-signals-outbound-prospecting-vc-backed",
     category: "Sales Development",
     title: "Using Funding Announcements as an Outbound Trigger: A B2B Prospecting Playbook for Recently Funded Companies",
