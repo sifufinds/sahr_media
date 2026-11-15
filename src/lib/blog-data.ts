@@ -27,6 +27,110 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-cfo-finance-buyer-messaging",
+    category: "Sales Development",
+    title: "B2B Outbound to Finance Buyers: How to Adjust Your Messaging When the CFO Controls the Deal",
+    excerpt:
+      "Finance buyers have become an increasingly prominent part of B2B purchasing decisions. SDR teams that keep pitching product features to the CFO's office lose deals their counterparts win — here's how to adjust.",
+    readTime: "7 min read",
+    date: "15 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "The buying committee for mid-market and enterprise B2B decisions has shifted. A deal that once involved a primary operational champion and a final sign-off from a CEO now commonly includes a CFO or finance director who enters the process early, asks hard questions, and in a growing number of cases holds effective veto power regardless of what the operational champion wants. For SDR teams running outbound to any company above 50 employees, the finance buyer is no longer an afterthought — they are a first-class constituency that requires a different outreach strategy from the one that works with operational decision-makers.",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge is that finance buyers do not just respond differently to outreach — they respond to entirely different messaging. An SDR who has refined a strong pitch for a VP of Operations and then runs the same approach on a CFO will typically produce no response at all. Not because the product is a poor fit, but because the value framing, the tone, and the assumed concerns are all pointing at the wrong set of priorities. The product capabilities that excite an operations buyer are functionally invisible to a finance buyer who is evaluating something else entirely.",
+      },
+      {
+        type: "heading",
+        text: "What finance buyers are actually evaluating",
+      },
+      {
+        type: "paragraph",
+        text: "A CFO reviewing a new vendor is not evaluating whether the product solves an operational problem. That evaluation has already happened — usually by the operational champion who brought the product into the conversation in the first place. The finance buyer is evaluating three distinct things: whether the investment is financially sound, whether the vendor is a credible counterparty, and whether the purchase introduces meaningful business risk.",
+      },
+      {
+        type: "paragraph",
+        text: "Financial soundness means the ROI is credible and achievable within a timeframe the business can support. For SaaS tools, that usually requires a credible link between the product's function and a measurable cost reduction or revenue uplift. For construction partnerships and services, it typically involves the return on a contract versus the cost of alternative approaches. Vendor credibility means the company will be a stable supplier over the contract term. Business risk means the switching cost and contractual downside are within acceptable bounds. All three concerns need to be addressed — not just one.",
+      },
+      {
+        type: "heading",
+        text: "The messaging mistake most SDRs make",
+      },
+      {
+        type: "list",
+        heading: "What typically goes wrong in cold outreach to finance buyers",
+        items: [
+          "Pitching operational outcomes to a buyer who has already delegated operational evaluation — the CFO does not need to know the product reduces manual admin, they need to know what that reduction is worth in cost or revenue terms",
+          "Referencing a champion's enthusiasm without an independent financial case — this signals the SDR is working from a one-sided internal view rather than building something the finance buyer can evaluate on their own terms",
+          "Using product metrics such as uptime, speed, or feature depth as the primary value driver — finance buyers discount product claims and weigh financial and contractual evidence instead",
+          "Providing insufficient substance for a preliminary assessment — finance buyers will not engage in exploratory conversations, they need enough in the initial outreach to judge whether the conversation is worth their time",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Reframing the outreach: ROI before product",
+      },
+      {
+        type: "paragraph",
+        text: "Effective cold outreach to a CFO or finance director does not lead with the product. It leads with a financial frame: a specific cost problem, a margin compression issue, or a capital allocation question that the product or service addresses, stated in business terms before any product reference appears. The structure is to acknowledge the financial pressure they are likely managing, state the specific way your offer addresses it in economic terms, and reference a comparable situation where the economics played out clearly — only then introduce the product or service as the mechanism.",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS teams, this usually means reframing the pitch from 'our platform automates X workflow' to something that leads with the financial outcome that automation enables. For construction services, it means reframing from a capability statement to a cost or risk reduction framing that speaks directly to the concerns a finance director holds when evaluating a subcontractor or service partner. The product and capability evidence still appears — just later, once the financial frame has established why the conversation is worth having.",
+      },
+      {
+        type: "heading",
+        text: "Discovery questions suited to finance-led conversations",
+      },
+      {
+        type: "paragraph",
+        text: "If outreach lands a call with a CFO or finance director, the discovery approach needs to change. Standard SDR discovery questions — what does your current process look like, who is involved in the evaluation — are too operational for this buyer. Finance buyers expect to be asked about business outcomes, budget frameworks, and financial constraints, not workflow specifics.",
+      },
+      {
+        type: "list",
+        heading: "Questions that work in finance-buyer discovery calls",
+        items: [
+          "What does the financial case need to look like for a spend at this level to clear internal approval? (Surfaces the ROI threshold and approval criteria)",
+          "How are you currently measuring the cost of the problem this would address? (Establishes whether a financial baseline exists for comparison)",
+          "Are there vendor risk or contractual requirements that typically apply at this spend level in your business? (Addresses risk concerns early rather than at contract stage)",
+          "Is there an existing vendor in this space whose contract is under review, or is this a new budget line? (Establishes competitive and budget context without guessing)",
+        ],
+      },
+      {
+        type: "heading",
+        text: "When finance is the gatekeeper rather than the buyer",
+      },
+      {
+        type: "paragraph",
+        text: "There is an important distinction between a CFO who is the actual decision-maker and a CFO who is a gatekeeper the operational champion's decision must pass through. In the first case, outreach to the CFO is the primary prospecting effort. In the second, outreach to the CFO is designed to give the operational champion internal support rather than to close the deal independently. The two require different approaches, different conversation structures, and different internal champions — getting this wrong is one of the most common reasons deals stall at late stage.",
+      },
+      {
+        type: "paragraph",
+        text: "For gatekeeper CFOs, the most effective SDR approach is not to run a parallel sales process. It is to arm the operational champion with the financial framing they need to make the case internally. This means providing the champion with a clear ROI framework, a relevant case study from a comparable business, and a draft business case structure if the deal size warrants one. A CFO acting as a gatekeeper will not be persuaded by external outreach alone — they will be persuaded by an internal champion who arrives with the financial case already assembled.",
+      },
+      {
+        type: "callout",
+        text: "Before outreaching to any finance buyer, establish whether they are the economic buyer or the approver gatekeeper. The outreach strategy, the conversation structure, and the internal champion work all differ depending on the answer. The fastest way to find out is to ask the operational champion directly — most will tell you.",
+      },
+      {
+        type: "heading",
+        text: "Making this practical in an outbound programme",
+      },
+      {
+        type: "paragraph",
+        text: "The operational change for SDR teams is contained. It requires identifying, at the account research stage, whether the target company has a finance buyer who is likely to influence the decision. For companies above 100 people, this is almost always the case. For businesses in sectors with strong procurement controls — financial services, enterprise SaaS, commercial construction — it is true from a lower headcount threshold. Once that identification is made, the cadence needs two distinct tracks: one targeting the operational champion with product-led messaging, and one targeting the finance buyer with ROI-led messaging, running in parallel, with both tracks referencing the fact that the conversation is happening on multiple fronts.",
+      },
+      {
+        type: "paragraph",
+        text: "Deals where the finance buyer has been engaged from the start move through internal approval faster than deals where finance encounters the investment case for the first time at contract stage. The SDR's job is not to close the CFO — it is to ensure the financial case is in circulation before the deal reaches the stage where finance can quietly kill it. Getting ahead of that moment is what separates pipeline that moves from pipeline that sits.",
+      },
+    ],
+  },
+  {
     slug: "b2b-founder-led-sales-to-sdr-team-transition",
     category: "Sales Development",
     title: "Transitioning from Founder-Led Sales to Your First SDR Team: What to Codify Before You Hire",
