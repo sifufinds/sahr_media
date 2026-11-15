@@ -27,6 +27,92 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-founder-led-sales-to-sdr-team-transition",
+    category: "Sales Development",
+    title: "Transitioning from Founder-Led Sales to Your First SDR Team: What to Codify Before You Hire",
+    excerpt:
+      "Most SaaS founders carry their outbound instincts in their heads rather than in documented systems. That knowledge gap is the primary reason newly hired SDRs underperform in the first six months — not hiring error, not lack of training, but missing codification.",
+    readTime: "6 min read",
+    date: "15 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SaaS founders who have closed their own first 20 or 50 deals do not have a sales process — they have a set of well-calibrated instincts refined through direct feedback loops. When a conversation stalls, they adjust in real time. When a prospect's response suggests a different pain point than the one they led with, they pivot. When an account appears on a list and something about its profile makes them reach for the phone rather than send another email, they act on that without being able to explain why. These instincts are genuinely valuable, and they are almost impossible to transfer to a new hire without deliberate codification. The gap between what a founder knows and what they have written down is the primary cause of SDR underperformance in the first six months after a founder-to-team sales transition — not a hiring error, and not lack of training, but a missing transfer of tacit knowledge.",
+      },
+      {
+        type: "paragraph",
+        text: "This is a problem that scales predictably. Founders who have never tried to document their sales instincts often discover the gap only when a new hire follows the written process faithfully and produces results that look nothing like the founder's own. The SDR worked the accounts they were told to work, sent the sequences they were given, followed the qualification criteria they were handed — and still conversion rates were significantly below what the founder achieved. The diagnosis is usually blamed on the hire's experience level or communication skills. Occasionally that is correct. More often, the SDR was given an incomplete map of the territory and expected to navigate it as well as someone who had spent two years learning its contours.",
+      },
+      {
+        type: "heading",
+        text: "What founders carry that SDRs need in writing",
+      },
+      {
+        type: "paragraph",
+        text: "The knowledge gap typically falls into three categories: account selection intuition, messaging adaptability, and objection navigation. Account selection intuition is the ability to look at a list of fifty accounts and immediately sense which ones are worth pursuing first — based not just on firmographic criteria but on subtle signals: a recent executive hire, a job description phrasing that suggests a specific technology decision is imminent, a website redesign that signals a growth phase. Messaging adaptability is the ability to read a prospect's response and understand, without a playbook, whether to push harder on the problem angle, switch to the outcome angle, or acknowledge an unstated objection before the conversation can progress. Objection navigation is knowing which objections are worth engaging and which are proxies for a deeper issue that needs to be surfaced first.",
+      },
+      {
+        type: "heading",
+        text: "Documenting ICP criteria with the nuance that matters",
+      },
+      {
+        type: "paragraph",
+        text: "Most founders, when asked to define their ideal customer profile, can describe the firmographic shell: company size, revenue range, sector, geography, technology stack. What is harder to elicit — but far more useful to an SDR — is the layer underneath: the operational conditions that make a prospect ready to buy. These are rarely captured in a written ICP because the founder has never needed to explain them. They are the conditions the founder screens for intuitively — things like whether the company is in a specific phase of growth, whether the team appears to have recently outgrown a previous vendor's capability, or whether the prospect's public communications suggest an awareness of the problem the product solves. This contextual layer cannot be inferred from firmographic data alone, and it is precisely what founders use to filter accounts at speed that an SDR working only from the documented ICP will miss.",
+      },
+      {
+        type: "list",
+        heading: "What to document beyond firmographics in your ICP",
+        items: [
+          "The specific operational conditions that characterise accounts which converted versus those that never moved — not just what they look like on paper, but what was happening in the business at the point they engaged",
+          "The titles and seniority levels of the actual decision-makers in accounts that closed, as opposed to the titles you typically make first contact with",
+          "The language prospects in your best accounts used to describe the problem before they knew your product — their vocabulary, not yours",
+          "The common objections from accounts that bought and what resolved each one, versus the objections from accounts that never signed",
+          "The accounts where outreach stalled and the retrospective reason — information that is usually not recorded anywhere because the founder moved on to the next account",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building teachable messaging from your best emails",
+      },
+      {
+        type: "paragraph",
+        text: "Most founders have written one or two cold emails that produced unusually high reply rates. The instinct is to give the SDR those templates. The problem is that templates without structure are cargo cult tools — the SDR can copy the words but not the reasoning behind them, and when the message stops working in a slightly different context, they have no framework for diagnosing why. The more transferable version of a successful cold email is a structured deconstruction: what is the opening observation, why does it earn the right to continue, what problem does it assume the reader has, why is that assumption credible without evidence, what specific outcome is being offered rather than a product feature, and what is the ask. When a founder can answer each of those questions about their best-performing emails, the SDR has a framework they can apply to new contexts rather than a template they can only copy.",
+      },
+      {
+        type: "heading",
+        text: "Common failure patterns in the transition period",
+      },
+      {
+        type: "list",
+        heading: "What typically goes wrong in the first six months",
+        items: [
+          "The SDR works the accounts in the target list but skips accounts that the founder would have pursued based on non-obvious signals — because those signals were never documented",
+          "Reply handling defaults to the most common playbook response, missing the in-conversation pivots the founder would have made by reading tone and subtext",
+          "The SDR qualifies too strictly or too loosely against the written ICP criteria because the nuanced version of those criteria was never captured",
+          "Early low conversion rates are attributed to the SDR's performance rather than the incomplete knowledge transfer, leading to premature replacement of a hire who was set up to underperform",
+          "The founder reinstates themselves as the closer on difficult accounts, creating a dependency that removes the pressure to complete the codification work",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Signs that you are ready to hire versus ready to document more",
+      },
+      {
+        type: "paragraph",
+        text: "The transition readiness check is not about pipeline volume, revenue targets, or funding milestones — although those are the triggers most founders use. The more reliable indicator is whether a qualified candidate could read the existing sales documentation and produce outreach that the founder would be prepared to send on behalf of the company without editing it first. If the answer is no — if the founder would need to substantially rewrite anything the SDR produced — the codification work is not complete enough to support a productive hire. Hiring before the documentation is ready does not create the documentation; it creates a situation where both founder and SDR are spending time on work that could have been avoided.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical readiness checklist includes: a documented ICP with the contextual conditions layer, not just firmographics; a messaging framework that explains the structure behind the best-performing templates rather than the templates themselves; a written reply-handling guide that covers the five most common initial responses and the recommended approach for each; a qualification framework with explicit criteria and examples of edge cases; and an account selection process that explains how to prioritise a list of potential targets beyond the obvious firmographic filters. These do not need to be comprehensive documents. They need to be specific enough that a new hire can operate from them without weekly check-ins to fill the gaps.",
+      },
+      {
+        type: "callout",
+        text: "The best test of whether your sales knowledge is documented well enough to transfer is whether a new hire could write a cold email to a new account type — one not in your existing template library — and produce something that follows the same logic, without asking you. If that is not currently possible, the documentation is not ready, and hiring will not solve the problem.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-programme-economics-cost-of-pipeline",
     category: "Sales Development",
     title: "The Real Cost of a Booked Meeting: Understanding B2B Outbound Programme Economics",
