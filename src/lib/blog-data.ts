@@ -27,6 +27,105 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-procurement-team-buyer-strategy",
+    category: "Sales Development",
+    title: "B2B Outbound to Procurement Teams: Adapting Your SDR Approach When Purchasing Owns the Supplier Relationship",
+    excerpt:
+      "In enterprise accounts and large construction firms, procurement teams often control supplier access more tightly than any operational buyer. SDR strategies built around operational champions frequently stall when purchasing gets involved — here is how to adapt.",
+    readTime: "7 min read",
+    date: "15 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "In many mid-market and enterprise accounts, the operational buyer who wants your product is not the person who controls whether your company gets on the approved vendor list, receives an invitation to tender, or makes it past the initial supplier qualification check. That role belongs to procurement — and in a growing share of B2B categories, particularly enterprise SaaS purchasing and commercial construction supply chains, procurement teams exercise direct authority over which suppliers get access to the business at all, regardless of how much internal enthusiasm exists on the operational side.",
+      },
+      {
+        type: "paragraph",
+        text: "SDR outreach strategies are almost universally designed for operational buyers: the VP of Sales who wants a new outbound tool, the Head of IT evaluating a new platform, the project director looking for a subcontractor. That is a rational starting point. But in accounts where procurement controls supplier access, an approach optimised for the operational buyer will frequently stall at the point where purchasing gets involved — not because the product is a poor fit, but because the SDR team has no relationship with the function that actually manages vendor onboarding.",
+      },
+      {
+        type: "heading",
+        text: "What procurement teams are actually responsible for",
+      },
+      {
+        type: "paragraph",
+        text: "Procurement teams operate with mandates that are distinct from the operational teams they support. Their primary responsibilities are cost management, supplier risk reduction, and process compliance — not evaluating whether a product solves an operational problem. A procurement professional reviewing a new supplier is asking a different set of questions from the operational buyer who wants the product: Can this supplier meet our compliance requirements? Do they have adequate insurance, financial stability, and accreditations? Is the commercial structure consistent with our existing contract frameworks? Can they demonstrate sufficient track record with comparable clients?",
+      },
+      {
+        type: "paragraph",
+        text: "In enterprise SaaS contexts, procurement teams often manage supplier panels or approved vendor lists that determine which software suppliers the business will evaluate at all. In construction, particularly commercial and public sector work, procurement teams control pre-qualification, framework agreements, and tender invitation lists. In both cases, being unknown to procurement means your ability to reach the operational buyer is constrained by a function you have not engaged.",
+      },
+      {
+        type: "heading",
+        text: "Why standard SDR approaches break down with procurement",
+      },
+      {
+        type: "list",
+        heading: "Common failure modes when SDR teams encounter procurement",
+        items: [
+          "Treating procurement as an obstacle rather than a buyer — leads to adversarial dynamics and effectively closes off the account",
+          "Using product-led messaging designed for operational buyers — procurement teams do not evaluate product capabilities, they evaluate supplier suitability",
+          "Skipping procurement engagement entirely in favour of building only with the operational champion — this works until the champion needs to put you through the formal approval process",
+          "Lacking the documentation procurement requires at first contact — without credentials, compliance certificates, or financial references, conversations stall immediately",
+          "Attempting to route around procurement via the operational champion — this frequently damages the relationship with procurement and can damage the champion's internal standing too",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Engaging procurement before a formal process begins",
+      },
+      {
+        type: "paragraph",
+        text: "The most valuable time to engage a procurement team is before a formal tender, RFP, or supplier evaluation process is in motion. Once procurement has launched a formal process, the terms of engagement are fixed by the process itself — timelines, evaluation criteria, and the information requested will all be prescribed. Getting on the radar before that happens gives a supplier the opportunity to shape the conversation: to understand what the business is looking for in a new supplier, to flag relevant capabilities and accreditations, and to position for consideration when the formal process starts.",
+      },
+      {
+        type: "paragraph",
+        text: "For SDR teams running outbound to target accounts, this means identifying procurement contacts alongside operational contacts during account research. In mid-market accounts, this is typically a procurement manager or head of procurement. In enterprise accounts, there may be a category manager responsible for the specific spend area your product or service falls into — IT procurement, construction services procurement, or software procurement are common category boundaries. LinkedIn makes finding these contacts straightforward; in construction and public sector contexts, the company's supplier portal often lists direct contact routes for new supplier enquiries.",
+      },
+      {
+        type: "heading",
+        text: "What procurement teams want to see from first contact",
+      },
+      {
+        type: "paragraph",
+        text: "Cold outreach to a procurement team member should not look like a standard SDR sequence. The purpose of the contact is to register your company as credible and relevant, not to pitch a product. Effective first-contact messaging for procurement typically includes: who the company is and what category of spend they serve, evidence that the supplier works with comparable businesses in relevant sectors and size bands, the credentials and accreditations applicable to that procurement function, and an offer of a supplier information pack or introductory call rather than a product demo request.",
+      },
+      {
+        type: "callout",
+        text: "Procurement teams receive a large volume of unsolicited supplier approaches. What distinguishes the ones that land a conversation is not usually the quality of the product — it is whether the supplier clearly understands how procurement works and communicates accordingly. A cold email that opens with a product pitch tells a procurement professional the sender does not understand their function. One that opens with a credentialing statement and an appropriate call to action signals the opposite.",
+      },
+      {
+        type: "heading",
+        text: "Running parallel outreach: procurement and the operational champion",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective account approach is to run procurement engagement and operational champion engagement in parallel, not sequentially. Building only with the operational champion and introducing procurement at contract stage creates the conditions for a late-stage stall: the champion is enthusiastic, procurement has never heard of you, and a formal supplier qualification process now needs to happen before the deal can close. Running procurement engagement from the start of the account cycle removes that bottleneck.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, this means maintaining two distinct outreach tracks within the same account: one for the operational buyer focused on product value and business outcomes, and one for the procurement contact focused on supplier suitability and process readiness. The two tracks should be loosely coordinated — the SDR should know that both conversations are happening — but they do not need to be formally joined until the deal advances to commercial negotiation.",
+      },
+      {
+        type: "heading",
+        text: "When procurement blocks access to the operational buyer",
+      },
+      {
+        type: "paragraph",
+        text: "In some accounts, procurement teams actively manage supplier access to operational stakeholders — particularly in public sector, financial services, and large construction clients with formal supplier management policies. In these cases, an SDR attempting to reach the operational buyer directly will be redirected to procurement, or the operational buyer will refer them to procurement when asked about evaluation. This is not a signal to find a workaround. It is a signal that procurement engagement is the primary track, and the operational relationship will only open once procurement is satisfied.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that in accounts where this pattern applies, conversion timelines are longer, the documentation requirements at the front end of the process are more extensive, and the SDR's role is to maintain a consistent presence with the procurement function over months rather than weeks. That longer cycle is real, but it reflects how those accounts evaluate all new suppliers — not something specific to your approach. Teams that resist engaging this way typically do not close those accounts at all, while teams that build a proper supplier relationship with procurement close a larger proportion of them, albeit more slowly.",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding which accounts in your target list operate with active procurement controls — and adjusting your outreach track, timeline expectations, and documentation readiness accordingly — is part of accurate account tiering rather than a separate strategic question. If procurement controls supplier access in an account, that is an account characteristic to build into how the SDR works it, from the first touch to the close.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-cfo-finance-buyer-messaging",
     category: "Sales Development",
     title: "B2B Outbound to Finance Buyers: How to Adjust Your Messaging When the CFO Controls the Deal",
