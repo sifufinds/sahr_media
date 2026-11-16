@@ -27,6 +27,117 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-competitor-contract-renewal-timing",
+    category: "Sales Development",
+    title: "Timing B2B Outbound Around Competitor Contract Renewals: A Practical Framework",
+    excerpt:
+      "The timing of your outreach relative to a prospect's existing contract expiry is one of the highest-leverage variables in outbound — but most SDR teams have no process for tracking it. Here is a practical framework for building renewal intelligence into your prospecting.",
+    readTime: "7 min read",
+    date: "16 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "In most outbound programmes, timing is treated as luck. An SDR reaches a prospect on the right day — when a project has just been approved, a pain point has just become acute, or a budget decision is imminent — and the response rate spikes. When the timing is off, the same well-crafted message goes unanswered. Contract renewal windows are one of the few ways to make this timing structural rather than random.",
+      },
+      {
+        type: "paragraph",
+        text: "When a business is approaching the end of a contract with an existing supplier, several things change simultaneously: the buying trigger is predictable in advance, the prospect is likely evaluating alternatives whether or not they have explicitly started a search, and the internal conversation about supplier performance is already happening. That combination makes the renewal window one of the highest-value moments to initiate a conversation. Reaching a prospect two months before their contract ends, with messaging that acknowledges the situation without requiring them to volunteer that information, is structurally different from cold outreach at a random moment in the contract cycle.",
+      },
+      {
+        type: "heading",
+        text: "How to identify likely contract renewal windows",
+      },
+      {
+        type: "paragraph",
+        text: "Most businesses do not publish their contract expiry dates. Building renewal timing intelligence requires a different set of inputs from standard contact research.",
+      },
+      {
+        type: "list",
+        heading: "Signals that suggest a prospect is approaching renewal",
+        items: [
+          "Job postings for procurement or vendor management roles: organisations often review supplier relationships when these functions are being rebuilt or expanded",
+          "LinkedIn activity from the prospect's finance, IT, or operations team mentioning supplier reviews, evaluations, or platform migrations",
+          "Known implementation dates: if a prospect publicly announced a go-live with a competitor's platform 18 months ago and standard contracts in that category run two years, the renewal window is calculable",
+          "Press coverage or company announcements mentioning technology consolidation, digital transformation programmes, or cost reduction — common contexts for contract reviews",
+          "Public procurement notices: for UK public sector and framework contracts, award notices specify contract duration and award date, making renewal windows publicly calculable",
+          "Direct enquiry during discovery: 'When is your current arrangement up for review?' is a straightforward question that most buyers will answer honestly at that stage",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Some data providers include estimated contract renewal dates sourced from subscription intelligence databases and procurement integrations. For private sector accounts, the intelligence is more inferential — but the signals above give a working approximation sufficient to prioritise outreach across a tier-one account list.",
+      },
+      {
+        type: "heading",
+        text: "The three phases of a renewal window",
+      },
+      {
+        type: "paragraph",
+        text: "The renewal window is not a single moment. It has distinct phases with different outreach objectives.",
+      },
+      {
+        type: "paragraph",
+        text: "At 90 to 120 days before renewal, the prospect is likely beginning to form a view on whether to continue with the existing supplier but has not yet entered a formal evaluation process. This is the ideal first contact window. Outreach at this stage positions you as a supplier worth evaluating, not one chasing an opportunity that is already closing. The messaging does not need to reference the renewal explicitly — in many cases, that level of specificity reads as intrusive rather than timely. What it does need to do is address the category pain clearly enough that the prospect files you as relevant when the evaluation conversation starts internally.",
+      },
+      {
+        type: "paragraph",
+        text: "At 30 to 60 days before renewal, the internal evaluation is likely already in progress and the prospect may have shortlisted options. Cold outreach here needs to work harder to earn a conversation, because the prospect's attention is focused on suppliers already in the process. If you have a contact within the account who is engaged but not yet progressing, this is the right moment to escalate: request a meeting explicitly, acknowledge the timing, and make a clear case for why evaluation should include you. Referencing peer companies or relevant outcomes becomes more important at this stage — the prospect is making a decision, and they need a reason to extend the evaluation rather than close it.",
+      },
+      {
+        type: "paragraph",
+        text: "At or after the moment of renewal, outreach typically produces the lowest near-term return. If the contract is renewed with the incumbent, the prospect has just committed for another cycle and the internal conversation has closed. The right action is to record the likely next renewal date and re-enter the account at the beginning of the next cycle. If a competitor wins the contract, the same logic applies — but with an additional objective of understanding why, which informs both the account re-entry strategy and the broader competitive positioning.",
+      },
+      {
+        type: "heading",
+        text: "What to say — and what to avoid",
+      },
+      {
+        type: "callout",
+        text: "Referencing a prospect's renewal timing in a cold message is a credibility signal when it is specific and grounded — 'I noticed your platform went live about 18 months ago, so you may be approaching a review' — and an uncomfortable one when it sounds like surveillance. Lead with what you know; leave out what you are inferring.",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective renewal-timed outreach messages are not primarily about the renewal — they are about the operational problem the renewal creates an opportunity to address. A message that acknowledges the prospect is likely approaching a review, and then frames a specific alternative, positions the sender as someone who understands the context. The renewal creates the opening; the message should earn the conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "What to avoid: referencing internal company processes or data you should not have visibility into; implying certainty about timing when you are working from inference; using the renewal as a reason to push artificial urgency. Procurement teams are particularly alert to outreach that attempts to use their own process as leverage against them. The tone should remain consultative throughout.",
+      },
+      {
+        type: "heading",
+        text: "Building renewal timing into your SDR process",
+      },
+      {
+        type: "list",
+        heading: "Practical steps to operationalise renewal timing intelligence",
+        items: [
+          "Add a contract renewal estimate field to your CRM for each tier-one target account, populated during account research",
+          "Create a renewal pipeline view: accounts where the estimated renewal date falls within the next 90 to 180 days, filtered by account tier and category fit",
+          "Build a renewal-entry cadence separate from your standard cold outreach cadence — shorter overall, with faster escalation to phone given the time-sensitivity",
+          "Schedule quarterly account reviews to update renewal estimates as new signals emerge from each account",
+          "Track renewal outcomes by account: won, renewed with incumbent, or no decision — this data improves the accuracy of renewal estimates in the same category over time",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Renewal timing intelligence is most valuable at the account tier level. It is worth the research investment for tier-one accounts where the ACV justifies detailed knowledge of the account. For tier-two and tier-three accounts, a lighter-touch approach — using public signals and category contract norms to generate a probabilistic renewal estimate — gives enough information to prioritise without over-investing in research for every account in the target list.",
+      },
+      {
+        type: "heading",
+        text: "Accounts that renew with the incumbent",
+      },
+      {
+        type: "paragraph",
+        text: "Most renewal-timed outreach does not win the business in the first cycle. The incumbent has a structural advantage, and even a compelling case for switching will not overcome inertia in the majority of accounts. The purpose of renewal-timed outreach is not primarily to win the renewal — it is to get into the evaluation, make the case, and position for the next cycle if you do not win this one.",
+      },
+      {
+        type: "paragraph",
+        text: "Accounts that renew with the existing supplier, having engaged with your outreach in the process, are not lost — they are warm accounts with a known next renewal date. The relationship you built during the evaluation window, the specific objections you heard, and the outcome you observed are all inputs to a materially stronger re-entry at the next renewal. Teams that treat these accounts as ongoing rather than closed build a steadily improving book of timing-qualified opportunities over successive contract cycles. The SDR team that plants the flag in year one frequently earns the win in year two.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-no-case-studies-early-stage-credibility",
     category: "Sales Development",
     title: "Cold Outreach Without Case Studies: How Early-Stage B2B Companies Build Credibility Before the Proof Exists",
