@@ -27,6 +27,117 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-no-case-studies-early-stage-credibility",
+    category: "Sales Development",
+    title: "Cold Outreach Without Case Studies: How Early-Stage B2B Companies Build Credibility Before the Proof Exists",
+    excerpt:
+      "Every new B2B supplier faces the same catch-22: prospects want case studies before they'll engage, but you need clients to build them. Here is how to run effective outbound before the proof is on your website.",
+    readTime: "7 min read",
+    date: "16 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The credibility catch-22 is one of the first obstacles every B2B company encounters when it starts running outbound: prospects want to see case studies before they will engage seriously with a new supplier, but case studies require closed clients, and closed clients require credibility. Early-stage companies, suppliers entering a new vertical, and teams launching into a new market all hit this problem in some form. The temptation is to either wait — deferring outbound until there is proof to point to — or to work around it with vague claims that prospects see through immediately.",
+      },
+      {
+        type: "paragraph",
+        text: "Neither approach works. Waiting delays the pipeline that generates the case studies you are waiting for. Overstating credibility tends to get exposed in the discovery call and costs you the relationship. The practical alternative is to understand what case studies actually do in an outreach sequence, and to find the other mechanisms that do the same job.",
+      },
+      {
+        type: "heading",
+        text: "What case studies actually do in a cold sequence",
+      },
+      {
+        type: "paragraph",
+        text: "It is worth being precise about the function a case study serves. It does not prove your product works in a technical sense — most prospects cannot verify the specifics in any detail. What it does is reduce the perceived risk of engaging with an unknown supplier. When a prospect sees a case study from a company similar to theirs, the implicit message is: someone else already took the first-mover risk and it worked out. That social proof lowers the barrier to conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding the underlying function — risk reduction and social proof — makes it easier to identify substitutes. Case studies are one mechanism for doing that job. They are not the only one, and in some early-stage contexts they are not even the most compelling one available.",
+      },
+      {
+        type: "heading",
+        text: "Lead with the problem, not the company",
+      },
+      {
+        type: "paragraph",
+        text: "The strongest cold message from a company with no case studies is one where the credibility signal is the quality of the problem diagnosis. If your opening line precisely describes a pain the prospect recognises as their own — articulated better than they would put it themselves — the absence of a case study matters less, because you have already demonstrated something more valuable: that you understand their situation from the inside.",
+      },
+      {
+        type: "paragraph",
+        text: "This requires genuine investment in ICP research. A cold email that could have been sent to anyone in the category carries no inherent credibility regardless of the company behind it. One that is specific to the prospect's sector, company size, operational context, and current challenge earns trust through the quality of its observation, not through the authority of an external reference. At the early stage, this is one of the most reliable tools available.",
+      },
+      {
+        type: "heading",
+        text: "Founder and team credibility as a proof substitute",
+      },
+      {
+        type: "paragraph",
+        text: "At the early stage, the founding team often carries more credibility than the company name. A founder who spent ten years building outbound programmes for SaaS companies before creating a tool to solve the problem they encountered repeatedly has earned standing that a six-month-old company has not. Cold messaging that leads with that background — describing a decade in a specific role at recognisable companies and the problem encountered consistently — is more credible than a generic platform pitch from a company the prospect has never heard of.",
+      },
+      {
+        type: "paragraph",
+        text: "This kind of credibility is verifiable. The prospect can look up the founder on LinkedIn, check the previous employers, and confirm the story holds. That verifiability matters. Claims that cannot be checked carry less weight than ones that can. Where the founding team has directly relevant prior experience — in the same sector, role, or problem space as the prospect — leading with that background is usually more effective than any other credibility mechanism available at the early stage.",
+      },
+      {
+        type: "heading",
+        text: "Pilot and risk-reduction offer structures",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most effective tools available to a company without case studies is a deliberately de-risked first engagement. A paid pilot with clearly scoped deliverables and a defined success criterion changes the economic calculation for the prospect: instead of asking them to commit to an unproven supplier, you are asking them to test a verifiable hypothesis at limited cost and exposure. The barrier to saying yes drops significantly, particularly with prospects who have a real problem they need to address.",
+      },
+      {
+        type: "paragraph",
+        text: "The structure of the pilot matters more than the fact of it. A vague arrangement — work together for three months and see how it goes — produces ambiguous results and rarely converts into a case study. A scoped engagement with specific, measurable success criteria produces either a clear success story or specific, actionable learning about where the approach needs to adjust. Building those criteria into the pilot design from the outset is not just good delivery practice — it is what turns the first cohort of clients into usable proof for the next one.",
+      },
+      {
+        type: "heading",
+        text: "Partial proof: what you can reference before the case study exists",
+      },
+      {
+        type: "list",
+        heading: "Credibility signals available before case studies are written",
+        items: [
+          "Volume signals: the number of companies you have worked with or campaigns you have run, stated accurately and only where the number is meaningful",
+          "Early adopter references: a named or described client currently in a pilot, with their permission to mention",
+          "Third-party validation: accelerator participation, recognisable investors, relevant press mentions",
+          "Individual endorsements: a recognisable practitioner, former industry executive, or advisor who can speak to the team's credibility",
+          "Methodology transparency: describing the specific approach in enough detail that prospects can evaluate the logic, independent of outcomes data",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "None of these is as strong as a detailed case study with named outcomes. But they serve the risk-reduction function in a way that a bare claim about product quality does not. The goal is not to pretend the case studies exist — it is to give the prospect enough independent signal to take the next step, which at the early stage is usually a conversation, not a purchase.",
+      },
+      {
+        type: "heading",
+        text: "Handling the 'who else have you done this for?' question",
+      },
+      {
+        type: "paragraph",
+        text: "The question will come up in every discovery call when the prospect is pressure-testing credibility. The worst response is a defensive or evasive one — it confirms the concern it was meant to address. A direct, confident answer works better: acknowledge where you are in the company's development, state clearly what experience or proof you do have, and explain the specific reasons the prospect should feel comfortable proceeding. Sophistication about your own situation reads as professional. Evasiveness reads as a problem.",
+      },
+      {
+        type: "callout",
+        text: "The prospects most likely to become early clients are rarely the most risk-averse buyers in their category. They tend to be ones who are frustrated with existing solutions, willing to bet on team quality and logic over a track record of outcomes, or facing a problem urgent enough that waiting for a fully proven supplier is itself a risk. Targeting the right buyer mindset matters as much as the credibility mechanism you use.",
+      },
+      {
+        type: "heading",
+        text: "Turning early clients into the proof you need next",
+      },
+      {
+        type: "paragraph",
+        text: "Early-stage credibility is a temporary problem. The right approach treats the first cohort of clients as the foundation for everything that follows, not just as early revenue. That means building success metrics into the engagement from the start, planning for the case study before the work begins, and agreeing — as part of the closing conversation, not as an afterthought — on what results you will measure and what reference rights you will have when the engagement is complete.",
+      },
+      {
+        type: "paragraph",
+        text: "A single well-documented early success — specific outcomes, a recognisable company name, a clear before-and-after — can shift the conversion rate of an entire outbound programme. The goal of the first several months of outbound without case studies is as much about generating that proof as it is about generating immediate pipeline. Teams that run outbound with that understanding operate differently: they are more selective about which clients to take on early, more deliberate about how engagements are structured, and more intentional about what they will be able to say about the work afterward.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-procurement-team-buyer-strategy",
     category: "Sales Development",
     title: "B2B Outbound to Procurement Teams: Adapting Your SDR Approach When Purchasing Owns the Supplier Relationship",
