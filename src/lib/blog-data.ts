@@ -27,6 +27,110 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-q1-new-financial-year-budget-cycle",
+    category: "Sales Development",
+    title: "The Q1 Outbound Window: How to Reach Buyers When Budgets Reset",
+    excerpt:
+      "The first quarter of a new financial year is one of the most underused timing windows in B2B outbound. Here is how to structure your approach so you are in front of buyers when their budgets are fresh and priorities are still forming.",
+    readTime: "7 min read",
+    date: "16 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most SDR teams concentrate their heaviest push on Q4, chasing year-end deadlines and buyers under pressure to commit budget before December closes. That urgency is real, but the focus it creates leaves one of the most accessible outbound windows largely unexploited: the start of a new financial year, when budgets have just been signed off, annual priorities are freshly established, and buyers who deferred every conversation with 'come back in the new year' are genuinely reachable. The structural conditions are almost the reverse of Q4. Where Q4 outbound works through external pressure, Q1 outbound works through alignment — entering a buyer's field of view at the moment their strategic agenda is still being shaped.",
+      },
+      {
+        type: "paragraph",
+        text: "Understanding why Q1 is different requires thinking about what is actually happening inside a buyer's business in the first quarter. Budgets have been allocated but not yet fully committed to specific vendors. New team objectives have been set. Initiatives that made the shortlist for investment but were deferred from last year are now actively being revisited. Senior stakeholders who signed off the budget are actively identifying the right suppliers to work with, and in many organisations the formal evaluation process has not yet started. That combination — allocated resource, active intent, and an open process — is structurally different from almost any other moment in the cycle.",
+      },
+      {
+        type: "heading",
+        text: "Financial year calendars and what they mean for outreach timing",
+      },
+      {
+        type: "paragraph",
+        text: "Not all companies run on the same financial year, and treating January as universally relevant for Q1 outreach is a common planning error. UK-registered companies use a mix: many run on calendar years ending December 31, particularly SaaS companies with US parent companies or investment. UK public sector and many professional services and construction firms follow the government financial year, running from April to March. Some companies end their financial year in June, September, or other months, often for historical or sector-specific reasons. Understanding which calendar your target accounts follow affects when you plan your Q1 push — a calendar-year company entering Q1 in January needs different timing from an April-year company whose fresh budgets arrive at the end of April.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that your CRM should capture a financial year start estimate for tier-one accounts — not necessarily a precise date, but enough to know whether a given account enters Q1 in January or April. The information is often findable from public accounts filings, investor materials, or by asking at an appropriate point in a relationship. Building a simple Q1-window view across your account list lets you stagger outreach to match actual budget cycles, rather than flooding all accounts simultaneously in January and missing the April cohort entirely.",
+      },
+      {
+        type: "heading",
+        text: "What Q1 buyers respond to",
+      },
+      {
+        type: "paragraph",
+        text: "Q1 outreach messaging needs to be calibrated differently from Q4. The Q4 message is implicitly about urgency: now is the time to decide, budget is available, the year closes in weeks. That frame is useless in Q1. Buyers in January are not under deadline pressure — they have the opposite problem: a full year ahead of them, more options than the moment before, and no particular reason to decide quickly. A message that manufactures urgency in January reads as artificial and undermines credibility at exactly the moment buyers are forming first impressions of new suppliers.",
+      },
+      {
+        type: "paragraph",
+        text: "The Q1 message is about strategic alignment. The question your message should answer is: does this supplier address a priority that has just been elevated for us this year? Referencing the beginning of a new cycle is legitimate context-setting — it signals awareness of the buyer's situation without manufacturing pressure. What it should lead to is a specific, credible reason why the problem your product or service addresses is worth attention now, in this new period, rather than deferring to Q2 or Q3. The goal is to earn a conversation while the buyer's agenda is still open, not to push them toward a decision they are not ready for.",
+      },
+      {
+        type: "callout",
+        text: "A message that opens 'as you move into the new year, you may be revisiting...' is the right register for Q1 — not urgency, not nostalgia for last year's missed chances, but alignment with what the buyer is now focused on. The tone is consultative and forward-looking, not transactional.",
+      },
+      {
+        type: "heading",
+        text: "Signals that a company is entering a new budget cycle",
+      },
+      {
+        type: "list",
+        heading: "Observable signals that indicate a prospect is approaching or entering a new financial year",
+        items: [
+          "New executive appointments: a new CFO, VP of Operations, or head of the relevant function is often a leading indicator that budget decisions in that area are being reviewed and reallocated",
+          "Job postings for roles that were not being recruited in Q3 or Q4: headcount approvals typically come through with new budget cycles, and fresh postings signal that resource planning has been signed off for the year ahead",
+          "Company statements about new strategic initiatives: annual reports, investor presentations, and leadership posts from January to March or April to May frequently name the priorities driving investment in the year ahead",
+          "Website announcements of new service lines, product launches, or market expansions: these are frequently executed under new-year budget authority and signal an organisation actively committing resource to new areas",
+          "Public sector procurement notices: UK public sector bodies publish procurement plans and new framework opportunities at the start of their April-to-March year, providing direct visibility of what is being planned and funded",
+          "Renewal signals in the category: if a company is approaching a contract renewal with an existing supplier, their new financial year is a natural forcing function for that evaluation — the two timing windows often coincide",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Structuring your Q1 outbound push",
+      },
+      {
+        type: "paragraph",
+        text: "The timing mechanics for a Q1 push differ from a standard cadence rollout. For calendar-year companies, mid-January is the optimal first-contact window — early enough to reach buyers before their priority commitments have hardened, late enough that the first week's post-holiday backlog has cleared. For April-year companies, the equivalent window opens in mid to late April. The first contact does not need to reference the financial year explicitly in every case — the goal is to be in front of the buyer when their attention is available and their agenda is relatively open, not to announce that you are aware of their budget cycle.",
+      },
+      {
+        type: "paragraph",
+        text: "The Q1 window is real but it is not wide. For calendar-year accounts, the period of maximum accessibility typically runs from mid-January to late February. By March, agendas have filled and the openness that characterised early Q1 has largely closed. Teams that have built their account lists, cleaned their data, and prepared their sequences before the window opens consistently reach more accounts in the available time than teams that begin the work in January. The preparation advantage here is structural — it cannot be recovered in real time once the window is open.",
+      },
+      {
+        type: "heading",
+        text: "Pipeline conversion: accounting for the Q1 sales cycle",
+      },
+      {
+        type: "paragraph",
+        text: "Q1 outbound generates a specific pipeline dynamic that SDR managers should model explicitly: the engagement and meeting rate is typically higher than other quarters, but buyers at this stage are often at the beginning of their evaluation, not the end. A prospect who takes a Q1 meeting has opened a conversation; they have not indicated a readiness to make a decision within the quarter. The pipeline built in Q1 — if properly qualified — tends to close in Q2 or Q3, running the full length of the sales cycle rather than compressing. That is real revenue, but it is not the same as Q4 pipeline where deadline pressure can accelerate the cycle.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication for forecasting is to weight Q1 meetings as early-stage pipeline against Q2 or Q3 targets, not against the same quarter. Teams that forecast Q1-sourced deals against Q1 close targets consistently produce misleading pipeline reviews, because the cycle does not compress to fit the expectation. The discipline is to log Q1 as early-stage discovery and forecast accordingly — which also ensures the team stays appropriately focused on progressing the pipeline through qualification and advancement, rather than holding it open in hope of an accelerated close that the buying process rarely supports.",
+      },
+      {
+        type: "heading",
+        text: "Preparing your Q1 push before Q4 ends",
+      },
+      {
+        type: "paragraph",
+        text: "The practical preparation for a Q1 outbound push needs to happen in Q4. Building the account list, refreshing contact data, drafting Q1-specific sequences, and briefing the SDR team on the Q1 messaging approach all take time that is not available in January when the window is already open. Teams that spend Q4 running Q4-only plays and begin Q1 planning in January consistently miss the first two to three weeks of the best-response window of the year — the gap that better-prepared competitors exploit.",
+      },
+      {
+        type: "callout",
+        text: "A Q1 outbound push that starts on the second working day of January needs its account list, sequences, and messaging ready by mid-December. The window opens when prospects put the out-of-office messages away, and it does not wait for internal planning meetings to conclude.",
+      },
+      {
+        type: "paragraph",
+        text: "The Q4 preparation checklist is straightforward: identify which tier-one accounts enter a new financial year in January versus April and segment accordingly; update contact data for accounts where roles have changed since the last outreach cycle; draft Q1-specific variants of your standard sequences with the messaging calibration described above; align with account executives on how Q1-sourced pipeline will be forecast and what the expected close timeline looks like. The investment is modest. The teams that make it in December are the ones who have full pipelines in February — and Q2 close targets they can actually hit.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-competitor-contract-renewal-timing",
     category: "Sales Development",
     title: "Timing B2B Outbound Around Competitor Contract Renewals: A Practical Framework",
