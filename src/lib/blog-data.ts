@@ -27,6 +27,115 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-first-sdr-manager-hire-promote-vs-recruit",
+    category: "Sales Development",
+    title: "Hiring Your First SDR Manager: Promote From Within or Recruit Externally?",
+    excerpt:
+      "Most outbound programmes reach the point where a dedicated SDR manager is no longer optional. The decision to promote a top SDR or hire externally is rarely straightforward — here is a framework for making the right call.",
+    readTime: "7 min read",
+    date: "17 Nov 2026",
+    color: "#EC4899",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most outbound programmes reach a natural inflection point around three to five SDRs. Up to that point, a sales leader or head of sales can manage the team directly alongside other responsibilities. Beyond it, the management overhead starts to crowd out everything else: pipeline reviews, sequence coaching, data hygiene checks, one-on-ones, ramp support for new hires. The question becomes structural rather than optional — you need a dedicated SDR manager — and immediately the debate begins: promote the best-performing SDR, or hire someone who has done the job before?",
+      },
+      {
+        type: "paragraph",
+        text: "Both paths are legitimate, and both carry specific risks that most hiring managers underestimate going in. The choice is rarely as simple as 'promote the best SDR' or 'always hire externally'. The right answer depends on what the outbound programme actually needs at that moment, what the existing team looks like, and what characteristics the internal candidate has that go beyond their call volume.",
+      },
+      {
+        type: "heading",
+        text: "When the need for a dedicated manager becomes structural",
+      },
+      {
+        type: "paragraph",
+        text: "The trigger for this decision is often a headcount number, but that is usually the wrong frame. Teams of three can be managed without a dedicated SDR manager if the leader has the time and the processes are mature. Teams of seven can still be effectively unmanaged if no one has built the reporting infrastructure. The real signal that a dedicated manager is needed is when coaching and performance management are regularly deferred because they compete with higher-priority demands — not because the team is too large, but because the work of managing is genuinely not getting done.",
+      },
+      {
+        type: "paragraph",
+        text: "A second trigger is ramp performance. If new SDRs are consistently taking longer than expected to reach quota attainment, and the investigation leads back to insufficient onboarding and coaching bandwidth, that is a structural management gap, not an SDR quality problem. Hiring an SDR manager to solve a ramp problem is a legitimate business case that is often easier to make internally than a headcount argument based purely on team size.",
+      },
+      {
+        type: "heading",
+        text: "The case for promoting from within",
+      },
+      {
+        type: "paragraph",
+        text: "The main argument for promoting a high-performing SDR is contextual. They understand the product, the ICP, the objection landscape, the sequences, the CRM, and — critically — the dynamics of the team they will be managing. The transition does not require a knowledge ramp, only a role ramp. In a fast-moving outbound programme where the team needs management immediately and cannot wait for a lengthy external search and three-month ramp, an internal promotion can reach productive management faster than any external hire.",
+      },
+      {
+        type: "paragraph",
+        text: "Internal promotions also carry a signalling effect. When SDRs see that strong performance leads to advancement, it reinforces the culture of the outbound programme and gives mid-tier performers a concrete reason to push harder. The risk is not the promotion itself but the assumption that strong individual performance predicts strong management performance. The skills that make an SDR successful — high activity, strong objection handling, resilience under rejection, personal motivation — are not the skills that make a manager effective. Managing others requires the ability to diagnose performance, deliver constructive feedback, build processes, and develop people who are fundamentally different from yourself. Some top SDRs make this transition naturally. Many do not, and the warning signs typically appear within the first sixty days.",
+      },
+      {
+        type: "heading",
+        text: "What to look for before committing to a promotion",
+      },
+      {
+        type: "list",
+        heading: "Signals that indicate an SDR has genuine management potential, beyond their quota attainment",
+        items: [
+          "They give unsolicited help to peers. SDRs who naturally coach teammates when it is not their job are showing management instinct — the behaviour is already there, waiting for an appropriate context.",
+          "They have process opinions that go beyond their own workflow. A candidate who can articulate why the current sequencing approach is suboptimal, and proposes a structured alternative, is thinking like a programme manager rather than a practitioner.",
+          "They respond to criticism of their own work constructively and adjust. An SDR who takes negative feedback well is more likely to deliver it well.",
+          "They have shown ownership of team-level outcomes: covering for colleagues, running informal training sessions, flagging data quality issues that affect the whole team rather than just their own numbers.",
+          "They are internally motivated rather than primarily incentive-driven. SDRs who perform mainly because of bonus structures often struggle with management, where the personal scoreboard disappears and success is measured through other people's output.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "When external hire is the stronger choice",
+      },
+      {
+        type: "paragraph",
+        text: "An external hire makes most sense when the programme needs to level up — when what is required is not continuity of the existing approach but a step change in process maturity, management discipline, or SDR productivity. A candidate who has built or managed an outbound function at a comparable company brings a reference model that the internal team does not have. They have already made the mistakes that an internal promotion would need to work through on the job.",
+      },
+      {
+        type: "paragraph",
+        text: "External hires are also the stronger path when there is no credible internal candidate — when the existing SDRs are either too junior, clearly not interested in management, or in a performance range that would make the promotion difficult to justify to the team. Forcing an internal promotion that the team reads as unconvincing undermines the manager's authority before they have had a chance to establish it.",
+      },
+      {
+        type: "paragraph",
+        text: "The main risk in external hiring is the absence of contextual knowledge. An experienced SDR manager who has managed a function in a different sector or with a different product type will take time to understand the specific objection landscape, the buyer personas, and the competitive dynamics. That ramp is real. The mitigation is a structured onboarding plan with explicit knowledge transfer on the product, the ICP, and the existing sequence logic, with named check-in milestones at thirty and sixty days.",
+      },
+      {
+        type: "heading",
+        text: "Structuring the first 60 days regardless of which path you take",
+      },
+      {
+        type: "paragraph",
+        text: "Whether the hire is internal or external, the first sixty days need to be structured explicitly rather than left to emerge. A common failure mode — especially with internal promotions — is assuming that the new manager will work out what managing looks like by doing it. That approach consistently produces late discovery of problems that could have been prevented.",
+      },
+      {
+        type: "list",
+        heading: "A minimal first-sixty-day framework for a new SDR manager",
+        items: [
+          "Days 1–15: Observation mode. The manager attends all team activities but makes no process changes and no structural decisions. The goal is to map the actual state of the team without the distortion of early intervention.",
+          "Days 16–30: One-on-one cadence established. The manager runs the first round of structured one-on-ones with every SDR and produces a written assessment of each team member's performance and development needs.",
+          "Days 31–45: One priority initiative identified. The manager selects one process or performance issue to address and designs an intervention with a measurable outcome. The selection reveals their judgement about where leverage is highest.",
+          "Days 46–60: Review with the sales leader. The manager presents their team assessment, the initiative in progress, and their view of what the next quarter's programme should prioritise. This is the first real test of their strategic thinking.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The hiring profile to avoid",
+      },
+      {
+        type: "paragraph",
+        text: "There is a hire that consistently produces poor outcomes: an external SDR manager whose background is mid-market or enterprise sales management but who has limited direct SDR experience. These candidates often interview well — they are commercially fluent and have managed people — but their management model was built for a different kind of seller: one with existing pipeline and account context rather than the cold-outreach workflow of an SDR. The mismatch typically shows in how they diagnose performance problems. When an SDR's conversion rate from first contact to meeting is below target, an SDR-experienced manager will examine the message, the list, and the follow-up cadence. A manager from a non-SDR background will often examine sales behaviour on calls or push for more outreach activity — interventions that address the wrong part of the funnel.",
+      },
+      {
+        type: "callout",
+        text: "A reliable interview filter: ask the candidate how they would diagnose and address low first-contact-to-meeting conversion. The quality of their diagnostic framework tells you directly whether their management model fits the outbound context — more reliably than any reference check or CV detail.",
+      },
+      {
+        type: "paragraph",
+        text: "The promote-versus-hire decision is worth taking seriously because getting it wrong has compounding costs. A failed internal promotion typically loses you a productive SDR and leaves a management vacuum. A failed external hire costs the search, the ramp time, and the opportunity cost of twelve to eighteen months of underperforming management. Neither failure is catastrophic, but both are avoidable with the right diagnostic work before the decision is made.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-q1-new-financial-year-budget-cycle",
     category: "Sales Development",
     title: "The Q1 Outbound Window: How to Reach Buyers When Budgets Reset",
