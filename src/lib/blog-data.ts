@@ -27,6 +27,112 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-buyer-pre-meeting-research-vendor-credibility",
+    category: "B2B Growth",
+    title: "What B2B Buyers Look Up Before Agreeing to a Meeting — and What It Means for Your Outbound",
+    excerpt:
+      "There is a research step between a prospect reading your cold message and agreeing to a call. Understanding what they look for — and ensuring those digital touchpoints support your outbound — is one of the most underinvested conversion levers in B2B sales.",
+    readTime: "7 min read",
+    date: "18 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most B2B outbound analysis focuses on what happens before a prospect replies — message quality, sequence design, timing, personalisation. Far less attention goes to what happens after a cold reply and before a meeting confirmation. That gap contains a research step that is easy to overlook because it is invisible to the SDR: the prospect looks you up. They check LinkedIn, visit your website, search for your company name, and in some cases ask a colleague if they have heard of you. The result of that research influences whether a provisional interest converts into a confirmed meeting — and what frame the buyer brings to it.",
+      },
+      {
+        type: "paragraph",
+        text: "The implications for outbound are concrete. A cold message that lands well enough to generate a reply is doing half the job. If the subsequent research step exposes a thin LinkedIn presence, a website with no relevant case studies, or social proof that does not match the buyer's sector, the meeting that looked likely does not get booked, or gets booked with lower commitment. The prospect goes quiet after saying they were interested. The SDR follows up and receives no response. The sequence gets marked as lost to engagement drop-off. The actual reason was an unresolved credibility question that could have been answered.",
+      },
+      {
+        type: "heading",
+        text: "What B2B buyers look for first",
+      },
+      {
+        type: "paragraph",
+        text: "The person who reached out is the first thing most buyers check. LinkedIn is the natural starting point: profile completeness, professional credibility, industry tenure, shared connections, and recent posts. A buyer who received a credible cold email and then finds a sparse LinkedIn profile with no discernible track record faces a credibility gap. The outreach suggested expertise; the profile does not confirm it. That gap does not automatically kill a meeting, but it weakens the trust that the initial message built. SDRs with well-constructed, sector-informed LinkedIn profiles consistently convert more of their positive replies into booked meetings, independent of their underlying message quality.",
+      },
+      {
+        type: "paragraph",
+        text: "The company LinkedIn page comes next, usually within the same session. Buyers look at headcount, recent posts, follower count, and whether the company appears to be active. A company page that has not posted in four months and shows a handful of followers does not project the signal that the outreach was implying. The page does not need to be a content marketing machine — consistent posting every two to three weeks on themes relevant to the target buyer's sector is sufficient to signal an operational, credible business.",
+      },
+      {
+        type: "heading",
+        text: "The website check: what buyers actually read",
+      },
+      {
+        type: "paragraph",
+        text: "Most B2B buyers arrive at a vendor's website after a cold message already knowing what the company broadly does. They are not reading the website to understand the proposition; they are reading it to verify specific things. The most common checks are: who are your clients, what sector do they operate in, what do they say about working with you, and do you have any examples of outcomes rather than descriptions of service.",
+      },
+      {
+        type: "paragraph",
+        text: "Client logos and case studies carry significant weight in this research step. A website with named clients in the buyer's sector confirms that the vendor has sector experience and that other credible companies have made the same decision the buyer is now considering. A website with no named clients, anonymous testimonials, or case studies from clearly different sectors creates a friction point. The buyer has to decide whether to invest an hour in a meeting on the basis of outreach alone — and many will not, because the credible alternative, a referred vendor with established credentials, exists.",
+      },
+      {
+        type: "list",
+        heading: "What buyers are specifically looking for on a B2B vendor website during pre-meeting research",
+        items: [
+          "Named client references, ideally in their own sector or a comparable one — not logo soup, but names they can verify through their own network",
+          "Case studies that show a before-and-after outcome rather than process descriptions — buyers want to understand the return, not the method",
+          "Team or about page that confirms the company has real people with relevant backgrounds and appropriate tenure",
+          "Pricing or commercial model signals — not necessarily a price, but enough to gauge whether a meeting is worth their time before they discover budget incompatibility on the call",
+          "Recent content or activity that signals the company is current and operating, not dormant",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Review sites and third-party signals",
+      },
+      {
+        type: "paragraph",
+        text: "For SaaS products, G2, Capterra, and software review platforms are increasingly part of pre-meeting research. Buyers who have been through software buying cycles before go directly to review platforms after a cold message catches their interest. Volume of reviews matters for initial credibility — a product with a small number of reviews does not carry the same signal as one with broad third-party validation, regardless of average score. If a SaaS company is running outbound at any volume, neglecting review site presence creates a credibility drag that surfaces as unexplained drop-off between positive replies and booked meetings.",
+      },
+      {
+        type: "paragraph",
+        text: "For service businesses, including B2B lead generation agencies and professional services firms, the equivalent is industry directories, awards, media coverage, or LinkedIn recommendations. A buyer who cannot find any third-party signal that others have worked with this company and found it credible faces the same risk calculation a software buyer faces with no reviews — they are being asked to take a leap of faith. Some will; most will not.",
+      },
+      {
+        type: "heading",
+        text: "What construction buyers check specifically",
+      },
+      {
+        type: "paragraph",
+        text: "Construction sector buyers carry out a specific set of verification steps that differ from most other B2B buyers. Beyond LinkedIn and website, construction buyers check for trade association membership, industry accreditations such as ISO certifications and SafeContractor status, Constructionline or Achilles UVDB registration, Companies House details, and in many cases the visible project portfolio. For a supplier approaching a main contractor or developer, these credentials function as the minimum credibility threshold — a conversation is not worth having if the standard qualifications are absent or cannot be confirmed.",
+      },
+      {
+        type: "paragraph",
+        text: "This verification behaviour means that construction suppliers making outbound approaches need their compliance and accreditation status clearly visible and current. A website that describes extensive project experience but does not confirm Constructionline membership, ISO 9001 status, or relevant trade body credentials leaves a construction buyer with an open question they typically will not invest a meeting in resolving. The outreach opened the door; the digital presence needs to close the credibility question that the buyer will independently form before agreeing to walk through it.",
+      },
+      {
+        type: "heading",
+        text: "Making your digital presence an outbound conversion asset",
+      },
+      {
+        type: "paragraph",
+        text: "Pre-meeting research is part of the outbound conversion funnel, even though it is invisible in most CRM reporting. The SDR's work produces a reply; the company's digital presence produces a meeting. When the digital presence is weak, the conversion rate from positive replies to confirmed meetings is lower than it should be — and the cause is typically attributed to engagement drop-off or prospect disinterest rather than a resolvable credibility gap that existed on the vendor's side.",
+      },
+      {
+        type: "list",
+        heading: "Changes that consistently improve pre-meeting research outcomes",
+        items: [
+          "SDR and AE LinkedIn profiles reviewed and updated, with attention to summary section, relevant experience framing, and recent post activity in the target sector",
+          "Company LinkedIn page posting cadence established — two to three posts per month is sufficient to maintain an active, credible appearance",
+          "Website case studies updated with named clients and outcome language, specifically in the sectors being targeted in outbound",
+          "Review site profiles claimed and a lightweight process for requesting reviews put in place after successful client engagements",
+          "For construction suppliers: accreditation and trade body logos prominently displayed, with current certification status confirmed and renewal dates tracked",
+        ],
+      },
+      {
+        type: "callout",
+        text: "Pre-meeting research sits between cold outreach working and a meeting being booked — and it is the step most outbound programmes do not measure or manage. The digital presence that supports your SDR motion is not a marketing project; it is an outbound conversion lever with direct impact on booked meeting rate.",
+      },
+      {
+        type: "paragraph",
+        text: "The gap between a prospect reading your cold message and confirming a meeting follows a consistent pattern of digital research that the buyer conducts independently and rarely mentions. SDR teams that account for this research step — by ensuring their own profiles, the company's digital presence, and available social proof are calibrated for the buyers they are reaching — convert a higher share of their positive replies into meetings that actually happen. The message gets them interested; the research step makes them confident enough to commit.",
+      },
+    ],
+  },
+  {
     slug: "saas-outbound-construction-sector-relationship-buyers",
     category: "SaaS Lead Generation",
     title: "Selling SaaS Into Construction: Outbound That Works in a Relationship-Driven Sector",

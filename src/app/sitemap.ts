@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-buyer-pre-meeting-research-vendor-credibility",
   "saas-outbound-construction-sector-relationship-buyers",
   "b2b-first-sdr-manager-hire-promote-vs-recruit",
   "b2b-outbound-q1-new-financial-year-budget-cycle",
