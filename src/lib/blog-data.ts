@@ -27,6 +27,114 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-hr-buyer-chro-hr-director-saas",
+    category: "SaaS Lead Generation",
+    title: "Cold Outreach to HR Buyers: How to Land Meetings with CHROs and HR Directors Who Distrust Vendor Pitches",
+    excerpt:
+      "HR and People buyers receive more vendor outreach per head than almost any other function in a modern business. Getting past the noise requires understanding what actually drives their decision-making — and unlearning the messaging approaches that consistently fail.",
+    readTime: "7 min read",
+    date: "18 Nov 2026",
+    color: "#EC4899",
+    content: [
+      {
+        type: "paragraph",
+        text: "HR tech is a large and fragmented market. There are vendors selling HRIS, ATS, payroll, learning and development, employee engagement, benefits administration, performance management, succession planning, and workforce analytics — often as separate platforms, each with its own outbound sales team. The practical result for a CHRO or HR Director at a company of any scale is that they receive cold outreach from multiple vendors in multiple HR tech categories every week. The HR buyer persona has become one of the most heavily prospected in B2B SaaS, which means it has also become one of the most resistant to conventional outreach.",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge is compounded by something specific to this buyer type. HR leaders are professionally trained in human dynamics — they understand persuasion, they have often delivered sales training themselves, and they manage recruiters for a living. Cold outreach that relies on manufactured urgency, false personalisation, or engineered rapport is more likely to be recognised and dismissed by an HR buyer than by most other senior decision-makers. Getting to a genuine first conversation with a CHRO or HR Director requires a different approach to what works with a head of engineering or a commercial director.",
+      },
+      {
+        type: "heading",
+        text: "Why volume and automation fail for this persona",
+      },
+      {
+        type: "paragraph",
+        text: "The standard outbound logic — reach enough people with a good enough message and a percentage will convert — breaks down with HR buyers because the signal-to-noise problem is so acute. A CHRO who is receiving multiple vendor messages a week has calibrated filters that most other buyers have not needed to develop. Pseudo-personalisation such as referencing a recent company announcement to generate apparent relevance is immediately recognisable. Generic benefit claims about reducing HR admin or improving employee engagement have been used by so many vendors for so long that they carry no credibility with experienced HR leaders. High-cadence automated follow-up sequences register as evidence that the sender is running a volume campaign, not a considered outreach.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that HR buyer outreach needs to be lower volume and higher quality than outreach to other personas. That is not a comfortable conclusion for outbound teams running high-contact-rate programmes, but it reflects how this buyer has responded to years of heavy vendor prospecting. A small number of well-researched, genuinely relevant messages to the right HR leaders at the right moment will consistently outperform a large volume of templated messages sent to a broadly-defined HR buyer list.",
+      },
+      {
+        type: "heading",
+        text: "What HR buyers are actually worried about",
+      },
+      {
+        type: "paragraph",
+        text: "Most cold outreach to HR buyers leads with features, platform demos, or vague claims about improving employee experience or simplifying HR workflows. What senior HR buyers are actually concerned about sits upstream of features: will employees and managers adopt this tool, or will it become shelf-ware within six months? How much implementation effort will this consume from an already-stretched HR team? What happens when something goes wrong post-go-live? Can a credible business case be built for the investment? These concerns come from experience with previous implementations that underdelivered on vendor promises.",
+      },
+      {
+        type: "paragraph",
+        text: "Outreach that acknowledges this context — the change management challenge, the adoption risk, the internal business case process — signals domain knowledge rather than product awareness. It shifts the conversation from 'another vendor wanting a demo slot' to 'someone who seems to understand the actual complexity of our situation.' That shift in perception is what makes the difference between an ignored message and a reply worth sending.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that create genuine openings",
+      },
+      {
+        type: "paragraph",
+        text: "HR buyers are most receptive to outreach when there is a live reason to have the conversation — a problem they are actively managing or a decision in front of them. Cold outreach in the absence of a relevant trigger is a harder ask. The most reliable signals to look for:",
+      },
+      {
+        type: "list",
+        items: [
+          "New CHRO or CPO appointment — a newly appointed People leader is typically reviewing existing tooling, has mandate to make changes, and is building vendor relationships from scratch. This is one of the most reliable triggers in HR tech outreach; timing the approach to within the first three to six months of their tenure is the window",
+          "Rapid headcount growth — companies that have grown quickly often outgrow their HR infrastructure. An organisation that has added significant headcount in the previous twelve months frequently needs to upgrade or replace HRIS, ATS, or performance management tooling that was adequate at a smaller scale",
+          "HR-function job postings — a company advertising for an HR Operations Manager, an L&D Specialist, or a Benefits Manager is signalling active investment in that area of the function, often alongside or just before a tool decision. Job postings are a leading indicator of HR buying activity",
+          "Recent funding round — scale-up companies that have raised growth funding are almost always investing in people infrastructure to support their headcount plans, and their HR leaders are actively evaluating what tooling they will need at the next stage of size",
+          "Public signals of process strain — LinkedIn posts from the HR leader about a specific operational challenge, press coverage of a significant restructuring, or Glassdoor patterns that surface recurring process complaints all indicate areas where existing approaches may be under pressure",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What messaging actually resonates",
+      },
+      {
+        type: "paragraph",
+        text: "Effective cold outreach to senior HR buyers tends to have three characteristics. It is specific — not 'we help HR teams improve employee experience' but a clear articulation of what problem is being solved, in what company context, with enough precision that the buyer can immediately judge whether it is relevant to their situation. It demonstrates genuine research — referencing something verifiable about the company's HR situation, a recent announcement, or a known challenge in their sector rather than a generic reference to company size. And it is honest about what a first conversation involves: not a product pitch, but a conversation about whether the problem is relevant to their current priorities.",
+      },
+      {
+        type: "paragraph",
+        text: "The tone matters as much as the content. HR leaders respond to outreach that treats them as knowledgeable professionals making a business decision rather than as prospects to be moved through a funnel. An email that says 'I'd like to understand whether the approach you're currently taking to performance calibration is creating the kinds of challenges I see at similar-stage companies — if it is, it might be worth a conversation' is structurally different from 'Let me show you how our platform transforms performance management.' The first invites a peer-level exchange about a shared problem; the second positions the sender as a vendor with something to sell.",
+      },
+      {
+        type: "heading",
+        text: "Channel: where HR buyers are actually reachable",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is the most effective channel for reaching HR buyers at Director level and above. HR leaders are professionally active on the platform — many post regularly about people strategy, organisational challenges, and HR practice. A connection request or message that arrives in the context of a relevant LinkedIn interaction converts significantly better than a cold InMail to someone with no prior context for who you are. The key is genuine engagement rather than the performative variety: commenting on a post solely to generate visibility before sending a sales message is immediately recognisable and tends to produce the opposite of the intended effect.",
+      },
+      {
+        type: "paragraph",
+        text: "Email remains relevant but requires more investment per message. The outreach that performs best with this persona is short, specific, and references verifiable details about the company's situation rather than generic industry claims. Cold calling to HR leaders is typically low-yield as a primary channel — it works best as a follow-up to a message that has already been read, where the call has a specific purpose rather than acting as an opening move.",
+      },
+      {
+        type: "callout",
+        text: "The HR buyer is not harder to reach because they are more sceptical than other buyers. They are harder because they receive more outreach, recognise sales techniques more readily, and are protecting something beyond their own time — they are protecting the employee experience of their entire organisation from a poor vendor decision. Outreach that acknowledges the weight of that responsibility lands differently from outreach that treats it as a sale to close.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid",
+      },
+      {
+        type: "list",
+        items: [
+          "Generic ROI claims — percentage reductions in HR admin time or cost-per-hire improvements without specifics carry no credibility with HR leaders who have heard similar claims from multiple vendors and experienced the gap between vendor claims and post-implementation reality",
+          "Pitching to the wrong level — HR coordinators and HR business partners often receive outreach intended for HR leadership; it wastes their time, it rarely creates a path to the actual decision-maker, and it generates negative impressions of the vendor before the conversation has even started",
+          "Aggressive follow-up after disengagement — an HR buyer who has read and chosen not to respond to an initial message is communicating something; pursuing them through a high-cadence follow-up sequence turns a potential future opportunity into active brand avoidance",
+          "Overpromising on implementation simplicity — telling an HR leader with change management experience that your product is easy to implement is a credibility risk; more effective to acknowledge that implementation requires effort and explain specifically how you manage it",
+          "Leading with awards and accreditations — HR buyers are not especially motivated by vendor self-certification; they are motivated by relevant proof that the product has worked in their specific sector and company context",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Winning meetings with CHROs and HR Directors requires the same discipline as effective B2B outbound to any difficult persona: a genuine trigger, real research, and messaging that demonstrates understanding of the buyer's actual situation rather than the vendor's desired outcome. The HR function is not impossible to reach through cold outreach — but it is unforgiving of outreach that does not meet a minimum threshold of relevance and credibility. Getting that threshold right is what separates the small percentage of messages that generate a real conversation from the majority that are deleted without a reply.",
+      },
+    ],
+  },
+  {
     slug: "construction-referral-network-new-business",
     category: "Construction Marketing",
     title: "Building a Referral Network in Construction: How to Turn Existing Relationships Into Predictable New Business",
