@@ -27,6 +27,122 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-cmo-vp-marketing-saas-buyer-messaging",
+    category: "SaaS Lead Generation",
+    title: "Cold Outreach to CMO and VP Marketing Buyers: Reaching the Person Who Gets the Most Vendor Pitches",
+    excerpt:
+      "Marketing leaders in SaaS companies receive more cold outreach than almost any other senior buyer — including from the SDR teams they themselves fund. Getting a response requires understanding how they evaluate vendor messages, what they are actually worried about, and when their calendar is genuinely open to a new conversation.",
+    readTime: "7 min read",
+    date: "19 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "The CMO or VP Marketing at a SaaS company is in a structurally unusual position as a buyer. They receive more cold outreach than almost any other senior function — not just from vendors targeting them directly, but as a side effect of their role. They approve the company's own outbound programme. They sign off on the SDR team. They see the cadences their own reps are running. And then they receive messages that follow exactly the same patterns, from dozens of martech vendors, every week. The result is a buyer persona with both a heavily cluttered inbox and an unusually sophisticated understanding of exactly what a mass-personalised cold sequence looks like from the inside.",
+      },
+      {
+        type: "paragraph",
+        text: "This creates a specific challenge for vendors selling to marketing leaders. The techniques that move other senior buyers — a compelling subject line, a well-timed follow-up sequence, a proof-point that positions the sender as credible — are all things the CMO has either recommended to their own team or reviewed in their own outreach analytics. Getting a genuine response requires either an unusually high level of relevance and specificity, or a clear understanding of when and why marketing buyers are willing to have a vendor conversation at all.",
+      },
+      {
+        type: "heading",
+        text: "Who actually receives this outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The CMO title covers a wide range of responsibilities depending on company stage. At a Series A SaaS company, the VP Marketing may be a team of two or three, heavily focused on demand generation and content, running the entire marketing function themselves. At a Series C or later, the CMO is typically managing a function of twenty or more people across demand gen, product marketing, brand, and partnerships, with a head of each sub-function below them. The day-to-day concerns and the buying authority differ significantly between these two contexts. Cold outreach that treats them interchangeably underperforms because the operational problems are different and the decision-making processes are structured very differently.",
+      },
+      {
+        type: "paragraph",
+        text: "In terms of budget authority, most marketing leaders have discretionary budget within a defined envelope, but significant martech purchases typically involve the CFO or CTO depending on the technical category of the product. A tool pitched purely as a marketing buy that requires engineering integration to implement needs to account for that before the demo. A message to the CMO that describes a product requiring IT involvement as 'quick to deploy' creates an early credibility problem with a buyer who has dealt with integration-heavy tools before.",
+      },
+      {
+        type: "heading",
+        text: "What marketing buyers are actually trying to solve",
+      },
+      {
+        type: "paragraph",
+        text: "The generic pitch to marketing leaders — 'improve your demand generation', 'increase pipeline', 'improve ROI on ad spend' — lands poorly because it does not reflect how marketing leaders think about their current problems. At any given moment, a CMO or VP Marketing is typically managing one or two acute operational challenges alongside longer-term strategic ones. The acute problems tend to be around attribution (how to demonstrate pipeline contribution to the CFO), capacity (not enough content, not enough people, not enough time), or quality (MQL volume is there but conversion to revenue is weak). The strategic problems are usually about channel concentration risk, brand positioning, or preparing the marketing function for a growth stage the company has not yet reached.",
+      },
+      {
+        type: "paragraph",
+        text: "Cold outreach that speaks specifically to one of these categories — and positions the product as addressing a named problem rather than a vague improvement — creates relevance where generic pitches do not. 'Help you improve pipeline' means nothing to a buyer who is looking at a specific problem with lead quality scoring. 'Reduce your dependence on paid channels by systematically building an organic pipeline' speaks to a real concern that many SaaS marketing leaders have as their cost-per-lead from paid search increases.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that create genuine openings",
+      },
+      {
+        type: "paragraph",
+        text: "Marketing leaders become receptive to vendor conversations at specific moments that are worth identifying and timing outreach around. The most reliable triggers:",
+      },
+      {
+        type: "list",
+        items: [
+          "New CMO or VP Marketing hire — a newly appointed marketing leader is almost always reviewing the existing martech stack, has fresh mandate to make changes, and is building their own vendor relationships from the ground up. This is the highest-conversion window for outreach in this persona: reaching them in the first three to six months of their appointment, before the initial stack review is complete, is significantly more effective than outreach during a stable period",
+          "Annual planning season — marketing leaders are most willing to evaluate new tools in the period just before or just after annual budget is set, typically Q4 for companies on a January fiscal year. At this point they are actively thinking about capability gaps and have budget discussions to justify or inform. The same buyer who ignores outreach in June may engage with the same message in October because the decision context has changed",
+          "Recent funding round — a growth-stage SaaS company that has raised a new round is almost always planning to expand its marketing function and its martech investment. The CMO or VP Marketing in this window is often in active planning mode and open to conversations about tools that support the next phase of growth",
+          "Headcount signals in marketing — job postings for specific marketing roles signal where the function is investing. A company advertising for a Demand Generation Manager is signalling active investment in that channel and may be open to tools that support the person they are about to hire. A company advertising for a Marketing Operations Manager is about to invest in operational capability and martech",
+          "Public signals of a stack change — a company announcing migration from one CRM or marketing automation platform to another, or LinkedIn activity from the marketing leader about tooling decisions, indicates active evaluation mode and an openness to vendor conversations that may not exist in quieter periods",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What messaging actually works",
+      },
+      {
+        type: "paragraph",
+        text: "Marketing leaders are more alert to outreach mechanics than most buyers because they spend part of their professional time thinking about messaging. The implication is that the message quality threshold is higher, and the tolerance for templated or pseudo-personalised outreach is lower.",
+      },
+      {
+        type: "paragraph",
+        text: "Specificity about the problem beats specificity about the product. An email that opens by naming a specific, recognisable challenge — not a generic one, but something precise enough that the recipient thinks 'that is actually our situation' — has already earned more attention than most of what lands in a CMO's inbox. The specificity should come from genuine research: the company's stage and channel mix, the marketing team's size and what that implies about their constraints, public signals about where they are investing.",
+      },
+      {
+        type: "paragraph",
+        text: "Social proof from comparable companies matters more to marketing buyers than to many other personas, because marketing is a function where industry context matters. A case study from a 50-person SaaS company is not credible to the VP Marketing at a 500-person SaaS company and vice versa. The comparison needs to fit — stage, sector, go-to-market model — to carry weight. If you have strong proof from companies at a similar profile to your prospect, naming one is more effective than making a broad capability claim.",
+      },
+      {
+        type: "paragraph",
+        text: "The first message should ask for a conversation about the problem, not a demo of the product. Marketing leaders understand that a demo request is the opening move in a vendor sales process. A message that invites a conversation about whether the problem is live and relevant, with no commitment beyond that, is structurally easier to agree to and more consistent with how CMOs prefer to evaluate whether a vendor conversation is worth their time.",
+      },
+      {
+        type: "callout",
+        text: "The CMO who runs their company's outbound programme is reading your cold email with one additional filter: does this person know what they are doing? A message that shows strong research, makes a specific claim, and asks for a focused conversation will get credit for being well-constructed — and sometimes that observation alone is enough to generate a reply.",
+      },
+      {
+        type: "heading",
+        text: "Channel considerations for marketing buyers",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is effective for initial visibility but requires a different approach than email. Marketing leaders are often active on the platform professionally — posting about campaigns, marketing strategy, or company milestones — and a connection request that arrives with no context is typically ignored. A message that follows a genuine interaction with their content, or that references something specific they have shared, is more likely to generate a response. The key is that the interaction precedes the ask rather than following it.",
+      },
+      {
+        type: "paragraph",
+        text: "Email remains the most direct channel but faces a high noise problem. Shorter messages outperform longer ones with this persona — a marketing leader who reviews their own team's cold email metrics knows that long, dense emails have poor read rates, and they apply the same filter to their own inbox. A three or four sentence email that makes a specific point, names a relevant proof point, and asks a clear question will get more consideration than a seven-paragraph email that covers the product's full value proposition.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid",
+      },
+      {
+        type: "list",
+        items: [
+          "Leading with marketing ROI statistics — generic claims about improving pipeline contribution or reducing cost-per-lead by vague percentages are among the most common messages this persona receives and among the least credible; they are impossible to verify before a conversation and immediately signal that the message is templated",
+          "Referencing their own marketing content as proof of research — 'I read your recent blog post about X' is a common pseudo-personalisation tactic that most experienced buyers recognise immediately; it carries no credibility unless the message demonstrates a genuine insight derived from the content, not just evidence of having found it",
+          "Pitching stack complexity as ease — marketing leaders have been sold 'easy to implement' tools that proved difficult; claims about implementation simplicity without specifics about what integration looks like in practice create early scepticism rather than confidence",
+          "Reaching out through their marketing team — sending cold outreach to a marketing coordinator or demand generation executive on the assumption it will reach the VP Marketing typically generates a negative first impression rather than a path to the decision-maker",
+          "Following up with generic nudges — a follow-up that says 'just checking in' or 'wanted to bump this to the top of your inbox' communicates that the original message had no specific reason for the follow-up; marketing leaders understand sequence mechanics and low-effort follow-ups confirm that the outreach is volume-based rather than considered",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Cold outreach to CMOs and VP Marketing buyers is not impossible — it is demanding. The same qualities that make them difficult to reach with generic messages make them worth the investment in doing it properly. A well-researched, specifically targeted message to a marketing leader who is in an active evaluation moment will often get a positive response, precisely because it is rare enough to stand out from the volume of outreach they receive. The discipline is in the research, the timing, and the willingness to send fewer, better messages rather than optimising for outreach volume.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-hr-buyer-chro-hr-director-saas",
     category: "SaaS Lead Generation",
     title: "Cold Outreach to HR Buyers: How to Land Meetings with CHROs and HR Directors Who Distrust Vendor Pitches",
