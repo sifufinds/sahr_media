@@ -27,6 +27,122 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-cro-vp-sales-saas-buyer",
+    category: "SaaS Lead Generation",
+    title: "Cold Outreach to CRO and VP Sales Buyers: Selling to the Person Who Runs the SDR Team",
+    excerpt:
+      "Sales leaders understand outreach mechanics better than any other senior buyer in SaaS — they built the cadence their team is running this week. Getting a response means going beyond the standard playbook entirely and speaking directly to the operational problems they are actively managing.",
+    readTime: "7 min read",
+    date: "19 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "The CRO or VP Sales at a SaaS company presents a specific challenge for outbound vendors: they are the person who commissioned the SDR programme that is sending them messages. They approved the sequences. They review the reply rates. In many cases, they wrote the first version of the cold email their own reps are still using in a slightly modified form. When a vendor runs a standard outreach playbook at a sales leader, that leader experiences it both as the recipient and as the architect. They see the structure, recognise the technique, and form an opinion about the sender's sophistication before reading the second sentence.",
+      },
+      {
+        type: "paragraph",
+        text: "This does not make sales leaders unreachable — it makes them unreachable by average outreach. The same buyer who deletes forty cold emails a week will respond to a message that speaks to a real operational problem they are currently managing, because they know better than most that good outreach exists and what it looks like when it arrives.",
+      },
+      {
+        type: "heading",
+        text: "Who actually receives this outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The range of titles that sit in the 'sales leader' category for B2B vendor outreach includes CRO, VP Sales, Head of Sales, VP Revenue, and Sales Director, with considerable variation in scope and authority by company stage. At a Series A SaaS company, the Head of Sales may be an individual contributor who also carries a quota and is building the sales process from scratch. At a Series C or later, the CRO is typically managing a full revenue function including sales, SDR, partnerships, and sometimes customer success, with a VP Sales below them handling the sales team day to day.",
+      },
+      {
+        type: "paragraph",
+        text: "Budget authority for sales technology sits with the CRO or VP Sales in most SaaS companies above a certain size, though significant platform decisions — CRM, the core sales engagement tool — typically require finance sign-off and sometimes procurement involvement. Tool categories that sit clearly within the sales function's operational ownership (call intelligence, coaching platforms, prospecting data subscriptions, outbound consultancy) are more often decided at the sales leader level without a lengthy committee process, particularly at growth-stage companies where the leader has clear ownership of their cost base.",
+      },
+      {
+        type: "heading",
+        text: "What sales leaders are actually trying to solve",
+      },
+      {
+        type: "paragraph",
+        text: "Generic pitches to sales leaders — 'improve your close rate', 'increase pipeline efficiency', 'help your reps hit quota' — are ignored because they describe outcomes without mechanisms. A CRO or VP Sales is not thinking in abstractions; they are thinking about specific numbers on specific problems. The acute operational issues that sales leaders at SaaS companies typically manage include: the gap between pipeline on paper and pipeline that actually closes (forecast accuracy), the time it takes a new SDR or AE to become productive (ramp time), the conversion rate between MQL and pipeline (lead quality and qualification discipline), and the cost of building pipeline per qualified opportunity (SDR programme economics).",
+      },
+      {
+        type: "paragraph",
+        text: "Beyond these operational problems, sales leaders at earlier-stage companies are often grappling with process problems that sit upstream of the numbers: how to build a repeatable prospecting motion when outbound is currently dependent on individual rep effort, how to create a playbook that survives team turnover, or how to demonstrate to the board that SDR investment is driving measurable pipeline contribution rather than activity volume. These are the conversations that lead to genuine vendor interest — not because the problem is unique to this persona, but because a sales leader can articulate exactly which piece of the problem a tool is or is not addressing.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that create genuine openings",
+      },
+      {
+        type: "paragraph",
+        text: "Sales leaders are most receptive to new vendor conversations at moments when their current approach is visibly not working or when they are building something new from scratch. The most reliable triggers:",
+      },
+      {
+        type: "list",
+        items: [
+          "New CRO or VP Sales appointment — a newly arrived sales leader is reviewing the existing tech stack alongside the sales process itself. They are forming opinions about what is working, what is expensive for the results it produces, and what capability gaps exist. The window in the first four to six months of their appointment is the highest-conversion period for vendors selling sales technology or outsourced sales development; they are building vendor relationships and have mandate to make changes",
+          "Missed quarter or public pipeline miss — a company that has publicly missed a revenue target, issued a forecast revision, or disclosed pipeline shortfalls in investor communications is likely to be in active discussion about pipeline health. Sales leaders in this situation are more open to conversations about pipeline-generating solutions than during stable periods",
+          "SDR team expansion — job postings for SDRs, BDRs, or sales development managers signal that a company is investing in outbound and that the sales leader is building or scaling a programme. A vendor that can speak specifically to what the leader is trying to build — and can position their solution as infrastructure for that build — arrives in a relevant context",
+          "New funding round with GTM focus — an announced funding round that is explicitly directed at sales and marketing investment puts the sales leader in planning mode. They have capital to deploy and are building the GTM function to support it; vendor conversations that fit into that build are well-timed",
+          "Tech stack expiry or replacement cycle — many sales technology contracts are annual; a CRM migration, a sales engagement platform replacement, or a consolidation of overlapping tools creates an evaluation window. Vendors can find this through contract timing signals, tech stack monitoring tools, or straightforwardly by asking in outreach whether they are currently in a renewal period",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What messaging actually works",
+      },
+      {
+        type: "paragraph",
+        text: "The discipline required to reach a sales leader is to strip away everything they recognise as standard outreach and leave only the substance. This means: no manufactured urgency ('reaching out before the quarter closes'), no vague social proof ('we work with top SaaS companies'), no assumed benefit framing ('help your team hit quota'). These signals tell the recipient that the message is a template adapted with their name in the subject line.",
+      },
+      {
+        type: "paragraph",
+        text: "What works instead is specificity about their situation and an honest conversation about a named operational problem. A message to a VP Sales that describes the specific problem of SDR ramp time — the typical period between hire and first booked meeting, the dependency on individual coaching capacity, the cost of this extended ramp to pipeline output — before mentioning anything about a solution creates the same professional engagement a good discovery call does. It demonstrates that the sender understands the problem well enough to describe it accurately, which is the minimum threshold before a sales leader is willing to engage with any claim about solving it.",
+      },
+      {
+        type: "paragraph",
+        text: "Proof matters with this persona but needs to be specific. A reference to improving SDR productivity at a comparable SaaS company — same stage, similar market, similar team structure — is more valuable than a generic performance claim. Sales leaders are accustomed to scrutinising pipeline data; they will apply the same scrutiny to vendor claims and are not impressed by numbers presented without context.",
+      },
+      {
+        type: "callout",
+        text: "The sales leader's advantage as an evaluator is also their standard for vendors: they understand what good looks like. A message that reflects genuine understanding of their operational problems, is specific about the mechanism of improvement, and makes an honest ask will clear the bar they apply to their own team's outreach. Everything that falls short of that gets deleted for exactly the reasons they would delete their own reps' poor-quality emails.",
+      },
+      {
+        type: "heading",
+        text: "Channel considerations for sales leaders",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is an effective channel for this persona — sales leaders are professionally active on the platform, often sharing opinions about sales process, hiring, or GTM strategy. A message that arrives with prior visibility — a comment on something they have published, a thoughtful reaction to a post they shared — is more likely to be opened than a cold InMail with no context. The content engagement approach requires patience but generates meaningfully warmer initial interactions.",
+      },
+      {
+        type: "paragraph",
+        text: "Email to sales leaders works best when it is short and direct. They know exactly how long a standard cold sequence is and how much of the message is filler. A cold email to a sales leader that runs to four paragraphs will be evaluated against their own standard and found wanting. Three to five sentences, a specific problem named, a single clear ask.",
+      },
+      {
+        type: "paragraph",
+        text: "Phone is the channel where sales leaders are most likely to have an actual conversation if reached — they are accustomed to picking up the phone as part of their own sales process and are less likely than other senior buyers to regard an unexpected call as intrusive. A cold call that opens with a specific observation about their public pipeline commentary, their hiring activity, or their tech stack is more likely to stay on the line than the same call placed to an engineering or product leader.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid",
+      },
+      {
+        type: "list",
+        items: [
+          "Using outreach tactics they taught their own team — a classic SPIN opening gambit, a pain-point assumption close, or a 'just checking in' follow-up will be recognised immediately; it signals either that the sender does not know who they are reaching, or that they know and are running the technique anyway",
+          "Claiming to 'transform' their sales process — sales leaders have been pitched transformation before; the word signals a lack of specificity about what will actually change and by how much",
+          "Outreach that ignores team structure — a message about SDR productivity sent to a CRO who does not have an SDR team, or a sales coaching pitch to a company with five AEs, misses the context entirely and signals no research was done",
+          "Describing their existing approach as a problem without evidence — telling a sales leader their current process 'has gaps' or their team 'could be more efficient' without a specific basis is received as generic positioning rather than insight",
+          "Pitching a sales tool the company's current stack already includes — if the recipient's company is visibly on a competitor platform, the message needs to address that directly rather than pretending the incumbency does not exist",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The sales leader is the right buyer persona for a large category of B2B technology vendors, outbound agencies, and sales consulting firms. The barrier to entry is higher than it is for other senior buyers — not because they are more important, but because they are better calibrated. Meeting that calibration is not a creative challenge; it is a research and discipline challenge. The vendors that do it consistently — that arrive in the sales leader's inbox with specific intelligence about their situation and an honest conversation about a named problem — earn the conversations that matter.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-vp-product-cpo-saas-buyer",
     category: "SaaS Lead Generation",
     title: "Cold Outreach to VP Product and CPO Buyers: Reaching the Decision-Maker Behind Product Tool Purchases",
