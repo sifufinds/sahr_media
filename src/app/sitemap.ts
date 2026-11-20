@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-cold-outreach-vp-revenue-operations-revops-buyer",
   "b2b-cold-outreach-vp-customer-success-cs-buyer",
   "b2b-cold-outreach-cro-vp-sales-saas-buyer",
   "b2b-cold-outreach-vp-product-cpo-saas-buyer",

@@ -27,6 +27,122 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-vp-revenue-operations-revops-buyer",
+    category: "SaaS Lead Generation",
+    title: "Cold Outreach to VP Revenue Operations: Reaching the Buyer Who Controls the Sales Tech Stack",
+    excerpt:
+      "Revenue Operations leaders quietly control the infrastructure decisions that make or break the entire go-to-market function — yet receive outreach that rarely reflects their actual influence. Getting a response means speaking to data architecture and integration mechanics, not commercial outcomes.",
+    readTime: "8 min read",
+    date: "20 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "RevOps leaders are the least-understood senior buyer in SaaS for vendors selling into the go-to-market function. Sales leaders get the volume. Marketing leaders get the carefully crafted messaging. RevOps quietly controls the infrastructure that determines whether both of those functions operate effectively — and receives vendor outreach that rarely reflects this.",
+      },
+      {
+        type: "paragraph",
+        text: "The VP Revenue Operations or Head of RevOps is responsible for the data models, process architecture, and tool infrastructure that underpin the entire revenue function. At a growth-stage SaaS company, they may have more effective influence over tool purchasing than the sales or marketing leaders who nominally lead those functions, because they own the technical evaluation and integration decisions that make or break any tool deployment. A vendor who arrives treating them as a secondary stakeholder — following up with RevOps after pitching the CRO — has already signalled a fundamental misread of how purchasing decisions actually work.",
+      },
+      {
+        type: "heading",
+        text: "Who actually receives this outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The Revenue Operations function sits at different points in the organisational hierarchy depending on company stage and structure. VP Revenue Operations, Head of Revenue Operations, Director of Sales Operations, Sales Operations Manager, and Revenue Operations Manager are all variations in scope, with meaningful differences in budget authority and seniority. At a Series B SaaS company, the Head of RevOps may be a team of one or two, handling data management, CRM administration, reporting, and tool evaluation across the full revenue cycle. At a Series D or later, VP RevOps typically leads a specialised team covering sales ops, marketing ops, CS ops, and business intelligence as distinct sub-functions.",
+      },
+      {
+        type: "paragraph",
+        text: "The RevOps function did not exist as a consolidated discipline at most companies until relatively recently. Many people currently in VP RevOps or Head of RevOps roles transitioned from Sales Operations, Marketing Operations, or Business Intelligence backgrounds — which matters for outreach because their frame of reference for technology decisions reflects that history. A former Sales Ops leader who built their career in CRM administration and reporting thinks differently about tool procurement than a former Marketing Ops leader who came through the demand generation stack. Understanding which background a specific RevOps leader brings to their role is the kind of research that meaningfully improves message relevance.",
+      },
+      {
+        type: "paragraph",
+        text: "Budget authority for technology sits with the RevOps leader in a wide range of purchasing categories: CRM configuration and consulting, sales engagement platforms, prospecting data subscriptions, attribution tooling, pipeline forecasting software, and revenue intelligence platforms. At companies where the RevOps function is mature, significant infrastructure decisions — CRM migration, data warehouse implementation, revenue analytics platform selection — are led by RevOps with input from Finance and IT rather than being driven by the sales or marketing leaders who will ultimately use the systems.",
+      },
+      {
+        type: "heading",
+        text: "What RevOps leaders are actually trying to solve",
+      },
+      {
+        type: "paragraph",
+        text: "Generic pitches about operational efficiency or revenue growth land as background noise for a RevOps buyer. The problems they are actively managing are specific, often technical, and sit squarely between the commercial and the operational. The acute challenges that drive RevOps leaders to evaluate new tools and services include: inconsistent data quality across the CRM and downstream reporting systems, the gap between activity metrics and outcome metrics in pipeline forecasting, the overhead of maintaining tool integrations that break repeatedly as underlying platforms update, and the difficulty of providing the revenue leadership team with reporting that is both accurate and fast enough to be useful for decisions in the current quarter.",
+      },
+      {
+        type: "paragraph",
+        text: "There is also a structural challenge that many RevOps leaders manage at growing SaaS companies: they are asked to deliver increasingly sophisticated analytics and process automation with a team that grew more slowly than the revenue function it serves. The sales team doubles; the RevOps headcount does not. This creates a backlog of requests from sales, marketing, and CS leaders who want better tooling, cleaner data, and faster reporting, with a RevOps function that cannot prioritise all of them simultaneously. Vendors who understand this constraint — and position their solution as something that reduces RevOps workload rather than adding to it — arrive with a meaningfully different conversation than those who position another tool as an addition to the stack.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that create genuine openings",
+      },
+      {
+        type: "paragraph",
+        text: "RevOps leaders are most open to new vendor conversations at moments of infrastructure change or when existing tools are visibly failing to deliver against business requirements. The most reliable triggers:",
+      },
+      {
+        type: "list",
+        items: [
+          "New VP RevOps or Head of RevOps appointment — a newly arrived RevOps leader is auditing the existing tech stack alongside the data model and process architecture. They are forming views on what is working, what is duplicating cost, and what capability gaps the previous structure left unaddressed. The first four to six months of their appointment is the most productive window for vendors selling RevOps infrastructure",
+          "CRM migration or data model redesign — when a company migrates CRM, moves from spreadsheet-based operations to a structured data model, or rebuilds its revenue reporting infrastructure, significant adjacent tool decisions are made in the same window. Vendors who can position their product as the logical layer alongside the new infrastructure catch these decisions at the right moment",
+          "Scaling inflection — a company adding significant headcount across sales, marketing, and CS at the same time creates strain on RevOps processes designed for a smaller operation. When company growth moves faster than RevOps tooling, the RevOps leader begins actively evaluating what needs to be automated, integrated, or replaced",
+          "New CRO or VP Sales hire — when sales leadership changes, the incoming leader often drives a tool audit alongside a process review. The RevOps leader is typically brought into this audit as the technical authority; vendors who have already built a relationship with RevOps are better positioned at this moment than those starting from cold after the sales leader expresses interest",
+          "Series C or D funding round — later-stage funding rounds at SaaS companies are frequently accompanied by investment in go-to-market infrastructure. RevOps leaders at these companies are evaluating what tools are needed to support the growth the new capital is intended to fund",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What messaging actually works",
+      },
+      {
+        type: "paragraph",
+        text: "RevOps leaders respond to specificity about technical and operational mechanics, not to commercial outcomes described in the abstract. A message that opens by naming a concrete operational problem — the difficulty of maintaining accurate pipeline data across a sales team where CRM hygiene is inconsistent, the gap between close date forecasts in the CRM and actual close patterns, the overhead of managing integrations between a sales engagement tool and a CRM as both platforms update — gives the RevOps buyer something to react to before they encounter a sales message.",
+      },
+      {
+        type: "paragraph",
+        text: "Proof of technical competence matters for this persona in a way it does not for most other senior buyers. A RevOps leader evaluating a CRM consultancy, a revenue analytics platform, or a data enrichment tool is thinking about implementation quality and integration complexity from the first contact. Vendors who can demonstrate specific, verifiable knowledge of the systems a RevOps leader works with — not just the category, but the specific platform and how it behaves in practice — establish credibility early. A reference to a specific integration challenge common to companies on a named CRM stack, or a known limitation in a reporting tool the company is known to use, signals that the sender has done real research before writing the message.",
+      },
+      {
+        type: "callout",
+        text: "RevOps leaders do not respond well to vendor conversations that position the solution as requiring minimal RevOps input to implement. The practical reality of tool deployment in complex go-to-market stacks means that any significant infrastructure addition will require RevOps involvement; a vendor who implies otherwise is either unfamiliar with how implementations actually work or setting up unrealistic expectations that will create problems post-sale.",
+      },
+      {
+        type: "heading",
+        text: "Channel considerations for RevOps leaders",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is the most productive channel for opening conversations with RevOps leaders, who are professionally active on the platform and frequently publish frameworks, process walkthroughs, and CRM architecture commentary. The Revenue Operations community is notably collaborative — RevOps practitioners share operational approaches with one another in a way that is less common in pure sales or marketing communities. A vendor who engages genuinely with this content — adding specific, substantive observations rather than generic agreement before a sales ask — builds context for a direct message that is meaningfully more credible than cold InMail from a sender with no prior presence in the conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "Email works for RevOps buyers when it demonstrates specific knowledge of the technical environment. A message that references a known limitation or integration challenge with the tools a company is known to use — where this information is genuinely observable from public sources such as job descriptions, LinkedIn profiles, or technology review sites — signals research effort that generic emails do not. RevOps leaders evaluate vendors with more technical rigour than most senior buyers; an email that demonstrates that level of preparation earns a second read.",
+      },
+      {
+        type: "paragraph",
+        text: "Cold calling is lower-yield for RevOps leaders than for sales or marketing personas. RevOps is a function where a large proportion of the work is focused and analytical rather than conversational; unscheduled calls are more disruptive than for buyers with more varied working patterns. Phone as a follow-up channel after a message has been read but not replied to produces better results than leading with the call.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid",
+      },
+      {
+        type: "list",
+        items: [
+          "Treating RevOps as a secondary stakeholder — positioning a conversation as 'I wanted to get the CRO interested first and was told to speak with RevOps about implementation' signals that the vendor does not understand where technical purchasing authority sits; RevOps leaders who receive this framing deprioritise the conversation",
+          "Oversimplifying implementation complexity — vendors who claim their tool requires no RevOps involvement or deploys in a matter of hours are likely either wrong or selling a capability so limited it does not address the actual problem; RevOps buyers are technical enough to recognise this",
+          "Pitching tools without establishing integration context — an outreach message that ignores the existing stack entirely and pitches a capability in isolation fails to address the primary practical concern of a RevOps leader, which is how a new tool will coexist with what is already there",
+          "Generic revenue intelligence or single source of truth positioning — this language is used by so many vendors in the RevOps space that it has become meaningless; RevOps leaders filter it out before reading further",
+          "Failing to acknowledge implementation workload — the best RevOps leaders are protective of their team's capacity; a vendor who cannot articulate the realistic implementation requirements, timeline, and ongoing maintenance overhead will not be trusted with an infrastructure decision",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "VP Revenue Operations is an increasingly central buying role in SaaS companies above a certain scale, and it remains underpitched relative to its actual influence over tool decisions. The barrier to a productive conversation is not higher than for other senior buyers — it is simply different. RevOps leaders respond to vendors who demonstrate technical familiarity with the systems they manage, who speak the language of data quality and integration architecture rather than generic revenue outcomes, and who arrive with an honest account of what a partnership would actually involve. Vendors who do that consistently, through channels the RevOps buyer genuinely uses, earn the evaluations that matter.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-vp-customer-success-cs-buyer",
     category: "SaaS Lead Generation",
     title: "Cold Outreach to VP Customer Success: Reaching the Buyer Responsible for Retention",
