@@ -27,6 +27,130 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-coo-vp-operations-saas-buyer",
+    category: "SaaS Lead Generation",
+    title: "Cold Outreach to COO and VP Operations: Reaching the Buyer Who Controls Business Process Change",
+    excerpt:
+      "Operations leaders hold significant budget authority for the tools that run the business beneath the revenue function — yet receive outreach calibrated for a different buyer. Getting a response means speaking to process mechanics and operational scale, not just commercial outcomes.",
+    readTime: "8 min read",
+    date: "20 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The COO or VP Operations at a growth-stage SaaS or technology company is a category of buyer that falls between the gaps of most outbound programmes. Sales-focused vendors pitch the sales leader. Marketing tools pitch the marketing leader. Finance tools pitch the CFO. The operations leader — who routinely signs off on the tools that run the business beneath the revenue function — receives vendor outreach calibrated for someone else, with the job title swapped in at the top.",
+      },
+      {
+        type: "paragraph",
+        text: "The result is a buyer who frequently holds significant software and services budget authority, whose operational problems are both specific and solvable, and who receives outreach that rarely demonstrates the sender has thought seriously about either. Vendors who do understand this persona — and who can speak to the particular challenges of running cross-functional operations at scale — find it substantially less competitive than the more frequently targeted revenue-side buyers.",
+      },
+      {
+        type: "heading",
+        text: "Who actually receives this outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The Operations function spans a wide range of titles and scopes. Chief Operating Officer, VP Operations, Head of Operations, Director of Operations, VP Business Operations, and Chief of Staff are all in scope for vendors selling to this persona, with meaningful differences in seniority and operational span. At a 50-person SaaS company the Head of Operations may own HR administration, office management, process documentation, compliance, vendor contracts, and finance operations as a generalist. At a 500-person company VP Operations typically leads a team of specialists — operations analysts, project managers, process owners — with clearer domain boundaries.",
+      },
+      {
+        type: "paragraph",
+        text: "Budget authority for operational tooling covers a wide category: project management platforms, workflow automation tools, internal knowledge management, operational analytics and reporting, compliance and risk management software, and HR operations tooling. At companies where there is no dedicated IT team or the IT function is embedded in engineering, the operations leader sometimes controls or influences broader software procurement, including tool evaluations that affect multiple departments. This procurement reach is frequently invisible to vendors who assume purchasing authority flows exclusively through the revenue-facing leadership team.",
+      },
+      {
+        type: "paragraph",
+        text: "The COO at a growth-stage company occupies a structurally distinct position. Where the CEO owns the vision and the commercial relationships that matter most externally, the COO owns the internal machinery that determines whether the company can execute against that vision reliably. This includes decisions about where process investment creates leverage — which operational improvements allow the company to scale without proportional headcount growth — and where existing operational tools are creating friction or cost that is not visible to the leadership team until it is flagged.",
+      },
+      {
+        type: "heading",
+        text: "What operations leaders are actually trying to solve",
+      },
+      {
+        type: "paragraph",
+        text: "Operations leaders manage a category of challenge that is permanently present and rarely fully resolved: the gap between how processes were designed when the company was smaller and what the business actually needs at current scale. At most growth-stage companies this gap is managed continuously rather than solved once — which means the operations leader is permanently navigating a backlog of process improvements, tool evaluations, and cross-functional coordination problems that compete for the same limited bandwidth.",
+      },
+      {
+        type: "paragraph",
+        text: "The acute problems that drive operations leaders to evaluate new tools and services include: operational processes that were built manually and have not been automated despite growing enough to warrant it, visibility and reporting gaps where the leadership team cannot answer basic questions about operational performance without significant manual data aggregation, compliance requirements that have outgrown the informal controls the company used at earlier stage, and the cost of operational headcount that could be reduced if the right tooling were in place.",
+      },
+      {
+        type: "paragraph",
+        text: "There is a secondary category that operations leaders in SaaS companies at the growth stage manage with particular intensity: the problem of cross-functional coordination across teams with different tools and working patterns. Sales, Marketing, CS, Product, and Engineering all operate with different rhythms, different data systems, and different definitions of project status. The operations leader is frequently the person responsible for making these functions work together coherently — without direct authority over any of them. Vendors whose solution reduces coordination overhead rather than creating another siloed system to manage arrive with a meaningfully more credible proposition.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that create genuine openings",
+      },
+      {
+        type: "paragraph",
+        text: "Operations leaders are most receptive to vendor conversations when the existing approach is visibly failing to keep pace with business requirements. The most reliable triggers:",
+      },
+      {
+        type: "list",
+        items: [
+          "New COO or VP Operations appointment — a recently hired operations leader is auditing existing processes and tooling from a fresh perspective, with mandate to change what is not working. The first three to six months of their appointment is the most productive window for vendors selling operational infrastructure; they are actively forming views on what the business needs, have not yet committed to vendor relationships, and are building business cases for investment in the areas they have identified as priorities",
+          "Rapid headcount growth — companies that have grown significantly in the past 12 to 18 months typically find that operational processes built for a smaller team are breaking down. The operations leader at these companies recognises the problem before it creates a crisis. Outreach that names this scaling inflection — and positions the vendor's solution as the operational layer that grows with the company — arrives with genuine contextual relevance",
+          "Digital transformation or process audit programmes — companies that have announced operational efficiency initiatives, are undertaking ERP migrations, or have recently completed external process audits are in an active evaluation period for operational tooling. These signals are often visible in job descriptions, press releases, or LinkedIn commentary from the operations leadership team",
+          "Compliance milestones — companies approaching ISO certifications, preparing for FCA or other regulatory authorisation, or responding to external audit findings are under pressure to formalise processes that were previously informal. These milestones create defined windows in which the operations leader is evaluating tools that support compliance documentation, audit trails, and control frameworks",
+          "Private equity ownership or investment — PE-backed companies typically operate under reporting and process requirements that exceed what many founder-led businesses had in place at the time of acquisition. The operations leader at a newly PE-backed company frequently needs to build operational infrastructure quickly to meet those requirements, and is actively evaluating the tools that make it possible",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What messaging actually works",
+      },
+      {
+        type: "paragraph",
+        text: "Operations leaders respond to specificity about process mechanics and operational consequences, not to commercial outcomes described without mechanism. A message that opens by naming a concrete operational challenge — the difficulty of maintaining process consistency across a team that has grown faster than its documentation, the overhead of manual data consolidation for leadership reporting that could be automated, the gap between operational activity and visibility at the leadership level — gives the recipient something concrete to react to before they reach the sales content.",
+      },
+      {
+        type: "paragraph",
+        text: "The operations function has an inherently cross-functional character that most vendor outreach ignores. A message that acknowledges the multi-stakeholder nature of operational decisions — that an effective tool deployment requires buy-in from the teams whose processes it affects, not just the operations leader's approval — demonstrates a more accurate understanding of how operational purchasing decisions actually work. This kind of operational realism builds credibility where generic claims about ease of implementation do not.",
+      },
+      {
+        type: "paragraph",
+        text: "Evidence from companies at similar stage and scale carries more weight than industry-generic case studies. Operations leaders evaluating tooling want to know whether a solution has worked in an environment genuinely comparable to theirs — same company size, similar complexity, comparable cross-functional span. Generic references to enterprise clients or high-growth technology companies are less persuasive than a specific comparison to a company in the same stage bracket and sector.",
+      },
+      {
+        type: "callout",
+        text: "Operations leaders who receive outreach positioning implementation as simple, requiring minimal process change, treat it as a signal that the vendor has not done a real implementation at a comparable company. Any tool that meaningfully changes operational processes creates change management work; vendors who acknowledge this honestly — and can speak to what that change management looks like in practice — are more credible than those who minimise it.",
+      },
+      {
+        type: "heading",
+        text: "Channel considerations for operations leaders",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn is a productive opening channel for operations leaders, though the patterns differ from more visible functions. COOs and VP Operations at growth-stage companies are less likely than sales or marketing leaders to publish frameworks or thought leadership consistently; they are more likely to engage with content from the leadership and business operations community, share articles or commentary on scaling and process, and participate in private community groups around operations challenges. Meaningful engagement with this content — substantive observations rather than generic agreement before a sales message — builds context for a direct outreach that lands differently from cold InMail from a sender the recipient has never encountered.",
+      },
+      {
+        type: "paragraph",
+        text: "Email to operations leaders works when it demonstrates familiarity with the specific operational context — a reference to a process challenge common to companies at the same stage, or to a known limitation in a tool they are likely already using. Operations leaders are systematic; an email that reflects genuine research into the company's operational structure, inferred from job descriptions, team shape, and technology stack, signals a sender worth responding to. Generic openers about operational efficiency or digital transformation land as background noise.",
+      },
+      {
+        type: "paragraph",
+        text: "Cold calling is viable for the COO persona at earlier-stage companies where the operations leader is accessible and expects direct vendor contact. At more senior levels or in larger organisations, phone as a follow-up channel — after an email or LinkedIn message has been read without reply — produces better results than leading cold. Operations leaders typically have more structured working patterns than sales personas; unscheduled calls during focused work are more disruptive than for buyers with higher day-to-day variation in their schedules.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid",
+      },
+      {
+        type: "list",
+        items: [
+          "Treating the operations leader as a champion to reach the CEO — positioning a conversation as 'I'd love to explore whether this is worth bringing to your CEO' signals that the vendor does not regard the operations leader as the decision-maker; COOs and VP Operations who receive this framing deprioritise the conversation immediately",
+          "Understating implementation complexity — operations leaders manage process change for a living; they know that any tool deployment affecting cross-functional workflows requires change management effort, and vendors who claim otherwise lose credibility before the evaluation begins",
+          "Pitching operational tools without acknowledging the cross-team dimension — a tool that changes how one team works typically affects the teams that interact with it; outreach that ignores this reality fails to engage the operations leader's primary concern, which is making multiple functions work together more effectively, not optimising one in isolation",
+          "Framing ROI exclusively in cost reduction terms — while cost efficiency matters, outreach that presents a tool purely as a cost reduction mechanism ignores the capacity, quality, and scalability arguments that often carry more weight in the evaluation; the strongest cases show how a solution enables the business to grow without proportional increases in operational headcount or complexity",
+          "Assuming the operations leader makes decisions in isolation — operational tool purchasing at mid-market companies typically involves input from Finance, IT or Engineering, and the team leads whose processes will change; outreach that treats the operations leader as the sole decision-maker misrepresents how these decisions work and sets up a sales process that stalls when other stakeholders are introduced",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The COO and VP Operations are, in many SaaS companies, the buyers who have the clearest visibility into where operational investment creates compounding leverage — and the least cluttered vendor landscape to navigate. The outbound programmes that treat them as a primary audience rather than an afterthought find that the barrier to a productive conversation is not higher than for the more-pitched revenue-side buyers. It simply requires a different preparation: one that speaks to process architecture, cross-functional coordination, and the operational realities of scaling, rather than to pipeline or revenue metrics that belong to a different function entirely.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-vp-revenue-operations-revops-buyer",
     category: "SaaS Lead Generation",
     title: "Cold Outreach to VP Revenue Operations: Reaching the Buyer Who Controls the Sales Tech Stack",
