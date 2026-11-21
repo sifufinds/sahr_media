@@ -27,6 +27,142 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-outreach-cio-it-director-vp-it-saas-buyer",
+    category: "SaaS Lead Generation",
+    title: "Cold Outreach to CIO, IT Director and VP IT: Reaching the Buyer Who Controls Software Procurement and Technology Governance",
+    excerpt:
+      "IT leaders hold formal authority over vendor approvals, security reviews, and technology procurement at most mid-market companies — yet vendor outreach consistently tries to route around them rather than to them. Getting in front of the IT buyer requires different preparation than the business-side personas above them.",
+    readTime: "8 min read",
+    date: "21 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "The CIO, IT Director, or VP IT at a mid-market or growth-stage company occupies a position that most outbound programmes handle poorly: they are either treated as an obstacle to bypass on the way to a business-side buyer, or approached with the same framing used for technical founders and engineering leaders. Neither works.",
+      },
+      {
+        type: "paragraph",
+        text: "The IT function at mid-market companies controls or heavily influences how new software enters the organisation — through security review, procurement approval, integration assessment, and vendor management. At companies large enough to have an IT function distinct from engineering, the IT leader is often the person who either enables a commercial deal or delays it, depending on whether the vendor has engaged them appropriately. Outreach that reaches the IT buyer directly — with messaging calibrated to their actual concerns — consistently outperforms the alternative of treating IT as a function to manage after the sale is agreed.",
+      },
+      {
+        type: "heading",
+        text: "Who IT leaders are and what they own",
+      },
+      {
+        type: "paragraph",
+        text: "The CIO, IT Director, VP IT, Head of IT, and Chief Technology Officer (where the CTO role encompasses IT leadership rather than pure engineering leadership) represent a buyer category with a distinct scope from the technical personas that most SaaS vendors focus on. The engineering-focused CTO is building the product; the IT leader is managing the technology stack the business runs on, the security and compliance posture that protects it, and the vendor relationships that constitute it.",
+      },
+      {
+        type: "paragraph",
+        text: "At a 100 to 300 person SaaS or professional services company, the IT function typically covers device management and workplace technology, cloud infrastructure and SaaS stack governance, information security and compliance — including managing SOC 2, ISO 27001, or Cyber Essentials requirements — vendor procurement and contract management, and IT helpdesk and operations. The IT leader at this scale is simultaneously an operational manager and a strategic buyer, evaluating new tools against both the immediate business need and the IT implications of adding another vendor to the managed stack.",
+      },
+      {
+        type: "paragraph",
+        text: "Budget ownership varies: at some companies the IT leader directly controls the technology budget; at others, business units hold budget and IT holds approval authority. The common thread is that the IT function's sign-off is structurally required for new software purchases above a certain threshold — meaning that even when the IT leader does not initiate an evaluation, they will eventually be involved in every significant one.",
+      },
+      {
+        type: "heading",
+        text: "What IT leaders are actually managing",
+      },
+      {
+        type: "paragraph",
+        text: "The problems IT leaders deal with daily are not the problems most SaaS outreach addresses. The language of pipeline growth, revenue acceleration, or customer success carries limited weight with someone whose primary concerns are tool sprawl, security posture, integration overhead, and the IT workload that every new vendor relationship creates.",
+      },
+      {
+        type: "paragraph",
+        text: "Tool sprawl and stack complexity are the persistent backdrop to every IT leader's evaluation process. Most mid-market companies arrive at a technology stack that grew organically rather than by design, with duplicate functionality, integration gaps, and vendor relationships that were never rationalised. The IT leader is usually the person who sees this most clearly, who gets called when integrations break, and who carries the overhead of managing multiple vendor relationships that could be consolidated. Vendors who can credibly reduce this complexity — rather than add to it — start from a structurally different position.",
+      },
+      {
+        type: "paragraph",
+        text: "Security posture and compliance is the other domain where IT leaders carry disproportionate responsibility. Companies operating under data protection requirements, working toward or maintaining ISO 27001 certification, or handling sensitive customer data are under continuous pressure to ensure that every tool in the stack meets minimum security standards. The IT leader owns this review process and is attuned to the risk that a poorly-secured vendor creates — not just in regulatory terms but in terms of the IT function's credibility when something goes wrong.",
+      },
+      {
+        type: "paragraph",
+        text: "Integration and IT overhead shape how every new tool proposal is received internally. The question IT leaders apply to any new vendor is not just whether the tool solves the stated business problem, but what it costs in IT resource to deploy, integrate with existing systems, and support in production. Tools that require significant IT effort to implement represent a real workload that the team absorbs whether or not it appears in the vendor's implementation estimate. IT leaders who have been burned by underestimated deployments develop a sharp scepticism toward vendors who present complexity as simplicity.",
+      },
+      {
+        type: "heading",
+        text: "Triggers that create genuine openings",
+      },
+      {
+        type: "paragraph",
+        text: "The timing of IT buyer receptiveness follows different patterns from business-side buyers. The most reliable windows:",
+      },
+      {
+        type: "list",
+        items: [
+          "New CIO or IT Director appointment — a recently hired IT leader is auditing the technology stack, assessing vendor relationships, and forming a view on where investment is needed and where consolidation is overdue. The first three to six months of a new IT leadership appointment is the most productive window for vendors across the IT tooling category: they are building a prioritised investment plan, have not yet committed to a vendor roadmap, and are actively looking for conversations that help inform those decisions",
+          "Security audit findings or compliance programmes — companies that have recently completed an external security audit, are pursuing an ISO 27001 or SOC 2 certification for the first time, or are responding to a compliance requirement have elevated urgency for tools that address the gaps identified. These events are often visible through job postings for security or compliance roles, procurement notices, or public announcements from the company",
+          "Cloud migration or digital transformation programmes — companies undertaking an on-premise to SaaS transition, a cloud infrastructure migration, or a broader technology modernisation programme are actively replacing and rationalising tools. The IT leader in these contexts is a primary buying decision-maker, not a reviewer called in at the end of the process",
+          "Tool consolidation and cost rationalisation — mid-market companies under margin pressure, following an acquisition, or responding to a PE investor's cost scrutiny are frequently running active programmes to rationalise the technology stack. The IT leader typically sponsors these programmes; vendors who can credibly position their tool as consolidating functionality from multiple existing tools carry a structural advantage in these conversations",
+          "Rapid headcount growth — companies that have grown significantly are often operating IT infrastructure built for a smaller organisation. The IT leader recognises the gaps before they create a crisis; outreach that names the scaling challenges specific to their current stage arrives with genuine contextual relevance rather than generic pitch framing",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What messaging actually works",
+      },
+      {
+        type: "paragraph",
+        text: "The IT buyer responds to substance over sales posture. Opening with a business outcome — pipeline growth, revenue acceleration — does not register in the same way it would for a sales or marketing leader. The opening that works for the IT buyer names either the operational challenge being solved, the IT-specific implication of a problem they are likely already managing, or a point of genuine differentiation in the security or integration story.",
+      },
+      {
+        type: "paragraph",
+        text: "Security posture and certifications matter more for IT buyers than for almost any other persona in the buying process. A vendor who opens with a credible reference to their SOC 2 Type II certification, ISO 27001 alignment, or UK Cyber Essentials compliance — before describing anything else about the product — signals an understanding of what the IT function cares about first. Generic mentions of 'enterprise-grade security' without substantiation are disregarded; specific certifications, named data handling controls, or a clear description of how customer data is stored and accessed are not.",
+      },
+      {
+        type: "paragraph",
+        text: "Integration story clarity is closely linked. IT leaders evaluate new tools partly on the basis of how well they integrate with the existing stack — not just at the API level, but in terms of the IT resource required to implement and maintain those integrations. Outreach that acknowledges the integration work involved, references specific integrations the company is likely already running based on their known technology stack, and offers a structured technical evaluation process alongside the commercial one is received differently from outreach that promises 'easy integration' without specifics.",
+      },
+      {
+        type: "paragraph",
+        text: "Proof from comparable environments carries significant weight. IT leaders evaluating a mid-market deployment are more persuaded by a reference from a company at similar scale, with a similar stack, than by a list of enterprise logos. The specific reference that describes a deployment at a 200-person SaaS company running Microsoft 365 and Salesforce is more useful than a Fortune 500 logo page — because it speaks to the conditions the IT leader actually operates in.",
+      },
+      {
+        type: "callout",
+        text: "IT leaders who receive outreach claiming simple, fast deployment with no IT resource needed treat it as a signal of either inexperience or a problematic deployment history. Any tool that handles sensitive data, integrates with existing systems, or requires user provisioning involves real IT work. Vendors who are honest about this — and can speak specifically to what a typical deployment involves — are more credible than those who minimise it.",
+      },
+      {
+        type: "heading",
+        text: "What fails and why",
+      },
+      {
+        type: "paragraph",
+        text: "Routing around IT to build a business case with a business-side champion before engaging IT is the most common mistake vendors make with this persona, and it reliably converts the IT leader from neutral to actively obstructive. When a vendor has built momentum with a commercial buyer without involving IT, and IT is introduced at the security review stage, the dynamic shifts: IT is now reviewing a decision that has already been made without their input, with the implied message that their role is administrative sign-off rather than genuine evaluation. IT leaders in this position frequently find reasons to delay or block; vendors who have treated IT as a checkpoint rather than a stakeholder typically fail the security review.",
+      },
+      {
+        type: "paragraph",
+        text: "The underlying principle is structural: bypassing IT procurement is not a time-saving shortcut in the IT leader's reading — it is a signal about how the vendor intends to manage the relationship after the sale. Vendors who would route around IT procurement are, by this logic, vendors who will resist compliance requirements later, escalate to business unit contacts when IT enforces security controls, and generally create work rather than reduce it. The IT function's default response is to extend the evaluation timeline until the vendor has demonstrated they can be a manageable part of the technology estate.",
+      },
+      {
+        type: "list",
+        heading: "Other patterns that consistently underperform with this persona:",
+        items: [
+          "Framing the IT leader as a gate to reach the CEO or CFO — this signals that the vendor does not regard IT as a decision-maker; IT leaders who receive this framing deprioritise the conversation immediately",
+          "Underestimating security review requirements in a pitch — IT leaders know their own process better than any vendor does; claims that a security review can be completed in a week when the IT leader knows it takes a month reads as either ignorance or evasion",
+          "Using enterprise client logos without IT-specific references — a Fortune 500 client name does not tell an IT leader whether the deployment was smooth, what the integration work involved, or how the vendor handled security questions; named technical proof points carry more weight than brand names",
+          "Pitching to the IT leader with the same deck used for the business-side buyer — the IT function is evaluating different things; a deck structured around commercial ROI without a section on security, integration, and implementation effort is not calibrated for the conversation",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Channel and sequencing",
+      },
+      {
+        type: "paragraph",
+        text: "LinkedIn works well for reaching IT leaders at mid-market companies where the IT function is not insulated by a formal IT procurement team. CIOs and IT Directors at this scale typically maintain an active LinkedIn presence, engage with vendor and security content, and are open to outreach from vendors who demonstrate genuine knowledge of IT challenges. Meaningful engagement with content they have shared — particularly in the information security, IT leadership, and digital transformation spaces — builds context for a direct outreach that lands differently from cold InMail.",
+      },
+      {
+        type: "paragraph",
+        text: "Email to IT leaders should be specific about the technical context: a reference to their current stack inferred from job descriptions or integration partner lists, a clear statement of the security or compliance story, and a narrow ask that respects their time. The most effective email structures for this persona open with the problem or the security credential, not with the commercial outcome, and ask for a specific technical evaluation conversation rather than a generic discovery call.",
+      },
+      {
+        type: "paragraph",
+        text: "The IT leader is typically not the person who creates urgency in a sales process — they are the person who removes blockers or introduces them. Outreach that positions the conversation as one that makes the IT leader's job easier — by giving them what they need to run a credible security and integration evaluation — is more likely to result in a productive relationship than outreach that positions them as a hurdle to clear on the way to the commercial close. The vendors who understand this structural reality, and engage IT leadership as a genuine stakeholder rather than a process requirement, find the security review stage materially shorter and the resulting relationships materially more stable.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-outreach-coo-vp-operations-saas-buyer",
     category: "SaaS Lead Generation",
     title: "Cold Outreach to COO and VP Operations: Reaching the Buyer Who Controls Business Process Change",
