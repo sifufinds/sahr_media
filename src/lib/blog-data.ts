@@ -27,6 +27,101 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-marketing-feedback-loop",
+    category: "Sales Development",
+    title: "The SDR-to-Marketing Feedback Loop: Turning Outbound Conversations into Sharper Messaging",
+    excerpt:
+      "SDRs run more live conversations with target buyers in a week than most marketing teams run in a quarter. That intelligence rarely makes it back into campaigns, content, or positioning — not because it isn't valuable, but because the structured mechanism to capture and use it doesn't exist.",
+    readTime: "7 min read",
+    date: "22 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "Every day, SDRs hear things that most marketing teams would pay for. The exact phrase a CFO uses to describe the problem your product solves. The objection that comes up in four out of five calls with operations directors. The competitor that gets mentioned every time you prospect into a particular sector. The compliance concern that wasn't on anyone's radar until the SDR team started calling into financial services accounts. This is live market intelligence, gathered in real time from the specific buyers the company is trying to reach — and in most B2B organisations, it circulates briefly in team meetings before disappearing entirely.",
+      },
+      {
+        type: "paragraph",
+        text: "The gap between what the SDR team hears and what appears in marketing content, email campaigns, and sales messaging is not usually a motivational or intentional problem. It is a structural one. There is no defined process for capturing what SDRs learn from conversations, and there is no equivalent mechanism on the marketing side for pulling that signal into campaign and content decisions. The result is a marketing function producing content based on assumptions about buyer language and priorities, while the team doing the most volume of live buyer conversations updates its sequences informally, without the benefit of marketing's research and production capacity.",
+      },
+      {
+        type: "heading",
+        text: "What SDRs actually know that marketing doesn't",
+      },
+      {
+        type: "paragraph",
+        text: "The intelligence gap is specific, not general. SDRs do not necessarily know more than marketing about market size, analyst research, or competitive positioning. What they know — and what marketing typically doesn't — is how individual buyers inside target accounts describe their problems and priorities at the moment of first contact.",
+      },
+      {
+        type: "list",
+        items: [
+          "Objection language: the precise phrasing buyers use to deflect, defer, or decline. 'We've got a project running internally for this' is different from 'We're looking at this next year' — both are deferral, but they indicate different buying situations and require different follow-up framing.",
+          "Competitor presence: which vendors are already embedded in target accounts, how buyers describe them, and which competitors get mentioned versus which are never brought up. This is more granular and current than win/loss analysis.",
+          "Terminology and framing: the language buyers use internally to describe the problem your product addresses. Marketing often describes this problem in product terms or analyst-research terms; buyers describe it in their own operational language, which is frequently different.",
+          "Trigger points: the events, announcements, or operational pressures that make buyers genuinely receptive to a conversation — the signals that surface in real calls rather than in job posting databases or funding alerts.",
+          "Qualification signals: what actually predicts a good meeting versus a time-wasting call. The SDR team develops informal heuristics over time about which companies convert and which don't. These heuristics are rarely documented or shared with marketing in a form that could inform targeting.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Why this intelligence rarely makes it back to marketing",
+      },
+      {
+        type: "paragraph",
+        text: "The SDR and marketing functions in most B2B companies interact primarily around lead quality and volume. Marketing asks whether the leads it generates are being worked; SDRs report conversion rates and push back on lead quality when it deteriorates. This conversation is entirely backwards-looking — it concerns what has already happened, not what SDRs are currently hearing from live prospects.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical barriers are routine: SDR managers do not have a standard format for capturing and surfacing conversation intelligence; marketing teams are running on content calendars and campaign timelines that don't have an obvious intake point for ad-hoc SDR input; and the cadence of the two teams' meetings is different. SDR standups happen daily; marketing reviews happen monthly or quarterly. By the time a marketing team has the bandwidth to absorb SDR input, the specific intelligence that was relevant two months ago may have already been acted on informally or may no longer reflect current market conditions.",
+      },
+      {
+        type: "heading",
+        text: "Building the feedback mechanism",
+      },
+      {
+        type: "paragraph",
+        text: "The mechanism does not need to be complex to be effective, but it does need to be explicit. Informal sharing — mentioning something in a weekly meeting or forwarding a call recording — works occasionally but not consistently. The specific practices that generate a reliable feedback loop are simpler than most teams expect:",
+      },
+      {
+        type: "list",
+        items: [
+          "A structured debrief format for SDRs: a short, standardised set of fields completed after sequences finish, not after every individual call. The fields that matter most are: the most common objection heard in this sequence, any new language used by prospects to describe the problem, any competitors mentioned that weren't expected, and any signals that predicted whether a conversation went well. The format should take under three minutes to complete; anything longer won't be maintained consistently.",
+          "A monthly review between the SDR manager and the marketing lead specifically for messaging inputs — separate from the standard pipeline review. The agenda is straightforward: what did the SDR team hear this month that should change how we describe the problem or position the product? What language do buyers actually use that we're not using in our copy?",
+          "Direct SDR input on campaign briefs: when marketing is drafting a new email sequence, landing page, or content asset for a specific persona, the SDR who calls that persona most regularly should be in the room for one conversation about how that buyer actually talks. This is a one-hour input, not an ongoing committee.",
+          "Competitor intelligence as a standing feed: SDRs hearing new competitor mentions should have a designated channel — Slack, a shared doc, whatever the team uses — where they log it immediately when it surfaces. Marketing cannot act on competitor intelligence it doesn't know about.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What the feedback loop changes in practice",
+      },
+      {
+        type: "paragraph",
+        text: "The practical effect of a working feedback loop is not usually a dramatic messaging overhaul — it is incremental sharpening that compounds over time. Subject lines start using language that prospects recognise rather than language that describes the product well internally. Cold email sequences surface objections proactively rather than waiting for the prospect to raise them, which makes the response feel like a real conversation rather than a template encounter. Content assets start addressing the actual questions that come up in qualification calls rather than the questions the content team assumed would matter.",
+      },
+      {
+        type: "paragraph",
+        text: "The most significant change is often in the specificity of pain-point framing. Marketing copy tends to describe problems at a level of abstraction that is accurate but not resonant — it describes what the problem is, not how it feels operationally to the buyer who lives with it. SDR conversations, over time, generate a library of concrete, specific problem descriptions that come directly from the people who experience them. That library is more useful for persuasive copy than any analyst report or buyer persona document built from secondary research.",
+      },
+      {
+        type: "heading",
+        text: "Common failure modes",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure mode is making the capture process too heavy. If the SDR team is asked to submit detailed call notes, record specific quotes, or fill in extensive post-call forms, compliance degrades within a few weeks and the system stops producing data. The design principle is to capture the minimum information that is actionable for marketing — typically objection language, competitor mentions, and buyer terminology — in a format that takes less time than writing a brief message in Slack.",
+      },
+      {
+        type: "paragraph",
+        text: "The second failure mode is treating the feedback mechanism as a reporting function rather than a decision-making input. If the SDR manager collects data that never visibly changes anything in the marketing output, the team correctly concludes that providing the data has no effect and stops doing it. The feedback loop requires closure in both directions: SDR intelligence should demonstrably change something in messaging, sequences, or content at least occasionally, and when it does, the SDR team should know that it did. That closed loop is what sustains the behaviour on the SDR side over time.",
+      },
+      {
+        type: "callout",
+        text: "The SDR team is running more live conversations with target buyers than any other function in the business. The only question is whether that intelligence shapes how the company communicates with buyers — or stays inside the SDR team's informal knowledge, invisible to everyone else.",
+      },
+    ],
+  },
+  {
     slug: "construction-proactive-outbound-alongside-tender-pipeline",
     category: "Construction Marketing",
     title: "Proactive Outbound Alongside the Tender Pipeline: Building New Business Into a Construction BD Function",
