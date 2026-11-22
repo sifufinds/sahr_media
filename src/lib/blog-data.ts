@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-proactive-outbound-alongside-tender-pipeline",
+    category: "Construction Marketing",
+    title: "Proactive Outbound Alongside the Tender Pipeline: Building New Business Into a Construction BD Function",
+    excerpt:
+      "Most construction BD functions are built to respond. Tender invitations arrive, bids go out, and the pipeline is a function of which clients are procuring. Building a proactive outbound programme alongside this structure generates a different kind of pipeline — accounts the business selects rather than the ones that happen to have an open tender.",
+    readTime: "8 min read",
+    date: "22 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "The traditional construction BD model is fundamentally reactive. Clients issue prequalification questionnaires, tender invitations arrive, bid teams prepare submissions, and the pipeline is a function of which clients are procuring at any given time. This model works, but it creates a structural dependency: the business can only pursue work that clients choose to put out to market, with the companies they choose to invite. There is no mechanism for targeting specific accounts, entering new client relationships before a tender is live, or generating pipeline in markets where the business is not yet known.",
+      },
+      {
+        type: "paragraph",
+        text: "Proactive outbound changes the structure of that pipeline. Rather than waiting for procurement processes to arrive, an outbound programme allows a construction business to identify target clients, establish relationships before the opportunity is in market, and position itself to receive invitations to tender — or to be called directly — when projects move forward. The challenge is integrating this motion into a BD function that has historically operated reactively, without disrupting the management of existing tender relationships and without creating unrealistic expectations about timelines.",
+      },
+      {
+        type: "heading",
+        text: "Why reactive BD creates a coverage problem",
+      },
+      {
+        type: "paragraph",
+        text: "A BD function that relies entirely on incoming tender invitations has no control over the shape of its pipeline. The volume of opportunity in any given quarter is determined by client procurement cycles rather than by the business's growth objectives. This creates specific problems:",
+      },
+      {
+        type: "list",
+        items: [
+          "The business cannot choose which sectors, project types, or client profiles it wants to grow into — it can only respond to what it already receives.",
+          "Entry into a new sector or client type requires either a referral or an unsolicited approach, neither of which fits neatly into a process built around responding to formal procurement.",
+          "When a large client pauses procurement or awards work internally, the BD function has no mechanism to replace that volume in the short term.",
+          "Market share is effectively capped at the clients who already know the business — growing market share requires either referrals, which cannot be reliably engineered, or proactive outreach, which the reactive model does not support.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The symptoms of a reactive-only BD model are usually visible in the pipeline mix: heavy concentration in a small number of existing client relationships, irregular tender volumes that do not align with revenue targets, and difficulty entering new sectors or geographies because there is no process for establishing relationships in markets where the business is not already known.",
+      },
+      {
+        type: "heading",
+        text: "What proactive outbound adds to the construction BD function",
+      },
+      {
+        type: "paragraph",
+        text: "Proactive outbound in a construction context is not primarily about generating immediate tender opportunities — procurement timelines in construction are rarely short. The purpose of outbound at the top of the pipeline is relationship establishment: identifying target clients who match the business's capability profile, initiating contact, and building the familiarity that leads to inclusion on framework agreements, pre-qualification lists, and direct tender invitations when projects move forward.",
+      },
+      {
+        type: "paragraph",
+        text: "This reframes the outbound metric. In a SaaS context, outbound is often measured primarily by meetings booked and pipeline value generated quickly. In construction, the relevant metric for top-of-funnel outbound is new relationships established with target clients — companies that have been contacted, have engaged in some form, and are now known to the BD function as active prospects. The pipeline contribution of these relationships materialises over six to eighteen months as projects move from planning to live procurement.",
+      },
+      {
+        type: "paragraph",
+        text: "The programmes that generate the most return are those that treat outbound and reactive tender management as complementary rather than competing. The BD team handles active tenders; the outbound function — whether run internally or through an external resource — works the relationship-building layer with accounts that do not yet have live procurement.",
+      },
+      {
+        type: "heading",
+        text: "Identifying target accounts for proactive outreach",
+      },
+      {
+        type: "paragraph",
+        text: "The construction market provides a range of signals that can structure a proactive target list far more precisely than a generic company database:",
+      },
+      {
+        type: "list",
+        items: [
+          "Planning applications: UK planning portal data surfaces consented projects before they reach procurement. A developer or main contractor with live planning consent on a project profile that fits the business's capability is a logical outreach target — the project will reach procurement, the question is whether the business is known to the client before it does.",
+          "Published framework results: when public sector clients or large developers announce framework awards, both the winning contractors and the clients issuing those frameworks are publicly visible. A client running a framework in an adjacent sector may have related procurement coming.",
+          "Companies House and industry directories: identifying developers, housing associations, main contractors, or public sector bodies by company size, sector, and location gives a structured basis for a proactive list that the BD function can work systematically.",
+          "Industry press and development announcements: reported deals, joint ventures, land acquisitions, and investment announcements in the trade press create a forward-looking view of which organisations are actively developing and are likely to have procurement activity in the pipeline.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The list that results from these sources should be specific: a named individual at each account, a reason the account has been targeted, and an indication of the likely project type or timing horizon. The discipline of building the list from actual intelligence rather than from a general sector sweep makes the outreach more credible and the relationship-building more efficient.",
+      },
+      {
+        type: "heading",
+        text: "The outreach approach: getting to the right person before the tender",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective first contact with a target construction client does not lead with a capability pitch. At the stage before live procurement, the person responsible for procurement at a developer or main contractor is not actively looking for a supplier introduction — they are managing existing relationships, monitoring frameworks, and dealing with active projects. Cold outreach that opens with a standard credentials presentation is easy to defer.",
+      },
+      {
+        type: "paragraph",
+        text: "The approaches that generate a conversation are those that lead with something specific to the target's current activity: a reference to a project they have in development, a question about their procurement process for a project type the business can demonstrate capability in, or a request for a conversation framed around understanding the client's requirements rather than presenting the business's own. The goal of the first conversation is not to demonstrate capability — it is to understand how procurement at that client works, what their project pipeline looks like, and how they prefer to work with new suppliers.",
+      },
+      {
+        type: "paragraph",
+        text: "This information — how the client runs procurement, who the relevant contacts are, what their timeline looks like — is the output that makes subsequent follow-up relevant rather than generic. The outbound function's job is to surface it; the BD team's job is to manage the relationship once the contact is warm and a project is approaching procurement.",
+      },
+      {
+        type: "heading",
+        text: "Integrating outbound into the BD function without disruption",
+      },
+      {
+        type: "paragraph",
+        text: "The practical integration challenge is that BD managers in construction are already operating at capacity managing active tenders, maintaining existing client relationships, and attending site visits and handover meetings. Adding a proactive outbound programme on top of that workload is not realistic — the reactive pipeline consistently takes priority, and the outbound activity quietly disappears.",
+      },
+      {
+        type: "list",
+        items: [
+          "Separate the ownership clearly: active tender management stays with the BD team. Prospecting and early relationship development with accounts that do not yet have live procurement is handled either by a dedicated internal resource or an external partner with a defined scope.",
+          "Create a handoff protocol: define the point at which a proactively developed contact transitions from the outbound function to the BD team. The trigger is typically a confirmed project in the pipeline with live procurement expected within two to four months.",
+          "Track outbound relationships as a pipeline stage: a CRM category for 'proactively engaged, no live procurement' gives the business visibility of the relationship-building pipeline that does not currently show up in a tender-based tracking system.",
+          "Set expectations around timelines: the value of a proactive outbound programme in construction does not show up in the same quarter it starts. Senior stakeholders need to understand that the investment period is twelve to eighteen months, with pipeline contribution building gradually as relationships mature.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The businesses that consistently win work from new clients in construction are those with a process for getting known before the tender is live. That process cannot be built reactively — it requires sustained, systematic outreach to target accounts in the periods between procurement, which is the work the tender-response function was never designed to do.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-new-vertical-market-entry",
     category: "Sales Development",
     title: "B2B Outbound When You're Entering a New Vertical: Rebuilding Your Programme for an Unfamiliar Market",
