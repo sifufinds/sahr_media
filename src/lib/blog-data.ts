@@ -27,6 +27,128 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-new-vertical-market-entry",
+    category: "Sales Development",
+    title: "B2B Outbound When You're Entering a New Vertical: Rebuilding Your Programme for an Unfamiliar Market",
+    excerpt:
+      "Moving outbound into a second or third vertical is not an extension of the existing programme — it is a fresh calibration problem. The ICP assumptions, messaging angles, and qualification signals that work in a known market are built on data that doesn't exist for a vertical the team has never sold into.",
+    readTime: "8 min read",
+    date: "22 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "When a SaaS company successfully selling into one vertical decides to expand into a second, the natural instinct is to adapt the existing outbound playbook: adjust the personas, update a few lines of copy, and point the same sequences at a new list. This rarely works at the pace the business expects. The ICP assumptions, messaging angles, qualification criteria, and contact-finding processes that work in a known vertical are built on accumulated signal — from closed deals, lost deals, and months of live SDR conversations. None of that signal exists for a new vertical, and treating the existing programme as a starting point rather than a template creates a situation where the team is running outbound confidently but learning almost nothing.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical problem is that poor performance in a new vertical looks similar to poor performance for the wrong reasons in an existing one. Reply rates drop, meetings don't book at the same pace, and it is easy to conclude that the vertical itself doesn't work, when the actual issue is that the outbound programme hasn't been calibrated for how buyers in that vertical actually behave.",
+      },
+      {
+        type: "heading",
+        text: "Why the existing playbook doesn't translate directly",
+      },
+      {
+        type: "paragraph",
+        text: "The existing messaging and sequencing is built on a model of the buyer the team accumulated over time. Objections, timing patterns, the right person to contact first, the triggers that indicate genuine buying intent — all of these are specific to the vertical where the data was gathered. A B2B SaaS product that sells primarily into professional services firms has accumulated a playbook built around professional services firm buying behaviour. When that same product is taken into construction, logistics, or manufacturing, the buying committee structure, the typical decision timeline, the channels buyers are reachable on, and the internal language around problems the product solves are all different.",
+      },
+      {
+        type: "paragraph",
+        text: "The most common symptom is messaging that sounds credible to the sender but doesn't land with the recipient. The value propositions, pain points, and objections the team knows well are expressed in the language and frames of reference of the original vertical. Buyers in a new vertical may have the same underlying problem but describe it differently, feel it in a different operational context, and require a different entry point in the conversation. Mapping existing copy onto a new list assumes the problem is distribution when it is usually understanding.",
+      },
+      {
+        type: "heading",
+        text: "Building an ICP hypothesis before the first message is sent",
+      },
+      {
+        type: "paragraph",
+        text: "Entering a new vertical cold — without historical deal data, without existing customer proof points, without a sales rep who came from the industry — requires a different ICP-building process than the one used to sharpen targeting in a known market.",
+      },
+      {
+        type: "list",
+        items: [
+          "Customer development conversations with two or three potential buyers in the target vertical before the first outbound message is sent. These conversations serve a different purpose from early sales discovery; the goal is to understand how the problem the product solves is experienced in this vertical, what language is used to describe it, who owns it, and what the typical internal process looks like when a company decides to address it.",
+          "Competitor market presence analysis: which existing vendors are established in the target vertical, and what messaging are they using? Job postings, case study pages, conference sponsorships, and industry publication advertising are all intelligence about how the problem space is currently framed and which personas are being targeted.",
+          "Job posting analysis across the target vertical: if the product helps operations teams, what operations roles are being advertised in companies that fit the target profile, and what skill sets and tools are named in those postings? This surfaces the existing tooling context, the language the market uses internally, and signals about which companies have active projects in this area.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The output is not a finished ICP — it is a hypothesis ICP: a specific, falsifiable description of the company profile and persona that the team will test through outbound. The discipline of treating it as a hypothesis rather than a fact changes how the early results are interpreted.",
+      },
+      {
+        type: "heading",
+        text: "First-contact messaging without proof points",
+      },
+      {
+        type: "paragraph",
+        text: "Most B2B outbound programmes rely on social proof from the existing customer base as a core credibility component. Case studies, recognisable logos, and customer outcomes anchor messages and make them more convincing. In a new vertical, this library doesn't exist, which means the opening messaging has to establish credibility differently.",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective approach is to lead with demonstrated understanding of the vertical rather than with claims about the product. A message that shows the sender understands how a specific problem manifests in the prospect's operational context — the workflow it creates friction in, the team it typically sits with, the existing workaround most companies in the vertical use — is more credible than a message that lists product capabilities, even impressive ones. For this to work, the research has to be genuine: the message needs to reflect a real understanding of the vertical, not a generic problem statement recycled from the original market.",
+      },
+      {
+        type: "paragraph",
+        text: "Existing customers from adjacent or comparable verticals can serve as credibility anchors in the absence of vertical-specific proof points, provided the connection is explicit. Naming a customer from a comparable operational context — 'we work with mid-market logistics firms managing similar contract volumes' — is more persuasive than either a vertical-specific case study you don't have or a generic reference list that tells the prospect nothing about their situation.",
+      },
+      {
+        type: "heading",
+        text: "Structuring the pilot: testing before committing full resource",
+      },
+      {
+        type: "paragraph",
+        text: "Entering a new vertical should initially be treated as a structured experiment rather than a full programme launch. The goal of the first 60 to 90 days is to generate enough signal to answer the core questions: Can decision-makers in this vertical be reached efficiently? Does the messaging get engagement? Are the people being targeted actually in a position to buy? Do the conversations feel structurally similar to those in the existing vertical, or is something different about how buyers here approach the problem?",
+      },
+      {
+        type: "list",
+        items: [
+          "A tightly defined initial target list of 150 to 250 companies fitting the hypothesis ICP, rather than a full market sweep. The list size is deliberate: large enough to generate statistically meaningful signal, small enough that every response — including every non-response — can be reviewed and interpreted.",
+          "A short, differentiated sequence of four to five touches over three weeks, with copy built around the vertical's specific language and operational context rather than adapted from existing sequences.",
+          "Clear tracking of reply rates, positive response rates, and meeting booking rates compared to benchmarks from the existing programme. The benchmarks give context for interpreting what the results mean.",
+          "A review cycle every two weeks to assess what the responses are showing and iterate on messaging before adding more contacts to the sequence. The cadence of learning matters as much as the cadence of outreach.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The pilot's value is not primarily in the meetings it books — though those matter — but in the qualitative signal embedded in the responses. Objections, questions, and patterns in who does and doesn't reply all carry information about whether the initial ICP hypothesis was right.",
+      },
+      {
+        type: "heading",
+        text: "Qualifying without a calibrated framework",
+      },
+      {
+        type: "paragraph",
+        text: "Qualification frameworks developed for the original vertical will not map directly onto a new one. The triggers that indicate genuine near-term buying intent in one industry — specific headcount thresholds, particular tech stack combinations, funding events at particular stages — are not universal. Early-stage qualification in a new vertical should be treated as explicit learning. Reps should be briefed that the goal of initial conversations is as much to understand what qualifies a buyer in this vertical as it is to advance individual deals.",
+      },
+      {
+        type: "paragraph",
+        text: "The questions that surface this information are not unusual: they are standard discovery questions about timeline, budget ownership, decision process, and business context. What makes them valuable at this stage is that the answers are being tracked across conversations to build a vertical-specific picture, not just used to score individual leads. After ten to fifteen discovery conversations, patterns emerge about which company attributes and which prospect responses predict a conversation worth advancing — and those patterns can be formalised into qualification criteria for the scaled programme.",
+      },
+      {
+        type: "heading",
+        text: "Deciding when to scale and when to stop",
+      },
+      {
+        type: "paragraph",
+        text: "The clearest mistake in new vertical outbound is committing resources too early or waiting too long for a signal. The pilot period is supposed to surface enough data to make one of three decisions: scale the programme with confidence, iterate further on ICP or messaging before scaling, or redirect resource to a different opportunity.",
+      },
+      {
+        type: "list",
+        items: [
+          "Meeting rates within a reasonable range of the existing programme, adjusted for the absence of vertical-specific social proof, suggest the ICP is sufficiently accurate and the messaging is landing.",
+          "Positive response patterns that show genuine problem recognition — prospects engaging with the specific pain framing rather than asking what the product is — indicate the vertical understanding is correct.",
+          "At least two or three conversations that have advanced to evaluation-stage discussions confirm that the sales motion itself is replicable in this market.",
+          "Consistently confused or non-resonant responses, or a pattern of reaching contacts who understand the pitch but are not the actual buyer internally, suggest the ICP hypothesis needs revision before additional resource is committed.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "Scaling a new vertical outbound programme before the pilot has generated clear signal wastes SDR capacity and can generate false conclusions about whether the vertical itself is viable. The discipline of running the pilot properly — small list, short sequence, rapid review cycles — is what makes the go/no-go decision evidence-based rather than a function of optimism or time pressure.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-budget-constrained-buyers-cost-pressure",
     category: "Sales Development",
     title: "B2B Outbound Under Budget Pressure: Adjusting Targeting, Messaging and Cadence When Buyers Are Cutting Costs",
