@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-sdr-pod-vs-territory-team-structure",
   "b2b-sdr-marketing-feedback-loop",
   "construction-proactive-outbound-alongside-tender-pipeline",
   "b2b-outbound-new-vertical-market-entry",

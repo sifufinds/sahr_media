@@ -27,6 +27,103 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-pod-vs-territory-team-structure",
+    category: "Sales Development",
+    title: "Pod Model vs Territory Model: Structuring Your B2B SDR Team as It Scales",
+    excerpt:
+      "The two dominant structures for B2B SDR teams make fundamentally different trade-offs around accountability, coaching, and scalability. The right choice depends on deal complexity, AE headcount, and where accountability most easily breaks down in your specific motion.",
+    readTime: "7 min read",
+    date: "23 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Every B2B sales development team reaches the same structural decision as it moves beyond two or three SDRs. Do you pair SDRs with specific account executives — the pod model — or give each SDR an independent territory and let meeting-to-AE assignment flow through a rotation? The choice shapes almost everything downstream: how SDRs are measured, how AEs engage with the pipeline their SDRs generate, how ownership of a stalled account is handled, and how the team responds when a key person leaves. Most sales leaders make this structural choice early, without enough information about its trade-offs, and find the costs of the wrong model appearing twelve to eighteen months later.",
+      },
+      {
+        type: "paragraph",
+        text: "The pod model and territory model each have genuine strengths. Neither is universally right, and their failure modes are different enough that applying the wrong model in the wrong context produces predictable, specific problems — not just generic underperformance. The clearest signal that a team is using the wrong structure is usually that it appears to have an SDR problem when it actually has a structural accountability problem.",
+      },
+      {
+        type: "heading",
+        text: "What the pod model means in practice",
+      },
+      {
+        type: "paragraph",
+        text: "In a pod structure, one or two SDRs are dedicated to a specific AE or small group of AEs. The SDR's quota is tied to supporting that AE's pipeline — they prospect into the AE's named account list, and qualified meetings they book go to their pod AE. Performance measurement typically covers meetings held and pipeline generated for that AE, and in some versions, closed revenue attributed to SDR-sourced pipeline.",
+      },
+      {
+        type: "paragraph",
+        text: "The underlying logic is that tight coupling creates shared accountability. An SDR who works consistently with the same AE learns their style, their wins, and the objections common to their accounts. Handoffs become less transactional over time: the SDR who booked a meeting has an interest in its outcome because their pod AE is the one who closes it. The AE, in turn, has a reason to coach and develop their SDR, since poor handoffs and unqualified meetings affect their own pipeline directly. This coaching relationship is the most cited reason teams choose pods — and also the most frequently overestimated.",
+      },
+      {
+        type: "heading",
+        text: "What the territory model means in practice",
+      },
+      {
+        type: "paragraph",
+        text: "In a territory structure, each SDR owns a defined set of accounts — by company size, geography, vertical, or some combination — and is measured on qualified meetings booked regardless of which AE receives them. Meeting-to-AE assignment happens by rotation or some other rule that distributes load across the AE team. The SDR's accountability is to the volume and quality of qualified conversations they generate, not to any individual AE's success.",
+      },
+      {
+        type: "paragraph",
+        text: "The separation of accountability is intentional. SDRs cannot control whether an AE closes a deal, manages an opportunity well, or turns up prepared to a meeting the SDR worked hard to book. Territory structures remove that dependency from the SDR's measurement. The SDR is accountable for what they control; the AE is accountable for theirs. This model tends to appeal to leaders who have watched high-performing SDRs leave because their measured results suffered through no fault of their own.",
+      },
+      {
+        type: "heading",
+        text: "When pods work best",
+      },
+      {
+        type: "list",
+        items: [
+          "Enterprise or complex-deal sales where AE involvement in account strategy starts early. When an AE needs to understand an account for months before a deal is live, having an SDR working the same account list builds continuity of intelligence. Both develop a shared understanding of target accounts that a rotating structure would not support. The SDR surfaces context from outbound conversations — competitive mentions, internal changes, procurement timelines — that the AE feeds into account strategy.",
+          "Early-career SDRs who benefit from close AE mentorship. New SDRs learn the product, the market, and qualification criteria faster when working alongside an experienced AE who has a stake in the outcome. The pod structure creates that incentive for the AE to invest time in the SDR's development. Without it, AE coaching of SDRs is optional rather than self-interested.",
+          "Sales motions where account assignment is already cleanly segmented by AE. When AEs are divided by industry vertical, company size band, or geography in a way that creates natural segments, pod assignment is straightforward and doesn't require complex routing rules.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "When territory models work best",
+      },
+      {
+        type: "list",
+        items: [
+          "When the team has more SDRs than natural pod assignment supports. A team of eight SDRs and four AEs creates awkward pairing ratios. Unless deal complexity genuinely justifies two SDRs per AE, territory structures keep accountability cleaner without forcing artificial coupling.",
+          "When AE quality varies significantly. In a pod model, an SDR paired with a weak AE will show worse numbers than an equally skilled SDR paired with a strong closer — through no fault of their own. If AE performance varies widely, territory structures decouple SDR results from outcomes the SDR cannot control, which is essential for both morale and meaningful performance assessment.",
+          "High-velocity SMB or mid-market motions with many deals per month. When deal cycles are short and booking volume is high, the tight coupling of pod structure adds management overhead without proportionate benefit. Territory-based structures with clean round-robin assignment are faster and simpler to operate at that volume.",
+          "When SDR headcount is scaling faster than AE capacity. Adding a new SDR to a rotation is structurally simpler than redesigning pod assignments every time headcount changes. If you are hiring SDRs ahead of AE capacity — a common pattern in the first year of a funded outbound build-out — territory structures adapt more cleanly to the imbalance.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Hybrid structures and when they make sense",
+      },
+      {
+        type: "paragraph",
+        text: "Many teams that have operated both models converge on a hybrid: SDRs have defined account territories and are measured on activity and meeting quality, but informal preferred AE assignments exist for strategic accounts or specific segments. The SDR prospecting into large enterprise accounts is effectively partnered with the enterprise AEs even without a formal pod structure; the SDR working the mid-market segment books into rotation.",
+      },
+      {
+        type: "paragraph",
+        text: "Hybrids work when the management overhead is kept deliberately low and ownership is made explicit. They fail when informality creates confusion: when a meeting falls through and both the SDR and the AE each expect the other to follow up, or when a strategic account is simultaneously being prospected by two SDRs because territory ownership was never cleanly established. The hybrid is a valid model, but it requires the same precision about accountability as either pure structure — probably more, because the ambiguity has to be managed rather than designed away.",
+      },
+      {
+        type: "heading",
+        text: "Common failure modes in each structure",
+      },
+      {
+        type: "paragraph",
+        text: "Pod failure modes are consistent. The SDR's performance becomes hostage to their paired AE's effectiveness: when the AE underperforms, mishandles meetings, or manages pipeline poorly, the SDR's measured results suffer and the team risks losing the wrong person. The second common failure is that the AE, feeling well-supported, reduces their own prospecting effort entirely and applies increasing pressure on the SDR to generate more volume than the pod can sustainably produce. When this dynamic sets in, the SDR's role quietly shifts from development activity to filling a gap the AE created.",
+      },
+      {
+        type: "paragraph",
+        text: "Territory failure modes are different. The core problem is that SDRs with no stake in what happens after the meeting is booked can develop incentives to book meetings that look qualified without being genuinely so. If the SDR's quota is meetings booked and the AE's quota is revenue, there is no structural mechanism that keeps those incentives aligned. Well-designed territory structures address this by measuring SDR contribution on meetings held and pipeline generated rather than meetings booked — but this requires consistent AE feedback on lead quality after each meeting, which often does not happen reliably in practice without an explicit process to enforce it.",
+      },
+      {
+        type: "callout",
+        text: "The structural decision is worth making deliberately — not defaulting to pods because it sounds collaborative, or to territories because it sounds cleaner. The right starting question is: in this business, with this deal type and this AE team, where does accountability most easily break down — and which structure makes that failure visible early rather than late?",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-marketing-feedback-loop",
     category: "Sales Development",
     title: "The SDR-to-Marketing Feedback Loop: Turning Outbound Conversations into Sharper Messaging",
