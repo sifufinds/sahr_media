@@ -27,6 +27,121 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-investment-business-case-board-buy-in",
+    category: "Sales Development",
+    title: "The Business Case for Outbound: How to Win Budget and Board Buy-in for an SDR Programme",
+    excerpt:
+      "Making the internal case for outbound investment is as much a sales exercise as running the programme itself. Here is what a credible business case covers — and where most attempts lose the room before the first SDR is hired.",
+    readTime: "7 min read",
+    date: "23 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Building the internal case for an outbound SDR programme is a different kind of problem from building the programme itself. The stakeholders are not buyers with a recognised pain — they are budget holders who may be unconvinced that outbound is the right investment at all. The objections are real: outbound is expensive, it takes time to work, and the revenue case is easier to model in theory than to deliver in practice. Getting to yes with a CFO or board requires the same precision as qualifying a sales prospect — and most outbound proposals fail because they treat the internal decision as a formality rather than a sale.",
+      },
+      {
+        type: "paragraph",
+        text: "This post covers what a credible business case for outbound investment needs to establish, the objections it must address in advance, and where most internal proposals lose the room before the first SDR has been hired.",
+      },
+      {
+        type: "heading",
+        text: "Why the ask is harder than it looks",
+      },
+      {
+        type: "paragraph",
+        text: "The budget request for an outbound SDR programme is unusual because its benefits are front-loaded with costs and back-loaded with returns. Unlike marketing spend, which at least generates visible impressions and clicks quickly, an SDR programme's output — qualified pipeline — is invisible for the first two to three months while ramp-up occurs. The SDR is in the building, the salary is running, and the pipeline contribution is near zero. That gap between investment and return is the central problem any business case has to solve.",
+      },
+      {
+        type: "paragraph",
+        text: "It also cannot be solved by assertion. Claiming the programme will work, that similar companies have done it successfully, or that the team is confident — none of that moves a sceptical CFO. What moves them is a model they can test against and a plan they can hold someone accountable to.",
+      },
+      {
+        type: "heading",
+        text: "Before the numbers: establishing the right conditions exist",
+      },
+      {
+        type: "paragraph",
+        text: "The numbers only matter if the basic conditions for outbound to work are present. A business case that skips the conditions and goes straight to the pipeline model will face the more credible version of the question from the board: how do you know outbound will work for this business at this stage?",
+      },
+      {
+        type: "list",
+        items: [
+          "A validated ICP: enough won customers in a specific segment that the programme has a direction rather than a hypothesis to test.",
+          "A realistic target market size: enough addressable accounts to sustain a programme through ramp and steady state without the SDR exhausting the list in the first six months.",
+          "Sufficient deal economics: average deal values and sales cycle lengths that justify the cost of an SDR. Businesses with very low ACV or very long enterprise cycles need to model carefully whether the investment pays back inside a reasonable horizon.",
+          "A hypothesis about which outbound channels will work: not certainty, but a reasoned view based on how similar buyers in the target segment behave.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "These are not tick-box exercises. If the ICP is not validated, the business case is a bet, and experienced investors and operators will recognise it as one. If the target market is too small, the SDR will exhaust the addressable accounts before the programme reaches steady state.",
+      },
+      {
+        type: "heading",
+        text: "Building the pipeline model",
+      },
+      {
+        type: "paragraph",
+        text: "The revenue model in an outbound business case works backwards from the revenue target. The specific inputs vary by business, but the structure is consistent: take the annual revenue target from new logo acquisition, divide by average new logo ACV to get the number of deals required, apply the assumed SDR-sourced share of new logo pipeline, then divide by the meeting-to-close conversion rate to get the total qualified meetings required. That determines how many meetings per SDR per month the programme needs to generate at capacity.",
+      },
+      {
+        type: "paragraph",
+        text: "Working through this model with realistic inputs — not aspirational ones — tells you how many SDRs you need and how long until their contribution covers their cost. The model should be tested against pessimistic assumptions: lower conversion rates, longer ramp, higher early-hire churn. If the business case only works under best-case assumptions, say so explicitly rather than burying it in the numbers. Boards that have approved plans built on optimistic projections have good institutional memories about what happens when reality arrives.",
+      },
+      {
+        type: "heading",
+        text: "The cost frame and payback period",
+      },
+      {
+        type: "paragraph",
+        text: "SDR programme costs are easier to model than pipeline contribution, which is part of why business cases sometimes overspecify the cost side and underspecify the revenue model. The cost of a full-cycle outbound programme includes: SDR salaries, manager overhead, tooling (CRM, sequencing platform, data subscriptions), and the leadership and onboarding time invested during ramp.",
+      },
+      {
+        type: "paragraph",
+        text: "The payback period — the point at which the pipeline generated by the programme covers its cumulative cost — varies depending on deal velocity and win rate. For enterprise sales with long cycles, this can extend to twelve to eighteen months; for mid-market or SMB SaaS with shorter cycles, six to nine months is achievable with a well-run ramp. The business case should state the payback period explicitly. If the payback period exceeds the company's planning horizon, the investment may be premature regardless of the eventual return.",
+      },
+      {
+        type: "heading",
+        text: "Objections the CFO will raise",
+      },
+      {
+        type: "paragraph",
+        text: "'We haven't been able to make this work before.' Past failure is the most credible objection. The business case needs to explain what was different then — the wrong ICP, insufficient ramp time, under-resourced tooling, the wrong sequencing strategy — with enough specificity to be convincing. Asserting that it will be different this time without explaining the mechanism is not a sufficient answer.",
+      },
+      {
+        type: "paragraph",
+        text: "'The pipeline model assumes conversion rates we haven't demonstrated.' Conversion rate assumptions are always contestable. The right response is to show what happens to the model if conversion rates are half of your projection — and to make the case that even at reduced rates, the investment has an acceptable return.",
+      },
+      {
+        type: "paragraph",
+        text: "'Why outbound instead of investing more in inbound or product?' This is the opportunity-cost question. The honest answer is that outbound and inbound serve different strategic purposes: outbound is a targeted, controllable channel that can reach specific companies at a specific time regardless of whether they are searching for a solution. Inbound is a volume channel that waits for buyers to self-identify. The right comparison is not which is cheaper per lead but which best serves the company's current growth objective and target account strategy.",
+      },
+      {
+        type: "paragraph",
+        text: "'How do we know the right hire is available and affordable?' Hiring risk is real and often underweighted in outbound business cases. The plan should address it: what profile is being recruited for, what does that profile cost in the current UK market, and what happens if the first hire underperforms and needs to be replaced?",
+      },
+      {
+        type: "heading",
+        text: "What makes a business case credible",
+      },
+      {
+        type: "list",
+        items: [
+          "It is honest about the ramp period and the gap between first hire and first contribution. Boards and CFOs have seen enough optimistic projections to distrust cases that minimise this period or skip it entirely.",
+          "It is built on the company's own data where possible. Using the existing win rate, average deal size, and sales cycle length from closed deals — rather than industry benchmarks — makes the model testable and shows the proposer has done the work.",
+          "It includes a credible plan for underperformance. An explicit review trigger — if we are below a defined meetings-held threshold by quarter two, we will assess — gives the board a reason to approve rather than wait for certainty that never arrives.",
+          "It asks for a specific, bounded thing: not 'budget for outbound' but 'one SDR hire, plus tooling, with a six-month review.' Incremental asks are easier to approve and produce data faster than large up-front commitments.",
+          "It names who is accountable for delivery. A business case without a named owner is a theoretical document, not a plan.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "The business case is itself a proof of concept. If the person making the case cannot clearly state what success looks like, what the inputs to the model are, and what the plan is if the programme underperforms, that is exactly the kind of weak preparation that tends to characterise poorly-run outbound programmes. The rigour of the case signals the rigour of the execution.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-pod-vs-territory-team-structure",
     category: "Sales Development",
     title: "Pod Model vs Territory Model: Structuring Your B2B SDR Team as It Scales",
