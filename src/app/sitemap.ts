@@ -50,6 +50,7 @@ const staticRoutes: MetadataRoute.Sitemap = [
 ];
 
 const blogSlugs = [
+  "b2b-case-study-cold-outreach-social-proof",
   "b2b-sdr-investment-business-case-board-buy-in",
   "b2b-sdr-pod-vs-territory-team-structure",
   "b2b-sdr-marketing-feedback-loop",

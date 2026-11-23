@@ -27,6 +27,123 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-case-study-cold-outreach-social-proof",
+    category: "Sales Development",
+    title: "How to Deploy Case Studies in Cold Outreach: Turning Social Proof into Booked Meetings",
+    excerpt:
+      "Most SDR teams either ignore case studies in cold outreach or use them like marketing attachments that get deleted. Here is how to extract and deploy social proof that moves sceptical prospects toward a conversation.",
+    readTime: "7 min read",
+    date: "23 Nov 2026",
+    color: "#0EA5E9",
+    content: [
+      {
+        type: "paragraph",
+        text: "SDR teams that have strong case studies often fail to use them well in cold outreach. The two failure modes are: ignoring them altogether and writing purely problem-led emails, or deploying them as attachments and links that the prospect never opens. Neither approach uses case studies for what they are actually good at in outreach — providing a brief, credible signal that a problem the prospect recognises has been solved for someone in a similar position.",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge is that most case studies are written for a different purpose. Website case studies are designed for a prospect who has already decided to investigate a category and wants validation before agreeing to a demo. Cold outreach operates at a different stage — the prospect has not yet decided whether to pay attention. Importing website-style case study language into an email sequence produces content that reads like a brochure, not a relevant conversation.",
+      },
+      {
+        type: "heading",
+        text: "Why case studies fall flat when used directly in cold email",
+      },
+      {
+        type: "paragraph",
+        text: "The instinct behind adding a case study link to a cold email is reasonable: you are trying to demonstrate credibility before asking for time. The problem is that cold email functions as a summary medium. Prospects spend a few seconds scanning the email before deciding whether to engage or archive. A link to a case study document requires them to context-switch and do work — opening a PDF, navigating to a page — before they have decided whether you are worth engaging with. Almost no one does it.",
+      },
+      {
+        type: "paragraph",
+        text: "Attaching the case study as a PDF compounds this. Attachments in cold email are a deliverability risk — they increase the probability that the email is filtered before the prospect even sees it. Even when they land, an attachment signals to most business professionals that the sender is thinking in marketing mode rather than conversation mode. The implicit ask in a cold email is small: a few minutes to read, potentially a reply. An attachment inflates the implied ask before the prospect has agreed to anything.",
+      },
+      {
+        type: "heading",
+        text: "The two modes for referencing social proof in outreach",
+      },
+      {
+        type: "paragraph",
+        text: "There are two effective ways to reference social proof in cold outreach sequences. The first is a brief name drop: a single sentence that signals you have worked with a comparable company. 'We work with [Company] in a similar space and helped them address exactly this' costs the prospect almost no reading time and signals relevance without asking them to engage further. It is not a proof point; it is a credibility marker.",
+      },
+      {
+        type: "paragraph",
+        text: "The second is a parallel draw — a short description of a customer's situation that mirrors what you believe to be the prospect's situation. 'A [company type] we work with had the same challenge: their SDR team was generating meetings but conversion into qualified pipeline was consistently below target. Within two quarters they had restructured their outbound ICP and [brief outcome].' This requires more words and more space in the email, so it belongs in a later sequence touch rather than the first contact.",
+      },
+      {
+        type: "paragraph",
+        text: "The choice between name drop and parallel draw depends on two things: how much space you can afford in the message, and how clearly the prospect's situation matches the case study. If the match is tight, the parallel draw earns its word count. If the match is approximate, the name drop is safer — a strained parallel draw is worse than no case study reference at all.",
+      },
+      {
+        type: "heading",
+        text: "Extracting what actually works from your case studies",
+      },
+      {
+        type: "paragraph",
+        text: "Most case study documents are not structured for extraction into cold email. They include background sections, process descriptions, and quotes that have no value in outreach. What you need for a cold email reference is specific and limited.",
+      },
+      {
+        type: "list",
+        heading: "What to pull from each case study for outreach use:",
+        items: [
+          "A plain-language problem statement. Not 'optimising their go-to-market motion' but 'their SDR team was booking meetings that weren't converting past first call.' Specificity is what makes the reference land.",
+          "A company descriptor that signals relevance without naming the customer if confidentiality is a concern. 'A UK-based Series B HR technology company' is specific enough to be credible and vague enough to protect the relationship.",
+          "What the customer had tried before that wasn't working. The failed prior approach is often the most resonant part — it signals that your solution isn't the obvious first attempt, which adds credibility.",
+          "A core outcome, expressed as precisely as the data supports. If the outcome is accurately quantified, use the number. If the attribution is uncertain, describe the direction without a figure: 'pipeline-to-close conversion improved materially in the following two quarters.'",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The constraint on outcomes is worth taking seriously. Rounding up numbers, attributing results that are plausibly caused by other factors, or using outcomes from an atypical engagement as though they were representative — these undermine the credibility of every case study reference in your sequences. A precisely described qualitative outcome is more persuasive than an impressive-sounding number that experienced buyers will treat as a marketing claim.",
+      },
+      {
+        type: "heading",
+        text: "Industry match versus problem match",
+      },
+      {
+        type: "paragraph",
+        text: "The instinct when selecting a case study for outreach is to choose the one that most closely matches the prospect's industry. That is usually the right call, but problem match is often more persuasive than sector match. A prospect who recognises their own problem described precisely — even in a different industry context — will engage more readily than a prospect who sees the right sector name attached to a problem that doesn't resemble theirs.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, this means you need a short description of the problem context for each case study that an SDR can quickly evaluate against a prospect's likely situation. 'High inbound lead volume, poor conversion to qualified pipeline, underinvestment in SDR qualification infrastructure' is a problem description that an SDR can match to a prospect with reasonable confidence, regardless of which sector the case study comes from. Building a simple reference document that maps your case studies by problem type rather than just by industry makes this matching faster and more consistent across the team.",
+      },
+      {
+        type: "heading",
+        text: "Positioning case studies across a sequence",
+      },
+      {
+        type: "paragraph",
+        text: "Where in a sequence social proof lands matters as much as how it is phrased. Using case study references in touch one tends to read as a marketing claim — the prospect hasn't yet decided whether to engage with you, so a reference to your past work reads as self-promotion rather than relevance. The first email is usually better served by a clear problem articulation that makes the prospect think 'this person understands what we're dealing with.'",
+      },
+      {
+        type: "list",
+        heading: "A practical approach to sequencing social proof:",
+        items: [
+          "Touch 1: Establish the problem clearly. No case study reference needed. The goal is to make the prospect recognise their own situation.",
+          "Touch 2 (follow-up after no reply): Brief name drop. 'I work with a number of [company type] organisations dealing with exactly this — wanted to flag it in case the timing is better now.'",
+          "Touch 3: Parallel draw. A short description of a comparable customer's situation and outcome, written as a reason to respond now.",
+          "LinkedIn touch: Share a brief reference to a relevant result, framed as a question. 'We recently helped a [company type] address [problem] — does that resonate with what you're working on?'",
+          "Final email: Close with a brief social proof reference as the reason for one last attempt. 'Given the results we've had with similar [sector] businesses, I wanted to try once more before closing your file.'",
+        ],
+      },
+      {
+        type: "heading",
+        text: "What to avoid",
+      },
+      {
+        type: "paragraph",
+        text: "Do not name-drop a prospect's direct competitor unless you are certain it will read as a signal of category fit rather than a threat. For many buyers, seeing a named competitor in a cold email raises more anxiety than interest — 'are they going to share our data?' is a real concern, not an irrational one. Where sector competitors exist in your case study portfolio, use descriptive references rather than company names.",
+      },
+      {
+        type: "paragraph",
+        text: "Do not use the same case study reference for every prospect in a sequence. Sales engagement platforms make it easy to send identical follow-up emails at scale — but prospects who receive a generic social proof reference can tell it is generic. The parallel draw only works if the drawn parallel is real. If it isn't, the email does the opposite of what it is supposed to: it signals that the sender hasn't thought specifically about this prospect's situation.",
+      },
+      {
+        type: "callout",
+        text: "The best use of a case study in cold outreach is as a brief signal of relevance, not a document for the prospect to read. If you can get a prospect to think 'that sounds like our situation' in two sentences, the case study has done its job. Everything beyond those two sentences is for the prospect who is already leaning toward a reply.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-investment-business-case-board-buy-in",
     category: "Sales Development",
     title: "The Business Case for Outbound: How to Win Budget and Board Buy-in for an SDR Programme",
