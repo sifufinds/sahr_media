@@ -27,6 +27,122 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-outbound-reporting-leadership-performance",
+    category: "Sales Development",
+    title: "B2B Outbound Reporting: Building the Performance Story for Leadership",
+    excerpt:
+      "Every outbound programme faces the leadership question: 'Is this working?' The numbers that answer it are not the same numbers you track day-to-day — here is how to structure reporting that keeps leadership confident in the programme.",
+    readTime: "7 min read",
+    date: "24 Nov 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Outbound programmes get killed for two reasons. The first is genuine underperformance. The second is a failure to report on performance in a way that leadership can interpret correctly. The second reason is more common than it should be, and it costs functioning programmes their budget and their time before they have had the chance to mature.",
+      },
+      {
+        type: "paragraph",
+        text: "The problem is that the people running outbound and the people evaluating it are using different mental models for what 'working' looks like. An SDR manager tracks activity volume, response rates, and meeting booked rates. A CFO or CEO looking at the same programme wants to know what pipeline it is producing and what the cost per qualified opportunity is trending toward. Neither is wrong. But if you present SDR activity data to a CFO and try to use it to defend the programme, you are answering the wrong question. Getting reporting right means knowing which question each audience is actually asking.",
+      },
+      {
+        type: "heading",
+        text: "Why operational metrics don't translate to leadership confidence",
+      },
+      {
+        type: "paragraph",
+        text: "The day-to-day metrics for running an outbound programme — calls made, emails sent, connection request acceptance rates, reply rates — are process metrics. They tell you whether the machine is running and whether specific inputs are producing outputs. They are essential for diagnosing problems and improving execution. But they don't tell leadership whether the investment is justified.",
+      },
+      {
+        type: "paragraph",
+        text: "When an outbound programme is presented to leadership using activity data, the typical response is a question about pipeline. How many qualified meetings are being booked? What is happening with those meetings downstream? Are they converting to proposals and to revenue? If you can't answer those questions quickly and clearly, the activity data becomes a liability rather than an asset — it looks like busy work dressed up as a results report.",
+      },
+      {
+        type: "heading",
+        text: "The three-layer reporting structure",
+      },
+      {
+        type: "paragraph",
+        text: "A useful outbound reporting structure has three layers, each serving a different audience and timeframe. Understanding which layer to lead with in a given context is as important as getting the numbers right.",
+      },
+      {
+        type: "list",
+        heading: "The three layers:",
+        items: [
+          "Activity layer — calls, emails, LinkedIn touchpoints, outbound sequences initiated. This is for SDR managers and team leads, reviewed weekly. It diagnoses whether the programme is executing at the right volume and identifies individual rep variances. It should not be the primary thing presented to senior leadership unless the team is significantly under-activity targets.",
+          "Pipeline layer — qualified meetings booked, meetings held vs. no-shows, opportunities created from outbound, pipeline value by stage. This is the core leadership metric and should be the centrepiece of any monthly or quarterly business review. It answers whether the outbound engine is producing real commercial opportunities.",
+          "Revenue layer — outbound-sourced revenue closed, outbound contribution to total new business, average deal value from outbound-sourced opportunities vs. inbound. This is a lagging indicator that only becomes meaningful six to eighteen months into a programme, depending on your sales cycle length. Leading with this too early misleads leadership about the programme's current state.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Setting expectations around timeframes",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most common reporting failures is presenting an outbound programme to leadership without establishing the right timeframes for each layer. Activity results are visible within the first week. Pipeline results typically begin to materialise in weeks four through eight, once the first sequence completions and follow-through meetings occur. Revenue results depend entirely on your sales cycle — for a SaaS product with a two-to-three month average sales cycle, outbound-sourced revenue might begin appearing in month three or four of the programme. For a construction company with a twelve-to-eighteen month project pipeline, you would not expect revenue attribution until well into the second year.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical implication is that you need to set these expectations at programme launch, in writing, and revisit them in every leadership review. If leadership expects revenue results in month two of a programme where your average sales cycle is six months, no amount of strong pipeline data will keep the programme alive. The agreement between the outbound programme and its stakeholders needs to specify what will be measured, when, and what acceptable ranges look like at each stage.",
+      },
+      {
+        type: "heading",
+        text: "Leading and lagging indicators: which to surface when",
+      },
+      {
+        type: "paragraph",
+        text: "In the early months of a programme, all you have are leading indicators — activity, sequence engagement, early pipeline. These need to be framed honestly: they indicate that the programme is building, not that it has succeeded. The most useful leading indicator to highlight early on is the number of qualified meetings held. A meeting with a genuinely qualified prospect is a verifiable signal that the target list, messaging, and execution are working well enough to produce commercial interest. It is not a closed deal, but it is a real event that leadership can understand and trust.",
+      },
+      {
+        type: "paragraph",
+        text: "As the programme matures, your reporting should progressively shift emphasis from activity to pipeline to revenue. A programme running for six months should be measured primarily on pipeline created and opportunity conversion rates. A programme running for eighteen months should include revenue attribution and cost-per-acquisition analysis. Trying to report on a six-month-old programme using the same metrics you used at week four suggests the programme hasn't matured — which may be the wrong signal to send, even if it is technically what your data shows.",
+      },
+      {
+        type: "heading",
+        text: "The comparison question leadership will always ask",
+      },
+      {
+        type: "paragraph",
+        text: "At some point, every leadership team asks how outbound-sourced pipeline compares with inbound. The question is natural — both are sources of new business, and comparing them gives a rough sense of relative cost and return. Answer it proactively rather than waiting for it to be asked. You need two things: an agreed definition of what counts as outbound-sourced versus inbound-sourced, and a consistent way to track it in your CRM. First-touch attribution is imprecise — a prospect who read your content and then responded to an SDR email is a reasonable grey area — which is exactly why you need an agreed rule rather than an ad hoc interpretation at review time.",
+      },
+      {
+        type: "paragraph",
+        text: "If you don't control the attribution definition, leadership will apply their own interpretation, which often undersells the outbound contribution. Deals where the first contact was outbound but later stages involved marketing touchpoints are frequently miscategorised as marketing-sourced. Without a clear and enforced attribution rule, outbound will consistently look smaller than it is relative to inbound — a problem that compounds over time and makes the programme harder to justify.",
+      },
+      {
+        type: "heading",
+        text: "What belongs in a monthly leadership report",
+      },
+      {
+        type: "list",
+        heading: "A practical structure for a monthly outbound update to leadership:",
+        items: [
+          "Programme health summary — one paragraph: are we on track, ahead, or behind on the agreed pipeline target for this stage of the programme, and what is driving the variance.",
+          "Pipeline created this month — number of qualified meetings held, opportunities created, total outbound pipeline value added. Compare to target and to prior month.",
+          "Funnel conversion rates — meetings booked to held, meetings held to opportunity created, opportunities to proposal stage. Even early in a programme, these conversion rates tell a coherent story about where the funnel is working and where it needs attention.",
+          "Top accounts in pipeline — a short list of the most commercially interesting opportunities currently active from outbound. This anchors the numbers in real accounts leadership can recognise, which significantly increases confidence in the programme.",
+          "Forecast for next month — what pipeline you expect to create, based on sequences currently running and meetings already booked.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Handling the 'is this working' question before it becomes a crisis",
+      },
+      {
+        type: "paragraph",
+        text: "The most dangerous version of the 'is this working' question is the one that arrives in a board meeting or a finance review without any prior context. If leadership has only seen activity data and no pipeline data, and they are now asking whether the programme is producing returns, you are in a reactive position and the programme's continuation is at risk regardless of whether the underlying performance is actually good.",
+      },
+      {
+        type: "paragraph",
+        text: "The defence is proactive reporting. A well-structured monthly report, delivered consistently, keeps leadership informed at the right level and frames the conversation before it becomes a crisis. It also surfaces underperformance early enough to diagnose and fix it before it becomes a cancellation decision. Outbound programmes that survive long enough to produce meaningful revenue almost always have a reporting structure that keeps leadership grounded in realistic expectations at every stage of the build.",
+      },
+      {
+        type: "callout",
+        text: "Outbound reporting is not about making numbers look good — it is about giving leadership the right frame to interpret what they are seeing. A programme that is genuinely on track can still be cancelled if the reporting tells the wrong story at the wrong altitude. Build the three-layer structure before you need it, set expectations in writing, and report on pipeline — not just activity — from month one.",
+      },
+    ],
+  },
+  {
     slug: "linkedin-sales-navigator-boolean-search-b2b-prospecting",
     category: "Sales Development",
     title: "LinkedIn Sales Navigator Boolean Search: Building a Precise B2B Prospect List",
