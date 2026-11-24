@@ -27,6 +27,102 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "linkedin-sales-navigator-boolean-search-b2b-prospecting",
+    category: "Sales Development",
+    title: "LinkedIn Sales Navigator Boolean Search: Building a Precise B2B Prospect List",
+    excerpt:
+      "Most SDR teams use Sales Navigator like a filtered directory — industry, seniority, company size. Boolean search unlocks a level of targeting precision that generic filters can't match.",
+    readTime: "6 min read",
+    date: "24 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "Sales Navigator is the standard tool for B2B prospecting on LinkedIn — but most SDR teams use a small fraction of its capability. The common approach is to filter by industry, select a seniority level, pick a geography, and work through the resulting list. That gets you a list. It does not get you a precise list. The difference matters because the quality of the target list is one of the main determinants of outbound conversion rates. Time spent prospecting the wrong people is not just wasted time — it fills your activity metrics with noise while your actual pipeline sits flat.",
+      },
+      {
+        type: "paragraph",
+        text: "Boolean search is the technique that closes the gap between a list and a precise list. It applies the same logical operators used in database queries — AND, OR, NOT, and quotation marks — to LinkedIn's search fields. Used correctly, it lets you define exactly which job titles you want, exclude roles that superficially match but aren't your buyer, and surface prospects based on contextual signals in their profiles that standard filters don't capture. The technique requires a small amount of learning but produces a meaningfully different output to unstructured searching.",
+      },
+      {
+        type: "heading",
+        text: "What boolean operators do",
+      },
+      {
+        type: "paragraph",
+        text: "Boolean search uses four operators. AND requires both terms to appear — 'Head of Sales' AND 'SaaS' would only return results where both are present. OR expands the results to include either term — useful when your buyer has multiple common titles such as 'Sales Director' OR 'VP Sales' OR 'Head of Sales'. NOT excludes a term — 'Sales Director' NOT 'Regional' would exclude people whose title includes the word Regional. Quotation marks require an exact phrase match rather than proximity — 'VP of Sales' in quotes will only return that exact phrase, not profiles where VP and Sales appear separately in different parts of the profile.",
+      },
+      {
+        type: "paragraph",
+        text: "These operators can be combined, and parentheses control the order of logic. A search string like ('Head of Sales' OR 'VP Sales' OR 'Sales Director') NOT (Regional OR 'National Accounts' OR Interim) gives you a core commercial buyer set while excluding titles that signal the wrong scope or interim placements that aren't worth pursuing for a long-sales-cycle deal.",
+      },
+      {
+        type: "heading",
+        text: "Where to apply boolean search in Sales Navigator",
+      },
+      {
+        type: "list",
+        heading: "Sales Navigator has two main fields that accept boolean operators:",
+        items: [
+          "Keyword search: Searches across the entire LinkedIn profile — job title, summary, experience, skills, education. Use keyword search for contextual targeting: finding prospects who mention specific tools they use, initiatives they're running, or responsibilities that signal fit. A keyword search for 'Salesforce' AND 'SDR' in profiles might surface operations or enablement leaders who manage Salesforce for a sales development team.",
+          "Title search: Searches job titles only. Use this for targeting specific roles precisely. This is where the OR-based title variants and NOT-based exclusions are most effective, because you're matching against structured title fields rather than the full narrative text of a profile.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Building a boolean string for your ICP",
+      },
+      {
+        type: "paragraph",
+        text: "Start with your ideal buyer title, then map out every variant you realistically encounter. If you're selling to commercial leaders in SaaS companies, your core titles might include VP Sales, Head of Sales, Sales Director, Chief Revenue Officer, and VP Revenue. That's your OR chain. Next, identify what you want to exclude — titles that look similar but don't have buying authority or responsibility for what you're selling. Sales Enablement Manager might be close to your buyer in title terms but is a different role. Regional Sales Director operates at the wrong scope if you're selling at an enterprise or national level.",
+      },
+      {
+        type: "paragraph",
+        text: "The resulting string might look like: ('VP Sales' OR 'VP of Sales' OR 'Head of Sales' OR 'Sales Director' OR 'Chief Revenue Officer' OR 'CRO' OR 'VP Revenue') NOT (Regional OR Enablement OR 'National Accounts' OR Interim OR Associate). That string will produce a materially tighter list than filtering by Sales as a function at VP seniority level, which catches thousands of roles that don't match your actual buyer profile.",
+      },
+      {
+        type: "heading",
+        text: "Using keyword search for contextual targeting",
+      },
+      {
+        type: "paragraph",
+        text: "Title-based targeting finds people with the right role. Keyword-based targeting adds context — it surfaces people whose profile suggests they're currently dealing with the problem you solve, or using the adjacent tools your product connects with. If you're selling an outbound sales platform, a keyword search for 'outbound prospecting' or 'SDR team' or 'pipeline generation' across profiles will surface commercial leaders for whom this is a visible, named priority.",
+      },
+      {
+        type: "paragraph",
+        text: "Keyword search is noisier than title search and requires more evaluation of results — people mention things in their profiles that don't reflect current priorities, and not all profiles are equally complete. Use it to supplement title-based lists rather than replace them. The best use case is when you want to narrow a large title-based list by identifying the subset who are visibly engaged with the specific problem you're solving.",
+      },
+      {
+        type: "heading",
+        text: "Combining boolean search with Sales Navigator filters",
+      },
+      {
+        type: "paragraph",
+        text: "Boolean operators work alongside Sales Navigator's standard filters, not instead of them. Geography, company headcount, industry, and hiring activity are still applied through the filter interface — boolean operators apply to the search fields within that filtered universe. The right approach is to use filters to constrain the population (UK-based companies, 50-500 employees, SaaS industry) and then use boolean search within that population to find the right titles and profile signals. Stacking both correctly produces lists that are both constrained to the right companies and refined to the right people within those companies.",
+      },
+      {
+        type: "paragraph",
+        text: "One underused filter worth combining with boolean search is 'Changed jobs in the past 90 days.' New leaders are more likely to be evaluating vendors and open to building new relationships than incumbents who have established patterns. A boolean title search targeting your buyer profile filtered to recent job changes within your ICP criteria produces a list of people who are frequently in an active decision-making window.",
+      },
+      {
+        type: "heading",
+        text: "Saving searches and using alerts",
+      },
+      {
+        type: "paragraph",
+        text: "Sales Navigator allows you to save a search — including the boolean string and all applied filters — and configure it to alert you when new profiles match it. For SDR teams running sustained outbound, saved searches are the infrastructure behind consistent list refreshes. Rather than rebuilding the same search manually each week, a saved search surfaces net-new matches as people change jobs, update their profiles, or join companies that now meet your criteria.",
+      },
+      {
+        type: "paragraph",
+        text: "Account-level alerts are equally useful. Following a list of target accounts sends notifications for trigger events: leadership hires, company growth signals, and posts from key contacts. These alerts work best when the target account list is curated to genuine ICP fits rather than a broad sweep — a large account list produces alert noise rather than signal. Combining saved boolean searches with a curated account list creates a prospecting system that surfaces the right people at the right companies with minimal manual reconstruction each week.",
+      },
+      {
+        type: "callout",
+        text: "Boolean search in Sales Navigator is a small technical investment that produces a disproportionate return in list quality. The difference between a broad title filter and a well-constructed boolean string is not marginal — it's the difference between a list that requires heavy manual qualification and one that starts already qualified. Build the string once, refine it over a couple of iterations, save it, and let it run.",
+      },
+    ],
+  },
+  {
     slug: "b2b-cold-email-subject-lines-outreach",
     category: "Sales Development",
     title: "B2B Cold Email Subject Lines: The Craft Behind Getting the Open",
