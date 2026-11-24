@@ -27,6 +27,116 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-cold-email-subject-lines-outreach",
+    category: "Sales Development",
+    title: "B2B Cold Email Subject Lines: The Craft Behind Getting the Open",
+    excerpt:
+      "The subject line is the first qualifying decision a prospect makes about your cold email. Most SDRs treat it as an afterthought — here is how to treat it as a distinct skill.",
+    readTime: "8 min read",
+    date: "24 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "In a cold email sequence, every element matters — but nothing matters if the email doesn't get opened. The body, the offer, the call to action, the case study reference: all of it is irrelevant if the prospect filters the email out in the two seconds they spend scanning their inbox. Subject lines are the only thing that determines whether the rest of the email gets a chance.",
+      },
+      {
+        type: "paragraph",
+        text: "The common mistake is to treat subject lines as a final step — something written quickly once the email body is finished. But a good subject line requires a different kind of thinking than a good email body. The body persuades; the subject line earns the chance to persuade. These are different tasks, and conflating them produces subject lines that try to do both and succeed at neither.",
+      },
+      {
+        type: "heading",
+        text: "What the subject line actually needs to do",
+      },
+      {
+        type: "paragraph",
+        text: "The subject line has one job: earn the open. It doesn't need to explain what your company does, articulate your value proposition, or begin the sales conversation. Any information in a subject line that isn't serving the goal of getting the email opened is adding friction without adding value.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, that means a prospect's decision to open your email is made on three things: who sent it (sender name), what the subject line says, and what the preview text shows. On mobile — where a large share of business email is now read — these three elements often appear in a narrow band. The subject line that reads well on a desktop may be truncated to noise on a phone. Writing for mobile first is not a stylistic preference; it's a constraint that meaningfully shapes what a good subject line looks like.",
+      },
+      {
+        type: "heading",
+        text: "Five subject line patterns that work in B2B cold outreach",
+      },
+      {
+        type: "list",
+        heading: "These patterns consistently perform across B2B cold email contexts:",
+        items: [
+          "Direct company or role reference: 'Outbound at [Company]' or '[Company]'s pipeline.' Naming the prospect's company signals that the email was written for them specifically, not broadcast. Even if the email is part of a large sequence, the subject line should not read like it is.",
+          "Problem fragment: 'SDR meeting-to-pipeline conversion' or 'Cold outreach stalling at first call.' A short phrase that describes a problem the prospect recognises creates curiosity without overpromising. It doesn't say we solve this — it just surfaces the problem.",
+          "Genuine question: 'Who owns outbound at [Company]?' or 'Is [Company] running outbound right now?' A direct, answerable question is harder to ignore than a statement. The question should be one the prospect can actually answer, not a rhetorical device.",
+          "Signal or trigger reference: 'Congrats on the Series B' or 'Following your hire of a VP Sales.' Using a real, recent event at the company signals research and relevance. This requires that the event is real — a guessed trigger is worse than no trigger.",
+          "Re: (genuine): Using 'Re: [previous subject]' in a follow-up email is legitimate when there was an actual prior email in the thread. It is not legitimate to use it on a first email or on a cold follow-up where no reply was received. Deceptive familiarity is quickly identified by experienced buyers and damages trust before the email is even read.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Length, format, and the case for lowercase",
+      },
+      {
+        type: "paragraph",
+        text: "Short subject lines perform better in cold email contexts — not because of an arbitrary rule but because of what length signals. A long subject line reads as a marketing announcement; a short one reads as a one-to-one communication. 'Outbound at [Company]' reads like something a colleague might type. 'How [Your Company] Is Helping B2B Teams Like [Company] Generate More Pipeline In 2026' reads like a newsletter.",
+      },
+      {
+        type: "paragraph",
+        text: "The same logic applies to capitalisation. Subject lines written in title case — capitalising the first letter of most words — read like campaign emails or formal communications. Lowercase subject lines read like internal messages. For cold outreach, where the goal is to be treated as a person rather than a campaign, lowercase has a consistent advantage over title case. The exception is when you are referencing a proper noun, company name, or acronym — those should still be capitalised correctly.",
+      },
+      {
+        type: "paragraph",
+        text: "Avoid special characters, excessive punctuation, and emoji in cold email subject lines. These are not primarily a style issue — they affect deliverability. Many spam filters weight subject line formatting as a signal, and a subject line with multiple exclamation marks or currency symbols is more likely to be caught by filtering than one without. Even if the email lands in the inbox, heavy formatting signals bulk communication to a prospect who is trying to quickly decide whether to engage.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid in B2B cold email subject lines",
+      },
+      {
+        type: "list",
+        heading: "These patterns reliably underperform or cause damage in cold outreach:",
+        items: [
+          "Fake familiarity: 'Following up on our call' or 'As we discussed' when there was no call and no prior discussion. Experienced buyers see through this immediately, and it destroys trust before the email is read.",
+          "Vague intrigue: 'Quick question' or 'Thought this might interest you.' These were effective years ago and have been used so heavily that they now read as obvious template openers. They signal mass outreach rather than a relevant, specific message.",
+          "Value proposition in the subject line: 'Double your pipeline in 90 days' or 'Generate 20 qualified meetings per month.' Claims of this kind in a subject line are associated with unsolicited marketing emails in most buyers' mental models. The subject line is not the place to make promises — that belongs in the body.",
+          "ALL CAPS or excessive punctuation: Both are spam signals and read as shouting, neither of which helps cold outreach land as a professional communication.",
+          "Long, over-explained subjects: Anything over 60 characters is at risk of truncation on mobile. Anything over 80 characters is too long for most contexts. If a subject line requires complex explanation, the subject line is trying to do work that belongs in the body.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Adapting subject lines across a sequence",
+      },
+      {
+        type: "paragraph",
+        text: "A cold email sequence typically involves multiple touches over several weeks. Subject lines for different sequence positions serve different purposes and warrant different approaches. The first email calls for a subject line that signals relevance without trying to close — the prospect hasn't agreed to anything yet, and an over-selling subject line will kill the open before it's read.",
+      },
+      {
+        type: "paragraph",
+        text: "Follow-up emails can afford to reference the previous email directly, either by using the same thread and subject line ('Re: Outbound at [Company]') or by opening a new thread with a subject that acknowledges the lack of reply ('Still relevant?'). Later touches in a sequence can be more direct — 'Last note' or 'Closing your file' performs well as a final email subject because it signals finality, which creates genuine urgency without being manipulative.",
+      },
+      {
+        type: "paragraph",
+        text: "What to avoid across a sequence is repeating the exact same subject line on every follow-up without variation. If a prospect opened the first email and didn't reply, a different subject line in a follow-up at least ensures the email gets evaluated again on its merits. If they ignored the first subject line entirely, repeating it confirms that the email is part of a template sequence.",
+      },
+      {
+        type: "heading",
+        text: "Testing subject lines properly",
+      },
+      {
+        type: "paragraph",
+        text: "Most sales engagement platforms support A/B testing at the email level, which makes it possible to test subject line variants systematically. The key constraint is sample size: an A/B test run on 20 emails per variant produces directional information at best, not reliable conclusions. Meaningful subject line testing requires consistent conditions — same target segment, same sender, comparable time periods — and enough volume to distinguish performance differences from noise.",
+      },
+      {
+        type: "paragraph",
+        text: "What to test: direct vs indirect reference, with-name vs without-name, question vs statement, explicit vs implicit problem reference. What not to test simultaneously: changing the body of the email at the same time as the subject line confounds the results. If open rates change but reply rates change in the opposite direction, the problem may be in the email body rather than the subject line. Track both metrics together to interpret results accurately.",
+      },
+      {
+        type: "callout",
+        text: "A subject line's only job is to earn the open. It doesn't need to explain your product, demonstrate your value, or begin the sales conversation. Subject lines that try to do too much fail at the one task they exist to perform. Write for the two seconds a prospect spends before deciding — and leave everything else for the body.",
+      },
+    ],
+  },
+  {
     slug: "b2b-case-study-cold-outreach-social-proof",
     category: "Sales Development",
     title: "How to Deploy Case Studies in Cold Outreach: Turning Social Proof into Booked Meetings",
