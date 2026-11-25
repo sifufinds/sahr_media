@@ -27,6 +27,140 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-post-event-conference-follow-up-outreach",
+    category: "Sales Development",
+    title: "B2B Conference and Trade Show Follow-Up: Converting Event Conversations Into Qualified Meetings",
+    excerpt:
+      "Most trade show and conference conversations die in the follow-up — not because there was no interest, but because the outreach was too generic or arrived too late. Here is how to structure a follow-up sequence that converts event contacts into qualified meetings.",
+    readTime: "7 min read",
+    date: "25 Nov 2026",
+    color: "#10B981",
+    content: [
+      {
+        type: "paragraph",
+        text: "Events represent one of the highest-quality prospecting opportunities in B2B sales — you have a reason to reach out that is not cold, the prospect has already interacted with your brand in some form, and in many cases there was a specific conversation you can reference. Despite this, the majority of event contacts are never converted into qualified meetings. The bottleneck is almost always in the follow-up: too slow, too generic, or structured like a cold sequence rather than a continuation of an existing conversation.",
+      },
+      {
+        type: "paragraph",
+        text: "The difference between event follow-up that works and follow-up that gets ignored comes down to three variables: timing, specificity, and sequence design. Getting any one of these right reduces drop-off. Getting all three right consistently is what separates teams that treat events as a genuine pipeline channel from those who collect badge scans and never see a return.",
+      },
+      {
+        type: "heading",
+        text: "Why most event follow-up fails",
+      },
+      {
+        type: "paragraph",
+        text: "The most common failure mode is treating event contacts like cold leads. After a conference, SDR teams often upload badge scans into a sequence designed for cold outreach — generic value proposition, no reference to any specific conversation or context, and sent three to five days after the event when the prospect has already moved on. By that point the warm window has closed and the contact is effectively cold again, except the natural opening — the event itself — has been spent without producing any result.",
+      },
+      {
+        type: "paragraph",
+        text: "The second failure mode is over-referencing the event at the expense of the reason to meet. Some follow-up messages lean so heavily on 'great to meet you at [event name]' that they never articulate why a conversation is worth having. The event creates context — it does not substitute for a compelling reason to invest thirty minutes in a meeting. Both elements need to be present in the same message.",
+      },
+      {
+        type: "heading",
+        text: "The 48-hour window",
+      },
+      {
+        type: "paragraph",
+        text: "The first follow-up should go out within 48 hours of the event, ideally the same day or the following morning. Prospects recall the conversation and your brand most clearly in the immediate aftermath. After 72 hours, the specificity of the interaction begins to blur, and the opening line 'great to connect at [conference]' carries progressively less weight.",
+      },
+      {
+        type: "paragraph",
+        text: "For events that span multiple days, the right approach is to follow up with each contact at the end of each day rather than waiting until the event concludes. If you spoke with someone on day one of a three-day conference and follow up on day four, the practical effect is almost identical to cold outreach. Same-day or next-morning follow-up keeps the conversation continuous.",
+      },
+      {
+        type: "heading",
+        text: "Warm versus cold event contacts",
+      },
+      {
+        type: "paragraph",
+        text: "Not all event contacts are equally warm, and treating them identically loses precision. The most useful distinction is between three types: direct conversation contacts, stand or booth interactions, and badge scans or business card collects where no meaningful conversation took place.",
+      },
+      {
+        type: "list",
+        heading: "How to treat each type:",
+        items: [
+          "Direct conversation contacts — anyone you spoke with for more than a few minutes about their business or challenges. These warrant the most personalised follow-up, referencing specific details from the conversation. Even a single concrete detail — a challenge they mentioned, a competitor they referenced, a team initiative they described — raises reply rates significantly compared to a generic event opener.",
+          "Stand or booth interactions — shorter conversations where there was engagement but not depth. These can reference the event and a specific topic from the interaction, but should not over-claim on relationship. The outreach sits closer to semi-warm than fully personalised.",
+          "Badge scans or bulk contacts — names collected without any real conversation. These are effectively cold contacts with event context. They should be sequenced differently from genuine conversation contacts, with the event mentioned briefly but not leaned on as a relationship that does not yet exist.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Writing the follow-up message",
+      },
+      {
+        type: "paragraph",
+        text: "The structure of an effective event follow-up email differs from a standard cold email. The subject line can reference the event explicitly — event-referenced subjects create immediate context that generic lines do not. The follow-through in the body needs to justify the open. 'Following up from [event name]' works as a subject. 'Following up' on its own does not.",
+      },
+      {
+        type: "paragraph",
+        text: "The body should do three things: acknowledge the conversation specifically, connect one of their stated priorities or challenges to something you do, and ask for a clear next step. The acknowledgement should name something concrete — 'you mentioned your team was expanding into the mid-market in Q1' is far stronger than 'great to chat about sales challenges.' The connection should be brief and direct. The ask should be a specific meeting, not an open-ended 'let me know if you would like to talk.'",
+      },
+      {
+        type: "list",
+        heading: "Structure of a strong first event follow-up:",
+        items: [
+          "A subject line that references the event by name — short and specific",
+          "An opening sentence that names something from the actual conversation: a challenge, a team goal, a timeline they mentioned",
+          "One to two sentences connecting that specific point to what you do, without over-selling",
+          "A concrete ask — a specific time slot or calendar link, not an open-ended enquiry",
+          "Total length: two to three short paragraphs at most — the warmth of the event context does work that cold emails have to earn through length",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The sequence beyond the first message",
+      },
+      {
+        type: "paragraph",
+        text: "If the first message gets no response, the follow-up sequence should be tighter and shorter than a standard cold outreach cadence. Event contacts are warmer than cold prospects — they do not need eight to ten touches to establish credibility. A three-to-four touch sequence over ten to fourteen days is typically sufficient, after which the contact moves into a standard cold outreach track if there is still no reply.",
+      },
+      {
+        type: "list",
+        heading: "A practical event follow-up sequence:",
+        items: [
+          "Day 1 or 2: personalised email referencing the specific conversation",
+          "Day 4 or 5: a LinkedIn connection request or message — reference the event lightly, do not repeat the full pitch",
+          "Day 8 or 9: a second email taking a different angle — a piece of content relevant to something they mentioned, or a direct ask for a time",
+          "Day 13 or 14: a short closing message that leaves the door open without pressure — brief, clean, no urgency",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Phone calls fit within this sequence for contacts where you have a direct number, ideally on day two or three before the first email gets lost in the inbox. The call does not need to be a full pitch — referencing the event and asking whether the email arrived is a low-friction way to open a voice conversation.",
+      },
+      {
+        type: "heading",
+        text: "Qualifying event contacts with the same rigour as cold leads",
+      },
+      {
+        type: "paragraph",
+        text: "One practical risk in event follow-up is letting the warmth of the initial conversation override rigorous qualification. Teams sometimes book meetings from event contacts that would have been disqualified through cold outreach — wrong company size, no decision-making authority, no live pain — because the interpersonal rapport creates momentum toward booking regardless. The qualification criteria do not change because you have met someone in person. The first meeting should function as a qualifying conversation, not a relationship catch-up.",
+      },
+      {
+        type: "paragraph",
+        text: "The event conversation often gives you an earlier and richer signal of pain than a cold touch would. If the person mentioned a specific challenge or initiative, that is already a head start on qualification — you can probe more directly in the follow-up and reach a qualification decision faster than you would from a standing start. Use that advantage rather than treating the event meeting as qualification in itself.",
+      },
+      {
+        type: "heading",
+        text: "Construction versus SaaS events — what changes",
+      },
+      {
+        type: "paragraph",
+        text: "The mechanics of event follow-up are consistent across sectors, but timelines and relationship expectations differ between construction and SaaS. In SaaS, conference follow-up often moves quickly — a conversation at a tech conference can progress to a demo and a commercial discussion within two to three weeks. In construction, where buying cycles are longer and relationships develop over months, event follow-up plays a longer game. The goal from the first follow-up is often not an immediate meeting but continued visibility — a brief note, a relevant article, an introduction — with the meeting coming several weeks later when a relevant project or tender cycle appears.",
+      },
+      {
+        type: "paragraph",
+        text: "UK construction events run by industry bodies, regional networking groups, and sector exhibitions operate on different social norms from SaaS conferences. Following up within 48 hours remains appropriate, but the urgency of the ask should reflect the relationship stage. Pushing hard for a meeting the week after a first trade show conversation can read as overeager in a sector where introductions are expected to develop gradually before commercial discussions begin.",
+      },
+      {
+        type: "callout",
+        text: "Event follow-up is a distinct outbound discipline — not cold outreach and not account management, but a bridge between the two. The warm window is real but short. Personalisation needs to be specific rather than assumed. The sequence should be tighter than your cold cadence. Treat event contacts as a tier above cold prospects, give them the specificity that justifies that warmth, and qualify them with the same rigour you would apply to any other lead source.",
+      },
+    ],
+  },
+  {
     slug: "b2b-outbound-reporting-leadership-performance",
     category: "Sales Development",
     title: "B2B Outbound Reporting: Building the Performance Story for Leadership",
