@@ -27,6 +27,134 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "construction-repeat-business-account-development",
+    category: "Construction Marketing",
+    title: "How Construction Companies Win More Repeat Work From Existing Clients",
+    excerpt:
+      "Most construction companies win repeat business passively — they deliver well and hope to be called again. A simple account development process, built around existing client relationships, changes repeat business from something that occasionally happens to something you actively generate.",
+    readTime: "7 min read",
+    date: "25 Nov 2026",
+    color: "#F59E0B",
+    content: [
+      {
+        type: "paragraph",
+        text: "Many construction companies deliver excellent work and still find themselves going back to open tender each time. Repeat business does happen — but for most contractors it happens passively, when a satisfied client thinks to call rather than when the relationship has been actively maintained. The result is a pipeline that depends on timing and luck rather than on deliberate activity.",
+      },
+      {
+        type: "paragraph",
+        text: "The contractors who win repeat business consistently are rarely the best in their trade. They are the ones who treat client relationships as an ongoing sales discipline rather than something that ends at practical completion. The gap between finishing a project well and being first on the list for the next one is almost entirely a relationship management gap — and it is addressable.",
+      },
+      {
+        type: "heading",
+        text: "Why repeat business is structurally different from new business",
+      },
+      {
+        type: "paragraph",
+        text: "Winning work from an existing client is structurally easier than winning from a new one. The trust that takes months to establish in a new relationship already exists. Your team already understands the client's preferences, processes, and ways of working. Procurement is often faster and less adversarial — negotiated or selective tender processes are more common for contractors with a track record on-site.",
+      },
+      {
+        type: "paragraph",
+        text: "The challenge is that construction projects are often separated by long gaps — six months to two or three years between commissions is not unusual. Without deliberate contact during that interval, relationships erode, and by the time the client's next project moves forward, you are competing from the same standing as a contractor they have never met.",
+      },
+      {
+        type: "heading",
+        text: "The post-project review as a relationship conversation",
+      },
+      {
+        type: "paragraph",
+        text: "Most contractors hold a lessons-learned or post-project review meeting at or just after handover. This is almost always treated as a process exercise — what went well, what could have gone better, what to carry forward. That is a missed opportunity.",
+      },
+      {
+        type: "paragraph",
+        text: "Reframing the post-project review as a relationship conversation changes what comes out of it. Beyond the operational debrief, the right questions are: what is coming up next in the client's portfolio? What are they planning to build or refurbish in the next one to three years? Who else in the organisation is responsible for property or construction decisions? These questions are natural at the end of a successful project, and clients who have just had a good experience are more willing to share than they will be in six months when you are calling cold.",
+      },
+      {
+        type: "list",
+        heading: "Questions worth asking in a post-project review:",
+        items: [
+          "What is in your pipeline over the next 12-24 months — any sites or programmes already in planning?",
+          "Are there other divisions or regions within your organisation managing property or construction decisions?",
+          "Is there anything in our working relationship you would want to do differently on the next project?",
+          "Who else in your team should we have a relationship with for future work?",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Maintaining contact in the gap between projects",
+      },
+      {
+        type: "paragraph",
+        text: "The post-project review captures the moment. Maintaining the relationship over the months or years that follow requires a lightweight but consistent routine. The goal is not to generate leads from every touchpoint — it is to stay familiar enough that when the client's next project moves forward, your name is already in the room.",
+      },
+      {
+        type: "paragraph",
+        text: "The right cadence is usually quarterly contact, dropping to once or twice a year for lower-priority relationships. The form of contact matters less than the relevance — a brief note about a planning permission granted nearby, a case study from a project similar to theirs, an invitation to a site tour or CPD session, or a short call to stay up to date. Generic 'just checking in' messages carry little weight; a message that connects specifically to their business or portfolio does.",
+      },
+      {
+        type: "callout",
+        text: "The most common failure in construction account development is treating post-project contact as a client satisfaction exercise rather than a sales activity. Satisfaction surveys and NPS scores do not build the relationships that generate repeat commissions. Direct, relevant contact from a named account owner does.",
+      },
+      {
+        type: "heading",
+        text: "Identifying expansion opportunities within an existing client's portfolio",
+      },
+      {
+        type: "paragraph",
+        text: "Most clients do not brief a contractor on everything in their pipeline upfront — they give you one project, assess your performance, and then decide whether to bring you back. After a successful delivery, you have standing to ask about other sites, divisions, or upcoming programmes that you would not have on a first contact.",
+      },
+      {
+        type: "paragraph",
+        text: "Public sources also help here. Planning portals, company filings, press releases, and industry news can surface new projects before a brief is issued. If a client's parent company has applied for planning permission on a site in another region, that is an opening — you have a reason to reach out that is specific and timely, and an existing relationship that makes the conversation natural.",
+      },
+      {
+        type: "list",
+        heading: "Where to look for expansion signals in existing accounts:",
+        items: [
+          "Local planning authority portals — planning applications submitted by the client or their parent company",
+          "Companies House — subsidiary structures that may control other property assets",
+          "Client LinkedIn page and company news — announcements of new locations, expansions, or major investments",
+          "Construction trade press — development announcements, acquisition news, or funding rounds in relevant sectors",
+          "Direct conversation — asking at every touchpoint what else is coming up in their portfolio",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Who owns the relationship after handover",
+      },
+      {
+        type: "paragraph",
+        text: "One of the most common structural problems in construction business development is that the client relationship is owned by the project team during delivery and then becomes nobody's responsibility at handover. The project manager moves to the next job. The commercial director was involved in tendering but is not focused on account management. The relationships built during the project quietly lapse.",
+      },
+      {
+        type: "paragraph",
+        text: "The fix is to assign a named contact owner to every significant client relationship at handover — someone whose job it is to maintain contact over the following months and years. This does not require a dedicated account management function. It requires a decision: who is responsible for this relationship, what are they expected to do, and how often will they report on it.",
+      },
+      {
+        type: "heading",
+        text: "What a lightweight account development process looks like",
+      },
+      {
+        type: "paragraph",
+        text: "Account development in construction does not require complex CRM workflows or dedicated business development headcount. For most contractors, the core of a working system is simple: a named account owner per significant client, a record of key contacts and known upcoming projects, a quarterly review of active relationships, and a standing prompt to make contact before each review.",
+      },
+      {
+        type: "list",
+        heading: "The minimum viable account development process:",
+        items: [
+          "A named contact owner assigned to every live and recently completed client relationship",
+          "A simple record per client: key contacts, known upcoming projects, last contact date, next action",
+          "A quarterly account review — 30 minutes per senior account, 10 minutes per smaller relationship — to decide what activity is needed in the next 90 days",
+          "A post-project review meeting scheduled at practical completion, with business development questions alongside the operational debrief",
+          "An agreed contact cadence: at minimum quarterly for top-tier accounts, twice annually for mid-tier relationships",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "The barrier to doing this is rarely complexity — it is the habit of treating business development as something that only happens before a project is won rather than throughout the client relationship. Building even a minimal structure around existing accounts typically produces results within two to three quarters, because the relationship foundation is already there. The only thing missing is the deliberate activity to capitalise on it.",
+      },
+    ],
+  },
+  {
     slug: "b2b-post-event-conference-follow-up-outreach",
     category: "Sales Development",
     title: "B2B Conference and Trade Show Follow-Up: Converting Event Conversations Into Qualified Meetings",
