@@ -27,6 +27,112 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-ae-alignment-lead-rejection-pipeline-quality",
+    category: "Sales Development",
+    title: "Why Your AEs Keep Rejecting SDR Pipeline — and What It Usually Means",
+    excerpt:
+      "High lead rejection rates between SDRs and AEs are rarely a recruiting problem. They are almost always a process problem — and a solvable one once you understand what is actually driving the disconnect.",
+    readTime: "7 min read",
+    date: "28 Nov 2026",
+    color: "#8B5CF6",
+    content: [
+      {
+        type: "paragraph",
+        text: "In most outbound sales teams that have been running for more than six months, some version of the same conversation eventually surfaces. SDRs are booking meetings, hitting activity targets, and reaching their meeting quotas. But the pipeline that gets handed to AEs is not converting at the expected rate. AEs start complaining that the meetings are not qualified. SDRs push back, saying they are holding up their end. The sales leader is caught between two functions that are blaming each other, and no one has a clear view of where the problem actually is.",
+      },
+      {
+        type: "paragraph",
+        text: "This is one of the more common structural failure modes in outbound teams, and it tends to get misdiagnosed. The reflex is to treat it as a people problem — the SDRs are booking soft meetings, or the AEs have standards that are too high, or both teams are protecting their metrics. Sometimes that is true, but more often the root cause is a process problem: there is no agreed definition of what a qualified meeting looks like, the feedback loop between AEs and SDRs is too thin, and the rejection criteria are subjective rather than explicit.",
+      },
+      {
+        type: "heading",
+        text: "The incentive mismatch that makes conflict predictable",
+      },
+      {
+        type: "paragraph",
+        text: "SDRs are almost always measured on meetings booked. That is a reasonable proxy metric for outbound activity, but it creates a structural incentive to book meetings that look qualified rather than meetings that are qualified. The SDR who pushes a prospect through to a meeting on the strength of vague interest gets credit for a booked meeting whether or not the conversation produces any real pipeline. The SDR who declines to book a meeting because the prospect is not ready gets nothing — and in a team where activity volume is watched closely, that feels risky.",
+      },
+      {
+        type: "paragraph",
+        text: "AEs, by contrast, are measured on revenue. Their time is a finite resource and they allocate it toward opportunities that have a reasonable chance of closing. A meeting with a prospect who is not ready to buy, does not have budget, or does not have a clear problem worth solving is not just unproductive — it is an opportunity cost. When AEs have no mechanism to give SDRs feedback on lead quality, and no formal criteria for what warrants a rejection, they tend to rely on gut feel — which is inconsistently applied, opaque to SDRs, and difficult for a manager to review or challenge.",
+      },
+      {
+        type: "heading",
+        text: "What rejection rates are actually telling you",
+      },
+      {
+        type: "paragraph",
+        text: "The raw rejection rate — the proportion of SDR-sourced meetings that AEs decline to advance — is a useful diagnostic metric but a poor signal on its own. A high rejection rate could mean that SDRs are booking unqualified meetings, that AEs have set an unrealistically high bar, that the ICP definition is too broad, or that the handoff criteria are informal and unevenly applied. Without tracking what the rejections are for, the number itself does not tell you what to fix.",
+      },
+      {
+        type: "paragraph",
+        text: "The more informative metric is the rejection reason distribution. If a large share of rejections come in because the prospect had no immediate problem to solve, that points to a qualification conversation issue. If rejections are concentrated around budget or authority — the prospect is real but cannot actually make a decision — that points to a targeting or list quality issue. If rejections are sporadic and varied with no clear pattern, that is often a sign that there are no formal criteria at all and each AE is applying their own subjective standard.",
+      },
+      {
+        type: "heading",
+        text: "Building a shared qualification standard",
+      },
+      {
+        type: "paragraph",
+        text: "The most effective intervention is straightforward in principle and harder to execute than it sounds: get the SDR team and the AE team in the same room and agree on what a qualified meeting looks like. This is not a document the manager drafts and distributes. It is a collaborative negotiation between the two functions, with the output being a written set of criteria that both sides have agreed to — and both sides are accountable to.",
+      },
+      {
+        type: "list",
+        heading: "A workable set of handoff criteria typically covers:",
+        items: [
+          "Problem: the prospect has named a specific problem that your product or service is designed to solve, not expressed vague interest or a willingness to listen.",
+          "Authority: the prospect has either decision-making authority or confirmed involvement in the decision process — not just someone who agreed to take a call.",
+          "Timing: the prospect is evaluating solutions within a defined window, even if that window is six months away. 'Eventually maybe' does not count as a timing signal.",
+          "Fit: the prospect's company size, sector, or current situation is within the ICP as defined. Borderline accounts should be agreed in advance rather than left to individual SDR judgement.",
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Once these criteria are written down and agreed, they become the basis for every handoff decision and every rejection conversation. An AE who wants to reject a meeting must point to a specific criterion that was not met. An SDR who disputes a rejection can challenge whether that criterion was actually absent. The manager's job shifts from refereeing an argument between two functions to auditing whether the agreed standard is being applied consistently.",
+      },
+      {
+        type: "heading",
+        text: "The feedback mechanism that makes the standard work in practice",
+      },
+      {
+        type: "paragraph",
+        text: "Agreed criteria are only useful if the feedback loop between AEs and SDRs operates at a cadence that allows SDRs to adjust. If an SDR books a meeting that gets rejected, the value of that rejection depends entirely on whether the AE can articulate what was missing and how the SDR's approach should change. A rejection with no feedback is not useful data — it tells the SDR that the AE was unhappy but nothing about how to do better.",
+      },
+      {
+        type: "paragraph",
+        text: "In practice, this means AE feedback on rejections needs to be captured somewhere visible — a CRM rejection reason field, a shared log, or a brief written comment — not communicated verbally in the moment and then lost. SDR managers should review rejection reasons as a standing item in their weekly routine, looking for patterns that indicate systemic issues rather than one-off mismatches. A single SDR getting consistent rejections from one AE around the same criterion is a coaching conversation. Multiple SDRs getting rejections from multiple AEs around the same criterion is a list or messaging problem.",
+      },
+      {
+        type: "callout",
+        text: "Some tension between SDRs and AEs is structural and will not fully resolve — their incentives are genuinely different. The goal is not to eliminate the tension but to give it a productive channel: clear shared criteria, a consistent feedback mechanism, and a manager who is monitoring the data rather than managing perception. Teams that handle this well tend to find that pipeline quality improves not because individual behaviour changes overnight, but because both sides have a framework for the conversation rather than a recurring argument.",
+      },
+      {
+        type: "heading",
+        text: "When to escalate versus when it is a training issue",
+      },
+      {
+        type: "paragraph",
+        text: "Not every rejection rate problem requires management escalation. Some patterns are addressable at the SDR manager level through individual coaching — a specific SDR consistently booking borderline-fit accounts, or struggling with authority qualification in discovery conversations. These are training and calibration issues that the SDR manager should handle directly, with the AE's input, without involving the sales leader unless the pattern persists after coaching.",
+      },
+      {
+        type: "paragraph",
+        text: "Escalation becomes appropriate when the problem is structural rather than individual: when rejection rates are high across the whole SDR team (suggesting ICP or messaging issues); when a specific AE is rejecting most of their SDR-sourced pipeline at a materially higher rate than their peers (suggesting either an outlier standard or a relationship problem); or when there is no agreement on shared criteria after a genuine effort to establish one. At that point, the conversation is no longer about coaching — it is about sales leadership making a call on how the two functions are structured.",
+      },
+      {
+        type: "heading",
+        text: "CRM discipline as the foundation",
+      },
+      {
+        type: "paragraph",
+        text: "The practical weakness in most outbound teams is that the data needed to diagnose and manage the SDR-AE relationship does not exist in a usable form. Rejection reasons are communicated verbally, not logged. Handoff criteria exist informally in the SDR manager's head rather than as enforced CRM fields. Pipeline status after handoff is tracked at an aggregate level but not broken down by SDR origin or rejection type.",
+      },
+      {
+        type: "paragraph",
+        text: "The teams that manage this dynamic most effectively tend to invest in CRM discipline before it becomes a problem: standardised handoff fields that SDRs complete before passing a meeting, mandatory rejection reason fields that AEs complete before closing out a lead, and a reporting view that the SDR manager reviews weekly. This is not a complex technical implementation — it is a process decision about what information needs to be captured and by whom. Getting the data right does not solve the alignment problem on its own, but it makes the problem visible and manageable rather than a matter of competing anecdotes.",
+      },
+    ],
+  },
+  {
     slug: "b2b-service-business-cold-outreach-agency-consultancy",
     category: "Sales Development",
     title: "Cold Outreach for Service Businesses: Why the SaaS Playbook Does Not Transfer Directly",
