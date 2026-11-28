@@ -27,6 +27,126 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-sdr-manager-weekly-rhythm-team-cadence",
+    category: "Sales Development",
+    title: "The SDR Manager's Weekly Rhythm: How to Run a B2B Outbound Team Without Constant Micromanagement",
+    excerpt:
+      "Most SDR managers default to ad-hoc oversight — checking in when numbers slip, stepping back when they're running. A consistent weekly rhythm replaces reactive management with structured cadence and produces more predictable output from the same team.",
+    readTime: "7 min read",
+    date: "28 Nov 2026",
+    color: "#6366F1",
+    content: [
+      {
+        type: "paragraph",
+        text: "SDR management is unusual because the work is highly visible — activity logs, call recordings, email metrics, and booked meetings are all measurable in near-real time. That visibility creates a temptation to manage reactively: check dashboards when something looks wrong, intervene when numbers drop, leave the team alone when things appear on track. It is a reasonable impulse, but it produces inconsistent results.",
+      },
+      {
+        type: "paragraph",
+        text: "SDRs are early-career sellers doing a high-volume, repetitive job with a high rejection rate. The ones who perform best tend to have managers who create structure rather than ones who leave them alone between performance problems. That structure does not mean micromanagement — it means a predictable weekly rhythm that keeps the team aligned, surfaces blockers early, and makes performance visible before it becomes a problem.",
+      },
+      {
+        type: "heading",
+        text: "What a weekly rhythm actually solves",
+      },
+      {
+        type: "paragraph",
+        text: "Without a consistent management cadence, three things tend to go wrong. First, SDRs self-manage in ways that suit their preferences rather than the team's priorities — the ones who enjoy calls spend more time calling, the ones who prefer writing spend more time on email, and nobody is surfacing the drift. Second, blockers stay hidden until they show up in pipeline data. An SDR who cannot get a reply from a key account because of a deliverability issue, a territory overlap, or a messaging fit problem will often work around it quietly rather than escalating. Third, the manager's time gets eaten by reactive interruptions — Slack messages, hallway questions, ad-hoc reviews — in a way that is harder to manage than a structured schedule.",
+      },
+      {
+        type: "paragraph",
+        text: "A weekly rhythm does not eliminate these problems entirely, but it creates the right conditions to surface them early. The goal is not to add meeting load — it is to replace informal, ad-hoc management time with structured time that is predictable for everyone.",
+      },
+      {
+        type: "heading",
+        text: "The weekly team standup",
+      },
+      {
+        type: "paragraph",
+        text: "A daily team standup is the right format for a small SDR team of two to four. For larger teams, a Monday kickoff and Friday wrap tend to work better — the daily format becomes noise when activity logs are already providing visibility. The Monday session should take no longer than 15 minutes and cover three things: what the team is focused on this week, any changes to messaging, targeting, or the product that the team needs to know about, and anything blocking outreach that the manager can resolve. It is not a performance review and not a coaching session — both of those happen elsewhere.",
+      },
+      {
+        type: "paragraph",
+        text: "The Friday session, when you run one, is a brief close of the week: what got booked, what is live in the pipeline, and anything being handed off to AEs or carried forward. Keeping it short prevents it from becoming a morale drain at the end of the week. If numbers were poor, the Friday meeting is not the place to process that — the weekly 1:1 is.",
+      },
+      {
+        type: "heading",
+        text: "Weekly 1:1s: pipeline check, not coaching",
+      },
+      {
+        type: "paragraph",
+        text: "The weekly 1:1 and the coaching 1:1 serve different purposes and should be treated as separate conversations, even if they happen in the same meeting slot. The weekly 1:1 is primarily a pipeline and blocker review. What is live, what is stalled, what does the SDR need from the manager or other parts of the business to advance it. It is functional rather than developmental — a 15 to 20 minute conversation rather than a 45 minute coaching session.",
+      },
+      {
+        type: "paragraph",
+        text: "Keeping weekly 1:1s focused on pipeline and blockers has a secondary benefit: it trains SDRs to come prepared with specifics. If the expectation is that every 1:1 starts with the SDR walking through their active prospects and outstanding actions, they begin to self-prepare in a way that improves their own pipeline management. The manager's role is to remove blockers, give directional feedback on specific accounts, and flag anything that looks off — not to audit every activity from the week.",
+      },
+      {
+        type: "heading",
+        text: "Weekly metrics review: what to look at and when",
+      },
+      {
+        type: "paragraph",
+        text: "SDR metrics split into three layers: activity (calls, emails, LinkedIn touches), output (conversations, positive responses, follow-up scheduled), and pipeline (meetings booked, meetings held, opportunities created). Activity metrics are the leading indicator — they tell you what will happen in two to three weeks. Output metrics tell you whether the activity is converting. Pipeline metrics are the lagging result.",
+      },
+      {
+        type: "paragraph",
+        text: "A weekly metrics review should focus on activity and output — pipeline reviews happen at a different cadence, usually weekly for the manager's own visibility and monthly or quarterly with leadership. If a rep's activity is high but output is low, the problem is usually messaging or targeting. If activity is low, the problem is prioritisation or time management. Separating these layers prevents the common mistake of treating a pipeline gap as a motivation problem when the actual issue is a conversion problem two steps earlier.",
+      },
+      {
+        type: "list",
+        heading: "Metrics worth reviewing weekly:",
+        items: [
+          "Outbound activity by channel — calls attempted, emails sent, LinkedIn touches — per rep and as a team total",
+          "Connect rate and conversation rate on cold calls",
+          "Email reply rate and positive response rate",
+          "Meetings booked versus target, broken down by SDR",
+          "Meeting held rate — how many booked meetings actually occur",
+          "Active prospects in sequence versus target account coverage",
+        ],
+      },
+      {
+        type: "heading",
+        text: "Keeping the week from collapsing into Slack",
+      },
+      {
+        type: "paragraph",
+        text: "One sign that a weekly rhythm is not working is when management happens primarily through real-time messages — questions, quick approvals, pipeline updates, and performance commentary scattered across the week in a way that is hard to track and impossible to act on systematically. The antidote is a shared dashboard that answers routine questions without requiring a conversation, and a clear expectation about which questions get held for the weekly 1:1.",
+      },
+      {
+        type: "paragraph",
+        text: "A shared activity and pipeline dashboard — basic even if it is a spreadsheet updated at the end of each day — means the manager does not need to ask where numbers are, and SDRs are not waiting to find out if they are on track. It also makes the Monday or Friday team sessions more focused: everyone can see the same data, so the conversation goes straight to interpretation and action rather than to reporting.",
+      },
+      {
+        type: "callout",
+        text: "The weekly rhythm does not need to be elaborate. For a team of four SDRs, the minimum viable structure is a Monday team standup (15 minutes), four weekly 1:1s of 20 minutes each, a shared activity dashboard, and a Friday metrics check that takes the manager 10 minutes at a desk. That is roughly three hours of structured management time per week — replacing an unpredictable mix of reactive conversations that typically takes longer and surfaces problems later.",
+      },
+      {
+        type: "heading",
+        text: "Scaling the rhythm: small teams versus larger ones",
+      },
+      {
+        type: "paragraph",
+        text: "A team of two or three SDRs can run a simple version of this rhythm with no additional infrastructure. The manager attends most calls, is close to every prospect, and can maintain weekly 1:1s and standups without much overhead. As the team grows to eight or ten, the rhythm needs to adapt. Weekly 1:1s become more structured and time-boxed because there are more of them. The Monday standup becomes more important as the manager has less real-time visibility into each rep's activity. A monthly or bi-weekly coaching session becomes a distinct conversation from the weekly check-in, because coaching every SDR weekly at scale is not feasible.",
+      },
+      {
+        type: "paragraph",
+        text: "SDR managers who have only managed small teams sometimes underestimate how much of their informal visibility disappears when the team doubles. The weekly rhythm compensates for that loss. It is not a bureaucratic addition — it is the structure that makes it possible to manage a team of eight with the same quality of oversight that was natural with a team of three.",
+      },
+      {
+        type: "heading",
+        text: "What consistency from the manager produces in the team",
+      },
+      {
+        type: "paragraph",
+        text: "SDR performance is partly a function of the individual's skill and work ethic, and partly a function of the environment the manager creates. A team where every Monday starts the same way, where 1:1s happen on schedule and cover the same ground, and where metrics are visible and discussed regularly, tends to produce more consistent output than one where management cadence is unpredictable. SDRs calibrate their own work rhythm to the structure around them — a manager who is inconsistent creates permission for inconsistency in the team.",
+      },
+      {
+        type: "paragraph",
+        text: "The rhythm is also a form of accountability that does not feel adversarial. When pipeline and activity are reviewed every week as a matter of course, performance conversations happen earlier and with less weight. A rep who is off track learns about it at the weekly 1:1 rather than in a formal review meeting. That earlier signal is better for the rep, better for the manager, and better for the pipeline.",
+      },
+    ],
+  },
+  {
     slug: "construction-repeat-business-account-development",
     category: "Construction Marketing",
     title: "How Construction Companies Win More Repeat Work From Existing Clients",
