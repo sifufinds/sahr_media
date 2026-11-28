@@ -27,6 +27,126 @@ function parsePostDate(date: string): number {
 
 const rawPosts: BlogPost[] = [
   {
+    slug: "b2b-service-business-cold-outreach-agency-consultancy",
+    category: "Sales Development",
+    title: "Cold Outreach for Service Businesses: Why the SaaS Playbook Does Not Transfer Directly",
+    excerpt:
+      "Most cold outreach frameworks were written for software products. Agencies, consultancies, and managed service providers face different objections, different buying triggers, and a fundamentally different proof problem. Here is how to adapt.",
+    readTime: "7 min read",
+    date: "28 Nov 2026",
+    color: "#2563EB",
+    content: [
+      {
+        type: "paragraph",
+        text: "Most cold outreach best practices have been written from a software product perspective. Demo calls, free trials, ROI calculators, usage metrics — all of these assume a product that can be evaluated independently before commitment. Service businesses — agencies, consultancies, managed service providers, outsourced teams — do not have that luxury, and borrowing the SaaS playbook without adaptation tends to produce underwhelming results.",
+      },
+      {
+        type: "paragraph",
+        text: "The practical consequences show up in predictable ways. Cold email sequences built around software assumptions produce meetings that feel misaligned, discovery calls that go in circles, and proposals that land too early or too late in the buyer's thinking. The underlying dynamics of selling a service are different enough that adapting deliberately — rather than applying a SaaS template — consistently produces better outcomes.",
+      },
+      {
+        type: "heading",
+        text: "The core difference: software can be trialled, services have to be trusted",
+      },
+      {
+        type: "paragraph",
+        text: "When selling software, a prospect can self-evaluate. They can run a pilot, check a review platform, ask peers in a community whether anyone has used the tool. The product speaks for itself, at least partially. With a service, the entire evaluation is based on inference — inferring quality from your team's credentials, previous work, process, and how you present yourself. There is no product to trial.",
+      },
+      {
+        type: "paragraph",
+        text: "This changes what your prospect needs to feel comfortable moving forward. With software, momentum comes from reducing friction to evaluation — a demo, a trial, a sandbox environment. With services, momentum comes from reducing uncertainty about quality and fit. These require different things from a first touch, a first meeting, and a first proposal.",
+      },
+      {
+        type: "heading",
+        text: "Why the demo meeting format is the wrong CTA for most service businesses",
+      },
+      {
+        type: "paragraph",
+        text: "The book-a-demo call to action works for software because there is a standard demonstration that reduces uncertainty in a predictable way. For services, the equivalent meeting — a discovery call or introductory conversation — is different in character. It is a discussion, not a demonstration. When a service business frames its outreach around a broad invitation to meet with no specific agenda, it creates an asymmetric situation: the prospect has to give time without knowing what they will get in return.",
+      },
+      {
+        type: "paragraph",
+        text: "More effective framings tend to be diagnostic in structure: a brief review of the prospect's current approach in a specific area, or a focused question that the meeting will answer. These frames position the first meeting as useful to the prospect rather than as a sales call. They also create a natural conversation structure — the meeting is about the prospect's situation first, and your capability only becomes relevant once you have understood what they are trying to solve.",
+      },
+      {
+        type: "heading",
+        text: "What to put in your cold email instead of feature bullets",
+      },
+      {
+        type: "paragraph",
+        text: "Cold emails for software products often lead with capability — the product does X, Y, and Z — because those features map to problems the prospect recognises. Service businesses frequently try to replicate this by listing the components of their service: strategy, delivery, reporting, account management. That structure rarely works, because a list of service components does not tell the prospect whether the service is relevant to their situation.",
+      },
+      {
+        type: "list",
+        heading: "What tends to work better:",
+        items: [
+          "Lead with the problem, not the service. Opening with a specific problem common to the prospect's role or sector starts a conversation about their situation rather than your offering.",
+          "Name specific outcomes for comparable clients, not general capabilities. Referencing what you have achieved for a similar type of company is more credible than a broad service description.",
+          "Choose a low-commitment call to action. Asking whether a short call would be worth their time — framed as conditional on fit — creates less friction than a generic meeting request.",
+          "Include one brief signal of domain credibility. A single reference to a relevant client type, sector, or industry-specific challenge reduces the who-is-this question that prospects ask themselves when receiving unsolicited outreach.",
+        ],
+      },
+      {
+        type: "heading",
+        text: "The qualification conversation for service businesses",
+      },
+      {
+        type: "paragraph",
+        text: "When SDRs from software companies run early-stage calls, the job is typically to uncover the problem, establish whether the product is relevant, and progress to a demonstration. For service businesses, the qualifying conversation has to cover more ground: scope, budget, decision process, timing, internal bandwidth, and whether the prospect is actually ready to work with an external partner rather than building the capability in-house.",
+      },
+      {
+        type: "paragraph",
+        text: "Service buyers are also typically more cautious about commitment than software buyers. A software product can be cancelled with a month's notice; a service relationship involves more investment, is harder to exit, and tends to be more visible internally as a decision. This means the trust-building work that software companies spread across a product evaluation often needs to happen within the conversation cycle for a service business, putting more pressure on the quality of early-stage discovery.",
+      },
+      {
+        type: "paragraph",
+        text: "One practical implication: service business SDRs need to qualify harder on readiness before passing a prospect to a proposal stage. The equivalent of demo-qualified for a service business is a prospect who has identified a clear problem, is actively seeking a solution rather than casually exploring, has the budget and authority to make a decision, and is open to working with an external partner rather than resolving the problem in-house.",
+      },
+      {
+        type: "heading",
+        text: "What to avoid when adapting SaaS outreach for a service context",
+      },
+      {
+        type: "list",
+        heading: "Common mistakes when borrowing from SaaS cold outreach frameworks:",
+        items: [
+          "Trying to explain the full scope of the service in a cold email. Services are complex; attempting to explain them fully creates long, information-dense messages that prospects do not read.",
+          "Leading with process rather than outcomes. Prospects do not care how you deliver until they care whether the outcome is relevant to their situation.",
+          "Treating the first meeting as a pitch rather than a discovery. Service buyers expect to do more talking in the first meeting. Arriving with a prepared presentation before understanding the prospect's situation reads as generic and tone-deaf.",
+          "Offering a free version of the service to reduce friction. Free audits and strategy sessions can attract tyre-kickers rather than qualified buyers unless they are tightly scoped and offered only to prospects who already meet basic qualification criteria.",
+        ],
+      },
+      {
+        type: "callout",
+        text: "Service business SDRs often operate with longer nurture cycles and more complex qualification conversations than their counterparts in software product companies. A service business that expects SaaS-level outbound volume from its SDR team without adjusting its qualification criteria tends to find that booked meetings fail to convert at the expected rate — not because the outreach is not working, but because the meeting structure and qualification bar have not been adapted to the service context.",
+      },
+      {
+        type: "heading",
+        text: "Volume versus quality: how the balance shifts for service outbound",
+      },
+      {
+        type: "paragraph",
+        text: "One of the clearest differences between SaaS and service outbound is how the volume-quality trade-off plays out. High-velocity SaaS outbound — large lists, automated sequencing, volume as the leading metric — works partly because the product demonstration does heavy lifting in the conversion process. For a service business, the conversion work has to happen through conversation, which is less scalable and more dependent on the quality of initial qualification.",
+      },
+      {
+        type: "paragraph",
+        text: "Practically, this means investing more in message quality and list accuracy than a comparable SaaS outreach programme. A tightly qualified list of target accounts with well-researched, highly relevant outreach tends to outperform a broader list with generic sequencing — which is essentially the reverse of the dynamics that work for high-velocity software outbound. The metrics that signal a healthy service outbound programme also look different: reply rate and meeting-to-proposal conversion matter more than raw activity volume.",
+      },
+      {
+        type: "heading",
+        text: "Using outreach quality as a proof of capability",
+      },
+      {
+        type: "paragraph",
+        text: "One advantage service businesses have over product companies is that the outreach itself can signal the quality of the work. How your SDR writes — the precision of their industry references, the relevance of their problem framing, the absence of generic filler — tells the prospect something about how the company thinks and operates. This signal is unavailable to software companies in the same way.",
+      },
+      {
+        type: "paragraph",
+        text: "Taken seriously, this means cold outreach for a service business should be treated as a sample of your work. An email that is sloppy, generic, or poorly researched signals something specific about the quality of delivery a prospect can expect. An email that is tight, specific, and demonstrates genuine knowledge of the prospect's context signals the opposite. For service businesses, the bar for outreach quality is higher than for product companies — and that higher standard, consistently applied, is itself a form of competitive differentiation.",
+      },
+    ],
+  },
+  {
     slug: "b2b-sdr-manager-weekly-rhythm-team-cadence",
     category: "Sales Development",
     title: "The SDR Manager's Weekly Rhythm: How to Run a B2B Outbound Team Without Constant Micromanagement",
